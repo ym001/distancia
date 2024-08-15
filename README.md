@@ -118,6 +118,7 @@ distancia includes the following distance metrics (and more):
 And many more...
 Contributing
 Contributions are welcome! If you'd like to contribute to Distancia, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
 **The docs**
 
 [distancia on readthedoc](https://distancia.readthedocs.io/en/latest/)
