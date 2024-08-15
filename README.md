@@ -21,7 +21,7 @@ pip install distancia
 ```
 
 **Usage**
-Below are some examples of how to use the Distancer package to calculate various distance metrics.
+Below are some examples of how to use the distancia package to calculate various distance metrics.
 
 **Example 1:** Calculating Euclidean Distance
 
