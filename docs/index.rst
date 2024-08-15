@@ -18,7 +18,7 @@ Welcome to distancia's documentation!
 
 
 Contents
-========
+--------
 
 The documentation is divided into the following sections:
 
@@ -33,7 +33,7 @@ The documentation is divided into the following sections:
    Changelog
 
 Getting Started
-===============
+---------------
 
 distancia is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancer provides the tools you need to measure the similarity or dissimilarity between objects.
 
@@ -44,7 +44,7 @@ For a quick introduction, check out the :doc:`quickstart` guide. If you want to 
    If you find any issues or have suggestions for improvements, feel free to contribute! See the :doc:`contributing` section for more details.
 
 Installation
-============
+------------
 
 To install distancia, simply use pip:
 
@@ -55,7 +55,7 @@ To install distancia, simply use pip:
 For more detailed instructions and additional options, see the :doc:`installation` section.
 
 Quickstart
-==========
+----------
 
 Here are some common examples of how to use distancia:
 
@@ -86,7 +86,7 @@ Here are some common examples of how to use distancia:
 For more examples, refer to the :doc:`quickstart` guide.
 
 Available Metrics
-=================
+-----------------
 
 .. toctree::
    :maxdepth: 1
@@ -121,17 +121,17 @@ Available Metrics
 For a complete list and detailed explanations of each metric, see the :doc:`metrics` section.
 
 Contributing
-============
+------------
 
 We welcome contributions! If you would like to contribute to distancia, please read the :doc:`contributing` guide to get started. We appreciate your help in making this project better.
 
 Changelog
-=========
+---------
 
 Stay up-to-date with the latest changes and improvements in distancia by reading the :doc:`changelog`.
 
 Link
-====
+----
 
 .. toctree::
    :maxdepth: 2
@@ -148,7 +148,7 @@ Link
 
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
