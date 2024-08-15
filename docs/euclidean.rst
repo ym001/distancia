@@ -9,10 +9,8 @@ Euclidean Distance
 
 Definition
 ----------
-
-:math:`A_\text{c} = (\pi/4) d^2`.
  
-The Euclidean distance between two points :math:`\mathbf{p}`  and :math:`\mathbf{q}`  in :math:` n`-dimensional space is defined as:
+The Euclidean distance between two points :math:`\mathbf{p}`  and :math:`\mathbf{q}`  in :math:`n`-dimensional space is defined as:
 
 .. math::
 
@@ -20,11 +18,11 @@ The Euclidean distance between two points :math:`\mathbf{p}`  and :math:`\mathbf
 
 Where:
 
-* :math:`\mathbf{p} = (p_1, p_2, \\dots, p_n) ` is the first point.
+* :math:`\mathbf{p} = (p_1, p_2, \\dots, p_n)` is the first point.
 
-* :math:`\mathbf{q} = (q_1, q_2, \\dots, q_n) ` is the second point.
+* :math:`\mathbf{q} = (q_1, q_2, \\dots, q_n)` is the second point.
 
-* :math:` n ` is the number of dimensions.
+* :math:`n` is the number of dimensions.
 
 History
 -------
