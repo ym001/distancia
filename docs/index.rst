@@ -16,6 +16,15 @@ Welcome to distancia's documentation!
 
    The code examples provided in this documentation are written for Python 3.x.
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+
+   Installation
+   Quickstart
+   Available Metrics
+   Contributing
+   Changelog
 
 Contents
 --------
