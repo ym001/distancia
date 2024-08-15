@@ -91,8 +91,7 @@ Available Metrics
 
 distancia includes a wide array of distance metrics. Below are some of the key metrics available:
 
-- Euclidean Distance * :ref:`euclidean`
-
+- Euclidean Distance 
 - Manhattan Distance
 - Cosine Similarity
 - Hamming Distance
@@ -129,22 +128,14 @@ Changelog
 
 Stay up-to-date with the latest changes and improvements in distancia by reading the :doc:`changelog`.
 
-Classes
-=======
+Distance
+========
 
 .. toctree::
    :maxdepth: 2
 
    euclidean
-   Augmentation
-   Classification
-   Dataset
-   Generation
-   Model
-   Preprocess
-   Statistic
-   Task
-   Visualisation
+    
 
 
 Link
@@ -153,19 +144,16 @@ Link
 .. toctree::
    :maxdepth: 2
 
-   Notebooks<https://github.com/ym001/Manteia/tree/master/notebook>
-   Exemples<https://github.com/ym001/Manteia/tree/master/Exemples>
-   help
-   Pypi<https://pypi.org/project/Manteia/>
-   Source<https://github.com/ym001/Manteia>
-   Documentation<https://manteia.readthedocs.io/en/latest/#>
-   license
+   Exemples<https://github.com/ym001/distancia/src/exemple.py>
+   Pypi<https://pypi.org/project/distancia/>
+   Source<https://github.com/ym001/distancia>
+   Documentation<https://distancia.readthedocs.io/en/latest/>
+   license<https://github.com/ym001/distancia/LICENSE>
 
 
 .. toctree::
    :maxdepth: 1
 
-   license
 
 Indices and tables
 ==================
