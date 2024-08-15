@@ -21,13 +21,18 @@ Welcome to distancia's documentation!
 Contents
 --------
 
-.. contents:: Table of Contents
-   :depth: 2
-   :local:
-   :backlinks: none
-
-
 The documentation is divided into the following sections:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents
+
+   installation
+   quickstart
+   metrics
+   api
+   contributing
+   changelog
 
 Getting Started
 ---------------
