@@ -9,8 +9,13 @@ Euclidean Distance
 
 Definition
 ----------
+role:: raw-latex(raw)
+    :format: latex
+Then you can use that role in your text
 
-The Euclidean distance between two points \\( \mathbf{p} \\) and \\( \mathbf{q} \\) in \\( n \\)-dimensional space is defined as:
+The area of a circle is :raw-latex:`$\pi r^2$`
+
+The Euclidean distance between two points $$ \\mathbf{p} $$ and $$ \\mathbf{q} $$ in $$ n $$-dimensional space is defined as:
 
 .. math::
 
@@ -20,9 +25,9 @@ Where:
 
 * $$ \\mathbf{p} = (p_1, p_2, \\dots, p_n) $$ is the first point.
 
-* \( \mathbf{q} = (q_1, q_2, \dots, q_n) \) is the second point.
+* $$ \\mathbf{q} = (q_1, q_2, \\dots, q_n) $$ is the second point.
 
-* \( n \) is the number of dimensions.
+* $$ n $$ is the number of dimensions.
 
 History
 -------
