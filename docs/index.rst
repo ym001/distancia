@@ -90,13 +90,12 @@ Available Metrics
 ========
 
 .. toctree::
-   :maxdepth: 2
-
-   euclidean
+   :maxdepth: 1
 
 distancia includes a wide array of distance metrics. Below are some of the key metrics available:
 
-- Euclidean Distance 
+   euclidean
+
 - Manhattan Distance
 - Cosine Similarity
 - Hamming Distance
