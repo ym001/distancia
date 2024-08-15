@@ -16,6 +16,11 @@ Welcome to distancia's documentation!
 
    The code examples provided in this documentation are written for Python 3.x.
 
+
+
+Contents
+--------
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents
@@ -26,14 +31,7 @@ Welcome to distancia's documentation!
    contributing
    changelog
 
-Contents
---------
-
 The documentation is divided into the following sections:
-
-.. contents::
-   :local:
-   :depth: 2
 
 Getting Started
 ---------------
