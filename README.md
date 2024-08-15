@@ -56,7 +56,7 @@ print(f"Levenshtein Distance: {distance}")
 Available Metrics
 Distancia includes the following distance metrics (and more):
 
-Euclidean
+* Euclidean
 Minkowski
 Hamming
 Cosine_Similarity 
