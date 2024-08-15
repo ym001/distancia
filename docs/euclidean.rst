@@ -10,15 +10,9 @@ Euclidean Distance
 Definition
 ----------
 
-role:: raw-latex(raw)
-    :format: latex
-Then you can use that role in your text
-
-The area of a circle is :raw-latex:`$\pi r^2$`
-
-The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
+:math:`A_\text{c} = (\pi/4) d^2`.
  
-The Euclidean distance between two points $$ \\mathbf{p} $$ and $$ \\mathbf{q} $$ in $$ n $$-dimensional space is defined as:
+The Euclidean distance between two points :math:`\mathbf{p}`  and :math:`\mathbf{q}`  in :math:` n`-dimensional space is defined as:
 
 .. math::
 
@@ -26,11 +20,11 @@ The Euclidean distance between two points $$ \\mathbf{p} $$ and $$ \\mathbf{q} $
 
 Where:
 
-* $$ \\mathbf{p} = (p_1, p_2, \\dots, p_n) $$ is the first point.
+* :math:`\mathbf{p} = (p_1, p_2, \\dots, p_n) ` is the first point.
 
-* $$ \\mathbf{q} = (q_1, q_2, \\dots, q_n) $$ is the second point.
+* :math:`\mathbf{q} = (q_1, q_2, \\dots, q_n) ` is the second point.
 
-* $$ n $$ is the number of dimensions.
+* :math:` n ` is the number of dimensions.
 
 History
 -------
