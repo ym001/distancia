@@ -18,9 +18,9 @@ The Euclidean distance between two points :math:`\mathbf{p}`  and :math:`\mathbf
 
 Where:
 
-* :math:`\mathbf{p} = (p_1, p_2, \\dots, p_n)` is the first point.
+* :math:`\mathbf{p} = (p_1, p_2, \dots, p_n)` is the first point.
 
-* :math:`\mathbf{q} = (q_1, q_2, \\dots, q_n)` is the second point.
+* :math:`\mathbf{q} = (q_1, q_2, \dots, q_n)` is the second point.
 
 * :math:`n` is the number of dimensions.
 
