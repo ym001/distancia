@@ -129,6 +129,39 @@ Changelog
 
 Stay up-to-date with the latest changes and improvements in distancia by reading the :doc:`changelog`.
 
+Classes
+=======
+
+.. toctree::
+   :maxdepth: 2
+
+   euclidean
+   Augmentation
+   Classification
+   Dataset
+   Generation
+   Model
+   Preprocess
+   Statistic
+   Task
+   Visualisation
+
+
+Link
+====
+
+.. toctree::
+   :maxdepth: 2
+
+   Notebooks<https://github.com/ym001/Manteia/tree/master/notebook>
+   Exemples<https://github.com/ym001/Manteia/tree/master/Exemples>
+   help
+   Pypi<https://pypi.org/project/Manteia/>
+   Source<https://github.com/ym001/Manteia>
+   Documentation<https://manteia.readthedocs.io/en/latest/#>
+   license
+
+
 .. toctree::
    :maxdepth: 1
 
