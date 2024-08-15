@@ -20,11 +20,11 @@ Welcome to distancia's documentation!
    :maxdepth: 2
    :caption: Contents
 
-   Installation
-   Quickstart
-   Available Metrics
-   Contributing
-   Changelog
+   installation
+   quickstart
+   available Metrics
+   contributing
+   changelog
 
 Contents
 --------
