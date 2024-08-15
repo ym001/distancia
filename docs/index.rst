@@ -22,20 +22,10 @@ Contents
 --------
 
 .. contents:: Table of Contents
-   :depth: 1
+   :depth: 2
    :local:
    :backlinks: none
 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents
-
-   installation
-   quickstart
-   available Metrics
-   contributing
-   changelog
 
 The documentation is divided into the following sections:
 
