@@ -7,8 +7,11 @@ Diverse Range of Metrics: Calculate distances using a variety of algorithms incl
 Ease of Use: Simple and intuitive API design, making it easy to integrate into your existing projects.
 Customizable: Easily extend the package with your own custom distance metrics.
 Well-Documented: Each function is well-documented, providing clear explanations and examples of use.
+
 **Installation**
 You can install distancia via pip:
+[distancia on pypi](https://pypi.org/project/distancia/)
+
 
 bash
 Copier le code
