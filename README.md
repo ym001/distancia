@@ -57,51 +57,51 @@ Available Metrics
 Distancia includes the following distance metrics (and more):
 
 * Euclidean
-Minkowski
-Hamming
-Cosine_Similarity 
-Cosine_Inverse 
-L1 
-L2 
-Jaccard 
-Generalized_Jaccard 
-Tanimoto 
-Inverse_Tanimoto 
-Manhattan 
-Mahalanobis 
-Chebyshev 
-Ratcliff_Obershelp 
-Jaro 
-Jaro_Winkler 
-Hausdorff 
-Kendall_Tau
-Haversine 
-Canberra 
-Bray_Curtis 
-Matching 
-Dice 
-Kulsinski 
-Rogers_Tanimoto 
-Russell_Rao 
-Sokal_Michener 
-Sokal-Sneath 
-Damerau_Levenshtein 
-Tversky 
-Yule 
-Bhattacharyya 
-Wasserstein 
-Mahalanobis_Taguchi 
-Gower 
-Pearson 
-Spearman 
-Ochiai 
-Hellinger 
-Czekanowski_Dice 
-Motzkin_Straus 
-Otsuka 
-Fager_McGowan 
-Rogers_Tanimoto 
-Enhanced_Rogers_Tanimoto 
+* Minkowski
+* Hamming
+* Cosine_Similarity 
+* Cosine_Inverse 
+* L1 
+* L2 
+* Jaccard 
+* Generalized_Jaccard 
+* Tanimoto 
+* Inverse_Tanimoto 
+* Manhattan 
+* Mahalanobis 
+* Chebyshev 
+* Ratcliff_Obershelp 
+* Jaro 
+* Jaro_Winkler 
+* Hausdorff 
+* Kendall_Tau
+* Haversine 
+* Canberra 
+* Bray_Curtis 
+* Matching 
+* Dice 
+* Kulsinski 
+* Rogers_Tanimoto 
+* Russell_Rao 
+* Sokal_Michener 
+* Sokal-Sneath 
+* Damerau_Levenshtein 
+* Tversky 
+* Yule 
+* Bhattacharyya 
+* Wasserstein 
+* Mahalanobis_Taguchi 
+* Gower 
+* Pearson 
+* Spearman 
+* Ochiai 
+* Hellinger 
+* Czekanowski_Dice 
+* Motzkin_Straus 
+* Otsuka 
+* Fager_McGowan 
+* Rogers_Tanimoto 
+* Enhanced_Rogers_Tanimoto 
 
 
 And many more...
