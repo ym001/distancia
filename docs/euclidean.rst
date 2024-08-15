@@ -17,9 +17,12 @@ The Euclidean distance between two points \( \mathbf{p} \) and \( \mathbf{q} \) 
    d(\mathbf{p}, \mathbf{q}) = \sqrt{ \sum_{i=1}^{n} (p_i - q_i)^2 }
 
 Where:
-- \( \mathbf{p} = (p_1, p_2, \dots, p_n) \) is the first point.
-- \( \mathbf{q} = (q_1, q_2, \dots, q_n) \) is the second point.
-- \( n \) is the number of dimensions.
+
+* \( \mathbf{p} = (p_1, p_2, \dots, p_n) \) is the first point.
+
+* \( \mathbf{q} = (q_1, q_2, \dots, q_n) \) is the second point.
+
+* \( n \) is the number of dimensions.
 
 History
 -------
