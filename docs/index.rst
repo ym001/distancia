@@ -87,7 +87,12 @@ Here are some common examples of how to use distancia:
 For more examples, refer to the :doc:`quickstart` guide.
 
 Available Metrics
------------------
+========
+
+.. toctree::
+   :maxdepth: 2
+
+   euclidean
 
 distancia includes a wide array of distance metrics. Below are some of the key metrics available:
 
@@ -127,16 +132,6 @@ Changelog
 ---------
 
 Stay up-to-date with the latest changes and improvements in distancia by reading the :doc:`changelog`.
-
-Distance
-========
-
-.. toctree::
-   :maxdepth: 2
-
-   euclidean
-    
-
 
 Link
 ====
