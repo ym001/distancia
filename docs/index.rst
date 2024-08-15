@@ -91,7 +91,8 @@ Available Metrics
 
 distancia includes a wide array of distance metrics. Below are some of the key metrics available:
 
-- Euclidean Distance
+- Euclidean Distance * :ref:`euclidean`
+
 - Manhattan Distance
 - Cosine Similarity
 - Hamming Distance
