@@ -10,7 +10,7 @@ Euclidean Distance
 Definition
 ----------
 
-The Euclidean distance between two points \( \mathbf{p} \) and \( \mathbf{q} \) in \( n \)-dimensional space is defined as:
+The Euclidean distance between two points \\( \mathbf{p} \\) and \\( \mathbf{q} \\) in \\( n \\)-dimensional space is defined as:
 
 .. math::
 
@@ -18,7 +18,7 @@ The Euclidean distance between two points \( \mathbf{p} \) and \( \mathbf{q} \) 
 
 Where:
 
-* \( \mathbf{p} = (p_1, p_2, \dots, p_n) \) is the first point.
+* $$ \\mathbf{p} = (p_1, p_2, \\dots, p_n) $$ is the first point.
 
 * \( \mathbf{q} = (q_1, q_2, \dots, q_n) \) is the second point.
 
