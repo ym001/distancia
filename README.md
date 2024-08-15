@@ -1,4 +1,4 @@
-**distancia** - A Comprehensive Distance Metrics Package for Python
+## **distancia** - A Comprehensive Distance Metrics Package for Python
 
 distancia is a Python package that provides an extensive collection of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. Whether you're working with strings, vectors, or other data types, distancia offers the tools you need for your analysis.
 
@@ -14,15 +14,16 @@ You can install distancia via pip:
 
 
 bash
-Copier le code
+
+```bash
+
 pip install distancia
+```
 
 **Usage**
 Below are some examples of how to use the Distancer package to calculate various distance metrics.
 
 **Example 1:** Calculating Euclidean Distance
-python
-Copier le code :
 
 ```python
 
@@ -36,8 +37,6 @@ print(f"Euclidean Distance: {distance}")
 ```
 
 **Example 2: Calculating Cosine Similarity**
-python
-Copier le code :
 
 ```python
 from distancia import Cosine_Similarity
@@ -50,8 +49,6 @@ print(f"Cosine Similarity: {similarity}")
 ```
 
 **Example 3: Calculating Levenshtein Distance**
-python
-Copier le code :
 
 ```python
 from distancia import Levenshtein
