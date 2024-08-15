@@ -21,6 +21,12 @@ Welcome to distancia's documentation!
 Contents
 --------
 
+.. contents:: Table of Contents
+   :depth: 1
+   :local:
+   :backlinks: none
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents
