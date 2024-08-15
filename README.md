@@ -39,6 +39,7 @@ print(f"Euclidean Distance: {distance}")
 python
 Copier le code :
 
+```python
 from distancia import Cosine_Similarity
 
 vector1 = [1, 2, 3]
@@ -46,11 +47,13 @@ vector2 = [4, 5, 6]
 
 similarity = Cosine_Similarity().distance(vector1, vector2)
 print(f"Cosine Similarity: {similarity}")
+```
 
 **Example 3: Calculating Levenshtein Distance**
 python
 Copier le code :
 
+```python
 from distancia import Levenshtein
 
 string1 = "kitten"
@@ -58,6 +61,7 @@ string2 = "sitting"
 
 distance = Levenshtein().distance(string1, string2)
 print(f"Levenshtein Distance: {distance}")
+```
 
 **Available Metrics**
 distancia includes the following distance metrics (and more):
