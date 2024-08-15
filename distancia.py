@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  Distance.py
+#  distancia.py
 #  
 #  Copyright 2024 yves <yves.mercadier@...>
 #  
@@ -120,21 +120,7 @@ class Levenshtein(Distance):
 		self.obj1_exemple = "kitten"
 		self.obj2_exemple = "sitting"
 		super().exemple()
-###################################################
-# Instantiate Measure class with Levenshtein distance
-# Example usage
-d = Levenshtein()
-# Verify properties for example strings
-obj1 = "kitten"
-obj2 = "sitting"
-obj3 = "kitchen"
 
-# Example usage
-d.check_data(obj1, obj2)
-d.check_properties(obj1, obj2, obj3)
-d.exemple()
-#print(f"Levenshtein distance between {obj1} and {obj2} is {Levenshtein().distance(obj1,obj2):.4f}")
-###################################################
 
 class Cosine_Similarity(Distance):
 	def __init__(self):
@@ -175,20 +161,14 @@ class Cosine_Similarity(Distance):
 			return 0.0
 		return dot_prod / (norm_vec1 * norm_vec2)
 		
-###################################################
-# Example usage
-Cosine_Similarity().exemple()
-###################################################
+
 class Cosine_Inverse(Distance):
 	def __init__(self):
 		super().__init__()
 	def distance_function(self,vec1, vec2):
 		return 1-Cosine_Similarity().distance(vec1,vec2)
 
-###################################################
-# Exemple d'utilisation :
-Cosine_Inverse().exemple()
-###################################################
+
 class Euclidean(Distance):
 	def __init__(self):
 		super().__init__()
@@ -212,11 +192,7 @@ class Euclidean(Distance):
 class L2(Euclidean):
 	def __init__(self):
 		super().__init__()
-###################################################
-# Example usage
-distance = Euclidean().exemple()
-distance = L2().exemple()
-###################################################
+
 class Hamming(Distance):
 	def __init__(self):
 		super().__init__()
@@ -237,10 +213,7 @@ class Hamming(Distance):
 		self.obj1_exemple = "1011101"
 		self.obj2_exemple = "1001001"
 		super().exemple()
-###################################################
-# Example usage
-Hamming().exemple()
-###################################################
+
 class Jaccard(Distance):
 	def __init__(self):
 		super().__init__()
@@ -261,14 +234,7 @@ class Jaccard(Distance):
 		self.obj1_exemple = {1, 2, 3, 4}
 		self.obj2_exemple = {3, 4, 5, 6}
 		super().exemple()
-###################################################
-# Example usage
-Jaccard().exemple()
-# Another example with strings as sets of characters
-str1 = "karolin"
-str2 = "kathrin"
-print(f"Jaccard distance between '{str1}' and '{str2}' is {Jaccard().distance(set(str1), set(str2)):.4f}")
-###################################################
+
 class Generalized_Jaccard(Distance):
 	def __init__(self):
 		super().__init__()
@@ -294,17 +260,11 @@ class Generalized_Jaccard(Distance):
 		self.obj1_exemple = {1, 2, 3, 4}
 		self.obj2_exemple = {3, 4, 5, 6}
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Generalized_Jaccard().exemple()
-###################################################
+
 class Tanimoto(Jaccard):
 	def __init__(self):
 		super().__init__()
-###################################################
-# Exemple d'utilisation :
-Tanimoto().exemple()
-###################################################
+
 class Inverse_Tanimoto(Distance):
 	def __init__(self):
 		super().__init__()
@@ -346,10 +306,7 @@ class Inverse_Tanimoto(Distance):
 		self.obj2_exemple = [1, 0, 1, 0]
 		super().exemple()
 
-###################################################
-# Exemple d'utilisation :
-Inverse_Tanimoto().exemple()
-###################################################
+
 
 class Manhattan(Distance):
 	def __init__(self):
@@ -372,11 +329,7 @@ class Manhattan(Distance):
 class L1(Manhattan):
 	def __init__(self):
 		super().__init__()
-###################################################
-# Example usage
-Manhattan().exemple()
-L1().exemple()
-###################################################
+
 class Minkowski(Distance):
 	def __init__(self):
 		super().__init__()
@@ -398,19 +351,7 @@ class Minkowski(Distance):
 	def exemple(self,p):
 		self.obj3_exemple = p
 		super().exemple()
-###################################################
-# Example usage
 
-
-# Minkowski distance with p=1 (Manhattan distance)
-Minkowski().exemple(1)
-
-# Minkowski distance with p=2 (Euclidean distance)
-Minkowski().exemple(2)
-
-# Minkowski distance with p=3
-Minkowski().exemple(3)
-###################################################
 
 class Mahalanobis(Distance):
 	def __init__(self):
@@ -511,53 +452,7 @@ class Mahalanobis(Distance):
     [4, 5, 6],
 ]
 		super().exemple()
-###################################################
-# Example usage
-Mahalanobis().exemple()
-###################################################
-'''
-import numpy as np
-class Mahalanobis(Distance):
-	def __init__(self):
-		super().__init__()
-	def distance_function(self,point, data):
-		"""
-		Calculate the Mahalanobis distance between a point and a dataset.
-    
-		:param point: A point as a list of coordinates
-		:param data: A dataset as a list of points (list of lists)
-		:return: Mahalanobis distance between the point and the dataset
-		:raises ValueError: If the point dimensions do not match the dataset dimensions
-		! lever une execption si la matrice est singulière
-		"""
-		data = np.array(data)
-		point = np.array(point)
-    
-		if data.shape[1] != point.shape[0]:
-			raise ValueError("Point dimensions must match dataset dimensions")
-    
-		mean = np.mean(data, axis=0)
-		cov_matrix = np.cov(data, rowvar=False)
-		cov_matrix_inv = np.linalg.inv(cov_matrix)
-    
-		diff = point - mean
-		distance = np.sqrt(np.dot(np.dot(diff.T, cov_matrix_inv), diff))
-    
-		return distance
 
-# Example usage
-data = [
-    [2, 1, 0],
-    [2, 3, 4],
-    [3, 4, 5],
-    [4, 5, 6],
-]
-
-point = [3, 4, 5]
-distance = Mahalanobis().distance(point, data)
-print(f"Mahalanobis distance between {point} and the dataset is {distance}")
-'''
-###################################################
 class Chebyshev(Distance):
 	def __init__(self):
 		super().__init__()
@@ -576,10 +471,7 @@ class Chebyshev(Distance):
     
 		return max(abs(a - b) for a, b in zip(point1, point2))
 
-###################################################
-# Example usage
-Chebyshev().exemple()
-###################################################
+
 class Ratcliff_Obershelp(Distance):
 	def __init__(self):
 		super().__init__()
@@ -648,10 +540,7 @@ class Ratcliff_Obershelp(Distance):
 		self.obj1_exemple = "kitten"
 		self.obj2_exemple = "sitting"
 		super().exemple()
-###################################################
-# Example usage
-Ratcliff_Obershelp().exemple()
-###################################################
+
 class Jaro(Distance):
 	def __init__(self):
 		super().__init__()
@@ -712,10 +601,7 @@ class Jaro(Distance):
 		self.obj1_exemple = "martha"
 		self.obj2_exemple = "marhta"
 		super().exemple()
-###################################################
-# Example usage
-Jaro().exemple()
-###################################################
+
 class Jaro_Winkler(Distance):
 	def __init__(self):
 		super().__init__()
@@ -801,10 +687,7 @@ class Jaro_Winkler(Distance):
 		self.obj1_exemple = "martha"
 		self.obj2_exemple = "marhta"
 		super().exemple()
-###################################################
-# Example usage
-Jaro_Winkler().exemple()
-###################################################
+
 class Hausdorff(Distance):
 	def __init__(self):
 		super().__init__()
@@ -851,10 +734,7 @@ class Hausdorff(Distance):
 		self.obj1_exemple = [(0, 0), (0, 1), (1, 0), (1, 1)]
 		self.obj2_exemple = [(2, 2), (2, 3), (3, 2), (3, 3)]
 		super().exemple()
-###################################################
-# Example usage
-Hausdorff().exemple()
-###################################################
+
 class Kendall_Tau(Distance):
 	def __init__(self):
 		super().__init__()
@@ -890,10 +770,7 @@ class Kendall_Tau(Distance):
 		self.obj1_exemple = [1, 2, 3, 4]
 		self.obj2_exemple = [4, 3, 2, 1]
 		super().exemple()
-###################################################
-# Example usage
-Kendall_Tau().exemple()
-###################################################
+
 def factorial(n):
     if n == 0:
         return 1
@@ -983,11 +860,7 @@ class Haversine(Distance):
 		self.obj1_exemple = (48.8566, 2.3522)# Paris coordinates
 		self.obj2_exemple = (51.5074, -0.1278)# London coordinates
 		super().exemple()
-###################################################
-# Example usage
 
-Haversine().exemple()
-###################################################
 class Canberra(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1009,10 +882,7 @@ class Canberra(Distance):
 				distance += numerator / denominator
     
 		return distance
-###################################################
-# Example usage
-Canberra().exemple()
-###################################################
+
 class Bray_Curtis(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1039,11 +909,7 @@ class Bray_Curtis(Distance):
 		distance = sum_diff / sum_sum
 		return distance
 
-###################################################
-# Example usage
 
-Bray_Curtis().exemple()
-###################################################
 class Matching(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1065,17 +931,7 @@ class Matching(Distance):
 		self.obj2_exemple = [0, 1, 1, 0, 0]
 
 		super().exemple()
-# Example usage with binary sequences
-Matching().exemple()
-###################################################
 
-# Example usage with strings
-seq1 = "karolin"
-seq2 = "kathrin"
-
-distance = Matching().distance(seq1, seq2)
-print(f"Matching distance between '{seq1}' and '{seq2}' is {distance}")
-###################################################
 class Dice(Distance):
 	
 	def __init__(self):
@@ -1103,9 +959,7 @@ class Dice(Distance):
 		self.obj2_exemple = {"b", "c", "e", "f"}
 
 		super().exemple()
-###################################################
-Dice().exemple()
-###################################################
+
 class Kulsinski(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1142,18 +996,7 @@ class Kulsinski(Distance):
 		self.obj2_exemple = {"b", "c", "e", "f"}
 
 		super().exemple()
-###################################################
-# Example usage
 
-Kulsinski().exemple()
-###################################################
-# Example usage with binary vectors
-vector1 = [1, 0, 1, 1, 0]
-vector2 = [0, 1, 1, 0, 0]
-
-distance = Kulsinski().distance(vector1, vector2)
-print(f"Kulsinski distance between {vector1} and {vector2} is {distance:.2f}")
-###################################################
 class Rogers_Tanimoto(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1179,10 +1022,7 @@ class Rogers_Tanimoto(Distance):
 		self.obj2_exemple = [0, 1, 1, 0, 0, 1]
 
 		super().exemple()
-###################################################
-# Example usage
-Rogers_Tanimoto().exemple()
-###################################################
+
 class Russell_Rao(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1206,11 +1046,7 @@ class Russell_Rao(Distance):
 		self.obj2_exemple = [0, 1, 1, 0, 0, 1]
 
 		super().exemple()
-###################################################
-# Example usage
 
-Russell_Rao().exemple()
-###################################################
 class Sokal_Michener(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1235,11 +1071,7 @@ class Sokal_Michener(Distance):
 		self.obj2_exemple = [0, 1, 1, 0, 0, 1]
 
 		super().exemple()
-###################################################
-# Example usage
 
-Sokal_Michener().exemple()
-###################################################
 class Sokal_Sneath(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1265,12 +1097,7 @@ class Sokal_Sneath(Distance):
 		self.obj2_exemple = [0, 1, 1, 0, 0, 1]
 
 		super().exemple()
-###################################################
-# Example usage
 
-Sokal_Sneath().exemple()
-print(f"Sokal-Sneath distance between {vector1} and {vector2} is {distance:.2f}")
-###################################################
 class Damerau_Levenshtein(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1301,11 +1128,7 @@ class Damerau_Levenshtein(Distance):
 		self.obj2_exemple = "abc"
 
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
 
-Damerau_Levenshtein().exemple()
-###################################################
 class Sorensen_Dice(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1331,10 +1154,7 @@ class Sorensen_Dice(Distance):
 		self.obj2_exemple = "nacht"
 
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Sorensen_Dice().distance()
-###################################################
+
 class Tversky(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1368,19 +1188,7 @@ class Tversky(Distance):
 		self.obj3_exemple = 0.5
 		self.obj4_exemple = 0.5
 		super().exemple()
-###################################################
-# Exemple d'utilisation avec des ensembles :
-Tversky().exemple()
 
-# Exemple d'utilisation avec des chaînes (converties en ensembles de caractères) :
-str1 = "abcde"
-str2 = "cdefg"
-set1 = set(str1)
-set2 = set(str2)
-alpha=0.5
-beta=0.5
-print(f"Distance de Tversky entre '{str1}' et '{str2}' avec alpha={alpha} et beta={beta}: {Tversky().distance(set1, set2, alpha, beta)}")
-###################################################
 class Yule(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1419,10 +1227,7 @@ class Yule(Distance):
 		self.obj1_exemple =  [1, 0, 1, 1, 0, 1, 0, 0, 1, 1]
 		self.obj2_exemple = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Yule().exemple()
-###################################################
+
 def log(x, iterations=1000):
     """
     Approximates the natural logarithm (log base e) of x using Newton's method.
@@ -1470,10 +1275,7 @@ class Bhattacharyya(Distance):
 		self.obj1_exemple =  [0.1, 0.2, 0.4, 0.3]
 		self.obj2_exemple = [0.2, 0.3, 0.1, 0.4]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Bhattacharyya().exemple()
-###################################################
+
 class Wasserstein(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1510,10 +1312,7 @@ class Wasserstein(Distance):
 		self.obj1_exemple =  [0.1, 0.2, 0.4, 0.3]
 		self.obj2_exemple = [0.2, 0.3, 0.1, 0.4]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Wasserstein().exemple()
-###################################################
+
 def covariance_matrix(data):
     """
     Calcule la matrice de covariance pour un ensemble de données.
@@ -1592,10 +1391,7 @@ class Mahalanobis_Taguchi(Distance):
 		self.obj1_exemple = [3.0, 4.0]
 		self.obj2_exemple = [2, 3.5]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Mahalanobis_Taguchi().exemple()
-###################################################
+
 class Gower(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1650,10 +1446,7 @@ class Gower(Distance):
 		# Types de variables : 'quantitative' ou 'qualitative'
 		self.obj4_exemple = ['quantitative', 'qualitative']
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Gower().exemple()
-###################################################
+
 class Pearson(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1691,11 +1484,7 @@ class Pearson(Distance):
 		self.obj1_exemple = [1, 1, 3, 4, 5]
 		self.obj2_exemple = [2, 3, 4, 5, 6]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
 
-Pearson().exemple()
-###################################################
 def rank(data):
     """
     Calcule les rangs des valeurs dans la liste donnée.
@@ -1765,10 +1554,7 @@ class Spearman(Distance):
 		self.obj1_exemple = [1, 2, 3, 4, 5]
 		self.obj2_exemple = [5, 6, 7, 8, 7]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Spearman().exemple()
-###################################################
+
 class Ochiai(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1806,11 +1592,7 @@ class Ochiai(Distance):
 		self.obj1_exemple = [True, False, True, True, False]
 		self.obj2_exemple = [True, True, False, False, True]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
 
-Ochiai().exemple()
-###################################################
 class Hellinger(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1834,10 +1616,7 @@ class Hellinger(Distance):
 		self.obj1_exemple = [0.1, 0.4, 0.5]
 		self.obj2_exemple = [0.2, 0.3, 0.5]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Hellinger().exemple()
-###################################################
+
 class Czekanowski_Dice(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1867,10 +1646,7 @@ class Czekanowski_Dice(Distance):
 		self.obj1_exemple = [1, 2, 3, 4]
 		self.obj2_exemple = [2, 2, 3, 5]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Czekanowski_Dice().exemple()
-###################################################
+
 class Motzkin_Straus(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1901,10 +1677,7 @@ class Motzkin_Straus(Distance):
 		self.obj1_exemple = [1, 2, 3, 4]
 		self.obj2_exemple = [2, 2, 3, 5]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Motzkin_Straus().exemple()
-###################################################
+
 
 class Otsuka(Distance):
 	def __init__(self):
@@ -1934,10 +1707,7 @@ class Otsuka(Distance):
 		self.obj1_exemple = {1, 2, 3, 4}
 		self.obj2_exemple = {2, 3, 5, 6}
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Otsuka().exemple()
-###################################################
+
 class Fager_McGowan(Distance):
 	def __init__(self):
 		super().__init__()
@@ -1971,11 +1741,7 @@ class Fager_McGowan(Distance):
 		self.obj1_exemple = [1, 1, 0, 0, 1]
 		self.obj2_exemple = [1, 0, 1, 0, 1]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
 
-Fager_McGowan().exemple()
-###################################################
 class Rogers_Tanimoto(Distance):
 	def __init__(self):
 		super().__init__()
@@ -2009,10 +1775,7 @@ class Rogers_Tanimoto(Distance):
 		self.obj1_exemple = [1, 1, 0, 0, 1]
 		self.obj2_exemple = [1, 0, 1, 0, 1]
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Rogers_Tanimoto().exemple()
-###################################################
+
 class Enhanced_Rogers_Tanimoto(Distance):
 	def __init__(self):
 		super().__init__()
@@ -2048,7 +1811,4 @@ class Enhanced_Rogers_Tanimoto(Distance):
 		self.obj2_exemple = [1, 0, 1, 0, 1]
 		self.obj3_exemple = 1# Facteur de régularisation
 		super().exemple()
-###################################################
-# Exemple d'utilisation :
-Enhanced_Rogers_Tanimoto().exemple()
-###################################################
+
