@@ -9,12 +9,15 @@ Euclidean Distance
 
 Definition
 ----------
+
 role:: raw-latex(raw)
     :format: latex
 Then you can use that role in your text
 
 The area of a circle is :raw-latex:`$\pi r^2$`
 
+The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
+ 
 The Euclidean distance between two points $$ \\mathbf{p} $$ and $$ \\mathbf{q} $$ in $$ n $$-dimensional space is defined as:
 
 .. math::
