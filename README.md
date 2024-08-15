@@ -23,7 +23,9 @@ Below are some examples of how to use the Distancer package to calculate various
 **Example 1:** Calculating Euclidean Distance
 python
 Copier le code :
-'''
+
+```python
+
 from distancia import Euclidean
 
 point1 = [1, 2, 3]
@@ -31,7 +33,8 @@ point2 = [4, 5, 6]
 
 distance = Euclidean().distance(point1, point2)
 print(f"Euclidean Distance: {distance}")
-'''
+```
+
 **Example 2: Calculating Cosine Similarity**
 python
 Copier le code :
