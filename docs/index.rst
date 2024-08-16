@@ -116,7 +116,8 @@ Available Metrics
 
    Tanimoto
 
-- Tversky Distance
+   Tversky 
+
 - Bhattacharyya Distance
 - Mahalanobis Distance
 - Haversine Distance
