@@ -3,6 +3,10 @@ Chebyshev Distance
 
 The Chebyshev distance, also known as the maximum metric or L∞ metric, is a measure of the distance between two points in a space. It is defined as the maximum absolute difference between the coordinates of the points. This metric is particularly useful in situations where movement is allowed only in discrete steps.
 
+.. contents::
+   :local:
+   :depth: 2
+
 Formula
 --------
 
