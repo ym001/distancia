@@ -84,7 +84,7 @@ Here are some common examples of how to use distancia:
    >>>Levenshtein Distance: 3
 
 
-For more examples, refer to the :doc:`quickstart` guide.
+For more examples, refer to the next section.
 
 Available Metrics
 -----------------
