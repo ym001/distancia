@@ -18,9 +18,9 @@ The Hamming Distance between two strings :math:`\mathbf{A} = A_1 A_2 \dots A_n` 
 
 Where:
 
-- :math:`\mathbf{A} = A_1 A_2 \dots A_n` and :math:` \mathbf{B} = B_1 B_2 \dots B_n` are the two strings.
+- :math:`\mathbf{A} = A_1 A_2 \dots A_n` and :math:`\mathbf{B} = B_1 B_2 \dots B_n` are the two strings.
 
-- :math:`\delta(A_i, B_i)` is a function that equals 1 if :math:` A_i \neq B_i` and 0 otherwise.
+- :math:`\delta(A_i, B_i)` is a function that equals 1 if :math:`A_i \neq B_i` and 0 otherwise.
 
 - :math:`n` is the length of the strings.
 
