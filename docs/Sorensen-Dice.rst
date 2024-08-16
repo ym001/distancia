@@ -43,7 +43,7 @@ Here's a simple Python example demonstrating how to calculate the Sørensen-Dice
     set2 = {1, 1, 0, 1}
 
     # Calculate Sørensen-Dice Distance
-    distance = sorensen_dice_distance(set1, set2)
+    distance = Sorensen_Dice().distance(set1, set2)
 
     print(f"Sørensen-Dice Distance: {distance}")
 
