@@ -38,14 +38,14 @@ Here is a Python example demonstrating how to calculate the Haversine distance b
 
 .. code-block:: python
 
-    from distancia import HaversineDistance
+    from distancia import Haversine
 
     # Define the coordinates of the two points (latitude, longitude)
     point1 = (52.2296756, 21.0122287)  # Warsaw, Poland
     point2 = (41.8919300, 12.5113300)  # Rome, Italy
 
     # Create an instance of HaversineDistance
-    haversine = HaversineDistance()
+    haversine = Haversine()
 
     # Calculate the Haversine distance
     distance = haversine.distance(point1, point2)
