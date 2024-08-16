@@ -17,8 +17,10 @@ The Sørensen-Dice Distance between two sets \( A \) and \( B \) is defined as:
    D(A, B) = 1 - \frac{2 \cdot |A \cap B|}{|A| + |B|}
 
 Where:
-- \( |A \cap B| \) is the size of the intersection of sets \( A \) and \( B \).
-- \( |A| \) and \( |B| \) are the sizes of the sets \( A \) and \( B \), respectively.
+
+- :math:`|A \cap B| \) is the size of the intersection of sets :math:`A \) and :math:`B \).
+
+- :math:`|A| \) and :math:`|B| \) are the sizes of the sets :math:`A \) and :math:`B \), respectively.
 
 The Sørensen-Dice Distance ranges from 0 to 1, where 0 indicates that the two sets are identical, and 1 indicates that they are completely different.
 
@@ -34,7 +36,7 @@ Here's a simple Python example demonstrating how to calculate the Sørensen-Dice
 
 .. code-block:: python
 
-    from distancia import sorensen_dice_distance
+    from distancia import Sorensen_Dice
 
     # Define two binary sets
     set1 = {1, 0, 1, 1}
