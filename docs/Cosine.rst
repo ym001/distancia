@@ -42,7 +42,7 @@ Cosine Similarity is widely used in various applications, such as text mining, n
 Usage Example
 -------------
 
-Here's a simple Python example demonstrating how to calculate the Cosine Similarity between two vectors using the `Distancer` package:
+Here's a simple Python example demonstrating how to calculate the Cosine Similarity between two vectors using the `distancia` package:
 
 .. code-block:: python
 
