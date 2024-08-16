@@ -23,14 +23,17 @@ The documentation is divided into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
 
-   installation
-   quickstart
-   metrics
-   api
-   contributing
-   changelog
+   Getting Started
+   Installation
+   
+   Quickstart
+   Available Metrics
+   Contributing
+   Changelog
+   Link
+   
+   
 
 Getting Started
 ---------------
@@ -151,10 +154,6 @@ Link
    Source<https://github.com/ym001/distancia>
    Documentation<https://distancia.readthedocs.io/en/latest/>
    License<https://github.com/ym001/distancia/blob/master/LICENSE>
-
-
-.. toctree::
-   :maxdepth: 1
 
 
 Indices and tables
