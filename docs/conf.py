@@ -26,8 +26,3 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'classic'
 html_static_path = ['_static']
-
-# Add custom CSS files
-html_css_files = [
-    'custom.css',
-]
