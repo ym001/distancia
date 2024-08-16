@@ -63,24 +63,24 @@ Here are some common examples of how to use distancia:
 
 .. code-block:: python
 
-    from distancia import euclidean_distance
+    from distancia import Euclidean
 
     point1 = [1, 2, 3]
     point2 = [4, 5, 6]
 
-    distance = euclidean_distance(point1, point2)
+    distance = Euclidean().distance(point1, point2)
     print(f"Euclidean Distance: {distance}")
 
 **Example 2: Calculating Levenshtein Distance**
 
 .. code-block:: python
 
-    from distancia import levenshtein_distance
+    from distancia import Levenshtein
 
     string1 = "kitten"
     string2 = "sitting"
 
-    distance = levenshtein_distance(string1, string2)
+    distance = Levenshtein().distance(string1, string2)
     print(f"Levenshtein Distance: {distance}")
 
 For more examples, refer to the :doc:`quickstart` guide.
