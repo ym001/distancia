@@ -18,7 +18,7 @@ Where:
 
 - :math:`R` is the Earth's radius (mean radius = 6,371 km).
 
-- :math:`\phi_1` and :math:` \phi_2` are the latitudes of the two points (in radians).
+- :math:`\phi_1` and :math:`\phi_2` are the latitudes of the two points (in radians).
 
 - :math:`\Delta \phi` is the difference in latitudes.
 
