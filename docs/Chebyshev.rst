@@ -6,7 +6,7 @@ The Chebyshev distance, also known as the maximum metric or L∞ metric, is a me
 Formula
 --------
 
-The formula for calculating the Chebyshev distance between two points \( \mathbf{p} \) and \( \mathbf{q} \) in an n-dimensional space is given by:
+The formula for calculating the Chebyshev distance between two points :math:`\mathbf{p}` and :math:`\mathbf{q}` in an n-dimensional space is given by:
 
 .. math::
 
@@ -14,11 +14,11 @@ The formula for calculating the Chebyshev distance between two points \( \mathbf
 
 Where:
 
-- \( \mathbf{p} \) and \( \mathbf{q} \) are two points in n-dimensional space.
+- :math:`\mathbf{p}` and :math:`\mathbf{q}` are two points in n-dimensional space.
 
-- \( p_i \) and \( q_i \) are the coordinates of the points in the i-th dimension.
+- :math:`p_i` and :math:`q_i` are the coordinates of the points in the i-th dimension.
 
-- \( \left| p_i - q_i \right| \) is the absolute difference between the coordinates.
+- :math:`\left| p_i - q_i \right|` is the absolute difference between the coordinates.
 
 History
 --------
@@ -33,7 +33,7 @@ Example Usage
 Here is a Python example demonstrating how to calculate the Chebyshev distance between two points using the `distancia` package:
 
 ```python
-from distancia import ChebyshevDistance
+from distancia import Chebyshev
 
 # Define the coordinates of the two points
 point1 = (1, 3, 4)
@@ -43,6 +43,6 @@ point2 = (4, 7, 1)
 chebyshev = ChebyshevDistance()
 
 # Calculate the Chebyshev distance
-distance = chebyshev.calculate(point1, point2)
+distance = chebyshev.distance(point1, point2)
 
 print(f"Chebyshev Distance: {distance}")
