@@ -40,7 +40,7 @@ Here's a simple Python example demonstrating how to calculate the Hamming Distan
 
 .. code-block:: python
 
-    from distancer import hamming_distance
+    from distancia import Hamming
 
     # Define two binary strings
     binary_string1 = '1101001'
