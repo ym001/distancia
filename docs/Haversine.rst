@@ -3,6 +3,10 @@ Haversine Distance
 
 The Haversine distance is a measure of the distance between two points on the surface of a sphere. It is commonly used in navigation and geographic information systems (GIS) to calculate the great-circle distance between two points specified by their latitude and longitude.
 
+.. contents::
+   :local:
+   :depth: 2
+
 Formula
 --------
 
