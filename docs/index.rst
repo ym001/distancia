@@ -98,15 +98,18 @@ Available Metrics
    :maxdepth: 1
 
 
-   euclidean
+   Euclidean
 
    Cosine 
 
-- Manhattan 
-- Cosine Similarity
-- Hamming Distance
-- Jaccard Similarity
-- Levenshtein Distance
+   Manhattan 
+
+   Hamming
+
+   Jaccard
+
+   Levenshtein
+
 - Dice Distance
 - Sorensen-Dice Distance
 - Tanimoto Distance
