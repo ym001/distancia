@@ -32,17 +32,31 @@ Example Usage
 
 Here is a Python example demonstrating how to calculate the Chebyshev distance between two points using the `distancia` package:
 
-```python
-from distancia import Chebyshev
+.. code-block:: python
 
-# Define the coordinates of the two points
-point1 = (1, 3, 4)
-point2 = (4, 7, 1)
+    from distancia import Chebyshev
 
-# Create an instance of ChebyshevDistance
-chebyshev = ChebyshevDistance()
+    # Define the coordinates of the two points
+    point1 = (1, 3, 4)
+    point2 = (4, 7, 1)
 
-# Calculate the Chebyshev distance
-distance = chebyshev.distance(point1, point2)
+    # Create an instance of ChebyshevDistance
+    chebyshev = ChebyshevDistance()
 
-print(f"Chebyshev Distance: {distance}")
+    # Calculate the Chebyshev distance
+    distance = chebyshev.distance(point1, point2)
+
+    print(f"Chebyshev Distance: {distance}")
+
+Reference
+---------
+
+For further reading on the Chebyshev distance and its applications, refer to the following academic article:
+
+Chebyshev, P. (1854). "Sur les approximations des fonctions données." Journal de Mathématiques Pures et Appliquées, 1, 45-71.
+This paper provides an in-depth discussion of Chebyshev's contributions to approximation theory and metrics.
+
+Conclusion
+----------
+
+The Chebyshev distance is a valuable metric for various applications where movement is restricted to grid-like steps or where the maximum deviation in any coordinate dimension is of interest. Its simplicity and practicality make it useful in computational problems and analysis involving discrete steps. By implementing the Chebyshev distance in the distancia package, users can efficiently calculate this metric in Python for diverse applications, including grid-based and discrete space analyses. This metric complements other distance measures by providing a different perspective on spatial relationships.
