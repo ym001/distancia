@@ -12,7 +12,7 @@ Welcome to distancia's documentation!
    :local:
    :depth: 2
 
-.. image:: https://path/to/your/logo.png
+.. image:: https://medium.com/@the_daft_introvert/mahalanobis-distance-5c11a757b099
    :alt: distancia logo
    :align: center
 
