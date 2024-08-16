@@ -16,8 +16,6 @@ Welcome to distancia's documentation!
 
    The code examples provided in this documentation are written for Python 3.x.
 
-
-
 Contents
 --------
 
@@ -94,7 +92,9 @@ Available Metrics
    :maxdepth: 1
 
 
-   euclidean
+   Euclidean
+
+   Cosine similarity
 
 - Manhattan Distance
 - Cosine Similarity
