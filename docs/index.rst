@@ -118,7 +118,8 @@ Available Metrics
 
    Tversky 
 
-- Bhattacharyya Distance
+   Bhattacharyya
+
 - Mahalanobis Distance
 - Haversine Distance
 - Chebyshev Distance
