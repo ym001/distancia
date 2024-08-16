@@ -53,7 +53,7 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
     vector2 = [4, 5, 6]
 
     # Calculate Cosine Similarity
-    similarity = cosine_similarity(vector1, vector2)
+    similarity = cosine_similarity().distance(vector1, vector2)
 
     print(f"Cosine Similarity: {similarity}")
 
