@@ -152,7 +152,7 @@ Link
 .. toctree::
    :maxdepth: 2
 
-   Exemples<https://github.com/ym001/distancia/src/exemple.py>
+   Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
    Pypi<https://pypi.org/project/distancia/>
    Source<https://github.com/ym001/distancia>
    Documentation<https://distancia.readthedocs.io/en/latest/>
