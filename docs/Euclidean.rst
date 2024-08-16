@@ -38,7 +38,7 @@ Here's a simple Python example demonstrating how to calculate the Euclidean dist
 
 .. code-block:: python
 
-    from distancer import euclidean_distance
+    from distancia import Euclidean
 
     # Define two points in 3D space
     point1 = [2, 3, 5]
