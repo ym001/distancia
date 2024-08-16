@@ -13,11 +13,16 @@ The Haversine formula calculates the distance between two points on the Earth gi
     d = 2 \cdot R \cdot \arcsin\left(\sqrt{\sin^2\left(\frac{\Delta \phi}{2}\right) + \cos(\phi_1) \cdot \cos(\phi_2) \cdot \sin^2\left(\frac{\Delta \lambda}{2}\right)}\right)
 
 Where:
-- \( d \) is the distance between the two points.
-- \( R \) is the Earth's radius (mean radius = 6,371 km).
-- \( \phi_1 \) and \( \phi_2 \) are the latitudes of the two points (in radians).
-- \( \Delta \phi \) is the difference in latitudes.
-- \( \Delta \lambda \) is the difference in longitudes.
+
+- :math:`d` is the distance between the two points.
+
+- :math:`R` is the Earth's radius (mean radius = 6,371 km).
+
+- :math:`\phi_1` and :math:` \phi_2` are the latitudes of the two points (in radians).
+
+- :math:`\Delta \phi` is the difference in latitudes.
+
+- :math:`\Delta \lambda` is the difference in longitudes.
 
 History
 --------
@@ -42,7 +47,7 @@ point2 = (41.8919300, 12.5113300)  # Rome, Italy
 haversine = HaversineDistance()
 
 # Calculate the Haversine distance
-distance = haversine.calculate(point1, point2)
+distance = haversine.distance(point1, point2)
 
 print(f"Haversine Distance: {distance} km")
 
