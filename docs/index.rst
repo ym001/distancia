@@ -23,6 +23,10 @@ Getting Started
 
 distancia is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancer provides the tools you need to measure the similarity or dissimilarity between objects.
 
+.. role:: red
+
+    This text is :red:`colored red` and so is :red:`this`
+
 For a quick introduction, check out the :doc:`quickstart` guide. If you want to dive straight into the code, head over to the :doc:`Euclidean` page.
 
 .. note::
