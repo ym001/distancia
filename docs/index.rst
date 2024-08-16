@@ -1,4 +1,4 @@
-.. distancia documentation master file, created by
+.. Distancia documentation master file, created by
    sphinx-quickstart on Tue Aug 10 14:57:34 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Welcome to distancia's documentation!
 ======================================
 
-**distancia** is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
+**Distancia** is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
 The documentation is divided into the following sections:
 
@@ -17,11 +17,6 @@ The documentation is divided into the following sections:
 .. note::
 
    The code examples provided in this documentation are written for Python 3.x.
-
-Contents
---------
-   
-   
 
 Getting Started
 ---------------
