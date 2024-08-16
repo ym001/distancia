@@ -10,7 +10,7 @@ The **Bhattacharyya Distance** is a measure of similarity between two probabilit
 Definition
 ----------
 
-The Bhattacharyya Distance between two probability distributions \( P \) and \( Q \) is given by:
+The Bhattacharyya Distance between two probability distributions :math:`P` and :math:`Q` is given by:
 
 .. math::
 
@@ -18,11 +18,11 @@ The Bhattacharyya Distance between two probability distributions \( P \) and \( 
 
 Where:
 
-- \( P(x) \) and \( Q(x) \) represent the probabilities of event \( x \) in distributions \( P \) and \( Q \), respectively.
+- :math:`P(x)` and :math:`Q(x)` represent the probabilities of event :math:`x` in distributions :math:`P` and :math:`Q`, respectively.
 
-- The summation is over all possible values of \( x \).
+- The summation is over all possible values of :math:`x`.
 
-- The natural logarithm (\( \ln \)) is used to transform the result into a distance measure.
+- The natural logarithm (:math:`\ln`) is used to transform the result into a distance measure.
 
 The Bhattacharyya Distance ranges from 0 (when the distributions are identical) to positive infinity (when there is no overlap between the distributions).
 
@@ -38,7 +38,7 @@ Here is an example of how to calculate the Bhattacharyya Distance using the `Dis
 
 .. code-block:: python
 
-    from distancia import bhattacharyya_distance
+    from distancia import Bhattacharyya
 
     # Define two probability distributions
     p = [0.1, 0.4, 0.5]
