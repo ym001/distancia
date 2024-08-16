@@ -36,7 +36,7 @@ Manhattan Distance is particularly useful in settings where movement is restrict
 Usage Example
 -------------
 
-Here's a simple Python example demonstrating how to calculate the Manhattan Distance between two points using the `Distancer` package:
+Here's a simple Python example demonstrating how to calculate the Manhattan Distance between two points using the `distancia` package:
 
 .. code-block:: python
 
