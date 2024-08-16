@@ -36,7 +36,7 @@ Here is an example of how to calculate the Tanimoto Distance between two binary 
 
 .. code-block:: python
 
-    from distancia import tanimoto_distance
+    from distancia import Tanimoto
 
     # Define two binary sets or vectors
     set1 = {1, 0, 1, 1}
