@@ -47,7 +47,7 @@ Here's a simple Python example demonstrating how to calculate the Hamming Distan
     binary_string2 = '1001101'
 
     # Calculate Hamming Distance
-    distance = hamming_distance(binary_string1, binary_string2)
+    distance = Hamming().distance(binary_string1, binary_string2)
 
     print(f"Hamming Distance: {distance}")
 
