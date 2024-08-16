@@ -46,7 +46,7 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
 
 .. code-block:: python
 
-    from distancer import cosine_similarity
+    from distancia import Cosine_similarity
 
     # Define two vectors
     vector1 = [1, 2, 3]
