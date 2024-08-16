@@ -79,7 +79,7 @@ Here are some common examples of how to use distancia:
 
     distance = Levenshtein().distance(string1, string2)
     print(f"Levenshtein Distance: {distance}")
-.. note::
+::
 
    >>>Levenshtein Distance: 3
 
