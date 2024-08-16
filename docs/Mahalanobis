@@ -26,4 +26,34 @@ The Mahalanobis distance was introduced by the Indian statistician Prasanta Chan
 
 Mahalanobis distance is commonly used in multivariate anomaly detection, clustering, and classification tasks where understanding the variance and covariance of the data is crucial.
 
+Example Usage
+-------------
 
+Here is a Python example demonstrating how to calculate the Mahalanobis distance between a point and a distribution using the `distancia` package:
+
+```python
+
+from distancia import MahalanobisDistance
+
+# Define the mean vector and covariance matrix of the distribution
+data = = [
+    [2, 1, 0],
+    [2, 3, 4],
+    [3, 4, 5],
+    [4, 5, 6],
+]
+
+# Define the point of interest
+point = [3, 5]
+
+# Create an instance of MahalanobisDistance
+distance = Mahalanobis().distance(point, data)
+
+print(f"Mahalanobis Distance: {distance}")
+
+
+Mahalanobis, P. C. (1936). On the generalized distance in statistics. Proceedings of the National Institute of Sciences of India, 2(1), 49-55.
+
+For further reading and a more detailed exploration of the Mahalanobis distance, refer to:
+
+Mardia, K. V., Kent, J. T., & Bibby, J. M. (1979). Multivariate Analysis. Academic Press.
