@@ -43,7 +43,7 @@ Here is an example of how to calculate the Tanimoto Distance between two binary 
     set2 = {1, 1, 0, 1}
 
     # Calculate Tanimoto Distance
-    distance = tanimoto_distance(set1, set2)
+    distance = Tanimoto().distance(set1, set2)
 
     print(f"Tanimoto Distance: {distance}")
 
