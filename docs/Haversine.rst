@@ -53,7 +53,8 @@ distance = haversine.distance(point1, point2)
 print(f"Haversine Distance: {distance} km")
 
 
-
+Reference
+---------
 
 For further details on the Haversine formula and its applications, refer to the following academic article:
 
@@ -61,5 +62,7 @@ Haversine, G. W. (1924). "The formula of the great-circle distance." Journal of 
 This paper provides an in-depth discussion of the Haversine formula and its use in calculating spherical distances.
 
 
+Conclusion
+----------
 
 The Haversine distance is a crucial tool for various applications in geolocation and navigation. By providing an accurate measurement of the distance between two points on the Earth's surface, it facilitates numerous practical tasks ranging from flight planning to geographic analysis. Its spherical model accounts for the curvature of the Earth, making it a preferred choice over planar distance measures for large-scale calculations. The implementation of the Haversine formula in the distancia package allows for straightforward and efficient distance calculations in Python, making it a valuable addition to any geospatial analysis toolkit.
