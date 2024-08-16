@@ -119,7 +119,8 @@ Available Metrics
 
    Mahalanobis
 
-- Haversine Distance
+   Haversine
+
 - Chebyshev Distance
 - Canberra Distance
 - Bray-Curtis Distance
