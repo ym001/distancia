@@ -10,7 +10,7 @@ The **Sørensen-Dice Distance** (also known simply as the Dice Coefficient or S�
 Definition
 ----------
 
-The Sørensen-Dice Distance between two sets \( A \) and \( B \) is defined as:
+The Sørensen-Dice Distance between two sets :math:`A` and :math:`B` is defined as:
 
 .. math::
 
@@ -18,9 +18,9 @@ The Sørensen-Dice Distance between two sets \( A \) and \( B \) is defined as:
 
 Where:
 
-- :math:`|A \cap B| \) is the size of the intersection of sets :math:`A \) and :math:`B \).
+- :math:`|A \cap B|` is the size of the intersection of sets :math:`A` and :math:`B`.
 
-- :math:`|A| \) and :math:`|B| \) are the sizes of the sets :math:`A \) and :math:`B \), respectively.
+- :math:`|A| \) and :math:`|B|` are the sizes of the sets :math:`A` and :math:`B`, respectively.
 
 The Sørensen-Dice Distance ranges from 0 to 1, where 0 indicates that the two sets are identical, and 1 indicates that they are completely different.
 
