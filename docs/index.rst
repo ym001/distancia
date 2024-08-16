@@ -17,6 +17,7 @@ Contents
 
 The documentation is divided into the following sections:
 
+
 .. contents::
    :local:
    :depth: 2
