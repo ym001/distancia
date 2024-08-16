@@ -92,7 +92,7 @@ Available Metrics
    :maxdepth: 1
 
 
-   Euclidean
+   euclidean
 
    Cosine similarity
 
