@@ -3,6 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+html_theme_options = {
+  'googlewebfont': True,
+  'googlewebfont_url': 'http://fonts.googleapis.com/css?family=Text+Me+One',
+  'googlewebfont_style': "font-family: 'Text Me One', sans-serif",
+}
+
 Welcome to distancia's documentation!
 ======================================
 
@@ -94,9 +100,9 @@ Available Metrics
 
    euclidean
 
-   Cosine similarity
+   Cosine 
 
-- Manhattan Distance
+- Manhattan 
 - Cosine Similarity
 - Hamming Distance
 - Jaccard Similarity
