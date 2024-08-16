@@ -117,7 +117,8 @@ Available Metrics
 
    Bhattacharyya
 
-- Mahalanobis Distance
+   Mahalanobis
+
 - Haversine Distance
 - Chebyshev Distance
 - Canberra Distance
