@@ -156,7 +156,7 @@ Link
    Pypi<https://pypi.org/project/distancia/>
    Source<https://github.com/ym001/distancia>
    Documentation<https://distancia.readthedocs.io/en/latest/>
-   license<https://github.com/ym001/distancia/LICENSE>
+   License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
 
 .. toctree::
