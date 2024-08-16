@@ -1,0 +1,73 @@
+Sørensen-Dice Distance
+=======================
+
+The **Sørensen-Dice Distance** (also known simply as the Dice Coefficient or Sørensen Index) is a statistical tool used to measure the similarity between two samples or sets. It is particularly useful in cases where the data is binary or categorical and is often used in fields such as ecology, information retrieval, and natural language processing.
+
+.. contents::
+   :local:
+   :depth: 2
+
+Definition
+----------
+
+The Sørensen-Dice Distance between two sets \( A \) and \( B \) is defined as:
+
+.. math::
+
+   D(A, B) = 1 - \frac{2 \cdot |A \cap B|}{|A| + |B|}
+
+Where:
+- \( |A \cap B| \) is the size of the intersection of sets \( A \) and \( B \).
+- \( |A| \) and \( |B| \) are the sizes of the sets \( A \) and \( B \), respectively.
+
+The Sørensen-Dice Distance ranges from 0 to 1, where 0 indicates that the two sets are identical, and 1 indicates that they are completely different.
+
+History
+-------
+
+The Sørensen-Dice Coefficient was independently introduced by two researchers: the Danish botanist Thorvald Sørensen in 1948 and the American biologist Lee Raymond Dice in 1945. Sørensen introduced the index as a measure of the similarity between plant communities, while Dice applied it to biological samples. Over time, the coefficient became widely used in various scientific fields beyond ecology, including text mining, image processing, and data clustering.
+
+Usage Example
+-------------
+
+Here's a simple Python example demonstrating how to calculate the Sørensen-Dice Distance between two binary strings using the `Distancia` package:
+
+.. code-block:: python
+
+    from distancia import sorensen_dice_distance
+
+    # Define two binary sets
+    set1 = {1, 0, 1, 1}
+    set2 = {1, 1, 0, 1}
+
+    # Calculate Sørensen-Dice Distance
+    distance = sorensen_dice_distance(set1, set2)
+
+    print(f"Sørensen-Dice Distance: {distance}")
+
+In this example, the sets `set1` and `set2` are compared. The Sørensen-Dice Distance between these sets is calculated and printed, showing the similarity between the two sets.
+
+Applications
+------------
+
+The Sørensen-Dice Distance is used in various applications, including:
+
+- **Natural Language Processing**: To compare the similarity between text documents, especially in information retrieval and text classification tasks.
+- **Image Analysis**: To measure the similarity between binary images or segmentations.
+- **Genetics**: To compare the similarity between DNA sequences or genetic profiles.
+- **Ecology**: To compare species composition between different ecological communities.
+
+Reference
+---------
+
+For an academic reference, you can refer to the following paper:
+
+Sørensen, T. (1948). *A Method of Establishing Groups of Equal Amplitude in Plant Sociology Based on Similarity of Species Content and Its Application to Analyses of the Vegetation on Danish Commons*. Biologiske Skrifter, 5, 1-34.
+
+This paper introduces the Sørensen Index and discusses its application in the study of plant communities.
+
+Conclusion
+----------
+
+The Sørensen-Dice Distance is a robust and widely-used measure for comparing the similarity between two sets, especially in the context of binary or categorical data. Its dual origin and extensive application across multiple fields demonstrate its versatility and significance in both theoretical and applied research.
+
