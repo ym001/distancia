@@ -10,7 +10,7 @@ The **Tversky Index** is a generalization of the Tanimoto coefficient and Jaccar
 Definition
 ----------
 
-The Tversky Index between two sets \( A \) and \( B \) is defined as:
+The Tversky Index between two sets :math:`A` and :math:`B` is defined as:
 
 .. math::
 
@@ -18,13 +18,13 @@ The Tversky Index between two sets \( A \) and \( B \) is defined as:
 
 Where:
                                
-- \( |A \cap B| \) represents the intersection of sets \( A \) and \( B \).
+- :math:`|A \cap B|` represents the intersection of sets :math:`A` and :math:`B`.
     
-- \( |A - B| \) is the difference between set \( A \) and set \( B \) (elements in \( A \) but not in \( B \)).
+- :math:`|A - B|` is the difference between set :math:`A` and set :math:`B` (elements in :math:`A` but not in :math:`B`).
     
-- \( |B - A| \) is the difference between set \( B \) and set \( A \).
+- :math:`|B - A|` is the difference between set :math:`B` and set :math:`A`.
     
-- \( \alpha \) and \( \beta \) are parameters that determine the weight of the differences. Typically, \( \alpha = \beta = 1 \) reduces the Tversky Index to the Jaccard Index.
+- :math:`\alpha` and :math:`\beta` are parameters that determine the weight of the differences. Typically, :math:`\alpha = \beta = 1` reduces the Tversky Index to the Jaccard Index.
 
 The Tversky Index can range from 0 to 1, where 1 indicates identical sets, and lower values indicate greater dissimilarity.
 
