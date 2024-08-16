@@ -42,7 +42,7 @@ Here's a simple Python example demonstrating how to calculate the Jaccard Simila
 
 .. code-block:: python
 
-    from distancer import jaccard_similarity
+    from distancia import Jaccard
 
     # Define two sets
     set1 = {1, 2, 3, 4, 5}
