@@ -10,18 +10,22 @@ Jaccard Similarity
 Definition
 ----------
 
-The Jaccard Similarity between two sets \( A \) and \( B \) is defined as:
+The Jaccard Similarity between two sets :math:`A` and :math:`B` is defined as:
 
 .. math::
 
    J(A, B) = \frac{|A \cap B|}{|A \cup B|}
 
 Where:
-- \( |A \cap B| \) is the cardinality of the intersection of sets \( A \) and \( B \), i.e., the number of elements common to both sets.
-- \( |A \cup B| \) is the cardinality of the union of sets \( A \) and \( B \), i.e., the number of elements present in either one or both sets.
+
+- :math:`|A \cap B|` is the cardinality of the intersection of sets :math:`A` and :math:`B`, i.e., the number of elements common to both sets.
+
+- :math:`|A \cup B|` is the cardinality of the union of sets :math:`A` and :math:`B`, i.e., the number of elements present in either one or both sets.
 
 The Jaccard Similarity coefficient ranges from 0 to 1, where:
+
 - 0 indicates that there are no common elements between the sets.
+
 - 1 indicates that the sets are identical.
 
 History
@@ -34,7 +38,7 @@ Since its introduction, the Jaccard Similarity has become a widely-used measure 
 Usage Example
 -------------
 
-Here's a simple Python example demonstrating how to calculate the Jaccard Similarity between two sets using the `Distancer` package:
+Here's a simple Python example demonstrating how to calculate the Jaccard Similarity between two sets using the `distancia` package:
 
 .. code-block:: python
 
