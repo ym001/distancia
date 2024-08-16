@@ -121,7 +121,8 @@ Available Metrics
 
    Haversine
 
-- Chebyshev Distance
+   Chebyshev
+
 - Canberra Distance
 - Bray-Curtis Distance
 - Pearson Distance
