@@ -31,7 +31,7 @@ Example Usage
 
 Here is a Python example demonstrating how to calculate the Mahalanobis distance between a point and a distribution using the `distancia` package:
 
-```python
+.. code-block:: python
 
 from distancia import MahalanobisDistance
 
