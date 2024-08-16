@@ -36,7 +36,7 @@ Hamming Distance has since been widely adopted in various fields, including comp
 Usage Example
 -------------
 
-Here's a simple Python example demonstrating how to calculate the Hamming Distance between two binary strings using the `Distancer` package:
+Here's a simple Python example demonstrating how to calculate the Hamming Distance between two binary strings using the `distancia` package:
 
 .. code-block:: python
 
