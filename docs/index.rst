@@ -8,6 +8,10 @@ Welcome to distancia's documentation!
 
 **distancia** is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
+.. contents::
+   :local:
+   :depth: 2
+
 .. image:: https://path/to/your/logo.png
    :alt: distancia logo
    :align: center
