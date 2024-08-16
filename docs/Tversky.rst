@@ -51,7 +51,7 @@ Here is an example of how to calculate the Tversky Index between two sets using 
     beta = 0.5
 
     # Calculate Tversky Index
-    similarity = tversky_index(set1, set2, alpha, beta)
+    similarity = Tversky().distance(set1, set2, alpha, beta)
 
     print(f"Tversky Index: {similarity}")
 
