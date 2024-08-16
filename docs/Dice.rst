@@ -10,7 +10,7 @@ The **Dice Distance** (also known as the Dice Coefficient or Sorensen-Dice Index
 Definition
 ----------
 
-The Dice Distance between two sets \( A \) and \( B \) is defined as:
+The Dice Distance between two sets  :math:`A` and  :math:`B` is defined as:
 
 .. math::
 
@@ -18,9 +18,9 @@ The Dice Distance between two sets \( A \) and \( B \) is defined as:
 
 Where:
 
-- \( |A \cap B| \) is the size of the intersection of sets \( A \) and \( B \).
+-  :math:`|A \cap B|` is the size of the intersection of sets  :math:`A` and  :math:`B`.
     
-- \( |A| \) and \( |B| \) are the sizes of the sets \( A \) and \( B \), respectively.
+-  :math:`|A|` and  :math:`|B|` are the sizes of the sets  :math:`A` and  :math:`B`, respectively.
 
 The Dice Distance ranges from 0 to 1, where 0 indicates that the two sets are identical, and 1 indicates that they are completely different.
 
