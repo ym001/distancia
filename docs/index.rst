@@ -114,7 +114,8 @@ Available Metrics
 
    Sorensen-Dice
 
-- Tanimoto Distance
+   Tanimoto
+
 - Tversky Distance
 - Bhattacharyya Distance
 - Mahalanobis Distance
