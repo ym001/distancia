@@ -112,7 +112,8 @@ Available Metrics
 
    Dice 
 
-- Sorensen-Dice Distance
+   Sorensen-Dice
+
 - Tanimoto Distance
 - Tversky Distance
 - Bhattacharyya Distance
