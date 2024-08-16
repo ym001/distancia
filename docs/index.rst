@@ -110,7 +110,8 @@ Available Metrics
 
    Levenshtein
 
-- Dice Distance
+   Dice 
+
 - Sorensen-Dice Distance
 - Tanimoto Distance
 - Tversky Distance
