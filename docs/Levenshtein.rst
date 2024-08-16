@@ -21,8 +21,11 @@ The Levenshtein Distance between two strings :math:`s_1` and :math:`s_2` is defi
    )
 
 Where:
+
 - The cost is 0 if the last characters of :math:`s_1` and :math:`s_2` are the same, and 1 if they are different.
+
 - :math:`d(s_1, s_2)` is the Levenshtein Distance between :math:`s_1` and :math:`s_2`.
+
 - The distance is computed using dynamic programming, where a matrix is used to keep track of the distances between substrings.
 
 The distance ranges from 0 (when the sequences are identical) to the length of the longer string (when the sequences have no characters in common).
