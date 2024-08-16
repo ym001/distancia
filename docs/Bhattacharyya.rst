@@ -45,7 +45,7 @@ Here is an example of how to calculate the Bhattacharyya Distance using the `Dis
     q = [0.2, 0.2, 0.6]
 
     # Calculate Bhattacharyya Distance
-    distance = bhattacharyya_distance(p, q)
+    distance = bhattacharyya().distance(p, q)
 
     print(f"Bhattacharyya Distance: {distance}")
 
