@@ -47,7 +47,7 @@ Here's a simple Python example demonstrating how to calculate the Manhattan Dist
     point2 = [4, 6, 3]
 
     # Calculate Manhattan Distance
-    distance = manhattan_distance(point1, point2)
+    distance = Manhattan().distance(point1, point2)
 
     print(f"Manhattan Distance: {distance}")
 
