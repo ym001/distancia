@@ -62,7 +62,7 @@ Here are some common examples of how to use distancia:
 
       print(f"Euclidean Distance: {distance}")
 
-.. note::
+::
 
    >>>Euclidean Distance: 5.196152422706632
 
