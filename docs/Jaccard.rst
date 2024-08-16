@@ -49,7 +49,7 @@ Here's a simple Python example demonstrating how to calculate the Jaccard Simila
     set2 = {4, 5, 6, 7, 8}
 
     # Calculate Jaccard Similarity
-    similarity = jaccard_similarity(set1, set2)
+    similarity = jaccard().distance(set1, set2)
 
     print(f"Jaccard Similarity: {similarity}")
 
