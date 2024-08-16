@@ -34,7 +34,7 @@ Over centuries, Euclidean distance has become a cornerstone in various fields su
 Usage Example
 -------------
 
-Here's a simple Python example demonstrating how to calculate the Euclidean distance between two points using the `Distancer` package:
+Here's a simple Python example demonstrating how to calculate the Euclidean distance between two points using the `distancia` package:
 
 .. code-block:: python
 
