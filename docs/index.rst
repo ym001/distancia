@@ -12,10 +12,6 @@ Welcome to distancia's documentation!
    :local:
    :depth: 2
 
-.. image:: https://github.com/ym001/distancia/blob/master/docs/Mahalanobis_2.png?raw=true
-   :alt: distancia logo
-   :align: center
-
 .. note::
 
    The code examples provided in this documentation are written for Python 3.x.
