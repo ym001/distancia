@@ -10,16 +10,19 @@ Manhattan Distance
 Definition
 ----------
 
-The Manhattan Distance between two points \( \mathbf{A} = (A_1, A_2, \dots, A_n) \) and \( \mathbf{B} = (B_1, B_2, \dots, B_n) \) in an n-dimensional space is defined as:
+The Manhattan Distance between two points :math:`\mathbf{A} = (A_1, A_2, \dots, A_n)` and :math:`\mathbf{B} = (B_1, B_2, \dots, B_n)` in an n-dimensional space is defined as:
 
 .. math::
 
    \text{Manhattan Distance} = \sum_{i=1}^{n} |A_i - B_i|
 
 Where:
-- \( \mathbf{A} = (A_1, A_2, \dots, A_n) \) is the first point.
-- \( \mathbf{B} = (B_1, B_2, \dots, B_n) \) is the second point.
-- \( n \) is the number of dimensions.
+
+- :math:`\mathbf{A} = (A_1, A_2, \dots, A_n)` is the first point.
+
+- :math:`\mathbf{B} = (B_1, B_2, \dots, B_n)` is the second point.
+
+- :math:`n` is the number of dimensions.
 
 The result is the sum of the absolute differences of their corresponding coordinates.
 
@@ -48,7 +51,7 @@ Here's a simple Python example demonstrating how to calculate the Manhattan Dist
 
     print(f"Manhattan Distance: {distance}")
 
-In this example, the points \( \mathbf{A} = (1, 2, 3) \) and \( \mathbf{B} = (4, 6, 3) \) are compared. The Manhattan Distance between these points is calculated and printed.
+In this example, the points :math:`\mathbf{A} = (1, 2, 3)` and :math:`\mathbf{B} = (4, 6, 3)` are compared. The Manhattan Distance between these points is calculated and printed.
 
 Applications
 ------------
