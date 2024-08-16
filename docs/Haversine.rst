@@ -36,7 +36,8 @@ Example Usage
 
 Here is a Python example demonstrating how to calculate the Haversine distance between two geographical points using the `distancia` package:
 
-```python
+.. code-block:: python
+
 from distancia import HaversineDistance
 
 # Define the coordinates of the two points (latitude, longitude)
