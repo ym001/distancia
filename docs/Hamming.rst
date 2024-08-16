@@ -10,16 +10,19 @@ Hamming Distance
 Definition
 ----------
 
-The Hamming Distance between two strings \( \mathbf{A} = A_1 A_2 \dots A_n \) and \( \mathbf{B} = B_1 B_2 \dots B_n \) of equal length is defined as:
+The Hamming Distance between two strings :math:`\mathbf{A} = A_1 A_2 \dots A_n` and :math:`\mathbf{B} = B_1 B_2 \dots B_n` of equal length is defined as:
 
 .. math::
 
    \text{Hamming Distance} = \sum_{i=1}^{n} \delta(A_i, B_i)
 
 Where:
-- \( \mathbf{A} = A_1 A_2 \dots A_n \) and \( \mathbf{B} = B_1 B_2 \dots B_n \) are the two strings.
-- \( \delta(A_i, B_i) \) is a function that equals 1 if \( A_i \neq B_i \) and 0 otherwise.
-- \( n \) is the length of the strings.
+
+- :math:`\mathbf{A} = A_1 A_2 \dots A_n` and :math:` \mathbf{B} = B_1 B_2 \dots B_n` are the two strings.
+
+- :math:`\delta(A_i, B_i)` is a function that equals 1 if :math:` A_i \neq B_i` and 0 otherwise.
+
+- :math:`n` is the length of the strings.
 
 The result is the number of positions at which the two strings differ.
 
