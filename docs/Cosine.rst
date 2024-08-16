@@ -17,13 +17,19 @@ The Cosine Similarity between two vectors :math:`\mathbf{A}` and :math:`\mathbf{
    \text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \sqrt{\sum_{i=1}^{n} B_i^2}}
 
 Where:
+
 - :math:`\mathbf{A} = (A_1, A_2, \dots, A_n)` is the first vector.
+
 - :math:`\mathbf{B} = (B_1, B_2, \dots, B_n)` is the second vector.
+
 - :math:`n` is the number of dimensions.
 
 The result of Cosine Similarity ranges from -1 to 1:
+
 - A value of 1 indicates that the two vectors are identical in orientation.
+
 - A value of 0 indicates that the vectors are orthogonal (no similarity).
+
 - A value of -1 indicates that the vectors are diametrically opposed.
 
 History
