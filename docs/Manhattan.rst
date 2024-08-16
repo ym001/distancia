@@ -40,7 +40,7 @@ Here's a simple Python example demonstrating how to calculate the Manhattan Dist
 
 .. code-block:: python
 
-    from distancer import manhattan_distance
+    from distancia import Manhattan
 
     # Define two points
     point1 = [1, 2, 3]
