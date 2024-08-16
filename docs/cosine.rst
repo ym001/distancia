@@ -10,16 +10,16 @@ Cosine Similarity
 Definition
 ----------
 
-The Cosine Similarity between two vectors \( \mathbf{A} \) and \( \mathbf{B} \) is defined as:
+The Cosine Similarity between two vectors :math:`\mathbf{A}` and :math:`\mathbf{B}` is defined as:
 
 .. math::
 
    \text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \sqrt{\sum_{i=1}^{n} B_i^2}}
 
 Where:
-- \( \mathbf{A} = (A_1, A_2, \dots, A_n) \) is the first vector.
-- \( \mathbf{B} = (B_1, B_2, \dots, B_n) \) is the second vector.
-- \( n \) is the number of dimensions.
+- :math:`\mathbf{A} = (A_1, A_2, \dots, A_n)` is the first vector.
+- :math:`\mathbf{B} = (B_1, B_2, \dots, B_n)` is the second vector.
+- :math:`n` is the number of dimensions.
 
 The result of Cosine Similarity ranges from -1 to 1:
 - A value of 1 indicates that the two vectors are identical in orientation.
@@ -51,7 +51,7 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
 
     print(f"Cosine Similarity: {similarity}")
 
-In this example, the vectors \( \mathbf{A} = (1, 2, 3) \) and \( \mathbf{B} = (4, 5, 6) \) are compared. The Cosine Similarity between these vectors is calculated and printed.
+In this example, the vectors :math:`\mathbf{A} = (1, 2, 3)` and :math:`\mathbf{B} = (4, 5, 6)` are compared. The Cosine Similarity between these vectors is calculated and printed.
 
 Applications
 ------------
