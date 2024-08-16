@@ -5,20 +5,20 @@ The Mahalanobis distance is a measure of the distance between a point and a dist
 
 Formula
 --------
-The Mahalanobis distance between a point \( \mathbf{x} \) and a mean vector \( \mathbf{\mu} \) with covariance matrix \( \mathbf{\Sigma} \) is given by:
+The Mahalanobis distance between a point :math:`\mathbf{x}` and a mean vector :math:`\mathbf{\mu}` with covariance matrix :math:`\mathbf{\Sigma}` is given by:
 
 .. math::
     D_{M}(\mathbf{x}, \mathbf{\mu}) = \sqrt{(\mathbf{x} - \mathbf{\mu})^T \mathbf{\Sigma}^{-1} (\mathbf{x} - \mathbf{\mu})}
 
 Here:
 
-- \( \mathbf{x} \) is the point of interest.
+- :math:`\mathbf{x}` is the point of interest.
 
-- \( \mathbf{\mu} \) is the mean vector of the distribution.
+- :math:`\mathbf{\mu}` is the mean vector of the distribution.
 
-- \( \mathbf{\Sigma} \) is the covariance matrix of the distribution.
+- :math:`\mathbf{\Sigma}` is the covariance matrix of the distribution.
 
-- \( \mathbf{\Sigma}^{-1} \) is the inverse of the covariance matrix.
+- :math:`\mathbf{\Sigma}^{-1}` is the inverse of the covariance matrix.
 
 History
 --------
@@ -26,42 +26,4 @@ The Mahalanobis distance was introduced by the Indian statistician Prasanta Chan
 
 Mahalanobis distance is commonly used in multivariate anomaly detection, clustering, and classification tasks where understanding the variance and covariance of the data is crucial.
 
-Example
---------
-Here's an example of how to compute the Mahalanobis distance using Python without relying on external libraries such as NumPy:
 
-```python
-def mahalanobis_distance(x, mean, covariance_matrix):
-    """
-    Calculate the Mahalanobis distance between a point and a distribution.
-
-    Parameters:
-    x (list or tuple): The point as a list or tuple of coordinates.
-    mean (list or tuple): The mean vector of the distribution.
-    covariance_matrix (list of lists): The covariance matrix of the distribution.
-
-    Returns:
-    float: The Mahalanobis distance.
-    """
-    import math
-    from scipy.linalg import inv
-
-    # Convert input to arrays
-    x = np.array(x)
-    mean = np.array(mean)
-    covariance_matrix = np.array(covariance_matrix)
-
-    # Calculate Mahalanobis distance
-    diff = x - mean
-    inv_cov_matrix = inv(covariance_matrix)
-    mahalanobis_dist = math.sqrt(np.dot(np.dot(diff.T, inv_cov_matrix), diff))
-
-    return mahalanobis_dist
-
-# Example usage
-x = [2.0, 3.0]
-mean = [1.0, 1.0]
-cov_matrix = [[1.0, 0.5], [0.5, 1.0]]
-
-distance = mahalanobis_distance(x, mean, cov_matrix)
-print(f"Mahalanobis Distance: {distance}")
