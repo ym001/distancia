@@ -39,13 +39,13 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
     y = [1, 0, 5, 1]
 
     # Create an instance of the CanberraDistance class (or directly use the function if it is provided)
-    canberra_dist = CanberraDistance()
+    canberra_dist = Canberra()
 
     # Calculate the distance between the two vectors
-    distance = canberra_dist.calculate(x, y)
+    distance = canberra_dist.distance(x, y)
 
     # Print the result
-    rint(f"The Canberra distance between vectors x and y is: {distance}")
+    print(f"The Canberra distance between vectors x and y is: {distance}")
 
 **Reference:**
 
