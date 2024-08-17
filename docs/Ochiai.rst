@@ -46,22 +46,22 @@ Example of Python Code
 
 Here is an example of how to use the Ochiai distance with the `distanciaa` package:
 
-```python
-# Import the distanciaa package
-from distanciaa import OchiaiDistance
+.. code-block:: python
+    # Import the distanciaa package
+    from distanciaa import Ochiai
 
-# Define two binary vectors representing data points
-binary_vector_1 = [1, 0, 1, 1, 0, 1, 0]
-binary_vector_2 = [1, 1, 0, 1, 0, 1, 1]
+    # Define two binary vectors representing data points
+    binary_vector_1 = [1, 0, 1, 1, 0, 1, 0]
+    binary_vector_2 = [1, 1, 0, 1, 0, 1, 1]
 
-# Create an instance of the OchiaiDistance class
-ochiai_dist = OchiaiDistance()
+    # Create an instance of the OchiaiDistance class
+    ochiai_dist = Ochiai()
 
-# Calculate the Ochiai distance between the two binary vectors
-distance = ochiai_dist.calculate(binary_vector_1, binary_vector_2)
+    # Calculate the Ochiai distance between the two binary vectors
+    distance = ochiai_dist.distance(binary_vector_1, binary_vector_2)
 
-# Print the result
-print(f"The Ochiai distance between the two binary vectors is: {distance}")
+    # Print the result
+    print(f"The Ochiai distance between the two binary vectors is: {distance}")
 
 Expected Output:
 
