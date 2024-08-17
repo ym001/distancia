@@ -145,21 +145,23 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
     # Plot the decision boundary
     plot_decision_boundary(model, X, context)
 
-Explanation:
+**Explanation:**
 
-Dataset Creation:
+**Dataset Creation:**
 
 We generate a synthetic dataset with 2D points as features and binary labels.
 Each point has a corresponding context vector.
-Neural Network:
+
+**Neural Network:**
 
 A simple feedforward neural network with two layers is defined.
 The cdd_loss function integrates the Contextual Dynamic Distance as part of the loss function.
-Training:
+
+**Training:**
 
 The model is trained using the Adam optimizer. The CDD is added as a regularization term in the loss function.
 
-Visualization:
+**Visualization:**
 
 The decision boundary is plotted using matplotlib. The impact of the context is reflected in the shape of the decision boundary.
 Visualization and Analysis:
