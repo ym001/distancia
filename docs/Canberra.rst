@@ -3,13 +3,13 @@ Canberra Distance
 
 **Formula:**
 
-The Canberra distance between two vectors \( x \) and \( y \) of length \( n \) is defined as:
+The Canberra distance between two vectors :math:`x` and :math:`y` of length :math:`n` is defined as:
 
 \[
 d(x, y) = \sum_{i=1}^{n} \frac{|x_i - y_i|}{|x_i| + |y_i|}
 \]
 
-where \( x_i \) and \( y_i \) are the elements of the vectors \( x \) and \( y \) respectively. The sum is taken over all dimensions \( i \).
+where :math:`x_i` and :math:`y_i` are the elements of the vectors :math:`x` and :math:`y` respectively. The sum is taken over all dimensions :math:`i`.
 
 **History:**
 
@@ -17,7 +17,7 @@ The Canberra distance was first introduced by G. N. Lance and W. T. Williams in 
 
 **Example of Usage:**
 
-Consider two vectors, \( x = [2, 0, 5, 3] \) and \( y = [1, 0, 5, 1] \). The Canberra distance between these two vectors can be calculated as:
+Consider two vectors, :math:`x = [2, 0, 5, 3]` and :math:`y = [1, 0, 5, 1]`. The Canberra distance between these two vectors can be calculated as:
 
 \[
 d(x, y) = \frac{|2 - 1|}{|2| + |1|} + \frac{|0 - 0|}{|0| + |0|} + \frac{|5 - 5|}{|5| + |5|} + \frac{|3 - 1|}{|3| + |1|} = \frac{1}{3} + 0 + 0 + \frac{2}{4} = \frac{1}{3} + \frac{1}{2}
