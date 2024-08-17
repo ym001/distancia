@@ -12,13 +12,14 @@ Formula
 The Bray-Curtis distance between two vectors **x** and **y** of size **n** is defined as:
 
 .. math::
-
     D_{BC} = \frac{\sum_{i=1}^{n} |x_i - y_i|}{\sum_{i=1}^{n} |x_i + y_i|}
 
 Where:
 
 - :math:`x_i` and :math:`y_i` are the elements of vectors **x** and **y** respectively.
+
 - The numerator is the sum of absolute differences.
+
 - The denominator is the sum of the sums of corresponding elements.
 
 History
