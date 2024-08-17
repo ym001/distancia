@@ -9,7 +9,7 @@ The Hellinger distance is a measure of the dissimilarity between two probability
 Formula
 -------
 
-The Hellinger distance \( H(P, Q) \) between two probability distributions \( P \) and \( Q \) is defined as:
+The Hellinger distance :math:`H(P, Q)` between two probability distributions :math:`P` and :math:`Q` is defined as:
 
 .. math::
 
@@ -17,8 +17,11 @@ The Hellinger distance \( H(P, Q) \) between two probability distributions \( P 
 
 Where:
 
-- \( P(i) \) and \( Q(i) \) are the probabilities of the \( i \)-th event in distributions \( P \) and \( Q \) respectively.
-- The distance ranges from 0 (if \( P = Q \)) to 1 (if \( P \) and \( Q \) are completely disjoint).
+- :math:`P(i)` and :math:`Q(i)` are the probabilities of the :math:`i`
+
+- the event in distributions :math:`P` and :math:`Q` respectively.
+
+- The distance ranges from 0 (if :math:`P = Q`) to 1 (if :math:`P` and :math:`Q` are completely disjoint).
 
 History
 -------
