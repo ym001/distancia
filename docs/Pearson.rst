@@ -9,7 +9,7 @@ The Pearson distance, derived from the Pearson correlation coefficient, is a mea
 Formula
 -------
 
-The Pearson correlation coefficient \( r \) between two vectors \( x \) and \( y \) is defined as:
+The Pearson correlation coefficient :math:`r` between two vectors :math:`x` and :math:`y` is defined as:
 
 .. math::
 
@@ -17,11 +17,13 @@ The Pearson correlation coefficient \( r \) between two vectors \( x \) and \( y
 
 Where:
 
-- \( x_i \) and \( y_i \) are the elements of vectors \( x \) and \( y \) respectively.
-- \( \overline{x} \) and \( \overline{y} \) are the means of vectors \( x \) and \( y \).
-- \( n \) is the number of elements in the vectors.
+- :math:`x_i` and :math:`y_i` are the elements of vectors :math:`x` and :math:`y` respectively.
 
-The Pearson distance \( D \) is then calculated as:
+- :math:`\overline{x}` and :math:`\overline{y}` are the means of vectors :math:`x` and :math:`y`.
+
+- :math:`n` is the number of elements in the vectors.
+
+The Pearson distance :math:`D` is then calculated as:
 
 .. math::
 
@@ -47,21 +49,21 @@ Example of Python Code
 Here is an example of how to use the Pearson distance with the `distanciaa` package:
 
 ```python
-# Import the distanciaa package
-from distanciaa import PearsonDistance
+    # Import the distanciaa package
+    from distanciaa import Pearson
 
-# Define two sample vectors representing data points
-data_point_1 = [2.5, 3.6, 2.1, 4.0]
-data_point_2 = [3.0, 3.7, 2.3, 3.8]
+    # Define two sample vectors representing data points
+    data_point_1 = [2.5, 3.6, 2.1, 4.0]
+    data_point_2 = [3.0, 3.7, 2.3, 3.8]
 
-# Create an instance of the PearsonDistance class
-pearson_dist = PearsonDistance()
+    # Create an instance of the PearsonDistance class
+    pearson_dist = Pearson()
 
-# Calculate the Pearson distance between the two data points
-distance = pearson_dist.calculate(data_point_1, data_point_2)
+    # Calculate the Pearson distance between the two data points
+    distance = pearson_dist.distance(data_point_1, data_point_2)
 
-# Print the result
-print(f"The Pearson distance between the two data points is: {distance}")
+    # Print the result
+    print(f"The Pearson distance between the two data points is: {distance}")
 
 Expected Output:
 
