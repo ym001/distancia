@@ -136,7 +136,8 @@ Available Metrics
 
    Ochiai
 
-- Hellinger Distance
+   Hellinger
+
 - Motzkin-Straus Distance
 - Enhanced Rogers-Tanimoto Distance
 - Inverse Cosine Distance
