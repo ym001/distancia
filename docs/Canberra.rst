@@ -27,9 +27,9 @@ Consider two vectors, :math:`x = [2, 0, 5, 3]` and :math:`y = [1, 0, 5, 1]`. The
 
 This example demonstrates how the Canberra distance emphasizes smaller absolute differences and can handle cases where elements in either vector may be zero.
 
-Example code to demonstrate the use of Canberra Distance with the distanciaa package
 
 .. code-block:: python
+   :caption:Example code to demonstrate the use of Canberra Distance with the distanciaa package
 
   # Import the distanciaa package
   from distanciaa import CanberraDistance
