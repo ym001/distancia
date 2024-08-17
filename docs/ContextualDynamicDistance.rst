@@ -145,6 +145,8 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
     # Plot the decision boundary
     plot_decision_boundary(model, X, context)
 
+.. image:: CDD_boundary.png
+
 **Explanation:**
 
 **Dataset Creation:**
