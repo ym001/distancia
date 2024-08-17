@@ -35,7 +35,6 @@ The Contextual Dynamic Distance was proposed by Yves Mercadier as a result of hi
 Example of Usage
 ----------------
 
-Let's consider a simple example where we use the Contextual Dynamic Distance in a sentiment analysis task. Below is an illustration of how CDD can be integrated into a neural network:
 
 .. code-block:: python
    :caption: Example 1
@@ -54,6 +53,8 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
     similarity = ContextualDynamicDistance().distance(x,y,context_x, context_y)
 
     print(f"Contextual Dynamic Distance: {similarity}")
+
+Let's consider a simple example where we use the Contextual Dynamic Distance in a sentiment analysis task. Below is an illustration of how CDD can be integrated into a neural network:
 
 .. code-block:: bash
         >>> Contextual Dynamic Distance: 5.196152417906096
