@@ -54,11 +54,11 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
 
         print(f"Contextual Dynamic Distance: {similarity}")
 
-    .. code-block:: bash
+.. code-block:: bash
         >>> Contextual Dynamic Distance: 5.196152417906096
 
 
-.. literalinclude:: https://raw.githubusercontent.com/user/repo/branch/path/to/file.py
+.. literalinclude:: https://raw.githubusercontent.com/ym001/distancia/master/src/exemple2.py
    :language: python
    :linenos:
    :caption: Example Python Code from URL
