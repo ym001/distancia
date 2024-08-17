@@ -123,6 +123,8 @@ Available Metrics
 
    Chebyshev
 
+   ContextualDynamicDistance
+
 - Canberra Distance
 - Bray-Curtis Distance
 - Pearson Distance
