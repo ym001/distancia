@@ -146,6 +146,12 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
     plot_decision_boundary(model, X, context)
 
 .. image:: CDD_boundary.png
+    :alt: the decision boundary
+    :align: center
+    :scale: 75 %
+
+
+
 
 **Explanation:**
 
