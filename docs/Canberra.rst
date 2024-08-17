@@ -29,7 +29,7 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
 
 
 .. code-block:: python
-    :caption:Example code to demonstrate the use of Canberra Distance with the distanciaa package
+  :caption:Example code to demonstrate the use of Canberra Distance with the distanciaa package
 
     # Import the distanciaa package
     from distanciaa import CanberraDistance
