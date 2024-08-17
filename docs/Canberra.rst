@@ -29,23 +29,23 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
 
 
 .. code-block:: python
-   :caption:Example code to demonstrate the use of Canberra Distance with the distanciaa package
+    :caption:Example code to demonstrate the use of Canberra Distance with the distanciaa package
 
-  # Import the distanciaa package
-  from distanciaa import CanberraDistance
+    # Import the distanciaa package
+    from distanciaa import CanberraDistance
 
-  # Define two sample vectors
-  x = [2, 0, 5, 3]
-  y = [1, 0, 5, 1]
+    # Define two sample vectors
+    x = [2, 0, 5, 3]
+    y = [1, 0, 5, 1]
 
-  # Create an instance of the CanberraDistance class (or directly use the function if it is provided)
-  canberra_dist = CanberraDistance()
+    # Create an instance of the CanberraDistance class (or directly use the function if it is provided)
+    canberra_dist = CanberraDistance()
 
-  # Calculate the distance between the two vectors
-  distance = canberra_dist.calculate(x, y)
+    # Calculate the distance between the two vectors
+    distance = canberra_dist.calculate(x, y)
 
-  # Print the result
-  print(f"The Canberra distance between vectors x and y is: {distance}")
+    # Print the result
+    rint(f"The Canberra distance between vectors x and y is: {distance}")
 
 **Reference:**
 
