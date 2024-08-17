@@ -41,18 +41,18 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
 
     from distancia import ContextualDynamicDistance
 
-        # Feature vectors
-        x = [1.0, 2.0, 3.0]
-        y = [4.0, 5.0, 6.0]
+    # Feature vectors
+    x = [1.0, 2.0, 3.0]
+    y = [4.0, 5.0, 6.0]
 
-        # Context vectors
-        context_x = [0.2, 0.3, 0.5]
-        context_y = [0.1, 0.4, 0.6]
+    # Context vectors
+    context_x = [0.2, 0.3, 0.5]
+    context_y = [0.1, 0.4, 0.6]
 
-        # Calculate Cosine Similarity
-        similarity = ContextualDynamicDistance().distance(x,y,context_x, context_y)
+    # Calculate Cosine Similarity
+    similarity = ContextualDynamicDistance().distance(x,y,context_x, context_y)
 
-        print(f"Contextual Dynamic Distance: {similarity}")
+    print(f"Contextual Dynamic Distance: {similarity}")
 
 .. code-block:: bash
         >>> Contextual Dynamic Distance: 5.196152417906096
