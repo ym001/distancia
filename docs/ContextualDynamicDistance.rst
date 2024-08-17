@@ -68,6 +68,7 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
     import torch.optim as optim
     import numpy as np
     import matplotlib.pyplot as plt
+    from distancia import ContextualDynamicDistance
 
     # Step 1: Create a simple synthetic dataset with contexts
     def generate_data(num_samples):
@@ -94,13 +95,13 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
 
     # Custom loss function incorporating CDD
     def cdd_loss(output, target, context, model):
-        cdd = ContextualDynamicDistance(convolution_context_weight_func)
+        cdd = ContextualDynamicDistance()
         distance_sum = 0.0
     
         for i in range(len(output)):
             for j in range(len(output)):
                 if i != j:
-                    distance_sum += cdd.calculate(output[i].detach().numpy(), output[j].detach().numpy(), 
+                    distance_sum += cdd.distance(output[i].detach().numpy(), output[j].detach().numpy(), 
                                               context[i].detach().numpy(), context[j].detach().numpy())
     
         binary_cross_entropy = nn.BCELoss()(output.squeeze(), target)
