@@ -9,7 +9,7 @@ The Ochiai distance, also known as the Ochiai coefficient, is a similarity measu
 Formula
 -------
 
-The Ochiai coefficient between two binary vectors \( A \) and \( B \) is given by:
+The Ochiai coefficient between two binary vectors :math:`A` and :math:`B` is given by:
 
 .. math::
 
@@ -17,10 +17,11 @@ The Ochiai coefficient between two binary vectors \( A \) and \( B \) is given b
 
 Where:
 
-- \( |A \cap B| \) is the number of elements common to both sets \( A \) and \( B \).
-- \( |A| \) and \( |B| \) are the sizes of sets \( A \) and \( B \), respectively.
+- :math:`|A \cap B|` is the number of elements common to both sets :math:`A` and :math:`B`.
 
-The Ochiai distance \( D \) is then calculated as:
+- :math:`|A|` and :math:`|B|` are the sizes of sets :math:`A` and :math:`B`, respectively.
+
+The Ochiai distance :math:`D` is then calculated as:
 
 .. math::
 
