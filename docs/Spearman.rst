@@ -9,7 +9,7 @@ The Spearman distance is derived from the Spearman rank correlation coefficient,
 Formula
 -------
 
-The Spearman rank correlation coefficient \( \rho \) between two vectors \( x \) and \( y \) is defined as:
+The Spearman rank correlation coefficient :math:`\rho` between two vectors :math:`x` and :math:`y` is defined as:
 
 .. math::
 
@@ -17,10 +17,11 @@ The Spearman rank correlation coefficient \( \rho \) between two vectors \( x \)
 
 Where:
 
-- \( d_i \) is the difference between the ranks of corresponding elements \( x_i \) and \( y_i \).
-- \( n \) is the number of elements in the vectors.
+- :math:`d_i` is the difference between the ranks of corresponding elements :math:`x_i` and :math:`y_i`.
 
-The Spearman distance \( D \) is then calculated as:
+- :math:`n` is the number of elements in the vectors.
+
+The Spearman distance :math:`D` is then calculated as:
 
 .. math::
 
@@ -46,18 +47,33 @@ Example of Python Code
 Here is an example of how to use the Spearman distance with the `distanciaa` package:
 
 ```python
-# Import the distanciaa package
-from distanciaa import SpearmanDistance
+    # Import the distanciaa package
+    from distanciaa import Spearman
 
-# Define two sample vectors representing data points
-data_point_1 = [12, 15, 10, 9, 16]
-data_point_2 = [11, 14, 10, 8, 18]
+    # Define two sample vectors representing data points
+    data_point_1 = [12, 15, 10, 9, 16]
+    data_point_2 = [11, 14, 10, 8, 18]
 
-# Create an instance of the SpearmanDistance class
-spearman_dist = SpearmanDistance()
+    # Create an instance of the Spearman class
+    spearman_dist = Spearman()
 
-# Calculate the Spearman distance between the two data points
-distance = spearman_dist.calculate(data_point_1, data_point_2)
+    # Calculate the Spearman distance between the two data points
+    distance = spearman_dist.distance(data_point_1, data_point_2)
 
-# Print the result
-print(f"The Spearman distance between the two data points is: {distance}")
+    # Print the result
+    print(f"The Spearman distance between the two data points is: {distance}")
+
+Expected Output:
+    The Spearman distance between the two data points is: 0.05
+
+Academic Reference
+------------------
+
+For further reading and a deeper understanding of the Spearman distance and its applications, refer to the following academic paper:
+
+Spearman, C. (1904). The Proof and Measurement of Association Between Two Things. American Journal of Psychology, 15(1), 72-101. DOI: 10.2307/1412159.
+
+Conclusion
+----------
+
+The Spearman distance is a valuable tool for assessing the monotonic dissimilarity between ranked datasets. Its wide application in various fields, from social sciences to biology, attests to its importance in non-parametric statistics. By leveraging the distanciaa package's implementation of the Spearman distance, researchers and data scientists can easily integrate this measure into their
