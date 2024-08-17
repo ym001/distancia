@@ -41,8 +41,9 @@ Example of Python Code
 
 Here is an example of how to use the Bray-Curtis distance with the `distanciaa` package:
 
-```python
-  # Import the distanciaa package
+.. code-block:: python
+
+# Import the distanciaa package
   from distanciaa import BrayCurtisDistance
 
   # Define two sample vectors representing species abundance in two different samples
