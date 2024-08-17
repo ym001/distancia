@@ -126,7 +126,8 @@ Available Metrics
 
    ContextualDynamicDistance
 
-- Canberra Distance
+   Canberra
+
 - Bray-Curtis Distance
 - Pearson Distance
 - Spearman Distance
