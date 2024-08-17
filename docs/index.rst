@@ -134,7 +134,8 @@ Available Metrics
 
    Spearman
 
-- Ochiai Distance
+   Ochiai
+
 - Hellinger Distance
 - Motzkin-Straus Distance
 - Enhanced Rogers-Tanimoto Distance
