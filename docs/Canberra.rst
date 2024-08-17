@@ -22,7 +22,7 @@ Consider two vectors, :math:`x = [2, 0, 5, 3]` and :math:`y = [1, 0, 5, 1]`. The
 
 .. math::
 
-d(x, y) = \frac{|2 - 1|}{|2| + |1|} + \frac{|0 - 0|}{|0| + |0|} + \frac{|5 - 5|}{|5| + |5|} + \frac{|3 - 1|}{|3| + |1|} = \frac{1}{3} + 0 + 0 + \frac{2}{4} = \frac{1}{3} + \frac{1}{2}
+    d(x, y) = \frac{|2 - 1|}{|2| + |1|} + \frac{|0 - 0|}{|0| + |0|} + \frac{|5 - 5|}{|5| + |5|} + \frac{|3 - 1|}{|3| + |1|} = \frac{1}{3} + 0 + 0 + \frac{2}{4} = \frac{1}{3} + \frac{1}{2}
 
 
 This example demonstrates how the Canberra distance emphasizes smaller absolute differences and can handle cases where elements in either vector may be zero.
