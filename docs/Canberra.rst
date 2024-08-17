@@ -27,23 +27,26 @@ Consider two vectors, :math:`x = [2, 0, 5, 3]` and :math:`y = [1, 0, 5, 1]`. The
 
 This example demonstrates how the Canberra distance emphasizes smaller absolute differences and can handle cases where elements in either vector may be zero.
 
-# Example code to demonstrate the use of Canberra Distance with the distanciaa package
+Example code to demonstrate the use of Canberra Distance with the distanciaa package
 
-# Import the distanciaa package
-from distanciaa import CanberraDistance
+.. code-block:: python
 
-# Define two sample vectors
-x = [2, 0, 5, 3]
-y = [1, 0, 5, 1]
+  # Import the distanciaa package
+  from distanciaa import CanberraDistance
 
-# Create an instance of the CanberraDistance class (or directly use the function if it is provided)
-canberra_dist = CanberraDistance()
+  # Define two sample vectors
+  x = [2, 0, 5, 3]
+  y = [1, 0, 5, 1]
 
-# Calculate the distance between the two vectors
-distance = canberra_dist.calculate(x, y)
+  # Create an instance of the CanberraDistance class (or directly use the function if it is provided)
+  canberra_dist = CanberraDistance()
 
-# Print the result
-print(f"The Canberra distance between vectors x and y is: {distance}")
+  # Calculate the distance between the two vectors
+  distance = canberra_dist.calculate(x, y)
+
+  # Print the result
+  print(f"The Canberra distance between vectors x and y is: {distance}")
+
 **Reference:**
 
 Lance, G. N., & Williams, W. T. (1966). A General Theory of Classificatory Sorting Strategies: 1. Hierarchical Systems. *The Computer Journal*, 9(4), 373-380. doi:10.1093/comjnl/9.4.373
