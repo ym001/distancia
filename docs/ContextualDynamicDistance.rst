@@ -58,10 +58,10 @@ Let's consider a simple example where we use the Contextual Dynamic Distance in 
         >>> Contextual Dynamic Distance: 5.196152417906096
 
 
-.. literalinclude:: https://raw.githubusercontent.com/ym001/distancia/master/src/exemple2.py
+.. literalinclude:: exempleCDD.py
    :language: python
    :linenos:
-   :caption: Example Python Code from URL
+   :caption: Example 2
 
 
 
