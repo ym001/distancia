@@ -128,8 +128,10 @@ Available Metrics
 
    Canberra
 
-- Bray-Curtis Distance
-- Pearson Distance
+   Bray-Curtis
+
+   Pearson
+
 - Spearman Distance
 - Ochiai Distance
 - Hellinger Distance
