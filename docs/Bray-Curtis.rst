@@ -43,21 +43,21 @@ Here is an example of how to use the Bray-Curtis distance with the `distanciaa` 
 
 .. code-block:: python
 
-# Import the distanciaa package
-  from distanciaa import BrayCurtisDistance
+    # Import the distanciaa package
+    from distanciaa import BrayCurtisDistance
 
-  # Define two sample vectors representing species abundance in two different samples
-  sample_1 = [2, 0, 3, 1]
-  sample_2 = [1, 1, 2, 0]
+    # Define two sample vectors representing species abundance in two different samples
+    sample_1 = [2, 0, 3, 1]
+    sample_2 = [1, 1, 2, 0]
 
-  # Create an instance of the BrayCurtisDistance class
-  bray_curtis_dist = BrayCurtisDistance()
+    # Create an instance of the BrayCurtisDistance class
+    bray_curtis_dist = BrayCurtisDistance()
 
-  # Calculate the Bray-Curtis distance between the two samples
-  distance = bray_curtis_dist.calculate(sample_1, sample_2)
+    # Calculate the Bray-Curtis distance between the two samples
+    distance = bray_curtis_dist.calculate(sample_1, sample_2)
 
-  # Print the result
-  print(f"The Bray-Curtis distance between the two samples is: {distance}")
+    # Print the result
+    print(f"The Bray-Curtis distance between the two samples is: {distance}")
 
 Expected Output:
 
