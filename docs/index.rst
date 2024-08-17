@@ -132,7 +132,8 @@ Available Metrics
 
    Pearson
 
-- Spearman Distance
+   Spearman
+
 - Ochiai Distance
 - Hellinger Distance
 - Motzkin-Straus Distance
