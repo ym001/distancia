@@ -46,9 +46,10 @@ Quickstart
 
 Here are some common examples of how to use distancia:
 
-**Example 1: Calculating Euclidean Distance**
 
 .. code-block:: python
+   :caption:**Example 1: Calculating Euclidean Distance**
+
 
       from distancia import Euclidean
 
@@ -69,9 +70,9 @@ Here are some common examples of how to use distancia:
 
 
 
-**Example 2: Calculating Levenshtein Distance**
 
 .. code-block:: python
+   :caption:**Example 2: Calculating Levenshtein Distance**
 
     from distancia import Levenshtein
 
