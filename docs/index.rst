@@ -144,7 +144,7 @@ Available Metrics
 
    CrossEntropy
 
-   Kullback-Leibler
+   KullbackLeibler
 
    And many more...
 
