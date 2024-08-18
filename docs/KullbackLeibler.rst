@@ -33,7 +33,7 @@ KL divergence quantifies the amount of information lost when `Q` is used to appr
 
 .. code-block:: python
 
-    from distancia import Levenshtein
+    from distancia import KullbackLeibler
     # Example probability distributions
     p = [0.1, 0.4, 0.5]  # True distribution
     q = [0.2, 0.3, 0.5]  # Predicted distribution
