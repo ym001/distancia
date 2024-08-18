@@ -35,6 +35,25 @@ The SLE transforms both the actual and predicted values using a logarithmic func
 
 **Interpretation:** Lower SLE values indicate a better fit of the model, as they represent a smaller average squared error in the log-transformed scale. This metric is particularly useful in scenarios where the range of values is large or when you want to dampen the impact of large errors on the overall loss.
 
+.. code-block:: python
+
+    from distancia.loss_functions import SquaredLogarithmicError
+
+    # Example true and predicted values
+    y_true = [1.0, 2.0, 3.0, 4.0]
+    y_pred = [1.1, 1.9, 2.5, 3.8]
+
+    # Create an instance of SquaredLogarithmicError
+    sle_loss = SquaredLogarithmicError()
+
+    # Calculate the Squared Logarithmic Error
+    sle_value = sle_loss(y_true, y_pred)
+    print(f'Squared Logarithmic Error: {sle_value}')
+
+.. code-block:: bash
+
+    >>>Squared Logarithmic Error: 0.0057567158446387885
+
 
 History and Context
 ===================
