@@ -140,9 +140,9 @@ Available Metrics
 
    Motzkin-Straus
 
-- Enhanced Rogers-Tanimoto Distance
-- Inverse Cosine Distance
-- And many more...
+   Enhanced Rogers-Tanimoto
+
+   And many more...
 
 For a complete list and detailed explanations of each metric, see the :doc:`metrics` section.
 
