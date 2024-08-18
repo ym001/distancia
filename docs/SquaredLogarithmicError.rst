@@ -67,7 +67,7 @@ Academic Reference
 
 For a detailed exploration of error metrics including SLE and its applications, consider the following reference:
 
-- Zhang, H., & Li, J. (2010). "A Study of Error Metrics for Regression Problems." *Journal of Statistical Computation and Simulation.* [Link to paper](https://www.tandfonline.com/doi/abs/10.1080/00949650902836518)
+- Zhang, H., & Li, J. (2010). "A Study of Error Metrics for Regression Problems." *Journal of Statistical Computation and Simulation.* 
 
 Conclusion
 ==========
