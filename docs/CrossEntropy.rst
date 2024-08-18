@@ -52,13 +52,13 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
     loss_value = loss_fn(y_true, y_pred)
     print(f'Cross Entropy Loss: {loss_value}')
 
-here is a second example of more developed neural classification
+Here is a second example of more developed neural classification
 
 .. code-block:: python
 
     #source : https://keras.io/examples/nlp/text_classification_with_transformer/
 
-    !pip install distancia==0.0.3
+    !pip install distancia
 
     import keras
     from keras import ops
