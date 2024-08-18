@@ -39,18 +39,20 @@ The Mean Absolute Error has been a long-standing metric in the field of statisti
 
 While more sophisticated metrics have been developed, the MAE's intuitive nature ensures its continued relevance, especially when dealing with datasets that may contain outliers or when the model's predictions are expected to have uniform importance.
 
-from distancia import MeanAbsoluteError
+.. code-block:: python
 
-# Example true and predicted values
-y_true = [3.0, -0.5, 2.0, 7.0]
-y_pred = [2.5, 0.0, 2.0, 8.0]
+    from distancia import MeanAbsoluteError
 
-# Create an instance of MeanAbsoluteError
-mae_loss = MeanAbsoluteError()
+    # Example true and predicted values
+    y_true = [3.0, -0.5, 2.0, 7.0]
+    y_pred = [2.5, 0.0, 2.0, 8.0]
 
-# Calculate the Mean Absolute Error
-mae_value = mae_loss(y_true, y_pred)
-print(f'Mean Absolute Error: {mae_value}')
+    # Create an instance of MeanAbsoluteError
+    mae_loss = MeanAbsoluteError()
+
+    # Calculate the Mean Absolute Error
+    mae_value = mae_loss(y_true, y_pred)
+    print(f'Mean Absolute Error: {mae_value}')
 
 Academic Reference
 ==================
