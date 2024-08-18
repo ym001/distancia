@@ -1,4 +1,4 @@
-GaloisWassersteinLoss
+Galois Wasserstein Loss
 ======================
 
 Introduction
@@ -60,7 +60,7 @@ The concept of **Galois-Wasserstein Loss** was introduced by [Your Name], founde
 Academic Reference
 ------------------
 
-For a deeper understanding of the underlying concepts of the **Galois-Wasserstein Loss**, you can refer to the following paper:
+For a deeper understanding of the underlying concepts of the **Galois Wasserstein Loss**, you can refer to the following paper:
 
 - Villani, C. (2003). *Topics in Optimal Transportation*. Graduate Studies in Mathematics, Vol. 58. American Mathematical Society.
 
