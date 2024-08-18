@@ -50,22 +50,22 @@ Example of Python Code
 
 Here is an example of how to use the Enhanced Rogers-Tanimoto distance with the `distanciaa` package:
 
-```python
-# Import the distanciaa package
-from distanciaa import EnhancedRogersTanimotoDistance
+.. code-block:: python
+    # Import the distanciaa package
+    from distanciaa import EnhancedRogersTanimotoDistance
 
-# Define two binary vectors
-vector_1 = [1, 0, 1, 1, 0]
-vector_2 = [1, 1, 1, 0, 0]
+    # Define two binary vectors
+    vector_1 = [1, 0, 1, 1, 0]
+    vector_2 = [1, 1, 1, 0, 0]
 
-# Create an instance of the EnhancedRogersTanimotoDistance class with specific weights
-enhanced_rt_dist = EnhancedRogersTanimotoDistance(alpha=1.5, beta=1.0)
+    # Create an instance of the EnhancedRogersTanimotoDistance class with specific weights
+    enhanced_rt_dist = EnhancedRogersTanimotoDistance(alpha=1.5, beta=1.0)
 
-# Calculate the Enhanced Rogers-Tanimoto distance between the two vectors
-distance = enhanced_rt_dist.calculate(vector_1, vector_2)
+    # Calculate the Enhanced Rogers-Tanimoto distance between the two vectors
+    distance = enhanced_rt_dist.calculate(vector_1, vector_2)
 
-# Print the result
-print(f"The Enhanced Rogers-Tanimoto distance between the two vectors is: {distance}")
+    # Print the result
+    print(f"The Enhanced Rogers-Tanimoto distance between the two vectors is: {distance}")
 
 Expected Output:
 
