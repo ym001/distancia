@@ -33,19 +33,25 @@ MAPE quantifies the accuracy of a model by measuring the average magnitude of th
 
 **Interpretation:** A lower MAPE indicates a better fit of the model, as it suggests that the predicted values are, on average, closer to the actual values in terms of percentage. However, MAPE has its limitations, particularly when actual values are near zero, as this can lead to extremely high or undefined percentage errors.
 
-#from distancia.loss_functions import MeanAbsolutePercentageError
+.. code-block:: python
 
-# Example true and predicted values
-y_true = [100, 200, 300, 400]
-y_pred = [110, 190, 310, 390]
+    from distancia import MeanAbsolutePercentageError
 
-# Create an instance of MeanAbsolutePercentageError
-mape_loss = MeanAbsolutePercentageError()
+    # Example true and predicted values
+    y_true = [100, 200, 300, 400]
+    y_pred = [110, 190, 310, 390]
 
-# Calculate the Mean Absolute Percentage Error
-mape_value = mape_loss(y_true, y_pred)
-print(f'Mean Absolute Percentage Error: {mape_value}%')
-      
+    # Create an instance of MeanAbsolutePercentageError
+    mape_loss = MeanAbsolutePercentageError()
+
+    # Calculate the Mean Absolute Percentage Error
+    mape_value = mape_loss(y_true, y_pred)
+    print(f'Mean Absolute Percentage Error: {mape_value}%')
+
+.. code-block:: python
+
+    >>>Mean Absolute Percentage Error: 5.208333333333334%
+
 History and Context
 ===================
 
