@@ -140,7 +140,7 @@ Available Metrics
 
    Motzkin-Straus
 
-   Enhanced Rogers-Tanimoto
+   Enhanced-Rogers-Tanimoto
 
    And many more...
 
