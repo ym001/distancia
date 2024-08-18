@@ -142,6 +142,8 @@ Available Metrics
 
    Enhanced-Rogers-Tanimoto
 
+   CrossEntropy
+
    And many more...
 
 For a complete list and detailed explanations of each metric, see the :doc:`metrics` section.
