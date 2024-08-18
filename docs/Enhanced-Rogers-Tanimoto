@@ -11,7 +11,7 @@ The Enhanced Rogers-Tanimoto distance is particularly useful in fields like bioi
 Formula
 -------
 
-The Enhanced Rogers-Tanimoto distance between two binary vectors \( x \) and \( y \) is defined as:
+The Enhanced Rogers-Tanimoto distance between two binary vectors :math:`x` and :math:`y` is defined as:
 
 .. math::
 
@@ -19,15 +19,15 @@ The Enhanced Rogers-Tanimoto distance between two binary vectors \( x \) and \( 
 
 Where:
 
-- \( n_{00} \) is the number of positions where both vectors have 0.
+- :math:`n_{00}` is the number of positions where both vectors have 0.
 
-- \( n_{01} \) is the number of positions where the first vector has 0 and the second has 1.
+- :math:`n_{01}` is the number of positions where the first vector has 0 and the second has 1.
 
-- \( n_{10} \) is the number of positions where the first vector has 1 and the second has 0.
+- :math:`n_{10}` is the number of positions where the first vector has 1 and the second has 0.
 
-- \( n_{11} \) is the number of positions where both vectors have 1.
+- :math:`n_{11}` is the number of positions where both vectors have 1.
 
-- \( \alpha \) and \( \beta \) are weighting factors that can be adjusted depending on the importance of matches and mismatches in the specific application.
+- :math:`\alpha` and :math:`\beta` are weighting factors that can be adjusted depending on the importance of matches and mismatches in the specific application.
 
 History
 -------
