@@ -49,17 +49,17 @@ Here is an example of how to use the Motzkin-Straus distance with the `distancia
 .. code-block:: python
 
     # Import the distanciaa package
-    from distanciaa import MotzkinStrausDistance
+    from distanciaa import MotzkinStraus
 
     # Define two vectors
     vector_1 = [1, 2, 3, 4]
     vector_2 = [4, 3, 2, 1]
 
-    # Create an instance of the MotzkinStrausDistance class
-    motzkin_straus_dist = MotzkinStrausDistance()
+    # Create an instance of the MotzkinStraus class
+    motzkin_straus_dist = MotzkinStraus()
 
     # Calculate the Motzkin-Straus distance between the two vectors
-    distance = motzkin_straus_dist.calculate(vector_1, vector_2)
+    distance = motzkin_straus_dist.distance(vector_1, vector_2)
 
     # Print the result
     print(f"The Motzkin-Straus distance between the two vectors is: {distance}")
