@@ -54,6 +54,11 @@ While more sophisticated metrics have been developed, the MAE's intuitive nature
     mae_value = mae_loss(y_true, y_pred)
     print(f'Mean Absolute Error: {mae_value}')
 
+.. code-block:: bash
+
+    >>>Mean Absolute Error: 0.5
+
+
 Academic Reference
 ==================
 
