@@ -33,18 +33,25 @@ The MSE measures the average squared error between predictions and actual values
 
 **Interpretation:** Lower MSE values indicate a better fit of the model, as they represent a smaller average squared error. A MSE of zero signifies a perfect fit, where predictions are exactly equal to the actual values.
 
-from distancia.loss_functions import MeanSquaredError
+.. code-block:: python
 
-# Example true and predicted values
-y_true = [3.0, -0.5, 2.0, 7.0]
-y_pred = [2.5, 0.0, 2.0, 8.0]
+    from distancia.loss_functions import MeanSquaredError
 
-# Create an instance of MeanSquaredError
-mse_loss = MeanSquaredError()
+    # Example true and predicted values
+    y_true = [3.0, -0.5, 2.0, 7.0]
+    y_pred = [2.5, 0.0, 2.0, 8.0]
 
-# Calculate the Mean Squared Error
-mse_value = mse_loss(y_true, y_pred)
-print(f'Mean Squared Error: {mse_value}')
+    # Create an instance of MeanSquaredError
+    mse_loss = MeanSquaredError()
+
+    # Calculate the Mean Squared Error
+    mse_value = mse_loss(y_true, y_pred)
+    print(f'Mean Squared Error: {mse_value}')
+
+.. code-block:: bash
+    >>>Mean Squared Error: 0.375
+
+
 
 History and Context
 ===================
