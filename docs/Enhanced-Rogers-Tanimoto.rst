@@ -59,7 +59,7 @@ Here is an example of how to use the Enhanced Rogers-Tanimoto distance with the 
     vector_1 = [1, 0, 1, 1, 0]
     vector_2 = [1, 1, 1, 0, 0]
 
-    # Create an instance of the EnhancedRogersTanimotoDistance class with specific weights
+    # Create an instance of the EnhancedRogersTanimoto class with specific weights
     enhanced_rt_dist = EnhancedRogersTanimoto(alpha=1.5, beta=1.0)
 
     # Calculate the Enhanced Rogers-Tanimoto distance between the two vectors
