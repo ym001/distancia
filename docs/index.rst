@@ -144,6 +144,8 @@ Available Metrics
 
    CrossEntropy
 
+   Kullback-Leibler
+
    And many more...
 
 For a complete list and detailed explanations of each metric, see the :doc:`metrics` section.
