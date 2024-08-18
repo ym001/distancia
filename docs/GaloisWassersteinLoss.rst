@@ -55,7 +55,7 @@ This loss function is particularly useful for tasks where classification errors 
 History
 -------
 
-The concept of **Galois-Wasserstein Loss** was introduced by [Your Name], founder of the `distancia` package, as a response to the limitations of traditional loss functions in text classification, especially when classes have complex and hierarchical relationships. This loss function is based on deep mathematical notions from Galois theory, introduced by Évariste Galois in the 19th century, and the Wasserstein distance, a metric derived from optimal transport theory.
+The concept of **Galois-Wasserstein Loss** was introduced by Yves Mercadier, founder of the `distancia` package, as a response to the limitations of traditional loss functions in text classification, especially when classes have complex and hierarchical relationships. This loss function is based on deep mathematical notions from Galois theory, introduced by Évariste Galois in the 19th century, and the Wasserstein distance, a metric derived from optimal transport theory.
 
 Academic Reference
 ------------------
