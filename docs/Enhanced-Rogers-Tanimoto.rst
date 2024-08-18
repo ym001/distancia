@@ -53,17 +53,17 @@ Here is an example of how to use the Enhanced Rogers-Tanimoto distance with the 
 .. code-block:: python
 
     # Import the distanciaa package
-    from distanciaa import EnhancedRogersTanimotoDistance
+    from distanciaa import EnhancedRogersTanimoto
 
     # Define two binary vectors
     vector_1 = [1, 0, 1, 1, 0]
     vector_2 = [1, 1, 1, 0, 0]
 
     # Create an instance of the EnhancedRogersTanimotoDistance class with specific weights
-    enhanced_rt_dist = EnhancedRogersTanimotoDistance(alpha=1.5, beta=1.0)
+    enhanced_rt_dist = EnhancedRogersTanimoto(alpha=1.5, beta=1.0)
 
     # Calculate the Enhanced Rogers-Tanimoto distance between the two vectors
-    distance = enhanced_rt_dist.calculate(vector_1, vector_2)
+    distance = enhanced_rt_dist.distance(vector_1, vector_2)
 
     # Print the result
     print(f"The Enhanced Rogers-Tanimoto distance between the two vectors is: {distance}")
