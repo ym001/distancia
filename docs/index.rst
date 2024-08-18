@@ -154,6 +154,8 @@ Available Metrics
 
    SquaredLogarithmicError
 
+   GaloisWassersteinLoss
+
    And many more...
 
 For a complete list and detailed explanations of each metric, see the :doc:`metrics` section.
