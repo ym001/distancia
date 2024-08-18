@@ -148,6 +148,8 @@ Available Metrics
 
    MeanAbsoluteError
 
+   MeanAbsolutePercentageError
+
    And many more...
 
 For a complete list and detailed explanations of each metric, see the :doc:`metrics` section.
