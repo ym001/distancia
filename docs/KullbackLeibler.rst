@@ -31,17 +31,24 @@ KL divergence quantifies the amount of information lost when `Q` is used to appr
 
 **Interpretation:** KL divergence is asymmetric, meaning that :math:`D_{KL}(P || Q) \neq D_{KL}(Q || P)`. This characteristic is crucial when using KL divergence in contexts such as variational inference and regularization in machine learning.
 
+.. code-block:: python
 
-# Example probability distributions
-p = [0.1, 0.4, 0.5]  # True distribution
-q = [0.2, 0.3, 0.5]  # Predicted distribution
+    from distancia import Levenshtein
+    # Example probability distributions
+    p = [0.1, 0.4, 0.5]  # True distribution
+    q = [0.2, 0.3, 0.5]  # Predicted distribution
 
-# Create an instance of KullbackLeiblerLoss
-kl_loss = KullbackLeibler()
+    # Create an instance of KullbackLeiblerLoss
+    kl_loss = KullbackLeibler()
 
-# Calculate the KL divergence
-kl_value = kl_loss(p, q)
-print(f'Kullback-Leibler Divergence: {kl_value}')
+    # Calculate the KL divergence
+    kl_value = kl_loss(p, q)
+    print(f'Kullback-Leibler Divergence: {kl_value}')
+
+.. code-block:: bash
+
+    >>>Kullback-Leibler Divergence: 0.04575811092471789
+
 
 History and Context
 ===================
