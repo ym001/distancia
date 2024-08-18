@@ -32,6 +32,25 @@ The **Galois-Wasserstein Loss** was developed to better account for structural r
 
 This loss function is particularly useful for tasks where classification errors have different implications depending on the conceptual proximity of the classes. By combining this approach with the Wasserstein distance and cross-entropy, the **Galois-Wasserstein Loss** offers a more comprehensive and robust assessment of model performance.
 
+.. code-block:: python
+
+    from distancia import GaloisWassersteinLoss
+
+    # Example true and predicted values
+    y_true = [1.0, 2.0, 3.0, 4.0]
+    y_pred = [1.1, 1.9, 2.5, 3.8]
+
+    # Create an instance of GaloisWassersteinLoss
+    GWL_loss = GaloisWassersteinLoss()
+
+    # Calculate the Squared Logarithmic Error
+    GWL_value = GWL_loss(y_true, y_pred)
+    print(f'Galois Wasserstein Loss : {GWL_value}')
+
+.. code-block:: bash
+
+    >>>Galois Wasserstein Loss : 14.132105584877621
+
 
 History
 -------
