@@ -138,7 +138,8 @@ Available Metrics
 
    Hellinger
 
-- Motzkin-Straus Distance
+   Motzkin-Straus
+
 - Enhanced Rogers-Tanimoto Distance
 - Inverse Cosine Distance
 - And many more...
