@@ -46,7 +46,7 @@ Example of Python Code
 
 Here is an example of how to use the Motzkin-Straus distance with the `distanciaa` package:
 
-```python
+.. code-block:: python
 
     # Import the distanciaa package
     from distanciaa import MotzkinStrausDistance
