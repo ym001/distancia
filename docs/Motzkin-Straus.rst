@@ -11,7 +11,7 @@ The Motzkin-Straus distance is used in applications that require measuring how "
 Formula
 -------
 
-The Motzkin-Straus distance between two vectors \( x \) and \( y \) is defined as:
+The Motzkin-Straus distance between two vectors :math:`x` and :math:`y` is defined as:
 
 .. math::
 
@@ -19,8 +19,10 @@ The Motzkin-Straus distance between two vectors \( x \) and \( y \) is defined a
 
 Where:
 
-- \( x \) and \( y \) are the vectors representing the data points.
-- \( n \) is the number of elements in each vector.
+- :math:`x` and :math:`y` are the vectors representing the data points.
+
+- :math:`n` is the number of elements in each vector.
+
 - The formula effectively calculates the complement of the normalized sum of pairwise products between elements of the two vectors.
 
 History
@@ -45,21 +47,22 @@ Example of Python Code
 Here is an example of how to use the Motzkin-Straus distance with the `distanciaa` package:
 
 ```python
-# Import the distanciaa package
-from distanciaa import MotzkinStrausDistance
 
-# Define two vectors
-vector_1 = [1, 2, 3, 4]
-vector_2 = [4, 3, 2, 1]
+    # Import the distanciaa package
+    from distanciaa import MotzkinStrausDistance
 
-# Create an instance of the MotzkinStrausDistance class
-motzkin_straus_dist = MotzkinStrausDistance()
+    # Define two vectors
+    vector_1 = [1, 2, 3, 4]
+    vector_2 = [4, 3, 2, 1]
 
-# Calculate the Motzkin-Straus distance between the two vectors
-distance = motzkin_straus_dist.calculate(vector_1, vector_2)
+    # Create an instance of the MotzkinStrausDistance class
+    motzkin_straus_dist = MotzkinStrausDistance()
 
-# Print the result
-print(f"The Motzkin-Straus distance between the two vectors is: {distance}")
+    # Calculate the Motzkin-Straus distance between the two vectors
+    distance = motzkin_straus_dist.calculate(vector_1, vector_2)
+
+    # Print the result
+    print(f"The Motzkin-Straus distance between the two vectors is: {distance}")
 
 Expected Output:
 
