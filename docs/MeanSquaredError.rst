@@ -49,6 +49,7 @@ The MSE measures the average squared error between predictions and actual values
     print(f'Mean Squared Error: {mse_value}')
 
 .. code-block:: bash
+
     >>>Mean Squared Error: 0.375
 
 
