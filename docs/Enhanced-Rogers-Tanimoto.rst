@@ -51,6 +51,7 @@ Example of Python Code
 Here is an example of how to use the Enhanced Rogers-Tanimoto distance with the `distanciaa` package:
 
 .. code-block:: python
+
     # Import the distanciaa package
     from distanciaa import EnhancedRogersTanimotoDistance
 
