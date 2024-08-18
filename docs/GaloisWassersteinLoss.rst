@@ -32,6 +32,7 @@ The **Galois-Wasserstein Loss** was developed to better account for structural r
 
 This loss function is particularly useful for tasks where classification errors have different implications depending on the conceptual proximity of the classes. By combining this approach with the Wasserstein distance and cross-entropy, the **Galois-Wasserstein Loss** offers a more comprehensive and robust assessment of model performance.
 
+
 History
 -------
 
