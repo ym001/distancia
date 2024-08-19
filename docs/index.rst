@@ -172,7 +172,9 @@ Available Metrics
 
    Otsuka
 
-   Enhanced-Rogers-Tanimoto
+   FagerMcGowan
+
+   EnhancedRogersTanimoto
 
    CrossEntropy
 
