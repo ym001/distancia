@@ -44,14 +44,14 @@ Here is an example of how to use the Bray-Curtis distance with the `distanciaa` 
 .. code-block:: python
 
     # Import the distanciaa package
-    from distanciaa import Bray_Curtis
+    from distanciaa import BrayCurtis
 
     # Define two sample vectors representing species abundance in two different samples
     sample_1 = [2, 0, 3, 1]
     sample_2 = [1, 1, 2, 0]
 
-    # Create an instance of the BrayCurtisDistance class
-    bray_curtis_dist = Bray_Curtis()
+    # Create an instance of the BrayCurti class
+    bray_curtis_dist = BrayCurtis()
 
     # Calculate the Bray-Curtis distance between the two samples
     distance = bray_curtis_dist.distance(sample_1, sample_2)
