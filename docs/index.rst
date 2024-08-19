@@ -116,6 +116,10 @@ Available Metrics
 
    Tanimoto
 
+   InverseTanimoto
+
+   RatcliffObershelp
+
    Tversky 
 
    Bhattacharyya
