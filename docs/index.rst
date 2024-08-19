@@ -120,6 +120,10 @@ Available Metrics
 
    RatcliffObershelp
 
+   Jaro
+
+   JaroWinkler
+
    Tversky 
 
    Bhattacharyya
