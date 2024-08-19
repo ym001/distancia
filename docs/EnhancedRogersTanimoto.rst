@@ -1,4 +1,4 @@
-Enhanced Rogers-Tanimoto Distance
+Enhanced Rogers Tanimoto Distance
 =================================
 
 Introduction
