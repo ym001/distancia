@@ -158,6 +158,8 @@ Available Metrics
 
    Gower
 
+   CzekanowskiDice
+
    Pearson
 
    Spearman
