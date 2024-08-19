@@ -142,6 +142,10 @@ Available Metrics
 
    BrayCurtis
 
+   RogersTanimoto
+
+   RussellRao
+
    Pearson
 
    Spearman
