@@ -46,14 +46,14 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
 
 .. code-block:: python
 
-    from distancia import Cosinesimilarity
+    from distancia import CosineSimilarity
 
     # Define two vectors
     vector1 = [1, 2, 3]
     vector2 = [4, 5, 6]
 
     # Calculate Cosine Similarity
-    similarity = cosinesimilarity().distance(vector1, vector2)
+    similarity = CosineSimilarity().distance(vector1, vector2)
 
     print(f"Cosine Similarity: {similarity}")
 
