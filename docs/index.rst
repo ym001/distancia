@@ -124,6 +124,8 @@ Available Metrics
 
    JaroWinkler
 
+   KendallTau
+
    Tversky 
 
    Bhattacharyya
