@@ -11,7 +11,7 @@ The Enhanced Rogers-Tanimoto distance is particularly useful in fields like bioi
 Formula
 -------
 
-The Enhanced Rogers-Tanimoto distance between two binary vectors :math:`x` and :math:`y` is defined as:
+The Enhanced Rogers Tanimoto distance between two binary vectors :math:`x` and :math:`y` is defined as:
 
 .. math::
 
@@ -32,9 +32,9 @@ Where:
 History
 -------
 
-The Rogers-Tanimoto distance was originally developed by Rogers and Tanimoto in the 1960s as a way to compare binary data. It has been widely used in various fields, particularly in the analysis of categorical data. However, over time, researchers identified scenarios where the original formula did not sufficiently account for the significance of certain features or their interactions.
+The Rogers Tanimoto distance was originally developed by Rogers and Tanimoto in the 1960s as a way to compare binary data. It has been widely used in various fields, particularly in the analysis of categorical data. However, over time, researchers identified scenarios where the original formula did not sufficiently account for the significance of certain features or their interactions.
 
-The Enhanced Rogers-Tanimoto distance was developed as a response to these limitations. By introducing weighting factors, it provides a more flexible and accurate measure of similarity or dissimilarity, especially in complex datasets where not all binary features are equally important.
+The Enhanced Rogers Tanimoto distance was developed as a response to these limitations. By introducing weighting factors, it provides a more flexible and accurate measure of similarity or dissimilarity, especially in complex datasets where not all binary features are equally important.
 
 Example of Use
 --------------
@@ -48,7 +48,7 @@ The Enhanced Rogers-Tanimoto distance can be used in various applications, inclu
 Example of Python Code
 ----------------------
 
-Here is an example of how to use the Enhanced Rogers-Tanimoto distance with the `distanciaa` package:
+Here is an example of how to use the Enhanced Rogers Tanimoto distance with the `distanciaa` package:
 
 .. code-block:: python
 
