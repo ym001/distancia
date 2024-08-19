@@ -22,37 +22,37 @@ Where:
 
 - :math:`|A| \) and :math:`|B|` are the sizes of the sets :math:`A` and :math:`B`, respectively.
 
-The Sørensen-Dice Distance ranges from 0 to 1, where 0 indicates that the two sets are identical, and 1 indicates that they are completely different.
+The SørensenDice Distance ranges from 0 to 1, where 0 indicates that the two sets are identical, and 1 indicates that they are completely different.
 
 History
 -------
 
-The Sørensen-Dice Coefficient was independently introduced by two researchers: the Danish botanist Thorvald Sørensen in 1948 and the American biologist Lee Raymond Dice in 1945. Sørensen introduced the index as a measure of the similarity between plant communities, while Dice applied it to biological samples. Over time, the coefficient became widely used in various scientific fields beyond ecology, including text mining, image processing, and data clustering.
+The SørensenDice Coefficient was independently introduced by two researchers: the Danish botanist Thorvald Sørensen in 1948 and the American biologist Lee Raymond Dice in 1945. Sørensen introduced the index as a measure of the similarity between plant communities, while Dice applied it to biological samples. Over time, the coefficient became widely used in various scientific fields beyond ecology, including text mining, image processing, and data clustering.
 
 Usage Example
 -------------
 
-Here's a simple Python example demonstrating how to calculate the Sørensen-Dice Distance between two binary strings using the `Distancia` package:
+Here's a simple Python example demonstrating how to calculate the SørensenDice distance between two binary strings using the `Distancia` package:
 
 .. code-block:: python
 
-    from distancia import Sorensen_Dice
+    from distancia import SorensenDice
 
     # Define two binary sets
     set1 = {1, 0, 1, 1}
     set2 = {1, 1, 0, 1}
 
-    # Calculate Sørensen-Dice Distance
-    distance = Sorensen_Dice().distance(set1, set2)
+    # Calculate SørensenDice Distance
+    distance = SorensenDice().distance(set1, set2)
 
-    print(f"Sørensen-Dice Distance: {distance}")
+    print(f"Sørensen Dice Distance: {distance}")
 
 In this example, the sets `set1` and `set2` are compared. The Sørensen-Dice Distance between these sets is calculated and printed, showing the similarity between the two sets.
 
 Applications
 ------------
 
-The Sørensen-Dice Distance is used in various applications, including:
+The Sørensen Dice distance is used in various applications, including:
 
 - **Natural Language Processing**: To compare the similarity between text documents, especially in information retrieval and text classification tasks.
 - **Image Analysis**: To measure the similarity between binary images or segmentations.
