@@ -106,6 +106,8 @@ Available Metrics
 
    Jaccard
 
+   GeneralizedJaccard
+
    Levenshtein
 
    Dice 
