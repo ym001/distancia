@@ -11,7 +11,7 @@ The Motzkin-Straus distance is used in applications that require measuring how "
 Formula
 -------
 
-The Motzkin-Straus distance between two vectors :math:`x` and :math:`y` is defined as:
+The Motzkin Straus distance between two vectors :math:`x` and :math:`y` is defined as:
 
 .. math::
 
@@ -38,7 +38,9 @@ Example of Use
 The Motzkin-Straus distance can be useful in:
 
 - Graph theory, where it helps determine how closely a given subgraph approximates a complete graph.
+
 - Combinatorial optimization, particularly in problems involving cliques and other graph structures.
+
 - Data clustering and similarity analysis when relationships can be naturally modeled as a graph.
 
 Example of Python Code
