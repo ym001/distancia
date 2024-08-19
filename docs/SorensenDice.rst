@@ -1,4 +1,4 @@
-Sørensen-Dice Distance
+Sørensen Dice Distance
 =======================
 
 The **Sørensen-Dice Distance** (also known simply as the Dice Coefficient or Sørensen Index) is a statistical tool used to measure the similarity between two samples or sets. It is particularly useful in cases where the data is binary or categorical and is often used in fields such as ecology, information retrieval, and natural language processing.
