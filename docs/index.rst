@@ -168,7 +168,9 @@ Available Metrics
 
    Hellinger
 
-   Motzkin-Straus
+   MotzkinStraus
+
+   Otsuka
 
    Enhanced-Rogers-Tanimoto
 
