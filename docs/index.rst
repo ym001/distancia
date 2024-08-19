@@ -146,6 +146,10 @@ Available Metrics
 
    RussellRao
 
+   SokalMichener
+
+   SokalSneath
+
    Pearson
 
    Spearman
