@@ -130,6 +130,8 @@ Available Metrics
 
    Mahalanobis
 
+   MahalanobisTaguchi
+
    Haversine
 
    Chebyshev
