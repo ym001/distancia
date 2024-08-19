@@ -112,8 +112,6 @@ Available Metrics
 
    Dice 
 
-   Sorensen-Dice
-
    Tanimoto
 
    InverseTanimoto
@@ -149,6 +147,10 @@ Available Metrics
    SokalMichener
 
    SokalSneath
+
+   DamerauLevenshtein
+
+   SorensenDice
 
    Pearson
 
