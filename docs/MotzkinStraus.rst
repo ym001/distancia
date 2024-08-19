@@ -1,4 +1,4 @@
-Motzkin-Straus Distance
+Motzkin Straus Distance
 ========================
 
 Introduction
