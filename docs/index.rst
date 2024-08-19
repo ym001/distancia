@@ -154,6 +154,10 @@ Available Metrics
 
    SorensenDice
 
+   Wasserstein
+
+   Gower
+
    Pearson
 
    Spearman
