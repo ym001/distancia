@@ -140,7 +140,7 @@ Available Metrics
 
    Canberra
 
-   Bray-Curtis
+   BrayCurtis
 
    Pearson
 
