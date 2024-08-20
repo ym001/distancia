@@ -53,7 +53,7 @@ This coefficient is particularly valuable in scenarios where the similarity of o
 
         # Iterate through the test cases and compute the similarity
         for vec1, vec2 in test_cases:
-            similarity = similarity_calculator.distance(vec1, vec2)
+            similarity = similarity_calculator.calculate(vec1, vec2)
             print(f"Generalized Jaccard similarity between {vec1} and {vec2}: {similarity:.4f}")
 
     if __name__ == "__main__":
