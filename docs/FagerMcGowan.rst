@@ -53,7 +53,7 @@ This coefficient is especially valuable in ecological studies, where understandi
 
         # Iterate through the test cases and compute the similarity
         for set1, set2 in test_cases:
-            similarity = similarity_calculator.distance(set1, set2, universal_set_size)
+            similarity = similarity_calculator.calculate(set1, set2, universal_set_size)
             print(f"Fager-McGowan similarity between {set1} and {set2}: {similarity:.4f}")
 
     if __name__ == "__main__":
