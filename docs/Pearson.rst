@@ -61,7 +61,7 @@ Here is an example of how to use the Pearson distance with the `distanciaa` pack
     pearson_dist = Pearson()
 
     # Calculate the Pearson distance between the two data points
-    distance = pearson_dist.distance(data_point_1, data_point_2)
+    distance = pearson_dist.calculate(data_point_1, data_point_2)
 
     # Print the result
     print(f"The Pearson distance between the two data points is: {distance}")
