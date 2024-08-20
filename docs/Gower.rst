@@ -50,28 +50,32 @@ The **Gower similarity coefficient** is designed to address the challenge of cal
 
 This coefficient is particularly useful in fields like ecology, social science, and marketing, where datasets often include diverse variables such as measurements, counts, and categorical labels. By standardizing the contribution of each variable to the overall similarity, the Gower coefficient provides a balanced and interpretable measure of similarity.
 
-# Create an instance of the Gower class
-    gower = Gower()
+.. code-block:: python
 
-    # Test cases: pairs of data points with mixed types (numerical and categorical)
-    test_cases = [
-        (["Red", 3.2, 5], ["Blue", 4.1, 3], [None, 5.0, 10]),
-        ([5.5, "M", 200], [6.1, "F", 180], [10, None, 50]),
-        ([0, "High", 10], [1, "Low", 10], [1, None, 10]),
-        ([100, "Yes", 3.5], [150, "No", 2.8], [50, None, 5]),
-        ([1.5, "Green", 2], [1.5, "Green", 2], [None, None, None])
-    ]
+        # Create an instance of the Gower class
+        gower = Gower()
 
-    # Compute and print the Gower similarity for each pair
-    for vec1, vec2, ranges in test_cases:
-        similarity = gower.distance(vec1, vec2, ranges)
-        print(f"Gower similarity between {vec1} and {vec2}: {similarity:.4f}")
+        # Test cases: pairs of data points with mixed types (numerical and categorical)
+        test_cases = [
+            (["Red", 3.2, 5], ["Blue", 4.1, 3], [None, 5.0, 10]),
+            ([5.5, "M", 200], [6.1, "F", 180], [10, None, 50]),
+            ([0, "High", 10], [1, "Low", 10], [1, None, 10]),
+            ([100, "Yes", 3.5], [150, "No", 2.8], [50, None, 5]),
+            ([1.5, "Green", 2], [1.5, "Green", 2], [None, None, None])
+        ]
 
-Gower similarity between ['Red', 3.2, 5] and ['Blue', 4.1, 3]: 0.5400
-Gower similarity between [5.5, 'M', 200] and [6.1, 'F', 180]: 0.5133
-Gower similarity between [0, 'High', 10] and [1, 'Low', 10]: 0.3333
-Gower similarity between [100, 'Yes', 3.5] and [150, 'No', 2.8]: 0.2867
-Gower similarity between [1.5, 'Green', 2] and [1.5, 'Green', 2]: 1.0000
+        # Compute and print the Gower similarity for each pair
+        for vec1, vec2, ranges in test_cases:
+            similarity = gower.distance(vec1, vec2, ranges)
+            print(f"Gower similarity between {vec1} and {vec2}: {similarity:.4f}")
+
+.. code-block:: python
+
+    >>>Gower similarity between ['Red', 3.2, 5] and ['Blue', 4.1, 3]: 0.5400
+    >>>Gower similarity between [5.5, 'M', 200] and [6.1, 'F', 180]: 0.5133
+    >>>Gower similarity between [0, 'High', 10] and [1, 'Low', 10]: 0.3333
+    >>>Gower similarity between [100, 'Yes', 3.5] and [150, 'No', 2.8]: 0.2867
+    >>>Gower similarity between [1.5, 'Green', 2] and [1.5, 'Green', 2]: 1.0000
 
 History
 -------
