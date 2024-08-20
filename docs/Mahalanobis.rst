@@ -47,7 +47,7 @@ Here is a Python example demonstrating how to calculate the Mahalanobis distance
     point = [3, 5]
 
     # Create an instance of MahalanobisDistance
-    distance = Mahalanobis().distance(point, data)
+    distance = Mahalanobis().calculate(point, data)
 
     print(f"Mahalanobis Distance: {distance}")
 
