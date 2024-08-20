@@ -24,11 +24,31 @@ where:
 Concept and Purpose
 -------------------
 
-The **Czekanowski-Dice** coefficient provides a measure of similarity that ranges from 0 (no similarity) to 1 (perfect similarity). The formula focuses on the overlap between two sets, making it particularly useful for tasks where the relative size of the intersection is more significant than the overall size of the sets. This is especially relevant in scenarios such as text classification, where the presence of certain keywords or attributes is more informative than the absence of others.
+The **Czekanowski Dice** coefficient provides a measure of similarity that ranges from 0 (no similarity) to 1 (perfect similarity). The formula focuses on the overlap between two sets, making it particularly useful for tasks where the relative size of the intersection is more significant than the overall size of the sets. This is especially relevant in scenarios such as text classification, where the presence of certain keywords or attributes is more informative than the absence of others.
 
 The measure is symmetrical, meaning that the similarity between set :math:`X` and set :math:`Y` is the same as that between :math:`Y` and :math:`X`. This property makes it suitable for comparing datasets where directionality is not a concern.
 
+Usage Example
+-------------
 
+Here's a simple Python example demonstrating how to calculate the Dice Distance between two vector using the `Distancia` package:
+
+.. code-block:: python
+
+    from distancia import CzekanowskiDice
+
+    # Define two vector
+    set1 = [1.3, 0, 1, 1]
+    set2 = [1, 1, 0, 1]
+
+    # Calculate Dice Distance
+    similarity = CzekanowskiDice().distance(set1, set2)
+
+    print(f"Czekanowski Dice similarity: {similarity}")
+
+.. code-block:: python
+
+    >>>Czekanowski Dice similarity: 0.3650793650793651
 
 History
 -------
