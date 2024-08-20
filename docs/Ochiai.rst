@@ -59,7 +59,7 @@ Here is an example of how to use the Ochiai distance with the `distanciaa` packa
     ochiai_dist = Ochiai()
 
     # Calculate the Ochiai distance between the two binary vectors
-    distance = ochiai_dist.distance(binary_vector_1, binary_vector_2)
+    distance = ochiai_dist.calculate(binary_vector_1, binary_vector_2)
 
     # Print the result
     print(f"The Ochiai distance between the two binary vectors is: {distance}")
