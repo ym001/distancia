@@ -45,7 +45,7 @@ Here's a simple Python example demonstrating how to calculate the Euclidean dist
     point2 = [7, 1, 9]
 
     # Calculate Euclidean Distance
-    distance = Euclidean().distance(point1, point2)
+    distance = Euclidean().calculate(point1, point2)
 
     print(f"Euclidean Distance: {distance}")
 
