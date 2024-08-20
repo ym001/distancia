@@ -42,7 +42,7 @@ Here's a simple Python example demonstrating how to calculate the Dice Distance 
     set2 = [1, 1, 0, 1]
 
     # Calculate Dice Distance
-    similarity = CzekanowskiDice().distance(set1, set2)
+    similarity = CzekanowskiDice().calculate(set1, set2)
 
     print(f"Czekanowski Dice similarity: {similarity}")
 
