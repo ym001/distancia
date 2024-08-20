@@ -61,7 +61,7 @@ Here is an example of how to use the Motzkin-Straus distance with the `distancia
     motzkin_straus_dist = MotzkinStraus()
 
     # Calculate the Motzkin-Straus distance between the two vectors
-    distance = motzkin_straus_dist.distance(vector_1, vector_2)
+    distance = motzkin_straus_dist.calculate(vector_1, vector_2)
 
     # Print the result
     print(f"The Motzkin-Straus distance between the two vectors is: {distance}")
