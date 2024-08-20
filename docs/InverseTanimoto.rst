@@ -28,6 +28,7 @@ Concept and Idea
 The Inverse Tanimoto coefficient serves as a complementary measure to the traditional Tanimoto coefficient. While the Tanimoto coefficient is adept at identifying the proportion of shared features between two entities, the Inverse Tanimoto focuses on the portion of features that differ. This is particularly valuable in scenarios where dissimilarity is more critical to assess than similarity. For example, in drug design, identifying compounds that are structurally different from known active compounds can be as important as finding similar ones.
 
 By subtracting the intersection from the union, the Inverse Tanimoto coefficient provides a normalized measure of how much two sets differ relative to their combined size.
+
 .. code-block:: python
 
     from distancia import Jaccard
@@ -59,7 +60,6 @@ By subtracting the intersection from the union, the Inverse Tanimoto coefficient
         print(f"Inverse Tanimoto coefficient between {a} and {b}: {result:.4f}")
 
 .. code-block:: bash
-
     
     >>>Inverse Tanimoto coefficient between {1, 2, 3, 4} and {3, 4, 5, 6}: 0.6667
     >>>Inverse Tanimoto coefficient between {1, 2, 3} and {3, 4, 5}: 0.8000
