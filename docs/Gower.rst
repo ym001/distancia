@@ -68,7 +68,7 @@ This coefficient is particularly useful in fields like ecology, social science, 
 
         # Compute and print the Gower similarity for each pair
         for vec1, vec2, ranges in test_cases:
-            similarity = gower.distance(vec1, vec2, ranges)
+            similarity = gower.calculate(vec1, vec2, ranges)
             print(f"Gower similarity between {vec1} and {vec2}: {similarity:.4f}")
 
 .. code-block:: python
