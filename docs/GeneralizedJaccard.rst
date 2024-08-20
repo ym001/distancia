@@ -31,39 +31,43 @@ The **Generalized Jaccard** coefficient extends the classical Jaccard index to h
 
 This coefficient is particularly valuable in scenarios where the similarity of objects is not binary but is instead graded or fuzzy, such as in comparing weighted networks, multi-dimensional data points, or probabilistic models.
 
-# Importing the GeneralizedJaccard class from the distancia package
-from distancia import GeneralizedJaccard
+.. code-block:: python
 
-# Define a function to test the Generalized Jaccard similarity
-def test_generalized_jaccard():
-    # Create an instance of the GeneralizedJaccard class
-    similarity_calculator = GeneralizedJaccard()
+    # Importing the GeneralizedJaccard class from the distancia package
+    from distancia import GeneralizedJaccard
 
-    # Test cases: pairs of vectors to compare
-    test_cases = [
-        ([1, 2, 3], [3, 2, 1]),
-        ([0, 1, 2], [2, 0, 1]),
-        ([5, 10, 15], [10, 15, 5]),
-        ([0.5, 0.7, 0.9], [0.9, 0.7, 0.5]),
-        ([1, 1, 1], [1, 1, 1]),
-        ([0, 0, 0], [1, 2, 3]),
-    ]
+    # Define a function to test the Generalized Jaccard similarity
+    def test_generalized_jaccard():
+        # Create an instance of the GeneralizedJaccard class
+        similarity_calculator = GeneralizedJaccard()
 
-    # Iterate through the test cases and compute the similarity
-    for vec1, vec2 in test_cases:
-        similarity = similarity_calculator.distance(vec1, vec2)
-        print(f"Generalized Jaccard similarity between {vec1} and {vec2}: {similarity:.4f}")
+        # Test cases: pairs of vectors to compare
+        test_cases = [
+            ([1, 2, 3], [3, 2, 1]),
+            ([0, 1, 2], [2, 0, 1]),
+            ([5, 10, 15], [10, 15, 5]),
+            ([0.5, 0.7, 0.9], [0.9, 0.7, 0.5]),
+            ([1, 1, 1], [1, 1, 1]),
+            ([0, 0, 0], [1, 2, 3]),
+        ]
 
-if __name__ == "__main__":
-    # Run the test function
-    test_generalized_jaccard()
+        # Iterate through the test cases and compute the similarity
+        for vec1, vec2 in test_cases:
+            similarity = similarity_calculator.distance(vec1, vec2)
+            print(f"Generalized Jaccard similarity between {vec1} and {vec2}: {similarity:.4f}")
 
-Generalized Jaccard similarity between [1, 2, 3] and [3, 2, 1]: 0.5000
-Generalized Jaccard similarity between [0, 1, 2] and [2, 0, 1]: 0.8000
-Generalized Jaccard similarity between [5, 10, 15] and [10, 15, 5]: 0.5000
-Generalized Jaccard similarity between [0.5, 0.7, 0.9] and [0.9, 0.7, 0.5]: 0.3200
-Generalized Jaccard similarity between [1, 1, 1] and [1, 1, 1]: 0.0000
-Generalized Jaccard similarity between [0, 0, 0] and [1, 2, 3]: 1.0000
+    if __name__ == "__main__":
+        # Run the test function
+        test_generalized_jaccard()
+
+.. code-block:: bash
+
+    >>>Generalized Jaccard similarity between [1, 2, 3] and [3, 2, 1]: 0.5000
+    >>>Generalized Jaccard similarity between [0, 1, 2] and [2, 0, 1]: 0.8000
+    >>>Generalized Jaccard similarity between [5, 10, 15] and [10, 15, 5]: 0.5000
+    >>>Generalized Jaccard similarity between [0.5, 0.7, 0.9] and [0.9, 0.7, 0.5]: 0.3200
+    >>>Generalized Jaccard similarity between [1, 1, 1] and [1, 1, 1]: 0.0000
+    >>>Generalized Jaccard similarity between [0, 0, 0] and [1, 2, 3]: 1.0000
 
 History
 -------
