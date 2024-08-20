@@ -40,7 +40,7 @@ By subtracting the intersection from the union, the Inverse Tanimoto coefficient
     set_b = {3, 4, 5, 6}
 
     # Calculate the Inverse Tanimoto coefficient between the two sets
-    result = inverse_tanimoto.distance(set_a, set_b)
+    result = inverse_tanimoto.calculate(set_a, set_b)
 
     # Print the result
     print(f"Inverse Tanimoto coefficient between {set_a} and {set_b}: {result:.4f}")
@@ -56,7 +56,7 @@ By subtracting the intersection from the union, the Inverse Tanimoto coefficient
 
     # Run additional test cases
     for a, b in test_cases:
-        result = inverse_tanimoto.distance(a, b)
+        result = inverse_tanimoto.calculate(a, b)
         print(f"Inverse Tanimoto coefficient between {a} and {b}: {result:.4f}")
 
 .. code-block:: bash
