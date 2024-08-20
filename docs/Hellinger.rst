@@ -55,7 +55,7 @@ Here is an example of how to use the Hellinger distance with the `distanciaa` pa
   hellinger_dist = Hellinger()
 
   # Calculate the Hellinger distance between the two distributions
-  distance = hellinger_dist.distance(distribution_1, distribution_2)
+  distance = hellinger_dist.calculate(distribution_1, distribution_2)
 
   # Print the result
   print(f"The Hellinger distance between the two distributions is: {distance}")
