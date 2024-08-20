@@ -43,7 +43,7 @@ Here's a simple Python example demonstrating how to calculate the Dice Distance 
     set2 = {1, 1, 0, 1}
 
     # Calculate Dice Distance
-    distance = dice().distance(set1, set2)
+    distance = dice().calculate(set1, set2)
 
     print(f"Dice Distance: {distance}")
 
