@@ -41,6 +41,7 @@ from distancia import DamerauLevenshtein
 
 # Define a function to test the DamerauLevenshtein distance
 
+.. code-block:: python
 
 def test_damerau_levenshtein():
     # Create an instance of the DamerauLevenshtein class
