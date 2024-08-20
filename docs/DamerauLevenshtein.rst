@@ -43,27 +43,36 @@ from distancia import DamerauLevenshtein
 
 .. code-block:: python
 
-def test_damerau_levenshtein():
-    # Create an instance of the DamerauLevenshtein class
-    distance_calculator = DamerauLevenshtein()
+    def test_damerau_levenshtein():
+        # Create an instance of the DamerauLevenshtein class
+        distance_calculator = DamerauLevenshtein()
 
-    # Test cases: Pairs of strings to compare
-    test_cases = [
-        ("kitten", "sitting"),
-        ("flaw", "lawn"),
-        ("saturday", "sundays"),
-        ("gumbo", "gambol"),
-        ("ca", "abc"),
-    ]
+        # Test cases: Pairs of strings to compare
+        test_cases = [
+            ("kitten", "sitting"),
+            ("flaw", "lawn"),
+            ("saturday", "sundays"),
+            ("gumbo", "gambol"),
+            ("ca", "abc"),
+        ]
 
-    # Iterate through the test cases and compute the distance
-    for str1, str2 in test_cases:
-        distance = distance_calculator.calculate(str1, str2)
-        print(f"Damerau-Levenshtein distance between '{str1}' and '{str2}': {distance}")
+        # Iterate through the test cases and compute the distance
+        for str1, str2 in test_cases:
+            distance = distance_calculator.calculate(str1, str2)
+            print(f"Damerau-Levenshtein distance between '{str1}' and '{str2}': {distance}")
 
-if __name__ == "__main__":
-    # Run the test function
-    test_damerau_levenshtein()
+    if __name__ == "__main__":
+        # Run the test function
+        test_damerau_levenshtein()
+
+.. code-block:: python
+
+    Damerau Levenshtein distance between 'kitten' and 'sitting': 3
+    Damerau Levenshtein distance between 'flaw' and 'lawn': 2
+    Damerau Levenshtein distance between 'saturday' and 'sundays': 4
+    Damerau Levenshtein distance between 'gumbo' and 'gambol': 2
+    Damerau Levenshtein distance between 'ca' and 'abc': 3
+
 
 History
 -------
