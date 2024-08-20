@@ -52,7 +52,7 @@ Here is a Python example demonstrating how to calculate the Haversine distance b
     haversine = Haversine()
 
     # Calculate the Haversine distance
-    distance = haversine.distance(point1, point2)
+    distance = haversine.calculate(point1, point2)
 
     print(f"Haversine Distance: {distance} km")
 
