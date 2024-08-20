@@ -28,39 +28,45 @@ Concept and Idea
 The Inverse Tanimoto coefficient serves as a complementary measure to the traditional Tanimoto coefficient. While the Tanimoto coefficient is adept at identifying the proportion of shared features between two entities, the Inverse Tanimoto focuses on the portion of features that differ. This is particularly valuable in scenarios where dissimilarity is more critical to assess than similarity. For example, in drug design, identifying compounds that are structurally different from known active compounds can be as important as finding similar ones.
 
 By subtracting the intersection from the union, the Inverse Tanimoto coefficient provides a normalized measure of how much two sets differ relative to their combined size.
+.. code-block:: python
 
-# Instantiate the InverseTanimoto class
-inverse_tanimoto = InverseTanimoto()
+    from distancia import Jaccard
+    # Instantiate the InverseTanimoto class
+    inverse_tanimoto = InverseTanimoto()
 
-# Define two sets for testing
-set_a = {1, 2, 3, 4}
-set_b = {3, 4, 5, 6}
+    # Define two sets for testing
+    set_a = {1, 2, 3, 4}
+    set_b = {3, 4, 5, 6}
 
-# Calculate the Inverse Tanimoto coefficient between the two sets
-result = inverse_tanimoto.distance(set_a, set_b)
+    # Calculate the Inverse Tanimoto coefficient between the two sets
+    result = inverse_tanimoto.distance(set_a, set_b)
 
-# Print the result
-print(f"Inverse Tanimoto coefficient between {set_a} and {set_b}: {result:.4f}")
+    # Print the result
+    print(f"Inverse Tanimoto coefficient between {set_a} and {set_b}: {result:.4f}")
 
-# Additional test cases
-test_cases = [
-    ({1, 2, 3}, {3, 4, 5}),
-    ({'apple', 'banana', 'cherry'}, {'banana', 'cherry', 'date'}),
-    ({1, 2}, {1, 2, 3, 4}),
-    ({'cat', 'dog'}, {'dog', 'mouse'}),
-    ({10, 20, 30}, {40, 50, 60})
-]
+    # Additional test cases
+    test_cases = [
+        ({1, 2, 3}, {3, 4, 5}),
+        ({'apple', 'banana', 'cherry'}, {'banana', 'cherry', 'date'}),
+        ({1, 2}, {1, 2, 3, 4}),
+        ({'cat', 'dog'}, {'dog', 'mouse'}),
+        ({10, 20, 30}, {40, 50, 60})
+    ]
 
-# Run additional test cases
-for a, b in test_cases:
-    result = inverse_tanimoto.distance(a, b)
-    print(f"Inverse Tanimoto coefficient between {a} and {b}: {result:.4f}")
-Inverse Tanimoto coefficient between {1, 2, 3, 4} and {3, 4, 5, 6}: 0.6667
-Inverse Tanimoto coefficient between {1, 2, 3} and {3, 4, 5}: 0.8000
-Inverse Tanimoto coefficient between {'apple', 'cherry', 'banana'} and {'date', 'cherry', 'banana'}: 0.5000
-Inverse Tanimoto coefficient between {1, 2} and {1, 2, 3, 4}: 0.5000
-Inverse Tanimoto coefficient between {'cat', 'dog'} and {'mouse', 'dog'}: 0.6667
-Inverse Tanimoto coefficient between {10, 20, 30} and {40, 50, 60}: 1.0000
+    # Run additional test cases
+    for a, b in test_cases:
+        result = inverse_tanimoto.distance(a, b)
+        print(f"Inverse Tanimoto coefficient between {a} and {b}: {result:.4f}")
+
+.. code-block:: bash
+
+    
+    >>>Inverse Tanimoto coefficient between {1, 2, 3, 4} and {3, 4, 5, 6}: 0.6667
+    >>>Inverse Tanimoto coefficient between {1, 2, 3} and {3, 4, 5}: 0.8000
+    >>>Inverse Tanimoto coefficient between {'apple', 'cherry', 'banana'} and {'date', 'cherry', 'banana'}: 0.5000
+    >>>Inverse Tanimoto coefficient between {1, 2} and {1, 2, 3, 4}: 0.5000
+    >>>Inverse Tanimoto coefficient between {'cat', 'dog'} and {'mouse', 'dog'}: 0.6667
+    >>>Inverse Tanimoto coefficient between {10, 20, 30} and {40, 50, 60}: 1.0000
 
 History
 -------
