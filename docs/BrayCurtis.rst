@@ -54,7 +54,7 @@ Here is an example of how to use the Bray-Curtis distance with the `distanciaa` 
     bray_curtis_dist = BrayCurtis()
 
     # Calculate the Bray-Curtis distance between the two samples
-    distance = bray_curtis_dist.distance(sample_1, sample_2)
+    distance = bray_curtis_dist.calculate(sample_1, sample_2)
 
     # Print the result
     print(f"The Bray-Curtis distance between the two samples is: {distance}")
