@@ -51,7 +51,7 @@ Here's a simple Python example demonstrating how to calculate the Levenshtein Di
     str2 = "sitting"
 
     # Calculate Levenshtein Distance
-    distance = Levenshtein().distance(str1, str2)
+    distance = Levenshtein().calculate(str1, str2)
 
     print(f"Levenshtein Distance: {distance}")
 
