@@ -48,7 +48,7 @@ Here is a Python example demonstrating how to calculate the Chebyshev distance b
     chebyshev = Chebyshev()
 
     # Calculate the Chebyshev distance
-    distance = chebyshev.distance(point1, point2)
+    distance = chebyshev.calculate(point1, point2)
 
     print(f"Chebyshev Distance: {distance}")
 
