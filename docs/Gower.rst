@@ -52,6 +52,8 @@ This coefficient is particularly useful in fields like ecology, social science, 
 
 .. code-block:: python
 
+        from distancia import Gower
+
         # Create an instance of the Gower class
         gower = Gower()
 
