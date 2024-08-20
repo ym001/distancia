@@ -59,7 +59,7 @@ Here is an example of how to use the Spearman distance with the `distanciaa` pac
     spearman_dist = Spearman()
 
     # Calculate the Spearman distance between the two data points
-    distance = spearman_dist.distance(data_point_1, data_point_2)
+    distance = spearman_dist.calculate(data_point_1, data_point_2)
 
     # Print the result
     print(f"The Spearman distance between the two data points is: {distance}")
