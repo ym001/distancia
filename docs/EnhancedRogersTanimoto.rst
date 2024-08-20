@@ -63,7 +63,7 @@ Here is an example of how to use the Enhanced Rogers Tanimoto distance with the 
     enhanced_rt_dist = EnhancedRogersTanimoto(alpha=1.5, beta=1.0)
 
     # Calculate the Enhanced Rogers-Tanimoto distance between the two vectors
-    distance = enhanced_rt_dist.distance(vector_1, vector_2)
+    distance = enhanced_rt_dist.calculate(vector_1, vector_2)
 
     # Print the result
     print(f"The Enhanced Rogers-Tanimoto distance between the two vectors is: {distance}")
