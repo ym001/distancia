@@ -29,40 +29,44 @@ The **FagerMc Gowan** coefficient is particularly effective in situations where 
 
 This coefficient is especially valuable in ecological studies, where understanding the co-occurrence patterns of species in different environments can reveal important insights about biodiversity, habitat preference, and environmental factors influencing species distribution.
 
-# Importing the FagerMcGowan class from the distancia package
-from distancia import FagerMcGowan
+.. code-block:: python
 
-# Define a function to test the FagerMcGowan similarity coefficient
-def test_fager_mcgowan():
-    # Create an instance of the FagerMcGowan class
-    similarity_calculator = FagerMcGowan()
+    # Importing the FagerMcGowan class from the distancia package
+    from distancia import FagerMcGowan
 
-    # Test cases: Sets to compare
-    test_cases = [
-        ({"a", "b", "c"}, {"b", "c", "d"}),
-        ({"apple", "banana"}, {"banana", "cherry"}),
-        ({"cat", "dog"}, {"dog", "mouse"}),
-        ({"python", "java", "c++"}, {"java", "c++", "ruby"}),
-        ({"red", "blue", "green"}, {"yellow", "blue", "green", "purple"}),
-    ]
+    # Define a function to test the FagerMcGowan similarity coefficient
+    def test_fager_mcgowan():
+        # Create an instance of the FagerMcGowan class
+        similarity_calculator = FagerMcGowan()
 
-    # Total number of unique elements in the universal set (for the purpose of these examples)
-    universal_set_size = 10
+        # Test cases: Sets to compare
+        test_cases = [
+            ({"a", "b", "c"}, {"b", "c", "d"}),
+            ({"apple", "banana"}, {"banana", "cherry"}),
+            ({"cat", "dog"}, {"dog", "mouse"}),
+            ({"python", "java", "c++"}, {"java", "c++", "ruby"}),
+            ({"red", "blue", "green"}, {"yellow", "blue", "green", "purple"}),
+        ]
 
-    # Iterate through the test cases and compute the similarity
-    for set1, set2 in test_cases:
-        similarity = similarity_calculator.distance(set1, set2, universal_set_size)
-        print(f"Fager-McGowan similarity between {set1} and {set2}: {similarity:.4f}")
+        # Total number of unique elements in the universal set (for the purpose of these examples)
+        universal_set_size = 10
 
-if __name__ == "__main__":
-    # Run the test function
-    test_fager_mcgowan()
+        # Iterate through the test cases and compute the similarity
+        for set1, set2 in test_cases:
+            similarity = similarity_calculator.distance(set1, set2, universal_set_size)
+            print(f"Fager-McGowan similarity between {set1} and {set2}: {similarity:.4f}")
 
-Fager-McGowan similarity between {'a', 'b', 'c'} and {'c', 'b', 'd'}: 0.3667
-Fager-McGowan similarity between {'apple', 'banana'} and {'banana', 'cherry'}: 0.3000
-Fager-McGowan similarity between {'dog', 'cat'} and {'dog', 'mouse'}: 0.3000
-Fager-McGowan similarity between {'python', 'c++', 'java'} and {'c++', 'ruby', 'java'}: 0.3667
-Fager-McGowan similarity between {'green', 'blue', 'red'} and {'green', 'yellow', 'blue', 'purple'}: 0.2667
+    if __name__ == "__main__":
+        # Run the test function
+        test_fager_mcgowan()
+
+.. code-block:: python
+
+    >>>Fager-McGowan similarity between {'a', 'b', 'c'} and {'c', 'b', 'd'}: 0.3667
+    >>>Fager-McGowan similarity between {'apple', 'banana'} and {'banana', 'cherry'}: 0.3000
+    >>>Fager-McGowan similarity between {'dog', 'cat'} and {'dog', 'mouse'}: 0.3000
+    >>>Fager-McGowan similarity between {'python', 'c++', 'java'} and {'c++', 'ruby', 'java'}: 0.3667
+    >>>Fager-McGowan similarity between {'green', 'blue', 'red'} and {'green', 'yellow', 'blue', 'purple'}: 0.2667
 
 History
 -------
