@@ -33,27 +33,30 @@ The Sokal-Sneath distance measures the dissimilarity between two binary vectors,
 
 This metric is useful in situations where the presence of differences between binary vectors is more important than their similarities.
 
-from distancia import SokalSneath  # Import the SokalSneath class from the distancia package
+.. code-block:: python
 
-def main():
-    # Define two binary vectors for comparison
-    vector1 = [1, 0, 1, 1, 0, 0, 1]
-    vector2 = [1, 1, 0, 1, 0, 0, 1]
+    from distancia import SokalSneath  # Import the SokalSneath class from the distancia package
 
-    # Create an instance of the SokalSneath class
-    sokal_sneath = SokalSneath(vector1, vector2)
+    def main():
+        # Define two binary vectors for comparison
+        vector1 = [1, 0, 1, 1, 0, 0, 1]
+        vector2 = [1, 1, 0, 1, 0, 0, 1]
 
-    # Calculate the Sokal-Sneath distance
-    distance = sokal_sneath.calculate()
+        # Create an instance of the SokalSneath class
+        sokal_sneath = SokalSneath(vector1, vector2)
 
-    # Print the result
-    print(f"Sokal-Sneath distance between {vector1} and {vector2} is: {distance:.4f}")
+        # Calculate the Sokal-Sneath distance
+        distance = sokal_sneath.calculate()
 
-if __name__ == "__main__":
-    main()
+        # Print the result
+        print(f"Sokal-Sneath distance between {vector1} and {vector2} is: {distance:.4f}")
 
+    if __name__ == "__main__":
+        main()
 
-Sokal-Sneath distance between [1, 0, 1, 1, 0, 0, 1] and [1, 1, 0, 1, 0, 0, 1] is: 0.6000
+.. code-block:: bash
+
+    >>>Sokal-Sneath distance between [1, 0, 1, 1, 0, 0, 1] and [1, 1, 0, 1, 0, 0, 1] is: 0.6000
 
 History
 -------
