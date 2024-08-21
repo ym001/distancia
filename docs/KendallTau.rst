@@ -36,44 +36,47 @@ The Kendall Tau distance is a normalized metric that ranges from -1 to 1:
 
 This metric is particularly effective when comparing rankings or sequences where the relative order of elements is important.
 
-from distancia import KendallTau  # Assuming the KendallTau class is in the distancia package
+.. code-block:: python
 
-def main():
-    # Create an instance of the KendallTau class
-    kendall_tau = KendallTau()
+    from distancia import KendallTau  # Assuming the KendallTau class is in the distancia package
 
-    # Example 1: Identical rankings
-    ranking1 = [1, 2, 3, 4, 5]
-    ranking2 = [1, 2, 3, 4, 5]
-    distance = kendall_tau.calculate(ranking1, ranking2)
-    print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
+    def main():
+        # Create an instance of the KendallTau class
+        kendall_tau = KendallTau()
 
-    # Example 2: Completely reversed rankings
-    ranking1 = [1, 2, 3, 4, 5]
-    ranking2 = [5, 4, 3, 2, 1]
-    distance = kendall_tau.calculate(ranking1, ranking2)
-    print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
+        # Example 1: Identical rankings
+        ranking1 = [1, 2, 3, 4, 5]
+        ranking2 = [1, 2, 3, 4, 5]
+        distance = kendall_tau.calculate(ranking1, ranking2)
+        print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
 
-    # Example 3: Partially similar rankings
-    ranking1 = [1, 2, 3, 4, 5]
-    ranking2 = [1, 3, 2, 4, 5]
-    distance = kendall_tau.calculate(ranking1, ranking2)
-    print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
+        # Example 2: Completely reversed rankings
+        ranking1 = [1, 2, 3, 4, 5]
+        ranking2 = [5, 4, 3, 2, 1]
+        distance = kendall_tau.calculate(ranking1, ranking2)
+        print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
 
-    # Example 4: Random rankings
-    ranking1 = [1, 2, 3, 4, 5]
-    ranking2 = [3, 1, 4, 5, 2]
-    distance = kendall_tau.calculate(ranking1, ranking2)
-    print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
+        # Example 3: Partially similar rankings
+        ranking1 = [1, 2, 3, 4, 5]
+        ranking2 = [1, 3, 2, 4, 5]
+        distance = kendall_tau.calculate(ranking1, ranking2)
+        print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
 
-if __name__ == "__main__":
-    main()
+        # Example 4: Random rankings
+        ranking1 = [1, 2, 3, 4, 5]
+        ranking2 = [3, 1, 4, 5, 2]
+        distance = kendall_tau.calculate(ranking1, ranking2)
+        print(f"Kendall Tau distance between {ranking1} and {ranking2}: {distance}")
 
+    if __name__ == "__main__":
+        main()
 
-Kendall Tau distance between [1, 2, 3, 4, 5] and [1, 2, 3, 4, 5]: 0
-Kendall Tau distance between [1, 2, 3, 4, 5] and [5, 4, 3, 2, 1]: 10
-Kendall Tau distance between [1, 2, 3, 4, 5] and [1, 3, 2, 4, 5]: 1
-Kendall Tau distance between [1, 2, 3, 4, 5] and [3, 1, 4, 5, 2]: 4
+.. code-block:: bash
+
+    >>>Kendall Tau distance between [1, 2, 3, 4, 5] and [1, 2, 3, 4, 5]: 0
+    >>>Kendall Tau distance between [1, 2, 3, 4, 5] and [5, 4, 3, 2, 1]: 10
+    >>>Kendall Tau distance between [1, 2, 3, 4, 5] and [1, 3, 2, 4, 5]: 1
+    >>>Kendall Tau distance between [1, 2, 3, 4, 5] and [3, 1, 4, 5, 2]: 4
 
 History
 -------
