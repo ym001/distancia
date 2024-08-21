@@ -30,27 +30,31 @@ The Wasserstein distance provides an intuitive way to compare distributions, par
 
 A smaller Wasserstein distance indicates that the distributions are more similar, while a larger distance indicates greater dissimilarity.
 
-# Import the Wasserstein class from the distancia package
-from distancia import Wasserstein
+.. code-block:: python
 
-def main():
-    # Define two discrete probability distributions
-    distribution1 = [0.1, 0.4, 0.5]
-    distribution2 = [0.2, 0.3, 0.5]
+    # Import the Wasserstein class from the distancia package
+    from distancia import Wasserstein
 
-    # Create an instance of the Wasserstein class
-    wasserstein = Wasserstein(distribution1, distribution2)
+    def main():
+        # Define two discrete probability distributions
+        distribution1 = [0.1, 0.4, 0.5]
+        distribution2 = [0.2, 0.3, 0.5]
 
-    # Calculate the Wasserstein distance between the two distributions
-    distance = wasserstein.calculate()
+        # Create an instance of the Wasserstein class
+        wasserstein = Wasserstein(distribution1, distribution2)
 
-    # Print the calculated distance
-    print(f"Wasserstein distance between the distributions: {distance:.4f}")
+        # Calculate the Wasserstein distance between the two distributions
+        distance = wasserstein.calculate()
 
-if __name__ == "__main__":
-    main()
+        # Print the calculated distance
+        print(f"Wasserstein distance between the distributions: {distance:.4f}")
 
-Wasserstein distance between the distributions: 0.1000
+    if __name__ == "__main__":
+        main()
+
+.. code-block:: python
+
+    >>>Wasserstein distance between the distributions: 0.1000
 
 History
 -------
