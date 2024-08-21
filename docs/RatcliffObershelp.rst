@@ -34,26 +34,30 @@ The Ratcliff/Obershelp distance provides a measure of dissimilarity between two 
 - **Long Common Substrings**: The algorithm focuses on finding and aligning the longest common substrings, which helps in recognizing significant similarities even in the presence of small differences.
 - **Recursive Calculation**: By recursively applying the algorithm to the segments of the strings, it accounts for multiple overlapping matches, making it robust against minor variations.
 
-from distancia import RatcliffObershelp  # Import the RatcliffObershelp class from the distancia package
+.. code-block:: python
 
-def main():
-    # Define two strings for comparison
-    string1 = "example string for comparison"
-    string2 = "example string for comparision"
+    from distancia import RatcliffObershelp  # Import the RatcliffObershelp class from the distancia package
 
-    # Create an instance of the RatcliffObershelp class
-    ratcliff_obershelp_distance = RatcliffObershelp(string1, string2)
+    def main():
+        # Define two strings for comparison
+        string1 = "example string for comparison"
+        string2 = "example string for comparision"
 
-    # Calculate the Ratcliff/Obershelp distance
-    distance = ratcliff_obershelp_distance.calculate()
+        # Create an instance of the RatcliffObershelp class
+        ratcliff_obershelp_distance = RatcliffObershelp(string1, string2)
 
-    # Print the result
-    print(f"Ratcliff/Obershelp distance between '{string1}' and '{string2}' is: {distance:.4f}")
+        # Calculate the Ratcliff/Obershelp distance
+        distance = ratcliff_obershelp_distance.calculate()
 
-if __name__ == "__main__":
-    main()
+        # Print the result
+        print(f"Ratcliff/Obershelp distance between '{string1}' and '{string2}' is: {distance:.4f}")
 
-Ratcliff/Obershelp distance between 'example string for comparison' and 'example string for comparision' is: -0.8983
+    if __name__ == "__main__":
+        main()
+
+.. code-block:: bash
+
+    >>>Ratcliff/Obershelp distance between 'example string for comparison' and 'example string for comparision' is: -0.8983
 
 History
 --------
