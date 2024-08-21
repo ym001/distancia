@@ -34,6 +34,7 @@ The Jaro-Winkler distance metric returns a value between 0 and 1:
 - A distance of 1 indicates that the strings are identical.
 
 The Jaro-Winkler distance is particularly well-suited for comparing short strings, such as names, where the prefix similarity is often a critical factor in determining the overall similarity.
+
 .. code-block:: python
 
     from distancia import JaroWinkler  # Assuming the JaroWinkler class is in the distancia package
