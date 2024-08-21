@@ -65,7 +65,9 @@ Reference
 
 For an academic reference, you can consult the following paper:
 
-Bhattacharyya, A. (1943). *On a Measure of Divergence Between Two Multinomial Populations*. Sankhyā: The Indian Journal of Statistics, Series A, 4(4), 99-110. DOI:10.2307/2332386.
+.. bibliography::
+
+   Bhattacharyya
 
 This paper provides the original definition and context of the Bhattacharyya Distance, offering insights into its theoretical foundations and applications.
 
