@@ -40,27 +40,30 @@ The Russell-Rao distance measures the proportion of features that are present in
 
 The distance provides a straightforward way to compare binary vectors based on the presence of features.
 
+.. code-block:: python
 
-from distancia import RussellRao  # Import the RussellRao class from the distancia package
+    from distancia import RussellRao  # Import the RussellRao class from the distancia package
 
-def main():
-    # Define two binary vectors for comparison
-    vector1 = [1, 0, 1, 1, 0]
-    vector2 = [1, 1, 0, 1, 1]
+    def main():
+        # Define two binary vectors for comparison
+        vector1 = [1, 0, 1, 1, 0]
+        vector2 = [1, 1, 0, 1, 1]
 
-    # Create an instance of the RussellRao class
-    russell_rao_distance = RussellRao(vector1, vector2)
+        # Create an instance of the RussellRao class
+        russell_rao_distance = RussellRao(vector1, vector2)
 
-    # Calculate the Russell-Rao distance
-    distance = russell_rao_distance.calculate()
+        # Calculate the Russell-Rao distance
+        distance = russell_rao_distance.calculate()
 
-    # Print the result
-    print(f"Russell-Rao distance between {vector1} and {vector2} is: {distance:.4f}")
+        # Print the result
+        print(f"Russell-Rao distance between {vector1} and {vector2} is: {distance:.4f}")
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 
-Russell-Rao distance between [1, 0, 1, 1, 0] and [1, 1, 0, 1, 1] is: 0.4000
+.. code-block:: bash
+
+    >>>Russell-Rao distance between [1, 0, 1, 1, 0] and [1, 1, 0, 1, 1] is: 0.4000
 
 History
 --------
