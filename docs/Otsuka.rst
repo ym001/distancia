@@ -33,26 +33,30 @@ The Otsuka distance provides a measure of dissimilarity between two categorical 
 
 The distance ranges from 0 to 1, where 0 indicates perfect similarity (all attributes match) and 1 indicates maximum dissimilarity (no attributes match). 
 
-from distancia import Otsuka  # Import the Otsuka class from the distancia package
+.. code-block:: python
 
-def main():
-    # Define two categorical vectors for comparison
-    vector1 = ['A', 'B', 'C', 'D', 'E']
-    vector2 = ['A', 'X', 'C', 'Y', 'E']
+    from distancia import Otsuka  # Import the Otsuka class from the distancia package
 
-    # Create an instance of the Otsuka class
-    otsuka_distance = Otsuka(vector1, vector2)
+    def main():
+        # Define two categorical vectors for comparison
+        vector1 = ['A', 'B', 'C', 'D', 'E']
+        vector2 = ['A', 'X', 'C', 'Y', 'E']
 
-    # Calculate the Otsuka distance
-    distance = otsuka_distance.calculate()
+        # Create an instance of the Otsuka class
+        otsuka_distance = Otsuka(vector1, vector2)
 
-    # Print the result
-    print(f"Otsuka distance between {vector1} and {vector2} is: {distance:.4f}")
+        # Calculate the Otsuka distance
+        distance = otsuka_distance.calculate()
 
-if __name__ == "__main__":
-    main()
+        # Print the result
+        print(f"Otsuka distance between {vector1} and {vector2} is: {distance:.4f}")
 
-Otsuka distance between ['A', 'B', 'C', 'D', 'E'] and ['A', 'X', 'C', 'Y', 'E'] is: 0.5000
+    if __name__ == "__main__":
+        main()
+
+.. code-block:: bash
+
+    >>>Otsuka distance between ['A', 'B', 'C', 'D', 'E'] and ['A', 'X', 'C', 'Y', 'E'] is: 0.5000
 
 History
 -------
