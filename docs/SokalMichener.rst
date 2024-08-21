@@ -33,26 +33,30 @@ The Sokal-Michener distance measures how dissimilar two binary vectors are by co
 
 This metric gives equal weight to the presence and absence of attributes, making it a balanced choice for various applications in binary data comparison.
 
-from distancia import SokalMichener  # Import the SokalMichener class from the distancia package
+.. code-block:: python
 
-def main():
-    # Define two binary vectors for comparison
-    vector1 = [1, 0, 1, 1, 0, 0, 1]
-    vector2 = [1, 1, 0, 1, 0, 0, 1]
+    from distancia import SokalMichener  # Import the SokalMichener class from the distancia package
 
-    # Create an instance of the SokalMichener class
-    sokal_michener = SokalMichener(vector1, vector2)
+    def main():
+        # Define two binary vectors for comparison
+        vector1 = [1, 0, 1, 1, 0, 0, 1]
+        vector2 = [1, 1, 0, 1, 0, 0, 1]
 
-    # Calculate the Sokal-Michener distance
-    distance = sokal_michener.calculate()
+        # Create an instance of the SokalMichener class
+        sokal_michener = SokalMichener(vector1, vector2)
 
-    # Print the result
-    print(f"Sokal-Michener distance between {vector1} and {vector2} is: {distance:.4f}")
+        # Calculate the Sokal-Michener distance
+        distance = sokal_michener.calculate()
 
-if __name__ == "__main__":
-    main()
+        # Print the result
+        print(f"Sokal-Michener distance between {vector1} and {vector2} is: {distance:.4f}")
 
-Sokal-Michener distance between [1, 0, 1, 1, 0, 0, 1] and [1, 1, 0, 1, 0, 0, 1] is: 0.2857
+    if __name__ == "__main__":
+        main()
+
+.. code-block:: bash
+
+    >>>Sokal-Michener distance between [1, 0, 1, 1, 0, 0, 1] and [1, 1, 0, 1, 0, 0, 1] is: 0.2857
 
 History
 -------
