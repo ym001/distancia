@@ -38,6 +38,31 @@ The distance takes into account both the presence and absence of features, makin
 
 Rogers-Tanimoto distance between [1, 0, 1, 1, 0] and [1, 1, 0, 1, 1] is: 1.0000
 
+.. code-block:: python
+
+    from distancia import RogersTanimoto  # Import the RogersTanimoto class from the distancia package
+
+    def main():
+        # Define two binary vectors for comparison
+        vector1 = [1, 0, 1, 1, 0]
+        vector2 = [1, 1, 0, 1, 1]
+
+        # Create an instance of the RogersTanimoto class
+        rogers_tanimoto_distance = RogersTanimoto(vector1, vector2)
+
+        # Calculate the Rogers-Tanimoto distance
+        distance = rogers_tanimoto_distance.calculate()
+
+        # Print the result
+        print(f"Rogers-Tanimoto distance between {vector1} and {vector2} is: {distance:.4f}")
+
+    if __name__ == "__main__":
+        main()
+
+.. code-block:: python
+
+    >>>Rogers-Tanimoto distance between [1, 0, 1, 1, 0] and [1, 1, 0, 1, 1] is: 1.0000
+
 History
 --------
 
