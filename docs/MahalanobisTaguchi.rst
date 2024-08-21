@@ -30,37 +30,38 @@ The Mahalanobis-Taguchi System uses the Mahalanobis distance as a foundation for
 
 In practical terms, a smaller Mahalanobis distance indicates that the observation is similar to the reference group, while a larger distance indicates that the observation is an outlier or abnormal in comparison. The MTS method provides a structured way to use this information for decision-making, particularly in quality control and diagnostics.
 
+.. code-block:: python
 
-from distancia import MahalanobisTaguchi  # Assuming the MahalanobisTaguchi class is in the distancia package
+    from distancia import MahalanobisTaguchi  # Assuming the MahalanobisTaguchi class is in the distancia package
 
-def main():
-    # Example reference group data (2D array where each row is a data point)
-    reference_group = [
-        [1.0, 2.0, 3.0],
-        [1.1, 2.1, 2.9],
-        [0.9, 1.8, 3.1],
-        [1.2, 2.2, 3.2]
-    ]
+    def main():
+        # Example reference group data (2D array where each row is a data point)
+        reference_group = [
+            [1.0, 2.0, 3.0],
+            [1.1, 2.1, 2.9],
+            [0.9, 1.8, 3.1],
+            [1.2, 2.2, 3.2]
+        ]
 
-    # Example test data (data point to be evaluated against the reference group)
-    test_data = [1.3, 2.3, 3.3]
+        # Example test data (data point to be evaluated against the reference group)
+        test_data = [1.3, 2.3, 3.3]
 
-    # Create an instance of the MahalanobisTaguchi class
-    m_taguchi = MahalanobisTaguchi(reference_group)
+        # Create an instance of the MahalanobisTaguchi class
+        m_taguchi = MahalanobisTaguchi(reference_group)
 
-    # Calculate the Mahalanobis-Taguchi distance for the test data
-    distance = m_taguchi.calculate(test_data)
+        # Calculate the Mahalanobis-Taguchi distance for the test data
+        distance = m_taguchi.calculate(test_data)
 
-    # Print the result
-    print(f"Mahalanobis-Taguchi distance for the test data {test_data} is: {distance}")
+        # Print the result
+        print(f"Mahalanobis-Taguchi distance for the test data {test_data} is: {distance}")
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 
 
-Mahalanobis-Taguchi distance for the test data [1.3, 2.3, 3.3] is: 0.534
+.. code-block:: bash
 
-Mahalanobis-Taguchi distance for the test data [1.3, 2.3, 3.3] is: 2.59807621135332
+    >>>Mahalanobis-Taguchi distance for the test data [1.3, 2.3, 3.3] is: 2.59807621135332
 
 History
 -------
