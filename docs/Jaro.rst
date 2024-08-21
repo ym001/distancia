@@ -35,50 +35,54 @@ The Jaro distance metric returns a value between 0 and 1:
 
 In practice, the Jaro distance is often used to compare names and short text strings, where it performs well due to its sensitivity to transpositions and character positions.
 
-from distancia import Jaro  # Assuming the Jaro class is in the distancia package
+.. code-block:: python
 
-def main():
-    # Create an instance of the Jaro class
-    jaro = Jaro()
+    from distancia import Jaro  # Assuming the Jaro class is in the distancia package
 
-    # Example 1: Identical strings
-    s1 = "hello"
-    s2 = "hello"
-    distance = jaro.calculate(s1, s2)
-    print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
+    def main():
+        # Create an instance of the Jaro class
+        jaro = Jaro()
 
-    # Example 2: Completely different strings
-    s1 = "hello"
-    s2 = "world"
-    distance = jaro.calculate(s1, s2)
-    print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
+        # Example 1: Identical strings
+        s1 = "hello"
+        s2 = "hello"
+        distance = jaro.calculate(s1, s2)
+        print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
-    # Example 3: Partially matching strings
-    s1 = "dixon"
-    s2 = "dicksonx"
-    distance = jaro.calculate(s1, s2)
-    print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
+        # Example 2: Completely different strings
+        s1 = "hello"
+        s2 = "world"
+        distance = jaro.calculate(s1, s2)
+        print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
-    # Example 4: One empty string
-    s1 = ""
-    s2 = "nonempty"
-    distance = jaro.calculate(s1, s2)
-    print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
+        # Example 3: Partially matching strings
+        s1 = "dixon"
+        s2 = "dicksonx"
+        distance = jaro.calculate(s1, s2)
+        print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
-    # Example 5: Both strings empty
-    s1 = ""
-    s2 = ""
-    distance = jaro.calculate(s1, s2)
-    print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
+        # Example 4: One empty string
+        s1 = ""
+        s2 = "nonempty"
+        distance = jaro.calculate(s1, s2)
+        print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
-if __name__ == "__main__":
-    main()
+        # Example 5: Both strings empty
+        s1 = ""
+        s2 = ""
+        distance = jaro.calculate(s1, s2)
+        print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
-Jaro distance between 'hello' and 'hello': 1.0
-Jaro distance between 'hello' and 'world': 0.4666666666666666
-Jaro distance between 'dixon' and 'dicksonx': 0.7666666666666666
-Jaro distance between '' and 'nonempty': 0.0
-Jaro distance between '' and '': 1.0
+    if __name__ == "__main__":
+        main()
+
+.. code-block:: bash
+
+    >>>Jaro distance between 'hello' and 'hello': 1.0
+    >>>Jaro distance between 'hello' and 'world': 0.4666666666666666
+    >>>Jaro distance between 'dixon' and 'dicksonx': 0.7666666666666666
+    >>>Jaro distance between '' and 'nonempty': 0.0
+    >>>Jaro distance between '' and '': 1.0
 
 
 History
