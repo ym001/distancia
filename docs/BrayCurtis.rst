@@ -1,4 +1,4 @@
-Bray-Curtis Distance
+Bray Curtis Distance
 ====================
 
 Introduction
@@ -68,7 +68,9 @@ Academic Reference
 
 For further reading and a deeper understanding of the Bray-Curtis distance, refer to the original paper:
 
-Bray1957AnOO
+.. bibliography::
+
+   BrayCurtis
 
 Conclusion
 ----------
