@@ -34,52 +34,54 @@ The Jaro-Winkler distance metric returns a value between 0 and 1:
 - A distance of 1 indicates that the strings are identical.
 
 The Jaro-Winkler distance is particularly well-suited for comparing short strings, such as names, where the prefix similarity is often a critical factor in determining the overall similarity.
+.. code-block:: python
 
-from distancia import JaroWinkler  # Assuming the JaroWinkler class is in the distancia package
+    from distancia import JaroWinkler  # Assuming the JaroWinkler class is in the distancia package
 
-def main():
-    # Create an instance of the JaroWinkler class
-    jaro_winkler = JaroWinkler()
+    def main():
+        # Create an instance of the JaroWinkler class
+        jaro_winkler = JaroWinkler()
 
-    # Example 1: Identical strings
-    s1 = "hello"
-    s2 = "hello"
-    distance = jaro_winkler.calculate(s1, s2)
-    print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
+        # Example 1: Identical strings
+        s1 = "hello"
+        s2 = "hello"
+        distance = jaro_winkler.calculate(s1, s2)
+        print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
-    # Example 2: Completely different strings
-    s1 = "hello"
-    s2 = "world"
-    distance = jaro_winkler.calculate(s1, s2)
-    print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
+        # Example 2: Completely different strings
+        s1 = "hello"
+        s2 = "world"
+        distance = jaro_winkler.calculate(s1, s2)
+        print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
-    # Example 3: Strings with a common prefix
-    s1 = "hello"
-    s2 = "hellish"
-    distance = jaro_winkler.calculate(s1, s2)
-    print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
+        # Example 3: Strings with a common prefix
+        s1 = "hello"
+        s2 = "hellish"
+        distance = jaro_winkler.calculate(s1, s2)
+        print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
-    # Example 4: One string is a prefix of the other
-    s1 = "martha"
-    s2 = "marhtax"
-    distance = jaro_winkler.calculate(s1, s2)
-    print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
+        # Example 4: One string is a prefix of the other
+        s1 = "martha"
+        s2 = "marhtax"
+        distance = jaro_winkler.calculate(s1, s2)
+        print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
-    # Example 5: Completely dissimilar strings
-    s1 = "abc"
-    s2 = "xyz"
-    distance = jaro_winkler.calculate(s1, s2)
-    print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
+        # Example 5: Completely dissimilar strings
+        s1 = "abc"
+        s2 = "xyz"
+        distance = jaro_winkler.calculate(s1, s2)
+        print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 
+.. code-block:: bash
 
-Jaro-Winkler distance between 'hello' and 'hello': 1.0
-Jaro-Winkler distance between 'hello' and 'world': 0.4666666666666666
-Jaro-Winkler distance between 'hello' and 'hellish': 0.8742857142857143
-Jaro-Winkler distance between 'martha' and 'marhtax': 0.9277777777777778
-Jaro-Winkler distance between 'abc' and 'xyz': 0.0
+    >>>Jaro-Winkler distance between 'hello' and 'hello': 1.0
+    >>>Jaro-Winkler distance between 'hello' and 'world': 0.4666666666666666
+    >>>Jaro-Winkler distance between 'hello' and 'hellish': 0.8742857142857143
+    >>>Jaro-Winkler distance between 'martha' and 'marhtax': 0.9277777777777778
+    >>>Jaro-Winkler distance between 'abc' and 'xyz': 0.0
 
 History
 -------
