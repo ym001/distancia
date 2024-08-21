@@ -68,7 +68,7 @@ Academic Reference
 
 For further reading and a deeper understanding of the Bray-Curtis distance, refer to the original paper:
 
-Bray, J. R., & Curtis, J. T. (1957). An Ordination of the Upland Forest Communities of Southern Wisconsin. Ecological Monographs, 27(4), 325-349. DOI: 10.2307/1942268.
+Bray1957AnOO
 
 Conclusion
 ----------
