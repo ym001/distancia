@@ -88,6 +88,9 @@ Academic Reference
 
 The foundational work on Kendall Tau distance can be found in the following paper:
 
+.. bibliography::
+
+
 Kendall, M. G. (1938). *A New Measure of Rank Correlation*. Biometrika, 30(1/2), 81-93.
 
 Conclusion
