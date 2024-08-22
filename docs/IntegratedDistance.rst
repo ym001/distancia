@@ -27,6 +27,9 @@ A typical use case could be calculating the Euclidean distance between rows in t
 .. code-block:: python
 
   # Example usage:
+
+  import pandas as pd
+  import numpy as np
   if __name__ == "__main__":
       # Example DataFrame
       data = {
