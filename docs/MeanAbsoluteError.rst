@@ -64,6 +64,9 @@ Academic Reference
 
 For a comprehensive understanding of error metrics and their applications, the following reference is recommended:
 
+.. bibliography::
+
+
 - Willmott, C. J., & Matsuura, K. (2005). "Advantages of the Mean Absolute Error (MAE) over the Root Mean Square Error (RMSE) in Assessing Average Model Performance." *Climate Research*, 30(1), 79-82. [doi:10.3354/cr030079](https://doi.org/10.3354/cr030079)
 
 Conclusion
