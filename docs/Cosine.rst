@@ -74,7 +74,10 @@ Reference
 
 For an academic reference, you can refer to the following article that discusses the use of Cosine Similarity in text mining and information retrieval:
 
-Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to Information Retrieval*. Cambridge University Press.
+.. bibliography::
+
+   Cosine
+
 
 This textbook is a comprehensive resource on information retrieval and text mining, with an emphasis on vector space models and the role of Cosine Similarity.
 
