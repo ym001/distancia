@@ -75,6 +75,9 @@ Academic Reference
 
 A key reference for understanding the Mahalanobis-Taguchi System is:
 
+.. bibliography::
+
+
 Taguchi, G., Jugulum, R. (2002). *The Mahalanobis-Taguchi Strategy: A Pattern Technology System*. Wiley.
 
 This work outlines the principles of the MTS and provides practical examples of its application in quality engineering.
