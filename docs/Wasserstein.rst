@@ -67,6 +67,7 @@ The term "Wasserstein distance" is named after the Russian mathematician Leonid 
 
 .. bibliography::
 
+    Wasserstein
 
 Villani, C. (2003). *Topics in Optimal Transportation*. American Mathematical Society. This book provides a comprehensive treatment of optimal transport theory, including Wasserstein distances.
 
