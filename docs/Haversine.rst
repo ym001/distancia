@@ -64,6 +64,7 @@ For further details on the Haversine formula and its applications, refer to the 
 
 .. bibliography::
 
+   Haversine
 
 Haversine, G. W. (1924). "The formula of the great-circle distance." Journal of Navigation, 19(3), 239-248.
 This paper provides an in-depth discussion of the Haversine formula and its use in calculating spherical distances.
