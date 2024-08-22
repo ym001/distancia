@@ -1,4 +1,4 @@
-Rogers-Tanimoto Distance
+Rogers Tanimoto Distance
 ========================
 
 Introduction
