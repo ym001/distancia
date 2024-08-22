@@ -55,6 +55,9 @@ Reference
 ---------
 For more detailed information on Mahalanobis distance and its applications, refer to the following academic article:
 
+.. bibliography::
+
+
 Mahalanobis, P. C. (1936). "On the generalized distance in statistics." Proceedings of the National Institute of Sciences of India, 2(1), 49-55.
 This paper introduces the concept of Mahalanobis distance and discusses its properties and applications in statistical analysis.
 
