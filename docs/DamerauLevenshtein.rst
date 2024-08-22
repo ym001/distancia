@@ -88,7 +88,6 @@ For a deeper understanding of the **Damerau-Levenshtein** distance and its appli
 
     DamerauLevenshtein
 
-- Damerau, F. J. (1964). *A technique for computer detection and correction of spelling errors*. Communications of the ACM, 7(3), 171-176.
 - Levenshtein, V. I. (1966). *Binary codes capable of correcting deletions, insertions, and reversals*. Soviet Physics Doklady, 10(8), 707-710.
 
 Conclusion
