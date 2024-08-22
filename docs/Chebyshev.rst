@@ -57,7 +57,10 @@ Reference
 
 For further reading on the Chebyshev distance and its applications, refer to the following academic article:
 
-Chebyshev, P. (1854). "Sur les approximations des fonctions données." Journal de Mathématiques Pures et Appliquées, 1, 45-71.
+.. bibliography::
+
+Chebyshev
+
 This paper provides an in-depth discussion of Chebyshev's contributions to approximation theory and metrics.
 
 Conclusion
