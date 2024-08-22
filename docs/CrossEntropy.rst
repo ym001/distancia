@@ -161,6 +161,8 @@ Academic Reference
 
 For a deeper understanding, you can refer to the foundational work by Claude Shannon on information theory:
 
+.. bibliography::
+
 - Shannon, C. E. (1948). "A Mathematical Theory of Communication." *The Bell System Technical Journal*, 27(3), 379-423. [doi:10.1002/j.1538-7305.1948.tb01338.x](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x)
 
 Conclusion
