@@ -81,6 +81,9 @@ Academic Reference
 
 For further reading on the **Generalized Jaccard** similarity coefficient, consider the following academic reference:
 
+.. bibliography::
+
+
 - Tanimoto, T. T. (1958). *An elementary mathematical theory of classification and prediction*. IBM Internal Report.
 
 Although this reference discusses a related metric known as the Tanimoto coefficient, it is closely related to the Generalized Jaccard index and offers insight into its theoretical underpinnings.
