@@ -68,6 +68,7 @@ For an academic reference, you can refer to the following article that discusses
 
 .. bibliography::
 
+   Euclidean
 
 Beyer, K., Goldstein, J., Ramakrishnan, R., & Shaft, U. (1999). When is "nearest neighbor" meaningful?. In *International Conference on Database Theory* (pp. 217-235). Springer, Berlin, Heidelberg.
 
