@@ -95,6 +95,9 @@ Academic Reference
 
 The seminal paper by Matthew A. Jaro:
 
+.. bibliography::
+
+
 Jaro, M. A. (1989). Advances in Record-Linkage Methodology as Applied to Matching the 1985 Census of Tampa, Florida. *Journal of the American Statistical Association*, 84(406), 414-420. doi:10.1080/01621459.1989.10478785
 
 Conclusion
