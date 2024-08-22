@@ -64,6 +64,8 @@ History
 The Sokal-Sneath distance was introduced by Robert R. Sokal and Peter H. A. Sneath in their 1963 book "Principles of Numerical Taxonomy." The metric was developed as part of a broader framework for numerical taxonomy, which aimed to classify organisms based on their phenotypic characteristics. The Sokal-Sneath family of similarity and dissimilarity measures has since become a staple in various fields, particularly in the analysis of binary data.
 
 **Reference**:
+.. bibliography::
+
 
 Sokal, R. R., & Sneath, P. H. A. (1963). *Principles of Numerical Taxonomy*. W. H. Freeman and Company.
 
