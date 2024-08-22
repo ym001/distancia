@@ -65,6 +65,8 @@ The Otsuka distance was introduced by K. Otsuka as part of his research on stati
 
 Academic Reference
 ------------------
+.. bibliography::
+
 
 Otsuka, K. (1976). *Statistical Methods for Categorical Data*. Academic Press.
 
