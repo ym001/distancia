@@ -66,6 +66,7 @@ For an academic reference, you can refer to the following paper:
 
 .. bibliography::
 
+   Dice
 
 Dice, L. R. (1945). *Measures of the Amount of Ecologic Association Between Species*. Ecology, 26(3), 297-302. DOI: 10.2307/1932409
 
