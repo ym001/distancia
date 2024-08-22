@@ -70,6 +70,8 @@ For an academic reference, you can refer to the following seminal paper by Richa
 
 .. bibliography::
 
+   Hamming
+
 Hamming, R. W. (1950). *Error Detecting and Error Correcting Codes*. Bell System Technical Journal, 29(2), 147-160.
 
 This paper introduces the concept of Hamming Distance and discusses its applications in error detection and correction.
