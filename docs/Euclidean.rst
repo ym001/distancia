@@ -66,6 +66,9 @@ Reference
 
 For an academic reference, you can refer to the following article that discusses the Euclidean distance and its applications in depth:
 
+.. bibliography::
+
+
 Beyer, K., Goldstein, J., Ramakrishnan, R., & Shaft, U. (1999). When is "nearest neighbor" meaningful?. In *International Conference on Database Theory* (pp. 217-235). Springer, Berlin, Heidelberg.
 
 This paper discusses the use of Euclidean distance in the context of high-dimensional data and its relevance in database theory.
