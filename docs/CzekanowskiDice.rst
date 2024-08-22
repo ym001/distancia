@@ -58,7 +58,11 @@ The **Czekanowski-Dice** coefficient has its roots in the early 20th century. It
 Academic Reference
 ------------------
 
+
 For a more in-depth understanding of the **Czekanowski-Dice** similarity coefficient and its applications, refer to the following publication:
+
+.. bibliography::
+
 
 - Sørensen, T. (1948). *A method of establishing groups of equal amplitude in plant sociology based on similarity of species content*. Det Kongelige Danske Videnskabernes Selskab.
 
