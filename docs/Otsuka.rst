@@ -67,6 +67,7 @@ Academic Reference
 ------------------
 .. bibliography::
 
+    Otsuka
 
 Otsuka, K. (1976). *Statistical Methods for Categorical Data*. Academic Press.
 
