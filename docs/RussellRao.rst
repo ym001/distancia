@@ -74,6 +74,7 @@ The Russell-Rao distance was introduced by David A. Russell and William A. Rao i
 
 .. bibliography::
 
+    RussellRao
 
  .. Russell, D. A., & Rao, W. A. (1976). *A Simple Metric for Binary Vectors*. IEEE Transactions on Systems, Man, and Cybernetics, SMC-6(3), 229-234.
 
