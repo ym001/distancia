@@ -66,6 +66,7 @@ The Sokal-Sneath distance was introduced by Robert R. Sokal and Peter H. A. Snea
 **Reference**:
 .. bibliography::
 
+    SokalSneath
 
 Sokal, R. R., & Sneath, P. H. A. (1963). *Principles of Numerical Taxonomy*. W. H. Freeman and Company.
 
