@@ -70,6 +70,9 @@ The Rogers-Tanimoto distance was introduced by David W. Rogers and K. J. Tanimot
 
 **Reference**:
 
+.. bibliography::
+
+
 Rogers, D. W., & Tanimoto, K. J. (1960). *A Computer Oriented Classificatory System*. IEEE Transactions on Electronic Computers, EC-9(3), 304-309.
 
 This paper describes the Rogers-Tanimoto distance and its applications in pattern recognition and classification tasks.
