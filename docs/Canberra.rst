@@ -49,7 +49,7 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
 
 **Reference:**
 
-Lance, G. N., & Williams, W. T. (1966). A General Theory of Classificatory Sorting Strategies: 1. Hierarchical Systems. *The Computer Journal*, 9(4), 373-380. doi:10.1093/comjnl/9.4.373
+Camberra
 
 **Conclusion:**
 
