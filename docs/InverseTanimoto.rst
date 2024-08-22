@@ -82,6 +82,7 @@ For a detailed exploration of the Tanimoto coefficient and its applications, ref
 
 .. bibliography::
 
+    InverseTanimoto
 
 - Tanimoto, T. T. "An Elementary Mathematical Theory of Classification and Prediction." IBM Internal Report, 1958.
 
