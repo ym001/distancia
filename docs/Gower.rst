@@ -93,6 +93,7 @@ For a detailed explanation of the Gower similarity coefficient, refer to the ori
 
 .. bibliography::
 
+    Gower
 
 - Gower, J. C. (1971). *A general coefficient of similarity and some of its properties*. Biometrics, 27(4), 857-871. DOI: 10.2307/2528823
 
