@@ -65,8 +65,6 @@ For a more in-depth understanding of the **Czekanowski-Dice** similarity coeffic
 
     CzekanowskiDice
 
-- Sørensen, T. (1948). *A method of establishing groups of equal amplitude in plant sociology based on similarity of species content*. Det Kongelige Danske Videnskabernes Selskab.
-
 Conclusion
 ----------
 
