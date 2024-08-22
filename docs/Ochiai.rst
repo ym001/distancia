@@ -75,6 +75,7 @@ For further reading and a deeper understanding of the Ochiai distance and its ap
 
 .. bibliography::
 
+    Ochiai
 
 Ochiai, M. (1957). Zoogeographic Studies on the Soleoid Fishes Found in Japan and Its Neighbouring Regions, II. Bulletin of the Japanese Society of Scientific Fisheries, 22(9), 526-530. DOI: 10.2331/suisan.22.526.
 
