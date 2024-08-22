@@ -77,6 +77,7 @@ For a deeper understanding of the Motzkin-Straus distance and its applications, 
 
 .. bibliography::
 
+    MeanSquaredError
 
 Motzkin, T. S., & Straus, E. G. (1965). Maxima for graphs and a new proof of a theorem of Turán. Canadian Journal of Mathematics, 17, 533-540.
 
