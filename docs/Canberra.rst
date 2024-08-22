@@ -48,8 +48,9 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
     print(f"The Canberra distance between vectors x and y is: {distance}")
 
 **Reference:**
+.. bibliography::
 
-Camberra
+  Camberra
 
 **Conclusion:**
 
