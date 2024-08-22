@@ -66,6 +66,7 @@ For a deeper understanding of MAPE and its applications, the following reference
 
 .. bibliography::
 
+    MeanAbsolutePercentageError
 
 - Armstrong, J. S. (1985). "Long-range Forecasting: From Crystal Ball to Computer." *Wiley-Interscience.* [ISBN: 978-0471800288](https://www.wiley.com/en-us/Long+Range+Forecasting%3A+From+Crystal+Ball+to+Computer%2C+2nd+Edition-p-9780471800288)
 
