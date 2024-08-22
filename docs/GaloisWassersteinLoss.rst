@@ -62,6 +62,9 @@ Academic Reference
 
 For a deeper understanding of the underlying concepts of the **Galois Wasserstein Loss**, you can refer to the following paper:
 
+.. bibliography::
+
+
 - Villani, C. (2003). *Topics in Optimal Transportation*. Graduate Studies in Mathematics, Vol. 58. American Mathematical Society.
 
 Conclusion
