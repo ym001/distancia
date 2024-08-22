@@ -88,8 +88,6 @@ For a deeper understanding of the **Damerau-Levenshtein** distance and its appli
 
     DamerauLevenshtein
 
-- Levenshtein, V. I. (1966). *Binary codes capable of correcting deletions, insertions, and reversals*. Soviet Physics Doklady, 10(8), 707-710.
-
 Conclusion
 ----------
 
