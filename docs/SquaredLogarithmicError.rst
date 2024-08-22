@@ -69,6 +69,7 @@ For a detailed exploration of error metrics including SLE and its applications, 
 
 .. bibliography::
 
+    SquaredLogarithmicError
 
 - Zhang, H., & Li, J. (2010). "A Study of Error Metrics for Regression Problems." *Journal of Statistical Computation and Simulation.* 
 
