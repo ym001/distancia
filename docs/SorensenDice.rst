@@ -64,6 +64,9 @@ Reference
 
 For an academic reference, you can refer to the following paper:
 
+.. bibliography::
+
+
 Sørensen, T. (1948). *A Method of Establishing Groups of Equal Amplitude in Plant Sociology Based on Similarity of Species Content and Its Application to Analyses of the Vegetation on Danish Commons*. Biologiske Skrifter, 5, 1-34.
 
 This paper introduces the Sørensen Index and discusses its application in the study of plant communities.
