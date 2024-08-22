@@ -83,7 +83,7 @@ For further reading on the **Generalized Jaccard** similarity coefficient, consi
 
 .. bibliography::
 
-    GaloisWassersteinLoss
+    GeneralizedJaccard
 
 - Tanimoto, T. T. (1958). *An elementary mathematical theory of classification and prediction*. IBM Internal Report.
 
