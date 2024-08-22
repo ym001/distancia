@@ -94,6 +94,9 @@ Academic Reference
 
 The original research on the Jaro-Winkler distance can be found in the following paper:
 
+.. bibliography::
+
+
 Winkler, W. E. (1990). *String Comparator Metrics and Enhanced Decision Rules in the Fellegi-Sunter Model of Record Linkage*. Proceedings of the Section on Survey Research Methods, American Statistical Association, 354-359.
 
 Conclusion
