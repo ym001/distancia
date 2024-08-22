@@ -68,7 +68,6 @@ For an academic reference, you can refer to the following paper:
 
    Dice
 
-Dice, L. R. (1945). *Measures of the Amount of Ecologic Association Between Species*. Ecology, 26(3), 297-302. DOI: 10.2307/1932409
 
 This paper introduces the Dice Coefficient and discusses its application in ecology for comparing species.
 
