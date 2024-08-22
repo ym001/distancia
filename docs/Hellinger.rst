@@ -71,6 +71,7 @@ For further reading and a deeper understanding of the Hellinger distance and its
 
 .. bibliography::
 
+    Hellinger
 
 Hellinger, E. (1909). Neue Begründung der Theorie quadratischer Formen von unendlich vielen Veränderlichen. Journal für die reine und angewandte Mathematik, 136, 210-271.
 
