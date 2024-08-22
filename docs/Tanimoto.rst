@@ -64,6 +64,9 @@ Reference
 
 For an academic reference, you can refer to the following paper:
 
+.. bibliography::
+
+
 Tanimoto, T.T. (1957). *IBM Internal Report: An Elementary Mathematical Theory of Classification and Prediction*. IBM.
 
 This paper outlines the introduction and use of the Tanimoto Coefficient, particularly in the context of binary data comparison.
