@@ -72,6 +72,9 @@ Reference
 
 For an academic reference, you can refer to the following seminal paper:
 
+.. bibliography::
+
+
 Levenshtein, V. I. (1966). *Binary Codes Capable of Correcting Deletions, Insertions, and Reversals*. Soviet Physics Doklady, 10(8), 707–710.
 
 This paper introduces the Levenshtein Distance and its application in error correction.
