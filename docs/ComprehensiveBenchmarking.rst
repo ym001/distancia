@@ -18,13 +18,13 @@ Example usage:
 
 .. code-block:: python
 
-# Sample data
-data_points = [((1, 2), (2, 3)), ((3, 4), (4, 5)), ((5, 6), (6, 7))]
+    # Sample data
+    data_points = [((1, 2), (2, 3)), ((3, 4), (4, 5)), ((5, 6), (6, 7))]
 
-# Benchmarking
-benchmark = ComprehensiveBenchmarking(metrics=[Euclidean(), Cosine_distance()], data=data_points)
-benchmark.run_benchmark()
-benchmark.print_results()
+    # Benchmarking
+    benchmark = ComprehensiveBenchmarking(metrics=[Euclidean(), Cosine_distance()], data=data_points)
+    benchmark.run_benchmark()
+    benchmark.print_results()
 
 .. code-block:: python
 
