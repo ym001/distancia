@@ -19,28 +19,33 @@ Furthermore, the `OutlierDetection` class can be particularly effective when com
 
 Example
 -------
-# Sample data points (2D)
-data_points = [
-    [1.0, 2.0],
-    [2.1, 3.0],
-    [0.9, 1.8],
-    [10.0, 10.0],  # Potential outlier
-    [2.2, 3.1],
-    [1.9, 2.8]
-]
 
-# Create an instance of OutlierDetection with Euclidean distance
-outlier_detector = OutlierDetection(data_points, metric='euclidean', threshold=1.5)
+.. code-block:: python
 
-# Detect outliers
-outliers = outlier_detector.detect_outliers()
+    # Sample data points (2D)
+    data_points = [
+        [1.0, 2.0],
+        [2.1, 3.0],
+        [0.9, 1.8],
+        [10.0, 10.0],  # Potential outlier
+        [2.2, 3.1],
+        [1.9, 2.8]
+    ]
 
-print("Detected outliers:")
-for outlier, distance in outliers:
-    print(f"Point: {outlier}, Distance from centroid: {distance}")
+    # Create an instance of OutlierDetection with Euclidean distance
+    outlier_detector = OutlierDetection(data_points, metric='euclidean', threshold=1.5)
 
-Detected outliers:
-Point: [10.0, 10.0], Distance from centroid: 9.349539501434757
+    # Detect outliers
+    outliers = outlier_detector.detect_outliers()
+
+    print("Detected outliers:")
+    for outlier, distance in outliers:
+        print(f"Point: {outlier}, Distance from centroid: {distance}")
+
+.. code-block:: bash
+
+    >>>Detected outliers:
+    >>>Point: [10.0, 10.0], Distance from centroid: 9.349539501434757
 
 Academic Reference
 ------------------
