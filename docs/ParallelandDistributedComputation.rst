@@ -16,28 +16,33 @@ Utility
 
 The `ParallelandDistributedComputation` is especially valuable in tasks such as clustering, nearest neighbor search, and other machine learning or data analysis workflows where distance metrics are central. The ability to compute distances in parallel allows practitioners to scale their computations to large datasets without sacrificing performance. Users can choose between multithreading and multiprocessing, depending on the nature of their computation—whether it is I/O-bound or CPU-bound.
 
-Exemple
--------
-# Example usage:
-data_points = [[1, 2], [3, 4], [5, 6], [7, 8]]
-calculator = ParallelandDistributedComputation(data_points, Euclidean())
+Example usage
+-------------
 
-# Compute distances from a reference point to all data points using multithreading
-reference_point = [0, 0]
-distances_to_ref_thread = calculator.compute_distances_parallel(reference_point, use_multiprocessing=False)
-print("Distances to reference point (threading):", distances_to_ref_thread)
+.. code-block:: python
 
-# Compute distances from a reference point to all data points using multiprocessing
-distances_to_ref_process = calculator.compute_distances_parallel(reference_point, use_multiprocessing=True)
-print("Distances to reference point (multiprocessing):", distances_to_ref_process)
 
-# Compute pairwise distances among all data points in parallel using multithreading
-pairwise_distances_thread = calculator.compute_distances_parallel(use_multiprocessing=False)
-print("Pairwise distances (threading):", pairwise_distances_thread)
+  data_points = [[1, 2], [3, 4], [5, 6], [7, 8]]
+  calculator = ParallelandDistributedComputation(data_points, Euclidean())
 
-Distances to reference point (threading): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
-Distances to reference point (multiprocessing): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
-Pairwise distances (threading): [2.8284271247461903, 5.656854249492381, 8.48528137423857, 2.8284271247461903, 5.656854249492381, 2.8284271247461903]
+  # Compute distances from a reference point to all data points using multithreading
+  reference_point = [0, 0]
+  distances_to_ref_thread = calculator.compute_distances_parallel(reference_point, use_multiprocessing=False)
+  print("Distances to reference point (threading):", distances_to_ref_thread)
+
+  # Compute distances from a reference point to all data points using multiprocessing
+  distances_to_ref_process = calculator.compute_distances_parallel(reference_point, use_multiprocessing=True)
+  print("Distances to reference point (multiprocessing):", distances_to_ref_process)
+
+  # Compute pairwise distances among all data points in parallel using multithreading
+  pairwise_distances_thread = calculator.compute_distances_parallel(use_multiprocessing=False)
+  print("Pairwise distances (threading):", pairwise_distances_thread)
+
+.. code-block:: bash
+
+  Distances to reference point (threading): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
+  Distances to reference point (multiprocessing): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
+  Pairwise distances (threading): [2.8284271247461903, 5.656854249492381, 8.48528137423857, 2.8284271247461903, 5.656854249492381, 2.8284271247461903]
 
 Academic Reference
 ------------------
