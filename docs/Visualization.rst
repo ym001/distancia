@@ -32,14 +32,17 @@ The `Visualization` class is useful in various scenarios:
 
 Example usage
 -------------
-# Assume `dist_matrix` is a 2D list or array of distances and `labels` is a list of point labels
-dist_matrix = [[0, 1, 2], [1, 0, 1.5], [2, 1.5, 0]]
-labels = ['A', 'B', 'C']
 
-vis_tool = Visualization(dist_matrix, labels=labels)
-vis_tool.plot_heatmap()
-vis_tool.plot_dendrogram()
-vis_tool.plot_pca(n_components=2)
+.. code-block:: python
+
+  # Assume `dist_matrix` is a 2D list or array of distances and `labels` is a list of point labels
+  dist_matrix = [[0, 1, 2], [1, 0, 1.5], [2, 1.5, 0]]
+  labels = ['A', 'B', 'C']
+
+  vis_tool = Visualization(dist_matrix, labels=labels)
+  vis_tool.plot_heatmap()
+  vis_tool.plot_dendrogram()
+  vis_tool.plot_pca(n_components=2)
 
 
 Academic Reference
