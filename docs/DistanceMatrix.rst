@@ -16,18 +16,26 @@ Mathematically, if we have a dataset of `n` data points, a distance matrix `D` i
 
 exemple:
 --------
-# Example Usage
-data_points = [
-    [1, 2],
-    [3, 4],
-    [5, 6],
-    [7, 8]
-]
 
-distance_matrix = DistanceMatrix(data_points, metric=Euclidean())
-print(distance_matrix.get_matrix())
+.. code-block:: python
 
-[[0.0, 2.8284271247461903, 5.656854249492381, 8.48528137423857], [2.8284271247461903, 0.0, 2.8284271247461903, 5.656854249492381], [5.656854249492381, 2.8284271247461903, 0.0, 2.8284271247461903], [8.48528137423857, 5.656854249492381, 2.8284271247461903, 0.0]]
+    # Example Usage
+    data_points = [
+        [1, 2],
+        [3, 4],
+        [5, 6],
+        [7, 8]
+    ]
+
+
+    distance_matrix = DistanceMatrix(data_points, metric=Euclidean())
+    print(distance_matrix.get_matrix())
+
+.. code-block:: bash
+
+
+    >>>[[0.0, 2.8284271247461903, 5.656854249492381, 8.48528137423857], [2.8284271247461903, 0.0, 2.8284271247461903, 5.656854249492381], [5.656854249492381, 2.8284271247461903, 0.0, 2.8284271247461903], [8.48528137423857, 5.656854249492381, 2.8284271247461903, 0.0]]
+
 Academic Reference
 ------------------
 The concept of distance matrices is well-established in various fields, including statistics, machine learning, and computational biology. A relevant academic reference is:
