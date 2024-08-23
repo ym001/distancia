@@ -82,8 +82,6 @@ For further reading on the **Fager-McGowan** similarity coefficient and its appl
 
 FagerMcGowan
 
-- Fager, E. W., & McGowan, J. A. (1963). *Zooplankton species groups in the North Pacific*. Science, 140(3566), 453-460.
-
 Conclusion
 ----------
 
