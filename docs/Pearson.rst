@@ -68,7 +68,10 @@ Here is an example of how to use the Pearson distance with the `distanciaa` pack
 
 Expected Output:
 
-The Pearson distance between the two data points is: 0.010248
+.. code-block:: bash
+
+
+    >>>The Pearson distance between the two data points is: 0.010248
 
 Academic Reference
 ------------------
