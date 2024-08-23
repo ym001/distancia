@@ -81,7 +81,6 @@ For more detailed information on the Enhanced Rogers-Tanimoto distance and its a
 
     EnhancedRogersTanimoto
 
-Rogers, D. J., & Tanimoto, T. T. (1960). A Computer Program for Classifying Plants. Science, 132(3434), 1115-1118.
 
 Conclusion
 ----------
