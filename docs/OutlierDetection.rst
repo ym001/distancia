@@ -33,7 +33,7 @@ Example
     ]
 
     # Create an instance of OutlierDetection with Euclidean distance
-    outlier_detector = OutlierDetection(data_points, metric='euclidean', threshold=1.5)
+    outlier_detector = OutlierDetection(data_points, metric=Euclidean(), threshold=1.5)
 
     # Detect outliers
     outliers = outlier_detector.detect_outliers()
