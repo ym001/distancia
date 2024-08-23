@@ -67,8 +67,7 @@ This paper introduces the Dice Coefficient and discusses its application in ecol
 
 .. bibliography::
 
-   Dice
-
+   dice
 
 Conclusion
 ----------
