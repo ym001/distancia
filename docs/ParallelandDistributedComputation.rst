@@ -22,27 +22,27 @@ Example usage
 .. code-block:: python
 
 
-  data_points = [[1, 2], [3, 4], [5, 6], [7, 8]]
-  calculator = ParallelandDistributedComputation(data_points, Euclidean())
+    data_points = [[1, 2], [3, 4], [5, 6], [7, 8]]
+    calculator = ParallelandDistributedComputation(data_points, Euclidean())
 
-  # Compute distances from a reference point to all data points using multithreading
-  reference_point = [0, 0]
-  distances_to_ref_thread = calculator.compute_distances_parallel(reference_point, use_multiprocessing=False)
-  print("Distances to reference point (threading):", distances_to_ref_thread)
+    # Compute distances from a reference point to all data points using multithreading
+    reference_point = [0, 0]
+    distances_to_ref_thread = calculator.compute_distances_parallel(reference_point, use_multiprocessing=False)
+    print("Distances to reference point (threading):", distances_to_ref_thread)
 
-  # Compute distances from a reference point to all data points using multiprocessing
-  distances_to_ref_process = calculator.compute_distances_parallel(reference_point, use_multiprocessing=True)
-  print("Distances to reference point (multiprocessing):", distances_to_ref_process)
+    # Compute distances from a reference point to all data points using multiprocessing
+    distances_to_ref_process = calculator.compute_distances_parallel(reference_point, use_multiprocessing=True)
+    print("Distances to reference point (multiprocessing):", distances_to_ref_process)
 
-  # Compute pairwise distances among all data points in parallel using multithreading
-  pairwise_distances_thread = calculator.compute_distances_parallel(use_multiprocessing=False)
-  print("Pairwise distances (threading):", pairwise_distances_thread)
+    # Compute pairwise distances among all data points in parallel using multithreading
+    pairwise_distances_thread = calculator.compute_distances_parallel(use_multiprocessing=False)
+    print("Pairwise distances (threading):", pairwise_distances_thread)
 
 .. code-block:: bash
 
-  Distances to reference point (threading): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
-  Distances to reference point (multiprocessing): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
-  Pairwise distances (threading): [2.8284271247461903, 5.656854249492381, 8.48528137423857, 2.8284271247461903, 5.656854249492381, 2.8284271247461903]
+    >>>Distances to reference point (threading): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
+    >>>Distances to reference point (multiprocessing): [2.23606797749979, 5.0, 7.810249675906654, 10.63014581273465]
+    >>>Pairwise distances (threading): [2.8284271247461903, 5.656854249492381, 8.48528137423857, 2.8284271247461903, 5.656854249492381, 2.8284271247461903]
 
 Academic Reference
 ------------------
