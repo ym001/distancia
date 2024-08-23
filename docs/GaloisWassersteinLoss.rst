@@ -66,7 +66,6 @@ For a deeper understanding of the underlying concepts of the **Galois Wasserstei
 
     GaloisWassersteinLoss
 
-- Villani, C. (2003). *Topics in Optimal Transportation*. Graduate Studies in Mathematics, Vol. 58. American Mathematical Society.
 
 Conclusion
 ----------
