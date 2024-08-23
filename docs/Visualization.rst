@@ -44,6 +44,11 @@ Example usage
   vis_tool.plot_dendrogram()
   vis_tool.plot_pca(n_components=2)
 
+.. image:: visualization_heatmap.png
+
+.. image:: visualization_dedrogram.png
+
+.. image:: visualization_pca.png
 
 Academic Reference
 ------------------
