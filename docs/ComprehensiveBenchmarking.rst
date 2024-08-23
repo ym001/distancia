@@ -13,28 +13,23 @@ In data analysis, machine learning, and other computational fields, the choice o
 
 This tool is especially useful in scenarios where performance is critical, such as in real-time systems or when dealing with large-scale datasets. By understanding the trade-offs between different metrics, users can optimize their workflows, ensuring both speed and accuracy.
 
-# Example usage:
+Example usage:
+-------------
 
-# Sample metric functions
-def euclidean_distance(p1, p2):
-    return sum((a - b) ** 2 for a, b in zip(p1, p2)) ** 0.5
-
-def cosine_distance(p1, p2):
-    dot_product = sum(a * b for a, b in zip(p1, p2))
-    magnitude_p1 = sum(a ** 2 for a in p1) ** 0.5
-    magnitude_p2 = sum(b ** 2 for b in p2) ** 0.5
-    return 1 - dot_product / (magnitude_p1 * magnitude_p2)
+.. code-block:: python
 
 # Sample data
 data_points = [((1, 2), (2, 3)), ((3, 4), (4, 5)), ((5, 6), (6, 7))]
 
 # Benchmarking
-benchmark = ComprehensiveBenchmarking(metrics=[euclidean_distance, cosine_distance], data=data_points)
+benchmark = ComprehensiveBenchmarking(metrics=[Euclidean(), Cosine_distance()], data=data_points)
 benchmark.run_benchmark()
 benchmark.print_results()
 
-Metric: euclidean_distance, Average Time: 0.000016 seconds
-Metric: cosine_distance, Average Time: 0.000007 seconds
+.. code-block:: python
+
+    >>>Metric: euclidean_distance, Average Time: 0.000016 seconds
+    >>>Metric: cosine_distance, Average Time: 0.000007 seconds
 
 Academic Reference
 ------------------
