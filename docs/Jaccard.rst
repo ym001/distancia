@@ -74,8 +74,6 @@ For an academic reference, you can refer to the following seminal paper:
 
    Jaccard
 
-Jaccard, P. (1901). *Étude comparative de la distribution florale dans une portion des Alpes et des Jura*. Bulletin de la Société Vaudoise des Sciences Naturelles, 37, 547–579.
-
 This paper introduces the Jaccard coefficient and its application to biological studies.
 
 Conclusion
