@@ -67,7 +67,7 @@ For an academic reference, you can consult the following paper:
 
 .. bibliography::
 
-   Bhattacharyya
+   bhattacharyya
 
 This paper provides the original definition and context of the Bhattacharyya Distance, offering insights into its theoretical foundations and applications.
 
