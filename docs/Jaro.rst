@@ -97,7 +97,7 @@ The seminal paper by Matthew A. Jaro:
 
 .. bibliography::
 
-    Jaro
+    jaro
 
 Conclusion
 ----------
