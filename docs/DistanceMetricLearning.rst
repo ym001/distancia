@@ -107,6 +107,9 @@ The concept of Distance Metric Learning has been explored in various seminal wor
 
 Another influential work is "Large Margin Nearest Neighbor Classification" by Kilian Q. Weinberger, John Blitzer, and Lawrence K. Saul. Published in 2005, this paper introduced the LMNN algorithm, which has become one of the most widely used methods in distance metric learning, particularly in the context of k-nearest neighbor classification.
 
+.. bibliography::
+
+   dice
 Conclusion
 ----------
 
