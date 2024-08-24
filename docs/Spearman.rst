@@ -74,7 +74,7 @@ For further reading and a deeper understanding of the Spearman distance and its 
 
 .. bibliography::
 
-    SorensenDice
+    spearman
 
 Spearman, C. (1904). The Proof and Measurement of Association Between Two Things. American Journal of Psychology, 15(1), 72-101. DOI: 10.2307/1412159.
 
