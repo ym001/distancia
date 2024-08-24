@@ -25,6 +25,80 @@ Several algorithms exist for Distance Metric Learning, each with different appro
 
 These methods enable the construction of a metric that is highly tuned to the data and the specific machine learning problem, leading to better model performance and more interpretable results.
 
+.. code-block:: python
+
+  from sklearn.datasets import load_iris
+  from distancia import DistanceMetricLearning
+  import numpy as np
+  import matplotlib.pyplot as plt
+  from sklearn.decomposition import PCA
+
+  # Load the Iris dataset
+  data, labels = load_iris(return_X_y=True)
+
+  # Initialize the DistanceMetricLearning class with LMNN (Large Margin Nearest Neighbor)
+  metric_learner = DistanceMetricLearning(data, labels, method='lmnn', k=3)
+
+  # Fit the model to learn the metric
+  metric_learner.fit()
+
+  # Transform the data using the learned metric
+  transformed_data = metric_learner.transform(data)
+
+  # Print the first few rows of the transformed data
+  print("Original Data (first 5 samples):")
+  print(data[:5])
+
+  print("\nTransformed Data (first 5 samples):")
+  print(transformed_data[:5])
+
+  # Plot the original and transformed data using PCA for visualization
+  pca = PCA(n_components=2)
+  data_2d = pca.fit_transform(data)
+  transformed_data_2d = pca.fit_transform(transformed_data)
+
+  # Original data plot
+  plt.figure(figsize=(12, 6))
+
+  plt.subplot(1, 2, 1)
+  plt.scatter(data_2d[:, 0], data_2d[:, 1], c=labels, cmap='viridis')
+  plt.title('Original Data (PCA)')
+  plt.xlabel('Principal Component 1')
+  plt.ylabel('Principal Component 2')
+
+  # Transformed data plot
+  plt.subplot(1, 2, 2)
+  plt.scatter(transformed_data_2d[:, 0], transformed_data_2d[:, 1], c=labels, cmap='viridis')
+  plt.title('Transformed Data (PCA)')
+  plt.xlabel('Principal Component 1')
+  plt.ylabel('Principal Component 2')
+
+  plt.tight_layout()
+  plt.show()
+
+
+Explanation of the Example
+Loading Data: The load_iris function from sklearn.datasets loads the well-known Iris dataset, which consists of features for three classes of flowers.
+
+Initializing DistanceMetricLearning: The DistanceMetricLearning class is instantiated with the method 'lmnn' (Large Margin Nearest Neighbor), a popular metric learning algorithm.
+
+Fitting and Transforming: The model is fitted to the data, and then the data is transformed using the learned metric.
+
+Displaying Results: The original and transformed data are printed for comparison, showing how the data changes after applying the learned metric.
+
+Visualization: The data is plotted in two dimensions using PCA (Principal Component Analysis) to visualize the effect of the metric learning. Two subplots compare the original and transformed data in a 2D space.
+
+Output
+Printed Output: Displays the first five samples of the original and transformed data, highlighting how the transformation affects the data.
+
+Plot: Two scatter plots show the original and transformed data in 2D space. This visualization helps to see how the metric learning has altered the feature space, which can be crucial for tasks like classification.
+
+.. image:: DistanceMetricLearning_1.png
+
+.. image:: DistanceMetricLearning_2.png
+
+
+This example provides a clear demonstration of how to use the DistanceMetricLearning class, including visualization of the results, which is essential for understanding the impact of the learned metric.
 
 Academic Reference
 ------------------
