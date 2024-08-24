@@ -70,7 +70,7 @@ For an academic reference, you can refer to the following seminal paper by Richa
 
 .. bibliography::
 
-   Hamming
+   hamming
 
 This paper introduces the concept of Hamming Distance and discusses its applications in error detection and correction.
 
