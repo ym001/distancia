@@ -49,6 +49,10 @@ Academic Reference
 
 The LCSS problem and its applications have been widely studied in the field of computational biology and computer science. A classic reference is:
 
+.. bibliography::
+
+   longestcommonsubsequence
+
 - **Gusfield, D. (1997).** *Algorithms on Strings, Trees, and Sequences: Computer Science and Computational Biology*. Cambridge University Press.
 
 This book provides an in-depth discussion of algorithms related to sequence comparison, including LCSS.
