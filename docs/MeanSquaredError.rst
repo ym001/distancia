@@ -68,7 +68,7 @@ For a comprehensive overview of regression analysis and error metrics, consider 
 
 .. bibliography::
 
-    MeanSquaredError
+    meansquarederror
 
 - Draper, N. R., & Smith, H. (1998). "Applied Regression Analysis." *Wiley-Interscience.* [ISBN: 978-0470284888](https://www.wiley.com/en-us/Applied+Regression+Analysis%2C+3rd+Edition-p-9780470284888)
 
