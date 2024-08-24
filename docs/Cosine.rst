@@ -76,7 +76,7 @@ For an academic reference, you can refer to the following article that discusses
 
 .. bibliography::
 
-   Cosine
+   cosine
 
 
 This textbook is a comprehensive resource on information retrieval and text mining, with an emphasis on vector space models and the role of Cosine Similarity.
