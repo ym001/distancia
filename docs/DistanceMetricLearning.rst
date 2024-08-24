@@ -1,4 +1,4 @@
-DistanceMetricLearning
+Distance Metric Learning
 =======================
 
 Introduction
