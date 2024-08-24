@@ -80,7 +80,7 @@ For further reading and a deeper understanding of the Pearson distance and its a
 
 .. bibliography::
 
-    Pearson
+    pearson
 
 Pearson, K. (1895). Note on Regression and Inheritance in the Case of Two Parents. Proceedings of the Royal Society of London, 58(347-352), 240-242. DOI: 10.1098/rspl.1895.0041.
 
