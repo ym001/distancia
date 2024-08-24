@@ -83,7 +83,7 @@ For further reading on the **Generalized Jaccard** similarity coefficient, consi
 
 .. bibliography::
 
-    GeneralizedJaccard
+    generalizedjaccard
 
 Although this reference discusses a related metric known as the Tanimoto coefficient, it is closely related to the Generalized Jaccard index and offers insight into its theoretical underpinnings.
 
