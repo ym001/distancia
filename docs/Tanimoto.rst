@@ -66,7 +66,7 @@ For an academic reference, you can refer to the following paper:
 
 .. bibliography::
 
-   Tanimoto
+   tanimoto
 
 Tanimoto, T.T. (1957). *IBM Internal Report: An Elementary Mathematical Theory of Classification and Prediction*. IBM.
 
