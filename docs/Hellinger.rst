@@ -71,7 +71,7 @@ For further reading and a deeper understanding of the Hellinger distance and its
 
 .. bibliography::
 
-    Hellinger
+    hellinger
 
 Conclusion
 ----------
