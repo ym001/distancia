@@ -80,7 +80,7 @@ For further reading on the **Fager-McGowan** similarity coefficient and its appl
 
 .. bibliography::
 
-FagerMcGowan
+    fagermcgowan
 
 Conclusion
 ----------
