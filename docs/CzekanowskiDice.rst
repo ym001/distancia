@@ -63,7 +63,7 @@ For a more in-depth understanding of the **Czekanowski-Dice** similarity coeffic
 
 .. bibliography::
 
-    CzekanowskiDice
+    czekanowskiDice
 
 Conclusion
 ----------
