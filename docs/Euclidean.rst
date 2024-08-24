@@ -68,7 +68,7 @@ For an academic reference, you can refer to the following article that discusses
 
 .. bibliography::
 
-   Euclidean
+   euclidean
 
 This paper discusses the use of Euclidean distance in the context of high-dimensional data and its relevance in database theory.
 
