@@ -103,13 +103,16 @@ This example provides a clear demonstration of how to use the DistanceMetricLear
 Academic Reference
 ------------------
 
-The concept of Distance Metric Learning has been explored in various seminal works. A key reference is the paper "Distance Metric Learning, with Application to Clustering with Side-Information" by Eric P. Xing, Andrew Y. Ng, Michael I. Jordan, and Stuart Russell, published in Advances in Neural Information Processing Systems (NIPS) in 2002. This paper laid the groundwork for many subsequent methods in DML, introducing the idea of learning a distance metric based on pairwise constraints.
+The concept of Distance Metric Learning has been explored in various seminal works. A key reference is the paper :cite:p: . This paper laid the groundwork for many subsequent methods in DML, introducing the idea of learning a distance metric based on pairwise constraints.
 
 Another influential work is "Large Margin Nearest Neighbor Classification" by Kilian Q. Weinberger, John Blitzer, and Lawrence K. Saul. Published in 2005, this paper introduced the LMNN algorithm, which has become one of the most widely used methods in distance metric learning, particularly in the context of k-nearest neighbor classification.
 
 .. bibliography::
 
-   dice
+  distancemetriclearning1
+
+  distancemetriclearning2
+
 Conclusion
 ----------
 
