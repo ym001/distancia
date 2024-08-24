@@ -79,8 +79,6 @@ For a deeper understanding of the Motzkin-Straus distance and its applications, 
 
     motzkinstraus
 
-Motzkin, T. S., & Straus, E. G. (1965). Maxima for graphs and a new proof of a theorem of Turán. Canadian Journal of Mathematics, 17, 533-540.
-
 Conclusion
 ----------
 The Motzkin-Straus distance, though specialized, provides a valuable tool for analyzing the structure of data represented as graphs. Its roots in combinatorial optimization and graph theory make it particularly useful for applications that require understanding the compactness or completeness of subgraphs. The distanciaa package allows for straightforward computation of this distance, making it accessible for a wide range of analytical purposes.
