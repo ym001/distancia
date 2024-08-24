@@ -64,7 +64,7 @@ For further details on the Haversine formula and its applications, refer to the 
 
 .. bibliography::
 
-   Haversine
+   haversine
 
 This paper provides an in-depth discussion of the Haversine formula and its use in calculating spherical distances.
 
