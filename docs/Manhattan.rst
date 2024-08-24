@@ -72,7 +72,6 @@ For an academic reference, you can refer to the following article that discusses
 
    manhattan
 
-Aggarwal, C. C., Hinneburg, A., & Keim, D. A. (2001). *On the Surprising Behavior of Distance Metrics in High Dimensional Space*. In International Conference on Database Theory (pp. 420-434). Springer.
 
 This article explores the behavior of various distance metrics, including Manhattan Distance, in the context of high-dimensional data analysis.
 
