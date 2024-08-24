@@ -77,7 +77,7 @@ A key reference for understanding the Mahalanobis-Taguchi System is:
 
 .. bibliography::
 
-    MahalanobisTaguchi
+    mahalanobistaguchi
 
 Taguchi, G., Jugulum, R. (2002). *The Mahalanobis-Taguchi Strategy: A Pattern Technology System*. Wiley.
 
