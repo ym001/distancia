@@ -79,7 +79,7 @@ For more detailed information on the Enhanced Rogers-Tanimoto distance and its a
 
 .. bibliography::
 
-    EnhancedRogersTanimoto
+    enhancedrogerstanimoto
 
 
 Conclusion
