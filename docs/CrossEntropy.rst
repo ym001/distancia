@@ -163,7 +163,7 @@ For a deeper understanding, you can refer to the foundational work by Claude Sha
 
 .. bibliography::
 
-    CrossEntropy
+    crossentropy
 
 
 Conclusion
