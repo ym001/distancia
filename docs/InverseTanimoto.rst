@@ -82,7 +82,7 @@ For a detailed exploration of the Tanimoto coefficient and its applications, ref
 
 .. bibliography::
 
-    InverseTanimoto
+    inversetanimoto
 
 Conclusion
 ----------
