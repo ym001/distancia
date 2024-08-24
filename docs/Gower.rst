@@ -93,7 +93,7 @@ For a detailed explanation of the Gower similarity coefficient, refer to the ori
 
 .. bibliography::
 
-    Gower
+    gower
 
 This paper lays out the theoretical foundations of the coefficient and discusses its properties and applications in depth.
 
