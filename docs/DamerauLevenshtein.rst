@@ -86,7 +86,7 @@ For a deeper understanding of the **Damerau-Levenshtein** distance and its appli
 
 .. bibliography::
 
-    DamerauLevenshtein
+    dameraulevenshtein
 
 Conclusion
 ----------
