@@ -72,7 +72,7 @@ For an academic reference, you can refer to the following seminal paper:
 
 .. bibliography::
 
-   Jaccard
+   jaccard
 
 This paper introduces the Jaccard coefficient and its application to biological studies.
 
