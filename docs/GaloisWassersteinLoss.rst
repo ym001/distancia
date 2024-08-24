@@ -64,7 +64,7 @@ For a deeper understanding of the underlying concepts of the **Galois Wasserstei
 
 .. bibliography::
 
-    GaloisWassersteinLoss
+    galoiswassersteinloss
 
 
 Conclusion
