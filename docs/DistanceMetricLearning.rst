@@ -103,9 +103,6 @@ This example provides a clear demonstration of how to use the DistanceMetricLear
 Academic Reference
 ------------------
 
-.. rst:role:: cite:p
-
-  .. versionadded:: 2.2.0
 
   The concept of Distance Metric Learning has been explored in various seminal works. A key reference is the paper :cite:p:`distancemetriclearning1`   . This paper laid the groundwork for many subsequent methods in DML, introducing the idea of learning a distance metric based on pairwise constraints.
 
