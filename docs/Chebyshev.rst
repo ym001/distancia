@@ -59,7 +59,7 @@ For further reading on the Chebyshev distance and its applications, refer to the
 
 .. bibliography::
 
-   Chebyshev
+   chebyshev
 
 This paper provides an in-depth discussion of Chebyshev's contributions to approximation theory and metrics.
 
