@@ -70,7 +70,7 @@ For further reading and a deeper understanding of the Bray-Curtis distance, refe
 
 .. bibliography::
 
-   BrayCurtis
+   braycurtis
 
 Conclusion
 ----------
