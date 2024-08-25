@@ -52,7 +52,9 @@ Academic Reference
 
 Outlier detection is a well-explored domain in both statistics and machine learning. A comprehensive resource on the topic is:
 
-outlier
+.. bibliography::
+
+    outlier
 
 
 Conclusion
