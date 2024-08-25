@@ -69,7 +69,7 @@ History
 --------
 
 
-The Russell-Rao distance was introduced by David A. Russell and William A. Rao in their 1976 paper. It was developed as a simple metric for measuring the dissimilarity between binary vectors, making it suitable for applications where binary data is prevalent :cite:t:`russellrao`.
+The Russell-Rao distance was introduced by David A. Russell and William A. Rao in their 1976 paper. It was developed as a simple metric for measuring the dissimilarity between binary vectors, making it suitable for applications where binary data is prevalent :footcite:t:`russellrao`.
 
 **Reference**:
 
