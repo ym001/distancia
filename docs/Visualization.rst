@@ -55,6 +55,9 @@ Academic Reference
 
 The concept of distance matrices and their visualization has been widely discussed in the literature. One of the foundational references is:
 
+.. footbibliography::
+
+
 - Johnson, S. C. (1967). "Hierarchical clustering schemes." *Psychometrika*, 32(3), 241-254. This paper discusses hierarchical clustering techniques and their applications, including the visualization of clustering results using dendrograms.
 
 Conclusion
