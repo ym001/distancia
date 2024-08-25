@@ -71,9 +71,8 @@ Reference
 
 For an academic reference, you can refer to the following paper:
 
-.. bibliography::
+.. footbibliography::
 
-   tversky
 
 Tversky, A. (1977). *Features of Similarity*. Psychological Review, 84(4), 327-352. DOI:10.1037/0033-295X.84.4.327.
 
