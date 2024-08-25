@@ -52,9 +52,8 @@ Academic Reference
 
 Outlier detection is a well-explored domain in both statistics and machine learning. A comprehensive resource on the topic is:
 
-Rousseeuw, P. J., & Leroy, A. M. (1987). *Robust Regression and Outlier Detection*. John Wiley & Sons.
+outlier
 
-This work delves into various methods of identifying outliers, offering a theoretical foundation that complements the practical application of these methods in tools like the `distancia` package.
 
 Conclusion
 ----------
