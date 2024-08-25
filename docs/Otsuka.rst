@@ -69,8 +69,6 @@ Academic Reference
 
     otsuka
 
-Otsuka, K. (1976). *Statistical Methods for Categorical Data*. Academic Press.
-
 This reference provides an overview of the development and application of the Otsuka distance and other statistical methods for analyzing categorical data.
 
 Conclusion
