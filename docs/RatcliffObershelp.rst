@@ -70,8 +70,6 @@ The Ratcliff/Obershelp distance was introduced by John Ratcliff and David Obersh
 
     ratcliffobershelp
 
-Ratcliff, J. W., & Obershelp, R. J. (1983). *Pattern Recognition and Matching*. IEEE Transactions on Pattern Analysis and Machine Intelligence, 5(6), 606-617.
-
 This paper details the development of the Ratcliff/Obershelp algorithm and its applications in pattern recognition and string matching.
 
 Conclusion
