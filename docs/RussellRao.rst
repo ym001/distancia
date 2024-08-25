@@ -73,9 +73,7 @@ The Russell-Rao distance was introduced by David A. Russell and William A. Rao i
 
 **Reference**:
 
-.. bibliography::
-
-    russellrao
+.. footbibliography::
 
 
 Conclusion
