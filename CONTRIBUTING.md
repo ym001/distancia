@@ -39,6 +39,7 @@ We welcome all forms of code contributions, from minor bug fixes to major featur
     6. Submit a Pull Request: Go to the original repository and submit a pull request from your branch. Describe your changes and mention any related issues.
 
 ### 3. Writing Documentation
+
 Clear and comprehensive documentation is crucial. If you’re adding new features or changing existing functionality, update the documentation accordingly. Documentation contributions can be in the form of:
 
 Writing or improving the package documentation.
@@ -46,15 +47,19 @@ Creating tutorials or examples.
 Enhancing docstrings within the code.
 
 ### 4. Suggesting Enhancements
+
 If you have ideas for new features or improvements, feel free to share them. You can submit these as issues or start a discussion in the GitHub Discussions section.
 
 ### 5. Code Style
+
 Please follow the PEP 8 guidelines for Python code. We recommend using a linter like flake8 to check your code style before submission.
 
 ### 6. Code of Conduct
+
 Please note that we have a Code of Conduct. By participating in this project, you agree to abide by its terms.
 
 Getting Help
+
 If you have any questions or need help with contributing, feel free to open an issue or join our discussions. We’re here to help!
 
 License
