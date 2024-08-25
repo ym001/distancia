@@ -31,7 +31,10 @@ We welcome all forms of code contributions, from minor bug fixes to major featur
 
     4. Run Tests: Ensure that all tests pass before submitting your changes. If you’ve added new functionality, include appropriate tests.
    pytest
+
     5. Commit and Push: Commit your changes with a clear commit message. Then, push your branch to your forked repository.
+
+   ```bash
 
     git add .
     git commit -m "Add custom distance metric feature"
