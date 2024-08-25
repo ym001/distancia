@@ -19,18 +19,18 @@ If you find any bugs or have suggestions for improvements, please submit an issu
 
 We welcome all forms of code contributions, from minor bug fixes to major feature additions. Here’s how you can contribute code :
 
-    1. **Fork the Repository**: Start by forking the [Distancia repository](https://github.com/your-username/distancia) to your GitHub account.
+1. **Fork the Repository**: Start by forking the [Distancia repository](https://github.com/your-username/distancia) to your GitHub account.
 
-    2. **Create a Branch**: Create a new branch from the `main` branch in your forked repository. Use a descriptive name for your branch, like `feature/custom-distance-metric` or `bugfix/fix-issue-123`.
+2. **Create a Branch**: Create a new branch from the `main` branch in your forked repository. Use a descriptive name for your branch, like `feature/custom-distance-metric` or `bugfix/fix-issue-123`.
 
        git checkout -b feature/custom-distance-metric
 
-    3. **Write Your Code**: Make your changes, ensuring that your code follows the existing style and conventions. If you are adding a new feature, make sure to include tests.
+3. **Write Your Code**: Make your changes, ensuring that your code follows the existing style and conventions. If you are adding a new feature, make sure to include tests.
 
-    4. **Run Tests**: Ensure that all tests pass before submitting your changes. If you’ve added new functionality, include appropriate tests.
+4. **Run Tests**: Ensure that all tests pass before submitting your changes. If you’ve added new functionality, include appropriate tests.
    pytest
 
-    5. **Commit and Push**: Commit your changes with a clear commit message. Then, push your branch to your forked repository.
+5. **Commit and Push**: Commit your changes with a clear commit message. Then, push your branch to your forked repository.
 
    ```bash
 
