@@ -25,12 +25,12 @@ We welcome all forms of code contributions, from minor bug fixes to major featur
 
        git checkout -b feature/custom-distance-metric
 
-    3. Write Your Code: Make your changes, ensuring that your code follows the existing style and conventions. If you are adding a new feature, make sure to include tests.
+    3. **Write Your Code**: Make your changes, ensuring that your code follows the existing style and conventions. If you are adding a new feature, make sure to include tests.
 
-    4. Run Tests: Ensure that all tests pass before submitting your changes. If you’ve added new functionality, include appropriate tests.
+    4. **Run Tests**: Ensure that all tests pass before submitting your changes. If you’ve added new functionality, include appropriate tests.
    pytest
 
-    5. Commit and Push: Commit your changes with a clear commit message. Then, push your branch to your forked repository.
+    5. **Commit and Push**: Commit your changes with a clear commit message. Then, push your branch to your forked repository.
 
    ```bash
 
@@ -38,7 +38,7 @@ We welcome all forms of code contributions, from minor bug fixes to major featur
     git commit -m "Add custom distance metric feature"
     git push origin feature/custom-distance-metric
 
-    6. Submit a Pull Request: Go to the original repository and submit a pull request from your branch. Describe your changes and mention any related issues.
+    6. **Submit a Pull Request**: Go to the original repository and submit a pull request from your branch. Describe your changes and mention any related issues.
 
 ### 3. Writing Documentation
 
