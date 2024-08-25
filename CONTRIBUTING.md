@@ -24,7 +24,8 @@ We welcome all forms of code contributions, from minor bug fixes to major featur
     2. **Create a Branch**: Create a new branch from the `main` branch in your forked repository. Use a descriptive name for your branch, like `feature/custom-distance-metric` or `bugfix/fix-issue-123`.
 
    ```bash
-   git checkout -b feature/custom-distance-metric
+
+       git checkout -b feature/custom-distance-metric
 
     3. Write Your Code: Make your changes, ensuring that your code follows the existing style and conventions. If you are adding a new feature, make sure to include tests.
 
