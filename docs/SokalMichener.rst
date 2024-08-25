@@ -69,9 +69,6 @@ The Sokal-Michener distance was introduced by Robert R. Sokal and Charles D. Mic
 
     sokalmichener
 
-Sokal, R. R., & Michener, C. D. (1958). *A Statistical Method for Evaluating Systematic Relationships*. University of Kansas Science Bulletin, 38, 1409-1438.
-
-This paper details the development of the Sokal-Michener similarity coefficient and its application in taxonomy.
 
 Conclusion
 ----------
