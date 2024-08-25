@@ -38,7 +38,7 @@ We welcome all forms of code contributions, from minor bug fixes to major featur
     git commit -m "Add custom distance metric feature"
     git push origin feature/custom-distance-metric
 
-    6. **Submit a Pull Request**: Go to the original repository and submit a pull request from your branch. Describe your changes and mention any related issues.
+6. **Submit a Pull Request**: Go to the original repository and submit a pull request from your branch. Describe your changes and mention any related issues.
 
 ### 3. Writing Documentation
 
