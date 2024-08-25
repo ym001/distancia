@@ -76,7 +76,6 @@ The Russell-Rao distance was introduced by David A. Russell and William A. Rao i
 
     russellrao
 
- .. This paper describes the Russell-Rao distance and its applications in various domains, including pattern recognition and binary data analysis.
 
 Conclusion
 ----------
