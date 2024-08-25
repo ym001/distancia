@@ -49,6 +49,8 @@ Academic Reference
 
 Parallel and distributed computing has been a key area of research in computer science, particularly for large-scale data processing. The use of parallelism in distance computations aligns with concepts in parallel algorithms, which have been extensively studied in the academic community. For an in-depth discussion on parallel algorithms, refer to:
 
+.. bibliography::
+
 parallelanddistributedcomputation
 
 Conclusion
