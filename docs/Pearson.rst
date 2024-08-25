@@ -82,8 +82,6 @@ For further reading and a deeper understanding of the Pearson distance and its a
 
     pearson
 
-Pearson, K. (1895). Note on Regression and Inheritance in the Case of Two Parents. Proceedings of the Royal Society of London, 58(347-352), 240-242. DOI: 10.1098/rspl.1895.0041.
-
 Conclusion
 ----------
 The Pearson distance is a valuable tool for assessing the linear dissimilarity between datasets. Its wide application in various fields, from bioinformatics to machine learning, attests to its importance in data analysis. By leveraging the distanciaa package's implementation of the Pearson distance, researchers and data scientists can easily integrate this measure into their workflows, facilitating more insightful analyses.
