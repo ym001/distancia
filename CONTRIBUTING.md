@@ -17,7 +17,7 @@ If you find any bugs or have suggestions for improvements, please submit an issu
 
 ### 2. Submitting Code Contributions
 
-We welcome all forms of code contributions, from minor bug fixes to major feature additions. Here’s how you can contribute code:
+We welcome all forms of code contributions, from minor bug fixes to major feature additions. Here’s how you can contribute code :
 
     1. **Fork the Repository**: Start by forking the [Distancia repository](https://github.com/your-username/distancia) to your GitHub account.
 
