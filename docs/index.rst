@@ -91,6 +91,34 @@ For more examples, refer to the next section.
 
 Available Metrics
 -----------------
+Similarity
+
+.. toctree::
+   :maxdepth: 1
+
+Cosine
+
+Jaccard
+
+GeneralizedJaccard
+
+Tversky 
+
+Dice 
+
+InverseTanimoto
+
+Ochiai 
+
+CzekanowskiDice
+
+Pearson
+
+Spearman 
+
+FagerMcGowan
+
+Otsuka 
 
 .. toctree::
    :maxdepth: 1
