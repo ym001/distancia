@@ -68,14 +68,11 @@ Jaccard Similarity is used in various applications, including:
 Reference
 ---------
 
-For an academic reference, you can refer to the following seminal paper:
-
-
-:footcite:t:``
+For an academic reference, you can refer to the following seminal paper: :footcite:t:`jaccard`
 
 .. footbibliography::
 
-   jaccard
+   
 
 This paper introduces the Jaccard coefficient and its application to biological studies.
 
