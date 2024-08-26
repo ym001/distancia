@@ -121,6 +121,11 @@ Academic Reference
 
 The concept of distance metrics is fundamental in many areas of data science, particularly in machine learning and statistical analysis. The use of customizable distance metrics allows researchers and practitioners to tailor their analyses to the specific needs of their data. A relevant academic reference discussing the importance of distance metrics in clustering algorithms is:
 
+
+:footcite:t:``
+
+.. footbibliography::
+
 - Aggarwal, C. C., & Reddy, C. K. (2013). *Data Clustering: Algorithms and Applications*. Chapman and Hall/CRC. This book provides an in-depth discussion of various distance metrics and their applications in clustering algorithms.
 
 Conclusion
