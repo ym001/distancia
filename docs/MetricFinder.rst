@@ -46,7 +46,7 @@ In this example, the MetricFinder class correctly identifies the best metric for
 Academic Reference
 ------------------
 
-The development of the MetricFinder class is grounded in principles from data science and machine learning literature, where the selection of appropriate distance and similarity metrics is a critical step in many algorithms. Notable references that discuss metric selection include: :footcite:t:`metricfinder1`, :footcite:t:`metricfinder2`
+The development of the MetricFinder class is grounded in principles from data science and machine learning literature, where the selection of appropriate distance and similarity metrics is a critical step in many algorithms. Notable references that discuss metric selection include: :footcite:t:`metricfinder1` , :footcite:t:`metricfinder2`
 
 .. footbibliography::
 
