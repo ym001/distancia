@@ -70,7 +70,10 @@ The Rogers-Tanimoto distance was introduced by David W. Rogers and K. J. Tanimot
 
 **Reference**:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     rogerstanimoto
 
