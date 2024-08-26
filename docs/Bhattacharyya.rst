@@ -63,9 +63,7 @@ The Bhattacharyya Distance is widely used in various applications, including:
 Reference
 ---------
 
-For an academic reference, you can consult the following paper:
-
-:footcite:t:``
+For an academic reference, you can consult the following paper :footcite:t:`bhattacharyya`:
 
 .. footbibliography::
 
