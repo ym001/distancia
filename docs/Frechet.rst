@@ -45,16 +45,10 @@ This example demonstrates the calculation of the Fréchet Distance between two s
 Academic Reference
 ------------------
 
-The Fréchet Distance was first introduced by Maurice Fréchet in 1906 in the context of functional analysis. It was later applied to computational geometry to compare curves and paths. The foundational paper in this field is:
-
-
-:footcite:t:``
+The Fréchet Distance was first introduced by Maurice Fréchet in 1906 in the context of functional analysis. It was later applied to computational geometry to compare curves and paths. The foundational paper in this field is: :footcite:t:`frechet`
 
 .. footbibliography::
 
-  frechet
-
-- Alt, Helmut, and Michael Godau. "Computing the Fréchet distance between two polygonal curves." *International Journal of Computational Geometry & Applications* 5.01n02 (1995): 75-91.
 
 Conclusion
 ----------
