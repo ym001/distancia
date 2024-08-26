@@ -47,14 +47,11 @@ In this example, the sequences `"AGGTAB"` and `"GXTXAYB"` are compared. The LCSS
 Academic Reference
 ------------------
 
-The LCSS problem and its applications have been widely studied in the field of computational biology and computer science. A classic reference is:
-
-
-:footcite:t:``
+The LCSS problem and its applications have been widely studied in the field of computational biology and computer science. A classic reference is: :footcite:t:`longestcommonsubsequence`
 
 .. footbibliography::
 
-   longestcommonsubsequence
+   
 
 - **Gusfield, D. (1997).** *Algorithms on Strings, Trees, and Sequences: Computer Science and Computational Biology*. Cambridge University Press.
 
