@@ -46,8 +46,11 @@ Academic Reference
 ------------------
 
 The development of the MetricFinder class is grounded in principles from data science and machine learning literature, where the selection of appropriate distance and similarity metrics is a critical step in many algorithms. Notable references that discuss metric selection include:
+:footcite:t:`MetricFinder`
 
-Cha, S.-H. (2007). Comprehensive Survey on Distance/Similarity Measures between Probability Density Functions. International Journal of Mathematical Models and Methods in Applied Sciences, 1(4), 300-307.
+.. footbibliography::
+
+
 Aggarwal, C. C., Hinneburg, A., & Keim, D. A. (2001). On the surprising behavior of distance metrics in high dimensional space. In International conference on database theory (pp. 420-434). Springer, Berlin, Heidelberg.
 These references provide a foundation for understanding the importance of metric selection in various applications, highlighting the need for tools like MetricFinder.
 
