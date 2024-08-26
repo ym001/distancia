@@ -72,13 +72,11 @@ Cosine Similarity is widely used in various domains, including:
 Reference
 ---------
 
-For an academic reference, you can refer to the following article that discusses the use of Cosine Similarity in text mining and information retrieval:
-
-:footcite:t:``
+For an academic reference, you can refer to the following article that discusses the use of Cosine Similarity in text mining and information retrieval :footcite:t:`cosine` :
 
 .. footbibliography::
 
-   cosine
+   
 
 
 This textbook is a comprehensive resource on information retrieval and text mining, with an emphasis on vector space models and the role of Cosine Similarity.
