@@ -69,7 +69,10 @@ Academic Reference
 
 For further reading and a deeper understanding of the Hellinger distance and its applications, refer to the following academic paper:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     hellinger
 
