@@ -71,14 +71,11 @@ The Ochiai distance between the two binary vectors is: 0.292893
 Academic Reference
 ------------------
                   
-For further reading and a deeper understanding of the Ochiai distance and its applications, refer to the following academic paper:
-
-
-:footcite:t:``
+For further reading and a deeper understanding of the Ochiai distance and its applications, refer to the following academic paper: :footcite:t:`ochiai`
 
 .. footbibliography::
 
-    ochiai
+    
 
 
 Conclusion
