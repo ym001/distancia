@@ -15,6 +15,7 @@ Example
 -------
 
 Here's a basic example of how to use the MetricFinder class:
+
 .. code-block:: python
 
   # Example usage
@@ -48,7 +49,6 @@ Academic Reference
 The development of the MetricFinder class is grounded in principles from data science and machine learning literature, where the selection of appropriate distance and similarity metrics is a critical step in many algorithms. Notable references that discuss metric selection include: :footcite:t:`metricfinder1`, :footcite:t:`metricfinder2`
 
 .. footbibliography::
-
 
 
 These references provide a foundation for understanding the importance of metric selection in various applications, highlighting the need for tools like MetricFinder.
