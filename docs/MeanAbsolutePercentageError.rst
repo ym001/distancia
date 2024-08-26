@@ -62,14 +62,11 @@ Despite its limitations, MAPE remains a widely used error metric, particularly i
 Academic Reference
 ==================
 
-For a deeper understanding of MAPE and its applications, the following reference is recommended:
-
-
-:footcite:t:``
+For a deeper understanding of MAPE and its applications, the following reference is recommended: :footcite:t:`meanabsolutepercentageerror`
 
 .. footbibliography::
 
-    meanabsolutepercentageerror
+    
 
 - Armstrong, J. S. (1985). "Long-range Forecasting: From Crystal Ball to Computer." *Wiley-Interscience.* [ISBN: 978-0471800288](https://www.wiley.com/en-us/Long+Range+Forecasting%3A+From+Crystal+Ball+to+Computer%2C+2nd+Edition-p-9780471800288)
 
