@@ -76,14 +76,11 @@ The **Fager Mc Gowan** similarity coefficient was introduced by Eugene W. Fager 
 Academic Reference
 ------------------
 
-For further reading on the **Fager-McGowan** similarity coefficient and its applications, consider the following academic reference:
-
-
-:footcite:t:``
+For further reading on the **Fager-McGowan** similarity coefficient and its applications, consider the following academic reference: :footcite:t:`fagermcgowan`
 
 .. footbibliography::
 
-    fagermcgowan
+    
 
 Conclusion
 ----------
