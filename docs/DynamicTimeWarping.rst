@@ -45,16 +45,12 @@ In this example, the `DynamicTimeWarping` class computes the DTW distance betwee
 Academic Reference
 ------------------
 
-The concept of Dynamic Time Warping was first introduced in the context of speech recognition by **Itakura** (1975) and **Sakoe and Chiba** (1978). The algorithm has since been applied to various domains, making it a versatile tool for time-series analysis.
-
-
-:footcite:t:``
+The concept of Dynamic Time Warping was first introduced in the context of speech recognition by :footcite:t:`dynamictimewarping1` and :footcite:t:`dynamictimewarping2`. The algorithm has since been applied to various domains, making it a versatile tool for time-series analysis. 
 
 .. footbibliography::
 
-   dynamictimewarping
 
-- Itakura, F. (1975). Minimum prediction residual principle applied to speech recognition. *IEEE Transactions on Acoustics, Speech, and Signal Processing*, 23(1), 67-72.
+
 - Sakoe, H., & Chiba, S. (1978). Dynamic programming algorithm optimization for spoken word recognition. *IEEE Transactions on Acoustics, Speech, and Signal Processing*, 26(1), 43-49.
 
 Conclusion
