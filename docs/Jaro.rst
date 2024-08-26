@@ -93,14 +93,11 @@ The Jaro distance was first introduced by Matthew A. Jaro in the 1989 paper titl
 Academic Reference
 ------------------
 
-The seminal paper by Matthew A. Jaro:
-
-
-:footcite:t:``
+The seminal paper by Matthew A. Jaro: :footcite:t:`jaro`
 
 .. footbibliography::
 
-    jaro
+    
 
 Conclusion
 ----------
