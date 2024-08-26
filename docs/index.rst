@@ -91,34 +91,7 @@ For more examples, refer to the next section.
 
 Available Metrics
 -----------------
-Similarity
-
-.. toctree::
-   :maxdepth: 1
-
-   Cosine
-
-   Jaccard
-
-   GeneralizedJaccard
-
-   Tversky 
-
-   Dice 
-
-   InverseTanimoto
-
-   Ochiai 
-
-   CzekanowskiDice
-
-   Pearson
-
-   Spearman 
-
-   FagerMcGowan
-
-   Otsuka 
+Distance
 
 .. toctree::
    :maxdepth: 1
@@ -126,23 +99,13 @@ Similarity
 
    Euclidean
 
-   Cosine 
-
    Manhattan 
 
    Hamming
 
-   Jaccard
-
-   GeneralizedJaccard
-
    Levenshtein
 
-   Dice 
-
    Tanimoto
-
-   InverseTanimoto
 
    RatcliffObershelp
 
@@ -151,8 +114,6 @@ Similarity
    JaroWinkler
 
    KendallTau
-
-   Tversky 
 
    Bhattacharyya
 
@@ -188,25 +149,63 @@ Similarity
 
    CzekanowskiDice
 
-   Pearson
-
-   Spearman
-
-   Ochiai
-
    Hellinger
 
    MotzkinStraus
-
-   Otsuka
-
-   FagerMcGowan
 
    EnhancedRogersTanimoto
 
    CrossEntropy
 
    KullbackLeibler
+
+   GaloisWassersteinLoss
+
+ 
+Similarity
+
+.. toctree::
+   :maxdepth: 1
+
+   Cosine
+
+   Jaccard
+
+   GeneralizedJaccard
+
+   Tversky 
+
+   Dice 
+
+   InverseTanimoto
+
+   Ochiai 
+
+   CzekanowskiDice
+
+   Pearson
+
+   Spearman 
+
+   FagerMcGowan
+
+   Otsuka 
+
+Time Series Distance Metrics
+
+.. toctree::
+   :maxdepth: 1
+
+   DynamicTimeWarping
+
+   LongestCommonSubsequence
+
+   Frechet
+
+Loss function
+
+.. toctree::
+   :maxdepth: 1
 
    MeanAbsoluteError
 
@@ -216,13 +215,7 @@ Similarity
 
    SquaredLogarithmicError
 
-   GaloisWassersteinLoss
 
-   DynamicTimeWarping
-
-   LongestCommonSubsequence
-
-   Frechet
 
    And many more...
 
