@@ -49,7 +49,9 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
 
 **Reference:**
 
-.. bibliography::
+:footcite:t:``
+
+.. footbibliography::
 
     camberra
 
