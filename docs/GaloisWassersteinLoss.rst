@@ -60,16 +60,11 @@ The concept of **Galois-Wasserstein Loss** was introduced by Yves Mercadier, fou
 Academic Reference
 ------------------
 
-For a deeper understanding of the underlying concepts of the **Galois Wasserstein Loss**, you can refer to the following paper:
-
-
-:footcite:t:``
+For a deeper understanding of the underlying concepts of the **Galois Wasserstein Loss**, you can refer to the following paper: :footcite:t:`galoiswassersteinloss`
 
 .. footbibliography::
 
-    galoiswassersteinloss
-
-
+    
 Conclusion
 ----------
 
