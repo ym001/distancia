@@ -15,27 +15,30 @@ Example
 -------
 
 Here's a basic example of how to use the MetricFinder class:
+.. code-block:: python
 
-# Example usage
-point1 = [1, 2, 3]
-point2 = [4, 5, 6]
+  # Example usage
+  point1 = [1, 2, 3]
+  point2 = [4, 5, 6]
 
-metric_finder = MetricFinder()
-metric = metric_finder.find_metric(point1, point2)
-print(f"Appropriate Metric: {metric}")
+  metric_finder = MetricFinder()
+  metric = metric_finder.find_metric(point1, point2)
+  print(f"Appropriate Metric: {metric}")
 
-string1 = "hello"
-string2 = "hallo"
+  string1 = "hello"
+  string2 = "hallo"
 
-metric = metric_finder.find_metric(string1, string2)
-print(f"Appropriate Metric: {metric}")
+  metric = metric_finder.find_metric(string1, string2)
+  print(f"Appropriate Metric: {metric}")
 
-similarity_metric = metric_finder.find_similarity_metric(point1, point2)
-print(f"Appropriate Similarity Metric: {similarity_metric}")
+  similarity_metric = metric_finder.find_similarity_metric(point1, point2)
+  print(f"Appropriate Similarity Metric: {similarity_metric}")
 
-Appropriate Metric: Euclidean Distance
-Appropriate Metric: Jaro-Winkler Distance
-Appropriate Similarity Metric: Cosine Similarity
+.. code-block:: bash
+
+  >>>Appropriate Metric: Euclidean Distance
+  >>>Appropriate Metric: Jaro-Winkler Distance
+  >>>Appropriate Similarity Metric: Cosine Similarity
 
 In this example, the MetricFinder class correctly identifies the best metric for different types of data inputs, helping users streamline their analysis processes.
 
