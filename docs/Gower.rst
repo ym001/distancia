@@ -89,14 +89,11 @@ Gower's work has since become foundational in many fields, including ecology, bi
 Academic Reference
 ------------------
 
-For a detailed explanation of the Gower similarity coefficient, refer to the original publication:
-
-
-:footcite:t:``
+For a detailed explanation of the Gower similarity coefficient, refer to the original publication: :footcite:t:`gower`
 
 .. footbibliography::
 
-    gower
+    
 
 This paper lays out the theoretical foundations of the coefficient and discusses its properties and applications in depth.
 
