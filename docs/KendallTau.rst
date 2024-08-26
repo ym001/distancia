@@ -88,7 +88,10 @@ Academic Reference
 
 The foundational work on Kendall Tau distance can be found in the following paper:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     kendalltau
 
