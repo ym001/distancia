@@ -96,29 +96,29 @@ Similarity
 .. toctree::
    :maxdepth: 1
 
-Cosine
+   Cosine
 
-Jaccard
+   Jaccard
 
-GeneralizedJaccard
+   GeneralizedJaccard
 
-Tversky 
+   Tversky 
 
-Dice 
+   Dice 
 
-InverseTanimoto
+   InverseTanimoto
 
-Ochiai 
+   Ochiai 
 
-CzekanowskiDice
+   CzekanowskiDice
 
-Pearson
+   Pearson
 
-Spearman 
+   Spearman 
 
-FagerMcGowan
+   FagerMcGowan
 
-Otsuka 
+   Otsuka 
 
 .. toctree::
    :maxdepth: 1
