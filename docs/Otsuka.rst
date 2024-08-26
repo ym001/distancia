@@ -66,11 +66,11 @@ The Otsuka distance was introduced by K. Otsuka as part of his research on stati
 Academic Reference
 ------------------
 
-:footcite:t:``
+:footcite:t:`otsuka`
 
 .. footbibliography::
 
-    otsuka
+    
 
 This reference provides an overview of the development and application of the Otsuka distance and other statistical methods for analyzing categorical data.
 
