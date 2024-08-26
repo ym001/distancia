@@ -70,7 +70,10 @@ Reference
 
 For an academic reference, you can refer to the following seminal paper:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
    jaccard
 
