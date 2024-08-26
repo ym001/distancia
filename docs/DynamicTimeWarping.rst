@@ -47,7 +47,10 @@ Academic Reference
 
 The concept of Dynamic Time Warping was first introduced in the context of speech recognition by **Itakura** (1975) and **Sakoe and Chiba** (1978). The algorithm has since been applied to various domains, making it a versatile tool for time-series analysis.
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
    dynamictimewarping
 
