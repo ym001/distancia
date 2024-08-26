@@ -49,11 +49,11 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
 
 **Reference:**
 
-:footcite:t:``
+:footcite:t:`camberra`
 
 .. footbibliography::
 
-    camberra
+    
 
 **Conclusion:**
 
