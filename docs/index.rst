@@ -87,7 +87,7 @@ Here are some common examples of how to use distancia:
    >>>Levenshtein Distance: 3
 
 
-For more examples, refer to the next section.
+For a complete list and detailed explanations of each metric, see the next section.
 
 Available Metrics
 -----------------
@@ -219,7 +219,6 @@ Loss function
 
    And many more...
 
-For a complete list and detailed explanations of each metric, see the :doc:`metrics` section.
 
 Contributing
 ------------
