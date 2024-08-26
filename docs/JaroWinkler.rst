@@ -94,7 +94,10 @@ Academic Reference
 
 The original research on the Jaro-Winkler distance can be found in the following paper:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     jarowinkler
 
