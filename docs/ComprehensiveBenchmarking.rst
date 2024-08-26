@@ -34,9 +34,7 @@ Example usage:
 Academic Reference
 ------------------
 
-The importance of benchmarking and selecting appropriate distance metrics has been highlighted in numerous studies and academic papers. For instance, in "Survey on Distance Metric Learning" by Bellet et al. (2013), the authors emphasize the critical role of distance metrics in machine learning and pattern recognition. They discuss various approaches and the necessity of efficient metric selection based on the application at hand.
-
-:footcite:t:``
+The importance of benchmarking and selecting appropriate distance metrics has been highlighted in numerous studies and academic papers. For instance, in :footcite:t:`comprehensivebenchmarking`, the authors emphasize the critical role of distance metrics in machine learning and pattern recognition. They discuss various approaches and the necessity of efficient metric selection based on the application at hand.
 
 .. footbibliography::
 
