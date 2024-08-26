@@ -95,7 +95,10 @@ Academic Reference
 
 The seminal paper by Matthew A. Jaro:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     jaro
 
