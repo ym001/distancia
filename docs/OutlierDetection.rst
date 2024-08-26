@@ -50,14 +50,11 @@ Example
 Academic Reference
 ------------------
 
-Outlier detection is a well-explored domain in both statistics and machine learning. A comprehensive resource on the topic is:
-
-
-:footcite:t:``
+Outlier detection is a well-explored domain in both statistics and machine learning. A comprehensive resource on the topic is: :footcite:t:`outlier`
 
 .. footbibliography::
 
-    outlier
+    
 
 
 Conclusion
