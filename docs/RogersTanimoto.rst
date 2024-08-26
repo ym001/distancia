@@ -70,12 +70,11 @@ The Rogers-Tanimoto distance was introduced by David W. Rogers and K. J. Tanimot
 
 **Reference**:
 
-
-:footcite:t:``
+:footcite:t:`rogerstanimoto`
 
 .. footbibliography::
 
-    rogerstanimoto
+    
 
 This paper describes the Rogers-Tanimoto distance and its applications in pattern recognition and classification tasks.
 
