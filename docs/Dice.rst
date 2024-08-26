@@ -63,14 +63,11 @@ Reference
 ---------
 
 For an academic reference, you can refer to the following paper:
-This paper introduces the Dice Coefficient and discusses its application in ecology for comparing species.
-
-
-:footcite:t:``
+This paper introduces the Dice Coefficient and discusses its application in ecology for comparing species :footcite:t:`dice`.
 
 .. footbibliography::
 
-   dice
+   
 
 Conclusion
 ----------
