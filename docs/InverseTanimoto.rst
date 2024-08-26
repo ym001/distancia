@@ -78,14 +78,11 @@ The Inverse Tanimoto coefficient has emerged as a variant to address scenarios w
 Academic Reference
 ------------------
 
-For a detailed exploration of the Tanimoto coefficient and its applications, refer to:
-
-
-:footcite:t:``
+For a detailed exploration of the Tanimoto coefficient and its applications, refer to: :footcite:t:`inversetanimoto`
 
 .. footbibliography::
 
-    inversetanimoto
+    
 
 Conclusion
 ----------
