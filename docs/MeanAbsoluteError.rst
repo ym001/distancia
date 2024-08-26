@@ -62,14 +62,11 @@ While more sophisticated metrics have been developed, the MAE's intuitive nature
 Academic Reference
 ==================
 
-For a comprehensive understanding of error metrics and their applications, the following reference is recommended:
-
-
-:footcite:t:``
+For a comprehensive understanding of error metrics and their applications, the following reference is recommended: :footcite:t:`meanabsoluteerror`
 
 .. footbibliography::
 
-    meanabsoluteerror
+    
 
 Conclusion
 ==========
