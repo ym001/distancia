@@ -38,13 +38,12 @@ exemple:
 
 Academic Reference
 ------------------
-The concept of distance matrices is well-established in various fields, including statistics, machine learning, and computational biology. A relevant academic reference is:
+The concept of distance matrices is well-established in various fields, including statistics, machine learning, and computational biology. A relevant academic reference is::footcite:t:`distancematrix`
 
-- Kaufman, L., & Rousseeuw, P. J. (2009). *Finding Groups in Data: An Introduction to Cluster Analysis*. John Wiley & Sons.
+
 
 This book extensively discusses the use of distance matrices in clustering algorithms, providing both theoretical foundations and practical applications.
 
-:footcite:t:``
 
 .. footbibliography::
 
