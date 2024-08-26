@@ -67,14 +67,11 @@ The Hellinger distance between the two distributions is: 0.14832397
 Academic Reference
 ------------------
 
-For further reading and a deeper understanding of the Hellinger distance and its applications, refer to the following academic paper:
-
-
-:footcite:t:``
+For further reading and a deeper understanding of the Hellinger distance and its applications, refer to the following academic paper: :footcite:t:`hellinger`
 
 .. footbibliography::
 
-    hellinger
+    
 
 Conclusion
 ----------
