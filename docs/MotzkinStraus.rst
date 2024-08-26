@@ -75,7 +75,10 @@ Academic Reference
       
 For a deeper understanding of the Motzkin-Straus distance and its applications, consider the following reference:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     motzkinstraus
 
