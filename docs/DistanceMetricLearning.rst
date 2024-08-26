@@ -104,19 +104,14 @@ Academic Reference
 ------------------
 
 
-  The concept of Distance Metric Learning has been explored in various seminal works. A key reference is the paper :cite:p:`distancemetriclearning1`   . This paper laid the groundwork for many subsequent methods in DML, introducing the idea of learning a distance metric based on pairwise constraints.
+  The concept of Distance Metric Learning has been explored in various seminal works. A key reference is the paper :footcite:t:`distancemetriclearning1`  . This paper laid the groundwork for many subsequent methods in DML, introducing the idea of learning a distance metric based on pairwise constraints.
 
-  Another influential work is :cite:p:`distancemetriclearning2`  , this paper introduced the LMNN algorithm, which has become one of the most widely used methods in distance metric learning, particularly in the context of k-nearest neighbor classification.
+  Another influential work is :footcite:t:`distancemetriclearning2` , this paper introduced the LMNN algorithm, which has become one of the most widely used methods in distance metric learning, particularly in the context of k-nearest neighbor classification.
 
-
-:footcite:t:``
 
 .. footbibliography::
 
-  distancemetriclearning1
-
-  distancemetriclearning2
-
+  
 Conclusion
 ----------
 
