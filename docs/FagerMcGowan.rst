@@ -78,7 +78,10 @@ Academic Reference
 
 For further reading on the **Fager-McGowan** similarity coefficient and its applications, consider the following academic reference:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     fagermcgowan
 
