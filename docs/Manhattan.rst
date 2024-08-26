@@ -66,14 +66,11 @@ Manhattan Distance is widely used in various domains, including:
 Reference
 ---------
 
-For an academic reference, you can refer to the following article that discusses the application of Manhattan Distance in clustering algorithms:
-
-
-:footcite:t:``
+For an academic reference, you can refer to the following article that discusses the application of Manhattan Distance in clustering algorithms: :footcite:t:`manhattan`
 
 .. footbibliography::
 
-   manhattan
+   
 
 
 This article explores the behavior of various distance metrics, including Manhattan Distance, in the context of high-dimensional data analysis.
