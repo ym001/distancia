@@ -65,6 +65,9 @@ The term "Wasserstein distance" is named after the Russian mathematician Leonid 
 
 **Reference**:
 
+
+:footcite:t:``
+
 .. footbibliography::
 
 
