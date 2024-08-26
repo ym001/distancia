@@ -68,7 +68,10 @@ Reference
 
 For an academic reference, you can refer to the following article that discusses the application of Manhattan Distance in clustering algorithms:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
    manhattan
 
