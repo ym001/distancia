@@ -64,14 +64,11 @@ Euclidean distance is widely used in various applications, including but not lim
 Reference
 ---------
 
-For an academic reference, you can refer to the following article that discusses the Euclidean distance and its applications in depth:
-
-
-:footcite:t:``
+For an academic reference, you can refer to the following article that discusses the Euclidean distance and its applications in depth: :footcite:t:`euclidean`
 
 .. footbibliography::
 
-   euclidean
+   
 
 This paper discusses the use of Euclidean distance in the context of high-dimensional data and its relevance in database theory.
 
