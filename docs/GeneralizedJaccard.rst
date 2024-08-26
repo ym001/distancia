@@ -79,14 +79,9 @@ The Generalized Jaccard coefficient is now widely used in various applications, 
 Academic Reference
 ------------------
 
-For further reading on the **Generalized Jaccard** similarity coefficient, consider the following academic reference:
-
-
-:footcite:t:``
+For further reading on the **Generalized Jaccard** similarity coefficient, consider the following academic reference: :footcite:t:`generalizedjaccard`
 
 .. footbibliography::
-
-    generalizedjaccard
 
 Although this reference discusses a related metric known as the Tanimoto coefficient, it is closely related to the Generalized Jaccard index and offers insight into its theoretical underpinnings.
 
