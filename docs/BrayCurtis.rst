@@ -66,13 +66,11 @@ The Bray-Curtis distance between the two samples is: 0.3333333333333333
 Academic Reference
 ------------------
 
-For further reading and a deeper understanding of the Bray-Curtis distance, refer to the original paper:
-
-:footcite:t:``
+For further reading and a deeper understanding of the Bray-Curtis distance, refer to the original paper :footcite:t:`braycurtis`:
 
 .. footbibliography::
 
-   braycurtis
+   
 
 Conclusion
 ----------
