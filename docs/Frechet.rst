@@ -47,7 +47,10 @@ Academic Reference
 
 The Fréchet Distance was first introduced by Maurice Fréchet in 1906 in the context of functional analysis. It was later applied to computational geometry to compare curves and paths. The foundational paper in this field is:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
   frechet
 
