@@ -73,14 +73,11 @@ The Motzkin-Straus distance between the two vectors is: 0.6
 Academic Reference
 ------------------
       
-For a deeper understanding of the Motzkin-Straus distance and its applications, consider the following reference:
-
-
-:footcite:t:``
+For a deeper understanding of the Motzkin-Straus distance and its applications, consider the following reference: :footcite:t:`motzkinstraus`
 
 .. footbibliography::
 
-    motzkinstraus
+    
 
 Conclusion
 ----------
