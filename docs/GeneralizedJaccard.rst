@@ -81,7 +81,10 @@ Academic Reference
 
 For further reading on the **Generalized Jaccard** similarity coefficient, consider the following academic reference:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     generalizedjaccard
 
