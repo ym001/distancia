@@ -67,6 +67,9 @@ Academic Reference
 
 For a detailed exploration of error metrics including SLE and its applications, consider the following reference:
 
+
+:footcite:t:``
+
 .. footbibliography::
 
 
