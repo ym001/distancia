@@ -80,7 +80,10 @@ Academic Reference
 
 For a detailed exploration of the Tanimoto coefficient and its applications, refer to:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     inversetanimoto
 
