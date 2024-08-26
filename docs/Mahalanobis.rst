@@ -53,14 +53,11 @@ Here is a Python example demonstrating how to calculate the Mahalanobis distance
 
 Reference
 ---------
-For more detailed information on Mahalanobis distance and its applications, refer to the following academic article:
-
-
-:footcite:t:``
+For more detailed information on Mahalanobis distance and its applications, refer to the following academic article: :footcite:t:`mahalanobis`
 
 .. footbibliography::
 
-    mahalanobis
+    
 
 This paper introduces the concept of Mahalanobis distance and discusses its properties and applications in statistical analysis.
 
