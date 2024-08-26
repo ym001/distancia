@@ -77,7 +77,10 @@ Academic Reference
 
 For more detailed information on the Enhanced Rogers-Tanimoto distance and its applications, consider the following reference:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     enhancedrogerstanimoto
 
