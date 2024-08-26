@@ -55,7 +55,10 @@ Reference
 ---------
 For more detailed information on Mahalanobis distance and its applications, refer to the following academic article:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     mahalanobis
 
