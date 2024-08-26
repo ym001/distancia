@@ -91,7 +91,10 @@ Academic Reference
 
 For a detailed explanation of the Gower similarity coefficient, refer to the original publication:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     gower
 
