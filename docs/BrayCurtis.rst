@@ -68,7 +68,9 @@ Academic Reference
 
 For further reading and a deeper understanding of the Bray-Curtis distance, refer to the original paper:
 
-.. bibliography::
+:footcite:t:``
+
+.. footbibliography::
 
    braycurtis
 
