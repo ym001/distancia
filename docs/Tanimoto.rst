@@ -64,6 +64,9 @@ Reference
 
 For an academic reference, you can refer to the following paper:
 
+
+:footcite:t:``
+
 .. footbibliography::
 
    tanimoto
