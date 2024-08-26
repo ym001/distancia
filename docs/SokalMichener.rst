@@ -65,6 +65,9 @@ The Sokal-Michener distance was introduced by Robert R. Sokal and Charles D. Mic
 
 **Reference**:
 
+
+:footcite:t:``
+
 .. footbibliography::
 
 
