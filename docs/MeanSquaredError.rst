@@ -66,7 +66,10 @@ Academic Reference
 
 For a comprehensive overview of regression analysis and error metrics, consider the following reference:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     meansquarederror
 
