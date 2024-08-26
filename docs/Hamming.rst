@@ -68,7 +68,10 @@ Reference
 
 For an academic reference, you can refer to the following seminal paper by Richard Hamming:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
    hamming
 
