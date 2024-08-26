@@ -66,7 +66,10 @@ The Ratcliff/Obershelp distance was introduced by John Ratcliff and David Obersh
 
 **Reference**:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     ratcliffobershelp
 
