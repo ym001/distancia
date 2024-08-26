@@ -108,7 +108,10 @@ Academic Reference
 
   Another influential work is :cite:p:`distancemetriclearning2`  , this paper introduced the LMNN algorithm, which has become one of the most widely used methods in distance metric learning, particularly in the context of k-nearest neighbor classification.
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
   distancemetriclearning1
 
