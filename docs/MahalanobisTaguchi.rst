@@ -75,7 +75,10 @@ Academic Reference
 
 A key reference for understanding the Mahalanobis-Taguchi System is:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     mahalanobistaguchi
 
