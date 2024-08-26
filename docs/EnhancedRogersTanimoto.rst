@@ -75,14 +75,11 @@ The Enhanced Rogers-Tanimoto distance between the two vectors is: 0.5455
 Academic Reference
 ------------------
 
-For more detailed information on the Enhanced Rogers-Tanimoto distance and its applications, consider the following reference:
-
-
-:footcite:t:``
+For more detailed information on the Enhanced Rogers-Tanimoto distance and its applications, consider the following reference::footcite:t:`enhancedrogerstanimoto`
 
 .. footbibliography::
 
-    enhancedrogerstanimoto
+    
 
 
 Conclusion
