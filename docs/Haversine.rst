@@ -60,14 +60,11 @@ Here is a Python example demonstrating how to calculate the Haversine distance b
 Reference
 ---------
 
-For further details on the Haversine formula and its applications, refer to the following academic article:
-
-
-:footcite:t:``
+For further details on the Haversine formula and its applications, refer to the following academic article: :footcite:t:`haversine`
 
 .. footbibliography::
 
-   haversine
+   
 
 This paper provides an in-depth discussion of the Haversine formula and its use in calculating spherical distances.
 
