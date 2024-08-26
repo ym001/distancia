@@ -159,13 +159,11 @@ The use of cross entropy as a loss function gained popularity with the developme
 Academic Reference
 ==================
 
-For a deeper understanding, you can refer to the foundational work by Claude Shannon on information theory:
-
-:footcite:t:``
+For a deeper understanding, you can refer to the foundational work by Claude Shannon on information theory :footcite:t:`crossentropy`:
 
 .. footbibliography::
 
-    crossentropy
+    
 
 
 Conclusion
