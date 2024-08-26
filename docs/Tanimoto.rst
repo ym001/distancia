@@ -62,14 +62,11 @@ The Tanimoto Distance is widely used in various applications, including:
 Reference
 ---------
 
-For an academic reference, you can refer to the following paper:
-
-
-:footcite:t:``
+For an academic reference, you can refer to the following paper: :footcite:t:`tanimoto`
 
 .. footbibliography::
 
-   tanimoto
+   
 
 Tanimoto, T.T. (1957). *IBM Internal Report: An Elementary Mathematical Theory of Classification and Prediction*. IBM.
 
