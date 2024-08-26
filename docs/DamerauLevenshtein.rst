@@ -82,14 +82,11 @@ The **Damerau Levenshtein** distance was first described by Fred J. Damerau in 1
 Academic Reference
 ------------------
 
-For a deeper understanding of the **Damerau-Levenshtein** distance and its applications, consider the following reference:
-
-
-:footcite:t:``
+For a deeper understanding of the **Damerau-Levenshtein** distance and its applications, consider the following reference :footcite:t:`dameraulevenshtein`:
 
 .. footbibliography::
 
-    dameraulevenshtein
+    
 
 Conclusion
 ----------
