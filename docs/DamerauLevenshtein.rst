@@ -84,7 +84,10 @@ Academic Reference
 
 For a deeper understanding of the **Damerau-Levenshtein** distance and its applications, consider the following reference:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     dameraulevenshtein
 
