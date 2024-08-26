@@ -69,15 +69,10 @@ The Tversky Index is widely used in various applications, including:
 Reference
 ---------
 
-For an academic reference, you can refer to the following paper:
-
-
-:footcite:t:``
+For an academic reference, you can refer to the following paper: :footcite:t:`tversky`
 
 .. footbibliography::
 
-
-Tversky, A. (1977). *Features of Similarity*. Psychological Review, 84(4), 327-352. DOI:10.1037/0033-295X.84.4.327.
 
 This paper outlines the theoretical foundation of the Tversky Index and explores its applications in cognitive psychology and similarity measures.
 
