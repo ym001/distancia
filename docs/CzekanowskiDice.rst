@@ -61,7 +61,10 @@ Academic Reference
 
 For a more in-depth understanding of the **Czekanowski-Dice** similarity coefficient and its applications, refer to the following publication:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     czekanowskiDice
 
