@@ -62,7 +62,10 @@ Reference
 
 For further details on the Haversine formula and its applications, refer to the following academic article:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
    haversine
 
