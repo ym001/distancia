@@ -66,14 +66,11 @@ Hamming Distance is used in various applications, including:
 Reference
 ---------
 
-For an academic reference, you can refer to the following seminal paper by Richard Hamming:
-
-
-:footcite:t:``
+For an academic reference, you can refer to the following seminal paper by Richard Hamming: :footcite:t:`hamming`
 
 .. footbibliography::
 
-   hamming
+   
 
 This paper introduces the concept of Hamming Distance and discusses its applications in error detection and correction.
 
