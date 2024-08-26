@@ -44,6 +44,10 @@ The concept of distance matrices is well-established in various fields, includin
 
 This book extensively discusses the use of distance matrices in clustering algorithms, providing both theoretical foundations and practical applications.
 
+:footcite:t:``
+
+.. footbibliography::
+
 Conclusion
 ----------
 The `DistanceMatrix` class in the `distancia` package provides a powerful tool for researchers and practitioners who need to compute and utilize distance matrices in their work. By supporting multiple distance metrics and offering a simple interface, this class enhances the flexibility and usability of the `distancia` package, making it an essential component for tasks involving similarity or dissimilarity analysis in datasets.
