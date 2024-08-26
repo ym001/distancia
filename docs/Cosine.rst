@@ -74,7 +74,9 @@ Reference
 
 For an academic reference, you can refer to the following article that discusses the use of Cosine Similarity in text mining and information retrieval:
 
-.. bibliography::
+:footcite:t:``
+
+.. footbibliography::
 
    cosine
 
