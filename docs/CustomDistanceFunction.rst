@@ -40,11 +40,8 @@ print(f"Custom distance: {distance}")
 Academic Reference
 ------------------
 
-Custom distance functions are often used in specialized fields where standard metrics are inadequate. For example, in the work by 
-*Grauman, K., & Darrell, T. (2005)* titled "The Pyramid Match Kernel: Discriminative Classification with Sets of Image Features," 
-a custom distance metric was devised to compare unordered sets of image features, showing the power of tailored metrics in improving classification tasks.
-
-:footcite:t:``
+Custom distance functions are often used in specialized fields where standard metrics are inadequate. For example, in the work :footcite:t:`customdistancefunction`
+a custom distance metric was devised to compare unordered sets of image features, showing the power of tailored metrics in improving classification tasks .
 
 .. footbibliography::
 
