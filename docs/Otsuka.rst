@@ -65,7 +65,10 @@ The Otsuka distance was introduced by K. Otsuka as part of his research on stati
 
 Academic Reference
 ------------------
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     otsuka
 
