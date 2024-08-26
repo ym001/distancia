@@ -55,6 +55,9 @@ Academic Reference
 
 The concept of distance matrices and their visualization has been widely discussed in the literature. One of the foundational references is:
 
+
+:footcite:t:``
+
 .. footbibliography::
 
 
