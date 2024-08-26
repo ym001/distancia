@@ -62,7 +62,10 @@ Academic Reference
 
 For a deeper understanding, refer to the foundational paper by Kullback and Leibler:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     kullbackleibler
 
