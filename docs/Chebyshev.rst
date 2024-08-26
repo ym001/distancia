@@ -55,13 +55,11 @@ Here is a Python example demonstrating how to calculate the Chebyshev distance b
 Reference
 ---------
 
-For further reading on the Chebyshev distance and its applications, refer to the following academic article:
-
-:footcite:t:``
+For further reading on the Chebyshev distance and its applications, refer to the following academic article :footcite:t:`chebyshev`:
 
 .. footbibliography::
 
-   chebyshev
+   
 
 This paper provides an in-depth discussion of Chebyshev's contributions to approximation theory and metrics.
 
