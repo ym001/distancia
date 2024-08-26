@@ -49,7 +49,10 @@ Academic Reference
 
 The LCSS problem and its applications have been widely studied in the field of computational biology and computer science. A classic reference is:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
    longestcommonsubsequence
 
