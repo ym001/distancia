@@ -161,7 +161,9 @@ Academic Reference
 
 For a deeper understanding, you can refer to the foundational work by Claude Shannon on information theory:
 
-.. bibliography::
+:footcite:t:``
+
+.. footbibliography::
 
     crossentropy
 
