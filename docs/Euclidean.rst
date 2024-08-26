@@ -66,7 +66,10 @@ Reference
 
 For an academic reference, you can refer to the following article that discusses the Euclidean distance and its applications in depth:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
    euclidean
 
