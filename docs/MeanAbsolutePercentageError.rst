@@ -64,7 +64,10 @@ Academic Reference
 
 For a deeper understanding of MAPE and its applications, the following reference is recommended:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     meanabsolutepercentageerror
 
