@@ -31,13 +31,10 @@ In this example, the `BatchDistance` class computes the Manhattan distances betw
 
 Academic Reference
 ------------------
-Batch processing and parallel computation methods have been extensively studied in computer science, particularly in the context of high-performance computing and big data. For an academic reference on efficient distance computations, see:
-
-:footcite:t:``
+Batch processing and parallel computation methods have been extensively studied in computer science, particularly in the context of high-performance computing and big data. For an academic reference on efficient distance computations, see :footcite:t:`batchdistance`:
 
 .. footbibliography::
 
-- **J. Han, M. Kamber, and J. Pei**, *Data Mining: Concepts and Techniques*, Third Edition, Morgan Kaufmann, 2011. This book discusses various methods for efficient data processing, including distance metrics and their optimizations.
 
 Conclusion
 ----------
