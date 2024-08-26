@@ -57,7 +57,9 @@ Reference
 
 For further reading on the Chebyshev distance and its applications, refer to the following academic article:
 
-.. bibliography::
+:footcite:t:``
+
+.. footbibliography::
 
    chebyshev
 
