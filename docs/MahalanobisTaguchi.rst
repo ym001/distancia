@@ -73,14 +73,11 @@ Taguchi’s methodology integrates the Mahalanobis distance into a diagnostic fr
 Academic Reference
 ------------------
 
-A key reference for understanding the Mahalanobis-Taguchi System is:
-
-
-:footcite:t:``
+A key reference for understanding the Mahalanobis-Taguchi System is: :footcite:t:`mahalanobistaguchi`
 
 .. footbibliography::
 
-    mahalanobistaguchi
+    
 
 Taguchi, G., Jugulum, R. (2002). *The Mahalanobis-Taguchi Strategy: A Pattern Technology System*. Wiley.
 
