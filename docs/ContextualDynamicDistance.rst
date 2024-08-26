@@ -207,6 +207,9 @@ Contextual Sentiment Analysis: In sentiment analysis, for instance, the applicat
 
 Academic Reference: The integration of Galois lattices into the CDD is backed by academic research that has established the effectiveness of Galois lattices in representing and analyzing complex contextual relationships. This scholarly foundation not only lends credibility to the CDD but also opens avenues for further research and refinement.
 In summary, the incorporation of Galois lattices into the Contextual Dynamic Distance provides a sophisticated mechanism for weighting and adjusting the influence of different contexts in similarity computations. This results in a more accurate, flexible, and context-sensitive distance measure that can be particularly beneficial in applications such as sentiment analysis and beyond.
+:footcite:t:``
+
+.. footbibliography::
 
 Conclusion
 ----------
