@@ -64,7 +64,10 @@ Academic Reference
 
 For a comprehensive understanding of error metrics and their applications, the following reference is recommended:
 
-.. bibliography::
+
+:footcite:t:``
+
+.. footbibliography::
 
     meanabsoluteerror
 
