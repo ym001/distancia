@@ -64,14 +64,11 @@ Over time, MSE has been widely adopted in various domains, including economics, 
 Academic Reference
 ==================
 
-For a comprehensive overview of regression analysis and error metrics, consider the following reference:
-
-
-:footcite:t:``
+For a comprehensive overview of regression analysis and error metrics, consider the following reference: :footcite:t:`meansquarederror`
 
 .. footbibliography::
 
-    meansquarederror
+    
 
 
 Conclusion
