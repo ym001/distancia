@@ -18,23 +18,24 @@ Usage Example
 
 Here’s a brief example of how to use the `CustomDistanceFunction` class:
 
-```python
-from distancia.distance_metrics import CustomDistanceFunction
+.. code-block:: python
 
-# Define a custom distance function
-def my_custom_function(p, q):
-    return sum(abs(p_i - q_i) for p_i, q_i in zip(p, q))
+    from distancia.distance_metrics import CustomDistanceFunction
 
-# Create an instance of CustomDistanceFunction
-custom_distance = CustomDistanceFunction(func=my_custom_function)
+    # Define a custom distance function
+    def my_custom_function(p, q):
+        return sum(abs(p_i - q_i) for p_i, q_i in zip(p, q))
 
-# Example points
-point1 = (1, 2, 3)
-point2 = (4, 2, 3)
+    # Create an instance of CustomDistanceFunction
+    custom_distance = CustomDistanceFunction(func=my_custom_function)
 
-# Compute the custom distance
-distance = custom_distance.compute(point1, point2)
-print(f"Custom distance: {distance}")
+    # Example points
+    point1 = (1, 2, 3)
+    point2 = (4, 2, 3)
+
+    # Compute the custom distance
+    distance = custom_distance.compute(point1, point2)
+    print(f"Custom distance: {distance}")
 
 
 Academic Reference
