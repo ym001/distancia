@@ -232,11 +232,17 @@ Purpose: Facilitates batch processing of distance computations, enabling users t
 
 Use Case: Essential in real-time systems or when working with large datasets where efficiency is critical. Batch processing saves time and computational resources by handling multiple distance computations in one go.
 
+.. toctree::
+   :maxdepth: 1
+
    ComprehensiveBenchmarking
 
 Purpose: Provides tools for benchmarking the performance of various distance metrics on different types of data.
 
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
+
+.. toctree::
+   :maxdepth: 1
 
    CustomDistanceFunction
 
@@ -244,11 +250,17 @@ Purpose: Allows users to define custom distance functions by specifying a mathem
 
 Use Case: Useful for researchers or practitioners who need a specific metric that isn’t commonly used or already implemented.
 
+.. toctree::
+   :maxdepth: 1
+
    DistanceMatrix
 
 Purpose: Automatically generates a distance matrix for a set of data points using a specified distance metric.
 
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
+
+.. toctree::
+   :maxdepth: 1
 
    DistanceMetricLearning
 
@@ -256,11 +268,17 @@ Purpose: Implements algorithms for learning an optimal distance metric from data
 
 Use Case: Critical in machine learning tasks where the goal is to optimize a distance metric for maximum task-specific performance, improving the accuracy of models.
 
+.. toctree::
+   :maxdepth: 1
+
    IntegratedDistance
 
 Purpose: Enables seamless integration of distance computations with popular data science libraries like pandas, scikit-learn, and numpy.
 
 Use Case: This class enhances the usability of the distancia package, allowing users to incorporate distance calculations directly into their existing data analysis workflows.
+
+.. toctree::
+   :maxdepth: 1
 
    MetricFinder
 
@@ -268,17 +286,26 @@ Purpose: Identifies the most appropriate distance metric for two given data poin
 
 Use Case: Useful when dealing with various types of data, this class helps users automatically determine the best distance metric to apply, ensuring that the metric chosen is suitable for the data's characteristics.
 
+.. toctree::
+   :maxdepth: 1
+
    OutlierDetection
 
 Purpose: Implements methods for detecting outliers in datasets by using distance metrics to identify points that deviate significantly from others.
 
 Use Case: Essential in fields such as fraud detection, quality control, and data cleaning, where identifying and managing outliers is crucial for maintaining data integrity.
 
+.. toctree::
+   :maxdepth: 1
+
    ParallelAndDistributedComputation
 
 Purpose: Adds support for parallel or distributed computation of distances, particularly useful for large datasets.
 
 Use Case: In big data scenarios, calculating distances between millions of data points can be computationally expensive. This class significantly reduces computation time by parallelizing these calculations across multiple processors or machines.
+
+.. toctree::
+   :maxdepth: 1
 
    Visualization
 
