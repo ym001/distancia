@@ -219,6 +219,21 @@ Loss function
 
    And many more...
 
+Overview
+--------
+The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
+
+DistanceMatrix
+
+Purpose: Automatically generates a distance matrix for a set of data points using a specified distance metric.
+
+Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
+
+CustomDistanceFunction
+
+Purpose: Allows users to define custom distance functions by specifying a mathematical formula or providing a custom Python function.
+
+Use Case: Useful for researchers or practitioners who need a specific metric that isn’t commonly used or already implemented.
 
 Contributing
 ------------
@@ -242,11 +257,8 @@ Link
    Documentation<https://distancia.readthedocs.io/en/latest/>
    License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
+Conclusion
+----------
 
-Indices and tables
-------------------
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+The distancia package offers a versatile toolkit for handling a wide range of distance and similarity calculations. Whether you're working with numeric data, categorical data, strings, or time series, the package's classes provide the necessary tools to accurately measure distances and similarities. By understanding and utilizing these classes, you can enhance your data analysis workflows and improve the performance of your machine learning models.
 
