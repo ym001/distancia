@@ -298,7 +298,7 @@ Use Case: Essential in fields such as fraud detection, quality control, and data
 .. toctree::
    :maxdepth: 1
 
-   ParallelAndDistributedComputation
+   ParallelandDistributedComputation
 
 Purpose: Adds support for parallel or distributed computation of distances, particularly useful for large datasets.
 
