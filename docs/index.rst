@@ -313,7 +313,7 @@ Purpose: Provides tools for visualizing distance matrices, dendrograms (for hier
 
 Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), helping users understand the relationships between data points. This class is particularly useful for creating visual aids like heatmaps or dendrograms to better interpret the data.
 
-
+APICompatibility
 
 Contributing
 ------------
