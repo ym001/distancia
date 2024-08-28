@@ -46,10 +46,9 @@ This helps users to quickly identify the most appropriate metric without having 
 Academic Reference
 ------------------
 
-The concept of automated metric selection is grounded in the broader field of meta-learning, where machine learning models are used to recommend algorithms or parameters based on the characteristics of a given dataset. This approach has been explored in various studies, including: :footcite:t:`automateddistancemetricselection`:
+The concept of automated metric selection is grounded in the broader field of meta-learning, where machine learning models are used to recommend algorithms or parameters based on the characteristics of a given dataset. This approach has been explored in various studies, including :footcite:t:`automateddistancemetricselection`:
 
 .. footbibliography::
-
 
 
 These references provide a foundation for understanding how automated metric selection can enhance the efficiency and effectiveness of data analysis workflows.
