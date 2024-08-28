@@ -101,7 +101,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Available Metrics
 -----------------
-Distance
+**Distance**
 
 
 
@@ -171,7 +171,7 @@ Distance
    GaloisWassersteinLoss
 
  
-Similarity
+**Similarity**
 
 
 
@@ -200,7 +200,7 @@ Similarity
 
    Otsuka 
 
-Time Series Distance Metrics
+**Time Series Distance Metrics**
 
 
 
@@ -212,7 +212,7 @@ Time Series Distance Metrics
 
    Frechet
 
-Loss function
+**Loss function**
 
 
 
@@ -236,7 +236,7 @@ The distancia package offers a comprehensive set of tools for computing and anal
 
 
 
-   BatchDistance
+   **BatchDistance**
 
 Purpose: Facilitates batch processing of distance computations, enabling users to compute distances for large sets of pairs in a single operation.
 
@@ -244,14 +244,14 @@ Use Case: Essential in real-time systems or when working with large datasets whe
 
 
 
-   ComprehensiveBenchmarking
+   **ComprehensiveBenchmarking**
 
 Purpose: Provides tools for benchmarking the performance of various distance metrics on different types of data.
 
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
 
 
-   CustomDistanceFunction
+   **CustomDistanceFunction**
 
 Purpose: Allows users to define custom distance functions by specifying a mathematical formula or providing a custom Python function.
 
@@ -259,14 +259,14 @@ Use Case: Useful for researchers or practitioners who need a specific metric tha
 
 
 
-   DistanceMatrix
+   **DistanceMatrix**
 
 Purpose: Automatically generates a distance matrix for a set of data points using a specified distance metric.
 
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
 
 
-   DistanceMetricLearning
+   **DistanceMetricLearning**
 
 Purpose: Implements algorithms for learning an optimal distance metric from data based on a specific task, such as classification or clustering.
 
@@ -274,7 +274,7 @@ Use Case: Critical in machine learning tasks where the goal is to optimize a dis
 
 
 
-   IntegratedDistance
+   **IntegratedDistance**
 
 Purpose: Enables seamless integration of distance computations with popular data science libraries like pandas, scikit-learn, and numpy.
 
@@ -282,7 +282,7 @@ Use Case: This class enhances the usability of the distancia package, allowing u
 
 
 
-   MetricFinder
+   **MetricFinder**
 
 Purpose: Identifies the most appropriate distance metric for two given data points based on their structure.
 
@@ -290,7 +290,7 @@ Use Case: Useful when dealing with various types of data, this class helps users
 
 
 
-   OutlierDetection
+   **OutlierDetection**
 
 Purpose: Implements methods for detecting outliers in datasets by using distance metrics to identify points that deviate significantly from others.
 
@@ -298,7 +298,7 @@ Use Case: Essential in fields such as fraud detection, quality control, and data
 
 
 
-   ParallelandDistributedComputation
+   **ParallelandDistributedComputation**
 
 Purpose: Adds support for parallel or distributed computation of distances, particularly useful for large datasets.
 
@@ -306,7 +306,7 @@ Use Case: In big data scenarios, calculating distances between millions of data 
 
 
 
-   Visualization
+   **Visualization**
 
 Purpose: Provides tools for visualizing distance matrices, dendrograms (for hierarchical clustering), and 2D/3D representations of data points based on distance metrics.
 
