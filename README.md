@@ -7,10 +7,23 @@ Welcome to Distancia's documentation!
 
 The documentation is divided into the following sections:
 
-.. contents::
-   :local:
-   :depth: 2
+Getting Started
 
+Installation
+
+Quickstart
+
+Available Metrics
+
+Overview
+
+Contributing
+
+Changelog
+
+Link
+
+Conclusion
 .. note::
 
    The code examples provided in this documentation are written for Python 3.x.
