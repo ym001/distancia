@@ -315,6 +315,8 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
 APICompatibility
 
+AutomatedDistanceMetricSelection
+
 Contributing
 ------------
 
