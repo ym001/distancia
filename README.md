@@ -329,9 +329,13 @@ Link
 
 
    Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
+   
    Pypi<https://pypi.org/project/distancia/>
+   
    Source<https://github.com/ym001/distancia>
+   
    Documentation<https://distancia.readthedocs.io/en/latest/>
+   
    License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
 Conclusion
