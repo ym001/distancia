@@ -26,8 +26,8 @@ Here's a basic example of how to use the MetricFinder class:
   metric = metric_finder.find_metric(point1, point2)
   print(f"Appropriate Metric: {metric}")
 
-  string1 = "hello"
-  string2 = "hallo"
+  string1 = "10s"
+  string2 = "111"
 
   metric = metric_finder.find_metric(string1, string2)
   print(f"Appropriate Metric: {metric}")
@@ -37,9 +37,9 @@ Here's a basic example of how to use the MetricFinder class:
 
 .. code-block:: bash
 
-  >>>Appropriate Metric: Euclidean Distance
-  >>>Appropriate Metric: Jaro-Winkler Distance
-  >>>Appropriate Similarity Metric: Cosine Similarity
+  >>>Appropriate Metric: ['LongestCommonSubsequence', 'Euclidean', 'Manhattan', 'Minkowski', 'L1', 'L2', 'Canberra', 'BrayCurtis', 'Gower', 'Pearson', 'Spearman', 'CzekanowskiDice', 'MotzkinStraus', 'EnhancedRogersTanimoto', 'DynamicTimeWarping', 'CosineInverse', 'CosineSimilarity', 'GeneralizedJaccard', 'Chebyshev', 'KendallTau']
+  >>>Appropriate Metric: ['LongestCommonSubsequence', 'Euclidean', 'Manhattan', 'Minkowski', 'L1', 'L2', 'Canberra', 'BrayCurtis', 'Gower', 'Pearson', 'Spearman', 'CzekanowskiDice', 'MotzkinStraus', 'EnhancedRogersTanimoto', 'DynamicTimeWarping', 'CosineInverse', 'CosineSimilarity', 'GeneralizedJaccard', 'Chebyshev', 'KendallTau', 'Jaro', 'JaroWinkler', 'Levenshtein', 'DamerauLevenshtein', 'RatcliffObershelp', 'SorensenDice', 'Otsuka']
+
 
 In this example, the MetricFinder class correctly identifies the best metric for different types of data inputs, helping users streamline their analysis processes.
 
