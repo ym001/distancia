@@ -70,7 +70,7 @@ Here are some common examples of how to use distancia:
       euclidean = Euclidean()
 
       # Calculate the Euclidean distance
-      distance = euclidean.distance(point1, point2)
+      distance = euclidean.calculate(point1, point2)
 
       print(f"Euclidean Distance: {distance}")
 
@@ -89,7 +89,7 @@ Here are some common examples of how to use distancia:
     string1 = "kitten"
     string2 = "sitting"
 
-    distance = Levenshtein().distance(string1, string2)
+    distance = Levenshtein().calculate(string1, string2)
     print(f"Levenshtein Distance: {distance}")
 
 .. code:: bash
