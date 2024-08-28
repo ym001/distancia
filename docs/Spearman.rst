@@ -70,7 +70,7 @@ Expected Output:
 Academic Reference
 ------------------
 
-For further reading and a deeper understanding of the Spearman distance and its applications, refer to the following academic paper: :footcite:t:`spearman`
+For further reading and a deeper understanding of the Spearman distance and its applications, refer to the following academic paper :footcite:t:`spearman`
 
 .. footbibliography::
 
