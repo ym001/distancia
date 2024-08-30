@@ -222,6 +222,8 @@ Graph
 
    ShortestPath
 
+   GraphEditDistance
+
 And many more...
 
 Overview
