@@ -18,23 +18,26 @@ Example
 
 Here is a simple example of how to use the `ShortestPath` class:
 
-```python
-# Define a graph using a dictionary
-graph = {
-    'A': {'B': 1, 'C': 4},
-    'B': {'A': 1, 'C': 2, 'D': 5},
-    'C': {'A': 4, 'B': 2, 'D': 1},
-    'D': {'B': 5, 'C': 1}
-}
+.. code-block:: python
 
-# Initialize the ShortestPath class with the graph
-shortest_path_calculator = ShortestPath(graph)
+    # Define a graph using a dictionary
+    graph = {
+        'A': {'B': 1, 'C': 4},
+        'B': {'A': 1, 'C': 2, 'D': 5},
+        'C': {'A': 4, 'B': 2, 'D': 1},
+        'D': {'B': 5, 'C': 1}
+    }
 
-# Compute the shortest path distance between nodes 'A' and 'D'
-distance = shortest_path_calculator.get_shortest_path('A', 'D')
-print(f"The shortest path distance between A and D is: {distance}")
+    # Initialize the ShortestPath class with the graph
+    shortest_path_calculator = ShortestPath(graph)
 
-La distance du plus court chemin entre A et D est : 4
+    # Compute the shortest path distance between nodes 'A' and 'D'
+    distance = shortest_path_calculator.get_shortest_path('A', 'D')
+    print(f"The shortest path distance between A and D is: {distance}")
+
+.. code-block:: python
+
+    La distance du plus court chemin entre A et D est : 4
 
 In this example, the graph is defined with nodes 'A', 'B', 'C', and 'D'. The ShortestPath class calculates the shortest distance from node 'A' to node 'D', which in this case would be 4.
 
