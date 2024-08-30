@@ -25,19 +25,37 @@ Example
 
 Consider two simple undirected graphs `graph1` and `graph2`:
 
-graph1 = { 'A': {'B', 'C'}, 'B': {'A', 'C'}, 'C': {'A', 'B'} }
+graph1 = { 'A': {'B', 'C'}, 'B': {'A', 'C'}, 'C': {'A', 'B'} }      
 
 graph2 = { 'A': {'B'}, 'B': {'A', 'D'}, 'C': {'D'}, 'D': {'B', 'C'} }
 
 
 To compute the Graph Edit Distance between `graph1` and `graph2`, we use the `GraphEditDistance` class:
 
-```python
-ged_calculator = GraphEditDistance(graph1, graph2)
-distance = ged_calculator.compute()
-print(f"The Graph Edit Distance between the two graphs is: {distance}")
+.. code-block:: python
+
+      graph1 = {
+          'A': {'B', 'C'},
+          'B': {'A', 'C'},
+          'C': {'A', 'B'}
+      }
+
+      graph2 = {
+          'A': {'B'},
+          'B': {'A', 'D'},
+          'C': {'D'},
+          'D': {'B', 'C'}
+      }
+
+      ged_calculator = GraphEditDistance(graph1, graph2)
+      distance = ged_calculator.compute()
+      print(f"The Graph Edit Distance between the two graphs is: {distance}")
 
 This will output the total number of node and edge edits needed to transform graph1 into graph2.
+
+.. code-block:: bash
+
+      The Graph Edit Distance between the two graphs is: 5
 
 Academic Reference
 -----------------
