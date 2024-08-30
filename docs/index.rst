@@ -215,9 +215,14 @@ Loss function
 
    SquaredLogarithmicError
 
+Graph
 
+.. toctree::
+   :maxdepth: 1
 
-   And many more...
+   ShortestPath
+
+And many more...
 
 Overview
 --------
