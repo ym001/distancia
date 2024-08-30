@@ -316,12 +316,12 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 .. toctree::
    :maxdepth: 1
 
-APICompatibility
+   APICompatibility
 
 .. toctree::
    :maxdepth: 1
 
-AutomatedDistanceMetricSelection
+   AutomatedDistanceMetricSelection
 
 Contributing
 ------------
