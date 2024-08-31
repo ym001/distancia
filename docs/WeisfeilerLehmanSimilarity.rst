@@ -66,11 +66,11 @@ Academic Citations
 
 When using this implementation in academic work, please cite the following papers:
 
-1. For the original Weisfeiler-Lehman test: :footcite:t:`weisfeilerlehmansimilarity`
+1. For the original Weisfeiler-Lehman test: :footcite:t:`weisfeilerlehmansimilarity1`
 
 
 
-2. For the use of WL in graph kernels and similarity measures:  :footcite:t:`weisfeilerlehmansimilarity`
+2. For the use of WL in graph kernels and similarity measures:  :footcite:t:`weisfeilerlehmansimilarity2`
 
    Shervashidze, N., Schweitzer, P., Van Leeuwen, E. J., Mehlhorn, K., & Borgwardt, K. M. (2011). Weisfeiler-Lehman graph kernels. Journal of Machine Learning Research, 12, 2539-2561.
 
