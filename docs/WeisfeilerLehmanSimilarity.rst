@@ -66,13 +66,15 @@ Academic Citations
 
 When using this implementation in academic work, please cite the following papers:
 
-1. For the original Weisfeiler-Lehman test:
+1. For the original Weisfeiler-Lehman test: :footcite:t:`weisfeilerlehmansimilarity`
 
-   Weisfeiler, B., & Lehman, A. A. (1968). A reduction of a graph to a canonical form and an algebra arising during this reduction. Nauchno-Technicheskaya Informatsia, 2(9), 12-16.
 
-2. For the use of WL in graph kernels and similarity measures:
+
+2. For the use of WL in graph kernels and similarity measures:  :footcite:t:`weisfeilerlehmansimilarity`
 
    Shervashidze, N., Schweitzer, P., Van Leeuwen, E. J., Mehlhorn, K., & Borgwardt, K. M. (2011). Weisfeiler-Lehman graph kernels. Journal of Machine Learning Research, 12, 2539-2561.
+
+.. footbibliography::
 
 Conclusion
 ----------
