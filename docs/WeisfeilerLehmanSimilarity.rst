@@ -97,6 +97,12 @@ Here's a basic example of how to use the WeisfeilerLehmanSimilarity class:
    if __name__ == "__main__":
        main()
 
+
+
+
+
+This example compares a cycle graph with a path graph, both having 5 nodes. The Weisfeiler-Lehman similarity quantifies how structurally similar these graphs are.
+
 .. code-block:: bash
 
    Weisfeiler-Lehman similarities between graphs:
@@ -138,11 +144,6 @@ Here's a basic example of how to use the WeisfeilerLehmanSimilarity class:
    Are Star and Random1 potentially isomorphic? False
    Are Star and Random2 potentially isomorphic? False
    Are Random1 and Random2 potentially isomorphic? False
-
-
-
-This example compares a cycle graph with a path graph, both having 5 nodes. The Weisfeiler-Lehman similarity quantifies how structurally similar these graphs are.
-
 Academic Citations
 ------------------
 
