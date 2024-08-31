@@ -224,6 +224,8 @@ Graph
 
    GraphEditDistance
 
+   SpectralDistance
+
 And many more...
 
 Overview
