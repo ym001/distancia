@@ -41,23 +41,104 @@ Here's a basic example of how to use the WeisfeilerLehmanSimilarity class:
 
 .. code-block:: python
 
+  
    import networkx as nx
-   from weisfeiler_lehman_similarity import WeisfeilerLehmanSimilarity
 
-   # Create two sample graphs
-   G1 = nx.cycle_graph(5)
-   G2 = nx.path_graph(5)
+   from distancia import *
 
-   # Initialize WeisfeilerLehmanSimilarity object
-   wl = WeisfeilerLehmanSimilarity(num_iterations=3)
+   def create_sample_graphs():
+       # Create a cycle graph
+       C5 = nx.cycle_graph(5)
+    
+       # Create a path graph
+       P5 = nx.path_graph(5)
+    
+       # Create a complete graph
+       K5 = nx.complete_graph(5)
+    
+       # Create a star graph
+       S5 = nx.star_graph(4)
+    
+       # Create two random graphs
+       G1 = nx.gnm_random_graph(5, 7)
+       G2 = nx.gnm_random_graph(5, 7)
+    
+       return C5, P5, K5, S5, G1, G2
 
-   # Calculate the WL similarity
-   similarity = wl.calculate(G1, G2)
-   print(f"The Weisfeiler-Lehman similarity between G1 and G2 is: {similarity}")
+   def compare_graphs(graphs, names):
+       # Initialize WeisfeilerLehmanSimilarity object
+       wl = WeisfeilerLehmanSimilarity(num_iterations=3)
+    
+       print("Weisfeiler-Lehman similarities between graphs:")
+       for i, (G1, name1) in enumerate(zip(graphs, names)):
+           for j, (G2, name2) in enumerate(zip(graphs[i+1:], names[i+1:])):
+               similarity = wl.calculate(G1, G2)
+               print(f"{name1} vs {name2}: {similarity:.4f}")
+            
+           # Check for potential isomorphism with itself (should always be true)
+           is_iso = wl.is_isomorphic(G1, G1)
+           print(f"Is {name1} isomorphic to itself? {is_iso}")
+    
+       # Check for potential isomorphism between different graphs
+       print("\nChecking for potential isomorphism:")
+       for i, (G1, name1) in enumerate(zip(graphs, names)):
+           for j, (G2, name2) in enumerate(zip(graphs[i+1:], names[i+1:])):
+               is_iso = wl.is_isomorphic(G1, G2)
+               print(f"Are {name1} and {name2} potentially isomorphic? {is_iso}")
 
-   # Check if the graphs are potentially isomorphic
-   isomorphic = wl.is_isomorphic(G1, G2)
-   print(f"Are G1 and G2 potentially isomorphic? {isomorphic}")
+   def main():
+       # Create sample graphs
+       C5, P5, K5, S5, G1, G2 = create_sample_graphs()
+       graph_names = ["Cycle", "Path", "Complete", "Star", "Random1", "Random2"]
+    
+       # Compare the graphs
+       compare_graphs([C5, P5, K5, S5, G1, G2], graph_names)
+
+   if __name__ == "__main__":
+       main()
+
+.. code-block:: bash
+   Weisfeiler-Lehman similarities between graphs:
+   Cycle vs Path: 0.3849
+   Cycle vs Complete: 0.2500
+   Cycle vs Star: 0.2500
+   Cycle vs Random1: 0.2500
+   Cycle vs Random2: 0.2778
+   Is Cycle isomorphic to itself? True
+   Path vs Complete: 0.2500
+   Path vs Star: 0.3125
+   Path vs Random1: 0.2778
+   Path vs Random2: 0.2778
+   Is Path isomorphic to itself? True
+   Complete vs Star: 0.2778
+   Complete vs Random1: 0.2778
+   Complete vs Random2: 0.2500
+   Is Complete isomorphic to itself? True
+   Star vs Random1: 0.3403
+   Star vs Random2: 0.2500
+   Is Star isomorphic to itself? True
+   Random1 vs Random2: 0.3571
+   Is Random1 isomorphic to itself? True
+   Is Random2 isomorphic to itself? True
+
+   Checking for potential isomorphism:
+   Are Cycle and Path potentially isomorphic? False
+   Are Cycle and Complete potentially isomorphic? False
+   Are Cycle and Star potentially isomorphic? False
+   Are Cycle and Random1 potentially isomorphic? False
+   Are Cycle and Random2 potentially isomorphic? False
+   Are Path and Complete potentially isomorphic? False
+   Are Path and Star potentially isomorphic? False
+   Are Path and Random1 potentially isomorphic? False
+   Are Path and Random2 potentially isomorphic? False
+   Are Complete and Star potentially isomorphic? False
+   Are Complete and Random1 potentially isomorphic? False
+   Are Complete and Random2 potentially isomorphic? False
+   Are Star and Random1 potentially isomorphic? False
+   Are Star and Random2 potentially isomorphic? False
+   Are Random1 and Random2 potentially isomorphic? False
+
+
 
 This example compares a cycle graph with a path graph, both having 5 nodes. The Weisfeiler-Lehman similarity quantifies how structurally similar these graphs are.
 
