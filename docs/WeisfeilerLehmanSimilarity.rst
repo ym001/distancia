@@ -98,6 +98,7 @@ Here's a basic example of how to use the WeisfeilerLehmanSimilarity class:
        main()
 
 .. code-block:: bash
+
    Weisfeiler-Lehman similarities between graphs:
    Cycle vs Path: 0.3849
    Cycle vs Complete: 0.2500
