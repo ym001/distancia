@@ -90,12 +90,12 @@ This example compares a cycle graph with a path graph, both having 10 nodes. The
 Academic Citation
 -----------------
 
-When using this implementation in academic work, please cite the seminal paper on spectral graph theory:
+When using this implementation in academic work, please cite the seminal paper on spectral graph theory: :footcite:t:`spectraldistance1`
+
+For the specific use of spectral distance in graph comparison, you may also reference: :footcite:t:`spectraldistance2`
 
 
-For the specific use of spectral distance in graph comparison, you may also reference:
-
-Wilson, R. C., & Zhu, P. (2008). A study of graph spectra for comparing graphs and trees. Pattern Recognition, 41(9), 2833-2841.
+.. footbibliography::
 
 Conclusion
 ----------
