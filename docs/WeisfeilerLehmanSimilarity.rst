@@ -72,7 +72,6 @@ When using this implementation in academic work, please cite the following paper
 
 2. For the use of WL in graph kernels and similarity measures:  :footcite:t:`weisfeilerlehmansimilarity2`
 
-   Shervashidze, N., Schweitzer, P., Van Leeuwen, E. J., Mehlhorn, K., & Borgwardt, K. M. (2011). Weisfeiler-Lehman graph kernels. Journal of Machine Learning Research, 12, 2539-2561.
 
 .. footbibliography::
 
