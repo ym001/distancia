@@ -105,8 +105,6 @@ Distance
 
    Levenshtein
 
-   Tanimoto
-
    RatcliffObershelp
 
    Jaro
@@ -172,6 +170,8 @@ Similarity
    Jaccard
 
    GeneralizedJaccard
+
+   Tanimoto
 
    Tversky 
 
