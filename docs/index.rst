@@ -226,6 +226,8 @@ Graph
 
    SpectralDistance
 
+   WeisfeilerLehmanSimilarity
+
 And many more...
 
 Overview
