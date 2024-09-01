@@ -31,7 +31,7 @@ By subtracting the intersection from the union, the Inverse Tanimoto coefficient
 
 .. code-block:: python
 
-    from distancia import Jaccard
+    from distancia import InverseTanimoto
     # Instantiate the InverseTanimoto class
     inverse_tanimoto = InverseTanimoto()
 
