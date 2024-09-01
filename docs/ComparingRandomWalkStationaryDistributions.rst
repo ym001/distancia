@@ -100,6 +100,7 @@ Here's a basic example of how to use the ``Distance`` class:
   plt.show()
 
 .. code-block:: bash
+
    L1 distance between stationary distributions: 0.1300
    L2 distance between stationary distributions: 0.0436
    KL divergence between stationary distributions: 0.0095
