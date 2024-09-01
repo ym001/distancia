@@ -34,7 +34,6 @@ Usage Example
 
 Here's a simple Python example demonstrating how to calculate the Dice Distance between two binary strings using the `Distancia` package:
 
-.. code-block:: python
 
     from distancia import Dice
 
@@ -43,9 +42,14 @@ Here's a simple Python example demonstrating how to calculate the Dice Distance 
     set2 = {1, 1, 0, 1}
 
     # Calculate Dice Distance
-    distance = dice().calculate(set1, set2)
+    distance = Dice().calculate(set1, set2)
 
     print(f"Dice Distance: {distance}")
+
+.. code-block:: python
+
+   >>>Dice Distance: 0.19999999999999996
+
 
 In this example, the sets `set1` and `set2` are compared. The Dice Distance between these sets is calculated and printed, showing the similarity between the two sets.
 
