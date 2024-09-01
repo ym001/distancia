@@ -55,6 +55,10 @@ Here is an example of how to calculate the Tversky Index between two sets using 
 
     print(f"Tversky Index: {similarity}")
 
+.. code-block:: bash
+
+   >>>Tversky Index: 0.5
+
 In this example, the sets `set1` and `set2` are compared using the Tversky Index, with \( \alpha \) and \( \beta \) set to 0.5, allowing for a balanced contribution of differences between the sets.
 
 Applications
