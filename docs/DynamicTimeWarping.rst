@@ -20,15 +20,16 @@ Consider two time series, `series_a` and `series_b`, as shown below:
 
 .. code-block:: python
 
+      from distancia import DynamicTimeWarping
       # Sample time series data
       series_a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
       series_b = [1, 3, 4, 6, 7, 8, 9, 10]
 
       # Create an instance of the DynamicTimeWarping class
-      dtw = DynamicTimeWarping(series_a, series_b)
-  
+      dtw = DynamicTimeWarping()
+
       # Compute the DTW distance
-      distance = dtw.compute()
+      distance = dtw.calculate(series_a, series_b)
       print(f"DTW Distance: {distance}")
 
       # Get the optimal path for alignment
