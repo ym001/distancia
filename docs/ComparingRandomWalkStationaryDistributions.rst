@@ -99,14 +99,16 @@ Here's a basic example of how to use the ``Distance`` class:
   plt.tight_layout()
   plt.show()
 
+Output
+
 .. code-block:: bash
 
-   L1 distance between stationary distributions: 0.1300
-   L2 distance between stationary distributions: 0.0436
-   KL divergence between stationary distributions: 0.0095
-   Results for graph1:
-   Average walk length: 20.00
-   Node visit frequencies:
+   >>>L1 distance between stationary distributions: 0.1300
+   >>>L2 distance between stationary distributions: 0.0436
+   >>>KL divergence between stationary distributions: 0.0095
+   >>>Results for graph1:
+   >>>Average walk length: 20.00
+   >>>Node visit frequencies:
      Node 0: 0.1206
      Node 1: 0.1412
      Node 2: 0.1163
@@ -118,9 +120,9 @@ Here's a basic example of how to use the ``Distance`` class:
      Node 8: 0.0907
      Node 9: 0.1474
 
-   Results for graph2:
-   Average walk length: 20.00
-   Node visit frequencies:
+   >>>Results for graph2:
+   >>>Average walk length: 20.00
+   >>>Node visit frequencies:
      Node 0: 0.1084
      Node 1: 0.1266
      Node 2: 0.1272
