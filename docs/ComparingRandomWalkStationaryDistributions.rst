@@ -1,6 +1,6 @@
-==================================================================
-Comparing Random Walk Stationary Distributions Class Documentation
-==================================================================
+==============================================
+Comparing Random Walk Stationary Distributions
+==============================================
 
 Introduction
 ============
@@ -17,7 +17,7 @@ A random walk on a graph is a stochastic process where a walker moves from node 
 Formal Definition of Distance Metrics
 =====================================
 
-The ``Distance`` class implements three distance metrics for comparing stationary distributions:
+The ``Comparing Random Walk Stationary Distributions`` class implements three distance metrics for comparing stationary distributions:
 
 1. L1 Distance (Manhattan Distance):
 
