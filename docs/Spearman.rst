@@ -49,11 +49,11 @@ Here is an example of how to use the Spearman distance with the `distanciaa` pac
 .. code-block:: python
 
     # Import the distanciaa package
-    from distanciaa import Spearman
+    from distancia import Spearman
 
     # Define two sample vectors representing data points
-    data_point_1 = [12, 15, 10, 9, 16]
-    data_point_2 = [11, 14, 10, 8, 18]
+    data_point_1 = [1, 2, 3, 4, 5]
+    data_point_2 = [5, 6, 7, 8, 7]
 
     # Create an instance of the Spearman class
     spearman_dist = Spearman()
@@ -65,6 +65,9 @@ Here is an example of how to use the Spearman distance with the `distanciaa` pac
     print(f"The Spearman distance between the two data points is: {distance}")
 
 Expected Output:
+
+.. code-block:: bash
+
     The Spearman distance between the two data points is: 0.05
 
 Academic Reference
