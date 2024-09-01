@@ -34,6 +34,8 @@ To compute the Graph Edit Distance between `graph1` and `graph2`, we use the `Gr
 
 .. code-block:: python
 
+      from distancia import GraphEditDistance
+
       graph1 = {
           'A': {'B', 'C'},
           'B': {'A', 'C'},
@@ -47,8 +49,8 @@ To compute the Graph Edit Distance between `graph1` and `graph2`, we use the `Gr
           'D': {'B', 'C'}
       }
 
-      ged_calculator = GraphEditDistance(graph1, graph2)
-      distance = ged_calculator.compute()
+      ged_calculator = GraphEditDistance()
+      distance = ged_calculator.calculate(graph1, graph2)
       print(f"The Graph Edit Distance between the two graphs is: {distance}")
 
 This will output the total number of node and edge edits needed to transform graph1 into graph2.
