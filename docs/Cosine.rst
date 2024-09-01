@@ -57,6 +57,11 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
 
     print(f"Cosine Similarity: {similarity}")
 
+.. code-block:: bash
+
+   >>>Cosine Similarity: 0.9746318461970762
+
+
 In this example, the vectors :math:`\mathbf{A} = (1, 2, 3)` and :math:`\mathbf{B} = (4, 5, 6)` are compared. The Cosine Similarity between these vectors is calculated and printed.
 
 Applications
