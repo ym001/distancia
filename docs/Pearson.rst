@@ -50,8 +50,8 @@ Here is an example of how to use the Pearson distance with the `distanciaa` pack
 
 .. code-block:: python
 
-    # Import the distanciaa package
-    from distanciaa import Pearson
+    # Import the distancia package
+    from distancia import Pearson
 
     # Define two sample vectors representing data points
     data_point_1 = [2.5, 3.6, 2.1, 4.0]
