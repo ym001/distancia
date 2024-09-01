@@ -36,16 +36,18 @@ Here is an example of how to calculate the Tanimoto Distance between two binary 
 
 .. code-block:: python
 
-    from distancia import Tanimoto
+   from distancia import Tanimoto
 
-    # Define two binary sets or vectors
-    set1 = {1, 0, 1, 1}
-    set2 = {1, 1, 0, 1}
+   # Define two binary sets or vectors
+   set1 = {1, 0, 1, 2}
+   set2 = {1, 1, 0, 1}
+   # Calculate Tanimoto Distance
+   distance = Tanimoto().calculate(set1, set2)
+   print(f"Tanimoto Distance: {distance}")
 
-    # Calculate Tanimoto Distance
-    distance = Tanimoto().calculate(set1, set2)
+.. code-block:: python
 
-    print(f"Tanimoto Distance: {distance}")
+   >>>Tanimoto Distance: 0.33333333333333337
 
 In this example, the sets `set1` and `set2` are compared, and the Tanimoto Distance between these sets is calculated and printed, demonstrating how similar or dissimilar the two sets are.
 
