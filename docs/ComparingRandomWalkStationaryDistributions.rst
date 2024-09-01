@@ -101,9 +101,11 @@ Here's a basic example of how to use the ``Distance`` class:
 
 Academic References
 ===================
-   :footcite:t:`chebyshev`:
-   :footcite:t:`chebyshev`:
-   :footcite:t:`chebyshev`:
+   :footcite:t:`comparingrandomwalkstationarydistributions1`:
+
+   :footcite:t:`comparingrandomwalkstationarydistributions2`:
+
+   :footcite:t:`comparingrandomwalkstationarydistributions3`:
 
 .. footbibliography::
 
