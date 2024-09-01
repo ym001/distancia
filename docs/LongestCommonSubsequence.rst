@@ -22,6 +22,8 @@ Here is a simple example of how to use the `LongestCommonSubsequence` class:
 
 .. code-block:: python
 
+  from distancia import LongestCommonSubsequence
+
   # Sample sequences
   sequence_a = "AGGTAB"
   sequence_b = "GXTXAYB"
