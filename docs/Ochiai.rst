@@ -49,7 +49,7 @@ Here is an example of how to use the Ochiai distance with the `distanciaa` packa
 .. code-block:: python
 
     # Import the distanciaa package
-    from distanciaa import Ochiai
+    from distancia import Ochiai
 
     # Define two binary vectors representing data points
     binary_vector_1 = [1, 0, 1, 1, 0, 1, 0]
@@ -65,8 +65,9 @@ Here is an example of how to use the Ochiai distance with the `distanciaa` packa
     print(f"The Ochiai distance between the two binary vectors is: {distance}")
 
 Expected Output:
+.. code-block:: bash
 
-The Ochiai distance between the two binary vectors is: 0.292893
+    >>>The Ochiai distance between the two binary vectors is: 0.6708203932499369
 
 Academic Reference
 ------------------
