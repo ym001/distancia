@@ -30,10 +30,10 @@ Usage Example
 Here's a basic example of how to use the SpectralDistance class:
 
 .. code-block:: python
+   from distancia import SpectralDistance
+   import networkx as nx
 
-  import networkx as nx
-
-  def create_sample_graphs():
+   def create_sample_graphs():
       # Create a path graph
       P10 = nx.path_graph(10)
     
@@ -49,7 +49,7 @@ Here's a basic example of how to use the SpectralDistance class:
     
       return P10, C10, K10, G1, G2
 
-  def compare_graphs(graphs, names):
+   def compare_graphs(graphs, names):
       # Initialize SpectralDistance object
       sd = SpectralDistance(k=5, normalized=True)
     
@@ -59,7 +59,7 @@ Here's a basic example of how to use the SpectralDistance class:
               distance = sd.calculate(G1, G2)
               print(f"{name1} vs {name2}: {distance:.4f}")
 
-  def main():
+   def main():
       # Create sample graphs
       P10, C10, K10, G1, G2 = create_sample_graphs()
       graph_names = ["Path", "Cycle", "Complete", "Random1", "Random2"]
@@ -67,7 +67,7 @@ Here's a basic example of how to use the SpectralDistance class:
       # Compare the graphs
       compare_graphs([P10, C10, K10, G1, G2], graph_names)
 
-  if __name__ == "__main__":
+   if __name__ == "__main__":
       main()
 
 This example compares a cycle graph with a path graph, both having 10 nodes. The spectral distance quantifies how different these graphs are structurally.
