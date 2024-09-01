@@ -41,7 +41,8 @@ Here's a basic example of how to use the WeisfeilerLehmanSimilarity class:
 
 .. code-block:: python
 
-  
+   from distancia import WeisfeilerLehmanSimilarity
+
    import networkx as nx
 
    from distancia import *
