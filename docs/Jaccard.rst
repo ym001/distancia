@@ -49,9 +49,14 @@ Here's a simple Python example demonstrating how to calculate the Jaccard Simila
     set2 = {4, 5, 6, 7, 8}
 
     # Calculate Jaccard Similarity
-    similarity = jaccard().calculate(set1, set2)
+    similarity = Jaccard().calculate(set1, set2)
 
     print(f"Jaccard Similarity: {similarity}")
+
+.. code-block:: bash
+
+   >>>Jaccard Similarity: 0.75
+
 
 In this example, two sets `{1, 2, 3, 4, 5}` and `{4, 5, 6, 7, 8}` are compared. The Jaccard Similarity between these sets is calculated and printed, showing the proportion of shared elements relative to the total number of unique elements.
 
