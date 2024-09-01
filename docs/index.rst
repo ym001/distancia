@@ -228,6 +228,8 @@ Graph
 
    WeisfeilerLehmanSimilarity
 
+   ComparingRandomWalkStationaryDistributions
+
 And many more...
 
 Overview
