@@ -101,12 +101,13 @@ Here's a basic example of how to use the ``Distance`` class:
 
 Academic References
 ===================
+   :footcite:t:`chebyshev`:
+   :footcite:t:`chebyshev`:
+   :footcite:t:`chebyshev`:
 
-1. Lovász, L. (1993). Random walks on graphs: A survey. Combinatorics, Paul Erdős is Eighty, 2(1), 1-46.
+.. footbibliography::
 
-2. Pons, P., & Latapy, M. (2005). Computing communities in large networks using random walks. In International symposium on computer and information sciences (pp. 284-293). Springer, Berlin, Heidelberg.
 
-3. Von Luxburg, U., Radl, A., & Hein, M. (2014). Hitting and commute times in large random neighborhood graphs. The Journal of Machine Learning Research, 15(1), 1751-1798.
 
 Conclusion
 ==========
