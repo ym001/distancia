@@ -99,6 +99,37 @@ Here's a basic example of how to use the ``Distance`` class:
   plt.tight_layout()
   plt.show()
 
+.. code-block:: bash
+
+   Results for graph1:
+   Average walk length: 20.00
+   Node visit frequencies:
+     Node 0: 0.1206
+     Node 1: 0.1412
+     Node 2: 0.1163
+     Node 3: 0.1162
+     Node 4: 0.0328
+     Node 5: 0.0563
+     Node 6: 0.0891
+     Node 7: 0.0894
+     Node 8: 0.0907
+     Node 9: 0.1474
+
+   Results for graph2:
+   Average walk length: 20.00
+   Node visit frequencies:
+     Node 0: 0.1084
+     Node 1: 0.1266
+     Node 2: 0.1272
+     Node 3: 0.1302
+     Node 4: 0.0293
+     Node 5: 0.0765
+     Node 6: 0.0795
+     Node 7: 0.0824
+     Node 8: 0.1061
+     Node 9: 0.1340
+
+
 Academic References
 ===================
    :footcite:t:`comparingrandomwalkstationarydistributions1`:
