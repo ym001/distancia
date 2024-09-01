@@ -20,6 +20,8 @@ Here is a simple example of how to use the `ShortestPath` class:
 
 .. code-block:: python
 
+     from distancia import ShortestPath
+
     # Define a graph using a dictionary
     graph = {
         'A': {'B': 1, 'C': 4},
@@ -29,15 +31,16 @@ Here is a simple example of how to use the `ShortestPath` class:
     }
 
     # Initialize the ShortestPath class with the graph
-    shortest_path_calculator = ShortestPath(graph)
+    shortest_path_calculator = ShortestPath()
 
     # Compute the shortest path distance between nodes 'A' and 'D'
-    distance = shortest_path_calculator.get_shortest_path('A', 'D')
+    distance = shortest_path_calculator.calculate(graph,'A', 'D')
     print(f"The shortest path distance between A and D is: {distance}")
 
-.. code-block:: python
 
-    La distance du plus court chemin entre A et D est : 4
+.. code-block:: bash
+
+    >>>La distance du plus court chemin entre A et D est : 4
 
 In this example, the graph is defined with nodes 'A', 'B', 'C', and 'D'. The ShortestPath class calculates the shortest distance from node 'A' to node 'D', which in this case would be 4.
 
