@@ -129,6 +129,7 @@ Here's a basic example of how to use the ``Distance`` class:
      Node 8: 0.1061
      Node 9: 0.1340
 
+.. image:: graph1.png
 
 Academic References
 ===================
