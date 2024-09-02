@@ -28,20 +28,25 @@ A higher graph kernel distance indicates that the two graphs share more common s
 Example
 ------
 
-# Exemple d'utilisation
-graph1 = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A'], 'D': ['B']}
-graph2 = {'X': ['Y', 'Z'], 'Y': ['X'], 'Z': ['X']}
+.. code-block:: python
 
-distance = GraphKernelDistance(graph1, graph2)
-random_walk_value = distance.compute_kernel(distance.random_walk_kernel)
-subgraph_value = distance.compute_kernel(distance.subgraph_kernel)
+   # Exemple d'utilisation
+   graph1 = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A'], 'D': ['B']}
+   graph2 = {'X': ['Y', 'Z'], 'Y': ['X'], 'Z': ['X']}
 
-print("Noyau de marche aléatoire:", random_walk_value)
-print("Noyau de sous-graphes:", subgraph_value)
+   distance = GraphKernelDistance(graph1, graph2)
+   random_walk_value = distance.compute_kernel(distance.random_walk_kernel)
+   subgraph_value = distance.compute_kernel(distance.subgraph_kernel)
+
+   print("Noyau de marche aléatoire:", random_walk_value)
+   print("Noyau de sous-graphes:", subgraph_value)
+
+.. code-block:: bash
 
 Academic References
-------------------------
-* Borgwardt, K. M., & Kriegel, H.-P. (2005). Shortest-path kernels on graphs. In *Proceedings of the 5th IEEE international conference on data mining* (pp. 74-81). IEEE.
+-------------------
+
+
 * Gärtner, T., Flach, P., & Wrobel, S. (2003). On graph kernels: Hardness results and efficient alternatives. In *Proceedings of the 16th annual conference on learning theory* (pp. 129-143). Springer.
 
 Implementation
