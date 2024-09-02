@@ -153,8 +153,6 @@ Distance
 
    EnhancedRogersTanimoto
 
-   CrossEntropy
-
    KullbackLeibler
 
    GaloisWassersteinLoss
@@ -206,6 +204,8 @@ Loss function
 
 .. toctree::
    :maxdepth: 1
+
+   CrossEntropy
 
    MeanAbsoluteError
 
