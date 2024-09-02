@@ -33,23 +33,23 @@ Here is a Python example demonstrating how to calculate the Mahalanobis distance
 
 .. code-block:: python
 
-    from distancia import MahalanobisDistance
+    from distancia import Mahalanobis
 
     # Define the mean vector and covariance matrix of the distribution
-    data = = [
-        [2, 1, 0],
-        [2, 3, 4],
-        [3, 4, 5],
-        [4, 5, 6],
-    ]
-
+    data = [[2, 1, 0], [2, 3, 4], [3, 4, 5], [4, 5, 6]]
     # Define the point of interest
-    point = [3, 5]
+    point = [1, 2, 3]
 
-    # Create an instance of MahalanobisDistance
+    # Create an instance of Mahalanobis
     distance = Mahalanobis().calculate(point, data)
 
     print(f"Mahalanobis Distance: {distance}")
+
+.. code-block:: bash
+
+    >>>Mahalanobis Distance: 2.598076211353316
+
+
 
 Reference
 ---------
