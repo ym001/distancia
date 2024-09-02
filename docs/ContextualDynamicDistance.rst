@@ -50,7 +50,7 @@ Example of Usage
     context_y = [0.1, 0.4, 0.6]
 
     # Calculate Cosine Similarity
-    similarity = ContextualDynamicDistance().distance(x,y,context_x, context_y)
+    similarity = ContextualDynamicDistance().calculate(x,y,context_x, context_y)
 
     print(f"Contextual Dynamic Distance: {similarity}")
 
