@@ -233,6 +233,8 @@ Graph
 
    Diffusion
 
+   GraphKernelDistance
+
 And many more...
 
 Overview
