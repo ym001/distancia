@@ -43,10 +43,10 @@ This metric gives equal weight to the presence and absence of attributes, making
         vector2 = [1, 1, 0, 1, 0, 0, 1]
 
         # Create an instance of the SokalMichener class
-        sokal_michener = SokalMichener(vector1, vector2)
+        sokal_michener = SokalMichener()
 
         # Calculate the Sokal-Michener distance
-        distance = sokal_michener.calculate()
+        distance = sokal_michener.calculate(vector1, vector2)
 
         # Print the result
         print(f"Sokal-Michener distance between {vector1} and {vector2} is: {distance:.4f}")
