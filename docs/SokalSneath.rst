@@ -43,10 +43,10 @@ This metric is useful in situations where the presence of differences between bi
         vector2 = [1, 1, 0, 1, 0, 0, 1]
 
         # Create an instance of the SokalSneath class
-        sokal_sneath = SokalSneath(vector1, vector2)
+        sokal_sneath = SokalSneath()
 
         # Calculate the Sokal-Sneath distance
-        distance = sokal_sneath.calculate()
+        distance = sokal_sneath.calculate(vector1, vector2)
 
         # Print the result
         print(f"Sokal-Sneath distance between {vector1} and {vector2} is: {distance:.4f}")
