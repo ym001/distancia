@@ -56,6 +56,10 @@ Here is a Python example demonstrating how to calculate the Haversine distance b
 
     print(f"Haversine Distance: {distance} km")
 
+.. code-block:: bash
+
+   >>>Haversine Distance: 1327.6302338729174 km
+
 
 Reference
 ---------
