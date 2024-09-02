@@ -36,18 +36,21 @@ Here's a simple Python example demonstrating how to calculate the SørensenDice 
 
 .. code-block:: python
 
-    from distancia import SorensenDice
+   from distancia import SorensenDice
 
-    # Define two binary sets
-    set1 = {1, 0, 1, 1}
-    set2 = {1, 1, 0, 1}
+   # Define two binary sets
+   str1 = "night"
+   str2 = "nacht"
 
-    # Calculate SørensenDice Distance
-    distance = SorensenDice().calculate(set1, set2)
+   # Calculate SørensenDice Distance
+   distance = SorensenDice().calculate(str1, str2)
+   print(f"Sørensen Dice Distance: {distance}")
 
-    print(f"Sørensen Dice Distance: {distance}")
+.. code-block:: bash
 
-In this example, the sets `set1` and `set2` are compared. The Sørensen-Dice Distance between these sets is calculated and printed, showing the similarity between the two sets.
+   >>>Sørensen Dice Distance: 0.75
+
+In this example, the sets `str1` and `str2` are compared. The Sørensen-Dice Distance between these str is calculated and printed, showing the similarity between the two str.
 
 Applications
 ------------
