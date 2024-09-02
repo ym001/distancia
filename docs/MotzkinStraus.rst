@@ -50,8 +50,8 @@ Here is an example of how to use the Motzkin-Straus distance with the `distancia
 
 .. code-block:: python
 
-    # Import the distanciaa package
-    from distanciaa import MotzkinStraus
+    # Import the distancia package
+    from distancia import MotzkinStraus
 
     # Define two vectors
     vector_1 = [1, 2, 3, 4]
