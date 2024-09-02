@@ -31,8 +31,8 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
 .. code-block:: python
   :caption: Example code of Canberra Distance
 
-    # Import the distanciaa package
-    from distanciaa import CanberraDistance
+    # Import the distancia package
+    from distancia import Canberra
 
     # Define two sample vectors
     x = [2, 0, 5, 3]
@@ -46,6 +46,10 @@ This example demonstrates how the Canberra distance emphasizes smaller absolute 
 
     # Print the result
     print(f"The Canberra distance between vectors x and y is: {distance}")
+
+.. code-block:: bash
+
+  >>>The Canberra distance between vectors x and y is: 0.8333333333333333
 
 **Reference:**
 
