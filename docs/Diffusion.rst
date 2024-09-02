@@ -24,25 +24,28 @@ Where `\|.\|_p` represents the L_p norm, and the most common choices are the L1 
 
 Sample
 ======
-import networkx as nx
-from DiffusionDistance import DiffusionDistance
+.. code-block:: python
 
-# Créer deux graphes
-G1 = nx.erdos_renyi_graph(10, 0.3, seed=42)
-G2 = nx.erdos_renyi_graph(10, 0.35, seed=42)
+   import networkx as nx
+   from DiffusionDistance import DiffusionDistance
 
-# Initialiser l'objet DiffusionDistance
-diffusion_distance = DiffusionDistance(G1, G2)
+   # Créer deux graphes
+   G1 = nx.erdos_renyi_graph(10, 0.3, seed=42)
+   G2 = nx.erdos_renyi_graph(10, 0.35, seed=42)
 
-# Comparer les processus de diffusion
-source_node = 0
-steps = 5
-l1_distance = diffusion_distance.compare_diffusion(source_node, steps, metric='l1')
-l2_distance = diffusion_distance.compare_diffusion(source_node, steps, metric='l2')
+   # Initialiser l'objet DiffusionDistance
+   diffusion_distance = DiffusionDistance(G1, G2)
 
-print(f"L1 distance between diffusion processes: {l1_distance:.4f}")
-print(f"L2 distance between diffusion processes: {l2_distance:.4f}")
-Meaning of Diffusion Distance
+   # Comparer les processus de diffusion
+   source_node = 0
+   steps = 5
+   l1_distance = diffusion_distance.compare_diffusion(source_node, steps, metric='l1')
+   l2_distance = diffusion_distance.compare_diffusion(source_node, steps, metric='l2')
+
+   print(f"L1 distance between diffusion processes: {l1_distance:.4f}")
+   print(f"L2 distance between diffusion processes: {l2_distance:.4f}")
+   Meaning of Diffusion Distance
+
 =============================
 
 The diffusion distance between two graphs measures the structural differences between the graphs in terms of how information or influence spreads through the network. A small diffusion distance indicates that the two graphs have similar diffusion characteristics, while a large diffusion distance implies that the graphs have very different patterns of information propagation.
