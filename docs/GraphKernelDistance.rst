@@ -45,7 +45,7 @@ Example
 
 Academic References
 -------------------
-
+graphkerneldistance1
 
 
 Implementation
