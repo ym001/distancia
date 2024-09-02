@@ -61,7 +61,9 @@ Here is an example of how to use the Bray-Curtis distance with the `distanciaa` 
 
 Expected Output:
 
-The Bray-Curtis distance between the two samples is: 0.3333333333333333
+.. code-block:: bash
+
+    >>>The Bray-Curtis distance between the two samples is: 0.4
 
 Academic Reference
 ------------------
