@@ -48,10 +48,10 @@ Rogers-Tanimoto distance between [1, 0, 1, 1, 0] and [1, 1, 0, 1, 1] is: 1.0000
         vector2 = [1, 1, 0, 1, 1]
 
         # Create an instance of the RogersTanimoto class
-        rogers_tanimoto_distance = RogersTanimoto(vector1, vector2)
+        rogers_tanimoto_distance = RogersTanimoto()
 
         # Calculate the Rogers-Tanimoto distance
-        distance = rogers_tanimoto_distance.calculate()
+        distance = rogers_tanimoto_distance.calculate(vector1, vector2)
 
         # Print the result
         print(f"Rogers-Tanimoto distance between {vector1} and {vector2} is: {distance:.4f}")
