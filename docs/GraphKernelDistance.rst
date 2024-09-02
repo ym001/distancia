@@ -50,19 +50,7 @@ Academic References
 
 .. footbibliography::
 
-Implementation
-----------------
+Conclusion
+----------
 
-**[Insert detailed explanation of your Python class here, including:**
-* Class structure and attributes
-* Methods and their functionalities
-* Code examples and usage
-
-**Example:**
-
-```python
-class GraphKernel:
-    # ... class definition ...
-
-    def compute_kernel(self, graph1, graph2):
-        # ... implementation ...
+The graph kernel distance provides a versatile tool for comparing and clustering graphs. This Python class offers a practical implementation of the concept, allowing users to easily compute kernel distances between graphs. Future work may explore more sophisticated kernel functions, efficient algorithms, and applications in specific domains.
