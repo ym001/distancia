@@ -44,8 +44,8 @@ Here is an example of how to use the Hellinger distance with the `distanciaa` pa
 
 .. code-block:: python
   
-  # Import the distanciaa package
-  from distanciaa import Hellinger
+  # Import the distancia package
+  from distancia import Hellinger
 
   # Define two probability distributions
   distribution_1 = [0.2, 0.3, 0.1, 0.4]
