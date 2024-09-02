@@ -45,8 +45,10 @@ Example
 
 Academic References
 -------------------
-graphkerneldistance1
 
+:footcite:t:`graphkerneldistance1`, :footcite:t:`graphkerneldistance2`
+
+.. footbibliography::
 
 Implementation
 ----------------
