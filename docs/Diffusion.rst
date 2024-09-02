@@ -46,6 +46,11 @@ Sample
    print(f"L2 distance between diffusion processes: {l2_distance:.4f}")
    Meaning of Diffusion Distance
 
+.. code-block:: bash
+
+   >>>L1 distance between diffusion processes: 557124462311584.2500
+   >>>L2 distance between diffusion processes: 186791387234450.2188
+
 =============================
 
 The diffusion distance between two graphs measures the structural differences between the graphs in terms of how information or influence spreads through the network. A small diffusion distance indicates that the two graphs have similar diffusion characteristics, while a large diffusion distance implies that the graphs have very different patterns of information propagation.
