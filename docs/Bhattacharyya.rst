@@ -49,6 +49,10 @@ Here is an example of how to calculate the Bhattacharyya Distance using the `Dis
 
     print(f"Bhattacharyya Distance: {distance}")
 
+.. code-block:: python
+
+   >>>Bhattacharyya Distance: -0.5569201582094737
+
 In this example, two probability distributions `p` and `q` are compared using the Bhattacharyya Distance, which quantifies their similarity or dissimilarity.
 
 Applications
