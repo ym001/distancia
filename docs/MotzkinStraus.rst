@@ -68,7 +68,10 @@ Here is an example of how to use the Motzkin-Straus distance with the `distancia
 
 Expected Output:
 
-The Motzkin-Straus distance between the two vectors is: 0.6
+.. code-block:: bash
+
+
+    >>>The Motzkin-Straus distance between the two vectors is: 0.6
       
 Academic Reference
 ------------------
