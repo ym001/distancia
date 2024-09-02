@@ -44,10 +44,10 @@ The Ratcliff/Obershelp distance provides a measure of dissimilarity between two 
         string2 = "example string for comparision"
 
         # Create an instance of the RatcliffObershelp class
-        ratcliff_obershelp_distance = RatcliffObershelp(string1, string2)
+        ratcliff_obershelp_distance = RatcliffObershelp()
 
         # Calculate the Ratcliff/Obershelp distance
-        distance = ratcliff_obershelp_distance.calculate()
+        distance = ratcliff_obershelp_distance.calculate(string1, string2)
 
         # Print the result
         print(f"Ratcliff/Obershelp distance between '{string1}' and '{string2}' is: {distance:.4f}")
