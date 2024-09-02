@@ -51,6 +51,11 @@ Here's a simple Python example demonstrating how to calculate the Manhattan Dist
 
     print(f"Manhattan Distance: {distance}")
 
+.. code-block:: bash
+
+   >>>Manhattan Distance: 7
+
+
 In this example, the points :math:`\mathbf{A} = (1, 2, 3)` and :math:`\mathbf{B} = (4, 6, 3)` are compared. The Manhattan Distance between these points is calculated and printed.
 
 Applications
