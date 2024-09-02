@@ -58,7 +58,9 @@ This metric can be useful in a variety of applications, such as:
 
 Academic References
 ===================
+::footcite:t:`diffusion1`,:footcite:t:`diffusion1`
 
+.. footbibliography::
 
 
 
