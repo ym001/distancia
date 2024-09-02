@@ -51,6 +51,10 @@ Here's a simple Python example demonstrating how to calculate the Hamming Distan
 
     print(f"Hamming Distance: {distance}")
 
+.. code-block:: bash
+
+   >>>Hamming Distance: 2
+
 In this example, the binary strings `1101001` and `1001101` are compared. The Hamming Distance between these strings is calculated and printed.
 
 Applications
