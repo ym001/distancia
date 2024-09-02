@@ -49,6 +49,11 @@ Here's a simple Python example demonstrating how to calculate the Euclidean dist
 
     print(f"Euclidean Distance: {distance}")
 
+.. code-block:: python
+
+   >>>Euclidean Distance: 6.708203932499369
+
+
 In this example, the points \( \mathbf{p} = (2, 3, 5) \) and \( \mathbf{q} = (7, 1, 9) \) are defined in a 3-dimensional space. The Euclidean distance between these points is calculated and printed.
 
 Applications
