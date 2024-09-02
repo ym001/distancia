@@ -54,7 +54,8 @@ Example of Usage
 
     print(f"Contextual Dynamic Distance: {similarity}")
 
-.. code-block:: python
+.. code-block:: bash
+   :caption: Output
 
     >>>Contextual Dynamic Distance: 5.196152417906096
 
