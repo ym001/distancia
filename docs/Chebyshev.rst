@@ -52,6 +52,10 @@ Here is a Python example demonstrating how to calculate the Chebyshev distance b
 
     print(f"Chebyshev Distance: {distance}")
 
+.. code-block:: bash
+
+   >>>Chebyshev Distance: 4
+
 Reference
 ---------
 
