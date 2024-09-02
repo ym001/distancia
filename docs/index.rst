@@ -231,6 +231,8 @@ Graph
 
    ComparingRandomWalkStationaryDistributions
 
+   Diffusion
+
 And many more...
 
 Overview
