@@ -54,6 +54,11 @@ Example of Usage
 
     print(f"Contextual Dynamic Distance: {similarity}")
 
+.. code-block:: python
+
+    >>>Contextual Dynamic Distance: 5.196152417906096
+
+
 Let's consider a simple example where we use the Contextual Dynamic Distance in a sentiment analysis task. Below is an illustration of how CDD can be integrated into a neural network:
 
 .. code-block:: bash
