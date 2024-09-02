@@ -43,6 +43,8 @@ from distancia import DamerauLevenshtein
 
 .. code-block:: python
 
+    from distancia import DamerauLevenshtein  
+
     def test_damerau_levenshtein():
         # Create an instance of the DamerauLevenshtein class
         distance_calculator = DamerauLevenshtein()
