@@ -50,13 +50,13 @@ The distance provides a straightforward way to compare binary vectors based on t
         vector2 = [1, 1, 0, 1, 1]
 
         # Create an instance of the RussellRao class
-        russell_rao_distance = RussellRao(vector1, vector2)
+        russell_rao_distance = RussellRao()
 
         # Calculate the Russell-Rao distance
-        distance = russell_rao_distance.calculate()
+        distance = russell_rao_distance.calculate(vector1, vector2)
 
         # Print the result
-        print(f"Russell-Rao distance between {vector1} and {vector2} is: {distance:.4f}")
+        print(f"Russell-Rao distance between {vector1} and {vector2} is: {distance}")
 
     if __name__ == "__main__":
         main()
