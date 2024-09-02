@@ -41,10 +41,10 @@ A smaller Wasserstein distance indicates that the distributions are more similar
         distribution2 = [0.2, 0.3, 0.5]
 
         # Create an instance of the Wasserstein class
-        wasserstein = Wasserstein(distribution1, distribution2)
+        wasserstein = Wasserstein()
 
         # Calculate the Wasserstein distance between the two distributions
-        distance = wasserstein.calculate()
+        distance = wasserstein.calculate(distribution1, distribution2)
 
         # Print the calculated distance
         print(f"Wasserstein distance between the distributions: {distance:.4f}")
