@@ -55,6 +55,10 @@ Here's a simple Python example demonstrating how to calculate the Levenshtein Di
 
     print(f"Levenshtein Distance: {distance}")
 
+.. code-block:: python
+
+   >>>Levenshtein Distance: 3
+
 In this example, the strings `"kitten"` and `"sitting"` are compared. The Levenshtein Distance between these strings is calculated and printed, showing the minimum number of edits required to change one string into the other.
 
 Applications
