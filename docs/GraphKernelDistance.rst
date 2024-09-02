@@ -47,7 +47,6 @@ Academic References
 -------------------
 
 
-* Gärtner, T., Flach, P., & Wrobel, S. (2003). On graph kernels: Hardness results and efficient alternatives. In *Proceedings of the 16th annual conference on learning theory* (pp. 129-143). Springer.
 
 Implementation
 ----------------
