@@ -59,9 +59,7 @@ This metric can be useful in a variety of applications, such as:
 Academic References
 ===================
 
-1. Masuda, N., Porter, M. A., & Lambiotte, R. (2017). Random walks and diffusion on networks. Physics Reports, 716-717, 1-58.
 
-2. Ghosh, A., & Boyd, S. (2006). Growing well-connected graphs. In Proceedings of the 45th IEEE Conference on Decision and Control (pp. 6605-6611).
 
 3. Kivimäki, I., Shimbo, M., & Thibaux, A. (2014). Comparison of graph distances for clustering and visualization. In Proceedings of the 2014 SIAM International Conference on Data Mining (pp. 357-365).
 
