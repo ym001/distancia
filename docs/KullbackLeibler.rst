@@ -47,7 +47,7 @@ KL divergence quantifies the amount of information lost when `Q` is used to appr
 
 .. code-block:: bash
 
-    >>>Kullback-Leibler Divergence: 0.04575811092471789
+    >>>Kullback-Leibler Divergence: 0.5896687386422741
 
 
 History and Context
