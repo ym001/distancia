@@ -61,7 +61,6 @@ Academic References
 
 
 
-3. Kivimäki, I., Shimbo, M., & Thibaux, A. (2014). Comparison of graph distances for clustering and visualization. In Proceedings of the 2014 SIAM International Conference on Data Mining (pp. 357-365).
 
 Conclusion
 ==========
