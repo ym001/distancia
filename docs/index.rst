@@ -155,8 +155,6 @@ Distance
 
    KullbackLeibler
 
-   GaloisWassersteinLoss
-
  
 Similarity
 
@@ -214,6 +212,9 @@ Loss function
    MeanSquaredError
 
    SquaredLogarithmicError
+
+   GaloisWassersteinLoss
+
 
 Graph
 
