@@ -34,6 +34,7 @@ Usage Example
 
 Here's a simple Python example demonstrating how to calculate the Dice Distance between two binary strings using the `Distancia` package:
 
+.. code-block:: python
 
     from distancia import Dice
 
