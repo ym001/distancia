@@ -43,8 +43,8 @@ Here is an example of how to use the Bray-Curtis distance with the `distanciaa` 
 
 .. code-block:: python
 
-    # Import the distanciaa package
-    from distanciaa import BrayCurtis
+    # Import the distancia package
+    from distancia import BrayCurtis
 
     # Define two sample vectors representing species abundance in two different samples
     sample_1 = [2, 0, 3, 1]
