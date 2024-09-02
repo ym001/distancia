@@ -52,6 +52,11 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
     loss_value = loss_fn(y_true, y_pred)
     print(f'Cross Entropy Loss: {loss_value}')
 
+.. code-block:: bash
+
+    >>>Cross Entropy Loss: -0.2534601641198856
+
+
 Here is a second example of more developed neural classification
 
 .. code-block:: python
