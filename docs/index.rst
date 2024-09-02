@@ -353,7 +353,7 @@ Link
 .. toctree::
    :maxdepth: 2
 
-   Notebook<>
+   Notebook<https://github.com/ym001/distancia/tree/master/notebook>
    Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
    Pypi<https://pypi.org/project/distancia/>
    Source<https://github.com/ym001/distancia>
