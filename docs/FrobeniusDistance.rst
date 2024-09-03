@@ -55,6 +55,9 @@ Example
 Academic Reference
 ------------------
 
+:footcite:t:`frobeniusdistance`
+
+.. footbibliography::
 
 This reference provides a comprehensive treatment of matrix norms, including the Frobenius norm, which underpins the Frobenius distance metric used in this class.
 
