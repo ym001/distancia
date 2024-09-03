@@ -30,18 +30,26 @@ Example
 
 .. code-block:: python
 
-   # Exemple d'utilisation
-   graph1 = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A'], 'D': ['B']}
-   graph2 = {'X': ['Y', 'Z'], 'Y': ['X'], 'Z': ['X']}
+   # Example usage
+   from distancia import GraphKernelDistance
+   edges1 = [("A", "B"), ("B", "C"), ("C", "D"), ("D", "A")]
+   nodes1 = ["A", "B", "C", "D"]
 
-   distance = GraphKernelDistance(graph1, graph2)
-   random_walk_value = distance.compute_kernel(distance.random_walk_kernel)
-   subgraph_value = distance.compute_kernel(distance.subgraph_kernel)
+   edges2 = [("A", "B"), ("B", "C"), ("C", "D")]
+   nodes2 = ["A", "B", "C", "D"]
 
-   print("Noyau de marche aléatoire:", random_walk_value)
-   print("Noyau de sous-graphes:", subgraph_value)
+   graph1 = Graph(nodes1, edges1)
+   graph2 = Graph(nodes2, edges2)
+
+   kernel_distance = GraphKernelDistance(graph1, graph2)
+   distance = kernel_distance.compute(method="random_walk", depth=3)
+
+   print(f"The Graph Kernel Distance between the two graphs is: {distance}")
+
 
 .. code-block:: bash
+
+   >>>The Graph Kernel Distance between the two graphs is: 0.001949317738791423
 
 Academic References
 -------------------
