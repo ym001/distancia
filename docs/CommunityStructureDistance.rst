@@ -27,6 +27,7 @@ Significance
 Understanding the community structure of graphs is essential for various applications, including social network analysis, biological network study, and recommendation systems. The `CommunityStructureDistance` class helps in evaluating how changes in the graph's structure affect its modular organization. This can be particularly useful in scenarios where graphs evolve over time or when comparing different graph-based models.
 Example
 -------
+
 .. code-block:: python
 
   import networkx as nx
