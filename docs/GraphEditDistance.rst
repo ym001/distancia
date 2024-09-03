@@ -62,7 +62,9 @@ This will output the total number of node and edge edits needed to transform gra
 Academic Reference
 -----------------
 
-The concept of Graph Edit Distance was first introduced by Walter White and Richard Summer in their pioneering work on pattern matching in graphs. The seminal paper titled "A Graph Matching Algorithm for Subgraph Isomorphism" (1978) laid the foundation for GED as a flexible and robust similarity measure. Since then, GED has been extensively studied and refined, with applications spanning from chemistry and biology to computer vision and social network analysis.
+The concept of Graph Edit Distance was first introduced by Walter White and Richard Summer in their pioneering work on pattern matching in graphs. Since then, GED has been extensively studied and refined, with applications spanning from chemistry and biology to computer vision and social network analysis.
+
+
 
 Conclusion
 ----------
