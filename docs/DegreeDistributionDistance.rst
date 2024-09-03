@@ -69,7 +69,7 @@ The degree distribution captures the overall connectivity pattern in a graph. By
 Academic Reference
 ------------------
 
-For a deeper understanding of degree distributions and their importance in graph theory and network analysis, refer to the following academic sources: :footcite:t:`degreedistributiondistance1`:, :footcite:t:`degreedistributiondistance2`:
+For a deeper understanding of degree distributions and their importance in graph theory and network analysis, refer to the following academic sources: :footcite:t:`degreedistributiondistance1`: - :footcite:t:`degreedistributiondistance2`:
 
 These papers provide a comprehensive overview of network structure analysis, including the significance of degree distributions.
 
