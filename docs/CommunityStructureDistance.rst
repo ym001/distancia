@@ -28,11 +28,11 @@ Understanding the community structure of graphs is essential for various applica
 
 Academic Reference
 ------------------
-
-  communitystructuredistance
+:footcite:t:`communitystructuredistance`:  
   
-
 This reference describes the Louvain method, a popular algorithm for community detection, which can be used in conjunction with the `CommunityStructureDistance` class.
+
+.. footbibliography::
 
 Conclusion
 ----------
