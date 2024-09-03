@@ -29,6 +29,27 @@ The Pattern-Based Distance provides a quantitative measure of the difference in 
 - **Social Networks**: Understanding the microstructures in social networks, such as communities or cliques.
 - **Chemistry**: Comparing molecular structures where atoms and bonds are represented as nodes and edges, respectively.
 
+.. code-block:: python
+
+  # Exemple d'utilisation
+  nodes1 = ["A", "B", "C", "D"]
+  edges1 = [("A", "B"), ("B", "C"), ("C", "A"), ("A", "D")]
+
+  nodes2 = ["A", "B", "C", "D"]
+  edges2 = [("A", "B"), ("B", "D"), ("D", "A"), ("A", "C")]
+
+  graph1 = Graph(nodes1, edges1)
+  graph2 = Graph(nodes2, edges2)
+
+  pattern_distance = PatternBasedDistance(graph1, graph2, motif_size=3)
+  distance = pattern_distance.compute()
+
+  print(f"La distance basée sur les motifs entre les deux graphes est: {distance}")
+
+.. code-block:: bash
+
+  >>>La distance basée sur les motifs entre les deux graphes est: 4
+
 Academic Reference
 ------------------
 
