@@ -351,6 +351,14 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    AutomatedDistanceMetricSelection
 
+NoteBook
+--------
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   graph
+
 Contributing
 ------------
 
