@@ -32,6 +32,7 @@ Example
 
   import networkx as nx
   from community import community_louvain
+  from distancia import CommunityStructureDistance
 
   # Exemple de détection des communautés utilisant l'algorithme de Louvain
   def louvain_community_detection(graph):
