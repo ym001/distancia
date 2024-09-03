@@ -21,6 +21,7 @@ The Graph Compression Distance :math:`D_{compress}` between the graphs :math:`G_
   Where:
 
   - :math:`C(G_1 \cup G_2)`  represents the size of the compressed union of :math:`G_1` and :math:`G_2`.
+
   - :math:`\min(C(G_1), C(G_2))` and :math:`\max(C(G_1), C(G_2))` are the minimum and maximum compressed sizes of the individual graphs.
 
 This formula provides a normalized distance metric that reflects how much additional information is needed to describe the union of the two graphs compared to describing each graph individually.
