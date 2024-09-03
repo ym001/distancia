@@ -38,6 +38,8 @@ Example
 
 .. code-block:: python
 
+  from distancia import GraphCompressionDistance
+
   # Example usage:
   graph1 = [
       [0, 1, 0, 1],
