@@ -33,9 +33,10 @@ This metric is particularly useful in scenarios where the information content an
 Academic Reference
 ------------------
 
-The concept of using compression-based methods to measure similarity has been explored in various fields, including bioinformatics and data mining. A key reference for this approach is:
+The concept of using compression-based methods to measure similarity has been explored in various fields, including bioinformatics and data mining. A key reference for this approach is: :footcite:t:`graphcompressiondistance`
 
-graphcompressiondistance
+.. footbibliography::
+
 
 This paper introduces the idea of using data compression to cluster data and provides a foundation for applying compression-based metrics to graph comparison.
 
