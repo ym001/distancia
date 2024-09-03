@@ -9,17 +9,19 @@ The Graph Compression Distance is a metric that measures the similarity between 
 Formal Definition
 -----------------
 
-Let \( G_1 \) and \( G_2 \) be two graphs. The compression function \( C(G) \) denotes the size of the graph \( G \) when compressed using a specific algorithm.
+.. math::
 
-The Graph Compression Distance \( D_{compress} \) between the graphs \( G_1 \) and \( G_2 \) is defined as:
+  Let \( G_1 \) and \( G_2 \) be two graphs. The compression function \( C(G) \) denotes the size of the graph \( G \) when compressed using a specific algorithm.
 
-\[
-D_{compress}(G_1, G_2) = \frac{C(G_1 \cup G_2) - \min(C(G_1), C(G_2))}{\max(C(G_1), C(G_2))}
-\]
+  The Graph Compression Distance \( D_{compress} \) between the graphs \( G_1 \) and \( G_2 \) is defined as:
 
-Where:
-- \( C(G_1 \cup G_2) \) represents the size of the compressed union of \( G_1 \) and \( G_2 \).
-- \( \min(C(G_1), C(G_2)) \) and \( \max(C(G_1), C(G_2)) \) are the minimum and maximum compressed sizes of the individual graphs.
+  \[
+  D_{compress}(G_1, G_2) = \frac{C(G_1 \cup G_2) - \min(C(G_1), C(G_2))}{\max(C(G_1), C(G_2))}
+  \]
+
+  Where:
+  - \( C(G_1 \cup G_2) \) represents the size of the compressed union of \( G_1 \) and \( G_2 \).
+  - \( \min(C(G_1), C(G_2)) \) and \( \max(C(G_1), C(G_2)) \) are the minimum and maximum compressed sizes of the individual graphs.
 
 This formula provides a normalized distance metric that reflects how much additional information is needed to describe the union of the two graphs compared to describing each graph individually.
 
