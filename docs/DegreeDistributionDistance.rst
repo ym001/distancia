@@ -30,6 +30,8 @@ The degree distribution captures the overall connectivity pattern in a graph. By
 
 .. code-block:: python
 
+    from distancia import DegreeDistributionDistance
+
     # Représentation de deux graphes sous forme de listes d'adjacence
 
     # Premier graphe (graph1)
