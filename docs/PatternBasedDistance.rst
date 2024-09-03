@@ -9,16 +9,18 @@ The Pattern-Based Distance is a graph distance metric that compares the frequenc
 Formal Definition
 -----------------
 
-Given two graphs \( G_1 \) and \( G_2 \), with their respective sets of nodes \( V_1, V_2 \) and edges \( E_1, E_2 \), the Pattern-Based Distance between \( G_1 \) and \( G_2 \) is defined as:
+.. math::
 
-\[
-D_{\text{pattern}}(G_1, G_2) = \sum_{m \in M} \left| f_{G_1}(m) - f_{G_2}(m) \right|
-\]
+  Given two graphs \( G_1 \) and \( G_2 \), with their respective sets of nodes \( V_1, V_2 \) and edges \( E_1, E_2 \), the Pattern-  Based Distance between \( G_1 \) and \( G_2 \) is defined as:
 
-where:
+  \[
+  D_{\text{pattern}}(G_1, G_2) = \sum_{m \in M} \left| f_{G_1}(m) - f_{G_2}(m) \right|
+  \]
 
-- \( M \) is the set of all possible motifs of a given size in the graphs.
-- \( f_{G_1}(m) \) and \( f_{G_2}(m) \) are the frequencies of motif \( m \) in \( G_1 \) and \( G_2 \) respectively.
+  where:
+
+  - \( M \) is the set of all possible motifs of a given size in the graphs.
+  - \( f_{G_1}(m) \) and \( f_{G_2}(m) \) are the frequencies of motif \( m \) in \( G_1 \) and \( G_2 \) respectively.
 
 Significance
 ------------
@@ -54,6 +56,7 @@ Academic Reference
 ------------------
 
 The concept of motif-based distance in graphs is rooted in the broader field of network science and graph theory. One key reference is the work on network motifs by Milo et al. (2002), which identifies and enumerates significant motifs in biological networks:
+
 :footcite:t:`patternbaseddistance`
 
 .. footbibliography::
