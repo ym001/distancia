@@ -1,4 +1,7 @@
-
+.. Distancia documentation master file, created by
+   sphinx-quickstart on Tue Aug 10 14:57:34 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
 Welcome to Distancia's documentation!
 ======================================
@@ -7,25 +10,11 @@ Welcome to Distancia's documentation!
 
 The documentation is divided into the following sections:
 
-Getting Started
+.. contents::
+   :local:
+   :depth: 2
 
-Installation
-
-Quickstart
-
-Available Metrics
-
-Overview
-
-Contributing
-
-Changelog
-
-Link
-
-Conclusion
-
-note
+.. note::
 
    The code examples provided in this documentation are written for Python 3.x.
 
@@ -37,6 +26,7 @@ Distancia is designed to be simple and intuitive, yet powerful and flexible. Whe
 
 For a quick introduction, check out the :doc:`quickstart` guide. If you want to dive straight into the code, head over to the :doc:`Euclidean` page.
 
+.. note::
 
    If you find any issues or have suggestions for improvements, feel free to contribute! See the :doc:`contributing` section for more details.
 
@@ -61,18 +51,18 @@ Here are some common examples of how to use distancia:
    :caption: Example 1: Calculating Euclidean Distance
 
 
-      from distancia import Euclidean
+   from distancia import Euclidean
 
-      point1 = [1, 2, 3]
-      point2 = [4, 5, 6]
+   point1 = [1, 2, 3]
+   point2 = [4, 5, 6]
 
-      # Create an instance of Euclidean
-      euclidean = Euclidean()
+   # Create an instance of Euclidean
+   euclidean = Euclidean()
 
-      # Calculate the Euclidean distance
-      distance = euclidean.calculate(point1, point2)
+   # Calculate the Euclidean distance
+   distance = euclidean.calculate(point1, point2)
 
-      print(f"Euclidean Distance: {distance}")
+   print(f"Euclidean Distance: {distance}")
 
 .. code-block:: bash
 
@@ -84,13 +74,13 @@ Here are some common examples of how to use distancia:
 .. code-block:: python
    :caption: Example 2: Calculating Levenshtein Distance
 
-    from distancia import Levenshtein
+   from distancia import Levenshtein
 
-    string1 = "kitten"
-    string2 = "sitting"
+   string1 = "kitten"
+   string2 = "sitting"
 
-    distance = Levenshtein().calculate(string1, string2)
-    print(f"Levenshtein Distance: {distance}")
+   distance = Levenshtein().calculate(string1, string2)
+   print(f"Levenshtein Distance: {distance}")
 
 .. code:: bash
 
@@ -101,9 +91,10 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Available Metrics
 -----------------
-**Distance**
+Distance
 
-
+.. toctree::
+   :maxdepth: 1
 
 
    Euclidean
@@ -113,8 +104,6 @@ Available Metrics
    Hamming
 
    Levenshtein
-
-   Tanimoto
 
    RatcliffObershelp
 
@@ -164,23 +153,21 @@ Available Metrics
 
    EnhancedRogersTanimoto
 
-   CrossEntropy
-
    KullbackLeibler
 
-   GaloisWassersteinLoss
-
  
-**Similarity**
+Similarity
 
-
-
+.. toctree::
+   :maxdepth: 1
 
    Cosine
 
    Jaccard
 
    GeneralizedJaccard
+
+   Tanimoto
 
    Tversky 
 
@@ -200,11 +187,10 @@ Available Metrics
 
    Otsuka 
 
-**Time Series Distance Metrics**
+Time Series Distance Metrics
 
-
-
-
+.. toctree::
+   :maxdepth: 1
 
    DynamicTimeWarping
 
@@ -212,11 +198,12 @@ Available Metrics
 
    Frechet
 
-**Loss function**
+Loss function
 
+.. toctree::
+   :maxdepth: 1
 
-
-
+   CrossEntropy
 
    MeanAbsoluteError
 
@@ -226,93 +213,143 @@ Available Metrics
 
    SquaredLogarithmicError
 
+   GaloisWassersteinLoss
 
 
-   And many more...
+Graph
+
+.. toctree::
+   :maxdepth: 1
+
+   ShortestPath
+
+   GraphEditDistance
+
+   SpectralDistance
+
+   WeisfeilerLehmanSimilarity
+
+   ComparingRandomWalkStationaryDistributions
+
+   Diffusion
+
+   FrobeniusDistance
+
+   GraphKernelDistance
+
+   PatternBasedDistance
+
+   GraphCompressionDistance
+
+   DegreeDistributionDistance
+
+   CommunityStructureDistance
+
+And many more...
 
 Overview
 --------
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **BatchDistance**
+   BatchDistance
 
 Purpose: Facilitates batch processing of distance computations, enabling users to compute distances for large sets of pairs in a single operation.
 
 Use Case: Essential in real-time systems or when working with large datasets where efficiency is critical. Batch processing saves time and computational resources by handling multiple distance computations in one go.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **ComprehensiveBenchmarking**
+   ComprehensiveBenchmarking
 
 Purpose: Provides tools for benchmarking the performance of various distance metrics on different types of data.
 
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
 
+.. toctree::
+   :maxdepth: 1
 
-   **CustomDistanceFunction**
+   CustomDistanceFunction
 
 Purpose: Allows users to define custom distance functions by specifying a mathematical formula or providing a custom Python function.
 
 Use Case: Useful for researchers or practitioners who need a specific metric that isn’t commonly used or already implemented.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **DistanceMatrix**
+   DistanceMatrix
 
 Purpose: Automatically generates a distance matrix for a set of data points using a specified distance metric.
 
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
 
+.. toctree::
+   :maxdepth: 1
 
-   **DistanceMetricLearning**
+   DistanceMetricLearning
 
 Purpose: Implements algorithms for learning an optimal distance metric from data based on a specific task, such as classification or clustering.
 
 Use Case: Critical in machine learning tasks where the goal is to optimize a distance metric for maximum task-specific performance, improving the accuracy of models.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **IntegratedDistance**
+   IntegratedDistance
 
 Purpose: Enables seamless integration of distance computations with popular data science libraries like pandas, scikit-learn, and numpy.
 
 Use Case: This class enhances the usability of the distancia package, allowing users to incorporate distance calculations directly into their existing data analysis workflows.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **MetricFinder**
+   MetricFinder
 
 Purpose: Identifies the most appropriate distance metric for two given data points based on their structure.
 
 Use Case: Useful when dealing with various types of data, this class helps users automatically determine the best distance metric to apply, ensuring that the metric chosen is suitable for the data's characteristics.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **OutlierDetection**
+   OutlierDetection
 
 Purpose: Implements methods for detecting outliers in datasets by using distance metrics to identify points that deviate significantly from others.
 
 Use Case: Essential in fields such as fraud detection, quality control, and data cleaning, where identifying and managing outliers is crucial for maintaining data integrity.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **ParallelandDistributedComputation**
+   ParallelandDistributedComputation
 
 Purpose: Adds support for parallel or distributed computation of distances, particularly useful for large datasets.
 
 Use Case: In big data scenarios, calculating distances between millions of data points can be computationally expensive. This class significantly reduces computation time by parallelizing these calculations across multiple processors or machines.
 
+.. toctree::
+   :maxdepth: 1
 
-
-   **Visualization**
+   Visualization
 
 Purpose: Provides tools for visualizing distance matrices, dendrograms (for hierarchical clustering), and 2D/3D representations of data points based on distance metrics.
 
 Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), helping users understand the relationships between data points. This class is particularly useful for creating visual aids like heatmaps or dendrograms to better interpret the data.
 
+.. toctree::
+   :maxdepth: 1
 
+   APICompatibility
+
+.. toctree::
+   :maxdepth: 1
+
+   AutomatedDistanceMetricSelection
 
 Contributing
 ------------
@@ -327,15 +364,14 @@ Stay up-to-date with the latest changes and improvements in distancia by reading
 Link
 ----
 
+.. toctree::
+   :maxdepth: 2
 
+   Notebook<https://github.com/ym001/distancia/tree/master/notebook>
    Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
-   
    Pypi<https://pypi.org/project/distancia/>
-   
    Source<https://github.com/ym001/distancia>
-   
    Documentation<https://distancia.readthedocs.io/en/latest/>
-   
    License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
 Conclusion
