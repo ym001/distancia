@@ -47,14 +47,17 @@ In this example, the graph is defined with nodes 'A', 'B', 'C', and 'D'. The Sho
 Academic Reference
 ------------------
 
-The shortest path problem and Dijkstra's algorithm are well-established concepts in the field of computer science. For further reading, refer to:
+The shortest path problem and Dijkstra's algorithm are well-established concepts in the field of computer science. For further reading, refer to: :footcite:t:`shortestpath`.
 
 
 This paper introduces the algorithm that efficiently solves the single-source shortest path problem, which is fundamental in various applications such as network routing, geographical mapping, and more.
 
-shortestpath
+.. footbibliography::
+
 
 Conclusion
+----------
+
 The ShortestPath class provides a robust and efficient solution to finding the shortest path in weighted graphs. By incorporating Dijkstra's algorithm, it guarantees optimal results for non-negative weights, making it a valuable tool in many practical applications. This class is a crucial component for users who need to solve routing and navigation problems, ensuring that they can compute the shortest distances accurately and efficiently.
 
 Whether used in transportation systems, network design, or any other field requiring optimal pathfinding, the ShortestPath class offers a dependable solution for your shortest path computation needs.
