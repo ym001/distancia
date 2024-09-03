@@ -353,11 +353,13 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
 NoteBook
 --------
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    graph
+
 
 Contributing
 ------------
