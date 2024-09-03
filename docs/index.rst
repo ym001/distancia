@@ -237,6 +237,8 @@ Graph
 
    PatternBasedDistance
 
+   GraphCompressionDistance
+
 And many more...
 
 Overview
