@@ -30,26 +30,31 @@ The Frobenius distance is applicable in various domains, including:
 
 Example
 -------
+.. code-block:: python
 
-from distancia import FrobeniusDistance
+  from distancia import FrobeniusDistance
 
-nodes1 = ["A", "B", "C"]
-edges1 = [("A", "B"), ("B", "C")]
+  nodes1 = ["A", "B", "C"]
+  edges1 = [("A", "B"), ("B", "C")]
 
-nodes2 = ["A", "B", "C"]
-edges2 = [("A", "B"), ("A", "C")]
+  nodes2 = ["A", "B", "C"]
+  edges2 = [("A", "B"), ("A", "C")]
 
-graph1 = Graph(nodes1, edges1)
-graph2 = Graph(nodes2, edges2)
+  graph1 = Graph(nodes1, edges1)
+  graph2 = Graph(nodes2, edges2)
 
-frobenius_distance = FrobeniusDistance(graph1, graph2)
-distance = frobenius_distance.compute()
+  frobenius_distance = FrobeniusDistance(graph1, graph2)
+  distance = frobenius_distance.compute()
 
-print(f"La distance de Frobenius entre les deux graphes est: {distance}")
+  print(f"La distance de Frobenius entre les deux graphes est: {distance}")
+
+.. code-block:: bash
+
+  >>>La distance de Frobenius entre les deux graphes est: 2.0
 
 Academic Reference
 ------------------
-- Golub, G. H., & Van Loan, C. F. (2013). *Matrix Computations* (4th ed.). Johns Hopkins University Press.
+
 
 This reference provides a comprehensive treatment of matrix norms, including the Frobenius norm, which underpins the Frobenius distance metric used in this class.
 
