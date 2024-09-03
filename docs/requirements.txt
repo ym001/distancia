@@ -2,3 +2,5 @@ sphinx-copybutton
 
 sphinxcontrib.bibtex
 
+sphinx-sitemap
+
