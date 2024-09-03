@@ -233,6 +233,8 @@ Graph
 
    Diffusion
 
+   FrobeniusDistance
+
    GraphKernelDistance
 
    PatternBasedDistance
