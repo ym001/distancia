@@ -19,6 +19,7 @@ The Graph Compression Distance :math:`D_{compress}` between the graphs :math:`G_
   D_{compress}(G_1, G_2) = \frac{C(G_1 \cup G_2) - \min(C(G_1), C(G_2))}{\max(C(G_1), C(G_2))}
 
   Where:
+
   - :math:`C(G_1 \cup G_2)`  represents the size of the compressed union of :math:`G_1` and :math:`G_2`.
   - :math:`\min(C(G_1), C(G_2))` and :math:`\max(C(G_1), C(G_2))` are the minimum and maximum compressed sizes of the individual graphs.
 
