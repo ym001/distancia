@@ -45,9 +45,10 @@ Here is a simple example of how to use the `ShortestPath` class:
 In this example, the graph is defined with nodes 'A', 'B', 'C', and 'D'. The ShortestPath class calculates the shortest distance from node 'A' to node 'D', which in this case would be 4.
 
 Academic Reference
+------------------
+
 The shortest path problem and Dijkstra's algorithm are well-established concepts in the field of computer science. For further reading, refer to:
 
-Dijkstra, E. W. (1959). A Note on Two Problems in Connexion with Graphs. Numerische Mathematik, 1, 269-271.
 
 This paper introduces the algorithm that efficiently solves the single-source shortest path problem, which is fundamental in various applications such as network routing, geographical mapping, and more.
 
