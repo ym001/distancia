@@ -24,7 +24,7 @@ bibtex_default_style = 'unsrtalpha'
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-
+html_baseurl = 'https://distancia.readthedocs.io/en/latest/'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
