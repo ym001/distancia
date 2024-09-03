@@ -239,6 +239,8 @@ Graph
 
    GraphCompressionDistance
 
+   DegreeDistributionDistance
+
 And many more...
 
 Overview
