@@ -62,7 +62,10 @@ This will output the total number of node and edge edits needed to transform gra
 Academic Reference
 -----------------
 
-GraphEditDistance
+:footcite:t:`GraphEditDistance`
+
+.. footbibliography::
+
 
 Conclusion
 ----------
