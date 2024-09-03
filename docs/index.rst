@@ -235,6 +235,8 @@ Graph
 
    GraphKernelDistance
 
+   PatternBasedDistance
+
 And many more...
 
 Overview
