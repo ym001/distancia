@@ -1,3 +1,7 @@
+.. meta::
+    :description lang=en:
+        In the era of modern software development, ensuring that a library or package can seamlessly integrate with a wide range of systems is crucial. This includes compatibility with REST APIs, which are the backbone of many web services and distributed systems. The `APICompatibility` class within the `distancia` package is designed to facilitate this integration by providing a simple interface to expose distance computation functionalities via a REST API.
+
 APICompatibility
 =================
 
