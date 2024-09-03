@@ -51,18 +51,18 @@ Here are some common examples of how to use distancia:
    :caption: Example 1: Calculating Euclidean Distance
 
 
-      from distancia import Euclidean
+   from distancia import Euclidean
 
-      point1 = [1, 2, 3]
-      point2 = [4, 5, 6]
+   point1 = [1, 2, 3]
+   point2 = [4, 5, 6]
 
-      # Create an instance of Euclidean
-      euclidean = Euclidean()
+   # Create an instance of Euclidean
+   euclidean = Euclidean()
 
-      # Calculate the Euclidean distance
-      distance = euclidean.distance(point1, point2)
+   # Calculate the Euclidean distance
+   distance = euclidean.calculate(point1, point2)
 
-      print(f"Euclidean Distance: {distance}")
+   print(f"Euclidean Distance: {distance}")
 
 .. code-block:: bash
 
@@ -74,13 +74,13 @@ Here are some common examples of how to use distancia:
 .. code-block:: python
    :caption: Example 2: Calculating Levenshtein Distance
 
-    from distancia import Levenshtein
+   from distancia import Levenshtein
 
-    string1 = "kitten"
-    string2 = "sitting"
+   string1 = "kitten"
+   string2 = "sitting"
 
-    distance = Levenshtein().distance(string1, string2)
-    print(f"Levenshtein Distance: {distance}")
+   distance = Levenshtein().calculate(string1, string2)
+   print(f"Levenshtein Distance: {distance}")
 
 .. code:: bash
 
