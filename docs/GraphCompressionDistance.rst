@@ -30,6 +30,34 @@ The Graph Compression Distance is significant because it captures the inherent c
 
 This metric is particularly useful in scenarios where the information content and structural complexity of the graphs are more relevant than simple topological comparisons. For example, in comparing different network models, the Graph Compression Distance can reveal how similar or distinct the informational content of the models is, based on their compressibility.
 
+Example
+-------
+
+.. code-block:: python
+
+  # Example usage:
+  graph1 = [
+      [0, 1, 0, 1],
+      [1, 0, 1, 0],
+      [0, 1, 0, 1],
+      [1, 0, 1, 0]
+  ]
+
+  graph2 = [
+      [0, 1, 1, 0],
+      [1, 0, 0, 1],
+      [1, 0, 0, 1],
+      [0, 1, 1, 0]
+  ]
+
+  distance_calculator = GraphCompressionDistance(graph1, graph2)
+  distance = distance_calculator.compression_distance()
+  print(f"Graph Compression Distance: {distance}")
+
+.. code-block:: bash
+
+  >>>Graph Compression Distance: 3
+
 Academic Reference
 ------------------
 
