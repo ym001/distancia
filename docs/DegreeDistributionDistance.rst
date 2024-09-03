@@ -33,7 +33,6 @@ Academic Reference
 
 For a deeper understanding of degree distributions and their importance in graph theory and network analysis, refer to the following academic sources:
 
-- Barabási, A.-L., & Albert, R. (1999). "Emergence of Scaling in Random Networks." *Science*, 286(5439), 509-512.
 
 These papers provide a comprehensive overview of network structure analysis, including the significance of degree distributions.
 
