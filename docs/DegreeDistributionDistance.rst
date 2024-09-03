@@ -28,6 +28,42 @@ Significance
 
 The degree distribution captures the overall connectivity pattern in a graph. By comparing the degree distributions of two graphs, we can quantify how similar or different their topological structures are. This is particularly important in scenarios where the structure of a network has a direct impact on its function, such as in biological systems where the interaction patterns between proteins can determine cellular behavior, or in social networks where the connectivity patterns influence information spread.
 
+.. code-block:: python
+
+    # Représentation de deux graphes sous forme de listes d'adjacence
+
+    # Premier graphe (graph1)
+    # Le graphe est représenté comme un dictionnaire où chaque clé est un nœud et chaque valeur est une liste de voisins.
+    graph1 = {
+        'A': ['B', 'C'],       # Le nœud 'A' est connecté à 'B' et 'C'
+        'B': ['A', 'C'],       # Le nœud 'B' est connecté à 'A' et 'C'
+        'C': ['A', 'B', 'D'],  # Le nœud 'C' est connecté à 'A', 'B' et 'D'
+        'D': ['C']             # Le nœud 'D' est connecté à 'C'
+    }
+
+    # Deuxième graphe (graph2)
+    graph2 = {
+        'A': ['B'],            # Le nœud 'A' est connecté à 'B'
+        'B': ['A', 'C', 'D'],  # Le nœud 'B' est connecté à 'A', 'C' et 'D'
+        'C': ['B'],            # Le nœud 'C' est connecté à 'B'
+        'D': ['B']             # Le nœud 'D' est connecté à 'B'
+    }
+
+    # Instanciation de la classe DegreeDistributionDistance avec les deux graphes
+    distance_calculator = DegreeDistributionDistance(graph1, graph2)
+
+    # Calcul de la distance entre les distributions de degré des deux graphes
+    distance = distance_calculator.compute_distance()
+
+    # Affichage du résultat
+    print("Distance basée sur les distributions de degré :", distance)
+
+.. code-block:: bash
+
+    >>>Distance basée sur les distributions de degré : 4.0
+
+
+
 Academic Reference
 ------------------
 
