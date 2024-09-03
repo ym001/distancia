@@ -241,6 +241,8 @@ Graph
 
    DegreeDistributionDistance
 
+   CommunityStructureDistance
+
 And many more...
 
 Overview
