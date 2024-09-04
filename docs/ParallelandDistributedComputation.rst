@@ -21,6 +21,8 @@ Example usage
 
 .. code-block:: python
 
+    from distancia import ParallelandDistributedComputation
+    from distancia import Euclidean
 
     data_points = [[1, 2], [3, 4], [5, 6], [7, 8]]
     calculator = ParallelandDistributedComputation(data_points, Euclidean())
