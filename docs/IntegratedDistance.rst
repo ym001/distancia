@@ -27,6 +27,7 @@ A typical use case could be calculating the Euclidean distance between rows in t
 .. code-block:: python
 
   # Example usage:
+  from distancia import IntegratedDistance
 
   import pandas as pd
   import numpy as np
