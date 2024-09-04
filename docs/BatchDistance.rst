@@ -16,10 +16,12 @@ Usage Example
 Here's a brief example of how to use the `BatchDistance` class:
 
 .. code-block:: python
+   from distancia import BatchDistance
+   from distancia import Manhattan
 
    points_a = [(1, 2), (3, 4), (5, 6)]
    points_b = [(2, 3), (4, 5), (6, 7)]
-   batch_dist = BatchDistance(points_a, points_b, metric='manhattan')
+   batch_dist = BatchDistance(points_a, points_b, metric=Manhattan())
    distances = batch_dist.compute_batch()
    print(distances)
 
