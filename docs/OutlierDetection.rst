@@ -21,6 +21,8 @@ Example
 -------
 
 .. code-block:: python
+    from distancia import OutlierDetection
+    from distancia import Euclidean
 
     # Sample data points (2D)
     data_points = [
