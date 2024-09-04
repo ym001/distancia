@@ -34,7 +34,7 @@ Here’s a brief example of how to use the `CustomDistanceFunction` class:
     point2 = (4, 2, 3)
 
     # Compute the custom distance
-    distance = custom_distance.compute(point1, point2)
+    distance = custom_distance.calculate(point1, point2)
     print(f"Custom distance: {distance}")
 
 
