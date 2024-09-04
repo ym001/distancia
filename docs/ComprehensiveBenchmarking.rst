@@ -17,12 +17,14 @@ Example usage:
 -------------
 
 .. code-block:: python
+    from distancia import ComprehensiveBenchmarking
+    from distancia import Euclidean, CosineSimilarity
 
     # Sample data
     data_points = [((1, 2), (2, 3)), ((3, 4), (4, 5)), ((5, 6), (6, 7))]
 
     # Benchmarking
-    benchmark = ComprehensiveBenchmarking(metrics=[Euclidean(), Cosine_distance()], data=data_points)
+    benchmark = ComprehensiveBenchmarking(metrics=[Euclidean(), CosineSimilarity()], data=data_points)
     benchmark.run_benchmark()
     benchmark.print_results()
 
