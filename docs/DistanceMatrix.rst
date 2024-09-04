@@ -20,6 +20,8 @@ exemple:
 .. code-block:: python
 
     # Example Usage
+    from distancia import DistanceMatrix
+    from distancia import Euclidean
     data_points = [
         [1, 2],
         [3, 4],
