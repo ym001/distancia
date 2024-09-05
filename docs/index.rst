@@ -365,15 +365,13 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    ComparisonAndValidation
 
+   StatisticalAnalysis
+
 Contributing
 ------------
 
 We welcome contributions! If you would like to contribute to distancia, please read the :doc:`contributing` guide to get started. We appreciate your help in making this project better.
 
-Changelog
----------
-
-Stay up-to-date with the latest changes and improvements in distancia by reading the :doc:`changelog`.
 
 Link
 ----
