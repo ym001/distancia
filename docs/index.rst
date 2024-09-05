@@ -361,6 +361,8 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    AdvancedAnalysis
 
+   DimensionalityReductionAndScaling
+
 Contributing
 ------------
 
