@@ -356,6 +356,10 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    ReportingAndDocumentation
 
+.. toctree::
+   :maxdepth: 1
+
+   AdvancedAnalysis
 
 Contributing
 ------------
