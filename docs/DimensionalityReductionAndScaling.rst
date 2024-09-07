@@ -13,15 +13,17 @@ Given a dataset \( X = \{x_1, x_2, \dots, x_n\} \) where each data point \( x_i 
 
 One common method used in this class is Multi-Dimensional Scaling (MDS), which finds a configuration of points in a lower-dimensional space such that the pairwise distances are preserved as much as possible. Formally, let \( D(x_i, x_j) \) represent the distance between points \( x_i \) and \( x_j \) in the original space, and \( D'(x'_i, x'_j) \) the distance in the reduced space. MDS seeks to minimize the stress function:
 
-\[
-\text{Stress}(X) = \sum_{i,j} (D(x_i, x_j) - D'(x'_i, x'_j))^2
-\]
+.. math::
+
+  \text{Stress}(X) = \sum_{i,j} (D(x_i, x_j) - D'(x'_i, x'_j))^2
+
 
 In addition, scaling of the distance metric involves applying a multiplier \( \alpha \) to adjust the magnitude of distances. For any two points \( x_i \) and \( x_j \), the scaled distance is defined as:
 
-\[
-D_\alpha(x_i, x_j) = \alpha \cdot D(x_i, x_j)
-\]
+.. math::
+
+  D_\alpha(x_i, x_j) = \alpha \cdot D(x_i, x_j)
+
 
 Significance of Dimensionality Reduction and Scaling
 ----------------------------------------------------
