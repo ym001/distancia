@@ -9,16 +9,16 @@ The main objective of this class is to make complex datasets more interpretable 
 
 Formal Definition of Dimensionality Reduction and Scaling
 ---------------------------------------------------------
-Given a dataset \( X = \{x_1, x_2, \dots, x_n\} \) where each data point \( x_i \) exists in a high-dimensional space \( \mathbb{R}^d \), dimensionality reduction techniques seek to find a transformation \( f: \mathbb{R}^d \to \mathbb{R}^k \) where \( k \ll d \). This transformation preserves the essential properties of the dataset while reducing its complexity.
+Given a dataset :math:`X = \{x_1, x_2, \dots, x_n\}` where each data point :math:`x_i` exists in a high-dimensional space :math:`\mathbb{R}^d`, dimensionality reduction techniques seek to find a transformation :math:`f: \mathbb{R}^d \to \mathbb{R}^k` where :math:`k \ll d` This transformation preserves the essential properties of the dataset while reducing its complexity.
 
-One common method used in this class is Multi-Dimensional Scaling (MDS), which finds a configuration of points in a lower-dimensional space such that the pairwise distances are preserved as much as possible. Formally, let \( D(x_i, x_j) \) represent the distance between points \( x_i \) and \( x_j \) in the original space, and \( D'(x'_i, x'_j) \) the distance in the reduced space. MDS seeks to minimize the stress function:
+One common method used in this class is Multi-Dimensional Scaling (MDS), which finds a configuration of points in a lower-dimensional space such that the pairwise distances are preserved as much as possible. Formally, let :math:`D(x_i, x_j)` represent the distance between points :math:`x_i` and :math:`x_j` in the original space, and :math:`D'(x'_i, x'_j)` the distance in the reduced space. MDS seeks to minimize the stress function:
 
 .. math::
 
   \text{Stress}(X) = \sum_{i,j} (D(x_i, x_j) - D'(x'_i, x'_j))^2
 
 
-In addition, scaling of the distance metric involves applying a multiplier \( \alpha \) to adjust the magnitude of distances. For any two points \( x_i \) and \( x_j \), the scaled distance is defined as:
+In addition, scaling of the distance metric involves applying a multiplier :math:`\alpha` to adjust the magnitude of distances. For any two points :math:`x_i` and :math:`x_j`, the scaled distance is defined as:
 
 .. math::
 
