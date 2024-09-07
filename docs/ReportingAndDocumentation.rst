@@ -9,10 +9,10 @@ This is particularly useful for machine learning applications where it is import
 
 Formal Definition
 -----------------
-Let \( D(x, y) \) be a distance metric that satisfies the conditions of a metric (non-negativity, identity of indiscernibles, symmetry, and triangle inequality). The `ReportingAndDocumentation` class provides tools to compute and report on various properties of such a metric:
+Let `D(x, y)` be a distance metric that satisfies the conditions of a metric (non-negativity, identity of indiscernibles, symmetry, and triangle inequality). The `ReportingAndDocumentation` class provides tools to compute and report on various properties of such a metric:
 
 1. **Metric Report**: A comprehensive analysis of the behavior of the metric on a given dataset, including statistical analysis, clustering performance, and visualization of the distance matrix.
-2. **Export of Distance Matrix**: The ability to export the distance matrix \( D \) as a file in formats like CSV.
+2. **Export of Distance Matrix**: The ability to export the distance matrix `D` as a file in formats like CSV.
 3. **Metric Properties Documentation**: Automatically generates a summary of the metric's theoretical and practical properties, including its mathematical definition and applications.
 
 Metric Significance
