@@ -346,6 +346,9 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    APICompatibility
 
+The APICompatibility class in the distancia package bridges the gap between powerful distance computation tools and modern API-based architectures. By enabling the creation of REST endpoints for distance metrics, it facilitates the integration of distancia into a wide range of applications, from web services to distributed computing environments. This not only enhances the usability of the package but also ensures that it can be effectively deployed in real-world, production-grade systems.
+
+
 .. toctree::
    :maxdepth: 1
 
