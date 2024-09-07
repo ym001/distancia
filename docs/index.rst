@@ -361,6 +361,8 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    AdvancedAnalysis
 
+The AdvancedAnalysis class provides essential tools for evaluating the performance, robustness, and sensitivity of distance metrics. These advanced analyses ensure that a metric is not only theoretically sound but also practical and reliable in diverse applications. By offering deep insights into the behavior of distance metrics under perturbations, noise, and dataset divisions, this class is crucial for building resilient models in real-world environments.
+
 .. toctree::
    :maxdepth: 1
 
