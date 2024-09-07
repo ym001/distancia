@@ -12,15 +12,15 @@ This class provides methods to compute and compare the diffusion processes on tw
 Mathematical Formulation of Diffusion Distance
 ==============================================
 
-Let `G1 = (V1, E1)` and `G2 = (V2, E2)` be the two graphs being compared, where `V` represents the set of nodes and `E` represents the set of edges. The diffusion process on a graph `G` starting from a source node `s` and running for `t` steps can be represented as a vector `D(G, s, t)`, where `D(G, s, t)[v]` represents the diffusion value at node `v` after `t` steps.
+Let :math:`G1 = (V1, E1)` and :math:`G2 = (V2, E2)` be the two graphs being compared, where :math:`V` represents the set of nodes and :math:`E` represents the set of edges. The diffusion process on a graph :math:`G` starting from a source node :math:`s` and running for :math:`t` steps can be represented as a vector :math:`D(G, s, t)`, where :math:`D(G, s, t)[v]` represents the diffusion value at node :math:`v` after :math:`t` steps.
 
-The Diffusion Distance between the two graphs `G1` and `G2` with respect to a source node `s` and a number of steps `t` can then be defined as:
+The Diffusion Distance between the two graphs :math:`G1` and :math:`G2` with respect to a source node :math:`s` and a number of steps :math:`t` can then be defined as:
 
 .. math::
 
    d_{Diffusion}(G1, G2, s, t) = \|D(G1, s, t) - D(G2, s, t)\|_p
 
-Where `\|.\|_p` represents the L_p norm, and the most common choices are the L1 norm (Manhattan distance) and the L2 norm (Euclidean distance).
+Where :math:`\|.\|_p` represents the L_p norm, and the most common choices are the L1 norm (Manhattan distance) and the L2 norm (Euclidean distance).
 
 Sample
 ======
