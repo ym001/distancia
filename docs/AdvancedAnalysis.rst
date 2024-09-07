@@ -51,12 +51,15 @@ Academic References
 -------------------
 The importance of sensitivity and robustness analyses in machine learning and distance metrics has been widely studied, with notable references including:
 
-- Bellet, A., Habrard, A., & Sebban, M. (2015). **Metric Learning**. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan & Claypool Publishers.
-- Duda, R. O., Hart, P. E., & Stork, D. G. (2000). **Pattern Classification**. Wiley.
+:footcite:t:`advancedanalysis1`:
+, :footcite:t:`advancedanalysis2`:
+
 
 Additionally, entropy-based analysis of distances is a crucial concept in understanding the information content of data, as described in:
 
-- Shannon, C. E. (1948). **A Mathematical Theory of Communication**. Bell System Technical Journal.
+:footcite:t:`advancedanalysis3`:
+
+.. footbibliography::
 
 Conclusion
 ----------
