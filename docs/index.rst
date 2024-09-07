@@ -376,6 +376,8 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    StatisticalAnalysis
 
+The StatisticalAnalysis class provides essential tools to analyze and interpret the statistical properties of distances or similarities within a dataset. Through the computation of mean, variance, and distance distributions, 
+
 Contributing
 ------------
 
