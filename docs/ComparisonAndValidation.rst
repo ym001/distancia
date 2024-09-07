@@ -7,13 +7,13 @@ The `ComparisonAndValidation` class offers tools to analyze and validate the per
 
 Formal Definition of Distance and Validation
 --------------------------------------------
-Given a dataset \( X = \{x_1, x_2, \dots, x_n\} \) and a distance metric \( D(x_i, x_j) \), the goal of comparison and validation is to assess how well \( D \) captures meaningful relationships in the data. This is typically done by:
+Given a dataset :math:`X = \{x_1, x_2, \dots, x_n\}` and a distance metric :math:`D(x_i, x_j)`, the goal of comparison and validation is to assess how well :math:`D` captures meaningful relationships in the data. This is typically done by:
 
 1. **Comparison with Other Metrics**: 
-   If \( D_1 \) is the current distance metric and \( D_2 \) is another metric, we want to understand how \( D_1 \) performs in comparison with \( D_2 \). This involves comparing the results of applying both metrics to the same dataset, often using clustering or classification outcomes as a benchmark.
+   If :math:`D_1` is the current distance metric and :math:`D_2` is another metric, we want to understand how :math:`D_1` performs in comparison with :math:`D_2`. This involves comparing the results of applying both metrics to the same dataset, often using clustering or classification outcomes as a benchmark.
 
 2. **Cross-Validation**: 
-   Cross-validation evaluates the performance of a metric on a dataset \( X \) with associated labels \( Y = \{y_1, y_2, \dots, y_n\} \). It divides the dataset into training and testing subsets, assessing the metric’s ability to generalize by computing a score over multiple folds of the data.
+   Cross-validation evaluates the performance of a metric on a dataset :math:`X \) with associated labels :math:`Y = \{y_1, y_2, \dots, y_n\}`. It divides the dataset into training and testing subsets, assessing the metric’s ability to generalize by computing a score over multiple folds of the data.
 
 3. **Benchmarking**: 
    To validate the effectiveness of the metric, it is tested on a standardized benchmark dataset, typically used in tasks like clustering or retrieval. The evaluation score (e.g., classification accuracy, clustering purity) provides a measure of the metric's suitability for the task.
