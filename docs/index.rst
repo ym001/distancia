@@ -356,6 +356,8 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    ReportingAndDocumentation
 
+The ReportingAndDocumentation class is a powerful tool for automating the analysis and documentation of distance metrics. By integrating report generation, matrix export, and property documentation, it provides users with a streamlined way to evaluate and present the results of their distance-based models. This class is especially valuable for machine learning practitioners who require a deeper understanding of the behavior of the metrics they employ.
+
 .. toctree::
    :maxdepth: 1
 
