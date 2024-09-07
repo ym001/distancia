@@ -9,19 +9,19 @@ The `DegreeDistributionDistance` class is designed to compute the distance betwe
 Formal Definition
 -----------------
 
-The degree distribution of a graph is a vector where each entry represents the fraction of nodes that have a specific degree. Formally, if `G` is a graph with `n` nodes, the degree distribution vector `D(G)` is defined as:
+The degree distribution of a graph is a vector where each entry represents the fraction of nodes that have a specific degree. Formally, if :math:`G` is a graph with :math:`n` nodes, the degree distribution vector :math:`D(G)` is defined as:
 
 .. math::
     D(G) = \left[ \frac{\text{number of nodes with degree } 0}{n}, \frac{\text{number of nodes with degree } 1}{n}, \ldots, \frac{\text{number of nodes with degree } k}{n} \right]
 
-where `k` is the maximum degree in the graph.
+where :math:`k` is the maximum degree in the graph.
 
-Given two graphs `G1` and `G2`, the distance between their degree distributions can be computed using a variety of distance metrics. A common choice is the L1-norm (Manhattan distance) or L2-norm (Euclidean distance) between the degree distribution vectors:
+Given two graphs :math:`G1` and :math:`G2`, the distance between their degree distributions can be computed using a variety of distance metrics. A common choice is the L1-norm (Manhattan distance) or L2-norm (Euclidean distance) between the degree distribution vectors:
 
 .. math::
     \text{Distance}(G1, G2) = || D(G1) - D(G2) ||
 
-Where `||.||` can be the L1 or L2 norm, depending on the application.
+Where :math:`||.||` can be the L1 or L2 norm, depending on the application.
 
 Significance
 ------------
