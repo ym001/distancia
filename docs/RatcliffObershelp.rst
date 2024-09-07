@@ -11,20 +11,20 @@ The Ratcliff/Obershelp algorithm operates by identifying the longest common cont
 Formula
 -------
 
-The Ratcliff/Obershelp distance between two strings \(s1\) and \(s2\) is computed using the following recursive approach:
+The Ratcliff/Obershelp distance between two strings :math:`s1` and :math:`s2` is computed using the following recursive approach:
 
-1. **Find the Longest Common Substring (LCS)** between \(s1\) and \(s2\).
+1. **Find the Longest Common Substring (LCS)** between :math:`s1` and :math:`s2`.
 2. **Divide** the strings into segments before and after the LCS.
 3. **Recursively calculate** the similarity score for these segments.
 4. Combine the scores from the LCS and the recursive calls to obtain the final similarity score.
 
-The distance \(D(s1, s2)\) is given by:
+The distance :math:`D(s1, s2)` is given by:
 
 .. math::
 
     D(s1, s2) = \frac{1 - \text{Ratcliff/Obershelp Similarity}(s1, s2)}{2}
 
-where the Ratcliff/Obershelp Similarity is a measure of how similar \(s1\) and \(s2\) are, based on the recursive matching of their substrings.
+where the Ratcliff/Obershelp Similarity is a measure of how similar :math:`s1` and :math:`s2` are, based on the recursive matching of their substrings.
 
 Interpretation
 --------------
