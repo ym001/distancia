@@ -34,7 +34,7 @@ In this example, a REST API is created that calculates the Euclidean distance be
 Academic Reference
 ------------------
 
-The integration of distance metrics into API systems is an essential aspect of modern distributed computing. REST APIs are a common interface for microservices, allowing different services to communicate efficiently. This approach is particularly beneficial in scenarios like real-time data analysis and cloud computing. For further reading on the importance of API integration in distributed systems, refer to: :footcite:t:`apicompatibility1`: , :footcite:t:`apicompatibility1`:
+The integration of distance metrics into API systems is an essential aspect of modern distributed computing. REST APIs are a common interface for microservices, allowing different services to communicate efficiently. This approach is particularly beneficial in scenarios like real-time data analysis and cloud computing. For further reading on the importance of API integration in distributed systems, refer to: :footcite:t:`apicompatibility1`: , :footcite:t:`apicompatibility2`:
 
 .. footbibliography::
 
