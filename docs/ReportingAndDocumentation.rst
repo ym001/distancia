@@ -27,11 +27,12 @@ Academic References
 -------------------
 The study of distance metrics and their reporting is crucial in various fields of machine learning, as they serve as the foundation for algorithms like k-Nearest Neighbors, clustering, and dimensionality reduction. A notable reference in this domain is:
 
-- Bellet, A., Habrard, A., & Sebban, M. (2015). **Metric Learning**. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan & Claypool Publishers.
+:footcite:t:`reportinganddocumentation1`
 
 The role of documentation and reporting in machine learning models is well-explored in:
+:footcite:t:`reportinganddocumentation2`
 
-- Müller, A. C., & Guido, S. (2016). **Introduction to Machine Learning with Python: A Guide for Data Scientists**. O'Reilly Media.
+.. footbibliography::
 
 Conclusion
 ----------
