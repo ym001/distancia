@@ -30,14 +30,14 @@ The process of comparing and validating distance metrics is critical for ensurin
 
 Academic References
 -------------------
-The comparison and validation of distance metrics is a well-researched area in machine learning and data analysis. Key references include:
+The comparison and validation of distance metrics is a well-researched area in machine learning and data analysis. Key references include: :footcite:t:`comparisonandvalidation1`:
+,:footcite:t:`comparisonandvalidation2`:
 
-- Jain, A. K., & Dubes, R. C. (1988). **Algorithms for Clustering Data**. Prentice-Hall, Inc.
-- Aggarwal, C. C., Hinneburg, A., & Keim, D. A. (2001). **On the surprising behavior of distance metrics in high-dimensional space**. In International Conference on Database Theory (pp. 420-434). Springer.
 
-The use of cross-validation to assess the generalization ability of metrics is discussed in depth in:
+The use of cross-validation to assess the generalization ability of metrics is discussed in depth in: :footcite:t:`comparisonandvalidation3`:
 
-- Hastie, T., Tibshirani, R., & Friedman, J. (2009). **The Elements of Statistical Learning: Data Mining, Inference, and Prediction**. Springer Science & Business Media.
+
+.. footbibliography::
 
 Conclusion
 ----------
