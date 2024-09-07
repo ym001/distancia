@@ -351,6 +351,10 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    AutomatedDistanceMetricSelection
 
+The AutomatedDistanceMetricSelection feature in the distancia package represents a significant advancement in the ease of use and accessibility of distance metric selection. By automating the process of metric recommendation, it helps users, especially those less familiar with the intricacies of different metrics, to achieve better results in their analyses. This feature not only saves time but also improves the accuracy of data-driven decisions, making distancia a more powerful and user-friendly tool for the data science community.
+
+
+
 .. toctree::
    :maxdepth: 1
 
