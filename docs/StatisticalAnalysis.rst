@@ -49,11 +49,10 @@ Statistical analysis of distances is fundamental for various machine learning an
 
 Academic References
 -------------------
-Statistical analysis of distance metrics has been a key research topic in data science, particularly in clustering and classification tasks. Some important academic references include:
+Statistical analysis of distance metrics has been a key research topic in data science, particularly in clustering and classification tasks. Some important academic references include: :footcite:t:`statisticalanalysis1`, :footcite:t:`statisticalanalysis2`
 
-- Everitt, B. S., Landau, S., Leese, M., & Stahl, D. (2011). **Cluster Analysis**. Wiley.
-  
-- Tan, P. N., Steinbach, M., & Kumar, V. (2005). **Introduction to Data Mining**. Pearson.
+.. footbibliography::
+
 
 These works provide the foundation for statistical analysis and the role of distance metrics in unsupervised learning tasks.
 
