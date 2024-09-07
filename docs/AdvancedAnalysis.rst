@@ -9,30 +9,30 @@ The goal of the `AdvancedAnalysis` class is to provide a robust framework for te
 
 Formal Analysis of Distance Properties
 --------------------------------------
-Let \( D(x, y) \) be a distance metric that measures the dissimilarity between data points \( x \) and \( y \). The `AdvancedAnalysis` class provides several formal tools to assess the behavior of this metric under various conditions:
+Let :math:`D(x, y)` be a distance metric that measures the dissimilarity between data points :math:`x` and :math:`y`. The `AdvancedAnalysis` class provides several formal tools to assess the behavior of this metric under various conditions:
 
-1. **Sensitivity Analysis**: Given a dataset \( X = \{ x_1, x_2, \dots, x_n \} \), the sensitivity of the metric is analyzed by applying small perturbations \( \epsilon \) to the dataset and measuring the change in the computed distances \( D(x_i, x_j) \).
+1. **Sensitivity Analysis**: Given a dataset :math:`X = \{ x_1, x_2, \dots, x_n \}`, the sensitivity of the metric is analyzed by applying small perturbations :math:`\epsilon` to the dataset and measuring the change in the computed distances :math:`D(x_i, x_j)`.
    
 .. math::
 
    \text{Sensitivity}(D) = \frac{\partial D(x_i, x_j)}{\partial \epsilon}
    
 
-2. **Robustness Analysis**: The metric’s robustness is evaluated by introducing different levels of noise \( \eta \) into the dataset and observing its effect on the distance computation.
+2. **Robustness Analysis**: The metric’s robustness is evaluated by introducing different levels of noise :math:`\eta` into the dataset and observing its effect on the distance computation.
 
 .. math::
 
    D_\eta(x, y) = D(x, y) + \eta
    
 
-3. **Entropy of Distances**: The entropy or information content of the distance distribution can be computed to evaluate the variability and unpredictability in the dataset. The entropy \( H \) is defined as:
+3. **Entropy of Distances**: The entropy or information content of the distance distribution can be computed to evaluate the variability and unpredictability in the dataset. The entropy :math:`H` is defined as:
 
 .. math::
 
    H(D) = - \sum P(D(x_i, x_j)) \log P(D(x_i, x_j))
    
 
-4. **Consistency Check Over Subsets**: This checks whether the metric yields consistent results when applied to different subsets of the data \( S_1 \subset X, S_2 \subset X \). Consistency is measured by comparing the distance distributions between the subsets.
+4. **Consistency Check Over Subsets**: This checks whether the metric yields consistent results when applied to different subsets of the data :math:`S_1 \subset X, S_2 \subset X`. Consistency is measured by comparing the distance distributions between the subsets.
 
 .. math::
 
