@@ -37,12 +37,11 @@ Academic References
 -------------------
 The concept of dimensionality reduction has been extensively studied in the literature. Notable references include:
 
-- Tenenbaum, J. B., de Silva, V., & Langford, J. C. (2000). **A global geometric framework for nonlinear dimensionality reduction**. Science, 290(5500), 2319-2323.
-- Cox, T. F., & Cox, M. A. A. (2000). **Multidimensional scaling**. Chapman and Hall/CRC.
+::footcite:t:`dimensionalityreductionandscaling1`,:footcite:t:`dimensionalityreductionandscaling1`
+,:footcite:t:`dimensionalityreductionandscaling1`
 
-Scaling and normalization of distance metrics are commonly employed in machine learning and data analysis, as discussed in:
+.. footbibliography::
 
-- Bellet, A., Habrard, A., & Sebban, M. (2015). **Metric Learning**. Synthesis Lectures on Artificial Intelligence and Machine Learning. Morgan & Claypool Publishers.
 
 Conclusion
 ----------
