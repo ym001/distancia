@@ -366,6 +366,8 @@ Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), h
 
    DimensionalityReductionAndScaling
 
+The `DimensionalityReductionAndScaling` class offers powerful methods for simplifying and scaling datasets. By providing tools for dimensionality reduction such as Multi-Dimensional Scaling (MDS), it allows users to project high-dimensional data into lower dimensions while retaining its key characteristics.
+
 .. toctree::
    :maxdepth: 1
 
