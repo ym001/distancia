@@ -15,7 +15,7 @@ Given a dataset \( X = \{x_1, x_2, \dots, x_n\} \) and a distance metric \( D(x_
 
       \mu_D = \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} D(x_i, x_j)
    
-   where \( D(x_i, x_j) \) represents the distance between points \( x_i \) and \( x_j \).
+   where :math:`D(x_i, x_j)` represents the distance between points :math:`x_i` and :math:`x_j`.
 
 2. **Variance of Distance**: 
    The variance of the distances is given by:
@@ -23,17 +23,19 @@ Given a dataset \( X = \{x_1, x_2, \dots, x_n\} \) and a distance metric \( D(x_
 
       \sigma_D^2 = \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} (D(x_i, x_j) - \mu_D)^2
    
-   where \( \mu_D \) is the mean distance, and \( \sigma_D^2 \) measures the spread or variability of the distances.
+   where :math:`\mu_D` is the mean distance, and :math:`\sigma_D^2` measures the spread or variability of the distances.
 
 3. **Distance Distribution**: 
    The distance distribution captures the frequency of different distances between points. This is typically represented as a histogram or other forms of visual distributions.
 
 4. **Correlation with Other Metrics**: 
-   Given another metric \( D' \), the correlation between the current metric and \( D' \) is calculated to understand how the two metrics relate. The correlation coefficient \( \rho \) between two distance matrices can be computed as:
-   \[
-   \rho_{D,D'} = \frac{\text{cov}(D, D')}{\sigma_D \sigma_{D'}}
-   \]
-   where \( \text{cov}(D, D') \) is the covariance between the distance metrics \( D \) and \( D' \).
+   Given another metric :math:`D'`, the correlation between the current metric and :math:`D'` is calculated to understand how the two metrics relate. The correlation coefficient :math:`\rho` between two distance matrices can be computed as:
+
+   .. math::
+
+      \rho_{D,D'} = \frac{\text{cov}(D, D')}{\sigma_D \sigma_{D'}}
+   
+   where :math:`\text{cov}(D, D')` is the covariance between the distance metrics :math:`D` and :math:`D'`.
 
 Significance of Statistical Analysis
 ------------------------------------
