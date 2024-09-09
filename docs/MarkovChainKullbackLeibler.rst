@@ -32,6 +32,18 @@ Where:
 
 This divergence is defined only when all :math:`Q_{ij}` are non-zero for those :math:`i, j` where :math:`P_{ij} \neq 0`.
 
+Usage Example
+-------------
+
+
+.. code-block:: python
+
+
+
+.. code-block:: bash
+
+   >>>
+
 Academic Reference
 ------------------
 
