@@ -62,7 +62,6 @@ Academic Reference
 
 The Jensen-Shannon divergence was introduced in:
 
-- Lin, J. (1991). Divergence measures based on the Shannon entropy. *IEEE Transactions on Information Theory*, 37(1), 145-151. doi:10.1109/18.61115.
 
 This paper provides a comprehensive treatment of the Jensen-Shannon divergence and its theoretical properties.
 
