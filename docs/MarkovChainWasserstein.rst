@@ -37,11 +37,24 @@ Usage Example
 
 .. code-block:: python
 
+    from distancia import MarkovChainWasserstein
+
+
+    # Example usage
+    P = [[0.9, 0.1], [0.2, 0.8]]  # Transition matrix for Markov chain 1
+    Q = [[0.85, 0.15], [0.25, 0.75]]  # Transition matrix for Markov chain 2
+    cost_matrix = [[0, 1], [1, 0]]  # Cost matrix (Euclidean distance between states)
+
+    markov_wasserstein = MarkovChainWasserstein(P, Q, cost_matrix)
+
+    # Compute the Wasserstein distance between stationary distributions
+    print("Wasserstein Distance:", markov_wasserstein.wasserstein_distance())
 
 
 .. code-block:: bash
 
-   >>>
+   >>>Wasserstein Distance: 0.041666666586909984
+
 
 Academic Reference
 ------------------
