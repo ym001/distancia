@@ -216,7 +216,7 @@ Loss function
    GaloisWassersteinLoss
 
 
-Graph
+Distance between two graphs
 
 .. toctree::
    :maxdepth: 1
