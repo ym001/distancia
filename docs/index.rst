@@ -245,6 +245,13 @@ Graph
 
    CommunityStructureDistance
 
+Markov Chain
+
+.. toctree::
+   :maxdepth: 1
+
+MarkovChainKullbackLeibler
+
 And many more...
 
 Overview
