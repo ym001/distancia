@@ -18,7 +18,7 @@ A smaller Frobenius distance indicates that the two Markov chains have similar t
 Formal Definition
 -----------------
 
-The Frobenius distance between two Markov chains \( P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \), is defined as:
+The Frobenius distance between two Markov chains :math:` P` and :math:` Q`, with transition matrices :math:` P_{ij}` and :math:` Q_{ij}`, is defined as:
 
 .. math::
 
@@ -26,9 +26,9 @@ The Frobenius distance between two Markov chains \( P \) and \( Q \), with trans
 
 Where:
 
-- \( P_{ij} \) is the transition probability from state \( i \) to state \( j \) in the first Markov chain,
-- \( Q_{ij} \) is the corresponding transition probability in the second Markov chain,
-- The sum is taken over all pairs of states \( i \) and \( j \).
+- :math:`P_{ij} is the transition probability from state :math:`i` to state :math:`j` in the first Markov chain,
+- :math:`Q_{ij}` is the corresponding transition probability in the second Markov chain,
+- The sum is taken over all pairs of states :math:`i` and :math:`j`.
 
 The Frobenius distance can be interpreted as the Euclidean norm of the difference between the two transition matrices.
 
