@@ -63,6 +63,10 @@ The Frobenius distance is commonly used in matrix analysis. A key reference for 
 
 This book provides a thorough explanation of matrix norms and their applications.
 
+:footcite:t:`MarkovChainFrobenius`
+
+.. footbibliography::
+
 Conclusion
 ----------
 
