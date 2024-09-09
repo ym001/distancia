@@ -30,6 +30,18 @@ Where:
 - :math:`\lambda(Q)` represents the vector of eigenvalues of the transition matrix :math:`Q`,
 - :math:`\| \cdot \|` denotes a suitable norm (e.g., Euclidean norm) to measure the difference between the eigenvalue vectors of the two matrices.
 
+Usage Example
+-------------
+
+
+.. code-block:: python
+
+
+
+.. code-block:: bash
+
+   >>>
+
 Academic Reference
 ------------------
 
