@@ -30,6 +30,18 @@ Where:
 - :math:`Q_{ij}` is the corresponding transition probability in the second Markov chain,
 - The absolute difference :math:`\left| P_{ij} - Q_{ij} \right|` represents the local discrepancy between the two chains for each pair of states.
 
+Usage Example
+-------------
+
+
+.. code-block:: python
+
+
+
+.. code-block:: bash
+
+   >>>
+
 Academic Reference
 ------------------
 
