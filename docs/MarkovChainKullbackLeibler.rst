@@ -60,6 +60,9 @@ Academic Reference
 
 The Kullback-Leibler divergence was introduced by Solomon Kullback and Richard Leibler in their foundational 1951 paper:
 
+:footcite:t:`MarkovChainKullbackLeibler`
+
+.. footbibliography::
 
 Since then, it has become an essential tool in information theory, statistics, and machine learning, especially for comparing probabilistic models.
 
