@@ -18,7 +18,7 @@ A low Kullback-Leibler divergence between two chains indicates they are close in
 Formal Definition
 -----------------
 
-The Kullback-Leibler divergence between two Markov chains \( P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \) respectively, is given by:
+The Kullback-Leibler divergence between two Markov chains ` P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \) respectively, is given by:
 
 .. math::
 
