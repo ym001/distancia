@@ -61,6 +61,9 @@ Academic Reference
 
 The Wasserstein distance has its origins in optimal transport theory and has been extensively studied in various fields, including probability theory and machine learning. One of the key references for the Wasserstein distance is:
 
+:footcite:t:`MarkovChainWasserstein`
+
+.. footbibliography::
 
 This book provides a comprehensive treatment of the theory behind the Wasserstein distance and its applications.
 
