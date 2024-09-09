@@ -256,6 +256,8 @@ Markov Chain
 
    MarkovChainTotalVariation
 
+   MarkovChainHellinger
+
 And many more...
 
 Overview
