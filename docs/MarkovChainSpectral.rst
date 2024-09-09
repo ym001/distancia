@@ -1,0 +1,47 @@
+MarkovChainSpectral
+====================
+
+Introduction
+------------
+
+The ``MarkovChainSpectral`` class computes the spectral distance between two Markov chains by comparing their transition matrices. The spectral distance focuses on the eigenvalues of the transition matrices and measures how different the chains are in terms of their long-term behavior. It is particularly relevant in the study of the stability and convergence properties of Markov chains.
+
+In the context of Markov chains, the spectral distance provides insights into the differences between the dynamics of the two systems.
+
+Meaning of the Distance
+-----------------------
+
+The **spectral distance** measures the discrepancy between the eigenvalues of the transition matrices of two Markov chains. The eigenvalues of a transition matrix govern the long-term behavior of a Markov chain, including how quickly it converges to its steady-state distribution. By comparing the eigenvalues of two chains, we can assess how their long-term behaviors differ.
+
+A smaller spectral distance indicates that the two chains exhibit similar long-term dynamics, while a larger distance suggests significant differences in their stability and convergence properties.
+
+Formal Definition
+-----------------
+
+The spectral distance between two Markov chains \( P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \), is defined based on the difference between their eigenvalues:
+
+.. math::
+
+    d_{spec}(P, Q) = \| \lambda(P) - \lambda(Q) \|
+
+Where:
+
+- \( \lambda(P) \) represents the vector of eigenvalues of the transition matrix \( P \),
+- \( \lambda(Q) \) represents the vector of eigenvalues of the transition matrix \( Q \),
+- \( \| \cdot \| \) denotes a suitable norm (e.g., Euclidean norm) to measure the difference between the eigenvalue vectors of the two matrices.
+
+Academic Reference
+------------------
+
+The spectral properties of Markov chains have been extensively studied. A key reference for understanding the spectral distance and its applications is:
+
+- Stewart, W. J. (1994). *Introduction to the Numerical Solution of Markov Chains*. Princeton University Press.
+
+This book offers a detailed discussion of Markov chain eigenvalue analysis and spectral distances.
+
+Conclusion
+----------
+
+The ``MarkovChainSpectral`` class in the ``distancia`` package provides a method for calculating the spectral distance between two Markov chains. This distance is particularly useful for analyzing the long-term behavior of stochastic systems and understanding how their transition dynamics differ in terms of stability and convergence.
+
+By applying this class, users can assess the differences between two Markov chains based on their spectral characteristics, which is important in fields such as dynamic systems, probabilistic modeling, and machine learning.
