@@ -252,6 +252,8 @@ Markov Chain
 
 MarkovChainKullbackLeibler
 
+MarkovChainWasserstein
+
 And many more...
 
 Overview
