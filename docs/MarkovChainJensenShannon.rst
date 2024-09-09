@@ -61,7 +61,9 @@ Academic Reference
 ------------------
 
 The Jensen-Shannon divergence was introduced in:
+:footcite:t:`MarkovChainJensenShannon`
 
+.. footbibliography::
 
 This paper provides a comprehensive treatment of the Jensen-Shannon divergence and its theoretical properties.
 
