@@ -36,11 +36,22 @@ Usage Example
 
 .. code-block:: python
 
+    from distancia import MarkovChainHellinger
+
+    # Example usage
+    P = [[0.9, 0.1], [0.2, 0.8]]  # Transition matrix for Markov chain 1
+    Q = [[0.85, 0.15], [0.25, 0.75]]  # Transition matrix for Markov chain 2
+
+    markov_hellinger = MarkovChainHellinger(P, Q)
+
+    # Compute the Hellinger distance between stationary distributions
+    print("Hellinger Distance:", markov_hellinger.compute_hellinger_distance())
 
 
 .. code-block:: bash
 
-   >>>
+   >>>Hellinger Distance: 0.0308120923491926
+
 
 Academic Reference
 ------------------
