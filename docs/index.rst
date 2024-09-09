@@ -258,6 +258,10 @@ Markov Chain
 
    MarkovChainHellinger
 
+   MarkovChainJensenShannon
+
+   MarkovChainFrobenius
+
 And many more...
 
 Overview
