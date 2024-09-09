@@ -57,6 +57,9 @@ Academic Reference
 
 The spectral properties of Markov chains have been extensively studied. A key reference for understanding the spectral distance and its applications is:
 
+:footcite:t:`MarkovChainSpectral`
+
+.. footbibliography::
 
 This book offers a detailed discussion of Markov chain eigenvalue analysis and spectral distances.
 
