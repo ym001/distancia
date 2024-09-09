@@ -58,7 +58,9 @@ Academic Reference
 
 The total variation distance is widely used in probability theory and Markov chain analysis. One foundational reference is:
 
-- Aldous, D., & Fill, J. A. (2002). Reversible Markov Chains and Random Walks on Graphs. *Unpublished manuscript*. Available at: http://www.stat.berkeley.edu/~aldous/RWG/book.html
+:footcite:t:`MarkovChainHellinger`
+
+.. footbibliography::
 
 This manuscript covers the use of total variation distance in the analysis of Markov chains and random walks.
 
