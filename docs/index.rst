@@ -250,9 +250,11 @@ Markov Chain
 .. toctree::
    :maxdepth: 1
 
-MarkovChainKullbackLeibler
+   MarkovChainKullbackLeibler
 
-MarkovChainWasserstein
+   MarkovChainWasserstein
+
+   MarkovChainTotalVariation
 
 And many more...
 
