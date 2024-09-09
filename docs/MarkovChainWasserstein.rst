@@ -31,6 +31,18 @@ Where:
 - :math:`\Gamma(P, Q)` is the set of all joint distributions with marginals :math:`P` and :math:`Q`,
 - The infimum represents the minimum transportation cost.
 
+Usage Example
+-------------
+
+
+.. code-block:: python
+
+
+
+.. code-block:: bash
+
+   >>>
+
 Academic Reference
 ------------------
 
