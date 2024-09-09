@@ -60,7 +60,6 @@ Academic Reference
 
 The Kullback-Leibler divergence was introduced by Solomon Kullback and Richard Leibler in their foundational 1951 paper:
 
-- Kullback, S., & Leibler, R. A. (1951). On Information and Sufficiency. *The Annals of Mathematical Statistics*, 22(1), 79-86. doi:10.1214/aoms/1177729694.
 
 Since then, it has become an essential tool in information theory, statistics, and machine learning, especially for comparing probabilistic models.
 
