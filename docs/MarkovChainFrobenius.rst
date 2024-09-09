@@ -32,6 +32,18 @@ Where:
 
 The Frobenius distance can be interpreted as the Euclidean norm of the difference between the two transition matrices.
 
+Usage Example
+-------------
+
+
+.. code-block:: python
+
+
+
+.. code-block:: bash
+
+   >>>
+
 Academic Reference
 ------------------
 
