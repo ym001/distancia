@@ -18,7 +18,7 @@ A lower Jensen-Shannon divergence between two Markov chains indicates similar tr
 Formal Definition
 -----------------
 
-The Jensen-Shannon divergence between two Markov chains \( P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \), is defined as:
+The Jensen-Shannon divergence between two Markov chains :math:`P` and :math:`Q`, with transition matrices :math:`P_{ij}` and :math:`Q_{ij}`, is defined as:
 
 .. math::
 
@@ -26,9 +26,9 @@ The Jensen-Shannon divergence between two Markov chains \( P \) and \( Q \), wit
 
 Where:
 
-- \( M \) is the average of the two transition matrices: \( M = \frac{1}{2}(P + Q) \),
-- \( D_{KL} \) is the Kullback-Leibler divergence,
-- \( P_{ij} \) and \( Q_{ij} \) represent the transition probabilities of the two Markov chains.
+- :math:`M` is the average of the two transition matrices: :math:`M = \frac{1}{2}(P + Q)`,
+- :math:`D_{KL}` is the Kullback-Leibler divergence,
+- :math:`P_{ij} \) and \( Q_{ij}` represent the transition probabilities of the two Markov chains.
 
 The Jensen-Shannon divergence is symmetric and always defined, even when the Kullback-Leibler divergence is not.
 
