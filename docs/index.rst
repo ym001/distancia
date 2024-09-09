@@ -17,6 +17,7 @@ The documentation is divided into the following sections:
 .. note::
 
    The code examples provided in this documentation are written for Python 3.x.
+   The python code in this package has been optimized by static typing with Cython
 
 Getting Started
 ---------------
