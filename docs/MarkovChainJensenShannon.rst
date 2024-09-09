@@ -32,6 +32,18 @@ Where:
 
 The Jensen-Shannon divergence is symmetric and always defined, even when the Kullback-Leibler divergence is not.
 
+Usage Example
+-------------
+
+
+.. code-block:: python
+
+
+
+.. code-block:: bash
+
+   >>>
+
 Academic Reference
 ------------------
 
