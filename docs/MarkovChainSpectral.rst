@@ -18,7 +18,7 @@ A smaller spectral distance indicates that the two chains exhibit similar long-t
 Formal Definition
 -----------------
 
-The spectral distance between two Markov chains \( P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \), is defined based on the difference between their eigenvalues:
+The spectral distance between two Markov chains :math:`P` and :math:`Q`, with transition matrices :math:`P_{ij} \) and :math:`Q_{ij}`, is defined based on the difference between their eigenvalues:
 
 .. math::
 
@@ -26,9 +26,9 @@ The spectral distance between two Markov chains \( P \) and \( Q \), with transi
 
 Where:
 
-- \( \lambda(P) \) represents the vector of eigenvalues of the transition matrix \( P \),
-- \( \lambda(Q) \) represents the vector of eigenvalues of the transition matrix \( Q \),
-- \( \| \cdot \| \) denotes a suitable norm (e.g., Euclidean norm) to measure the difference between the eigenvalue vectors of the two matrices.
+- :math:`\lambda(P)` represents the vector of eigenvalues of the transition matrix :math:`P`,
+- :math:`\lambda(Q)` represents the vector of eigenvalues of the transition matrix :math:`Q`,
+- :math:`\| \cdot \|` denotes a suitable norm (e.g., Euclidean norm) to measure the difference between the eigenvalue vectors of the two matrices.
 
 Academic Reference
 ------------------
