@@ -262,6 +262,8 @@ Markov Chain
 
    MarkovChainFrobenius
 
+   MarkovChainSpectral
+
 And many more...
 
 Overview
