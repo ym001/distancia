@@ -18,7 +18,7 @@ A small total variation distance indicates that the two Markov chains behave sim
 Formal Definition
 -----------------
 
-The total variation distance between two Markov chains \( P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \), is defined as:
+The total variation distance between two Markov chains :math:`P` and :math:`Q`, with transition matrices :math:`P_{ij}` and :math:`Q_{ij}`, is defined as:
 
 .. math::
 
@@ -26,9 +26,9 @@ The total variation distance between two Markov chains \( P \) and \( Q \), with
 
 Where:
 
-- \( P_{ij} \) is the probability of transitioning from state \( i \) to state \( j \) in the first Markov chain,
-- \( Q_{ij} \) is the corresponding transition probability in the second Markov chain,
-- The absolute difference \( \left| P_{ij} - Q_{ij} \right| \) represents the local discrepancy between the two chains for each pair of states.
+- :math:`P_{ij}` is the probability of transitioning from state :math:`i` to state :math:`j` in the first Markov chain,
+- :math:`Q_{ij}` is the corresponding transition probability in the second Markov chain,
+- The absolute difference :math:`\left| P_{ij} - Q_{ij} \right|` represents the local discrepancy between the two chains for each pair of states.
 
 Academic Reference
 ------------------
