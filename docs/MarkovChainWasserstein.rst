@@ -18,7 +18,7 @@ A smaller Wasserstein distance indicates that the two Markov chains have similar
 Formal Definition
 -----------------
 
-The Wasserstein distance between two Markov chains \( P \) and \( Q \), with transition matrices \( P_{ij} \) and \( Q_{ij} \), is formally given as:
+The Wasserstein distance between two Markov chains :math:`P` and :math:`Q`, with transition matrices :math:`P_{ij}` and \( Q_{ij} `, is formally given as:
 
 .. math::
 
@@ -26,9 +26,9 @@ The Wasserstein distance between two Markov chains \( P \) and \( Q \), with tra
 
 Where:
 
-- \( P_{ij} \) and \( Q_{ij} \) represent the transition probabilities of the two Markov chains,
-- \( d(i, j) \) is a distance metric on the state space,
-- \( \Gamma(P, Q) \) is the set of all joint distributions with marginals \( P \) and \( Q \),
+- :math:`P_{ij}` and :math:`Q_{ij}` represent the transition probabilities of the two Markov chains,
+- :math:`d(i, j)` is a distance metric on the state space,
+- :math:`\Gamma(P, Q)` is the set of all joint distributions with marginals :math:`P` and :math:`Q`,
 - The infimum represents the minimum transportation cost.
 
 Academic Reference
