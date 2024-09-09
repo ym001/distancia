@@ -60,6 +60,10 @@ Academic Reference
 The total variation distance is widely used in probability theory and Markov chain analysis. One foundational reference is:
 
 
+:footcite:t:`MarkovChainTotalVariation`
+
+.. footbibliography::
+
 This manuscript covers the use of total variation distance in the analysis of Markov chains and random walks.
 
 Conclusion
