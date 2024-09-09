@@ -38,11 +38,24 @@ Usage Example
 
 .. code-block:: python
 
+    from distancia import MarkovChainJensenShannon
+
+    # Example usage
+    P = [[0.9, 0.1], [0.2, 0.8]]  # Transition matrix for Markov chain 1
+    Q = [[0.85, 0.15], [0.25, 0.75]]  # Transition matrix for Markov chain 2
+
+    markov_js = MarkovChainJensenShannon(P, Q)
+
+    # Compute the Jensen-Shannon distance between stationary distributions
+    print("Jensen-Shannon Distance:", markov_js.compute_js_distance())
+
 
 
 .. code-block:: bash
 
-   >>>
+   >>>Jensen-Shannon Distance: 0.030808744879339073
+
+
 
 Academic Reference
 ------------------
