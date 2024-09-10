@@ -106,8 +106,6 @@ Distance
 
    Levenshtein
 
-   RatcliffObershelp
-
    Jaro
 
    JaroWinkler
@@ -187,6 +185,11 @@ Similarity
    FagerMcGowan
 
    Otsuka 
+
+   RatcliffObershelp
+
+   Gestalt
+
 
 Time Series Distance Metrics
 
