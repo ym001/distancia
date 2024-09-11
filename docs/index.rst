@@ -67,7 +67,7 @@ Here are some common examples of how to use distancia:
 
 .. code-block:: bash
 
-   >>>Euclidean Distance: 5.196152422706632
+   >>>Euclidean Distance: 5.196
 
 
 
