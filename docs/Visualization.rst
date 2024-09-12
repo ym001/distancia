@@ -35,14 +35,36 @@ Example usage
 
 .. code-block:: python
 
-  # Assume `dist_matrix` is a 2D list or array of distances and `labels` is a list of point labels
-  dist_matrix = [[0, 1, 2], [1, 0, 1.5], [2, 1.5, 0]]
-  labels = ['A', 'B', 'C']
+  from distancia import Visualization
 
-  vis_tool = Visualization(dist_matrix, labels=labels)
-  vis_tool.plot_heatmap()
-  vis_tool.plot_dendrogram()
-  vis_tool.plot_pca(n_components=2)
+  dataset = [
+      [1, 2],
+      [2, 3],
+      [3, 4],
+      [5, 6]
+  ]
+
+  from sklearn.datasets import load_iris
+
+  # Load the Iris dataset
+  data, labels = load_iris(return_X_y=True)
+  visualization = Visualization(Euclidean())
+
+  # Plot distance matrix
+  visualization.plot_distance_matrix(data[:10])
+
+  # Plot distance histogram
+  visualization.plot_distance_histogram(data)
+
+  # Plot similarity matrix
+  visualization.plot_similarity_matrix(data[:10])
+
+
+  # Plot Hierarchical Clustering Dendrogram
+  visualization.plot_dendrogram(data[:10])
+
+  # Plot PCA Scatter Plot
+  visualization.plot_pca(data[:10], n_components=2)
 
 .. image:: visualization_heatmap.png
 
