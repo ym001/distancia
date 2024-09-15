@@ -277,6 +277,8 @@ Distance between two images
 
    PeakSignalToNoiseRatio
 
+   HistogramIntersection
+
 And many more...
 
 Overview
