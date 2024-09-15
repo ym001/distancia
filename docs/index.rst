@@ -279,6 +279,9 @@ Distance between two images
 
    HistogramIntersection
 
+   EarthMoversDistance
+
+
 And many more...
 
 Overview
