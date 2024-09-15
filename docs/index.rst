@@ -249,7 +249,7 @@ Distance between two graphs
 
    CommunityStructureDistance
 
-Markov Chain
+Distance between two Markov Chain
 
 .. toctree::
    :maxdepth: 1
@@ -267,6 +267,13 @@ Markov Chain
    MarkovChainFrobenius
 
    MarkovChainSpectral
+
+Distance between two images
+
+.. toctree::
+   :maxdepth: 1
+
+   StructuralSimilarityIndex
 
 And many more...
 
