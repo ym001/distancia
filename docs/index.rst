@@ -275,6 +275,8 @@ Distance between two images
 
    StructuralSimilarityIndex
 
+   PeakSignalToNoiseRatio
+
 And many more...
 
 Overview
