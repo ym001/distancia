@@ -287,6 +287,8 @@ Distance between two images
 
    PerceptualHashing
 
+   NormalizedCrossCorrelation
+
 
 
 And many more...
