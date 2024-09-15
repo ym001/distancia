@@ -281,6 +281,8 @@ Distance between two images
 
    EarthMoversDistance
 
+   ChiSquareDistance
+
 
 And many more...
 
