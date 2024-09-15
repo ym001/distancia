@@ -283,6 +283,9 @@ Distance between two images
 
    ChiSquareDistance
 
+   FeatureBasedDistance
+
+
 
 And many more...
 
