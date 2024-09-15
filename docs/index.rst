@@ -285,6 +285,8 @@ Distance between two images
 
    FeatureBasedDistance
 
+   PerceptualHashing
+
 
 
 And many more...
