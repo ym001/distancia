@@ -289,7 +289,12 @@ Distance between two images
 
    NormalizedCrossCorrelation
 
+Distance between two sounds
 
+.. toctree::
+   :maxdepth: 1
+
+   SpectralConvergence
 
 And many more...
 
