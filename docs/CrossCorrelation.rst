@@ -23,6 +23,17 @@ R_{xy}[k] = \sum_{n} x[n] y[n+k]
 \]
 where \( k \) is the discrete time-lag, and \( n \) indexes the sample points of the signals.
 
+.. code-block:: python
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 880 * t / 16000) for t in range(16000)]
+
+  cross_corr_calculator = CrossCorrelation(sample_rate=16000)
+
+  cross_corr_value: float = cross_corr_calculator.compute_cross_correlation(signal1, signal2)
+
+  print("Cross-correlation:", cross_corr_value)
+
 Academic Reference
 ------------------
 Oppenheim, A. V., & Schafer, R. W. (2009). Discrete-Time Signal Processing. **Prentice Hall.**
