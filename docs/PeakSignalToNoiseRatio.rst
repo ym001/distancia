@@ -29,7 +29,9 @@ Here \( N \) is the total number of pixels, and \( I_1[i] \), \( I_2[i] \) are t
 
 Academic Reference
 ------------------
-Hore, A., & Ziou, D. (2010). Image quality metrics: PSNR vs. SSIM. *20th International Conference on Pattern Recognition*, 2366-2369.
+:footcite:t:`PeakSignalToNoiseRatio`
+
+.. footbibliography::
 
 Conclusion
 ----------
