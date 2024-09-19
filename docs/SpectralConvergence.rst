@@ -25,6 +25,18 @@ Where:
 - The numerator computes the absolute differences between the magnitudes of the frequency components.
 - The denominator normalizes the distance by the sum of the magnitudes of `signal1`.
 
+
+    def example(self):
+        """
+        Example usage of the Spectral Convergence class.
+        """
+        signal1: List[float] = [0.5, 0.1, 0.2, 0.4, 0.3, 0.2, 0.1, 0.0]
+        signal2: List[float] = [0.4, 0.2, 0.2, 0.5, 0.3, 0.1, 0.2, 0.0]
+
+        convergence: float = self.compute_spectral_convergence(signal1, signal2)
+        print(f"Spectral Convergence: {convergence}")
+SpectralConvergence().example()
+
 Academic Reference
 ------------------
 
