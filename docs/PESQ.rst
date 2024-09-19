@@ -17,6 +17,17 @@ PESQ(s_{ref}, s_{deg}) = \text{PESQ model output}
 \]
 where the score typically ranges from -0.5 to 4.5, with higher scores indicating better perceived quality.
 
+.. code-block:: python
+
+  reference_signal: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  degraded_signal: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) + 0.01 * math.sin(2 * math.pi * 1000 * t / 16000) for t in range(16000)]
+
+  pesq_calculator = PESQ(sample_rate=16000)
+
+  pesq_score: float = pesq_calculator.compute_pesq(reference_signal, degraded_signal)
+
+  print("PESQ Score:", pesq_score)
+
 Academic Reference
 ------------------
 Rix, A. W., Beerends, J. G., Hollier, M. P., & Hekstra, A. P. (2001). Perceptual evaluation of speech quality (PESQ)—a new method for speech quality assessment of telephone networks and codecs. In *Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*.
