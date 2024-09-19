@@ -21,6 +21,17 @@ In a discrete form, this can be written as:
 \]
 where \( \tau_{opt} \) represents the time shift that yields the highest similarity between the signals.
 
+.. code-block:: python
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 440 * (t - 100) / 16000) for t in range(16000)]  # signal2 is shifted
+
+  time_lag_calculator = TimeLagDistance(sample_rate=16000)
+
+  best_lag: int = time_lag_calculator.compute_time_lag_distance(signal1, signal2, max_lag=500)
+
+  print("Optimal time lag:", best_lag)
+
 Academic Reference
 ------------------
 Rabiner, L. R., & Gold, B. (1975). Theory and Application of Digital Signal Processing. **Prentice-Hall.**
