@@ -28,6 +28,11 @@ where \( S_x(f_n) \) and \( S_y(f_n) \) are the power spectral densities of sign
 
   print("Log Spectral Distance:", lsd_value)
 
+.. code-block:: bash
+
+  >>>Log Spectral Distance: 14.377329255918537
+
+
 Academic Reference
 ------------------
 Gray, A. H., & Markel, J. D. (1976). Distance measures for speech processing. *IEEE Transactions on Acoustics, Speech, and Signal Processing*, 24(5), 380-391.
