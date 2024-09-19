@@ -330,6 +330,8 @@ Distance between two sounds
 
    SpectrogramDistance
 
+   CQTDistance
+
 
 And many more...
 
