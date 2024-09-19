@@ -1,0 +1,26 @@
+PESQ
+====
+
+Introduction
+------------
+The **PESQ (Perceptual Evaluation of Speech Quality)** class measures the quality of speech signals by comparing a degraded signal to a reference signal. This objective method is widely used in telecommunications to assess the impact of network impairments on voice quality.
+
+Sense of the Distance
+---------------------
+PESQ is a perceptual model that quantifies the perceived difference between two speech signals by simulating how the human ear evaluates voice quality. The closer the PESQ score is to the maximum value, the more similar the degraded signal is to the original reference signal.
+
+Formal Representation
+----------------------
+PESQ evaluates the perceptual difference between a reference signal \( s_{ref}(t) \) and a degraded signal \( s_{deg}(t) \), based on a model of auditory perception. The PESQ score is computed as:
+\[
+PESQ(s_{ref}, s_{deg}) = \text{PESQ model output}
+\]
+where the score typically ranges from -0.5 to 4.5, with higher scores indicating better perceived quality.
+
+Academic Reference
+------------------
+Rix, A. W., Beerends, J. G., Hollier, M. P., & Hekstra, A. P. (2001). Perceptual evaluation of speech quality (PESQ)—a new method for speech quality assessment of telephone networks and codecs. In *Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*.
+
+Conclusion
+----------
+The **PESQ** class provides a standardized method for evaluating the perceptual quality of speech signals, making it an essential tool in the evaluation of voice codecs, telecommunication systems, and network performance.
