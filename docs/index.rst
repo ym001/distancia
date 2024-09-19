@@ -324,6 +324,8 @@ Distance between two sounds
 
    ZeroCrossingRateDistance
 
+   CochleagramDistance
+
 
 And many more...
 
