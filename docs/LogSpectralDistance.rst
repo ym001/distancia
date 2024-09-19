@@ -17,6 +17,17 @@ LSD(x, y) = \sqrt{ \frac{1}{N} \sum_{n=1}^{N} \left( \log S_x(f_n) - \log S_y(f_
 \]
 where \( S_x(f_n) \) and \( S_y(f_n) \) are the power spectral densities of signals \( x(t) \) and \( y(t) \) at frequency \( f_n \), and \( N \) is the number of frequency components.
 
+.. code-block:: python
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 450 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  lsd_calculator = LogSpectralDistance(sample_rate=16000)
+
+  lsd_value: float = lsd_calculator.compute_lsd(signal1, signal2)
+
+  print("Log Spectral Distance:", lsd_value)
+
 Academic Reference
 ------------------
 Gray, A. H., & Markel, J. D. (1976). Distance measures for speech processing. *IEEE Transactions on Acoustics, Speech, and Signal Processing*, 24(5), 380-391.
