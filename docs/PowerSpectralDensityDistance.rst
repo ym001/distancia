@@ -32,6 +32,10 @@ where \( f \) represents the frequency components over which the PSDs are comput
 
   print("PSD Distance:", psd_distance)
 
+.. code-block:: bash
+
+  >>>[(1.5+0j), (0.2381966011250105+0.1902113032590307j), (0.2999999999999998+0j), (0.36180339887498947-0.1902113032590307j), 0]
+PSD Distance: 513514.8559149296
 Academic Reference
 ------------------
 Stoica, P., & Moses, R. L. (2005). Spectral Analysis of Signals. **Prentice Hall.**
