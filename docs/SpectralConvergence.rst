@@ -38,6 +38,10 @@ Where:
         print(f"Spectral Convergence: {convergence}")
    SpectralConvergence().example()
 
+.. code-block:: bash
+
+   >>>Spectral Convergence: 0.14673244459294343
+
 Academic Reference
 ------------------
 
