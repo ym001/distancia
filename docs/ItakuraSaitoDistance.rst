@@ -17,6 +17,19 @@ D_{IS}(P_x || P_y) = \int \left( \frac{P_x(f)}{P_y(f)} - \log \frac{P_x(f)}{P_y(
 \]
 where \( P_x(f) \) and \( P_y(f) \) represent the power spectral densities of the two signals, and \( f \) denotes the frequency.
 
+.. code-block:: python
+
+  # Example usage:
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  isd_calculator = ItakuraSaitoDistance()
+
+  isd_value: float = isd_calculator.compute_is_distance(signal1, signal2)
+
+  print("Itakura-Saito Distance:", isd_value)
+
 Academic Reference
 ------------------
 Itakura, F., & Saito, S. (1968). Analysis synthesis telephony based on the maximum likelihood method. *Proceedings of the 6th International Congress on Acoustics*, 17, C17-20.
