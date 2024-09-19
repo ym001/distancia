@@ -322,6 +322,8 @@ Distance between two sounds
 
    EnvelopeCorrelation
 
+   ZeroCrossingRateDistance
+
 
 And many more...
 
