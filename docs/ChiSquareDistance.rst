@@ -23,7 +23,12 @@ Where:
 
 Academic Reference
 ------------------
-Pele, O., & Werman, M. (2008). A linear time histogram metric for improved SIFT matching. *European Conference on Computer Vision (ECCV)*, 495-508.
+
+:footcite:t:`ChiSquareDistance`:
+
+.. footbibliography::
+
+
 
 Conclusion
 ----------
