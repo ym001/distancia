@@ -314,6 +314,8 @@ Distance between two sounds
 
    BarkSpectralDistortion
 
+   ItakuraSaitoDistance
+
 And many more...
 
 Overview
