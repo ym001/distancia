@@ -34,6 +34,11 @@ where \( k \) is the discrete time-lag, and \( n \) indexes the sample points of
 
   print("Cross-correlation:", cross_corr_value)
 
+.. code-block:: bash
+
+  >>>Cross-correlation: 1.1540925550293483e-15
+
+
 Academic Reference
 ------------------
 Oppenheim, A. V., & Schafer, R. W. (2009). Discrete-Time Signal Processing. **Prentice Hall.**
