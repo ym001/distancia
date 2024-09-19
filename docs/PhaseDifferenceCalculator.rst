@@ -42,6 +42,11 @@ The phase difference is typically calculated after transforming the signals into
   print("Différences de phase:", phase_differences[:10])  # Affiche les 10 premières valeurs
   print("Axe temporel:", time_axis[:10])  # Affiche les 10 premières valeurs
 
+.. code-block:: bash
+
+  >>>Différences de phase: [-2.4222941361062844e-13, -3.913015744760884e-14, -8.194330630706403e-13, -0.0030679615760171794, -0.003067961575875389, -0.0030679615775843837, -0.0030679615747780456, -0.003067961575879634, -0.0030679615761320207, 1.4784289244229587e-12]
+Axe temporel: [0.0]
+
 Academic Reference
 ------------------
 Bracewell, R. N. (1999). The Fourier Transform and Its Applications. **McGraw-Hill.**
