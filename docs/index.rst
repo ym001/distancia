@@ -312,6 +312,8 @@ Distance between two sounds
 
    LogSpectralDistance
 
+   BarkSpectralDistortion
+
 And many more...
 
 Overview
