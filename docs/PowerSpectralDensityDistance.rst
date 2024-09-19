@@ -21,6 +21,17 @@ D(P_x, P_y) = \sqrt{\sum_f \left( P_x(f) - P_y(f) \right)^2}
 \]
 where \( f \) represents the frequency components over which the PSDs are computed.
 
+.. code-block:: python
+
+  signal1 = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2 = [0.1 * math.sin(2 * math.pi * 880 * t / 16000) for t in range(16000)]
+
+  psd_calculator = PowerSpectralDensityDistance(sample_rate=16000)
+
+  psd_distance = psd_calculator.compute_psd_distance(signal1, signal2)
+
+  print("PSD Distance:", psd_distance)
+
 Academic Reference
 ------------------
 Stoica, P., & Moses, R. L. (2005). Spectral Analysis of Signals. **Prentice Hall.**
