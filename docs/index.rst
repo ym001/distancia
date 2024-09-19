@@ -326,6 +326,8 @@ Distance between two sounds
 
    CochleagramDistance
 
+   ChromagramDistance
+
 
 And many more...
 
