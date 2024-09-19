@@ -302,6 +302,8 @@ Distance between two sounds
 
    PowerSpectralDensityDistance
 
+   CrossCorrelation
+
 And many more...
 
 Overview
