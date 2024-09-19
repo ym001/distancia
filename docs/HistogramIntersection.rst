@@ -22,7 +22,10 @@ Where:
 
 Academic Reference
 ------------------
-Swain, M. J., & Ballard, D. H. (1991). Color indexing. *International Journal of Computer Vision*, 7(1), 11-32.
+
+:footcite:t:`HistogramIntersection`
+
+.. footbibliography::
 
 Conclusion
 ----------
