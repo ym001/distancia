@@ -27,7 +27,11 @@ Where:
 
 Academic Reference
 ------------------
-Zauner, Christoph. "Implementation and Benchmarking of Perceptual Image Hash Functions." Master's thesis, Upper Austria University of Applied Sciences, 2010.
+
+:footcite:t:`PerceptualHashing`
+
+.. footbibliography::
+
 
 Conclusion
 ----------
