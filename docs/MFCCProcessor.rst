@@ -19,6 +19,75 @@ The MFCC calculation involves the following steps:
 
 Given two sets of MFCC vectors, the distance between them can be computed using a variety of distance metrics such as Euclidean distance or dynamic time warping (DTW) to account for temporal misalignments.
 
+.. code-block:: python
+
+  import math
+  from typing import List
+  import librosa
+  ##################
+
+  import math
+
+  def generate_test_signals(duration: float = 1.0, sample_rate: int = 16000) -> tuple[list[float], list[float]]:
+      """
+      Génère deux signaux audio de test.
+
+      Args:
+          duration (float): Durée du signal en secondes. Par défaut 1.0 seconde.
+          sample_rate (int): Taux d'échantillonnage en Hz. Par défaut 16000 Hz.
+
+      Returns:
+          tuple[list[float], list[float]]: Deux signaux audio de test.
+      """
+      num_samples = int(duration * sample_rate)
+
+      # Signal 1: Combinaison de deux sinusoïdes (440 Hz et 880 Hz)
+      signal1 = [
+          0.5 * math.sin(2 * math.pi * 440 * t / sample_rate) +
+          0.3 * math.sin(2 * math.pi * 880 * t / sample_rate)
+          for t in range(num_samples)
+      ]
+
+      # Signal 2: Combinaison de trois sinusoïdes (330 Hz, 660 Hz et 990 Hz)
+      signal2 = [
+          0.4 * math.sin(2 * math.pi * 330 * t / sample_rate) +
+          0.3 * math.sin(2 * math.pi * 660 * t / sample_rate) +
+          0.2 * math.sin(2 * math.pi * 990 * t / sample_rate)
+          for t in range(num_samples)
+      ]
+
+      return signal1, signal2
+
+  # Générer les signaux de test
+  test_signal1, test_signal2 = generate_test_signals()
+
+  # Afficher les 10 premiers échantillons de chaque signal
+  print("10 premiers échantillons du signal 1:", test_signal1[:10])
+  print("10 premiers échantillons du signal 2:", test_signal2[:10])
+
+  # Informations sur les signaux
+  print(f"Nombre d'échantillons dans chaque signal: {len(test_signal1)}")
+  print(f"Fréquence d'échantillonnage: 16000 Hz")
+  print(f"Durée de chaque signal: 1.0 seconde")
+
+
+  # Créer une instance de MFCCProcessor
+  processor = MFCCProcessor()
+
+  # Calculer les MFCC pour les deux signaux
+  mfcc1, mfcc2 = processor.compute_mfcc(test_signal1, test_signal2)
+
+  # Comparer les MFCC
+  distance = processor.compare_mfcc(test_signal1, test_signal2)
+
+  print(f"Nombre de trames MFCC pour chaque signal: {len(mfcc1)}")
+  print(f"Nombre de coefficients MFCC par trame: {len(mfcc1[0])}")
+  print(f"Distance moyenne entre les MFCC des deux signaux: {distance}")
+
+  # Afficher les premiers coefficients MFCC de la première trame pour chaque signal
+  print("Premiers coefficients MFCC du signal 1:", mfcc1[0][:5])
+  print("Premiers coefficients MFCC du signal 2:", mfcc2[0][:5])
+
 Academic Reference
 ------------------
 Davis, S., & Mermelstein, P. (1980). Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences. **IEEE Transactions on Acoustics, Speech, and Signal Processing, 28**(4), 357-366. doi:10.1109/TASSP.1980.1163420
