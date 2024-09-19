@@ -300,6 +300,8 @@ Distance between two sounds
 
    SignalProcessor
 
+   PowerSpectralDensityDistance
+
 And many more...
 
 Overview
