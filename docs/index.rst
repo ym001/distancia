@@ -296,6 +296,8 @@ Distance between two sounds
 
    SpectralConvergence
 
+   MFCCProcessor
+
 And many more...
 
 Overview
