@@ -19,6 +19,29 @@ where \( \phi_x(f) \) and \( \phi_y(f) \) represent the phase angles of the resp
 
 The phase difference is typically calculated after transforming the signals into the frequency domain, often using the Fourier transform. The result is expressed in radians or degrees.
 
+.. code-block:: python
+
+  # Paramètres
+  sample_rate: int = 44100  # Hz
+  window_size: int = 1024   # échantillons
+  hop_size: int = 512       # échantillons
+
+  # Créer une instance du calculateur
+  calculator: PhaseDifferenceCalculator = PhaseDifferenceCalculator(sample_rate, window_size, hop_size)
+
+  # Supposons que nous ayons deux signaux signal1 et signal2
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 880 * t / 16000) for t in range(16000)]
+
+  # Analyser les signaux
+  phase_differences: List[float]
+  time_axis: List[float]
+  phase_differences, time_axis = calculator.analyze_signals(signal1, signal2)
+
+  # Afficher les résultats
+  print("Différences de phase:", phase_differences[:10])  # Affiche les 10 premières valeurs
+  print("Axe temporel:", time_axis[:10])  # Affiche les 10 premières valeurs
+
 Academic Reference
 ------------------
 Bracewell, R. N. (1999). The Fourier Transform and Its Applications. **McGraw-Hill.**
