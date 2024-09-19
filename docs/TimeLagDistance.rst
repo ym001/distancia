@@ -1,0 +1,30 @@
+TimeLagDistance
+===============
+
+Introduction
+------------
+The **TimeLagDistance** class calculates the optimal time lag between two signals to determine the best alignment. Time lag distance is often used in signal processing to find the temporal offset between two time-series signals, which maximizes their similarity or correlation.
+
+Sense of the Distance
+---------------------
+Time lag distance measures the temporal shift between two signals that produces the highest correlation or the least amount of difference. It is useful in applications where signals may be time-shifted versions of each other, and identifying the correct lag is necessary for proper comparison or synchronization.
+
+Formal Representation
+----------------------
+The time lag distance \( \tau_{opt} \) is defined as the value of \( \tau \) that maximizes the cross-correlation between two signals \( x(t) \) and \( y(t) \):
+\[
+\tau_{opt} = \arg \max_{\tau} \int_{-\infty}^{\infty} x(t) y(t + \tau) \, dt
+\]
+In a discrete form, this can be written as:
+\[
+\tau_{opt} = \arg \max_{k} \sum_{n} x[n] y[n + k]
+\]
+where \( \tau_{opt} \) represents the time shift that yields the highest similarity between the signals.
+
+Academic Reference
+------------------
+Rabiner, L. R., & Gold, B. (1975). Theory and Application of Digital Signal Processing. **Prentice-Hall.**
+
+Conclusion
+----------
+The **TimeLagDistance** class provides a useful tool for analyzing and aligning time-shifted signals. It is particularly helpful in fields like audio processing, speech recognition, and communications, where understanding the time delay between signals is crucial for proper analysis and synchronization.
