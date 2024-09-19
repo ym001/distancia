@@ -328,6 +328,8 @@ Distance between two sounds
 
    ChromagramDistance
 
+   SpectrogramDistance
+
 
 And many more...
 
