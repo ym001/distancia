@@ -308,6 +308,8 @@ Distance between two sounds
 
    TimeLagDistance
 
+   PESQ
+
 And many more...
 
 Overview
