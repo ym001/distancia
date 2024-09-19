@@ -320,6 +320,9 @@ Distance between two sounds
 
    EnergyDistance
 
+   EnvelopeCorrelation
+
+
 And many more...
 
 Overview
