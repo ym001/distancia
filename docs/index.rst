@@ -310,6 +310,8 @@ Distance between two sounds
 
    PESQ
 
+   LogSpectralDistance
+
 And many more...
 
 Overview
