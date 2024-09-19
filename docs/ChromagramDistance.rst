@@ -1,0 +1,26 @@
+ChromagramDistance
+===================
+
+Introduction
+------------
+**Chromagram Distance** is a metric designed to compare the chromagram representations of two audio signals. The chromagram is a time-frequency representation that captures the energy distribution of a signal in terms of its pitch classes. It is widely used in music-related tasks due to its alignment with musical concepts like harmony and melody.
+
+Sense of the Distance
+---------------------
+Chromagram Distance measures the dissimilarity between two signals by comparing their chromagram representations. It is particularly useful in musical signal analysis, where the perception of pitch and harmony plays a crucial role in identifying the similarity between two signals.
+
+Formal Representation
+----------------------
+The Chromagram Distance between two signals \( x(t) \) and \( y(t) \) can be mathematically expressed as:
+\[
+Chroma_{dist}(x, y) = \| Chromagram(x) - Chromagram(y) \|_p
+\]
+where \( Chromagram(x) \) and \( Chromagram(y) \) represent the chromagram transformations of the signals \( x(t) \) and \( y(t) \), respectively, and \( \| \cdot \|_p \) is a suitable distance measure (e.g., L2 norm) applied to the chromagram matrices.
+
+Academic Reference
+------------------
+Fujishima, T. (1999). *Real-time chord recognition of musical sound: A system using common Lisp music*. Proceedings of the International Computer Music Conference, ICMC.
+
+Conclusion
+----------
+The **ChromagramDistance** class offers a valuable tool for measuring similarity between two audio signals, particularly in the context of musical applications where pitch and harmonic structures are essential.
