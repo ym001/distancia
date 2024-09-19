@@ -304,6 +304,8 @@ Distance between two sounds
 
    CrossCorrelation
 
+   PhaseDifferenceCalculator
+
 And many more...
 
 Overview
