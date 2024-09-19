@@ -17,6 +17,18 @@ BSD(x, y) = \sum_{b=1}^{B} \left( S_x(b) - S_y(b) \right)^2
 \]
 where \( S_x(b) \) and \( S_y(b) \) are the power spectral densities of signals \( x(t) \) and \( y(t) \) in the Bark frequency band \( b \), and \( B \) is the total number of Bark bands.
 
+.. code-block:: python
+
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  bsd_calculator = BarkSpectralDistortion(sample_rate=16000)
+
+  bsd_value: float = bsd_calculator.compute_bsd(signal1, signal2)
+
+  print("Bark Spectral Distortion:", bsd_value)
+
 Academic Reference
 ------------------
 Zwicker, E., & Terhardt, E. (1980). Analytical expressions for critical-band rate and critical bandwidth as a function of frequency. *The Journal of the Acoustical Society of America*, 68(5), 1523-1525.
