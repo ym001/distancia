@@ -30,6 +30,11 @@ where \( P_x(f) \) and \( P_y(f) \) represent the power spectral densities of th
 
   print("Itakura-Saito Distance:", isd_value)
 
+.. code-block:: bash
+
+  >>>Itakura-Saito Distance: 6386946.368221848
+
+
 Academic Reference
 ------------------
 Itakura, F., & Saito, S. (1968). Analysis synthesis telephony based on the maximum likelihood method. *Proceedings of the 6th International Congress on Acoustics*, 17, C17-20.
