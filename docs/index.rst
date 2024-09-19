@@ -298,6 +298,8 @@ Distance between two sounds
 
    MFCCProcessor
 
+   SignalProcessor
+
 And many more...
 
 Overview
