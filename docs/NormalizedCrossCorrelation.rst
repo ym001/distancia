@@ -24,7 +24,10 @@ Where:
 
 Academic Reference
 ------------------
-Lewis, J.P. "Fast Template Matching." Vision Interface, 1995.
+
+:footcite:t:`NormalizedCrossCorrelation`
+
+.. footbibliography::
 
 Conclusion
 ----------
