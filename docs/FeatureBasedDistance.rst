@@ -25,7 +25,10 @@ The total distance between two images is the sum of the best matches between the
 Academic Reference
 -------------------
 
-Lowe, David G. *Distinctive image features from scale-invariant keypoints*. International journal of computer vision 60.2 (2004): 91-110.
+:footcite:t:`FeatureBasedDistance`
+
+.. footbibliography::
+
 
 Conclusion
 ----------
