@@ -29,6 +29,11 @@ where \( S_x(b) \) and \( S_y(b) \) are the power spectral densities of signals 
 
   print("Bark Spectral Distortion:", bsd_value)
 
+.. code-block:: bash
+
+  >>>Bark Spectral Distortion: 14.65614015181136
+
+
 Academic Reference
 ------------------
 Zwicker, E., & Terhardt, E. (1980). Analytical expressions for critical-band rate and critical bandwidth as a function of frequency. *The Journal of the Acoustical Society of America*, 68(5), 1523-1525.
