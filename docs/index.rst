@@ -306,6 +306,8 @@ Distance between two sounds
 
    PhaseDifferenceCalculator
 
+   TimeLagDistance
+
 And many more...
 
 Overview
