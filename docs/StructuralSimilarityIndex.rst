@@ -26,7 +26,9 @@ Where:
 
 Academic Reference
 ------------------
-Wang, Z., Bovik, A. C., Sheikh, H. R., & Simoncelli, E. P. (2004). Image quality assessment: From error visibility to structural similarity. *IEEE transactions on image processing*, 13(4), 600-612.
+:footcite:t:`StructuralSimilarityIndex`
+
+.. footbibliography::
 
 Conclusion
 ----------
