@@ -316,6 +316,8 @@ Distance between two sounds
 
    ItakuraSaitoDistance
 
+   SignalToNoiseRatio
+
 And many more...
 
 Overview
