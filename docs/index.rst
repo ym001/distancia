@@ -318,6 +318,8 @@ Distance between two sounds
 
    SignalToNoiseRatio
 
+   EnergyDistance
+
 And many more...
 
 Overview
