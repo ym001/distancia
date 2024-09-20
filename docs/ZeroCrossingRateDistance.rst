@@ -17,6 +17,25 @@ ZCR_{dist}(x, y) = | ZCR(x) - ZCR(y) |
 \]
 where \( ZCR(x) \) and \( ZCR(y) \) represent the zero-crossing rates of the signals \( x(t) \) and \( y(t) \), respectively. The distance is the absolute difference between these rates.
 
+.. code-block:: python
+
+  # Example usage:
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  zcr_calculator = ZeroCrossingRateDistance()
+
+  zcr_distance_value: float = zcr_calculator.compute_zcr_distance(signal1, signal2)
+
+  print("Zero-Crossing Rate (ZCR) Distance:", zcr_distance_value)
+
+.. code-block:: bash
+
+>>>Zero-Crossing Rate (ZCR) Distance: 0.0006250000000000006
+
+
+
 Academic Reference
 ------------------
 Peeters, G., & Rodet, X. (2002). *Automatic classification of large musical instrument databases using hierarchical classifiers with inertia ratio maximization*. Proceedings of the Audio Engineering Society.
