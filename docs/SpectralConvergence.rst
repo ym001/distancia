@@ -44,8 +44,10 @@ Where:
 
 Academic Reference
 ------------------
+ :footcite:t:`SpectralConvergence`
 
-- Allen, J. B., & Rabiner, L. R. (1977). "A unified approach to short-time Fourier analysis and synthesis." Proceedings of the IEEE, 65(11), 1558-1564.
+.. footbibliography::
+
 
 Conclusion
 ----------
