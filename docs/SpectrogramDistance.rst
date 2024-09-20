@@ -17,6 +17,21 @@ Spec_{dist}(x, y) = \| Spectrogram(x) - Spectrogram(y) \|_p
 \]
 where \( Spectrogram(x) \) and \( Spectrogram(y) \) represent the spectrograms of the signals \( x(t) \) and \( y(t) \), respectively, and \( \| \cdot \|_p \) is a suitable distance metric (e.g., L2 norm) applied to the spectrogram matrices.
 
+.. code-block:: python
+
+  # Example usage:
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  spectrogram_calculator = SpectrogramDistance(window_size=256, overlap=128)
+
+  distance_value: float = spectrogram_calculator.compute_spectrogram_distance(signal1, signal2)
+
+  print("Spectrogram Distance:", distance_value)
+
+.. code-block:: bash
+
 Academic Reference
 ------------------
 Tzanetakis, G., & Cook, P. (2002). *Musical genre classification of audio signals*. IEEE Transactions on Speech and Audio Processing, 10(5), 293-302.
