@@ -104,7 +104,10 @@ Given two sets of MFCC vectors, the distance between them can be computed using 
 
 Academic Reference
 ------------------
-Davis, S., & Mermelstein, P. (1980). Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences. **IEEE Transactions on Acoustics, Speech, and Signal Processing, 28**(4), 357-366. doi:10.1109/TASSP.1980.1163420
+
+:footcite:t:`MFCCProcessor`
+
+.. footbibliography::
 
 Conclusion
 ----------
