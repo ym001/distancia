@@ -38,7 +38,10 @@ where \( f \) represents the frequency components over which the PSDs are comput
 PSD Distance: 513514.8559149296
 Academic Reference
 ------------------
-Stoica, P., & Moses, R. L. (2005). Spectral Analysis of Signals. **Prentice Hall.**
+
+:footcite:t:`PowerSpectralDensityDistance`
+
+.. footbibliography::
 
 Conclusion
 ----------
