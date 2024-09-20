@@ -39,7 +39,10 @@ where \( \tau_{opt} \) represents the time shift that yields the highest similar
 
 Academic Reference
 ------------------
-Rabiner, L. R., & Gold, B. (1975). Theory and Application of Digital Signal Processing. **Prentice-Hall.**
+
+:footcite:t:`TimeLagDistance`
+
+.. footbibliography::
 
 Conclusion
 ----------
