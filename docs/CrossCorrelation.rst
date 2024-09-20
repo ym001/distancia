@@ -41,7 +41,9 @@ where \( k \) is the discrete time-lag, and \( n \) indexes the sample points of
 
 Academic Reference
 ------------------
-Oppenheim, A. V., & Schafer, R. W. (2009). Discrete-Time Signal Processing. **Prentice Hall.**
+:footcite:t:`CrossCorrelation`:
+
+.. footbibliography::
 
 Conclusion
 ----------
