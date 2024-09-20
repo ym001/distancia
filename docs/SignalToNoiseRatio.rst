@@ -17,6 +17,27 @@ SNR = 10 \log_{10} \left( \frac{P_{signal}}{P_{noise}} \right)
 \]
 where \( P_{signal} \) is the power of the signal, and \( P_{noise} \) is the power of the noise. This formula expresses the ratio in decibels (dB).
 
+.. code-block:: python
+
+
+  # Example usage:
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  max_signal_value: float = 1.0  # Maximum possible value for a normalized signal
+
+  psnr_calculator = PeakSignalToNoiseRatio()
+
+  psnr_value: float = psnr_calculator.compute_psnr(signal1, signal2, max_signal_value)
+
+  print("Peak Signal-to-Noise Ratio (PSNR):", psnr_value)
+
+.. code-block:: bash
+
+  >>>Peak Signal-to-Noise Ratio (PSNR): 19.999999999999936
+
+
 Academic Reference
 ------------------
 Gold, B., & Morgan, N. (2000). *Speech and Audio Signal Processing: Processing and Perception of Speech and Music*. John Wiley & Sons.
