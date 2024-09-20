@@ -36,7 +36,11 @@ where \( S_x(b) \) and \( S_y(b) \) are the power spectral densities of signals 
 
 Academic Reference
 ------------------
-Zwicker, E., & Terhardt, E. (1980). Analytical expressions for critical-band rate and critical bandwidth as a function of frequency. *The Journal of the Acoustical Society of America*, 68(5), 1523-1525.
+
+
+:footcite:t:`BarkSpectralDistortion`:
+
+.. footbibliography::
 
 Conclusion
 ----------
