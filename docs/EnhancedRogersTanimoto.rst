@@ -70,6 +70,7 @@ Here is an example of how to use the Enhanced Rogers Tanimoto distance with the 
     print(f"The Enhanced Rogers-Tanimoto distance between the two vectors is: {distance}")
 
 Expected Output:
+
 .. code-block:: bash
 
     >>>The Enhanced Rogers-Tanimoto distance between the two vectors is: 0.5455
