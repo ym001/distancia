@@ -30,6 +30,7 @@ Usage Example
 Here's a basic example of how to use the SpectralDistance class:
 
 .. code-block:: python
+
    from distancia import SpectralDistance
    import networkx as nx
 
