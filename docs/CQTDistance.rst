@@ -17,6 +17,22 @@ CQT_{dist}(x, y) = \| CQT(x) - CQT(y) \|_p
 \]
 where \( CQT(x) \) and \( CQT(y) \) represent the Constant-Q Transform of the signals \( x(t) \) and \( y(t) \), respectively, and \( \| \cdot \|_p \) is a suitable distance metric (e.g., L2 norm) applied to the CQT matrices.
 
+.. code-block:: python
+
+
+  # Example usage:
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  cqt_calculator = CQTDistance(num_bins=24, window_size=512)
+
+  distance_value: float = cqt_calculator.compute_cqt_distance(signal1, signal2)
+
+  print("CQT Distance:", distance_value)
+
+.. code-block:: bash
+
 Academic Reference
 ------------------
 Brown, J. C. (1991). *Calculation of a constant Q spectral transform*. The Journal of the Acoustical Society of America, 89(1), 425-434.
