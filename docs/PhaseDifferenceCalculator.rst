@@ -49,8 +49,10 @@ Axe temporel: [0.0]
 
 Academic Reference
 ------------------
-Bracewell, R. N. (1999). The Fourier Transform and Its Applications. **McGraw-Hill.**
 
+:footcite:t:`PhaseDifferenceCalculator`
+
+.. footbibliography::
 Conclusion
 ----------
 The **PhaseDifferenceCalculator** class allows for a precise analysis of phase shifts between two signals. This tool is particularly useful in fields such as telecommunications, audio processing, and any domain where understanding the timing relationship between periodic signals is important.
