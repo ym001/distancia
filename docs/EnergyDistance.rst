@@ -17,6 +17,24 @@ D_E(P, Q) = 2 \mathbb{E} \| X - Y \| - \mathbb{E} \| X - X' \| - \mathbb{E} \| Y
 \]
 where \( X \) and \( X' \) are independent samples from \( P \), and \( Y \) and \( Y' \) are independent samples from \( Q \).
 
+.. code-block:: python
+
+  # Example usage:
+
+  signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+  signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+  energy_distance_calculator = EnergyDistance()
+
+  energy_distance_value: float = energy_distance_calculator.compute_energy_distance(signal1, signal2)
+
+  print("Energy Distance:", energy_distance_value)
+
+.. code-block:: bash
+
+  >>>Energy Distance: 9.805489753489383e-13
+
+
 Academic Reference
 ------------------
 Szekely, G. J., & Rizzo, M. L. (2013). *Energy statistics: A class of statistics based on distances*. Journal of Statistical Planning and Inference.
