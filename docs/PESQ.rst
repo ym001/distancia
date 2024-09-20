@@ -35,7 +35,10 @@ where the score typically ranges from -0.5 to 4.5, with higher scores indicating
 
 Academic Reference
 ------------------
-Rix, A. W., Beerends, J. G., Hollier, M. P., & Hekstra, A. P. (2001). Perceptual evaluation of speech quality (PESQ)—a new method for speech quality assessment of telephone networks and codecs. In *Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*.
+
+:footcite:t:`PESQ`
+
+.. footbibliography::
 
 Conclusion
 ----------
