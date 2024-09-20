@@ -17,6 +17,24 @@ Cochlea_{dist}(x, y) = \| Cochleagram(x) - Cochleagram(y) \|_p
 \]
 where \( Cochleagram(x) \) and \( Cochleagram(y) \) represent the cochleagram transformations of the signals \( x(t) \) and \( y(t) \), respectively, and \( \| \cdot \|_p \) denotes an appropriate distance measure (such as the L2 norm) applied to the cochleagram representations.
 
+.. code-block:: python
+
+# Example usage:
+
+signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
+signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
+
+cochleagram_calculator = CochleagramDistance(num_bands=40)
+
+distance_value: float = cochleagram_calculator.compute_cochleagram_distance(signal1, signal2)
+
+print("Cochleagram Distance:", distance_value)
+
+.. code-block:: bash
+
+  >>>Cochleagram Distance: 0.000833203125000008
+
+
 Academic Reference
 ------------------
 Wang, D., & Brown, G. J. (2006). *Computational auditory scene analysis: Principles, algorithms, and applications*. IEEE Press.
