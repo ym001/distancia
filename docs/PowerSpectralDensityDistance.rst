@@ -23,6 +23,8 @@ where \( f \) represents the frequency components over which the PSDs are comput
 
 .. code-block:: python
 
+  from distancia import PowerSpectralDensityDistance
+
   signal1 = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
   signal2 = [0.1 * math.sin(2 * math.pi * 880 * t / 16000) for t in range(16000)]
 
