@@ -40,7 +40,10 @@ where \( P_{signal} \) is the power of the signal, and \( P_{noise} \) is the po
 
 Academic Reference
 ------------------
-Gold, B., & Morgan, N. (2000). *Speech and Audio Signal Processing: Processing and Perception of Speech and Music*. John Wiley & Sons.
+
+:footcite:t:`SignalToNoiseRatio`
+
+.. footbibliography::
 
 Conclusion
 ----------
