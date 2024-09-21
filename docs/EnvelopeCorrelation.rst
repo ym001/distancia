@@ -37,7 +37,10 @@ where \( E_x(t) \) and \( E_y(t) \) are the amplitude envelopes of \( x(t) \) an
 
 Academic Reference
 ------------------
-Cohen, L. (1995). *Time-Frequency Analysis*. Prentice Hall.
+
+:footcite:t:`EnvelopeCorrelation`
+
+.. footbibliography::
 
 Conclusion
 ----------
