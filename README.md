@@ -46,10 +46,8 @@ Here are some common examples of how to use distancia:
    point1 = [1, 2, 3]
    point2 = [4, 5, 6]
 
-   # Create an instance of Euclidean
    euclidean = Euclidean()
 
-   # Calculate the Euclidean distance
    distance = euclidean.calculate(point1, point2)
 
    print(f"Euclidean Distance: {distance}")
