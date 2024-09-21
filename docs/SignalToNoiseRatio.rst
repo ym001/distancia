@@ -19,6 +19,7 @@ where \( P_{signal} \) is the power of the signal, and \( P_{noise} \) is the po
 
 .. code-block:: python
 
+  from distancia import SignalToNoiseRatio
 
   # Example usage:
 
