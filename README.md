@@ -84,8 +84,6 @@ Available Metrics
 -----------------
 Distance
 
-.. toctree::
-   :maxdepth: 1
 
 
    Euclidean
@@ -149,8 +147,7 @@ Distance
  
 Similarity
 
-.. toctree::
-   :maxdepth: 1
+
 
    Cosine
 
@@ -180,8 +177,7 @@ Similarity
 
 Time Series Distance Metrics
 
-.. toctree::
-   :maxdepth: 1
+
 
    DynamicTimeWarping
 
@@ -191,8 +187,7 @@ Time Series Distance Metrics
 
 Loss function
 
-.. toctree::
-   :maxdepth: 1
+
 
    CrossEntropy
 
@@ -209,8 +204,6 @@ Loss function
 
 Graph
 
-.. toctree::
-   :maxdepth: 1
 
    ShortestPath
 
@@ -242,8 +235,7 @@ Overview
 --------
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
-.. toctree::
-   :maxdepth: 1
+
 
    BatchDistance
 
@@ -251,8 +243,7 @@ Purpose: Facilitates batch processing of distance computations, enabling users t
 
 Use Case: Essential in real-time systems or when working with large datasets where efficiency is critical. Batch processing saves time and computational resources by handling multiple distance computations in one go.
 
-.. toctree::
-   :maxdepth: 1
+
 
    ComprehensiveBenchmarking
 
@@ -260,8 +251,6 @@ Purpose: Provides tools for benchmarking the performance of various distance met
 
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
 
-.. toctree::
-   :maxdepth: 1
 
    CustomDistanceFunction
 
@@ -269,8 +258,6 @@ Purpose: Allows users to define custom distance functions by specifying a mathem
 
 Use Case: Useful for researchers or practitioners who need a specific metric that isn’t commonly used or already implemented.
 
-.. toctree::
-   :maxdepth: 1
 
    DistanceMatrix
 
@@ -278,8 +265,7 @@ Purpose: Automatically generates a distance matrix for a set of data points usin
 
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
 
-.. toctree::
-   :maxdepth: 1
+
 
    DistanceMetricLearning
 
@@ -287,8 +273,6 @@ Purpose: Implements algorithms for learning an optimal distance metric from data
 
 Use Case: Critical in machine learning tasks where the goal is to optimize a distance metric for maximum task-specific performance, improving the accuracy of models.
 
-.. toctree::
-   :maxdepth: 1
 
    IntegratedDistance
 
@@ -296,8 +280,7 @@ Purpose: Enables seamless integration of distance computations with popular data
 
 Use Case: This class enhances the usability of the distancia package, allowing users to incorporate distance calculations directly into their existing data analysis workflows.
 
-.. toctree::
-   :maxdepth: 1
+
 
    MetricFinder
 
@@ -305,8 +288,7 @@ Purpose: Identifies the most appropriate distance metric for two given data poin
 
 Use Case: Useful when dealing with various types of data, this class helps users automatically determine the best distance metric to apply, ensuring that the metric chosen is suitable for the data's characteristics.
 
-.. toctree::
-   :maxdepth: 1
+
 
    OutlierDetection
 
@@ -314,8 +296,7 @@ Purpose: Implements methods for detecting outliers in datasets by using distance
 
 Use Case: Essential in fields such as fraud detection, quality control, and data cleaning, where identifying and managing outliers is crucial for maintaining data integrity.
 
-.. toctree::
-   :maxdepth: 1
+
 
    ParallelandDistributedComputation
 
@@ -323,8 +304,7 @@ Purpose: Adds support for parallel or distributed computation of distances, part
 
 Use Case: In big data scenarios, calculating distances between millions of data points can be computationally expensive. This class significantly reduces computation time by parallelizing these calculations across multiple processors or machines.
 
-.. toctree::
-   :maxdepth: 1
+
 
    Visualization
 
@@ -332,13 +312,10 @@ Purpose: Provides tools for visualizing distance matrices, dendrograms (for hier
 
 Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), helping users understand the relationships between data points. This class is particularly useful for creating visual aids like heatmaps or dendrograms to better interpret the data.
 
-.. toctree::
-   :maxdepth: 1
+
 
    APICompatibility
 
-.. toctree::
-   :maxdepth: 1
 
    AutomatedDistanceMetricSelection
 
