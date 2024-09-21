@@ -37,7 +37,11 @@ where \( X \) and \( X' \) are independent samples from \( P \), and \( Y \) and
 
 Academic Reference
 ------------------
-Szekely, G. J., & Rizzo, M. L. (2013). *Energy statistics: A class of statistics based on distances*. Journal of Statistical Planning and Inference.
+
+
+:footcite:t:`EnergyDistance`
+
+.. footbibliography::
 
 Conclusion
 ----------
