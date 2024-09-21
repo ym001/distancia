@@ -19,6 +19,7 @@ where \( MAX_I \) is the maximum possible pixel value of the image, and \( MSE \
 
 .. code-block:: python
 
+  from distancia import PeakSignalToNoiseRatio
 
   # Example usage:
 
