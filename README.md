@@ -5,7 +5,6 @@ Welcome to Distancia's documentation!
 
 **Distancia** is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
-.. note::
 
    The code examples provided in this documentation are written for Python 3.x.
 
@@ -17,7 +16,6 @@ Distancia is designed to be simple and intuitive, yet powerful and flexible. Whe
 
 For a quick introduction, check out the :doc:`quickstart` guide. If you want to dive straight into the code, head over to the :doc:`Euclidean` page.
 
-.. note::
 
    If you find any issues or have suggestions for improvements, feel free to contribute! See the :doc:`contributing` section for more details.
 
