@@ -19,6 +19,7 @@ where \( S_x(b) \) and \( S_y(b) \) are the power spectral densities of signals 
 
 .. code-block:: python
 
+  from distancia import BarkSpectralDistortion
 
   signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
   signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
