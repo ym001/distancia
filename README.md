@@ -22,9 +22,7 @@ For a quick introduction, check out the :doc:`quickstart` guide. If you want to 
 Installation
 ------------
 
-To install distancia, simply use pip:
-
-.. code-block:: bash
+To install distancia, simply use pip::
 
     pip install distancia
 
