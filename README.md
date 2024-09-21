@@ -51,12 +51,12 @@ Here are some common examples of how to use distancia:
    distance = euclidean.calculate(point1, point2)
 
    print(f"Euclidean Distance: {distance}")
-
+hhh
 .. code-block:: bash
 
    >>>Euclidean Distance: 5.196152422706632
 
-
+hhh
 
 
 .. code-block:: python
