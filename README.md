@@ -31,9 +31,7 @@ For more detailed instructions and additional options, see the :doc:`installatio
 Quickstart
 ----------
 
-Here are some common examples of how to use distancia:
-
-
+Here are some common examples of how to use distancia::
 
    from distancia import Euclidean
    
@@ -48,9 +46,10 @@ Here are some common examples of how to use distancia:
    print(f"Euclidean Distance: {distance}")
 
 
+
    >>>Euclidean Distance: 5.196152422706632
 
-
+Exemple 2 ::
    from distancia import Levenshtein
 
    string1 = "kitten"
