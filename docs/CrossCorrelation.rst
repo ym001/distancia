@@ -25,6 +25,8 @@ where \( k \) is the discrete time-lag, and \( n \) indexes the sample points of
 
 .. code-block:: python
 
+  from distancia import CrossCorrelation
+
   signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
   signal2: List[float] = [0.1 * math.sin(2 * math.pi * 880 * t / 16000) for t in range(16000)]
 
