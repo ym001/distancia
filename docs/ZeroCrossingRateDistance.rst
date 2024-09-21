@@ -19,6 +19,8 @@ where \( ZCR(x) \) and \( ZCR(y) \) represent the zero-crossing rates of the sig
 
 .. code-block:: python
 
+  from distancia import ZeroCrossingRateDistance
+
   # Example usage:
 
   signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
