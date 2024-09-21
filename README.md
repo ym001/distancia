@@ -41,18 +41,19 @@ Here are some common examples of how to use distancia:
 .. code-block:: bash
 
    from distancia import Euclidean
+   
    point1 = [1, 2, 3]
+   
    point2 = [4, 5, 6]
+   
    euclidean = Euclidean()
+   
    distance = euclidean.calculate(point1, point2)
+   
    print(f"Euclidean Distance: {distance}")
 
-.. code-block:: bash
 
    >>>Euclidean Distance: 5.196152422706632
-
-hhh
-
 
 .. code-block:: python
 
@@ -64,7 +65,6 @@ hhh
    distance = Levenshtein().calculate(string1, string2)
    print(f"Levenshtein Distance: {distance}")
 
-.. code:: bash
 
    >>>Levenshtein Distance: 3
 
