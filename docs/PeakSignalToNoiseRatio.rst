@@ -29,6 +29,7 @@ Here \( N \) is the total number of pixels, and \( I_1[i] \), \( I_2[i] \) are t
 
 Academic Reference
 ------------------
+
 :footcite:t:`PeakSignalToNoiseRatio`
 
 .. footbibliography::
