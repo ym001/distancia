@@ -38,7 +38,6 @@ Quickstart
 Here are some common examples of how to use distancia:
 
 
-.. code-block:: bash
 
    from distancia import Euclidean
    
@@ -55,7 +54,6 @@ Here are some common examples of how to use distancia:
 
    >>>Euclidean Distance: 5.196152422706632
 
-.. code-block:: python
 
    from distancia import Levenshtein
 
