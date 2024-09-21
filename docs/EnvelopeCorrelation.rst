@@ -19,6 +19,8 @@ where \( E_x(t) \) and \( E_y(t) \) are the amplitude envelopes of \( x(t) \) an
 
 .. code-block:: python
 
+  from distancia import EnvelopeCorrelation
+
   # Example usage:
 
   signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
