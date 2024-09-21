@@ -26,12 +26,12 @@ To install distancia, simply use pip::
 
     pip install distancia
 
-For more detailed instructions and additional options, see the :doc:`installation` section.
+For more detailed instructions and additional options, see the installation section.
 
 Quickstart
 ----------
 
-Here are some common examples of how to use distancia::
+Here are some common examples of how to use distancia ::
 
    from distancia import Euclidean
    
