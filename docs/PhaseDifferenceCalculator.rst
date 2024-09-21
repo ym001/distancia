@@ -21,6 +21,8 @@ The phase difference is typically calculated after transforming the signals into
 
 .. code-block:: python
 
+  from distancia import PhaseDifferenceCalculator
+
   # Paramètres
   sample_rate: int = 44100  # Hz
   window_size: int = 1024   # échantillons
