@@ -37,7 +37,10 @@ print("Cochleagram Distance:", distance_value)
 
 Academic Reference
 ------------------
-Wang, D., & Brown, G. J. (2006). *Computational auditory scene analysis: Principles, algorithms, and applications*. IEEE Press.
+
+:footcite:t:`CochleagramDistance`:  
+  
+.. footbibliography::
 
 Conclusion
 ----------
