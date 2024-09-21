@@ -21,6 +21,8 @@ where \( P_x(f) \) and \( P_y(f) \) represent the power spectral densities of th
 
   # Example usage:
 
+  from distancia import ItakuraSaitoDistance
+
   signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
   signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in range(16000)]  # Slightly different frequency
 
