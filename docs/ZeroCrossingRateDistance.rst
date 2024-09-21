@@ -38,7 +38,10 @@ where \( ZCR(x) \) and \( ZCR(y) \) represent the zero-crossing rates of the sig
 
 Academic Reference
 ------------------
-Peeters, G., & Rodet, X. (2002). *Automatic classification of large musical instrument databases using hierarchical classifiers with inertia ratio maximization*. Proceedings of the Audio Engineering Society.
+
+:footcite:t:`ZeroCrossingRateDistance`
+
+.. footbibliography::
 
 Conclusion
 ----------
