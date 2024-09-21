@@ -8,12 +8,6 @@ Welcome to Distancia's documentation!
 
 **Distancia** is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
-The documentation is divided into the following sections:
-
-.. contents::
-   :local:
-   :depth: 2
-
 .. note::
 
    The code examples provided in this documentation are written for Python 3.x.
@@ -364,14 +358,16 @@ Stay up-to-date with the latest changes and improvements in distancia by reading
 Link
 ----
 
-.. toctree::
-   :maxdepth: 2
-
    Notebook<https://github.com/ym001/distancia/tree/master/notebook>
+   
    Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
+   
    Pypi<https://pypi.org/project/distancia/>
+   
    Source<https://github.com/ym001/distancia>
+   
    Documentation<https://distancia.readthedocs.io/en/latest/>
+   
    License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
 Conclusion
