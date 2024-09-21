@@ -19,6 +19,8 @@ where \( Cochleagram(x) \) and \( Cochleagram(y) \) represent the cochleagram tr
 
 .. code-block:: python
 
+from distancia import CochleagramDistance
+
 # Example usage:
 
 signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
