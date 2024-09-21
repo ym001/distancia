@@ -78,7 +78,7 @@ Expected Output:
 Academic Reference
 ------------------
 
-For more detailed information on the Enhanced Rogers-Tanimoto distance and its applications, consider the following reference::footcite:t:`enhancedrogerstanimoto`
+For more detailed information on the Enhanced Rogers-Tanimoto distance and its applications, consider the following reference: :footcite:t:`enhancedrogerstanimoto`
 
 .. footbibliography::
 
