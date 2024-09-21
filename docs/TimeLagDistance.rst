@@ -23,6 +23,8 @@ where \( \tau_{opt} \) represents the time shift that yields the highest similar
 
 .. code-block:: python
 
+  from distancia import TimeLagDistance
+
   signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
   signal2: List[float] = [0.1 * math.sin(2 * math.pi * 440 * (t - 100) / 16000) for t in range(16000)]  # signal2 is shifted
 
