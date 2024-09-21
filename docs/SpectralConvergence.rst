@@ -27,16 +27,13 @@ Where:
 
 .. code-block:: python
 
-   def example(self):
-        """
-        Example usage of the Spectral Convergence class.
-        """
-        signal1: List[float] = [0.5, 0.1, 0.2, 0.4, 0.3, 0.2, 0.1, 0.0]
-        signal2: List[float] = [0.4, 0.2, 0.2, 0.5, 0.3, 0.1, 0.2, 0.0]
+   from distancia import SpectralConvergence
 
-        convergence: float = self.compute_spectral_convergence(signal1, signal2)
-        print(f"Spectral Convergence: {convergence}")
-   SpectralConvergence().example()
+   signal1 = [0.5, 0.1, 0.2, 0.4, 0.3, 0.2, 0.1, 0.0]
+   signal2 = [0.4, 0.2, 0.2, 0.5, 0.3, 0.1, 0.2, 0.0]
+
+   convergence = SpectralConvergence().compute(signal1, signal2)
+   print(f"Spectral Convergence: {convergence}")
 
 .. code-block:: bash
 
