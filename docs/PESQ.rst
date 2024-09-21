@@ -19,6 +19,8 @@ where the score typically ranges from -0.5 to 4.5, with higher scores indicating
 
 .. code-block:: python
 
+  from distancia import PESQ
+
   reference_signal: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
   degraded_signal: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) + 0.01 * math.sin(2 * math.pi * 1000 * t / 16000) for t in range(16000)]
 
