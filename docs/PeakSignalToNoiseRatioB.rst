@@ -40,7 +40,11 @@ where \( MAX_I \) is the maximum possible pixel value of the image, and \( MSE \
 
 Academic Reference
 ------------------
-Wang, Z., Bovik, A. C., Sheikh, H. R., & Simoncelli, E. P. (2004). *Image quality assessment: From error visibility to structural similarity*. IEEE Transactions on Image Processing.
+
+:footcite:t:`PeakSignalToNoiseRatioB`
+
+.. footbibliography::
+
 
 Conclusion
 ----------
