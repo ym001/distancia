@@ -35,7 +35,10 @@ where \( CQT(x) \) and \( CQT(y) \) represent the Constant-Q Transform of the si
 
 Academic Reference
 ------------------
-Brown, J. C. (1991). *Calculation of a constant Q spectral transform*. The Journal of the Acoustical Society of America, 89(1), 425-434.
+
+:footcite:t:`CQTDistance`
+
+.. footbibliography::
 
 Conclusion
 ----------
