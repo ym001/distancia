@@ -24,7 +24,8 @@ Given two sets of MFCC vectors, the distance between them can be computed using 
   import math
   from typing import List
   import librosa
-  ##################
+  from distancia import MFCCProcessor
+
 
   import math
 
