@@ -38,8 +38,7 @@ Quickstart
 Here are some common examples of how to use distancia:
 
 
-.. code-block:: python
-   :caption: Example 1: Calculating Euclidean Distance
+.. code-block:: bash
 
 
    from distancia import Euclidean
