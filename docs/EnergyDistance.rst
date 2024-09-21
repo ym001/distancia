@@ -19,6 +19,8 @@ where \( X \) and \( X' \) are independent samples from \( P \), and \( Y \) and
 
 .. code-block:: python
 
+  from distancia import EnergyDistance
+
   # Example usage:
 
   signal1: List[float] = [0.1 * math.sin(2 * math.pi * 440 * t / 16000) for t in range(16000)]
