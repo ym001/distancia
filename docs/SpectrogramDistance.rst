@@ -34,7 +34,11 @@ where \( Spectrogram(x) \) and \( Spectrogram(y) \) represent the spectrograms o
 
 Academic Reference
 ------------------
-Tzanetakis, G., & Cook, P. (2002). *Musical genre classification of audio signals*. IEEE Transactions on Speech and Audio Processing, 10(5), 293-302.
+
+
+:footcite:t:`SpectrogramDistance`
+
+.. footbibliography::
 
 Conclusion
 ----------
