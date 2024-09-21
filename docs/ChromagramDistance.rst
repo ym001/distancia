@@ -34,7 +34,10 @@ where \( Chromagram(x) \) and \( Chromagram(y) \) represent the chromagram trans
 
 Academic Reference
 ------------------
-Fujishima, T. (1999). *Real-time chord recognition of musical sound: A system using common Lisp music*. Proceedings of the International Computer Music Conference, ICMC.
+
+:footcite:t:`ChromagramDistance`:  
+  
+.. footbibliography::
 
 Conclusion
 ----------
