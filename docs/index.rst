@@ -355,6 +355,8 @@ Distance between two text
 
    NgramDistance
 
+   SmithWaterman
+
 
 And many more...
 
