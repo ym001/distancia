@@ -26,6 +26,24 @@ The distance between the two documents can be calculated using a variety of dist
   .. math::
       \text{Euclidean}(V_{D_1}, V_{D_2}) = \sqrt{\sum_{i=1}^{n} (V_{D_1}[i] - V_{D_2}[i])^2}
 
+.. code-block:: python
+
+   # Exemple d'utilisation
+   # Supposons que vous avez un modèle FastText pré-entraîné
+   # model = FastText.load("fasttext_model.bin")  # Charger un modèle FastText pré-entraîné
+
+   # Pour l'exemple, nous créons un modèle simple avec un corpus minimal
+   sentences = [["the", "cat", "sat", "on", "the", "mat"], ["the", "dog", "sat", "on", "the", "mat"]]
+   model = FastText(sentences, vector_size=100, window=5, min_count=1, sg=1)
+
+   text1 = "the cat sat on the mat"
+   text2 = "the dog sat on the mat"
+
+   fasttext_distance = FastTextDistance(model)
+   distance: float = fasttext_distance.compute(text1, text2)
+
+   print(f"FastText Distance: {distance}")
+
 Academic Reference
 ------------------
 For more information on FastText embeddings, see:
