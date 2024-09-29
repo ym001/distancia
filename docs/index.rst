@@ -170,8 +170,6 @@ Similarity
 
    Otsuka 
 
-   RatcliffObershelp
-
    Gestalt
 
 
@@ -356,6 +354,8 @@ Distance between two text
    NgramDistance
 
    SmithWaterman
+
+   RatcliffObershelp
 
 
 And many more...
