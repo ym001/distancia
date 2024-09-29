@@ -22,6 +22,35 @@ where:
 
 Other measures such as the Euclidean distance or cosine similarity can also be applied to the topic distributions.
 
+.. code-block:: python
+
+
+   # Example usage:
+   documents: List[str] = [
+       "The cat sat on the mat.",
+       "Dogs are great companions.",
+       "Cats and dogs are popular pets.",
+       "I love my pet cat and dog."
+   ]
+
+   # Initialize TopicModelingDistance with LDA and 5 topics
+   topic_model_distance = TopicModelingDistance(method='LDA', num_topics=5)
+
+   # Fit the model to a list of documents
+   topic_model_distance.fit(documents)
+
+   # Compute the distance between two new documents
+   doc1: str = "The cat sat on the mat."
+   doc2: str = "Dogs are great companions."
+   distance: float = topic_model_distance.topic_distance(doc1, doc2)
+   print(f"Topic Distance (LDA): {distance}")
+
+   # You can also use LSA by changing the method
+   lsa_model_distance = TopicModelingDistance(method='LSA', num_topics=5)
+   lsa_model_distance.fit(documents)
+   distance_lsa: float = lsa_model_distance.topic_distance(doc1, doc2)
+   print(f"Topic Distance (LSA): {distance_lsa}")
+
 Academic Reference
 ------------------
 The **TopicModelingDistance** is rooted in the following methodologies:
