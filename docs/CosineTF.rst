@@ -20,6 +20,20 @@ Where:
 - :math:`\mathbf{v_1} \cdot \mathbf{v_2}` is the dot product of the term frequency vectors.
 - :math:`\|\mathbf{v_1}\|` and :math:`\|\mathbf{v_2}\|` are the Euclidean norms (magnitudes) of the vectors.
 
+.. code-block:: python
+
+    cosine_similarity = CosineTF()
+
+    # Two example documents
+    doc1: str = "This is a sample document."
+    doc2: str = "This is another sample document."
+
+    # Compute cosine similarity between the two documents
+    similarity_score: float = CosineTF().compute(doc1, doc2)
+
+    # Print similarity score (0 means no similarity, 1 means identical)
+    print(f"Cosine Similarity score between documents: {similarity_score}")
+
 Academic Reference
 ------------------
 For more information, refer to:
