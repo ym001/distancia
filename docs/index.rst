@@ -373,6 +373,8 @@ Distance between two text
 
    NormalizedCompressionDistance
 
+   MongeElkanDistance
+
 And many more...
 
 Overview
