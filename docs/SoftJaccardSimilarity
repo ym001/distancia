@@ -21,6 +21,21 @@ where:
 - The numerator sums the highest similarity values for each term in :math:`T_1` with the corresponding term in :math:`T_2`,
 - The denominator ensures the result is normalized, similar to the traditional Jaccard index.
 
+.. code-block:: python
+
+   # Example usage:
+   text1: str = "the quick brown fox jumps over the lazy dog"
+   text2: str = "the fast brown fox leaps over a sleepy dog"
+
+   # Initialize SoftJaccardSimilarity class with a threshold of 0.5 (50% similarity for matching)
+   soft_jaccard = SoftJaccardSimilarity(threshold=0.5)
+
+   # Compute the soft Jaccard similarity
+   similarity_score: float = soft_jaccard.soft_jaccard_similarity(text1, text2)
+
+   # Output the result
+   print(f"Soft Jaccard Similarity Score: {similarity_score:.4f}")
+
 Academic Reference
 ------------------
 Soft Jaccard similarity has been widely used in tasks involving approximate string matching and information retrieval. For further details, refer to:
