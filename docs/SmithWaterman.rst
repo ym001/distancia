@@ -23,6 +23,23 @@ Let :math:`S_1` and :math:`S_2` be two sequences of characters. The **SmithWater
 
 The final score of the local alignment is the maximum value found in the matrix :math:`H`.
 
+.. code-block:: python
+
+   # Exemple d'utilisation
+   seq1: str = "AGACTG"
+   seq2: str = "GACTTAC"
+
+   sw = SmithWaterman(match_score=2, mismatch_penalty=-1, gap_penalty=-2)
+
+   # Calcul de la distance
+   max_score, score_matrix = sw.compute(seq1, seq2)
+   print(f"Max Alignment Score: {max_score}")
+
+   # Effectuer le traceback
+   aligned_seq1, aligned_seq2 = sw.traceback(score_matrix, seq1, seq2)
+   print(f"Aligned Sequence 1: {aligned_seq1}")
+   print(f"Aligned Sequence 2: {aligned_seq2}")
+
 Academic Reference
 ------------------
 For more details on the **SmithWaterman** algorithm, refer to the original work:
