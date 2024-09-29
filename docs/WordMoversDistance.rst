@@ -21,6 +21,19 @@ Where:
 - :math:`d(\mathbf{w}_i, \mathbf{w}_j)` represents the distance between word embeddings, usually the Euclidean distance.
 - :math:`\mathbf{T}_{ij}` is the flow matrix that minimizes the total distance.
 
+    # Example usage comparing two text 
+    
+    str1: str= 'Obama speaks to the media in Illinois'
+    str2: str = 'The president greets the press in Chicago'
+    
+    wmd_distance: Optional[float] = WordMoversDistance().compute(str1, str2)
+    
+
+    if wmd_distance is not None:
+        print(f"Word Mover's Distance between files: {wmd_distance}")
+    else:
+        print("Could not compute Word Mover's Distance.")
+
 Academic Reference
 ------------------
 For more information, refer to:
