@@ -21,6 +21,23 @@ Where:
 - :math:`\|V_1\|` and :math:`\|V_2\|` are the magnitudes (norms) of the vectors.
 - The cosine similarity is transformed into a distance by subtracting from 1.
 
+.. code-block:: python
+
+    # Exemple d'utilisation
+    corpus = [
+        "the cat sat on the mat",
+        "the dog sat on the mat",
+        "the dog chased the cat"
+    ]
+
+    text1 = "the cat is sitting on the mat"
+    text2 = "the dog is sitting on the mat"
+
+    tfidf_distance = TFIDFDistance(corpus)
+    similarity_score: float = tfidf_distance.compare(text1, text2)
+
+    print(f"TF-IDF Similarity: {similarity_score}")
+
 Academic Reference
 ------------------
 For more details on TF-IDF and its applications in text comparison, see:
