@@ -367,6 +367,8 @@ Distance between two text
 
    AlignmentBasedMeasures
 
+   GappyNGramDistance
+
 
 And many more...
 
