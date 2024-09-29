@@ -23,6 +23,22 @@ Where:
 
 The **ROUGEL** (Longest Common Subsequence) score is calculated based on the longest matching sequence of words, which allows for non-contiguous matches.
 
+.. code-block:: python
+
+   # Example usage:
+   hypothesis: List[str] = "the cat is on the mat".split()
+   references: List[List[str]] = [
+       "the cat is on the mat".split(),
+       "there is a cat on the mat".split()
+   ]
+
+   # Create an instance of the ROUGEScore class with bigrams (n=2)
+   rouge = ROUGEScore(n_gram=2)
+
+   # Compute the ROUGE-N score
+   rouge_n_score: Dict[str, float] = rouge.rouge_n(hypothesis, references)
+   print(f"ROUGE-N Score: {rouge_n_score}")
+
 Academic Reference
 ------------------
 The **ROUGEScore** was introduced in the following paper:
