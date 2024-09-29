@@ -357,6 +357,8 @@ Distance between two text
 
    RatcliffObershelp
 
+   BLEUScore
+
 
 And many more...
 
