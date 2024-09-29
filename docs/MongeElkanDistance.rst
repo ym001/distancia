@@ -21,24 +21,26 @@ where:
 - The distance for each element :math:`x_i` in :math:`X` is determined by the closest corresponding element :math:`y_j` in :math:`Y`,
 - :math:`n` is the number of elements in sequence :math:`X`.
 
-from distancia import Levenshtein
-from typing import List, Callable
+.. code-block:: python
+
+   from distancia import Levenshtein
+   from typing import List, Callable
 
 
-# Exemple d'utilisation
-text1: str = "the quick brown fox"
-text2: str = "the quick brown dog"
+   # Exemple d'utilisation
+   text1: str = "the quick brown fox"
+   text2: str = "the quick brown dog"
 
-# Convertir les textes en listes de mots
-set1: List[str] = text1.split()
-set2: List[str] = text2.split()
+   # Convertir les textes en listes de mots
+   set1: List[str] = text1.split()
+   set2: List[str] = text2.split()
 
-# Créer une instance de la classe Monge-Elkan avec la distance de Levenshtein comme distance de base
-monge_elkan = MongeElkanDistance(base_distance=Levenshtein())
+   # Créer une instance de la classe Monge-Elkan avec la distance de Levenshtein comme distance de base
+   monge_elkan = MongeElkanDistance(base_distance=Levenshtein())
 
-# Calculer la distance Monge-Elkan
-distance: float = monge_elkan.compute(set1, set2)
-print(f"Monge-Elkan Distance: {distance}")
+   # Calculer la distance Monge-Elkan
+   distance: float = monge_elkan.compute(set1, set2)
+   print(f"Monge-Elkan Distance: {distance}")
 
 Academic Reference
 ------------------
