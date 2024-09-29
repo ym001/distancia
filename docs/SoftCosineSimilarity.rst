@@ -21,6 +21,22 @@ Where:
 - :math:`S(i, j)` represents the similarity between terms :math:`i` and :math:`j` (e.g., derived from word embeddings).
 - :math:`A_i` and :math:`B_j` are the term frequencies of the :math:`i`-th and :math:`j`-th terms in documents :math:`A` and :math:`B`, respectively.
 
+.. code-block:: python
+
+   # Example usage:
+   hypothesis: List[str] = "the cat is on the mat".split()
+   references: List[List[str]] = [
+       "the cat is on the mat".split(),
+       "there is a cat on the mat".split()
+   ]
+
+   # Create an instance of the ROUGEScore class with bigrams (n=2)
+   rouge = ROUGEScore(n_gram=2)
+
+   # Compute the ROUGE-N score
+   rouge_n_score: Dict[str, float] = rouge.rouge_n(hypothesis, references)
+   print(f"ROUGE-N Score: {rouge_n_score}")
+
 Academic Reference
 ------------------
 The **SoftCosineSimilarity** metric is detailed in the following work:
