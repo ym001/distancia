@@ -21,6 +21,23 @@ Where:
 - :math:`\mathbb{1}(h_1[i] \neq h_2[i])` is an indicator function that is 1 if the bits differ and 0 otherwise.
 - The sum counts the number of differing bits (Hamming distance).
 
+.. code-block:: python
+
+
+    # Example usage:
+    if __name__ == "__main__":
+        simhash = SimHash()
+
+        # Two example documents
+        doc1: str = "This is a sample document."
+        doc2: str = "This is another sample document."
+
+        # Compute similarity between the two documents
+        similarity_score: float = simhash.similarity(doc1, doc2)
+
+        # Print similarity score (0 means completely different, 1 means identical)
+        print(f"Similarity score between documents: {similarity_score}")
+
 Academic Reference
 ------------------
 For more details on SimHash, refer to:
