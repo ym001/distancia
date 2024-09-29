@@ -369,6 +369,8 @@ Distance between two text
 
    GappyNGramDistance
 
+   SoftJaccardSimilarity
+
 
 And many more...
 
