@@ -38,6 +38,29 @@ Where:
 
     print(f"TF-IDF Similarity: {similarity_score}")
 
+.. code-block:: python
+
+    # Example usage:
+    if __name__ == "__main__":
+        tfidf_similarity = TFIDFSimilarity()
+
+        # Two example documents
+        doc1: str = "This is a sample document."
+        doc2: str = "This document is a simple example."
+
+        # Corpus of documents for TF-IDF calculations
+        corpus: List[str] = [
+            "This is a document in the corpus.",
+            "Another document is here for testing.",
+            "This example is part of the corpus."
+        ]
+
+        # Compute TF-IDF similarity between the two documents
+        similarity_score: float = tfidf_similarity.compute(doc1, doc2, corpus)
+
+        # Print similarity score (0 means no similarity, 1 means identical)
+        print(f"TF-IDF Similarity score between documents: {similarity_score}")
+
 Academic Reference
 ------------------
 For more details on TF-IDF and its applications in text comparison, see:
