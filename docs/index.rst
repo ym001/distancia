@@ -365,6 +365,8 @@ Distance between two text
 
    TopicModelingDistance
 
+   AlignmentBasedMeasures
+
 
 And many more...
 
