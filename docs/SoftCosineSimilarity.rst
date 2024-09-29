@@ -24,18 +24,25 @@ Where:
 .. code-block:: python
 
    # Example usage:
-   hypothesis: List[str] = "the cat is on the mat".split()
-   references: List[List[str]] = [
-       "the cat is on the mat".split(),
-       "there is a cat on the mat".split()
-   ]
+   term_similarity_matrix: Dict[Tuple[str, str], float] = {
+       ("cat", "cat"): 1.0,
+       ("cat", "dog"): 0.5,
+       ("dog", "dog"): 1.0,
+       ("mat", "mat"): 1.0,
+       ("on", "on"): 1.0,
+       ("is", "is"): 1.0
+   }
 
-   # Create an instance of the ROUGEScore class with bigrams (n=2)
-   rouge = ROUGEScore(n_gram=2)
+   # Create an instance of SoftCosineSimilarity with the term similarity matrix
+   soft_cosine_sim = SoftCosineSimilarity(term_similarity_matrix=term_similarity_matrix)
 
-   # Compute the ROUGE-N score
-   rouge_n_score: Dict[str, float] = rouge.rouge_n(hypothesis, references)
-   print(f"ROUGE-N Score: {rouge_n_score}")
+   # Define two documents as lists of words
+   doc1: List[str] = ["the", "cat", "is", "on", "the", "mat"]
+   doc2: List[str] = ["the", "dog", "is", "on", "the", "mat"]
+
+   # Compute the Soft Cosine Similarity
+   similarity_score: float = soft_cosine_sim.soft_cosine(doc1, doc2)
+   print(f"Soft Cosine Similarity: {similarity_score}")
 
 Academic Reference
 ------------------
