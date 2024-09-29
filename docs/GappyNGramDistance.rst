@@ -20,6 +20,21 @@ where:
 - :math:`G_n(T)` represents the set of gappy n-grams in text :math:`T`,
 - The formula calculates the Jaccard similarity between the gappy n-grams of the two texts, and the distance is defined as 1 minus this similarity.
 
+.. code-block:: python
+
+   # Example usage:
+   text1: str = "the quick brown fox jumps over the lazy dog"
+   text2: str = "the fast brown fox leaps over a sleepy dog"
+
+   # Initialize GappyNGramDistance class with n=3 and gap_size=1
+   gappy_ngram_distance = GappyNGramDistance(n=3, gap_size=1)
+
+   # Compute the gappy n-gram similarity
+   similarity_score: float = gappy_ngram_distance.gappy_ngram_similarity(text1, text2)
+
+   # Output the result
+   print(f"Gappy N-gram Similarity Score: {similarity_score:.4f}")
+
 Academic Reference
 ------------------
 The gappy n-gram approach is frequently used in the context of text classification and natural language processing, particularly for tasks like information retrieval and machine translation:
