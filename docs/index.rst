@@ -363,6 +363,8 @@ Distance between two text
 
    SoftCosineSimilarity
 
+   TopicModelingDistance
+
 
 And many more...
 
