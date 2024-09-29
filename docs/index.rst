@@ -130,8 +130,6 @@ Distance
 
    SokalSneath
 
-   SorensenDice
-
    Wasserstein
 
    Gower
@@ -348,6 +346,11 @@ Distance between two text
    JaroWinkler
 
    OverlapCoefficient
+
+   SorensenDice
+
+   BagOfWordsDistance
+
 
 And many more...
 
