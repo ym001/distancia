@@ -156,10 +156,6 @@ Similarity
 
    Tanimoto
 
-   Tversky 
-
-   Dice 
-
    InverseTanimoto
 
    Ochiai 
@@ -350,6 +346,14 @@ Distance between two text
    SorensenDice
 
    BagOfWordsDistance
+
+   FastTextDistance
+
+   Dice 
+
+   Tversky 
+
+   NgramDistance
 
 
 And many more...
