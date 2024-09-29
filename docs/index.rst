@@ -359,6 +359,10 @@ Distance between two text
 
    BLEUScore
 
+   ROUGEScore
+
+   SoftCosineSimilarity
+
 
 And many more...
 
