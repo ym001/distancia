@@ -339,6 +339,10 @@ Distance between two text
 
    TFIDFDistance
 
+   SimHash
+
+   CosineTF
+
 And many more...
 
 Overview
