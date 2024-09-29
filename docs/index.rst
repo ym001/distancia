@@ -343,6 +343,10 @@ Distance between two text
 
    CosineTF
 
+   WordMoversDistance
+
+   BERTBasedDistance
+
 And many more...
 
 Overview
