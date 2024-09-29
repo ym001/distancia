@@ -102,10 +102,6 @@ Distance
 
    Manhattan 
 
-   Hamming
-
-   Levenshtein
-
    Jaro
 
    JaroWinkler
@@ -136,8 +132,6 @@ Distance
 
    SokalSneath
 
-   DamerauLevenshtein
-
    SorensenDice
 
    Wasserstein
@@ -159,8 +153,6 @@ Similarity
 
 .. toctree::
    :maxdepth: 1
-
-   Cosine
 
    Jaccard
 
@@ -332,6 +324,20 @@ Distance between two sounds
 
    CQTDistance
 
+Distance between two text
+
+.. toctree::
+   :maxdepth: 1
+
+   Levenshtein
+
+   DamerauLevenshtein
+
+   Hamming
+
+   Cosine
+
+   TFIDFDistance
 
 And many more...
 
