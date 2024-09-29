@@ -375,6 +375,8 @@ Distance between two text
 
    MongeElkanDistance
 
+   JensenShannonDivergence
+
 And many more...
 
 Overview
