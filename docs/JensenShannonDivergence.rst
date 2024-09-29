@@ -21,24 +21,25 @@ where:
 - :math:`D_{KL}(P \parallel Q)` is the Kullback-Leibler divergence between distributions :math:`P` and :math:`Q`.
 
 The Jensen-Shannon Divergence takes values in the range [0, 1], where 0 indicates identical distributions and higher values indicate more divergence.
+.. code-block:: python
 
-# Exemple d'utilisation avec des textes
-text1: str = "The quick brown fox jumps over the lazy dog"
-text2: str = "The fast brown fox leaps over the lazy dog"
+   # Exemple d'utilisation avec des textes
+   text1: str = "The quick brown fox jumps over the lazy dog"
+   text2: str = "The fast brown fox leaps over the lazy dog"
 
-# Vocabulaire global (tous les mots apparaissant dans les textes)
-vocabulary: List[str] = list(set(text1.split()) | set(text2.split()))
+   # Vocabulaire global (tous les mots apparaissant dans les textes)
+   vocabulary: List[str] = list(set(text1.split()) | set(text2.split()))
 
-# Créer une instance de la classe Jensen-Shannon Divergence
-js_divergence = JensenShannonDivergence()
+   # Créer une instance de la classe Jensen-Shannon Divergence
+   js_divergence = JensenShannonDivergence()
 
-# Convertir les textes en distributions de probabilités
-dist1: List[float] = js_divergence.text_to_distribution(text1, vocabulary)
-dist2: List[float] = js_divergence.text_to_distribution(text2, vocabulary)
+   # Convertir les textes en distributions de probabilités
+   dist1: List[float] = js_divergence.text_to_distribution(text1, vocabulary)
+   dist2: List[float] = js_divergence.text_to_distribution(text2, vocabulary)
 
-# Calculer la Jensen-Shannon Divergence entre les deux textes
-divergence: float = js_divergence.compute(dist1, dist2)
-print(f"Jensen-Shannon Divergence: {divergence}")
+   # Calculer la Jensen-Shannon Divergence entre les deux textes
+   divergence: float = js_divergence.compute(dist1, dist2)
+   print(f"Jensen-Shannon Divergence: {divergence}")
 
 Academic Reference
 ------------------
