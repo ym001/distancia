@@ -34,6 +34,22 @@ Where:
 - :math:`c` is the length of the candidate translation.
 - :math:`r` is the effective reference length.
 
+.. code-block:: python
+
+   # Exemple d'utilisation
+   hypothesis: List[str] = "the cat is on the mat".split()
+   references: List[List[str]] = [
+       "the cat is on the mat".split(),
+       "there is a cat on the mat".split()
+   ]
+
+   # Créer une instance de la classe BLEUScore
+   bleu = BLEUScore()
+
+   # Calculer le BLEU Score
+   score: float = bleu.compute(hypothesis, references)
+   print(f"BLEU Score: {score}")
+
 Academic Reference
 ------------------
 The **BLEUScore** was introduced in the following paper:
