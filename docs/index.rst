@@ -104,8 +104,6 @@ Distance
 
    Jaro
 
-   JaroWinkler
-
    KendallTau
 
    Bhattacharyya
@@ -346,6 +344,10 @@ Distance between two text
    WordMoversDistance
 
    BERTBasedDistance
+
+   JaroWinkler
+
+   OverlapCoefficient
 
 And many more...
 
