@@ -20,6 +20,26 @@ where:
 - :math:`c(A_i, B_j)` is the cost of aligning element :math:`A_i` from sequence :math:`A` with element :math:`B_j` from sequence :math:`B`,
 - The cost function can be based on operations such as insertions, deletions, and substitutions, or more complex measures like semantic or syntactic similarity.
 
+.. code-block:: python
+
+   # Example usage:
+   text1: str = "The quick brown fox jumps over the lazy dog"
+   text2: str = "The quick fox jumps over a lazy dog"
+
+   # Initialize AlignmentBasedMeasures class
+   alignment_measure = AlignmentBasedMeasures()
+
+   # Align the texts and compute the alignment score
+   aligned_texts: List[Tuple[str, str]] = alignment_measure.align_texts(text1, text2)
+   score: float = alignment_measure.alignment_score(text1, text2)
+
+   # Output the results
+   print("Aligned Texts:")
+   for word1, word2 in aligned_texts:
+       print(f"{word1:15} {word2:15}")
+
+   print(f"\nAlignment Score: {score}")
+
 Academic Reference
 ------------------
 The **AlignmentBasedMeasures** technique is often associated with methods used in computational linguistics and bioinformatics, such as sequence alignment algorithms:
