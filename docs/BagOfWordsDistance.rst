@@ -27,6 +27,17 @@ Where:
 - :math:`v_1 \cdot v_2` is the dot product of the two vectors.
 - :math:`||v_1||` and :math:`||v_2||` are the magnitudes (lengths) of the vectors.
 
+.. code-block:: python
+
+  # Exemple d'utilisation
+  text1 = "the cat sat on the mat"
+  text2 = "the dog sat on the mat"
+
+  bow_distance = BagOfWordsDistance()
+  similarity_score: float = bow_distance.compute(text1, text2)
+
+  print(f"Bag-of-Words Distance: {similarity_score}")
+
 Academic Reference
 ------------------
 For more information on the Bag of Words model, see:
