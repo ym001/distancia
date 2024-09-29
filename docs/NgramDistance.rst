@@ -21,6 +21,17 @@ The Ngram distance can then be expressed as:
 .. math::
    \text{NgramDistance}(D_1, D_2) = 1 - \text{Jaccard}(D_1, D_2)
 
+.. code-block:: python
+
+   # Exemple d'utilisation
+   ngram_distance = NgramDistance(n=3)  # Tri-grammes (n=3)
+
+   text1: str = "The quick brown fox"
+   text2: str = "The quick brown dog"
+
+   distance: float = ngram_distance.compute(text1, text2)
+   print(f"N-gram Distance: {distance}")
+
 Academic Reference
 ------------------
 A thorough exploration of n-grams and their applications in text comparison can be found in:
