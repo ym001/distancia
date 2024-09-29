@@ -371,6 +371,7 @@ Distance between two text
 
    SoftJaccardSimilarity
 
+   NormalizedCompressionDistance
 
 And many more...
 
