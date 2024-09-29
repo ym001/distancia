@@ -20,6 +20,19 @@ Where:
 - :math:`\mathbf{B}(D_1)` and :math:`\mathbf{B}(D_2)` are the BERT embeddings for documents :math:`D_1` and :math:`D_2`.
 - :math:`d(\mathbf{B}(D_1), \mathbf{B}(D_2))` is a distance function, typically cosine similarity or Euclidean distance, between the BERT embeddings.
 
+.. code-block:: python
+
+    # Example usage comparing two text files
+    str1: str= 'Obama speaks to the media in Illinois'
+    str2: str = 'The president greets the press in Chicago'
+
+    similarity_score: Optional[float] = BERTBasedDistance.compute(str1, str2)
+
+    if similarity_score is not None:
+        print(f"BERT-based similarity between files: {similarity_score}")
+    else:
+        print("Could not compute BERT-based similarity.")
+
 Academic Reference
 ------------------
 For more information, refer to:
