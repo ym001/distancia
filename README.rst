@@ -31,7 +31,10 @@ For more detailed instructions and additional options, see the installation sect
 Quickstart
 ----------
 
-Here are some common examples of how to use distancia ::
+Here are some common examples of how to use distancia :
+
+.. code-block:: python
+
 
    from distancia import Euclidean
    
@@ -45,11 +48,14 @@ Here are some common examples of how to use distancia ::
    
    print(f"Euclidean Distance: {distance}")
 
-hhh::
+.. code-block:: python
 
    >>>Euclidean Distance: 5.196152422706632
 
-Exemple 2 ::
+Exemple 2 :
+
+.. code-block:: python
+
    from distancia import Levenshtein
 
    string1 = "kitten"
@@ -57,6 +63,8 @@ Exemple 2 ::
 
    distance = Levenshtein().calculate(string1, string2)
    print(f"Levenshtein Distance: {distance}")
+
+.. code-block:: python
 
 
    >>>Levenshtein Distance: 3
