@@ -63,9 +63,10 @@ Where:
 
 Academic Reference
 ------------------
-For more details on TF-IDF and its applications in text comparison, see:
+For more details on TF-IDF and its applications in text comparison, see: :footcite:t:`TFIDFDistance` :
 
-**Ramos, Juan**. "Using TF-IDF to determine word relevance in document queries." *Proceedings of the first instructional conference on machine learning* (2003).
+.. footbibliography::
+
 
 Conclusion
 ----------
