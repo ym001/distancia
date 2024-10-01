@@ -38,7 +38,6 @@ Academic Reference
 ------------------
 For more information, refer to:
 
-**Salton, G., Wong, A., & Yang, C. S.** "A vector space model for automatic indexing." *Communications of the ACM* 18.11 (1975): 613-620.
 
 Conclusion
 ----------
