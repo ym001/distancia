@@ -36,7 +36,9 @@ Where:
 
 Academic Reference
 ------------------
-For more information, refer to:
+For more information, refer to: :footcite:t:`CosineTF` :
+
+.. footbibliography::
 
 
 Conclusion
