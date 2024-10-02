@@ -45,7 +45,9 @@ where:
 Academic Reference
 ------------------
 The Monge-Elkan distance was first introduced in the context of name matching and entity resolution. A key reference is:
+:footcite:t:`MongeElkanDistance`
 
+.. footbibliography::
 
 Conclusion
 ----------
