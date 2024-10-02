@@ -41,8 +41,9 @@ The **ROUGEL** (Longest Common Subsequence) score is calculated based on the lon
 
 Academic Reference
 ------------------
-The **ROUGEScore** was introduced in the following paper:
+The **ROUGEScore** was introduced in the following paper: :footcite:t:`ROUGEScore`
 
+.. footbibliography::
 
 Conclusion
 ----------
