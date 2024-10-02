@@ -43,7 +43,6 @@ Academic Reference
 ------------------
 The **ROUGEScore** was introduced in the following paper:
 
-**Lin, Chin-Yew.** (2004). "ROUGE: A Package for Automatic Evaluation of Summaries." In *Text Summarization Branches Out: Proceedings of the ACL-04 Workshop* (pp. 74-81).
 
 Conclusion
 ----------
