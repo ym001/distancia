@@ -37,7 +37,11 @@ Academic Reference
 ------------------
 For more information, refer to:
 
-**Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K.** "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*. 2019.
+:footcite:t:`BERTBasedDistance`
+
+.. footbibliography::
+
+
 
 Conclusion
 ----------
