@@ -37,8 +37,9 @@ where:
 
 Academic Reference
 ------------------
-The gappy n-gram approach is frequently used in the context of text classification and natural language processing, particularly for tasks like information retrieval and machine translation:
+The gappy n-gram approach is frequently used in the context of text classification and natural language processing, particularly for tasks like information retrieval and machine translation: :footcite:t:`GappyNGramDistance`
 
+.. footbibliography::
 
 Conclusion
 ----------
