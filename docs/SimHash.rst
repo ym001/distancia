@@ -40,8 +40,9 @@ Where:
 
 Academic Reference
 ------------------
-For more details on SimHash, refer to:
+For more details on SimHash, refer to: :footcite:t:`SimHash`
 
+.. footbibliography::
 
 Conclusion
 ----------
