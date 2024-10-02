@@ -44,7 +44,6 @@ Academic Reference
 ------------------
 For more details on the **SmithWaterman** algorithm, refer to the original work:
 
-**Smith, T.F., & Waterman, M.S.** (1981). "Identification of Common Molecular Subsequences." *Journal of Molecular Biology*, 147(1), 195-197.
 
 Conclusion
 ----------
