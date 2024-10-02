@@ -46,8 +46,9 @@ The distance between the two documents can be calculated using a variety of dist
 
 Academic Reference
 ------------------
-For more information on FastText embeddings, see:
+For more information on FastText embeddings, see: :footcite:t:`FastTextDistance`
 
+.. footbibliography::
 
 Conclusion
 ----------
