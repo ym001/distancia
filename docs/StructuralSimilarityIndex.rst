@@ -24,6 +24,40 @@ Where:
 - \( \sigma_{12} \) is the covariance between the two images,
 - \( C_1 = (k_1 \cdot L)^2 \) and \( C_2 = (k_2 \cdot L)^2 \) are constants used to avoid division by zero, where \(L\) is the dynamic range of pixel values (e.g., 255 for 8-bit grayscale images), and \(k_1, k_2\) are small constants.
 
+.. code-block:: python
+
+   from distancia import StructuralSimilarityIndex
+
+   def example(self):
+           """
+           Example usage with two small 3x3 grayscale images.
+           """
+           image1 = [
+               [52, 55, 61],
+               [54, 56, 62],
+               [58, 59, 63]
+           ]
+
+           image2 = [
+               [52, 54, 60],
+               [53, 55, 61],
+               [57, 58, 62]
+           ]
+
+           ssim_score = self.ssim(image1, image2)
+           print(f"SSIM between example images: {ssim_score:.4f}")
+
+
+   # Example usage
+   ssim_calculator = StructuralSimilarityIndex()
+   ssim_calculator.example()
+
+.. code-block:: bash
+
+   >>>SSIM between example images: 0.9987
+
+
+
 Academic Reference
 ------------------
 :footcite:t:`StructuralSimilarityIndex`
