@@ -44,6 +44,9 @@ Academic Reference
 ------------------
 The **AlignmentBasedMeasures** technique is often associated with methods used in computational linguistics and bioinformatics, such as sequence alignment algorithms:
 
+:footcite:t:`AlignmentBasedMeasures`
+
+.. footbibliography::
 
 Conclusion
 ----------
