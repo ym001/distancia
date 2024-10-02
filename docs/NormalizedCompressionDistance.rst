@@ -39,7 +39,6 @@ Academic Reference
 ------------------
 Normalized Compression Distance is based on concepts from Kolmogorov complexity and has been widely used in various fields. A key reference is:
 
-**Cilibrasi, Rudi, and Paul Vitányi.** (2005). "Clustering by Compression." *IEEE Transactions on Information Theory* 51(4): 1523-1545.
 
 Conclusion
 ----------
