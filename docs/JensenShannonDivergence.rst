@@ -43,9 +43,10 @@ The Jensen-Shannon Divergence takes values in the range [0, 1], where 0 indicate
 
 Academic Reference
 ------------------
-A key reference for the Jensen-Shannon Divergence is:
+A key reference for the Jensen-Shannon Divergence is: :footcite:t:`JensenShannonDivergence`
 
-**Lin, J.** (1991). "Divergence measures based on the Shannon entropy." *IEEE Transactions on Information Theory*, 37(1), 145–151.
+.. footbibliography::
+
 
 Conclusion
 ----------
