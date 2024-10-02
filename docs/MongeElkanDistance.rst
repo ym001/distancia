@@ -46,7 +46,6 @@ Academic Reference
 ------------------
 The Monge-Elkan distance was first introduced in the context of name matching and entity resolution. A key reference is:
 
-**Monge, Alvaro, and Charles Elkan.** (1997). "An Efficient Domain-Independent Algorithm for Detecting Approximately Duplicate Database Records." *KDD-97*.
 
 Conclusion
 ----------
