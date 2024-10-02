@@ -37,9 +37,9 @@ where:
 
 Academic Reference
 ------------------
-Normalized Compression Distance is based on concepts from Kolmogorov complexity and has been widely used in various fields. A key reference is:
+Normalized Compression Distance is based on concepts from Kolmogorov complexity and has been widely used in various fields. A key reference is: :footcite:t:`NormalizedCompressionDistance`
 
-
+.. footbibliography::
 Conclusion
 ----------
 The **NormalizedCompressionDistance** class offers a universal similarity metric that can be applied to any data type that can be compressed. By leveraging compression algorithms, this method provides a powerful, domain-independent measure of similarity that captures structural and informational redundancy between two texts.
