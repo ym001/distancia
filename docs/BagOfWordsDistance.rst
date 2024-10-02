@@ -42,7 +42,6 @@ Academic Reference
 ------------------
 For more information on the Bag of Words model, see:
 
-**Harris, Z. S.** "Distributional Structure." *Word*, 10(2-3), 1954.
 
 Conclusion
 ----------
