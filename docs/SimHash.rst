@@ -42,7 +42,6 @@ Academic Reference
 ------------------
 For more details on SimHash, refer to:
 
-**Charikar, Moses S.** "Similarity estimation techniques from rounding algorithms." *Proceedings of the thirty-fourth annual ACM symposium on Theory of computing* (2002).
 
 Conclusion
 ----------
