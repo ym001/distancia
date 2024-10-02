@@ -48,7 +48,6 @@ Academic Reference
 ------------------
 For more information on FastText embeddings, see:
 
-**Bojanowski, P., Grave, E., Joulin, A., & Mikolov, T.** (2017). "Enriching Word Vectors with Subword Information." *Transactions of the Association for Computational Linguistics*, 5, 135-146.
 
 Conclusion
 ----------
