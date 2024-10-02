@@ -26,7 +26,7 @@ Academic Reference
 ------------------
 For more details, see:
 
-**Vijaymeena, M. K., & Kavitha, K.** "A Survey on Similarity Measures in Text Mining." *Machine Learning and Applications: An International Journal (MLAIJ)*, 3(2), 2016.
+
 
 Conclusion
 ----------
