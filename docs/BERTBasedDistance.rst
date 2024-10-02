@@ -35,9 +35,7 @@ Where:
 
 Academic Reference
 ------------------
-For more information, refer to:
-
-:footcite:t:`BERTBasedDistance`
+For more information, refer to: :footcite:t:`BERTBasedDistance`
 
 .. footbibliography::
 
