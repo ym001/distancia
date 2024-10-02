@@ -52,10 +52,9 @@ Where:
 
 Academic Reference
 ------------------
-The **BLEUScore** was introduced in the following paper:
+The **BLEUScore** was introduced in the following paper: :footcite:t:`BLEUScore`:
 
-**Papineni, K., Roukos, S., Ward, T., & Zhu, W.J.** (2002). "BLEU: a Method for Automatic Evaluation of Machine Translation." In *Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics* (pp. 311-318).
-
+.. footbibliography::
 Conclusion
 ----------
 The **BLEUScore** has become one of the most widely used metrics for evaluating the quality of machine-generated text. It provides an objective measure of text similarity by comparing n-gram overlaps between candidate and reference texts, while accounting for brevity to prevent gaming the metric with excessively short outputs.
