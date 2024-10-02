@@ -46,9 +46,9 @@ Where:
 
 Academic Reference
 ------------------
-The **SoftCosineSimilarity** metric is detailed in the following work:
+The **SoftCosineSimilarity** metric is detailed in the following work: :footcite:t:`SoftCosineSimilarity`
 
-**Charlet, Delphine, and Mathieu Lafourcade.** (2008). "A Soft Cosine Measure Based on Word Embeddings for Text Similarity." In *Proceedings of the Annual Conference of the European Association for Computational Linguistics*.
+.. footbibliography::
 
 Conclusion
 ----------
