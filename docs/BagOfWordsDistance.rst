@@ -40,8 +40,9 @@ Where:
 
 Academic Reference
 ------------------
-For more information on the Bag of Words model, see:
+For more information on the Bag of Words model, see: :footcite:t:`BagOfWordsDistance`:
 
+.. footbibliography::
 
 Conclusion
 ----------
