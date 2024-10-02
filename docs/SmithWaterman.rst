@@ -42,9 +42,9 @@ The final score of the local alignment is the maximum value found in the matrix 
 
 Academic Reference
 ------------------
-For more details on the **SmithWaterman** algorithm, refer to the original work:
+For more details on the **SmithWaterman** algorithm, refer to the original work: :footcite:t:`SmithWaterman`
 
-
+.. footbibliography::
 Conclusion
 ----------
 The **SmithWaterman** algorithm is a powerful tool for comparing two text sequences, especially when the goal is to find the most similar local regions. Its flexibility in allowing gaps and mismatches makes it well-suited for applications in natural language processing, bioinformatics, and text comparison tasks where partial matches are relevant.
