@@ -24,7 +24,9 @@ This definition ensures that the similarity score is normalized based on the sma
 
 Academic Reference
 ------------------
-For more details, see:
+For more details, see: :footcite:t:`OverlapCoefficient`
+
+.. footbibliography::
 
 
 
