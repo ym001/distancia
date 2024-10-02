@@ -12,9 +12,10 @@ PSNR measures the peak error between a reference signal and a test signal. Highe
 Formal Representation
 ----------------------
 The Peak Signal-to-Noise Ratio (PSNR) is given by:
-\[
-PSNR = 10 \log_{10} \left( \frac{MAX_I^2}{MSE} \right)
-\]
+.. math::
+
+  PSNR = 10 \log_{10} \left( \frac{MAX_I^2}{MSE} \right)
+
 where \( MAX_I \) is the maximum possible pixel value of the image, and \( MSE \) represents the mean squared error between the reference and the test signal.
 
 .. code-block:: python
