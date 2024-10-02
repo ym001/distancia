@@ -36,7 +36,6 @@ Academic Reference
 ------------------
 A thorough exploration of n-grams and their applications in text comparison can be found in:
 
-**Cavnar, W. B., & Trenkle, J. M.** (1994). "N-Gram-Based Text Categorization." *Proceedings of SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval*.
 
 Conclusion
 ----------
