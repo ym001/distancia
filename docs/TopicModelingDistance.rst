@@ -55,7 +55,6 @@ Academic Reference
 ------------------
 The **TopicModelingDistance** is rooted in the following methodologies:
 
-**Deerwester, Scott, et al.** (1990). "Indexing by Latent Semantic Analysis." In *Journal of the American Society for Information Science*.
 
 Conclusion
 ----------
