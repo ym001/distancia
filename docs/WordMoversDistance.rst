@@ -40,7 +40,6 @@ Academic Reference
 ------------------
 For more information, refer to:
 
-**Kusner, M. J., Sun, Y., Kolkin, N. I., & Weinberger, K. Q.** "From word embeddings to document distances." *Proceedings of the 32nd International Conference on Machine Learning (ICML)*. 2015.
 
 Conclusion
 ----------
