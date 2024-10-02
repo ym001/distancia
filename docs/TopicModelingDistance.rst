@@ -54,7 +54,10 @@ Other measures such as the Euclidean distance or cosine similarity can also be a
 Academic Reference
 ------------------
 The **TopicModelingDistance** is rooted in the following methodologies:
+:footcite:t:`TopicModelingDistance1`
+:footcite:t:`TopicModelingDistance2`
 
+.. footbibliography::
 
 Conclusion
 ----------
