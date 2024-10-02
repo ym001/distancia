@@ -39,7 +39,6 @@ Academic Reference
 ------------------
 The gappy n-gram approach is frequently used in the context of text classification and natural language processing, particularly for tasks like information retrieval and machine translation:
 
-**Shawe-Taylor, John, and Nello Cristianini.** (2004). "Kernel Methods for Pattern Analysis." Cambridge University Press.
 
 Conclusion
 ----------
