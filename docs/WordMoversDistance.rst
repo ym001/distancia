@@ -38,7 +38,9 @@ Where:
 
 Academic Reference
 ------------------
-For more information, refer to:
+For more information, refer to: :footcite:t:`WordMoversDistance`
+
+.. footbibliography::
 
 
 Conclusion
