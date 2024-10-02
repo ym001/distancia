@@ -34,8 +34,9 @@ The Ngram distance can then be expressed as:
 
 Academic Reference
 ------------------
-A thorough exploration of n-grams and their applications in text comparison can be found in:
+A thorough exploration of n-grams and their applications in text comparison can be found in: :footcite:t:`NgramDistance`
 
+.. footbibliography::
 
 Conclusion
 ----------
