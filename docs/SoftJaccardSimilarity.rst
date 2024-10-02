@@ -40,6 +40,9 @@ Academic Reference
 ------------------
 Soft Jaccard similarity has been widely used in tasks involving approximate string matching and information retrieval. For further details, refer to:
 
+:footcite:t:`SoftJaccardSimilarity`
+
+.. footbibliography::
 
 Conclusion
 ----------
