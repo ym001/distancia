@@ -9,7 +9,7 @@ The **distancia** package offers a comprehensive set of methods for comparing im
 
 In this document, we categorize the image distance metrics available in **distancia** and provide brief descriptions of each method.
 
-Categories of Image-Based Distances
+List of Image-Based Distances
 ===================================
 
 Pixel-Based Distances
