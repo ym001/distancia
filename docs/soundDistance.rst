@@ -5,14 +5,17 @@ Introduction
 ============
 In the realm of audio signal processing, comparing sounds is a complex task that requires specialized distance measures. Whether analyzing music, voice, or environmental sounds, **Distancia** provides a variety of distance measures designed to capture different aspects of audio signals. These distances are categorized based on the features they focus on, such as frequency, timbre, and structural patterns.
 
-Categories of Audio-Based Distances
-===================================
+Categories
+==========
 
 1. **Frequency-Based Distances**
 2. **Time-Based Distances**
 3. **Feature-Based Distances**
 4. **Perceptual-Based Distances**
 5. **Compression-Based Distances**
+
+List of Audio-Based Distances
+
 
 1. **Frequency-Based Distances**
 -----------------------------
