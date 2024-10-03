@@ -21,13 +21,19 @@ List of Distances
 
 These distances compare files by analyzing their textual content. This category is ideal for comparing documents, code files, or any content-rich text, considering the frequency of words, structural patterns, or semantic meanings.
 
-1. **TF-IDF Distance**
+1. :doc:`TF-IDF`
    - Measures the importance of terms in each document relative to a corpus, providing insight into the textual similarity of two files.
-2. **Cosine Similarity**
+
+2. :doc:`Cosine`
+
    - Compares two text files by evaluating the angle between their term frequency vectors, focusing on word distribution and patterns.
-3. **N-gram Distance**
+
+3. :doc:`N-gram`
+
    - Measures the similarity between two files based on the commonality of n-grams (subsequences of length n), useful for text comparison.
-4. **BLEU Score**
+
+4. :doc:`BLEU Score`
+
    - Evaluates the similarity between two text files, typically used in translation quality measurement, by comparing n-grams between reference and candidate texts.
 
 **Binary and File Structure Distances**
@@ -35,13 +41,20 @@ These distances compare files by analyzing their textual content. This category 
 
 Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
 
-1. **Control Flow Graph (CFG) Distance**
+1. :doc:`Control Flow Graph (CFG) Distance`
+
    - Compares the control flow graphs of two executables or structured files, measuring the structural differences in program logic or file structure.
-2. **File Type Distance**
+
+2. :doc:`File Type Distance`
+
    - Identifies differences in file types based on their magic bytes or signatures, determining the nature of the files being compared.
-3. **System Call Trace Distance**
+
+3. :doc:`System Call Trace Distance`
+
    - Compares two executables by analyzing their system call traces during execution, identifying differences in runtime behavior.
-4. **Tree Edit Distance**
+
+4. :doc:`Tree Edit Distance`
+
    - Measures how many modifications (inserts, deletes, or substitutions) are needed to transform the tree structure of one file into another, commonly used in XML or JSON comparisons.
 
 **Metadata-Based Distances**
@@ -49,9 +62,12 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
 These distances compare files based on their metadata, such as creation date, file size, or permissions. They are useful for identifying differences in file attributes without analyzing content.
 
-1. **File Metadata Comparison**
+1. :doc:`FileMetadataComparison`
+
    - Compares file metadata attributes such as file size, creation date, and permissions, without considering file content.
-2. **File Size Distance**
+
+2. :doc:`FileSize`
+
    - A simple comparison based on the size of the two files, indicating differences in the amount of stored data.
 
 **Compression-Based Distances**
@@ -59,9 +75,12 @@ These distances compare files based on their metadata, such as creation date, fi
 
 Compression-based distances measure the similarity between files by evaluating how efficiently the files can be compressed together. This approach captures structural and content similarities, applicable to all file types.
 
-1. **Normalized Compression Distance (NCD)**
+1. :doc:`NormalizedCompression`
+
    - Measures the similarity between two files by comparing their individual compression sizes with the compression size of their concatenation, capturing shared structures and patterns.
-2. **Zlib Compression Distance**
+
+2. :doc:`ZlibCompression`
+
    - Uses the zlib compression algorithm to evaluate the similarity between files by comparing the effectiveness of compressing them together versus separately.
 
 Conclusion
