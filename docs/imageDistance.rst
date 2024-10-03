@@ -15,7 +15,7 @@ Categories of Image-Based Distances
 Pixel-Based Distances
 =====================
   
-  1. **:doc:`Euclidean`**  
+  1. ** :doc:`Euclidean` **  
    Measures the straight-line distance between two images by treating them as high-dimensional vectors of pixel values. It is useful for comparing images with similar alignment and size.
 
   2. **Manhattan Distance**  
