@@ -5,15 +5,15 @@ Introduction
 ============
 When comparing two texts, it's important to account for various aspects such as word frequency, sentence structure, semantic meaning, and syntactic patterns. The **Distancia** package provides a wide range of distance measures to evaluate textual similarity and dissimilarity based on these factors. These metrics can be used for tasks like document comparison, plagiarism detection, and machine translation evaluation. 
 
-Categories of Text-Based Distances
-==================================
+Categories
+==========
 
 1. **Lexical Distances**
 2. **Semantic Distances**
 3. **Structural Distances**
 4. **Statistical Distances**
 
-List of Distances
+List of Text-Based Distances
 =================
 
 **Lexical Distances**
