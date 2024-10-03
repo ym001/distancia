@@ -5,16 +5,16 @@ Introduction
 ============
 In file comparison, evaluating the similarity or difference between two files requires diverse metrics depending on the nature of the files—whether they are text, binary, structured formats like XML, or multimedia. The **Distancia** package offers various distance measures designed to capture differences and similarities in multiple aspects, including file structure, content, and metadata. This range of distances ensures versatility when comparing files for various tasks, from text comparison to file type identification.
 
-Categories of File-Based Distances
-==================================
+Categories 
+==========
 
 1. **Text-Based Distances**
 2. **Binary and File Structure Distances**
 3. **Metadata-Based Distances**
 4. **Compression-Based Distances**
 
-List of Distances
-=================
+List of of File-Based Distances
+===============================
 
 **Text-Based Distances**
 ------------------------
