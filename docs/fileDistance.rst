@@ -32,19 +32,19 @@ Compression-Based Distances
 Hash-Based Distances
 --------------------
 
-List of Distances with Descriptions
-===================================
+List of Distances
+=================
 
 **Metadata-Based Distances**
 ----------------------------
 
   These distances rely on the comparison of file metadata, such as size, creation date, permissions, or modification date. They provide a way to quickly assess file differences without examining the file content directly.
 
-1. **FileMetadataComparison**
+1. :doc:`FileMetadataComparison`
   
    - Compares files based on their metadata attributes like size, creation time, and access permissions.
   
-2. **FileSizeDistance**
+2. :doc:`FileSize`
   
    - Measures the difference between the sizes of two files, useful for quick assessments of large files.
 
@@ -53,11 +53,11 @@ List of Distances with Descriptions
 
 Content-based distances focus on the actual content of the files, comparing characters, bytes, or words. These methods are suitable for comparing text documents, binary files, or even encoded content such as base64 strings.
 
-1. **LevenshteinDistance**
+1. :doc:`Levenshtein`
 
    - Calculates the number of single-character edits (insertions, deletions, or substitutions) required to transform one file's content into another.
 
-2. **JaccardSimilarity**
+2. :doc:`Jaccard`
 
    - Compares the sets of words or characters in two files, providing a ratio of shared elements versus total unique elements.
 
@@ -66,11 +66,12 @@ Content-based distances focus on the actual content of the files, comparing char
 
 These distances compare the structure of files, particularly useful for structured formats like JSON, XML, or HTML. By comparing trees or nested hierarchies, they capture differences in the organization and relationships between elements.
 
-1. **TreeEditDistance**
+1. :doc:`TreeEditDistance`
 
    - Measures the difference between two tree structures, such as XML or JSON, based on the number of node insertions, deletions, or updates required to transform one tree into another.
 
-2. **CFGDistance**
+2. :doc:`CFGDistance`
+
    - Compares the control flow graphs (CFGs) of two files, particularly useful for executable or code files, by analyzing the differences in their execution structure.
 
 **Compression-Based Distances**
@@ -78,11 +79,11 @@ These distances compare the structure of files, particularly useful for structur
 
 These distances rely on compression techniques to measure how much two files share in common by comparing their individual and combined compression rates. These approaches are highly effective for files with repetitive structures or large amounts of redundant data.
 
-1. **ZlibCompressionDistance**
+1. :doc:`ZlibCompressionDistance`
 
    - Uses zlib compression to evaluate how much two files share in terms of common patterns and structures.
 
-2. **NormalizedCompressionDistance (NCD)**
+2. :doc:`NormalizedCompressionDistance`
 
    - Measures file similarity by comparing the combined compression of the two files with their individual compressions.
 
@@ -91,11 +92,11 @@ These distances rely on compression techniques to measure how much two files sha
 
 Hash-based distances compare files by computing and comparing their cryptographic hash values. These methods are efficient and suitable for detecting even small changes between files.
 
-1. **SimHashDistance**
+1. :doc:`SimHashDistance`
 
    - Generates SimHashes of the two files and computes the Hamming distance between them, providing an efficient method for comparing large sets of files.
 
-2. **MD5HashDistance**
+2. :doc:`MD5HashDistance`
 
    - Compares the MD5 hash values of two files, useful for detecting exact or near-exact duplicates.
 
