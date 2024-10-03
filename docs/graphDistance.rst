@@ -20,11 +20,16 @@ List of Graph Distances
 
   These distances focus on comparing the overall structure of the graphs, including their connectivity, edge relationships, and graph topology. They help determine how similar or different the structural frameworks of two graphs are.
 
-1. **Graph Edit Distance**
+1. :doc:`GraphEditDistance`
+
    - Measures the minimum number of operations (additions, deletions, substitutions) needed to transform one graph into another.
-2. **Hamming Distance**
+
+2. :doc:`Hamming`
+
    - Compares two graphs by calculating the number of differing edges between them, providing a simple structural comparison.
-3. **Jaccard Distance**
+
+3. :doc:`Jaccard`
+
    - Measures the dissimilarity between two graphs by comparing the sets of edges, using the ratio of the intersection to the union of edges.
 
 **Node-Based Distances**
@@ -32,11 +37,16 @@ List of Graph Distances
 
 Node-based distances compare graphs by analyzing the properties and relationships of individual nodes. They are particularly useful when you need to compare graphs based on local node attributes or node connections.
 
-1. **Degree Distribution Distance**
+1. :doc:`DegreeDistribution`
+
    - Compares the degree distributions of two graphs, capturing differences in the number of connections per node.
-2. **Matching Distance**
+
+2. :doc:`MatchingDistance`
+
    - Analyzes the alignment of node labels or node features between two graphs, measuring how well the nodes match.
-3. **Graphlet Distribution Distance**
+
+3. :doc:`GraphletDistribution`
+
    - Compares small subgraph (graphlet) occurrences within two graphs, capturing local structural similarities.
 
 **Spectral Distances**
@@ -44,11 +54,16 @@ Node-based distances compare graphs by analyzing the properties and relationship
 
 Spectral distances focus on comparing the eigenvalues or spectral properties of the graphs' adjacency or Laplacian matrices. These measures capture differences in the overall connectivity and flow within the graphs.
 
-1. **Spectral Distance**
+1. :doc:`SpectralDistance`
+
    - Compares the eigenvalues of the adjacency or Laplacian matrices of the two graphs, highlighting differences in graph connectivity and flow.
-2. **Heat Kernel Distance**
+
+2. :doc:`HeatKernel`
+
    - Uses the heat kernel representation of the graph's Laplacian matrix to measure the diffusion of information between nodes, capturing connectivity patterns.
-3. **Resistance Distance**
+
+3. :doc:`Resistance`
+
    - Based on the effective resistance between nodes, this distance measures how difficult it is for information to travel between different parts of the graph.
 
 Conclusion
