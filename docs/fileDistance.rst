@@ -14,24 +14,6 @@ Categories of File-Based Distances
 4. **Compression-Based Distances**
 5. **Hash-Based Distances**
 
-Description of Each Category
-============================
-
-Metadata-Based Distances
-------------------------
-
-Content-Based Distances
------------------------
-
-Structural-Based Distances
---------------------------
-
-Compression-Based Distances
----------------------------
-
-Hash-Based Distances
---------------------
-
 List of Distances
 =================
 
