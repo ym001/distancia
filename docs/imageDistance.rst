@@ -15,12 +15,12 @@ Categories of Image-Based Distances
 Pixel-Based Distances
 =====================
   
-  :doc:`Euclidean`  
-  ----------------
+  1. :doc:`Euclidean`  
    
   Measures the straight-line distance between two images by treating them as high-dimensional vectors of pixel values. It is useful for comparing images with similar alignment and size.
 
-  2. **Manhattan Distance**  
+  2. :doc:`Manhattan`
+
    Also known as the "taxicab" distance, this metric sums the absolute differences of the pixel values between two images. It's robust to small variations in pixel values.
 
   3. **Chebyshev Distance**  
