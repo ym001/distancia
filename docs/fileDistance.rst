@@ -3,85 +3,67 @@ File-Based Distances in Distancia
 
 Introduction
 ============
-In the world of data analysis and file comparison, measuring the similarity or difference between files is a crucial task. Files can be compared based on a variety of characteristics such as metadata, content, structure, or compression efficiency. **Distancia** offers a rich set of distance measures to compare files of various types, including text documents, binary files, and structured formats like JSON or XML. This document categorizes and describes the file-based distances available in the package.
+In file comparison, evaluating the similarity or difference between two files requires diverse metrics depending on the nature of the files—whether they are text, binary, structured formats like XML, or multimedia. The **Distancia** package offers various distance measures designed to capture differences and similarities in multiple aspects, including file structure, content, and metadata. This range of distances ensures versatility when comparing files for various tasks, from text comparison to file type identification.
 
 Categories of File-Based Distances
 ==================================
 
-1. **Metadata-Based Distances**
-2. **Content-Based Distances**
-3. **Structural-Based Distances**
+1. **Text-Based Distances**
+2. **Binary and File Structure Distances**
+3. **Metadata-Based Distances**
 4. **Compression-Based Distances**
-5. **Hash-Based Distances**
 
 List of Distances
 =================
 
+**Text-Based Distances**
+------------------------
+
+These distances compare files by analyzing their textual content. This category is ideal for comparing documents, code files, or any content-rich text, considering the frequency of words, structural patterns, or semantic meanings.
+
+1. **TF-IDF Distance**
+   - Measures the importance of terms in each document relative to a corpus, providing insight into the textual similarity of two files.
+2. **Cosine Similarity**
+   - Compares two text files by evaluating the angle between their term frequency vectors, focusing on word distribution and patterns.
+3. **N-gram Distance**
+   - Measures the similarity between two files based on the commonality of n-grams (subsequences of length n), useful for text comparison.
+4. **BLEU Score**
+   - Evaluates the similarity between two text files, typically used in translation quality measurement, by comparing n-grams between reference and candidate texts.
+
+**Binary and File Structure Distances**
+--------------------------------------
+
+Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
+
+1. **Control Flow Graph (CFG) Distance**
+   - Compares the control flow graphs of two executables or structured files, measuring the structural differences in program logic or file structure.
+2. **File Type Distance**
+   - Identifies differences in file types based on their magic bytes or signatures, determining the nature of the files being compared.
+3. **System Call Trace Distance**
+   - Compares two executables by analyzing their system call traces during execution, identifying differences in runtime behavior.
+4. **Tree Edit Distance**
+   - Measures how many modifications (inserts, deletes, or substitutions) are needed to transform the tree structure of one file into another, commonly used in XML or JSON comparisons.
+
 **Metadata-Based Distances**
 ----------------------------
 
-  These distances rely on the comparison of file metadata, such as size, creation date, permissions, or modification date. They provide a way to quickly assess file differences without examining the file content directly.
+These distances compare files based on their metadata, such as creation date, file size, or permissions. They are useful for identifying differences in file attributes without analyzing content.
 
-1. :doc:`FileMetadataComparison`
-  
-   - Compares files based on their metadata attributes like size, creation time, and access permissions.
-  
-2. :doc:`FileSize`
-  
-   - Measures the difference between the sizes of two files, useful for quick assessments of large files.
-
-**Content-Based Distances**
----------------------------
-
-Content-based distances focus on the actual content of the files, comparing characters, bytes, or words. These methods are suitable for comparing text documents, binary files, or even encoded content such as base64 strings.
-
-1. :doc:`Levenshtein`
-
-   - Calculates the number of single-character edits (insertions, deletions, or substitutions) required to transform one file's content into another.
-
-2. :doc:`Jaccard`
-
-   - Compares the sets of words or characters in two files, providing a ratio of shared elements versus total unique elements.
-
-**Structural-Based Distances**
-------------------------------
-
-These distances compare the structure of files, particularly useful for structured formats like JSON, XML, or HTML. By comparing trees or nested hierarchies, they capture differences in the organization and relationships between elements.
-
-1. :doc:`TreeEditDistance`
-
-   - Measures the difference between two tree structures, such as XML or JSON, based on the number of node insertions, deletions, or updates required to transform one tree into another.
-
-2. :doc:`CFGDistance`
-
-   - Compares the control flow graphs (CFGs) of two files, particularly useful for executable or code files, by analyzing the differences in their execution structure.
+1. **File Metadata Comparison**
+   - Compares file metadata attributes such as file size, creation date, and permissions, without considering file content.
+2. **File Size Distance**
+   - A simple comparison based on the size of the two files, indicating differences in the amount of stored data.
 
 **Compression-Based Distances**
 -------------------------------
 
-These distances rely on compression techniques to measure how much two files share in common by comparing their individual and combined compression rates. These approaches are highly effective for files with repetitive structures or large amounts of redundant data.
+Compression-based distances measure the similarity between files by evaluating how efficiently the files can be compressed together. This approach captures structural and content similarities, applicable to all file types.
 
-1. :doc:`ZlibCompressionDistance`
-
-   - Uses zlib compression to evaluate how much two files share in terms of common patterns and structures.
-
-2. :doc:`NormalizedCompressionDistance`
-
-   - Measures file similarity by comparing the combined compression of the two files with their individual compressions.
-
-**Hash-Based Distances**
-------------------------
-
-Hash-based distances compare files by computing and comparing their cryptographic hash values. These methods are efficient and suitable for detecting even small changes between files.
-
-1. :doc:`SimHashDistance`
-
-   - Generates SimHashes of the two files and computes the Hamming distance between them, providing an efficient method for comparing large sets of files.
-
-2. :doc:`MD5HashDistance`
-
-   - Compares the MD5 hash values of two files, useful for detecting exact or near-exact duplicates.
+1. **Normalized Compression Distance (NCD)**
+   - Measures the similarity between two files by comparing their individual compression sizes with the compression size of their concatenation, capturing shared structures and patterns.
+2. **Zlib Compression Distance**
+   - Uses the zlib compression algorithm to evaluate the similarity between files by comparing the effectiveness of compressing them together versus separately.
 
 Conclusion
 ==========
-The **Distancia** package provides a wide range of file comparison methods, addressing various file types and comparison needs. Whether you're working with metadata, raw content, structured data, or compressible formats, **Distancia** offers efficient and effective distance measures. These distances can be applied to diverse scenarios, such as detecting duplicates, comparing document versions, analyzing code structures, or optimizing file storage. By categorizing the comparison methods into metadata, content, structure, compression, and hash-based approaches, **Distancia** ensures that users have the right tools for their file comparison tasks, regardless of the file format or the level of detail required.
+The **Distancia** package offers a comprehensive set of file-based distance measures, making it a versatile tool for comparing files of various types and formats. Whether working with text documents, executable binaries, or structured data like XML, the range of distance metrics ensures that you can choose the most appropriate method for your specific needs. By covering different aspects such as content, structure, and metadata, **Distancia** allows for nuanced and robust file comparison, suitable for applications ranging from document analysis to software engineering.
