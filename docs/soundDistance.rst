@@ -36,7 +36,7 @@ Time-based distances measure similarities or differences directly in the time do
 
    - Directly compares the raw waveform of two signals, useful for detecting small time-domain differences.
 
-2. :doc:`DynamicTimeWarping` (DTW)
+2. :doc:`DynamicTimeWarping` 
 
    - Aligns two audio signals in time to measure their similarity, often used in speech processing.
 
