@@ -92,7 +92,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Available Metrics
 -----------------
-1. :doc:'vectorDistance'
+1. :doc:`vectorDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -145,7 +145,7 @@ Available Metrics
    KullbackLeibler
 
  
-Similarity
+2. :doc:`matrixDistance`
 
 .. toctree::
    :maxdepth: 1
