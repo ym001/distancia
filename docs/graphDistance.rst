@@ -1,5 +1,5 @@
-Graph Distances in Distancia
-============================
+Graph Distances
+===============
 
 Introduction
 ============
