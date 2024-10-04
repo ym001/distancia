@@ -1,5 +1,5 @@
-Text-Based Distances in Distancia
-=================================
+Text-Based Distances
+====================
 
 Introduction
 ============
