@@ -1,5 +1,5 @@
-Vector-Based Distances in Distancia
-===================================
+Vector-Based Distances
+======================
 
 Introduction
 ============
