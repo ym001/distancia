@@ -1,5 +1,5 @@
-File-Based Distances in Distancia
-=================================
+File-Based Distances
+====================
 
 Introduction
 ============
