@@ -380,7 +380,7 @@ Available Metrics
 
 . :doc:`ByteLevelDistance`
 
-:doc:`HashComparison`
+* :doc:`HashComparison`
 
 :doc:`NormalizedCompressionDistance`
 
@@ -393,8 +393,6 @@ Available Metrics
 :doc:`FileTypeDistance`
 
 :doc:`TreeEditDistance`
-
-:doc:`ZlibBasedDistance`
 
 :doc:`ZlibBasedDistance`
 
