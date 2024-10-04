@@ -172,148 +172,7 @@ Available Metrics
 
    Gestalt
 
-3. :doc:`timeDistance`
-
-.. toctree::
-   :maxdepth: 1
-
-   DynamicTimeWarping
-
-   LongestCommonSubsequence
-
-   Frechet
-
-4. :doc:`lossFunction`
-
-.. toctree::
-   :maxdepth: 1
-
-   CrossEntropy
-
-   MeanAbsoluteError
-
-   MeanAbsolutePercentageError
-
-   MeanSquaredError
-
-   SquaredLogarithmicError
-
-   GaloisWassersteinLoss
-
-
-5. :doc:`graphDistance`
-
-.. toctree::
-   :maxdepth: 1
-
-   ShortestPath
-
-   GraphEditDistance
-
-   SpectralDistance
-
-   WeisfeilerLehmanSimilarity
-
-   ComparingRandomWalkStationaryDistributions
-
-   Diffusion
-
-   FrobeniusDistance
-
-   GraphKernelDistance
-
-   PatternBasedDistance
-
-   GraphCompressionDistance
-
-   DegreeDistributionDistance
-
-   CommunityStructureDistance
-
-6. :doc:`markovChainDistance`
-
-.. toctree::
-   :maxdepth: 1
-
-   MarkovChainKullbackLeibler
-
-   MarkovChainWasserstein
-
-   MarkovChainTotalVariation
-
-   MarkovChainHellinger
-
-   MarkovChainJensenShannon
-
-   MarkovChainFrobenius
-
-   MarkovChainSpectral
-
-7. :doc:`imageDistance`
-
-.. toctree::
-   :maxdepth: 1
-
-   StructuralSimilarityIndex
-
-   PeakSignalToNoiseRatio
-
-   HistogramIntersection
-
-   EarthMoversDistance
-
-   ChiSquareDistance
-
-   FeatureBasedDistance
-
-   PerceptualHashing
-
-   NormalizedCrossCorrelation
-
-8. :doc:`soundDistance`
-
-.. toctree::
-   :maxdepth: 1
-
-   SpectralConvergence
-
-   MFCCProcessor
-
-   SignalProcessor
-
-   PowerSpectralDensityDistance
-
-   CrossCorrelation
-
-   PhaseDifferenceCalculator
-
-   TimeLagDistance
-
-   PESQ
-
-   LogSpectralDistance
-
-   BarkSpectralDistortion
-
-   ItakuraSaitoDistance
-
-   SignalToNoiseRatio
-
-   EnergyDistance
-
-   EnvelopeCorrelation
-
-   ZeroCrossingRateDistance
-
-   CochleagramDistance
-
-   ChromagramDistance
-
-   SpectrogramDistance
-
-   CQTDistance
-
-9. :doc:`textDistance`
+3. :doc:`textDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -375,6 +234,150 @@ Available Metrics
    MongeElkanDistance
 
    JensenShannonDivergence
+
+4. :doc:`timeDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   DynamicTimeWarping
+
+   LongestCommonSubsequence
+
+   Frechet
+
+5. :doc:`lossFunction`
+
+.. toctree::
+   :maxdepth: 1
+
+   CrossEntropy
+
+   MeanAbsoluteError
+
+   MeanAbsolutePercentageError
+
+   MeanSquaredError
+
+   SquaredLogarithmicError
+
+   GaloisWassersteinLoss
+
+
+6. :doc:`graphDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   ShortestPath
+
+   GraphEditDistance
+
+   SpectralDistance
+
+   WeisfeilerLehmanSimilarity
+
+   ComparingRandomWalkStationaryDistributions
+
+   Diffusion
+
+   FrobeniusDistance
+
+   GraphKernelDistance
+
+   PatternBasedDistance
+
+   GraphCompressionDistance
+
+   DegreeDistributionDistance
+
+   CommunityStructureDistance
+
+7. :doc:`markovChainDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   MarkovChainKullbackLeibler
+
+   MarkovChainWasserstein
+
+   MarkovChainTotalVariation
+
+   MarkovChainHellinger
+
+   MarkovChainJensenShannon
+
+   MarkovChainFrobenius
+
+   MarkovChainSpectral
+
+8. :doc:`imageDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   StructuralSimilarityIndex
+
+   PeakSignalToNoiseRatio
+
+   HistogramIntersection
+
+   EarthMoversDistance
+
+   ChiSquareDistance
+
+   FeatureBasedDistance
+
+   PerceptualHashing
+
+   NormalizedCrossCorrelation
+
+9. :doc:`soundDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   SpectralConvergence
+
+   MFCCProcessor
+
+   SignalProcessor
+
+   PowerSpectralDensityDistance
+
+   CrossCorrelation
+
+   PhaseDifferenceCalculator
+
+   TimeLagDistance
+
+   PESQ
+
+   LogSpectralDistance
+
+   BarkSpectralDistortion
+
+   ItakuraSaitoDistance
+
+   SignalToNoiseRatio
+
+   EnergyDistance
+
+   EnvelopeCorrelation
+
+   ZeroCrossingRateDistance
+
+   CochleagramDistance
+
+   ChromagramDistance
+
+   SpectrogramDistance
+
+   CQTDistance
+
+10. :doc:`fileDistance`
+
 
 And many more...
 
