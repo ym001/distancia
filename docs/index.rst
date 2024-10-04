@@ -378,15 +378,24 @@ Available Metrics
 
 10. :doc:`fileDistance`
 
-:doc:`ByteLevelDistance`
+.:doc:`ByteLevelDistance`
+
 :doc:`HashComparison`
+
 :doc:`NormalizedCompressionDistance`
+
 :doc:`KolmogorovComplexity`
+
 :doc:`DynamicBinaryInstrumentation`
+
 :doc:`FileMetadataComparison`
+
 :doc:`FileTypeDistance`
+
 :doc:`TreeEditDistance`
+
 :doc:`ZlibBasedDistance`
+
 :doc:`ZlibBasedDistance`
 
 And many more...
