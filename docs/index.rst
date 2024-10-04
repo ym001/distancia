@@ -92,7 +92,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Available Metrics
 -----------------
-Distance
+1. :doc:'vectorDistance'
 
 .. toctree::
    :maxdepth: 1
