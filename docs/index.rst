@@ -230,7 +230,7 @@ Available Metrics
 
    CommunityStructureDistance
 
-6. :doc:`markovchainDistance`
+6. :doc:`markovChainDistance`
 
 .. toctree::
    :maxdepth: 1
