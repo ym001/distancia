@@ -1,5 +1,5 @@
-Audio-Based Distances in Distancia
-==================================
+Audio-Based Distances
+=====================
 
 Introduction
 ============
