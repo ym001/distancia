@@ -378,7 +378,7 @@ Available Metrics
 
 10. :doc:`fileDistance`
 
-.:doc:`ByteLevelDistance`
+. :doc:`ByteLevelDistance`
 
 :doc:`HashComparison`
 
