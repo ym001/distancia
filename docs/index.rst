@@ -172,8 +172,7 @@ Available Metrics
 
    Gestalt
 
-
-Time Series Distance Metrics
+3. :doc:`timeDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -184,7 +183,7 @@ Time Series Distance Metrics
 
    Frechet
 
-Loss function
+4. :doc:`lossFunction`
 
 .. toctree::
    :maxdepth: 1
@@ -202,7 +201,7 @@ Loss function
    GaloisWassersteinLoss
 
 
-Distance between two graphs
+5. :doc:`graphDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -231,7 +230,7 @@ Distance between two graphs
 
    CommunityStructureDistance
 
-Distance between two Markov Chain
+6. :doc:`markovchainDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -250,7 +249,7 @@ Distance between two Markov Chain
 
    MarkovChainSpectral
 
-Distance between two images
+7. :doc:`imageDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -271,7 +270,7 @@ Distance between two images
 
    NormalizedCrossCorrelation
 
-Distance between two sounds
+8. :doc:`soundDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -314,7 +313,7 @@ Distance between two sounds
 
    CQTDistance
 
-Distance between two text
+9. :doc:`textDistance`
 
 .. toctree::
    :maxdepth: 1
