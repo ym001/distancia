@@ -1,5 +1,5 @@
-Matrix Distances in Distancia
-=============================
+Matrix Distances
+================
 
 Introduction
 ============
