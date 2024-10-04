@@ -1,5 +1,5 @@
-Markov Chain Distances in Distancia
-===================================
+Markov Chain Distances
+======================
 
 Introduction
 ============
