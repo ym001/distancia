@@ -21,7 +21,7 @@ Categories
 List of of File-Based Distances
 ===============================
 
-#. **Binary and File Structure Distances**
+1. **Binary and File Structure Distances**
 --------------------------------------
 
 Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
