@@ -32,7 +32,7 @@ Categories
 
 #. **Time Series-Based Distances**
 
-List of of File-Based Distances
+List of File-Based Distances
 ===============================
 
 
