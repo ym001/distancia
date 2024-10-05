@@ -5,6 +5,8 @@
 APICompatibility
 =================
 
+:index:`APICompatibility`
+
 Introduction
 ------------
 
