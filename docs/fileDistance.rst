@@ -70,7 +70,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
    #. :doc:`Euclidean` 
 
-      -Square root of the sum of the squares of the byte differences between two files.
+      - Square root of the sum of the squares of the byte differences between two files.
 
 
 #. **Hash-Based Distances**
