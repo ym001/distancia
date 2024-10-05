@@ -79,7 +79,8 @@ List of of File-Based Distances
    1. :doc:`MD5/SHA Hash Comparison`
 
       - Measures the similarity between two files by comparing their cryptographic hash values.
-Perceptual Hash (pHash) : Utilisé pour comparer deux fichiers d'image ou multimédias en fonction de leur perception visuelle.
+
+   #. :doc:`PerceptualHash` : Utilisé pour comparer deux fichiers d'image ou multimédias en fonction de leur perception visuelle.
 
    #. :doc:`SimHash` 
 
