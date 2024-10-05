@@ -163,69 +163,68 @@ These distances compare files by analyzing their textual content. This category 
 
 2. :doc:`PeakSignal-to-NoiseRatio` 
 
-   - Mesure la qualité de l'image ou de la vidéo en se basant sur la différence maximale d'intensité possible.
+- Measures image or video quality based on the maximum possible intensity difference.
 
 3. :doc:`HistogramIntersection` 
 
-   - Mesure la similarité entre les histogrammes d'intensité des fichiers d'image.
+- Measures the similarity between intensity histograms of image files.
 
 4. :doc:`EarthMoverDistance` 
 
-   - Utilisé pour comparer les distributions de couleur ou de texture entre deux images.
+- Used to compare color or texture distributions between two images.
 
 5. :doc:`Chi-Square` 
 
-   - Mesure la similarité des histogrammes de deux images.
+- Measures the similarity of the histograms of two images.
 
 **Audio-Based Distances (for audio files)**
 -------------------------------------------
 
 1. :doc:`Mel-frequencyCepstralCoefficients` 
 
-   - Compare les caractéristiques spectrales des fichiers audio.
+- Compares the spectral characteristics of audio files.
 
 2. :doc:`PerceptualEvaluationofSpeechQuality` 
 
-   - Évalue la qualité audio en fonction de la perception humaine.
+- Rates audio quality based on human perception.
 
 3. :doc:`Cross-Correlation`
 
-   - Mesure la corrélation des spectres entre deux fichiers audio.
+- Measures the correlation of spectra between two audio files.
 
 4. :doc:`SpectrogramDistance`
 
-   - Compare les spectrogrammes de deux fichiers audio ou de données de capteurs.
+- Compares spectrograms of two audio files or sensor data.
 
 5. :doc:`CepstralDistance`
 
-   - Mesure la différence entre les représentations cepstrales de deux signaux audio ou voix.
+- Measures the difference between the cepstral representations of two audio or voice signals.
 
 **Network and Graph-Based Distances**
 -------------------------------------
 
 1. :doc:`Graph Edit Distance`
 
-   - Compare deux fichiers en tant que graphes (comme les fichiers XML ou JSON) en mesurant le nombre d'opérations nécessaires pour transformer un graphe en un autre.
+- Compares two files as graphs (like XML or JSON files) by measuring the number of operations needed to transform one graph into another.
 
 2. :doc:`Jaccard` 
 
-   - Compare la similarité entre deux graphes basés sur leurs ensembles de nœuds et d’arêtes communs.
+- Compares the similarity between two graphs based on their common sets of nodes and edges.
 
 3. :doc:`Wasserstein Distance`
 
-   - Distance applicable pour comparer des distributions ou des graphes en les traitant comme des séries temporelles ou des réseaux.
+- Distance applicable to compare distributions or graphs by treating them as time series or networks.
 
 **Time Series-Based Distances (for logs or temporal data)**
 -----------------------------------------------------------
 
 1. :doc:`DynamicTimeWarping`
 
-   - Mesure la similarité entre deux séquences temporelles, comme des fichiers de log ou des séquences d'événements.
+- Measures the similarity between two time sequences, such as log files or event sequences.
 
 2. :doc:`Hausdorff Distance`
 
-   - Utilisé pour comparer deux ensembles de points ou de séquences temporelles.
-
+- Used to compare two sets of points or time sequences.
 
 
 Conclusion
