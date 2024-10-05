@@ -30,9 +30,11 @@ Categories
 
 List of of File-Based Distances
 ===============================
+.. sectnum::
 
-1. **Binary and File Structure Distances**
-   ---------------------------------------
+
+**Binary and File Structure Distances**
+---------------------------------------
 
 Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
 
@@ -72,8 +74,8 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
       - Square root of the sum of the squares of the byte differences between two files.
 
-#. **Hash-Based Distances**
-   ------------------------
+**Hash-Based Distances**
+-----------------------
 
    1. :doc:`MD5/SHA Hash Comparison`
 
@@ -87,8 +89,8 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
       - Used to measure similarity between text documents, especially in the case of large collections of files.
 
-#. **Compression-Based Distances**
-   -------------------------------
+**Compression-Based Distances**
+-------------------------------
 
    1. :doc:`NormalizedCompression`
 
