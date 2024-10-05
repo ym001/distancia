@@ -26,13 +26,13 @@ Categories
 
 #. **Network and Graph-Based Distances**
 
-1#. **Time Series-Based Distances**
+#. **Time Series-Based Distances**
 
 List of of File-Based Distances
 ===============================
 
 1. **Binary and File Structure Distances**
-------------------------------------------
+   ---------------------------------------
 
 Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
 
@@ -72,9 +72,8 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
       - Square root of the sum of the squares of the byte differences between two files.
 
-
 #. **Hash-Based Distances**
----------------------------
+   ------------------------
 
    1. :doc:`MD5/SHA Hash Comparison`
 
@@ -88,9 +87,8 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
       - Used to measure similarity between text documents, especially in the case of large collections of files.
 
-
 #. **Compression-Based Distances**
-----------------------------------
+   -------------------------------
 
    1. :doc:`NormalizedCompression`
 
@@ -119,7 +117,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
       - Compares traces of system calls made by two executable files when they are executed.
 
-#.**Metadata-Based Distances**
+#. **Metadata-Based Distances**
 ------------------------------
 
 These distances compare files based on their metadata, such as creation date, file size, or permissions. They are useful for identifying differences in file attributes without analyzing content.
@@ -137,7 +135,7 @@ These distances compare files based on their metadata, such as creation date, fi
       - Compare les types de fichiers basés sur leur signature (magic bytes) ou leur format.
 
 
-#.**Text-Based Distances**
+#. **Text-Based Distances**
 --------------------------
 
 These distances compare files by analyzing their textual content. This category is ideal for comparing documents, code files, or any content-rich text, considering the frequency of words, structural patterns, or semantic meanings.
@@ -170,8 +168,8 @@ These distances compare files by analyzing their textual content. This category 
 
       - Finds the longest common subsequence between two text files.
 
-**Image-Based Distances (for multimedia files)**
-------------------------------------------------
+#. **Image-Based Distances (for multimedia files)**
+---------------------------------------------------
 
    1. :doc:`StructuralSimilarityIndex` 
 
@@ -193,8 +191,8 @@ These distances compare files by analyzing their textual content. This category 
 
       - Measures the similarity of the histograms of two images.
 
-**Audio-Based Distances (for audio files)**
--------------------------------------------
+#. **Audio-Based Distances (for audio files)**
+----------------------------------------------
 
    1. :doc:`Mel-frequencyCepstralCoefficients` 
    
@@ -216,8 +214,8 @@ These distances compare files by analyzing their textual content. This category 
 
       - Measures the difference between the cepstral representations of two audio or voice signals.
 
-**Network and Graph-Based Distances**
--------------------------------------
+#. **Network and Graph-Based Distances**
+----------------------------------------
 
    1. :doc:`Graph Edit Distance`
 
@@ -231,8 +229,8 @@ These distances compare files by analyzing their textual content. This category 
 
       - Distance applicable to compare distributions or graphs by treating them as time series or networks.
 
-**Time Series-Based Distances (for logs or temporal data)**
------------------------------------------------------------
+#. **Time Series-Based Distances (for logs or temporal data)**
+--------------------------------------------------------------
 
    1. :doc:`DynamicTimeWarping`
 
