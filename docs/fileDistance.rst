@@ -83,7 +83,7 @@ Perceptual Hash (pHash) : Utilisé pour comparer deux fichiers d'image ou multim
 
    #. :doc:`SimHash` 
 
-   - Used to measure similarity between text documents, especially in the case of large collections of files.
+      - Used to measure similarity between text documents, especially in the case of large collections of files.
 
 **Compression-Based Distances**
 -------------------------------
