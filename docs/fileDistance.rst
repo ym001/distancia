@@ -32,7 +32,7 @@ List of of File-Based Distances
 ===============================
 
 1. **Binary and File Structure Distances**
---------------------------------------
+------------------------------------------
 
    Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
 
@@ -74,20 +74,23 @@ List of of File-Based Distances
 
 
 #. **Hash-Based Distances**
-------------------------
+---------------------------
 
    1. :doc:`MD5/SHA Hash Comparison`
 
       - Measures the similarity between two files by comparing their cryptographic hash values.
 
-   #. :doc:`PerceptualHash` : Utilisé pour comparer deux fichiers d'image ou multimédias en fonction de leur perception visuelle.
+   #. :doc:`PerceptualHash` 
+
+      - Utilisé pour comparer deux fichiers d'image ou multimédias en fonction de leur perception visuelle.
 
    #. :doc:`SimHash` 
 
       - Used to measure similarity between text documents, especially in the case of large collections of files.
 
-**Compression-Based Distances**
--------------------------------
+
+#. **Compression-Based Distances**
+----------------------------------
 
 1. :doc:`NormalizedCompression`
 
