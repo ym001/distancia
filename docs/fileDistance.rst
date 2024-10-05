@@ -8,7 +8,7 @@ In file comparison, evaluating the similarity or difference between two files re
 Categories 
 ==========
 1. **Binary and File Structure Distances**
-2. **Hash-Based Distances**
+#. **Hash-Based Distances**
 3. **Compression-Based Distances**
 4. **Execution-Based Distances** 
 5. **Metadata-Based Distances**
