@@ -1,7 +1,9 @@
+====================
 File-Based Distances
 ====================
+
 .. sectnum::
-   start:4
+   start: 3
 
 Introduction
 ============
