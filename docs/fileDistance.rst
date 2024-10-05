@@ -7,9 +7,13 @@ In file comparison, evaluating the similarity or difference between two files re
 
 Categories 
 ==========
+
 1. **Binary and File Structure Distances**
+
 #. **Hash-Based Distances**
+
 3. **Compression-Based Distances**
+
 4. **Execution-Based Distances** 
 5. **Metadata-Based Distances**
 6. **Image-Based Distances**
@@ -30,11 +34,11 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
    - Compares the control flow graphs of two executables or structured files, measuring the structural differences in program logic or file structure.
 
-2. :doc:`FileTypeDistance`
+#. :doc:`FileTypeDistance`
 
    - Identifies differences in file types based on their magic bytes or signatures, determining the nature of the files being compared.
 
-3. :doc:`SystemCallTraceDistance`
+#. :doc:`SystemCallTraceDistance`
 
    - Compares two executables by analyzing their system call traces during execution, identifying differences in runtime behavior.
 
