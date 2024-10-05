@@ -12,15 +12,21 @@ Categories
 
 #. **Hash-Based Distances**
 
-3. **Compression-Based Distances**
+#. **Compression-Based Distances**
 
-4. **Execution-Based Distances** 
-5. **Metadata-Based Distances**
-6. **Image-Based Distances**
-7. **Text-Based Distances**
-8. **Audio-Based Distances**
-9. **Network and Graph-Based Distances**
-10. **Time Series-Based Distances**
+#. **Execution-Based Distances** 
+
+#. **Metadata-Based Distances**
+
+#. **Image-Based Distances**
+
+#. **Text-Based Distances**
+
+#. **Audio-Based Distances**
+
+#. **Network and Graph-Based Distances**
+
+1#. **Time Series-Based Distances**
 
 List of of File-Based Distances
 ===============================
@@ -42,29 +48,30 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
    - Compares two executables by analyzing their system call traces during execution, identifying differences in runtime behavior.
 
-4. :doc:`TreeEditDistance`
+#. :doc:`TreeEditDistance`
 
    - Measures how many modifications (inserts, deletes, or substitutions) are needed to transform the tree structure of one file into another, commonly used in XML or JSON comparisons.
 
-5. :doc:`Hamming`
+#. :doc:`Hamming`
 
    - Compares two files at the binary or byte level by counting the number of different bits.
 
-6. :doc:`Levenshtein` 
+#. :doc:`Levenshtein` 
 
    - Measures the minimum number of operations required to transform one file into another (insertion, deletion, or substitution of characters/bytes).
 
-7. :doc:`Jaccard` 
+#. :doc:`Jaccard` 
 
 - Compares the similarity between two sets of bytes or segments by calculating the ratio of common elements.
 
-8. :doc:`Manhattan` 
+#. :doc:`Manhattan` 
 
    - Sum of absolute differences between corresponding bytes of two files.
 
-9. :doc:`Euclidean` 
+#. :doc:`Euclidean` 
 
 -Square root of the sum of the squares of the byte differences between two files.
+
 
 #. **Hash-Based Distances**
 ------------------------
@@ -74,7 +81,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
    - Measures the similarity between two files by comparing their cryptographic hash values.
 Perceptual Hash (pHash) : Utilisé pour comparer deux fichiers d'image ou multimédias en fonction de leur perception visuelle.
 
-2. :doc:`SimHash` 
+#. :doc:`SimHash` 
 
 - Used to measure similarity between text documents, especially in the case of large collections of files.
 
@@ -85,11 +92,11 @@ Perceptual Hash (pHash) : Utilisé pour comparer deux fichiers d'image ou multim
 
    - Measures the similarity between two files by comparing their individual compression sizes with the compression size of their concatenation, capturing shared structures and patterns.
 
-2. :doc:`Kolmogorov Complexity`
+#. :doc:`Kolmogorov Complexity`
 
    - Approximée via la compression, elle mesure la quantité d'information partagée entre deux fichiers.
 
-3. :doc:`ZlibCompression`
+#. :doc:`ZlibCompression`
 
    - Uses the zlib compression algorithm to evaluate the similarity between files by comparing the effectiveness of compressing them together versus separately.
 
@@ -100,11 +107,11 @@ Perceptual Hash (pHash) : Utilisé pour comparer deux fichiers d'image ou multim
 
    - Measures the difference in the execution behavior of two executable files.
 
-2. :doc:`ControlFlowGraph`
+#. :doc:`ControlFlowGraph`
 
    - Compares the control structure of two programs through their control flow graphs.
 
-3. :doc:`SystemCallTrace` 
+#. :doc:`SystemCallTrace` 
 
    - Compares traces of system calls made by two executable files when they are executed.
 
@@ -117,11 +124,11 @@ These distances compare files based on their metadata, such as creation date, fi
 
    - Compares file metadata attributes such as file size, creation date, and permissions, without considering file content.
 
-2. :doc:`FileSize`
+#. :doc:`FileSize`
 
    - A simple comparison based on the size of the two files, indicating differences in the amount of stored data.
 
-3. :doc:`FileTypeDistance` 
+#. :doc:`FileTypeDistance` 
 
    - Compare les types de fichiers basés sur leur signature (magic bytes) ou leur format.
 
@@ -134,27 +141,27 @@ These distances compare files by analyzing their textual content. This category 
 
    - Measures the importance of terms in each document relative to a corpus, providing insight into the textual similarity of two files.
 
-2. :doc:`Cosine`
+#. :doc:`Cosine`
 
    - Compares two text files by evaluating the angle between their term frequency vectors, focusing on word distribution and patterns.
 
-3. :doc:`N-gram`
+#. :doc:`N-gram`
 
    - Measures the similarity between two files based on the commonality of n-grams (subsequences of length n), useful for text comparison.
 
-4. :doc:`BLEU Score`
+#. :doc:`BLEU Score`
 
    - Evaluates the similarity between two text files, typically used in translation quality measurement, by comparing n-grams between reference and candidate texts.
 
-5. :doc:`WordMoverDistance`
+#. :doc:`WordMoverDistance`
 
 - Uses word vector representations to calculate the semantic distance between two text files.
 
-6. :doc:`BERT-BasedDistance` 
+#. :doc:`BERT-BasedDistance` 
 
 - Uses embeddings generated by language models like BERT to calculate semantic similarity between two documents.
 
-7. :doc:`LongestCommonSubsequence`
+#. :doc:`LongestCommonSubsequence`
 
 - Finds the longest common subsequence between two text files.
 
@@ -165,19 +172,19 @@ These distances compare files by analyzing their textual content. This category 
 
 - Compares the perceived quality between two images or videos.
 
-2. :doc:`PeakSignal-to-NoiseRatio` 
+#. :doc:`PeakSignal-to-NoiseRatio` 
 
 - Measures image or video quality based on the maximum possible intensity difference.
 
-3. :doc:`HistogramIntersection` 
+#. :doc:`HistogramIntersection` 
 
 - Measures the similarity between intensity histograms of image files.
 
-4. :doc:`EarthMoverDistance` 
+#. :doc:`EarthMoverDistance` 
 
 - Used to compare color or texture distributions between two images.
 
-5. :doc:`Chi-Square` 
+#. :doc:`Chi-Square` 
 
 - Measures the similarity of the histograms of two images.
 
@@ -188,19 +195,19 @@ These distances compare files by analyzing their textual content. This category 
 
 - Compares the spectral characteristics of audio files.
 
-2. :doc:`PerceptualEvaluationofSpeechQuality` 
+#. :doc:`PerceptualEvaluationofSpeechQuality` 
 
 - Rates audio quality based on human perception.
 
-3. :doc:`Cross-Correlation`
+#. :doc:`Cross-Correlation`
 
 - Measures the correlation of spectra between two audio files.
 
-4. :doc:`SpectrogramDistance`
+#. :doc:`SpectrogramDistance`
 
 - Compares spectrograms of two audio files or sensor data.
 
-5. :doc:`CepstralDistance`
+#. :doc:`CepstralDistance`
 
 - Measures the difference between the cepstral representations of two audio or voice signals.
 
@@ -211,11 +218,11 @@ These distances compare files by analyzing their textual content. This category 
 
 - Compares two files as graphs (like XML or JSON files) by measuring the number of operations needed to transform one graph into another.
 
-2. :doc:`Jaccard` 
+#. :doc:`Jaccard` 
 
 - Compares the similarity between two graphs based on their common sets of nodes and edges.
 
-3. :doc:`Wasserstein Distance`
+#. :doc:`Wasserstein Distance`
 
 - Distance applicable to compare distributions or graphs by treating them as time series or networks.
 
@@ -226,7 +233,7 @@ These distances compare files by analyzing their textual content. This category 
 
 - Measures the similarity between two time sequences, such as log files or event sequences.
 
-2. :doc:`Hausdorff Distance`
+#. :doc:`Hausdorff Distance`
 
 - Used to compare two sets of points or time sequences.
 
