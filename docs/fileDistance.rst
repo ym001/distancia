@@ -62,7 +62,7 @@ List of of File-Based Distances
 
    #. :doc:`Jaccard` 
 
-   - Compares the similarity between two sets of bytes or segments by calculating the ratio of common elements.
+      - Compares the similarity between two sets of bytes or segments by calculating the ratio of common elements.
 
    #. :doc:`Manhattan` 
 
@@ -70,7 +70,7 @@ List of of File-Based Distances
 
    #. :doc:`Euclidean` 
 
-   -Square root of the sum of the squares of the byte differences between two files.
+      -Square root of the sum of the squares of the byte differences between two files.
 
 
 #. **Hash-Based Distances**
@@ -92,52 +92,53 @@ List of of File-Based Distances
 #. **Compression-Based Distances**
 ----------------------------------
 
-1. :doc:`NormalizedCompression`
+   1. :doc:`NormalizedCompression`
 
-   - Measures the similarity between two files by comparing their individual compression sizes with the compression size of their concatenation, capturing shared structures and patterns.
+      - Measures the similarity between two files by comparing their individual compression sizes with the compression size of their concatenation, capturing shared structures and patterns.
 
-#. :doc:`Kolmogorov Complexity`
+   #. :doc:`Kolmogorov Complexity`
 
-   - Approximée via la compression, elle mesure la quantité d'information partagée entre deux fichiers.
+      - Approximée via la compression, elle mesure la quantité d'information partagée entre deux fichiers.
 
-#. :doc:`ZlibCompression`
+   #. :doc:`ZlibCompression`
 
-   - Uses the zlib compression algorithm to evaluate the similarity between files by comparing the effectiveness of compressing them together versus separately.
+      - Uses the zlib compression algorithm to evaluate the similarity between files by comparing the effectiveness of compressing them together versus separately.
 
 #. **Execution-Based Distances (for executable files)**
 ------------------------------------------------------
 
-1. :doc:`DynamicBinaryInstrumentation` 
+   1. :doc:`DynamicBinaryInstrumentation` 
 
-   - Measures the difference in the execution behavior of two executable files.
+      - Measures the difference in the execution behavior of two executable files.
 
-#. :doc:`ControlFlowGraph`
+   #. :doc:`ControlFlowGraph`
 
-   - Compares the control structure of two programs through their control flow graphs.
+      - Compares the control structure of two programs through their control flow graphs.
 
-#. :doc:`SystemCallTrace` 
+   #. :doc:`SystemCallTrace` 
 
-   - Compares traces of system calls made by two executable files when they are executed.
+      - Compares traces of system calls made by two executable files when they are executed.
 
-**Metadata-Based Distances**
-----------------------------
+#.**Metadata-Based Distances**
+------------------------------
 
-These distances compare files based on their metadata, such as creation date, file size, or permissions. They are useful for identifying differences in file attributes without analyzing content.
+   These distances compare files based on their metadata, such as creation date, file size, or permissions. They are useful for identifying differences in file attributes without analyzing content.
 
-1. :doc:`FileMetadataComparison`
+   1. :doc:`FileMetadataComparison`
 
-   - Compares file metadata attributes such as file size, creation date, and permissions, without considering file content.
+      - Compares file metadata attributes such as file size, creation date, and permissions, without considering file content.
+   
+   #. :doc:`FileSize`
 
-#. :doc:`FileSize`
+      - A simple comparison based on the size of the two files, indicating differences in the amount of stored data.
 
-   - A simple comparison based on the size of the two files, indicating differences in the amount of stored data.
+   #. :doc:`FileTypeDistance` 
 
-#. :doc:`FileTypeDistance` 
+      - Compare les types de fichiers basés sur leur signature (magic bytes) ou leur format.
 
-   - Compare les types de fichiers basés sur leur signature (magic bytes) ou leur format.
 
-**Text-Based Distances**
-------------------------
+#.**Text-Based Distances**
+--------------------------
 
 These distances compare files by analyzing their textual content. This category is ideal for comparing documents, code files, or any content-rich text, considering the frequency of words, structural patterns, or semantic meanings.
 
