@@ -44,20 +44,40 @@ Here's a simple Python example demonstrating how to calculate the Levenshtein Di
 
 .. code-block:: python
 
-    from distancia import Levenshtein
+   from distancia import Levenshtein
 
-    # Define two strings
-    str1 = "kitten"
-    str2 = "sitting"
+   # Example of use with word listslev = Levenshtein()
+   distance = lev.compute(['the', 'quick', 'brown', 'fox'], ['the', 'fast', 'brown', 'dog'])
+   print(f"Distance between word lists : {distance}")
 
-    # Calculate Levenshtein Distance
-    distance = Levenshtein().calculate(str1, str2)
+   # Example of use with the method for sentences
+   sentence1 = "the quick brown fox jumps over the lazy dog"
+   sentence2 = "the fast brown fox leaps over the sleepy cat"
+   distance_words = Levenshtein.levenshtein_distance_words(sentence1, sentence2)
+   print(f"Distance between sentences : {distance_words}")
 
-    print(f"Levenshtein Distance: {distance}")
+   # Example with lists of numbers
+   lev_num = Levenshtein()
+   distance_num = lev_num.compute([1, 2, 3, 4], [1, 3, 4, 5])
+   print(f"Distance between lists of numbers : {distance_num}")
+
+   # Use with default costs
+   lev = Levenshtein()
+   distance = lev.compute("kitten", "sitting")
+   print(f"Default distance : {distance}")
+
+   # Usage with custom costs
+   lev_custom = Levenshtein(insert_cost=1.5, delete_cost=0.5, replace_cost=1.0)
+   distance_custom = lev_custom.compute("kitten", "sitting")
+   print(f"Distance with custom costs : {distance_custom}")
 
 .. code-block:: python
 
-   >>>Levenshtein Distance: 3
+   >>>Distance between word lists : 2.0
+   >>>Distance between sentences : 4.0
+   >>>Distance between lists of numbers : 2.0
+   >>>Default distance: 3.0
+   >>>Distance with custom costs : 3.5
 
 In this example, the strings `"kitten"` and `"sitting"` are compared. The Levenshtein Distance between these strings is calculated and printed, showing the minimum number of edits required to change one string into the other.
 
