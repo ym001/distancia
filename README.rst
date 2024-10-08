@@ -63,7 +63,7 @@ Here are some common examples of how to use distancia:
    # Calculate the Euclidean distance
    distance = euclidean.compute(point1, point2)
 
-   print(f"Euclidean Distance: {distance.:4f}")
+   print(f"Euclidean Distance: {distance:4f}")
 
 .. code-block:: bash
 
@@ -81,7 +81,7 @@ Here are some common examples of how to use distancia:
    string2 = "sitting"
 
    distance = Levenshtein().compute(string1, string2)
-   print(f"Levenshtein Distance: {distance.:4f}")
+   print(f"Levenshtein Distance: {distance:4f}")
 
 .. code:: bash
 
