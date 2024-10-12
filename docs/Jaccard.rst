@@ -42,21 +42,71 @@ Here's a simple Python example demonstrating how to calculate the Jaccard Simila
 
 .. code-block:: python
 
-    from distancia import Jaccard
+   from distancia import Jaccard, CustomObject
 
-    # Define two sets
-    set1 = {1, 2, 3, 4, 5}
-    set2 = {4, 5, 6, 7, 8}
+   def main():
+       jaccard_dist = JaccardDistance()
 
-    # Calculate Jaccard Similarity
-    similarity = Jaccard().calculate(set1, set2)
+       print("Example with strings:")
+       s1 = ["apple", "banana", "cherry", "date"]
+       s2 = ["banana", "cherry", "date", "elderberry"]
+    
+       distance_s = jaccard_dist.distance(s1, s2)
+       similarity_s = jaccard_dist.similarity(s1, s2)
 
-    print(f"Jaccard Similarity: {similarity}")
+       print(f"Jaccard distance between {s1} and {s2}: {distance_s:.4f}")
+       print(f"Jaccard similarity between {s1} and {s2}: {similarity_s:.4f}")
+
+       print("\nExample with integers:")
+       i1 = [1, 2, 3, 4, 5]
+       i2 = [4, 5, 6, 7, 8]
+
+       distance_i = jaccard_dist.distance(i1, i2)
+       similarity_i = jaccard_dist.similarity(i1, i2)
+
+       print(f"Jaccard distance between {i1} and {i2}: {distance_i:.4f}")
+       print(f"Jaccard similarity between {i1} and {i2}: {similarity_i:.4f}")
+
+       print("\nExample with custom objects:")
+       c1 = [CustomObject("a"), CustomObject("b"), CustomObject("c"), CustomObject(1)]
+       c2 = [CustomObject("b"), CustomObject("c"), CustomObject(1), CustomObject(2)]
+
+       distance_c = jaccard_dist.distance(c1, c2)
+       similarity_c = jaccard_dist.similarity(c1, c2)
+
+       print(f"Jaccard distance between {c1} and {c2}: {distance_c:.4f}")
+       print(f"Jaccard similarity between {c1} and {c2}: {similarity_c:.4f}")
+
+       print("\nEdge case - empty lists:")
+       empty1: List[int] = []
+       empty2: List[int] = []
+
+       distance_empty = jaccard_dist.distance(empty1, empty2)
+       similarity_empty = jaccard_dist.similarity(empty1, empty2)
+
+       print(f"Jaccard distance between {empty1} and {empty2}: {distance_empty:.4f}")
+       print(f"Jaccard similarity between {empty1} and {empty2}: {similarity_empty:.4f}")
+
+   if __name__ == "__main__":
+       main()
 
 .. code-block:: bash
 
-   >>>Jaccard Similarity: 0.75
+   >>>Example with strings:
+   >>>Jaccard distance between ['apple', 'banana', 'cherry', 'date'] and ['banana', 'cherry', 'date', 'elderberry']: 0.4000
+   >>>Jaccard similarity between ['apple', 'banana', 'cherry', 'date'] and ['banana', 'cherry', 'date', 'elderberry']: 0.6000
 
+   >>>Example with integers:
+   >>>Jaccard distance between [1, 2, 3, 4, 5] and [4, 5, 6, 7, 8]: 0.7500
+   >>>Jaccard similarity between [1, 2, 3, 4, 5] and [4, 5, 6, 7, 8]: 0.2500
+
+   >>>Example with custom objects:
+   >>>Jaccard distance between [CustomObject(a), CustomObject(b), CustomObject(c), CustomObject(1)] and [CustomObject(b),  CustomObject(c), CustomObject(1), CustomObject(2)]: 0.4000
+   >>>Jaccard similarity between [CustomObject(a), CustomObject(b), CustomObject(c), CustomObject(1)] and [CustomObject(b),    >>>CustomObject(c), CustomObject(1), CustomObject(2)]: 0.6000
+
+   >>>Edge case - empty lists:
+   >>>Jaccard distance between [] and []: 0.0000
+   >>>Jaccard similarity between [] and []: 1.0000
 
 In this example, two sets `{1, 2, 3, 4, 5}` and `{4, 5, 6, 7, 8}` are compared. The Jaccard Similarity between these sets is calculated and printed, showing the proportion of shared elements relative to the total number of unique elements.
 
