@@ -46,20 +46,52 @@ Here's a simple Python example demonstrating how to calculate the Cosine Similar
 
 .. code-block:: python
 
-    from distancia import CosineSimilarity
+   from distancia import Cosine
 
-    # Define two vectors
-    vector1 = [1, 2, 3]
-    vector2 = [4, 5, 6]
+   def main():
+       cosine_dist = Cosine()
 
-    # Calculate Cosine Similarity
-    similarity = CosineSimilarity().calculate(vector1, vector2)
+       print("Exemple avec des chaînes de caractères:")
+       text1 = "La programmation en Python est amusante et puissante"
+       text2 = "Python est un langage de programmation populaire et puissant"
+       text3 = "Les chats sont des animaux fascinants"
 
-    print(f"Cosine Similarity: {similarity}")
+       distance1_2 = cosine_dist.compute(text1, text2)
+       distance1_3 = cosine_dist.compute(text1, text3)
+       distance2_3 = cosine_dist.compute(text2, text3)
+
+       print(f"Distance entre text1 et text2: {distance1_2:.4f}")
+       print(f"Distance entre text1 et text3: {distance1_3:.4f}")
+       print(f"Distance entre text2 et text3: {distance2_3:.4f}")
+
+       print("\nExemple avec des vecteurs de nombres flottants:")
+       vector1 = [1.0, 2.0, 3.0, 4.0, 5.0]
+       vector2 = [1.0, 2.0, 3.0, 4.0, 5.0]  # Identique à vector1
+       vector3 = [5.0, 4.0, 3.0, 2.0, 1.0]  # Inverse de vector1
+       vector4 = [0.0, 0.0, 0.0, 0.0, 0.0]  # Vecteur nul
+
+       distance_v1_v2 = cosine_dist.compute(vector1, vector2)
+       distance_v1_v3 = cosine_dist.compute(vector1, vector3)
+       distance_v1_v4 = cosine_dist.compute(vector1, vector4)
+
+       print(f"Distance entre vector1 et vector2 (identiques): {distance_v1_v2:.4f}")
+       print(f"Distance entre vector1 et vector3 (inverses): {distance_v1_v3:.4f}")
+       print(f"Distance entre vector1 et vector4 (nul): {distance_v1_v4:.4f}")
+
+   if __name__ == "__main__":
+       main()
 
 .. code-block:: bash
 
-   >>>Cosine Similarity: 0.9746318461970762
+   >>>Exemple avec des chaînes de caractères:
+   >>>Distance entre text1 et text2: 0.5286
+   >>>Distance entre text1 et text3: 1.0000
+   >>>Distance entre text2 et text3: 1.0000
+
+   >>>Exemple avec des vecteurs de nombres flottants:
+   >>>Distance entre vector1 et vector2 (identiques): 0.0000
+   >>>Distance entre vector1 et vector3 (inverses): 0.3636
+   >>>Distance entre vector1 et vector4 (nul): 1.0000
 
 
 In this example, the vectors :math:`\mathbf{A} = (1, 2, 3)` and :math:`\mathbf{B} = (4, 5, 6)` are compared. The Cosine Similarity between these vectors is calculated and printed.
