@@ -40,20 +40,58 @@ Here's a simple Python example demonstrating how to calculate the Hamming Distan
 
 .. code-block:: python
 
-    from distancia import Hamming
+    
+   from distancia import Hamming
 
-    # Define two binary strings
-    binary_string1 = '1101001'
-    binary_string2 = '1001101'
+   def main():
+       hamming_dist = Hamming()
 
-    # Calculate Hamming Distance
-    distance = Hamming().calculate(binary_string1, binary_string2)
+       print("Example with strings:")
+       s1 = "karolin"
+       s2 = "kathrin"
+       s3 = "kerstin"
+    
+       distance1_2 = hamming_dist.compute(s1, s2)
+       distance1_3 = hamming_dist.compute(s1, s3)
+       normalized_distance1_2 = hamming_dist.normalized_distance(s1, s2)
 
-    print(f"Hamming Distance: {distance}")
+       print(f"Hamming distance between '{s1}' and '{s2}': {distance1_2}")
+       print(f"Hamming distance between '{s1}' and '{s3}': {distance1_3}")
+       print(f"Normalized Hamming distance between '{s1}' and '{s2}': {normalized_distance1_2:.4f}")
+
+       print("\nExample with integer vectors:")
+       v1 = [1, 0, 1, 1, 0, 1, 1]
+       v2 = [1, 1, 0, 1, 0, 0, 1]
+       v3 = [0, 0, 0, 0, 0, 0, 0]
+
+       distance_v1_v2 = hamming_dist.compute(v1, v2)
+       distance_v1_v3 = hamming_dist.compute(v1, v3)
+       normalized_distance_v1_v2 = hamming_dist.normalized_distance(v1, v2)
+
+       print(f"Hamming distance between {v1} and {v2}: {distance_v1_v2}")
+       print(f"Hamming distance between {v1} and {v3}: {distance_v1_v3}")
+       print(f"Normalized Hamming distance between {v1} and {v2}: {normalized_distance_v1_v2:.4f}")
+
+       try:
+           hamming_dist.compute("hello", "world!")  # Different lengths
+       except ValueError as e:
+           print(f"\nError handled: {e}")
+
+   if __name__ == "__main__":
+       main()
 
 .. code-block:: bash
 
-   >>>Hamming Distance: 2
+   >>>Example with strings:
+   >>>Hamming distance between 'karolin' and 'kathrin': 3
+   >>>Hamming distance between 'karolin' and 'kerstin': 3
+   >>>Normalized Hamming distance between 'karolin' and 'kathrin': 0.4286
+
+   >>>Example with integer vectors:
+   >>>Hamming distance between [1, 0, 1, 1, 0, 1, 1] and [1, 1, 0, 1, 0, 0, 1]: 3
+   >>>Hamming distance between [1, 0, 1, 1, 0, 1, 1] and [0, 0, 0, 0, 0, 0, 0]: 5
+   >>>Normalized Hamming distance between [1, 0, 1, 1, 0, 1, 1] and [1, 1, 0, 1, 0, 0, 1]: 0.4286
+
 
 In this example, the binary strings `1101001` and `1001101` are compared. The Hamming Distance between these strings is calculated and printed.
 
