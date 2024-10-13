@@ -27,24 +27,25 @@ Sample
 .. code-block:: python
 
    import networkx as nx
-   from DiffusionDistance import DiffusionDistance
+   from distancia import DiffusionDistance
 
    # Créer deux graphes
    G1 = nx.erdos_renyi_graph(10, 0.3, seed=42)
    G2 = nx.erdos_renyi_graph(10, 0.35, seed=42)
+   steps = 5
 
    # Initialiser l'objet DiffusionDistance
-   diffusion_distance = DiffusionDistance(G1, G2)
+   diffusion_distance = DiffusionDistance(steps)
 
    # Comparer les processus de diffusion
    source_node = 0
-   steps = 5
-   l1_distance = diffusion_distance.compare_diffusion(source_node, steps, metric='l1')
-   l2_distance = diffusion_distance.compare_diffusion(source_node, steps, metric='l2')
+   l1_distance = diffusion_distance.compute(G1, G2,source_node)
+   diffusion_distance = DiffusionDistance(steps,metric='l2')
+
+   l2_distance = diffusion_distance.compute(G1, G2,source_node)
 
    print(f"L1 distance between diffusion processes: {l1_distance:.4f}")
    print(f"L2 distance between diffusion processes: {l2_distance:.4f}")
-   Meaning of Diffusion Distance
 
 .. code-block:: bash
 
