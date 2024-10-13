@@ -33,7 +33,8 @@ The Pattern-Based Distance provides a quantitative measure of the difference in 
 
 .. code-block:: python
 
-  # Exemple d'utilisation
+  from distancia import PatternBasedDistance
+
   nodes1 = ["A", "B", "C", "D"]
   edges1 = [("A", "B"), ("B", "C"), ("C", "A"), ("A", "D")]
 
@@ -43,10 +44,9 @@ The Pattern-Based Distance provides a quantitative measure of the difference in 
   graph1 = Graph(nodes1, edges1)
   graph2 = Graph(nodes2, edges2)
 
-  pattern_distance = PatternBasedDistance(graph1, graph2, motif_size=3)
-  distance = pattern_distance.compute()
+  pattern_distance = PatternBasedDistance(motif_size=3).compute(graph1, graph2)
 
-  print(f"La distance basée sur les motifs entre les deux graphes est: {distance}")
+  print(f"La distance basée sur les motifs entre les deux graphes est: {pattern_distance}")
 
 .. code-block:: bash
 
