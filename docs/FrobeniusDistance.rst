@@ -35,21 +35,20 @@ Example
 -------
 .. code-block:: python
 
-  from distancia import FrobeniusDistance
+ from distancia import FrobeniusDistance, Graph
 
-  nodes1 = ["A", "B", "C"]
-  edges1 = [("A", "B"), ("B", "C")]
+ nodes1 = ["A", "B", "C"]
+ edges1 = [("A", "B"), ("B", "C")]
 
-  nodes2 = ["A", "B", "C"]
-  edges2 = [("A", "B"), ("A", "C")]
+ nodes2 = ["A", "B", "C"]
+ edges2 = [("A", "B"), ("A", "C")]
 
-  graph1 = Graph(nodes1, edges1)
-  graph2 = Graph(nodes2, edges2)
+ graph1 = Graph(nodes1, edges1)
+ graph2 = Graph(nodes2, edges2)
+ print(graph1.adjacency_matrix)
+ frobenius_distance = FrobeniusDistance().compute(graph1, graph2)
 
-  frobenius_distance = FrobeniusDistance(graph1, graph2)
-  distance = frobenius_distance.compute()
-
-  print(f"La distance de Frobenius entre les deux graphes est: {distance}")
+ print(f"La distance de Frobenius entre les deux graphes est: {frobenius_distance}")
 
 .. code-block:: bash
 
