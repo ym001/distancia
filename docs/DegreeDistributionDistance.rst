@@ -52,10 +52,8 @@ The degree distribution captures the overall connectivity pattern in a graph. By
     }
 
     # Instanciation de la classe DegreeDistributionDistance avec les deux graphes
-    distance_calculator = DegreeDistributionDistance(graph1, graph2)
+    distance_calculator = DegreeDistributionDistance().compute(graph1, graph2)
 
-    # Calcul de la distance entre les distributions de degré des deux graphes
-    distance = distance_calculator.compute_distance()
 
     # Affichage du résultat
     print("Distance basée sur les distributions de degré :", distance)
