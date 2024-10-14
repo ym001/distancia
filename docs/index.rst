@@ -108,10 +108,6 @@ Available Metrics
 
    Bhattacharyya
 
-   Mahalanobis
-
-   MahalanobisTaguchi
-
    Haversine
 
    Chebyshev
@@ -144,12 +140,6 @@ Available Metrics
 
    KullbackLeibler
 
- 
-2. :doc:`matrixDistance`
-
-.. toctree::
-   :maxdepth: 1
-
    Jaccard
 
    GeneralizedJaccard
@@ -172,6 +162,18 @@ Available Metrics
 
    Gestalt
 
+
+ 
+2. :doc:`matrixDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   Mahalanobis
+
+   MahalanobisTaguchi
+
+   
 3. :doc:`textDistance`
 
 .. toctree::
