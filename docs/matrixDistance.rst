@@ -35,7 +35,9 @@ These distances compare two matrices by evaluating differences between correspon
 These distances are based on matrix norms, which are generalizations of vector norms.
 
     Frobenius Norm: Sum of the squares of the matrix elements, often used to compare the overall magnitude of two matrices.
+
     Nuclear Norm: Sum of the singular values of the matrix, often used for comparing low-rank matrices.
+
     Operator Norm: Based on the largest singular value (spectral norm) of the difference between two matrices.
 
 3. Kernel-Based Distance
@@ -43,7 +45,9 @@ These distances are based on matrix norms, which are generalizations of vector n
 These methods compute distances between matrices using kernels, which map matrices to higher-dimensional spaces.
 
     Gaussian Kernel Distance: Measures similarity based on the Gaussian kernel applied to matrix entries.
+
     Polynomial Kernel Distance: Computes distances using a polynomial kernel applied to matrix entries.
+
     RBF (Radial Basis Function) Distance: Another kernel-based measure, widely used for comparing matrix-valued data.
 
 4. Geometric Distance
@@ -51,7 +55,9 @@ These methods compute distances between matrices using kernels, which map matric
 These distances treat matrices as geometric objects and compute distances based on their structure.
 
     Procrustes Distance: Measures the similarity between two matrices by finding the best alignment through rotation, scaling, and translation.
+
     Hausdorff Distance: Measures the maximum distance of a point in one matrix to the closest point in the other matrix.
+
     Earth Mover’s Distance (Wasserstein Distance): Measures the minimum "cost" to transform one matrix into another, useful in distributions or spatial data.
 
 5. Decomposition-Based Distance
@@ -59,7 +65,9 @@ These distances treat matrices as geometric objects and compute distances based 
 These methods rely on matrix decompositions like SVD or eigenvalue decompositions.
 
     Subspace Distance: Measures the distance between the subspaces spanned by two matrices, using singular value decomposition (SVD).
+
     Canonical Correlation Distance: Compares matrices by measuring the correlation between their canonical variables.
+
     Eigenvalue-Based Distance: Compares matrices based on the differences between their eigenvalues (often for symmetric matrices).
 
 6. Information-Theoretic Distance
@@ -67,7 +75,9 @@ These methods rely on matrix decompositions like SVD or eigenvalue decomposition
 These methods compare matrices using concepts from information theory, often treating matrices as probabilistic models.
 
     Kullback-Leibler (KL) Divergence: Measures the divergence between two matrices viewed as probability distributions.
+
     Jensen-Shannon Divergence: A symmetrized and smoothed version of KL divergence for matrix comparison.
+
     Log-Determinant Divergence: Measures the divergence between two positive semi-definite matrices using their determinants.
 
 7. Graph-Based Distance
@@ -75,7 +85,9 @@ These methods compare matrices using concepts from information theory, often tre
 If matrices are adjacency matrices of graphs, specialized graph distances are used.
 
     Spectral Graph Distance: Compares matrices based on their eigenvalue spectra, often used for graph adjacency matrices.
+
     Graph Edit Distance: Measures the number of edits (insertion, deletion, modification of edges/nodes) needed to transform one graph into another.
+
     Resistance Distance: Based on electrical network theory, comparing the resistance of nodes between two graph adjacency matrices.
 
 8. Statistical Distance
@@ -83,7 +95,9 @@ If matrices are adjacency matrices of graphs, specialized graph distances are us
 These distances focus on comparing matrices that represent statistical properties or distributions.
 
     Mahalanobis Distance: Takes into account the correlations between variables in the matrices, useful for covariance matrices.
+
     Bhattacharyya Distance: Measures the overlap between statistical distributions represented by two matrices.
+
     Energy Distance: Measures the statistical distance between two matrices in terms of their probability distributions.
 
 9. Compression-Based Distance
@@ -91,6 +105,7 @@ These distances focus on comparing matrices that represent statistical propertie
 These methods compress the matrices and then compare their compressed versions.
 
     Normalized Compression Distance (NCD): Uses compression algorithms (like zlib) to measure the complexity difference between two matrices.
+
     Kolmogorov Complexity: Measures the difference between the compressibility of two matrices by estimating their algorithmic complexity.
 
 10. Matrix Factorization-Based Distance
@@ -98,6 +113,7 @@ These methods compress the matrices and then compare their compressed versions.
 These methods are based on matrix factorizations like NMF (Non-negative Matrix Factorization) or PCA (Principal Component Analysis).
 
     Non-negative Matrix Factorization (NMF) Distance: Compares matrices based on their factorizations into non-negative components.
+
     Principal Component Distance: Measures the distance between two matrices by comparing their principal components (from PCA).
 
 **Norm-Based Distances**
