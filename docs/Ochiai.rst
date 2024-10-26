@@ -51,23 +51,29 @@ Here is an example of how to use the Ochiai distance with the `distanciaa` packa
     # Import the distanciaa package
     from distancia import Ochiai
 
-    # Define two binary vectors representing data points
-    binary_vector_1 = [1, 0, 1, 1, 0, 1, 0]
-    binary_vector_2 = [1, 1, 0, 1, 0, 1, 1]
+    ochiai = Ochiai()
 
-    # Create an instance of the OchiaiDistance class
-    ochiai_dist = Ochiai()
+    # Test with sets
+    set1 = {1, 2, 3, 4}
+    set2 = {2, 3, 4, 5}
+    print(f"Sets test: {ochiai.compute(set1, set2)}")
 
-    # Calculate the Ochiai distance between the two binary vectors
-    distance = ochiai_dist.calculate(binary_vector_1, binary_vector_2)
+    # Test with lists
+    list1 = ['a', 'b', 'c', 'd']
+    list2 = ['b', 'c', 'd', 'e']
+    print(f"Lists test: {ochiai.compute(list1, list2)}")
 
-    # Print the result
-    print(f"The Ochiai distance between the two binary vectors is: {distance}")
+    # Test with mixed types
+    mixed1 = {1, 2, 3}
+    mixed2 = [2, 3, 4]
+    print(f"Mixed types test: {ochiai.compute(mixed1, mixed2)}")
 
 Expected Output:
 .. code-block:: bash
 
-    >>>The Ochiai distance between the two binary vectors is: 0.6708203932499369
+    >>>Sets test: 0.25
+    >>>Lists test: 0.25
+    >>>Mixed types test: 0.33333333333333337
 
 Academic Reference
 ------------------
