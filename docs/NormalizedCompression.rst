@@ -1,5 +1,5 @@
-NormalizedCompressionDistance
-==============================
+NormalizedCompression
+=====================
 
 Introduction
 ------------
