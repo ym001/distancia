@@ -69,6 +69,7 @@ Here is an example of how to use the Ochiai distance with the `distanciaa` packa
     print(f"Mixed types test: {ochiai.compute(mixed1, mixed2)}")
 
 Expected Output:
+
 .. code-block:: bash
 
     >>>Sets test: 0.25
