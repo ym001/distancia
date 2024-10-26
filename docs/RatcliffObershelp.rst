@@ -38,26 +38,66 @@ The Ratcliff/Obershelp distance provides a measure of dissimilarity between two 
 
     from distancia import RatcliffObershelp  # Import the RatcliffObershelp class from the distancia package
 
-    def main():
-        # Define two strings for comparison
-        string1 = "example string for comparison"
-        string2 = "example string for comparision"
-
-        # Create an instance of the RatcliffObershelp class
-        ratcliff_obershelp_distance = RatcliffObershelp()
-
-        # Calculate the Ratcliff/Obershelp distance
-        distance = ratcliff_obershelp_distance.calculate(string1, string2)
-
-        # Print the result
-        print(f"Ratcliff/Obershelp distance between '{string1}' and '{string2}' is: {distance:.4f}")
+    def run_tests() -> None:
+        """
+        Run test cases to demonstrate usage and verify functionality.
+        """
+        ro = RatcliffObershelp(case_sensitive=False)
+    
+        # Test cases
+        test_pairs = [
+        ("hello", "hello world"),
+        ("PYTHON", "python"),
+        ("distance", "difference"),
+        ("", "test"),  # Should raise ValueError
+        ("The quick brown fox", "The quick brown dog"),
+        ("Ratcliff", "Obershelp"),
+        ("algorithm", "logarithm"),
+    ]
+    
+        for seq1, seq2 in test_pairs:
+            try:
+                distance = ro.compute(seq1, seq2)
+                quick_ratio = ro.quick_ratio(seq1, seq2)
+            
+                print(f"\nTest: '{seq1}' vs '{seq2}'")
+                print(f"Distance: {distance:.4f}")
+                print(f"Quick ratio: {quick_ratio:.4f}")
+            
+            except ValueError as e:
+                print(f"\nError with '{seq1}' vs '{seq2}': {str(e)}")
 
     if __name__ == "__main__":
-        main()
+        run_tests()
 
 .. code-block:: bash
 
-    >>>Ratcliff/Obershelp distance between 'example string for comparison' and 'example string for comparision' is: -0.8983
+   Test: 'hello' vs 'hello world'
+    Distance: 0.3750
+    Quick ratio: 0.6250
+
+    Test: 'PYTHON' vs 'python'
+    Distance: 0.0000
+    Quick ratio: 1.0000
+
+    Test: 'distance' vs 'difference'
+    Distance: 0.4444
+    Quick ratio: 0.5556
+
+    Error with '' vs 'test': Input sequences cannot be empty
+
+    Test: 'The quick brown fox' vs 'The quick brown dog'
+    Distance: 0.1053
+    Quick ratio: 0.8947
+
+    Test: 'Ratcliff' vs 'Obershelp'
+    Distance: 0.7647
+    Quick ratio: 0.2353
+
+    Test: 'algorithm' vs 'logarithm'
+    Distance: 0.3333
+    Quick ratio: 0.6667
+ 
 
 History
 --------
