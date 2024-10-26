@@ -384,7 +384,7 @@ Available Metrics
 
 * :doc:`HashComparison`
 
-* :doc:`NormalizedCompressionDistance`
+* :doc:`NormalizedCompression`
 
 * :doc:`KolmogorovComplexity`
 
