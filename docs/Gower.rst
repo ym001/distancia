@@ -69,15 +69,15 @@ This coefficient is particularly useful in fields like ecology, social science, 
         # Compute and print the Gower similarity for each pair
         for vec1, vec2, ranges in test_cases:
             similarity = Gower(ranges).compute(vec1, vec2)
-            print(f"Gower similarity between {vec1} and {vec2}: {similarity:.4f}")
+            print(f"Gower distance between {vec1} and {vec2}: {distance:.4f}")
 
 .. code-block:: python
 
-    >>>Gower similarity between ['Red', 3.2, 5] and ['Blue', 4.1, 3]: 0.5400
-    >>>Gower similarity between [5.5, 'M', 200] and [6.1, 'F', 180]: 0.5133
-    >>>Gower similarity between [0, 'High', 10] and [1, 'Low', 10]: 0.3333
-    >>>Gower similarity between [100, 'Yes', 3.5] and [150, 'No', 2.8]: 0.2867
-    >>>Gower similarity between [1.5, 'Green', 2] and [1.5, 'Green', 2]: 1.0000
+    >>>Gower distance between ['Red', 3.2, 5] and ['Blue', 4.1, 3]: 0.5400
+    >>>Gower distance between [5.5, 'M', 200] and [6.1, 'F', 180]: 0.5133
+    >>>Gower distance between [0, 'High', 10] and [1, 'Low', 10]: 0.3333
+    >>>Gower distance between [100, 'Yes', 3.5] and [150, 'No', 2.8]: 0.2867
+    >>>Gower distance between [1.5, 'Green', 2] and [1.5, 'Green', 2]: 1.0000
 
 History
 -------
