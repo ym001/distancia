@@ -26,31 +26,37 @@ Sample
 ======
 .. code-block:: python
 
-   import networkx as nx
-   from distancia import DiffusionDistance
+      from distancia import DiffusionDistance
 
-   # Créer deux graphes
-   G1 = nx.erdos_renyi_graph(10, 0.3, seed=42)
-   G2 = nx.erdos_renyi_graph(10, 0.35, seed=42)
-   steps = 5
+      graph1 = Graph(weighted=True)
+      graph1.add_edge("A", "B", 1.0)
+      graph1.add_edge("B", "C", 2.0)
+      graph1.add_edge("C", "A", 1.5)
 
-   # Initialiser l'objet DiffusionDistance
-   diffusion_distance = DiffusionDistance(steps)
+      graph2 = Graph(directed=False, weighted=True)
+      graph2.add_edge("A", "B", 2.0)
+      graph2.add_edge("B", "C", 1.0)
+      graph2.add_edge("C", "D", 1.0)
+      graph2.add_edge("D", "E", 1.0)
 
-   # Comparer les processus de diffusion
-   source_node = 0
-   l1_distance = diffusion_distance.compute(G1, G2,source_node)
-   diffusion_distance = DiffusionDistance(steps,metric='l2')
-
-   l2_distance = diffusion_distance.compute(G1, G2,source_node)
-
-   print(f"L1 distance between diffusion processes: {l1_distance:.4f}")
-   print(f"L2 distance between diffusion processes: {l2_distance:.4f}")
+      comparator = DiffusionDistance()
+    
+      # Compare basic properties
+      results = comparator.compare_graphs(graph1, graph2)
+      print("Graph comparison results:", results)
+    
+      # Compare diffusion processes
+      start_nodes = {"A"}
+      diffusion_results = comparator.compare_diffusion_processes(
+        graph1, graph2, start_nodes, steps=5, num_simulations=10
+    )
+      print("Diffusion comparison results:", diffusion_results)
 
 .. code-block:: bash
 
-   >>>L1 distance between diffusion processes: 557124462311584.2500
-   >>>L2 distance between diffusion processes: 186791387234450.2188
+   Graph comparison results: {'stationary_distance': 0.7999999999999999, 'hitting_time_distance': 2.3333333333333335, 'kernel_distance': 7.49216390608629e-11}
+   Diffusion comparison results: {'average_difference': 1.1999999999999997, 'max_difference': 1.2, 'min_difference': 1.2}
+
 
 =============================
 
