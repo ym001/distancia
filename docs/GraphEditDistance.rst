@@ -36,28 +36,31 @@ To compute the Graph Edit Distance between `graph1` and `graph2`, we use the `Gr
 
       from distancia import GraphEditDistance
 
-      graph1 = {
-          'A': {'B', 'C'},
-          'B': {'A', 'C'},
-          'C': {'A', 'B'}
-      }
-
-      graph2 = {
-          'A': {'B'},
-          'B': {'A', 'D'},
-          'C': {'D'},
-          'D': {'B', 'C'}
-      }
-
-      ged_calculator = GraphEditDistance()
-      distance = ged_calculator.calculate(graph1, graph2)
-      print(f"The Graph Edit Distance between the two graphs is: {distance}")
+      g1 = Graph(directed=False, weighted=True)
+    
+        # Add some edges
+        g1.add_edge("A", "B", 4)
+        g1.add_edge("B", "C", 3)
+        g1.add_edge("C", "D", 2)
+        g1.add_edge("D", "A", 5)
+        
+        g2 = Graph(directed=False, weighted=True)
+    
+        # Add some edges
+        g2.add_edge("A", "B", 4)
+        g2.add_edge("C", "D", 2)
+        g2.add_edge("D", "A", 5)
+        
+        #graph=Graph(Graph.nodes_1,Graph.edges_1)
+        distance=self.compute(g1,g2)
+        print(f"{self.__class__.__name__} distance between {g2} in {g1} is {distance:.2f}")
 
 This will output the total number of node and edge edits needed to transform graph1 into graph2.
 
 .. code-block:: bash
 
-      The Graph Edit Distance between the two graphs is: 5
+      GraphEditDistance distance between <distancia.tools.Graph object at 0x7f78d3640090> in <distancia.tools.Graph object at 0x7f78d3275790> is 7.00
+
 
 Academic Reference
 -----------------
