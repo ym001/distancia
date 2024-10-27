@@ -20,27 +20,27 @@ Here is a simple example of how to use the `ShortestPath` class:
 
 .. code-block:: python
 
-     from distancia import ShortestPath
+        from distancia import ShortestPath
 
-    # Define a graph using a dictionary
-    graph = {
-        'A': {'B': 1, 'C': 4},
-        'B': {'A': 1, 'C': 2, 'D': 5},
-        'C': {'A': 4, 'B': 2, 'D': 1},
-        'D': {'B': 5, 'C': 1}
-    }
-
-    # Initialize the ShortestPath class with the graph
-    shortest_path_calculator = ShortestPath()
-
-    # Compute the shortest path distance between nodes 'A' and 'D'
-    distance = shortest_path_calculator.calculate(graph,'A', 'D')
-    print(f"The shortest path distance between A and D is: {distance}")
-
+        # Create a weighted, undirected graph
+        g = Graph(directed=False, weighted=True)
+    
+        # Add some edges
+        g.add_edge("A", "B", 4)
+        g.add_edge("B", "C", 3)
+        g.add_edge("C", "D", 2)
+        g.add_edge("D", "A", 5)
+    
+        # Perform Dijkstra
+        distance, path = self.compute(g,"A", "C")
+        print(f"Shortest path from A to C: {path}")
+        print(f"Distance: {distance}")
+        print(f"{self.__class__.__name__} distance between A and C in {g} is {distance:.2f}")
 
 .. code-block:: bash
 
-    >>>La distance du plus court chemin entre A et D est : 4
+    >>>ShortestPath distance between A and C in <distancia.tools.Graph object at 0x7f78d3ae2790> is 7.00
+
 
 In this example, the graph is defined with nodes 'A', 'B', 'C', and 'D'. The ShortestPath class calculates the shortest distance from node 'A' to node 'D', which in this case would be 4.
 
