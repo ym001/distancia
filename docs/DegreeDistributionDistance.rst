@@ -30,37 +30,26 @@ The degree distribution captures the overall connectivity pattern in a graph. By
 
 .. code-block:: python
 
-    from distancia import DegreeDistributionDistance
+      from distancia import DegreeDistributionDistance
 
-    # Représentation de deux graphes sous forme de listes d'adjacence
+      graph1 = Graph(weighted=True)
+      graph1.add_edge("A", "B", 1.0)
+      graph1.add_edge("B", "C", 2.0)
+      graph1.add_edge("C", "D", 1.5)
+      graph1.add_edge("D", "A", 1.0)
+      graph1.add_edge("A", "C", 2.0)
 
-    # Premier graphe (graph1)
-    # Le graphe est représenté comme un dictionnaire où chaque clé est un nœud et chaque valeur est une liste de voisins.
-    graph1 = {
-        'A': ['B', 'C'],       # Le nœud 'A' est connecté à 'B' et 'C'
-        'B': ['A', 'C'],       # Le nœud 'B' est connecté à 'A' et 'C'
-        'C': ['A', 'B', 'D'],  # Le nœud 'C' est connecté à 'A', 'B' et 'D'
-        'D': ['C']             # Le nœud 'D' est connecté à 'C'
-    }
-
-    # Deuxième graphe (graph2)
-    graph2 = {
-        'A': ['B'],            # Le nœud 'A' est connecté à 'B'
-        'B': ['A', 'C', 'D'],  # Le nœud 'B' est connecté à 'A', 'C' et 'D'
-        'C': ['B'],            # Le nœud 'C' est connecté à 'B'
-        'D': ['B']             # Le nœud 'D' est connecté à 'B'
-    }
-
-    # Instanciation de la classe DegreeDistributionDistance avec les deux graphes
-    distance_calculator = DegreeDistributionDistance().compute(graph1, graph2)
-
-
-    # Affichage du résultat
-    print("Distance basée sur les distributions de degré :", distance)
+      graph2 = Graph(weighted=True)
+      graph2.add_edge("A", "B", 1.0)
+      graph2.add_edge("B", "C", 1.0)
+      
+      distance=self.compute(graph1,graph2)
+      print(f"Graph DegreeDistributionDistance: {distance}")
 
 .. code-block:: bash
 
-    >>>Distance basée sur les distributions de degré : 4.0
+    >>>Graph DegreeDistributionDistance: 1.3333333333333333
+
 
 
 
