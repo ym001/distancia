@@ -35,22 +35,38 @@ The Pattern-Based Distance provides a quantitative measure of the difference in 
 
   from distancia import PatternBasedDistance
 
-  nodes1 = ["A", "B", "C", "D"]
-  edges1 = [("A", "B"), ("B", "C"), ("C", "A"), ("A", "D")]
+      graph1 = Graph(weighted=True)
+      graph1.add_edge("A", "B", 1.0)
+      graph1.add_edge("B", "C", 2.0)
+      graph1.add_edge("C", "D", 1.5)
+      graph1.add_edge("D", "A", 1.0)
+      graph1.add_edge("A", "C", 2.0)
 
-  nodes2 = ["A", "B", "C", "D"]
-  edges2 = [("A", "B"), ("B", "D"), ("D", "A"), ("A", "C")]
+      graph2 = Graph(weighted=True)
+      graph2.add_edge("A", "B", 1.0)
+      graph2.add_edge("B", "C", 1.0)
+      graph2.add_edge("C", "D", 1.0)
+      graph2.add_edge("D", "A", 1.0)
 
-  graph1 = Graph(nodes1, edges1)
-  graph2 = Graph(nodes2, edges2)
-
-  pattern_distance = PatternBasedDistance(motif_size=3).compute(graph1, graph2)
-
-  print(f"La distance basée sur les motifs entre les deux graphes est: {pattern_distance}")
+      pattern_distance = PatternBasedDistance(max_pattern_size=4)
+    
+      # Compare all patterns
+      distances = pattern_distance.compute(
+        graph1, graph2,
+        pattern_weights={'cycle': 1.5, 'path': 1.0, 'star': 0.5}
+    )
+      print("Overall distances:", distances)
+    
+      # Compare specific pattern type
+      cycle_comparison = pattern_distance.compare_specific_patterns(
+        graph1, graph2, 'cycle', 4
+    )
+      print("Cycle pattern comparison:", cycle_comparison)
 
 .. code-block:: bash
 
-  >>>La distance basée sur les motifs entre les deux graphes est: 4
+  >>>Cycle pattern comparison: {'l1_distance': 0.0, 'l2_distance': 0.0, 'pattern_count_1': 1, 'pattern_count_2': 1}
+
 
 Academic Reference
 ------------------
