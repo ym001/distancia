@@ -54,85 +54,33 @@ Here's a basic example of how to use the ``Distance`` class:
 
 .. code-block:: python
 
-  import networkx as nx
-  import matplotlib.pyplot as plt
-  from distancia import ComparingRandomWalkStationaryDistributions  
+    from distancia import ComparingRandomWalkStationaryDistributions  
 
-  # Create two similar but slightly different graphs
-  G1 = nx.erdos_renyi_graph(10, 0.3, seed=42)
-  G2 = nx.erdos_renyi_graph(10, 0.35, seed=42)
-
-  # Initialize the Distance object
-  distance = ComparingRandomWalkStationaryDistributions(G1, G2)
-
-  # Compare the stationary distributions
-  l1_distance = distance.compare_distributions(metric='l1')
-  l2_distance = distance.compare_distributions(metric='l2')
-  kl_distance = distance.compare_distributions(metric='kl')
-
-  print(f"L1 distance between stationary distributions: {l1_distance:.4f}")
-  print(f"L2 distance between stationary distributions: {l2_distance:.4f}")
-  print(f"KL divergence between stationary distributions: {kl_distance:.4f}")
-
-  # Compare random walks
-  walk_comparison = distance.compare_random_walks(num_walks=1000, walk_length=20)
-
-  # Print results
-  for graph_name, results in walk_comparison.items():
-      print(f"\nResults for {graph_name}:")
-      print(f"Average walk length: {results['avg_walk_length']:.2f}")
-      print("Node visit frequencies:")
-      for node, freq in results['node_visit_frequencies'].items():
-          print(f"  Node {node}: {freq:.4f}")
-
-  # Visualize the graphs
-  plt.figure(figsize=(12, 5))
-
-  plt.subplot(121)
-  nx.draw(G1, with_labels=True, node_color='lightblue', node_size=500, font_size=10, font_weight='bold')
-  plt.title("Graph 1")
-
-  plt.subplot(122)
-  nx.draw(G2, with_labels=True, node_color='lightgreen', node_size=500, font_size=10, font_weight='bold')
-  plt.title("Graph 2")
-
-  plt.tight_layout()
-  plt.show()
+    # Création de deux graphes d'exemple
+    graph1 = Graph(directed=False, weighted=True)
+    graph1.add_edge("A", "B", 1.0)
+    graph1.add_edge("B", "C", 2.0)
+    graph1.add_edge("C", "A", 1.5)
+    
+    graph2 = Graph(directed=False, weighted=True)
+    graph2.add_edge("A", "B", 2.0)
+    graph2.add_edge("B", "C", 1.0)
+    graph2.add_edge("C", "D", 1.0)
+    graph2.add_edge("D", "E", 1.0)
+    
+    distance, dist1, dist2 = ComparingRandomWalkStationaryDistributions().compute(graph1, graph2)
+    print(f"Distance L1: {distance}")
+    print(f"Distribution stationnaire graphe 1: {dist1}")
+    print(f"Distribution stationnaire graphe 2: {dist2}")
 
 Output
 
 .. code-block:: bash
 
-   >>>L1 distance between stationary distributions: 0.1300
-   >>>L2 distance between stationary distributions: 0.0436
-   >>>KL divergence between stationary distributions: 0.0095
-   >>>Results for graph1:
-   >>>Average walk length: 20.00
-   >>>Node visit frequencies:
-     Node 0: 0.1206
-     Node 1: 0.1412
-     Node 2: 0.1163
-     Node 3: 0.1162
-     Node 4: 0.0328
-     Node 5: 0.0563
-     Node 6: 0.0891
-     Node 7: 0.0894
-     Node 8: 0.0907
-     Node 9: 0.1474
+   Distance L1: 0.7999999999999999
+   Distribution stationnaire graphe 1: {'B': 0.3333333333333333, 'C': 0.3333333333333333, 'A': 0.3333333333333333, 'E': 0.0, 'D': 0.0}
+   Distribution stationnaire graphe 2: {'E': 0.2, 'D': 0.2, 'B': 0.2, 'C': 0.2, 'A': 0.2}
 
-   >>>Results for graph2:
-   >>>Average walk length: 20.00
-   >>>Node visit frequencies:
-     Node 0: 0.1084
-     Node 1: 0.1266
-     Node 2: 0.1272
-     Node 3: 0.1302
-     Node 4: 0.0293
-     Node 5: 0.0765
-     Node 6: 0.0795
-     Node 7: 0.0824
-     Node 8: 0.1061
-     Node 9: 0.1340
 
 .. image:: graph1.png
 
