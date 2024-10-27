@@ -35,24 +35,56 @@ Example
 -------
 .. code-block:: python
 
- from distancia import FrobeniusDistance, Graph
+      from distancia import FrobeniusDistance, Graph
 
- nodes1 = ["A", "B", "C"]
- edges1 = [("A", "B"), ("B", "C")]
+      """
+      Test the Frobenius distance calculation between graphs
+      """
+      # Test 1: Identical graphs
+      print("Test 1: Identical graphs")
+      g1 = Graph(weighted=True)
+      g1.add_edge('A', 'B', 1.0)
+      g1.add_edge('B', 'C', 2.0)
+    
+      g2 = Graph(weighted=True)
+      g2.add_edge('A', 'B', 1.0)
+      g2.add_edge('B', 'C', 2.0)
+    
+      distance = FrobeniusDistance().compute(g1,g2)
+      print(f"Distance between identical graphs: {distance}")  # Should be 0.0
+    
+      # Test 2: Different edge weights
+      print("\nTest 2: Different edge weights")
+      g3 = Graph(weighted=True)
+      g3.add_edge('A', 'B', 2.0)
+      g3.add_edge('B', 'C', 3.0)
+    
+      distance = FrobeniusDistance().compute(g1,g3)
+      print(f"Distance between graphs with different weights: {distance}")
+    
+      # Test 3: Different structure
+      print("\nTest 3: Different structure")
+      g4 = Graph(weighted=True)
+      g4.add_edge('A', 'B', 1.0)
+      g4.add_edge('B', 'C', 2.0)
+      g4.add_edge('A', 'C', 1.5)  # Additional edge
+    
+      g1.add_node('C')  # Ensure both graphs have same nodes
+      distance = FrobeniusDistance().compute(g1,g4)
+      print(f"Distance between graphs with different structure: {distance}")
 
- nodes2 = ["A", "B", "C"]
- edges2 = [("A", "B"), ("A", "C")]
-
- graph1 = Graph(nodes1, edges1)
- graph2 = Graph(nodes2, edges2)
- print(graph1.adjacency_matrix)
- frobenius_distance = FrobeniusDistance().compute(graph1, graph2)
-
- print(f"La distance de Frobenius entre les deux graphes est: {frobenius_distance}")
 
 .. code-block:: bash
 
-  >>>La distance de Frobenius entre les deux graphes est: 2.0
+  >>>Test 1: Identical graphs
+  >>>Distance between identical graphs: 0.0
+
+  >>>Test 2: Different edge weights
+  >>>Distance between graphs with different weights: 2.0
+
+  >>>Test 3: Different structure
+  >>>Distance between graphs with different structure: 2.1213203435596424
+
 
 Academic Reference
 ------------------
