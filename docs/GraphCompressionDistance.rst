@@ -38,30 +38,29 @@ Example
 
 .. code-block:: python
 
-  from distancia import GraphCompressionDistance
+      from distancia import GraphCompressionDistance
 
-  # Example usage:
-  graph1 = [
-      [0, 1, 0, 1],
-      [1, 0, 1, 0],
-      [0, 1, 0, 1],
-      [1, 0, 1, 0]
-  ]
+      graph1 = Graph(weighted=True)
+      graph1.add_edge("A", "B", 1.0)
+      graph1.add_edge("B", "C", 2.0)
+      graph1.add_edge("C", "D", 1.5)
+      graph1.add_edge("D", "A", 1.0)
+      graph1.add_edge("A", "C", 2.0)
 
-  graph2 = [
-      [0, 1, 1, 0],
-      [1, 0, 0, 1],
-      [1, 0, 0, 1],
-      [0, 1, 1, 0]
-  ]
-
-  distance_calculator = GraphCompressionDistance(graph1, graph2)
-  distance = distance_calculator.compression_distance()
-  print(f"Graph Compression Distance: {distance}")
+      graph2 = Graph(weighted=True)
+      graph2.add_edge("A", "B", 1.0)
+      graph2.add_edge("B", "C", 1.0)
+      graph2.add_edge("C", "D", 1.0)
+      graph2.add_edge("D", "A", 1.0)
+      
+      distance_calculator = GraphCompressionDistance().compute(graph1, graph2)
+      print(f"Graph Compression Distance: {distance_calculator}")
+      
 
 .. code-block:: bash
 
-  >>>Graph Compression Distance: 3
+  >>>Graph Compression Distance: 16
+
 
 Academic Reference
 ------------------
