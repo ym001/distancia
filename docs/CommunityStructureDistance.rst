@@ -32,43 +32,34 @@ Example
 
   import networkx as nx
   from community import community_louvain
-  from distancia import CommunityStructureDistance
+      from distancia import CommunityStructureDistance
 
-  # Exemple de détection des communautés utilisant l'algorithme de Louvain
-  def louvain_community_detection(graph):
-      """
-      Utilise l'algorithme de Louvain pour détecter les communautés dans un graphe.
-    
-      :param graph: Le graphe d'entrée.
-      :return: Une liste de ensembles, où chaque ensemble représente une communauté.
-      """
-      partition = community_louvain.best_partition(graph)
-      communities = {}
-      for node, comm_id in partition.items():
-          if comm_id not in communities:
-              communities[comm_id] = set()
-          communities[comm_id].add(node)
-      return list(communities.values())
+      graph1 = Graph(weighted=True)
+      graph1.add_edge("A", "B", 1.0)
+      graph1.add_edge("B", "C", 2.0)
+      graph1.add_edge("C", "D", 1.5)
+      graph1.add_edge("D", "A", 1.0)
+      graph1.add_edge("A", "C", 2.0)
 
-  # Créer deux graphes différents
-  graph1 = nx.karate_club_graph()  # Exemple de graphe 1
+      graph2 = Graph(weighted=True)
+      graph2.add_edge("A", "B", 1.0)
+      graph2.add_edge("B", "C", 1.0)
+      graph2.add_edge("C", "D", 1.0)
+      # Compare community structures
+      csd = CommunityStructureDistance()
+      distance = csd.compute(graph1, graph2)
+      print(f"Community structure distance: {distance}")
 
-  # Créer une copie de graph1 et ajouter des modifications pour changer la structure des communautés
-  graph2 = graph1.copy()
-  graph2.add_edge(0, 1)  # Ajout d'une arête entre deux nœuds dans différentes communautés
-  graph2.add_edge(2, 3)  # Ajout d'une arête entre deux nœuds dans différentes communautés
-
-  # Initialiser la classe de distance avec la détection de communautés de Louvain
-  distance_calculator = CommunityStructureDistance(louvain_community_detection)
-
-  # Calculer la distance entre les structures de communauté des deux graphes
-  distance = distance_calculator.distance(graph1, graph2)
-
-  print(f"The community structure distance between the two graphs is: {distance}")
+      # Get detected communities if needed
+      communities1, communities2 = csd.get_communities()
+      print("Communities in graph 1:", communities1)
+      print("Communities in graph 2:", communities2)  
 
 .. code-block:: bash
 
-  >>>The community structure distance between the two graphs is: 0.18091168091168086
+  Community structure distance: 0.75
+  Communities in graph 1: {'B': 0, 'D': 0, 'C': 0, 'A': 0}
+  Communities in graph 2: {'B': 1, 'D': 0, 'C': 0, 'A': 1}
 
 
 Academic Reference
