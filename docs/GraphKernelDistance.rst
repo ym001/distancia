@@ -30,26 +30,34 @@ Example
 
 .. code-block:: python
 
-   # Example usage
-   from distancia import GraphKernelDistance
-   edges1 = [("A", "B"), ("B", "C"), ("C", "D"), ("D", "A")]
-   nodes1 = ["A", "B", "C", "D"]
+      from distancia import GraphKernelDistance
+      graph1 = Graph(weighted=True)
+      graph1.add_edge("A", "B", 1.0)
+      graph1.add_edge("B", "C", 2.0)
+      graph1.add_edge("C", "A", 1.5)
 
-   edges2 = [("A", "B"), ("B", "C"), ("C", "D")]
-   nodes2 = ["A", "B", "C", "D"]
+      graph2 = Graph(weighted=True)
+      graph2.add_edge("A", "B", 2.0)
+      graph2.add_edge("B", "C", 1.0)
+      graph2.add_edge("C", "A", 1.0)
 
-   graph1 = Graph(nodes1, edges1)
-   graph2 = Graph(nodes2, edges2)
-
-   kernel_distance = GraphKernelDistance(graph1, graph2)
-   distance = kernel_distance.compute(method="random_walk", depth=3)
-
-   print(f"The Graph Kernel Distance between the two graphs is: {distance}")
+      kernel_distance = GraphKernelDistance()
+    
+      # Compute single kernel distance
+      distance = kernel_distance.compute_kernel_distance(graph1, graph2, 'heat', t=1.0)
+      print(f"Heat kernel distance (t=1.0): {distance}")
+    
+      # Compute multiple kernel distances
+      distances = kernel_distance.compute_multiple_kernel_distances(graph1, graph2)
+      for name, dist in distances.items():
+        print(f"{name}: {dist}")
 
 
 .. code-block:: bash
 
-   >>>The Graph Kernel Distance between the two graphs is: 0.001949317738791423
+      Heat kernel distance (t=1.0): 0.04792663944017091
+      heat_kernel_t_1: 0.04792663944017091
+      heat_kernel_t_0.1: 0.1739408309945977
 
 Academic References
 -------------------
