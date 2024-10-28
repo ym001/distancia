@@ -30,7 +30,7 @@ where:
    ncd_calculator = NormalizedCompressionDistance()
 
    # Compute the NCD between two texts
-   ncd_value: float = ncd_calculator.ncd(text1, text2)
+   ncd_value: float = ncd_calculator.compute(text1, text2)
 
    # Output the result
    print(f"Normalized Compression Distance (NCD): {ncd_value:.4f}")
