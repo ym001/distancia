@@ -76,7 +76,7 @@ Given two sets of MFCC vectors, the distance between them can be computed using 
   processor = MFCCProcessor()
 
   # Calculer les MFCC pour les deux signaux
-  mfcc1, mfcc2 = processor.compute_mfcc(test_signal1, test_signal2)
+  mfcc1, mfcc2 = processor.compute(test_signal1, test_signal2)
 
   # Comparer les MFCC
   distance = processor.compare_mfcc(test_signal1, test_signal2)
