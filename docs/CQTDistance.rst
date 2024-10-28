@@ -27,7 +27,7 @@ where \( CQT(x) \) and \( CQT(y) \) represent the Constant-Q Transform of the si
 
   cqt_calculator = CQTDistance(num_bins=24, window_size=512)
 
-  distance_value: float = cqt_calculator.compute_cqt_distance(signal1, signal2)
+  distance_value: float = cqt_calculator.compute(signal1, signal2)
 
   print("CQT Distance:", distance_value)
 
