@@ -26,7 +26,7 @@ where \( Chromagram(x) \) and \( Chromagram(y) \) represent the chromagram trans
 
   chromagram_calculator = ChromagramDistance(num_bins=12)
 
-  distance_value: float = chromagram_calculator.compute_chromagram_distance(signal1, signal2)
+  distance_value: float = chromagram_calculator.compute(signal1, signal2)
 
   print("Chromagram Distance:", distance_value)
 
