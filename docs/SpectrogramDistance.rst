@@ -26,7 +26,7 @@ where \( Spectrogram(x) \) and \( Spectrogram(y) \) represent the spectrograms o
 
   spectrogram_calculator = SpectrogramDistance(window_size=256, overlap=128)
 
-  distance_value: float = spectrogram_calculator.compute_spectrogram_distance(signal1, signal2)
+  distance_value: float = spectrogram_calculator.compute(signal1, signal2)
 
   print("Spectrogram Distance:", distance_value)
 
