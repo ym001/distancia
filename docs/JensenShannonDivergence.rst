@@ -21,6 +21,7 @@ where:
 - :math:`D_{KL}(P \parallel Q)` is the Kullback-Leibler divergence between distributions :math:`P` and :math:`Q`.
 
 The Jensen-Shannon Divergence takes values in the range [0, 1], where 0 indicates identical distributions and higher values indicate more divergence.
+
 .. code-block:: python
 
    # Exemple d'utilisation avec des textes
@@ -40,6 +41,11 @@ The Jensen-Shannon Divergence takes values in the range [0, 1], where 0 indicate
    # Calculer la Jensen-Shannon Divergence entre les deux textes
    divergence: float = js_divergence.compute(dist1, dist2)
    print(f"Jensen-Shannon Divergence: {divergence}")
+
+.. code-block:: bash
+
+   >>>Jensen-Shannon Divergence: 0.15403270679109896
+
 
 Academic Reference
 ------------------
