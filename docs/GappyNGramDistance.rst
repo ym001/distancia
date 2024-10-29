@@ -30,7 +30,7 @@ where:
    gappy_ngram_distance = GappyNGramDistance(n=3, gap_size=1)
 
    # Compute the gappy n-gram similarity
-   similarity_score: float = gappy_ngram_distance.gappy_ngram_similarity(text1, text2)
+   similarity_score: float = gappy_ngram_distance.compute(text1, text2)
 
    # Output the result
    print(f"Gappy N-gram Similarity Score: {similarity_score:.4f}")
