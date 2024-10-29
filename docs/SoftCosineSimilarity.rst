@@ -41,7 +41,7 @@ Where:
    doc2: List[str] = ["the", "dog", "is", "on", "the", "mat"]
 
    # Compute the Soft Cosine Similarity
-   similarity_score: float = soft_cosine_sim.soft_cosine(doc1, doc2)
+   similarity_score: float = soft_cosine_sim.compute(doc1, doc2)
    print(f"Soft Cosine Similarity: {similarity_score}")
 
 Academic Reference
