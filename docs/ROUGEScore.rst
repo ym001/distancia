@@ -36,7 +36,7 @@ The **ROUGEL** (Longest Common Subsequence) score is calculated based on the lon
    rouge = ROUGEScore(n_gram=2)
 
    # Compute the ROUGE-N score
-   rouge_n_score: Dict[str, float] = rouge.rouge_n(hypothesis, references)
+   rouge_n_score: Dict[str, float] = rouge.compute(hypothesis, references)
    print(f"ROUGE-N Score: {rouge_n_score}")
 
 Academic Reference
