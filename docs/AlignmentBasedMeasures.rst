@@ -31,7 +31,7 @@ where:
 
    # Align the texts and compute the alignment score
    aligned_texts: List[Tuple[str, str]] = alignment_measure.align_texts(text1, text2)
-   score: float = alignment_measure.alignment_score(text1, text2)
+   score: float = alignment_measure.compute(text1, text2)
 
    # Output the results
    print("Aligned Texts:")
