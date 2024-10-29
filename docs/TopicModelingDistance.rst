@@ -42,13 +42,13 @@ Other measures such as the Euclidean distance or cosine similarity can also be a
    # Compute the distance between two new documents
    doc1: str = "The cat sat on the mat."
    doc2: str = "Dogs are great companions."
-   distance: float = topic_model_distance.topic_distance(doc1, doc2)
+   distance: float = topic_model_distance.compute(doc1, doc2)
    print(f"Topic Distance (LDA): {distance}")
 
    # You can also use LSA by changing the method
    lsa_model_distance = TopicModelingDistance(method='LSA', num_topics=5)
    lsa_model_distance.fit(documents)
-   distance_lsa: float = lsa_model_distance.topic_distance(doc1, doc2)
+   distance_lsa: float = lsa_model_distance.compute(doc1, doc2)
    print(f"Topic Distance (LSA): {distance_lsa}")
 
 Academic Reference
