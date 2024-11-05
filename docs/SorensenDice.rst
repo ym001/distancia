@@ -43,7 +43,7 @@ Here's a simple Python example demonstrating how to calculate the SørensenDice 
    str2 = "nacht"
 
    # Calculate SørensenDice Distance
-   distance = SorensenDice().calculate(str1, str2)
+   distance = SorensenDice().compute(str1, str2)
    print(f"Sørensen Dice Distance: {distance}")
 
 .. code-block:: bash
