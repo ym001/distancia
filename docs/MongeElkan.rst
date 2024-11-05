@@ -36,7 +36,7 @@ where:
    set2: List[str] = text2.split()
 
    # Créer une instance de la classe Monge-Elkan avec la distance de Levenshtein comme distance de base
-   monge_elkan = MongeElkanDistance(base_distance=Levenshtein())
+   monge_elkan = MongeElkan(base_distance=Levenshtein())
 
    # Calculer la distance Monge-Elkan
    distance: float = monge_elkan.compute(set1, set2)
