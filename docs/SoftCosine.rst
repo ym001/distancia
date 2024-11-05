@@ -34,7 +34,7 @@ Where:
    }
 
    # Create an instance of SoftCosineSimilarity with the term similarity matrix
-   soft_cosine_sim = SoftCosineSimilarity(term_similarity_matrix=term_similarity_matrix)
+   soft_cosine_sim = SoftCosine(term_similarity_matrix=term_similarity_matrix)
 
    # Define two documents as lists of words
    doc1: List[str] = ["the", "cat", "is", "on", "the", "mat"]
