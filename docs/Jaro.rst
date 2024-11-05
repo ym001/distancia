@@ -46,31 +46,31 @@ In practice, the Jaro distance is often used to compare names and short text str
         # Example 1: Identical strings
         s1 = "hello"
         s2 = "hello"
-        distance = jaro.calculate(s1, s2)
+        distance = jaro.compute(s1, s2)
         print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
         # Example 2: Completely different strings
         s1 = "hello"
         s2 = "world"
-        distance = jaro.calculate(s1, s2)
+        distance = jaro.compute(s1, s2)
         print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
         # Example 3: Partially matching strings
         s1 = "dixon"
         s2 = "dicksonx"
-        distance = jaro.calculate(s1, s2)
+        distance = jaro.compute(s1, s2)
         print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
         # Example 4: One empty string
         s1 = ""
         s2 = "nonempty"
-        distance = jaro.calculate(s1, s2)
+        distance = jaro.compute(s1, s2)
         print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
         # Example 5: Both strings empty
         s1 = ""
         s2 = ""
-        distance = jaro.calculate(s1, s2)
+        distance = jaro.compute(s1, s2)
         print(f"Jaro distance between '{s1}' and '{s2}': {distance}")
 
     if __name__ == "__main__":
