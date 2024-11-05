@@ -27,7 +27,7 @@ where:
    text2: str = "the fast brown fox leaps over a sleepy dog"
 
    # Initialize GappyNGramDistance class with n=3 and gap_size=1
-   gappy_ngram_distance = GappyNGramDistance(n=3, gap_size=1)
+   gappy_ngram_distance = GappyNGram(n=3, gap_size=1)
 
    # Compute the gappy n-gram similarity
    similarity_score: float = gappy_ngram_distance.compute(text1, text2)
