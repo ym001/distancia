@@ -34,7 +34,7 @@ Other measures such as the Euclidean distance or cosine similarity can also be a
    ]
 
    # Initialize TopicModelingDistance with LDA and 5 topics
-   topic_model_distance = TopicModelingDistance(method='LDA', num_topics=5)
+   topic_model_distance = TopicModeling(method='LDA', num_topics=5)
 
    # Fit the model to a list of documents
    topic_model_distance.fit(documents)
