@@ -60,7 +60,7 @@ from distancia import DamerauLevenshtein
 
         # Iterate through the test cases and compute the distance
         for str1, str2 in test_cases:
-            distance = distance_calculator.calculate(str1, str2)
+            distance = distance_calculator.compute(str1, str2)
             print(f"Damerau-Levenshtein distance between '{str1}' and '{str2}': {distance}")
 
     if __name__ == "__main__":
