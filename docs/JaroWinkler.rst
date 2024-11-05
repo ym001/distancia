@@ -46,31 +46,31 @@ The Jaro-Winkler distance is particularly well-suited for comparing short string
         # Example 1: Identical strings
         s1 = "hello"
         s2 = "hello"
-        distance = jaro_winkler.calculate(s1, s2)
+        distance = jaro_winkler.compute(s1, s2)
         print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
         # Example 2: Completely different strings
         s1 = "hello"
         s2 = "world"
-        distance = jaro_winkler.calculate(s1, s2)
+        distance = jaro_winkler.compute(s1, s2)
         print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
         # Example 3: Strings with a common prefix
         s1 = "hello"
         s2 = "hellish"
-        distance = jaro_winkler.calculate(s1, s2)
+        distance = jaro_winkler.compute(s1, s2)
         print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
         # Example 4: One string is a prefix of the other
         s1 = "martha"
         s2 = "marhtax"
-        distance = jaro_winkler.calculate(s1, s2)
+        distance = jaro_winkler.compute(s1, s2)
         print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
         # Example 5: Completely dissimilar strings
         s1 = "abc"
         s2 = "xyz"
-        distance = jaro_winkler.calculate(s1, s2)
+        distance = jaro_winkler.compute(s1, s2)
         print(f"Jaro-Winkler distance between '{s1}' and '{s2}': {distance}")
 
     if __name__ == "__main__":
