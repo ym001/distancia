@@ -23,18 +23,19 @@ Where:
 
 .. code-block:: python
 
-    # Exemple d'utilisation
+    from distancia import TFIDF
+    #Exemple d'utilisation
     corpus = [
-        "the cat sat on the mat",
-        "the dog sat on the mat",
-        "the dog chased the cat"
-    ]
+    "the cat sat on the mat",
+    "the dog sat on the mat",
+    "the dog chased the cat"
+]
 
     text1 = "the cat is sitting on the mat"
     text2 = "the dog is sitting on the mat"
 
-    tfidf_distance = TFIDFDistance(corpus)
-    similarity_score: float = tfidf_distance.compare(text1, text2)
+    tfidf_distance = TFIDF(corpus)
+    similarity_score: float = tfidf_distance.compute(text1, text2)
 
     print(f"TF-IDF Similarity: {similarity_score}")
 
