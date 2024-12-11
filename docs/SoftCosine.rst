@@ -23,6 +23,8 @@ Where:
 
 .. code-block:: python
 
+   from distancia import SoftCosine
+
    # Example usage:
    term_similarity_matrix: Dict[Tuple[str, str], float] = {
        ("cat", "cat"): 1.0,
