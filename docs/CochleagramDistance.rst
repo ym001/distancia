@@ -28,7 +28,7 @@ signal2: List[float] = [0.1 * math.sin(2 * math.pi * 445 * t / 16000) for t in r
 
 cochleagram_calculator = CochleagramDistance(num_bands=40)
 
-distance_value: float = cochleagram_calculator.compute_cochleagram_distance(signal1, signal2)
+distance_value: float = cochleagram_calculator.compute(signal1, signal2)
 
 print("Cochleagram Distance:", distance_value)
 
