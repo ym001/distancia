@@ -12,18 +12,18 @@ Given a dataset \( X = \{x_1, x_2, \dots, x_n\} \) and a distance metric \( D(x_
 1. **Mean Distance**: 
    The mean distance between all pairs of points in the dataset is defined as:
 
-.. math::
+   .. math::
 
-    \mu_D = \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} D(x_i, x_j)
+      \mu_D = \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} D(x_i, x_j)
    
    where :math:`D(x_i, x_j)` represents the distance between points :math:`x_i` and :math:`x_j`.
 
 2. **Variance of Distance**: 
    The variance of the distances is given by:
 
-.. math::
+   .. math::
 
-    \sigma_D^2 = \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} (D(x_i, x_j) - \mu_D)^2
+      \sigma_D^2 = \frac{1}{\binom{n}{2}} \sum_{i=1}^{n} \sum_{j=i+1}^{n} (D(x_i, x_j) - \mu_D)^2
    
    where :math:`\mu_D` is the mean distance, and :math:`\sigma_D^2` measures the spread or variability of the distances.
 
