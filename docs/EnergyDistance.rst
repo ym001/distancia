@@ -28,7 +28,7 @@ where \( X \) and \( X' \) are independent samples from \( P \), and \( Y \) and
 
   energy_distance_calculator = EnergyDistance()
 
-  energy_distance_value: float = energy_distance_calculator.compute_energy_distance(signal1, signal2)
+  energy_distance_value: float = energy_distance_calculator.compute(signal1, signal2)
 
   print("Energy Distance:", energy_distance_value)
 
