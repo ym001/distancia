@@ -34,13 +34,30 @@ For a quick introduction, check out the :doc:`quickstart` guide. If you want to 
 Installation
 ------------
 
-To install distancia, simply use pip:
+You can install the distancia package with pip:
 
 .. code-block:: bash
 
-    pip install distancia
+pip install distancia
 
-For more detailed instructions and additional options, see the :doc:`installation` section.
+By default, this will install the core functionality of the package, suitable for users who only need basic distance metrics.
+
+Optional Dependencies
+The distancia package also supports optional modules to enable additional features. You can install these extras depending on your needs:
+
+With pandas support: Install with additional support for working with tabular data:
+
+.. code-block:: bash
+
+pip install distancia[pandas]
+
+With all supported extras: Install all optional dependencies for maximum functionality:
+
+bash
+
+pip install distancia[all]
+
+This modular installation allows you to keep your setup lightweight or include everything for full capabilities.
 
 Quickstart
 ----------
