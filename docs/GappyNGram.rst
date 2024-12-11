@@ -23,6 +23,8 @@ where:
 .. code-block:: python
 
    # Example usage:
+   from distancia import GappyNGram
+
    text1: str = "the quick brown fox jumps over the lazy dog"
    text2: str = "the fast brown fox leaps over a sleepy dog"
 
