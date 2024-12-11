@@ -26,6 +26,8 @@ Other measures such as the Euclidean distance or cosine similarity can also be a
 
 
    # Example usage:
+   from distancia  import TopicModeling
+
    documents: List[str] = [
        "The cat sat on the mat.",
        "Dogs are great companions.",
