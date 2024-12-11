@@ -28,7 +28,7 @@ where \( ZCR(x) \) and \( ZCR(y) \) represent the zero-crossing rates of the sig
 
   zcr_calculator = ZeroCrossingRateDistance()
 
-  zcr_distance_value: float = zcr_calculator.compute_zcr_distance(signal1, signal2)
+  zcr_distance_value: float = zcr_calculator.compute(signal1, signal2)
 
   print("Zero-Crossing Rate (ZCR) Distance:", zcr_distance_value)
 
