@@ -59,17 +59,16 @@ Here is an example of how to use the Enhanced Rogers Tanimoto distance with the 
     vector_1 = [1, 0, 1, 1, 0]
     vector_2 = [1, 1, 1, 0, 0]
     alpha    = 1.5
-
     # Create an instance of the EnhancedRogersTanimoto class with specific weights
-    enhanced_rt_dist = EnhancedRogersTanimoto()
+    enhanced_rt_dist = EnhancedRogersTanimoto(alpha)
 
     # Calculate the Enhanced Rogers-Tanimoto distance between the two vectors
-    distance = enhanced_rt_dist.calculate(vector_1, vector_2,alpha)
+    distance = enhanced_rt_dist.compute(vector_1, vector_2)
 
     # Print the result
-    print(f"The Enhanced Rogers-Tanimoto distance between the two vectors is: {distance}")
+    print(f"The Enhanced Rogers-Tanimoto distance between the two vectors is: {distance:.4f}")
 
-Expected Output:
+    Expected Output:
 
 .. code-block:: bash
 
