@@ -23,7 +23,7 @@ where:
 
 .. code-block:: python
 
-   from distancia import Levenshtein
+   from distancia import MongeElkan,Levenshtein
    from typing import List, Callable
 
 
