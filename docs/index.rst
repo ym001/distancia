@@ -38,7 +38,7 @@ You can install the distancia package with pip:
 
 .. code-block:: bash
 
-pip install distancia
+   pip install distancia
 
 By default, this will install the core functionality of the package, suitable for users who only need basic distance metrics.
 
@@ -49,13 +49,13 @@ With pandas support: Install with additional support for working with tabular da
 
 .. code-block:: bash
 
-pip install distancia[pandas]
+   pip install distancia[pandas]
 
 With all supported extras: Install all optional dependencies for maximum functionality:
 
-bash
+.. code-block:: bash
 
-pip install distancia[all]
+   pip install distancia[all]
 
 This modular installation allows you to keep your setup lightweight or include everything for full capabilities.
 
