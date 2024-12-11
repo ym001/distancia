@@ -28,7 +28,7 @@ where \( E_x(t) \) and \( E_y(t) \) are the amplitude envelopes of \( x(t) \) an
 
   envelope_correlation_calculator = EnvelopeCorrelation()
 
-  correlation_value: float = envelope_correlation_calculator.compute_envelope_correlation(signal1, signal2)
+  correlation_value: float = envelope_correlation_calculator.compute(signal1, signal2)
 
   print("Envelope Correlation:", correlation_value)
 
