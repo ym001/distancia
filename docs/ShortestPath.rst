@@ -24,18 +24,18 @@ Here is a simple example of how to use the `ShortestPath` class:
 
         # Create a weighted, undirected graph
         g = Graph(directed=False, weighted=True)
-    
+
         # Add some edges
         g.add_edge("A", "B", 4)
         g.add_edge("B", "C", 3)
         g.add_edge("C", "D", 2)
         g.add_edge("D", "A", 5)
-    
+
         # Perform Dijkstra
-        distance, path = self.compute(g,"A", "C")
+        distance, path = ShortestPath().compute(g,"A", "C")
         print(f"Shortest path from A to C: {path}")
         print(f"Distance: {distance}")
-        print(f"{self.__class__.__name__} distance between A and C in {g} is {distance:.2f}")
+        print(f"Distance between A and C in {g} is {distance:.2f}")
 
 .. code-block:: bash
 
