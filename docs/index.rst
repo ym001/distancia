@@ -606,21 +606,22 @@ Link
 
    Notebook<https://github.com/ym001/distancia/tree/master/notebook>
 
-Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
-MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
-distance<https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb>
-fileDistance<https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb>
-graph<https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb>
-graphDistance<https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb>
-imageDistance<https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb>
-lossDistance<https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb>
-matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
-similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb
+       vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
+       matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
+       textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>
+       graphDistance<https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb>
+       MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
+
+       Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+       distance<https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb>
+       fileDistance<https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb>
+       graph<https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb>
+       lossDistance<https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb>
+       similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb
 >
-soundDistance<https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb>
-textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>
-timeSeriesDistance<https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb>
-vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
+       imageDistance<https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb>
+       soundDistance<https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb>
+       timeSeriesDistance<https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb>
 
 
 
