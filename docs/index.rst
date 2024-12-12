@@ -604,7 +604,7 @@ Link
 .. toctree::
    :maxdepth: 2
 
-   Notebook<https://github.com/ym001/distancia/tree/master/notebook>
+   **Notebook**<https://github.com/ym001/distancia/tree/master/notebook>
 
        vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
        matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
@@ -617,8 +617,7 @@ Link
        fileDistance<https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb>
        graph<https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb>
        lossDistance<https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb>
-       similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb
->
+       similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb>
        imageDistance<https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb>
        soundDistance<https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb>
        timeSeriesDistance<https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb>
@@ -626,7 +625,7 @@ Link
 
 
 
-   Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
+   **Exemples**<https://github.com/ym001/distancia/blob/master/src/exemple.py>
    Pypi<https://pypi.org/project/distancia/>
    Source<https://github.com/ym001/distancia>
    Documentation<https://distancia.readthedocs.io/en/latest/>
