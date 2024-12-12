@@ -603,10 +603,12 @@ Link
 
 
 
-+ Notebook<https://github.com/ym001/distancia/tree/master/notebook>
-- vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
-- matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
-- textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>
++ `Notebook<https://github.com/ym001/distancia/tree/master/notebook>`
+
+   - `vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>`
+   - `matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>`
+   - `textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>`
+
        graphDistance<https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb>
        MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
 
