@@ -603,33 +603,33 @@ Link
 
 
 
-+ `Notebook<https://github.com/ym001/distancia/tree/master/notebook>`
++ Notebook<https://github.com/ym001/distancia/tree/master/notebook>
 
-   - `vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>`
-   - `matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>`
-   - `textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>`
+   - vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
+   - matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
+   - textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>
 
-       graphDistance<https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb>
-       MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
+   - graphDistance<https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb>
+   - MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
 
-       Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
-       distance<https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb>
-       fileDistance<https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb>
-       graph<https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb>
-       lossDistance<https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb>
-       similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb>
-       imageDistance<https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb>
-       soundDistance<https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb>
-       timeSeriesDistance<https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb>
-
-
+   - Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+   - distance<https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb>
+   - fileDistance<https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb>
+   - graph<https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb>
+   - lossDistance<https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb>
+   - similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb>
+   - imageDistance<https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb>
+   - soundDistance<https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb>
+   - timeSeriesDistance<https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb>
 
 
-   **Exemples**<https://github.com/ym001/distancia/blob/master/src/exemple.py>
-   Pypi<https://pypi.org/project/distancia/>
-   Source<https://github.com/ym001/distancia>
-   Documentation<https://distancia.readthedocs.io/en/latest/>
-   License<https://github.com/ym001/distancia/blob/master/LICENSE>
+
+
+   + Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
+  +  Pypi<https://pypi.org/project/distancia/>
+  +  Source<https://github.com/ym001/distancia>
+  +  Documentation<https://distancia.readthedocs.io/en/latest/>
+  +  License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
 Conclusion
 ----------
