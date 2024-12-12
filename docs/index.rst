@@ -607,7 +607,7 @@ Link
    Notebook<https://github.com/ym001/distancia/tree/master/notebook>
 
 Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
-Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
 Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
 Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
 Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
