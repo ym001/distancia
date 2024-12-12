@@ -602,8 +602,8 @@ Link
 ----
 
 
-
-+ Notebook<https://github.com/ym001/distancia/tree/master/notebook>
++ `Notebook`_
+.. _Notebook: https://github.com/ym001/distancia/tree/master/notebook
 
    - vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
    - matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
@@ -624,12 +624,11 @@ Link
 
 
 
-
-   + Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
-  +  Pypi<https://pypi.org/project/distancia/>
-  +  Source<https://github.com/ym001/distancia>
-  +  Documentation<https://distancia.readthedocs.io/en/latest/>
-  +  License<https://github.com/ym001/distancia/blob/master/LICENSE>
++ Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
++ Pypi<https://pypi.org/project/distancia/>
++ Source<https://github.com/ym001/distancia>
++ Documentation<https://distancia.readthedocs.io/en/latest/>
++ License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
 Conclusion
 ----------
