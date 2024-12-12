@@ -605,6 +605,17 @@ Link
    :maxdepth: 2
 
    Notebook<https://github.com/ym001/distancia/tree/master/notebook>
+
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+
    Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
    Pypi<https://pypi.org/project/distancia/>
    Source<https://github.com/ym001/distancia>
