@@ -190,6 +190,35 @@ Available Metrics
 
    MahalanobisTaguchi
 
+   MatrixSpectral
+
+   NormalizedSpectral
+
+   PureDiffusion
+
+   RandomWalk
+
+   HeatKernel
+
+   GraphEditMatrix
+
+   WeisfeilerLehman
+
+   NetSimile
+
+   TriangleMatrixDistance
+
+   PatternBased
+
+   CliqueBasedGraph
+
+   CycleMatrixDistance
+
+   GraphletMatrixDistance
+
+   MinimumCutDistanceCalculator
+
+   Percolation
    
 3. :doc:`textDistance`
 
