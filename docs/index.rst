@@ -24,6 +24,7 @@ Distancia is designed to be simple and intuitive, yet powerful and flexible. Whe
 For a quick introduction, check out the `quickstart`_ guide. If you want to dive straight into the code, head over to the `Euclidean`_ page.
 
 .. quickstart: https://distancia.readthedocs.io/en/latest/quickstart.html
+
 .. Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 
 .. note::
@@ -110,9 +111,10 @@ Available Metrics
 -----------------
 
 1. `vectorDistance`_
+
 .. _vectorDistance: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
-   Euclidean
+   + `Euclidean`_
 
    Manhattan 
 
