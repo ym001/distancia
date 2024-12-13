@@ -25,7 +25,7 @@ For a quick introduction, check out the `quickstart`_ guide. If you want to dive
 
 .. quickstart: https://distancia.readthedocs.io/en/latest/quickstart.html
 
-.. Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
+.. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 
 .. note::
 
@@ -375,8 +375,7 @@ Available Metrics
 
    NormalizedCrossCorrelation
 
-9. :doc:`soundDistance`
-`Sound`_
+9. `Sound`_
 
 .. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 
