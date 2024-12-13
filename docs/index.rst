@@ -110,9 +110,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-1. `vectorD`_
+1. `Vector`_
 
-.. _vectorD: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
    + `Euclidean`_
 
@@ -180,8 +180,9 @@ Available Metrics
 
 
  
-2. :doc:`matrixDistance`
+2. `Matrix`_
 
+.. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 
    Mahalanobis
 
@@ -217,8 +218,9 @@ Available Metrics
 
    Percolation
    
-3. :doc:`textDistance`
+3. `Text`_
 
+.. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
 
 
    Levenshtein
@@ -279,8 +281,9 @@ Available Metrics
 
    JensenShannonDivergence
 
-4. :doc:`timeDistance`
+4. `Time`_
 
+.. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
 
    DynamicTimeWarping
 
@@ -288,8 +291,9 @@ Available Metrics
 
    Frechet
 
-5. :doc:`lossFunction`
+5. `Loss`_
 
+.. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
 
    CrossEntropy
 
@@ -304,8 +308,9 @@ Available Metrics
    GaloisWassersteinLoss
 
 
-6. :doc:`graphDistance`
+6. `Graph`_
 
+.. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
 
    ShortestPath
 
@@ -331,8 +336,9 @@ Available Metrics
 
    CommunityStructureDistance
 
-7. :doc:`markovChainDistance`
+7. `MarkovChain`_
 
+.. _MarkovChain: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 
    MarkovChainKullbackLeibler
 
@@ -348,8 +354,9 @@ Available Metrics
 
    MarkovChainSpectral
 
-8. :doc:`imageDistance`
+8. `Image`_
 
+.. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
 
    StructuralSimilarityIndex
 
@@ -368,7 +375,9 @@ Available Metrics
    NormalizedCrossCorrelation
 
 9. :doc:`soundDistance`
+`Sound`_
 
+.. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 
    SpectralConvergence
 
@@ -409,6 +418,9 @@ Available Metrics
    CQTDistance
 
 10. :doc:`fileDistance`
+`Sound`_
+
+.. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 
 * :doc:`ByteLevelDistance`
 
