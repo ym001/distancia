@@ -574,7 +574,7 @@ Link
    -  `graphDistance`_
 .. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
 
-   -  `MarkovChain`_
+   -  `MarkovChainN`MarkovChain
 .. _MarkovChainN: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 
 
