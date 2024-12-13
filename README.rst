@@ -115,70 +115,69 @@ Available Metrics
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
    + `Euclidean`_
+   + `Manhattan`_ 
+   + `Jaro`_
+   + `KendallTau`_
+   + `Bhattacharyya`_
+   + `Haversine`_
+   + `Chebyshev`_
+   + `ContextualDynamicDistance`_
+   + `Canberra`_
+   + `BrayCurtis`_
+   + `RogersTanimoto`_
+   + `RussellRao`_
+   + `SokalMichener`_
+   + `SokalSneath`_
+   + `Wasserstein`_
+   + `Gower`_
+   + `CzekanowskiDice`_
+   + `Hellinger`_
+   + `MotzkinStraus`_
+   + `EnhancedRogersTanimoto`_
+   + `KullbackLeibler`_
+   + `Jaccard`_
+   + `GeneralizedJaccard`_
+   + `Tanimoto`_
+   + `InverseTanimoto`_
+   + `Ochiai`_ 
+   + `CzekanowskiDice`_
+   + `Pearson`_
+   + `Spearman`_ 
+   + `FagerMcGowan`_
+   + `Otsuka`_ 
+   + `Gestalt`_
 
-
-   Manhattan 
-
-   Jaro
-
-   KendallTau
-
-   Bhattacharyya
-
-   Haversine
-
-   Chebyshev
-
-   ContextualDynamicDistance
-
-   Canberra
-
-   BrayCurtis
-
-   RogersTanimoto
-
-   RussellRao
-
-   SokalMichener
-
-   SokalSneath
-
-   Wasserstein
-
-   Gower
-
-   CzekanowskiDice
-
-   Hellinger
-
-   MotzkinStraus
-
-   EnhancedRogersTanimoto
-
-   KullbackLeibler
-
-   Jaccard
-
-   GeneralizedJaccard
-
-   Tanimoto
-
-   InverseTanimoto
-
-   Ochiai 
-
-   CzekanowskiDice
-
-   Pearson
-
-   Spearman 
-
-   FagerMcGowan
-
-   Otsuka 
-
-   Gestalt
-
+.. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
+.. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Haversine: https://distancia.readthedocs.io/en/latest/Haversine.html
+.. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
+.. _ContextualDynamicDistance: https://distancia.readthedocs.io/en/latest/ContextualDynamicDistance.html
+.. _Canberra: https://distancia.readthedocs.io/en/latest/Canberra.html
+.. _BrayCurtis: https://distancia.readthedocs.io/en/latest/BrayCurtis.html
+.. _RogersTanimoto: https://distancia.readthedocs.io/en/latest/RogersTanimoto.html
+.. _RussellRao: https://distancia.readthedocs.io/en/latest/RussellRao.html
+.. _SokalMichener: https://distancia.readthedocs.io/en/latest/SokalMichener.html
+.. _SokalSneath: https://distancia.readthedocs.io/en/latest/SokalSneath.html
+.. _Wasserstein: https://distancia.readthedocs.io/en/latest/Wasserstein.html
+.. _Gower: https://distancia.readthedocs.io/en/latest/Gower.html
+.. _CzekanowskiDice: https://distancia.readthedocs.io/en/latest/CzekanowskiDice.html
+.. _Hellinger: https://distancia.readthedocs.io/en/latest/Hellinger.html
+.. _MotzkinStraus: https://distancia.readthedocs.io/en/latest/MotzkinStraus.html
+.. _EnhancedRogersTanimoto: https://distancia.readthedocs.io/en/latest/EnhancedRogersTanimoto.html
+.. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
+.. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
+.. _GeneralizedJaccard: https://distancia.readthedocs.io/en/latest/GeneralizedJaccard.html
+.. _Tanimoto: https://distancia.readthedocs.io/en/latest/Tanimoto.html
+.. _InverseTanimoto: https://distancia.readthedocs.io/en/latest/InverseTanimoto.html
+.. _Ochiai: https://distancia.readthedocs.io/en/latest/Ochiai.html
+.. _CzekanowskiDice: https://distancia.readthedocs.io/en/latest/CzekanowskiDice.html
+.. _Pearson: https://distancia.readthedocs.io/en/latest/Pearson.html
+.. _Spearman: https://distancia.readthedocs.io/en/latest/Spearman.html
+.. _FagerMcGowan: https://distancia.readthedocs.io/en/latest/FagerMcGowan.html
+.. _Otsuka: https://distancia.readthedocs.io/en/latest/Otsuka.html
+.. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
  
 2. `Matrix`_
@@ -608,11 +607,16 @@ Link
 
 
 
-+ Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
-+ Pypi<https://pypi.org/project/distancia/>
-+ Source<https://github.com/ym001/distancia>
-+ Documentation<https://distancia.readthedocs.io/en/latest/>
-+ License<https://github.com/ym001/distancia/blob/master/LICENSE>
++ `Exemples`_
+.. _Exemples: https://github.com/ym001/distancia/blob/master/src/exemple.py
++ `Pypi`_
+.. _Pypi: https://pypi.org/project/distancia/
++ `Source`_
+.. _Source: https://github.com/ym001/distancia
++ `Documentation`_
+.. _Documentation: https://distancia.readthedocs.io/en/latest/
++ `License`_
+.. _License: https://github.com/ym001/distancia/blob/master/LICENSE
 
 Conclusion
 ----------
