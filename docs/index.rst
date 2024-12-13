@@ -116,68 +116,98 @@ Available Metrics
 
    + `Euclidean`_
 
+   + `Manhattan`_ 
+.. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 
-   Manhattan 
+   + `Jaro`_
+.. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 
-   Jaro
+   + `KendallTau`_
+.. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
 
-   KendallTau
+   + `Bhattacharyya`_
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 
-   Bhattacharyya
+   + `Haversine`_
+.. _Haversine: https://distancia.readthedocs.io/en/latest/Haversine.html
 
-   Haversine
+   + `Chebyshev`_
+.. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
 
-   Chebyshev
+   + `ContextualDynamicDistance`_
+.. _ContextualDynamicDistance: https://distancia.readthedocs.io/en/latest/ContextualDynamicDistance.html
 
-   ContextualDynamicDistance
+   + `Canberra`_
+.. _Canberra: https://distancia.readthedocs.io/en/latest/Canberra.html
 
-   Canberra
+   + `BrayCurtis`_
+.. _BrayCurtis: https://distancia.readthedocs.io/en/latest/BrayCurtis.html
 
-   BrayCurtis
+   + `RogersTanimoto`_
+.. _RogersTanimoto: https://distancia.readthedocs.io/en/latest/RogersTanimoto.html
 
-   RogersTanimoto
+   + `RussellRao`_
+.. _RussellRao: https://distancia.readthedocs.io/en/latest/RussellRao.html
 
-   RussellRao
+   + `SokalMichener`_
+.. _SokalMichener: https://distancia.readthedocs.io/en/latest/SokalMichener.html
 
-   SokalMichener
+   + `SokalSneath`_
+.. _SokalSneath: https://distancia.readthedocs.io/en/latest/SokalSneath.html
 
-   SokalSneath
+   + `Wasserstein`_
+.. _Wasserstein: https://distancia.readthedocs.io/en/latest/Wasserstein.html
 
-   Wasserstein
+   + `Gower`_
+.. _Gower: https://distancia.readthedocs.io/en/latest/Gower.html
 
-   Gower
+   + `CzekanowskiDice`_
+.. _CzekanowskiDice: https://distancia.readthedocs.io/en/latest/CzekanowskiDice.html
 
-   CzekanowskiDice
+   + `Hellinger`_
+.. _Hellinger: https://distancia.readthedocs.io/en/latest/Hellinger.html
 
-   Hellinger
+   + `MotzkinStraus`_
+.. _MotzkinStraus: https://distancia.readthedocs.io/en/latest/MotzkinStraus.html
 
-   MotzkinStraus
+   + `EnhancedRogersTanimoto`_
+.. _EnhancedRogersTanimoto: https://distancia.readthedocs.io/en/latest/EnhancedRogersTanimoto.html
 
-   EnhancedRogersTanimoto
+   + `KullbackLeibler`_
+.. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 
-   KullbackLeibler
+   + `Jaccard`_
+.. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
 
-   Jaccard
+   + `GeneralizedJaccard`_
+.. _GeneralizedJaccard: https://distancia.readthedocs.io/en/latest/GeneralizedJaccard.html
 
-   GeneralizedJaccard
+   + `Tanimoto`_
+.. _Tanimoto: https://distancia.readthedocs.io/en/latest/Tanimoto.html
 
-   Tanimoto
+   + `InverseTanimoto`_
+.. _InverseTanimoto: https://distancia.readthedocs.io/en/latest/InverseTanimoto.html
 
-   InverseTanimoto
+   + `Ochiai`_ 
+.. _Ochiai: https://distancia.readthedocs.io/en/latest/Ochiai.html
 
-   Ochiai 
+   + `CzekanowskiDice`_
+.. _CzekanowskiDice: https://distancia.readthedocs.io/en/latest/CzekanowskiDice.html
 
-   CzekanowskiDice
+   + `Pearson`_
+.. _Pearson: https://distancia.readthedocs.io/en/latest/Pearson.html
 
-   Pearson
+   + `Spearman`_ 
+.. _Spearman: https://distancia.readthedocs.io/en/latest/Spearman.html
 
-   Spearman 
+   + `FagerMcGowan`_
+.. _FagerMcGowan: https://distancia.readthedocs.io/en/latest/FagerMcGowan.html
 
-   FagerMcGowan
+   + `Otsuka`_ 
+.. _Otsuka: https://distancia.readthedocs.io/en/latest/Otsuka.html
 
-   Otsuka 
-
-   Gestalt
+   + `Gestalt`_
+.. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
 
  
@@ -609,7 +639,7 @@ Link
 
 
 + `Exemples`_
-.. Exemples: https://github.com/ym001/distancia/blob/master/src/exemple.py
+.. _Exemples: https://github.com/ym001/distancia/blob/master/src/exemple.py
 + `Pypi`_
 .. _Pypi: https://pypi.org/project/distancia/
 + `Source`_
