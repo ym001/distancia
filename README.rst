@@ -21,11 +21,15 @@ Getting Started
 Distancia is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancia provides the tools you need to measure the similarity or dissimilarity between objects.
 
 
-For a quick introduction, check out the :doc:`quickstart` guide. If you want to dive straight into the code, head over to the :doc:`Euclidean` page.
+For a quick introduction, check out the `quickstart`_ guide. If you want to dive straight into the code, head over to the `Euclidean`_ page.
+
+.. quickstart: https://distancia.readthedocs.io/en/latest/quickstart.html
+
+.. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 
 .. note::
 
-   If you find any issues or have suggestions for improvements, feel free to contribute! See the :doc:`contributing` section for more details.
+   If you find any issues or have suggestions for improvements, feel free to contribute!
 
 Installation
 ------------
@@ -106,10 +110,12 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-1. `vectorDistance`_
-.. _vectorDistance: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+1. `Vector`_
 
-   Euclidean
+.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+
+   + `Euclidean`_
+
 
    Manhattan 
 
@@ -175,8 +181,9 @@ Available Metrics
 
 
  
-2. :doc:`matrixDistance`
+2. `Matrix`_
 
+.. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 
    Mahalanobis
 
@@ -212,8 +219,9 @@ Available Metrics
 
    Percolation
    
-3. :doc:`textDistance`
+3. `Text`_
 
+.. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
 
 
    Levenshtein
@@ -274,8 +282,9 @@ Available Metrics
 
    JensenShannonDivergence
 
-4. :doc:`timeDistance`
+4. `Time`_
 
+.. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
 
    DynamicTimeWarping
 
@@ -283,8 +292,9 @@ Available Metrics
 
    Frechet
 
-5. :doc:`lossFunction`
+5. `Loss`_
 
+.. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
 
    CrossEntropy
 
@@ -299,8 +309,9 @@ Available Metrics
    GaloisWassersteinLoss
 
 
-6. :doc:`graphDistance`
+6. `Graph`_
 
+.. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
 
    ShortestPath
 
@@ -326,8 +337,9 @@ Available Metrics
 
    CommunityStructureDistance
 
-7. :doc:`markovChainDistance`
+7. `MarkovChaine`_
 
+.. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 
    MarkovChainKullbackLeibler
 
@@ -343,8 +355,9 @@ Available Metrics
 
    MarkovChainSpectral
 
-8. :doc:`imageDistance`
+8. `Image`_
 
+.. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
 
    StructuralSimilarityIndex
 
@@ -362,8 +375,9 @@ Available Metrics
 
    NormalizedCrossCorrelation
 
-9. :doc:`soundDistance`
+9. `Sound`_
 
+.. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 
    SpectralConvergence
 
@@ -403,7 +417,9 @@ Available Metrics
 
    CQTDistance
 
-10. :doc:`fileDistance`
+10. `File`_
+
+.. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 * :doc:`ByteLevelDistance`
 
@@ -571,8 +587,8 @@ Link
    -  `fileDistance`_
 .. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
 
-   -  `graph`_
-.. _graph: https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb
+   -  `graphDistance`_
+.. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb
 
    -  `lossDistance`_
 .. _lossDistance: https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb
