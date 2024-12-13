@@ -417,10 +417,9 @@ Available Metrics
 
    CQTDistance
 
-10. :doc:`fileDistance`
-`Sound`_
+10. `File`_
 
-.. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
+.. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 * :doc:`ByteLevelDistance`
 
@@ -576,7 +575,7 @@ Link
 .. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
 
    -  `MarkovChain`_
-.. _MarkovChain: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
+.. _MarkovChainN: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 
 
    -  `Loss_function`_
