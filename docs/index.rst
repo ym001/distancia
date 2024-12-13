@@ -309,9 +309,9 @@ Available Metrics
    GaloisWassersteinLoss
 
 
-6. `Graph`_
+6. `Graphe`_
 
-.. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
+.. _Graphe: https://distancia.readthedocs.io/en/latest/graphDistance.html
 
    ShortestPath
 
@@ -337,9 +337,9 @@ Available Metrics
 
    CommunityStructureDistance
 
-7. `MarkovChain`_
+7. `MarkovChaine`_
 
-.. _MarkovChain: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
+.. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 
    MarkovChainKullbackLeibler
 
@@ -574,8 +574,8 @@ Link
    -  `graphDistance`_
 .. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
 
-   -  `MarkovChainN`MarkovChain
-.. _MarkovChainN: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
+   -  `MarkovChain`_
+.. _MarkovChain: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 
 
    -  `Loss_function`_
