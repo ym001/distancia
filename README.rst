@@ -34,13 +34,30 @@ For a quick introduction, check out the :doc:`quickstart` guide. If you want to 
 Installation
 ------------
 
-To install distancia, simply use pip:
+You can install the distancia package with pip:
 
 .. code-block:: bash
 
-    pip install distancia
+   pip install distancia
 
-For more detailed instructions and additional options, see the :doc:`installation` section.
+By default, this will install the core functionality of the package, suitable for users who only need basic distance metrics.
+
+Optional Dependencies
+The distancia package also supports optional modules to enable additional features. You can install these extras depending on your needs:
+
+With pandas support: Install with additional support for working with tabular data:
+
+.. code-block:: bash
+
+   pip install distancia[pandas]
+
+With all supported extras: Install all optional dependencies for maximum functionality:
+
+.. code-block:: bash
+
+   pip install distancia[all]
+
+This modular installation allows you to keep your setup lightweight or include everything for full capabilities.
 
 Quickstart
 ----------
@@ -92,7 +109,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Available Metrics
 -----------------
-Distance
+1. :doc:`vectorDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -107,10 +124,6 @@ Distance
    KendallTau
 
    Bhattacharyya
-
-   Mahalanobis
-
-   MahalanobisTaguchi
 
    Haversine
 
@@ -144,12 +157,6 @@ Distance
 
    KullbackLeibler
 
- 
-Similarity
-
-.. toctree::
-   :maxdepth: 1
-
    Jaccard
 
    GeneralizedJaccard
@@ -173,148 +180,47 @@ Similarity
    Gestalt
 
 
-Time Series Distance Metrics
+ 
+2. :doc:`matrixDistance`
 
 .. toctree::
    :maxdepth: 1
 
-   DynamicTimeWarping
+   Mahalanobis
 
-   LongestCommonSubsequence
+   MahalanobisTaguchi
 
-   Frechet
+   MatrixSpectral
 
-Loss function
+   NormalizedSpectral
 
-.. toctree::
-   :maxdepth: 1
+   PureDiffusion
 
-   CrossEntropy
+   RandomWalk
 
-   MeanAbsoluteError
+   HeatKernel
 
-   MeanAbsolutePercentageError
+   GraphEditMatrix
 
-   MeanSquaredError
+   WeisfeilerLehman
 
-   SquaredLogarithmicError
+   NetSimile
 
-   GaloisWassersteinLoss
+   TriangleMatrixDistance
 
+   PatternBased
 
-Distance between two graphs
+   CliqueBasedGraph
 
-.. toctree::
-   :maxdepth: 1
+   CycleMatrixDistance
 
-   ShortestPath
+   GraphletMatrixDistance
 
-   GraphEditDistance
+   MinimumCutDistanceCalculator
 
-   SpectralDistance
-
-   WeisfeilerLehmanSimilarity
-
-   ComparingRandomWalkStationaryDistributions
-
-   Diffusion
-
-   FrobeniusDistance
-
-   GraphKernelDistance
-
-   PatternBasedDistance
-
-   GraphCompressionDistance
-
-   DegreeDistributionDistance
-
-   CommunityStructureDistance
-
-Distance between two Markov Chain
-
-.. toctree::
-   :maxdepth: 1
-
-   MarkovChainKullbackLeibler
-
-   MarkovChainWasserstein
-
-   MarkovChainTotalVariation
-
-   MarkovChainHellinger
-
-   MarkovChainJensenShannon
-
-   MarkovChainFrobenius
-
-   MarkovChainSpectral
-
-Distance between two images
-
-.. toctree::
-   :maxdepth: 1
-
-   StructuralSimilarityIndex
-
-   PeakSignalToNoiseRatio
-
-   HistogramIntersection
-
-   EarthMoversDistance
-
-   ChiSquareDistance
-
-   FeatureBasedDistance
-
-   PerceptualHashing
-
-   NormalizedCrossCorrelation
-
-Distance between two sounds
-
-.. toctree::
-   :maxdepth: 1
-
-   SpectralConvergence
-
-   MFCCProcessor
-
-   SignalProcessor
-
-   PowerSpectralDensityDistance
-
-   CrossCorrelation
-
-   PhaseDifferenceCalculator
-
-   TimeLagDistance
-
-   PESQ
-
-   LogSpectralDistance
-
-   BarkSpectralDistortion
-
-   ItakuraSaitoDistance
-
-   SignalToNoiseRatio
-
-   EnergyDistance
-
-   EnvelopeCorrelation
-
-   ZeroCrossingRateDistance
-
-   CochleagramDistance
-
-   ChromagramDistance
-
-   SpectrogramDistance
-
-   CQTDistance
-
-Distance between two text
+   Percolation
+   
+3. :doc:`textDistance`
 
 .. toctree::
    :maxdepth: 1
@@ -376,6 +282,167 @@ Distance between two text
    MongeElkanDistance
 
    JensenShannonDivergence
+
+4. :doc:`timeDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   DynamicTimeWarping
+
+   LongestCommonSubsequence
+
+   Frechet
+
+5. :doc:`lossFunction`
+
+.. toctree::
+   :maxdepth: 1
+
+   CrossEntropy
+
+   MeanAbsoluteError
+
+   MeanAbsolutePercentageError
+
+   MeanSquaredError
+
+   SquaredLogarithmicError
+
+   GaloisWassersteinLoss
+
+
+6. :doc:`graphDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   ShortestPath
+
+   GraphEditDistance
+
+   SpectralDistance
+
+   WeisfeilerLehmanSimilarity
+
+   ComparingRandomWalkStationaryDistributions
+
+   Diffusion
+
+   FrobeniusDistance
+
+   GraphKernelDistance
+
+   PatternBasedDistance
+
+   GraphCompressionDistance
+
+   DegreeDistributionDistance
+
+   CommunityStructureDistance
+
+7. :doc:`markovChainDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   MarkovChainKullbackLeibler
+
+   MarkovChainWasserstein
+
+   MarkovChainTotalVariation
+
+   MarkovChainHellinger
+
+   MarkovChainJensenShannon
+
+   MarkovChainFrobenius
+
+   MarkovChainSpectral
+
+8. :doc:`imageDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   StructuralSimilarityIndex
+
+   PeakSignalToNoiseRatio
+
+   HistogramIntersection
+
+   EarthMoversDistance
+
+   ChiSquareDistance
+
+   FeatureBasedDistance
+
+   PerceptualHashing
+
+   NormalizedCrossCorrelation
+
+9. :doc:`soundDistance`
+
+.. toctree::
+   :maxdepth: 1
+
+   SpectralConvergence
+
+   MFCCProcessor
+
+   SignalProcessor
+
+   PowerSpectralDensityDistance
+
+   CrossCorrelation
+
+   PhaseDifferenceCalculator
+
+   TimeLagDistance
+
+   PESQ
+
+   LogSpectralDistance
+
+   BarkSpectralDistortion
+
+   ItakuraSaitoDistance
+
+   SignalToNoiseRatio
+
+   EnergyDistance
+
+   EnvelopeCorrelation
+
+   ZeroCrossingRateDistance
+
+   CochleagramDistance
+
+   ChromagramDistance
+
+   SpectrogramDistance
+
+   CQTDistance
+
+10. :doc:`fileDistance`
+
+* :doc:`ByteLevelDistance`
+
+* :doc:`HashComparison`
+
+* :doc:`NormalizedCompression`
+
+* :doc:`KolmogorovComplexity`
+
+* :doc:`DynamicBinaryInstrumentation`
+
+* :doc:`FileMetadataComparison`
+
+* :doc:`FileTypeDistance`
+
+* :doc:`TreeEditDistance`
+
+* :doc:`ZlibBasedDistance`
 
 And many more...
 
@@ -534,15 +601,34 @@ We welcome contributions! If you would like to contribute to distancia, please r
 Link
 ----
 
-.. toctree::
-   :maxdepth: 2
 
-   Notebook<https://github.com/ym001/distancia/tree/master/notebook>
-   Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
-   Pypi<https://pypi.org/project/distancia/>
-   Source<https://github.com/ym001/distancia>
-   Documentation<https://distancia.readthedocs.io/en/latest/>
-   License<https://github.com/ym001/distancia/blob/master/LICENSE>
++ `Notebook`_
+.. _Notebook: https://github.com/ym001/distancia/tree/master/notebook
+
+   - vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
+   - matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
+   - textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>
+
+   - graphDistance<https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb>
+   - MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
+
+   - Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
+   - distance<https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb>
+   - fileDistance<https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb>
+   - graph<https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb>
+   - lossDistance<https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb>
+   - similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb>
+   - imageDistance<https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb>
+   - soundDistance<https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb>
+   - timeSeriesDistance<https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb>
+
+
+
++ Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
++ Pypi<https://pypi.org/project/distancia/>
++ Source<https://github.com/ym001/distancia>
++ Documentation<https://distancia.readthedocs.io/en/latest/>
++ License<https://github.com/ym001/distancia/blob/master/LICENSE>
 
 Conclusion
 ----------
