@@ -309,9 +309,9 @@ Available Metrics
    GaloisWassersteinLoss
 
 
-6. `Graphe`_
+6. `Graph`_
 
-.. _Graphe: https://distancia.readthedocs.io/en/latest/graphDistance.html
+.. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
 
    ShortestPath
 
@@ -587,8 +587,8 @@ Link
    -  `fileDistance`_
 .. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
 
-   -  `graph`_
-.. _graph: https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb
+   -  `graphDistance`_
+.. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb
 
    -  `lossDistance`_
 .. _lossDistance: https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb
