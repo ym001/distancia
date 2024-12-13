@@ -10,10 +10,6 @@ Welcome to Distancia's documentation!
 
 The documentation is divided into the following sections:
 
-.. contents::
-   :local:
-   :depth: 2
-
 .. note::
 
    The code examples provided in this documentation are written for Python 3.x.
@@ -109,11 +105,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Available Metrics
 -----------------
-1. :doc:`vectorDistance`
 
-.. toctree::
-   :maxdepth: 1
-
+1. `vectorDistance`_
+.. _vectorDistance: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
    Euclidean
 
@@ -183,8 +177,6 @@ Available Metrics
  
 2. :doc:`matrixDistance`
 
-.. toctree::
-   :maxdepth: 1
 
    Mahalanobis
 
@@ -222,8 +214,7 @@ Available Metrics
    
 3. :doc:`textDistance`
 
-.. toctree::
-   :maxdepth: 1
+
 
    Levenshtein
 
@@ -285,8 +276,6 @@ Available Metrics
 
 4. :doc:`timeDistance`
 
-.. toctree::
-   :maxdepth: 1
 
    DynamicTimeWarping
 
@@ -296,8 +285,6 @@ Available Metrics
 
 5. :doc:`lossFunction`
 
-.. toctree::
-   :maxdepth: 1
 
    CrossEntropy
 
@@ -314,8 +301,6 @@ Available Metrics
 
 6. :doc:`graphDistance`
 
-.. toctree::
-   :maxdepth: 1
 
    ShortestPath
 
@@ -343,8 +328,6 @@ Available Metrics
 
 7. :doc:`markovChainDistance`
 
-.. toctree::
-   :maxdepth: 1
 
    MarkovChainKullbackLeibler
 
@@ -362,8 +345,6 @@ Available Metrics
 
 8. :doc:`imageDistance`
 
-.. toctree::
-   :maxdepth: 1
 
    StructuralSimilarityIndex
 
@@ -383,8 +364,6 @@ Available Metrics
 
 9. :doc:`soundDistance`
 
-.. toctree::
-   :maxdepth: 1
 
    SpectralConvergence
 
@@ -450,8 +429,6 @@ Overview
 --------
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
-.. toctree::
-   :maxdepth: 1
 
    BatchDistance
 
@@ -459,8 +436,6 @@ Purpose: Facilitates batch processing of distance computations, enabling users t
 
 Use Case: Essential in real-time systems or when working with large datasets where efficiency is critical. Batch processing saves time and computational resources by handling multiple distance computations in one go.
 
-.. toctree::
-   :maxdepth: 1
 
    ComprehensiveBenchmarking
 
@@ -468,8 +443,6 @@ Purpose: Provides tools for benchmarking the performance of various distance met
 
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
 
-.. toctree::
-   :maxdepth: 1
 
    CustomDistanceFunction
 
@@ -477,8 +450,6 @@ Purpose: Allows users to define custom distance functions by specifying a mathem
 
 Use Case: Useful for researchers or practitioners who need a specific metric that isn’t commonly used or already implemented.
 
-.. toctree::
-   :maxdepth: 1
 
    DistanceMatrix
 
@@ -486,8 +457,6 @@ Purpose: Automatically generates a distance matrix for a set of data points usin
 
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
 
-.. toctree::
-   :maxdepth: 1
 
    DistanceMetricLearning
 
@@ -495,17 +464,11 @@ Purpose: Implements algorithms for learning an optimal distance metric from data
 
 Use Case: Critical in machine learning tasks where the goal is to optimize a distance metric for maximum task-specific performance, improving the accuracy of models.
 
-.. toctree::
-   :maxdepth: 1
-
    IntegratedDistance
 
 Purpose: Enables seamless integration of distance computations with popular data science libraries like pandas, scikit-learn, and numpy.
 
 Use Case: This class enhances the usability of the distancia package, allowing users to incorporate distance calculations directly into their existing data analysis workflows.
-
-.. toctree::
-   :maxdepth: 1
 
    MetricFinder
 
@@ -513,8 +476,6 @@ Purpose: Identifies the most appropriate distance metric for two given data poin
 
 Use Case: Useful when dealing with various types of data, this class helps users automatically determine the best distance metric to apply, ensuring that the metric chosen is suitable for the data's characteristics.
 
-.. toctree::
-   :maxdepth: 1
 
    OutlierDetection
 
@@ -522,8 +483,6 @@ Purpose: Implements methods for detecting outliers in datasets by using distance
 
 Use Case: Essential in fields such as fraud detection, quality control, and data cleaning, where identifying and managing outliers is crucial for maintaining data integrity.
 
-.. toctree::
-   :maxdepth: 1
 
    ParallelandDistributedComputation
 
@@ -531,8 +490,6 @@ Purpose: Adds support for parallel or distributed computation of distances, part
 
 Use Case: In big data scenarios, calculating distances between millions of data points can be computationally expensive. This class significantly reduces computation time by parallelizing these calculations across multiple processors or machines.
 
-.. toctree::
-   :maxdepth: 1
 
    Visualization
 
@@ -540,53 +497,37 @@ Purpose: Provides tools for visualizing distance matrices, dendrograms (for hier
 
 Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), helping users understand the relationships between data points. This class is particularly useful for creating visual aids like heatmaps or dendrograms to better interpret the data.
 
-.. toctree::
-   :maxdepth: 1
 
    APICompatibility
 
 The APICompatibility class in the distancia package bridges the gap between powerful distance computation tools and modern API-based architectures. By enabling the creation of REST endpoints for distance metrics, it facilitates the integration of distancia into a wide range of applications, from web services to distributed computing environments. This not only enhances the usability of the package but also ensures that it can be effectively deployed in real-world, production-grade systems.
 
 
-.. toctree::
-   :maxdepth: 1
 
    AutomatedDistanceMetricSelection
 
 The AutomatedDistanceMetricSelection feature in the distancia package represents a significant advancement in the ease of use and accessibility of distance metric selection. By automating the process of metric recommendation, it helps users, especially those less familiar with the intricacies of different metrics, to achieve better results in their analyses. This feature not only saves time but also improves the accuracy of data-driven decisions, making distancia a more powerful and user-friendly tool for the data science community.
 
 
-
-.. toctree::
-   :maxdepth: 1
-
    ReportingAndDocumentation
 
 The ReportingAndDocumentation class is a powerful tool for automating the analysis and documentation of distance metrics. By integrating report generation, matrix export, and property documentation, it provides users with a streamlined way to evaluate and present the results of their distance-based models. This class is especially valuable for machine learning practitioners who require a deeper understanding of the behavior of the metrics they employ.
 
-.. toctree::
-   :maxdepth: 1
 
    AdvancedAnalysis
 
 The AdvancedAnalysis class provides essential tools for evaluating the performance, robustness, and sensitivity of distance metrics. These advanced analyses ensure that a metric is not only theoretically sound but also practical and reliable in diverse applications. By offering deep insights into the behavior of distance metrics under perturbations, noise, and dataset divisions, this class is crucial for building resilient models in real-world environments.
 
-.. toctree::
-   :maxdepth: 1
 
    DimensionalityReductionAndScaling
 
 The `DimensionalityReductionAndScaling` class offers powerful methods for simplifying and scaling datasets. By providing tools for dimensionality reduction such as Multi-Dimensional Scaling (MDS), it allows users to project high-dimensional data into lower dimensions while retaining its key characteristics.
 
-.. toctree::
-   :maxdepth: 1
 
    ComparisonAndValidation
 
 The ComparisonAndValidation class offers tools to analyze and validate the performance of a distance or similarity metric by comparing it with other metrics and using established benchmarks. This class is essential for evaluating the effectiveness of a metric in various tasks, such as clustering, classification, or retrieval. By providing cross-validation techniques and benchmarking methods, it allows users to gain a deeper understanding of the metric's strengths and weaknesses.
 
-.. toctree::
-   :maxdepth: 1
 
    StatisticalAnalysis
 
@@ -605,22 +546,49 @@ Link
 + `Notebook`_
 .. _Notebook: https://github.com/ym001/distancia/tree/master/notebook
 
-   - vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
-   - matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
-   - textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>
+   - `vectorDistance`_
+.. _vectorDistance: https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb
 
-   - graphDistance<https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb>
-   - MarkovChain<https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb>
+   - `matrixDistance`_
+.. _matrixDistance: https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb
 
-   - Loss_function<https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb>
-   - distance<https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb>
-   - fileDistance<https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb>
-   - graph<https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb>
-   - lossDistance<https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb>
-   - similarity<https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb>
-   - imageDistance<https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb>
-   - soundDistance<https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb>
-   - timeSeriesDistance<https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb>
+   -  `textDistance`_
+.. _textDistance: https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb
+
+   -  `graphDistance`_
+.. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
+
+   -  `MarkovChain`_
+.. _MarkovChain: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
+
+
+   -  `Loss_function`_
+.. _Loss_function: https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb
+
+   -  `distance`_
+.. _distance: https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb
+
+   -  `fileDistance`_
+.. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
+
+   -  `graph`_
+.. _graph: https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb
+
+   -  `lossDistance`_
+.. _lossDistance: https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb
+
+   -  `similarity`_
+.. _similarity: https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb
+
+   -  `imageDistance`_
+.. _imageDistance: https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb
+
+   -  `soundDistance`_
+.. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
+
+   -  `timeSeriesDistance`_
+.. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
+
 
 
 
