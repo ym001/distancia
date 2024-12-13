@@ -114,7 +114,7 @@ Available Metrics
 
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
-   + `Euclidean <https://distancia.readthedocs.io/en/latest/Euclidean.html`_
+   + `Euclidean`_
 
 
    Manhattan 
