@@ -115,97 +115,66 @@ Available Metrics
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
    + `Euclidean`_
-
    + `Manhattan`_ 
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
-
    + `Jaro`_
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
-
    + `KendallTau`_
 .. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
-
    + `Bhattacharyya`_
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
-
    + `Haversine`_
 .. _Haversine: https://distancia.readthedocs.io/en/latest/Haversine.html
-
    + `Chebyshev`_
 .. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
-
    + `ContextualDynamicDistance`_
 .. _ContextualDynamicDistance: https://distancia.readthedocs.io/en/latest/ContextualDynamicDistance.html
-
    + `Canberra`_
 .. _Canberra: https://distancia.readthedocs.io/en/latest/Canberra.html
-
    + `BrayCurtis`_
 .. _BrayCurtis: https://distancia.readthedocs.io/en/latest/BrayCurtis.html
-
    + `RogersTanimoto`_
 .. _RogersTanimoto: https://distancia.readthedocs.io/en/latest/RogersTanimoto.html
-
    + `RussellRao`_
 .. _RussellRao: https://distancia.readthedocs.io/en/latest/RussellRao.html
-
    + `SokalMichener`_
 .. _SokalMichener: https://distancia.readthedocs.io/en/latest/SokalMichener.html
-
    + `SokalSneath`_
 .. _SokalSneath: https://distancia.readthedocs.io/en/latest/SokalSneath.html
-
    + `Wasserstein`_
 .. _Wasserstein: https://distancia.readthedocs.io/en/latest/Wasserstein.html
-
    + `Gower`_
 .. _Gower: https://distancia.readthedocs.io/en/latest/Gower.html
-
    + `CzekanowskiDice`_
 .. _CzekanowskiDice: https://distancia.readthedocs.io/en/latest/CzekanowskiDice.html
-
    + `Hellinger`_
 .. _Hellinger: https://distancia.readthedocs.io/en/latest/Hellinger.html
-
    + `MotzkinStraus`_
 .. _MotzkinStraus: https://distancia.readthedocs.io/en/latest/MotzkinStraus.html
-
    + `EnhancedRogersTanimoto`_
 .. _EnhancedRogersTanimoto: https://distancia.readthedocs.io/en/latest/EnhancedRogersTanimoto.html
-
    + `KullbackLeibler`_
 .. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
-
    + `Jaccard`_
 .. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
-
    + `GeneralizedJaccard`_
 .. _GeneralizedJaccard: https://distancia.readthedocs.io/en/latest/GeneralizedJaccard.html
-
    + `Tanimoto`_
 .. _Tanimoto: https://distancia.readthedocs.io/en/latest/Tanimoto.html
-
    + `InverseTanimoto`_
 .. _InverseTanimoto: https://distancia.readthedocs.io/en/latest/InverseTanimoto.html
-
    + `Ochiai`_ 
 .. _Ochiai: https://distancia.readthedocs.io/en/latest/Ochiai.html
-
    + `CzekanowskiDice`_
 .. _CzekanowskiDice: https://distancia.readthedocs.io/en/latest/CzekanowskiDice.html
-
    + `Pearson`_
 .. _Pearson: https://distancia.readthedocs.io/en/latest/Pearson.html
-
    + `Spearman`_ 
 .. _Spearman: https://distancia.readthedocs.io/en/latest/Spearman.html
-
    + `FagerMcGowan`_
 .. _FagerMcGowan: https://distancia.readthedocs.io/en/latest/FagerMcGowan.html
-
    + `Otsuka`_ 
 .. _Otsuka: https://distancia.readthedocs.io/en/latest/Otsuka.html
-
    + `Gestalt`_
 .. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
