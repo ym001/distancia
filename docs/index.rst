@@ -608,11 +608,16 @@ Link
 
 
 
-+ Exemples<https://github.com/ym001/distancia/blob/master/src/exemple.py>
-+ Pypi<https://pypi.org/project/distancia/>
-+ Source<https://github.com/ym001/distancia>
-+ Documentation<https://distancia.readthedocs.io/en/latest/>
-+ License<https://github.com/ym001/distancia/blob/master/LICENSE>
++ Exemples_
+.. Exemples: https://github.com/ym001/distancia/blob/master/src/exemple.py
++ Pypi_
+.. _Pypi: https://pypi.org/project/distancia/
++ Source_
+.. _Source: https://github.com/ym001/distancia
++ Documentation_
+.. _Documentation: https://distancia.readthedocs.io/en/latest/
++ License_
+.. _License: https://github.com/ym001/distancia/blob/master/LICENSE
 
 Conclusion
 ----------
