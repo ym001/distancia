@@ -608,15 +608,15 @@ Link
 
 
 
-+ Exemples_
++ `Exemples`_
 .. Exemples: https://github.com/ym001/distancia/blob/master/src/exemple.py
-+ Pypi_
++ `Pypi`_
 .. _Pypi: https://pypi.org/project/distancia/
-+ Source_
++ `Source`_
 .. _Source: https://github.com/ym001/distancia
-+ Documentation_
++ `Documentation`_
 .. _Documentation: https://distancia.readthedocs.io/en/latest/
-+ License_
++ `License`_
 .. _License: https://github.com/ym001/distancia/blob/master/LICENSE
 
 Conclusion
