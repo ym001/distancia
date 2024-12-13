@@ -586,9 +586,6 @@ Link
    -  `fileDistance`_
 .. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
 
-   -  `graphDistance`_
-.. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graph.ipynb
-
    -  `lossDistance`_
 .. _lossDistance: https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb
 
