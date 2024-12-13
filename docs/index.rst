@@ -559,47 +559,48 @@ Link
 
 
 + `Notebook`_
+   + `vectorDistance`_
+   + `matrixDistance`_
+   +  `textDistance`_
+   +  `graphDistance`_
+   +  `MarkovChain`_
+   +  `Loss_function`_
+   +  `distance`_
+   +  `fileDistance`_
+   +  `lossDistance`_
+   +  `similarity`_
+   +  `imageDistance`_
+   +  `soundDistance`_
+   +  `timeSeriesDistance`_
+
 .. _Notebook: https://github.com/ym001/distancia/tree/master/notebook
 
-   + `vectorDistance`_
 .. _vectorDistance: https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb
 
-   + `matrixDistance`_
 .. _matrixDistance: https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb
 
-   +  `textDistance`_
 .. _textDistance: https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb
 
-   +  `graphDistance`_
 .. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
 
-   +  `MarkovChain`_
 .. _MarkovChain: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 
-
-   +  `Loss_function`_
 .. _Loss_function: https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb
 
-   +  `distance`_
 .. _distance: https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb
 
-   +  `fileDistance`_
 .. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
 
-   +  `lossDistance`_
 .. _lossDistance: https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb
 
-   +  `similarity`_
 .. _similarity: https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb
 
-   +  `imageDistance`_
 .. _imageDistance: https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb
 
-   +  `soundDistance`_
 .. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
 
-   +  `timeSeriesDistance`_
-.. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
+.. _timeSeriesDistance: 
+https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
 
 
 
