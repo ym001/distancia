@@ -21,11 +21,14 @@ Getting Started
 Distancia is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancia provides the tools you need to measure the similarity or dissimilarity between objects.
 
 
-For a quick introduction, check out the :doc:`quickstart` guide. If you want to dive straight into the code, head over to the :doc:`Euclidean` page.
+For a quick introduction, check out the `quickstart`_ guide. If you want to dive straight into the code, head over to the `Euclidean`_ page.
+
+.. quickstart: https://distancia.readthedocs.io/en/latest/quickstart.html
+.. Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 
 .. note::
 
-   If you find any issues or have suggestions for improvements, feel free to contribute! See the :doc:`contributing` section for more details.
+   If you find any issues or have suggestions for improvements, feel free to contribute!
 
 Installation
 ------------
