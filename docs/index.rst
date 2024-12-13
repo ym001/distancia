@@ -110,9 +110,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-1. `vectorDistance`_
+1. `vectorD`_
 
-.. _vectorDistance: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+.. _vectorD: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
    + `Euclidean`_
 
