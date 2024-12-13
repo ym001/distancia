@@ -116,9 +116,7 @@ Available Metrics
 
    + `Euclidean`_
    + `Manhattan`_ 
-.. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
    + `Jaro`_
-.. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
    + `KendallTau`_
 .. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
    + `Bhattacharyya`_
@@ -178,6 +176,8 @@ Available Metrics
    + `Gestalt`_
 .. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
+.. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 
  
 2. `Matrix`_
