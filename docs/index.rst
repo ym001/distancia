@@ -605,7 +605,9 @@ Link
 + `Notebook`_
 .. _Notebook: https://github.com/ym001/distancia/tree/master/notebook
 
-   - vectorDistance<https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb>
+   - `vectorDistance`
+.. vectorDistance: https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb
+
    - matrixDistance<https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb>
    - textDistance<https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb>
 
