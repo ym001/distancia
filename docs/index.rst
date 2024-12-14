@@ -412,7 +412,6 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
 10. `File`_
-
 + `ByteLevelDistance`_
 + `HashComparison`_
 + `NormalizedCompression`_
