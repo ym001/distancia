@@ -584,44 +584,32 @@ Link
    +  `timeSeriesDistance`_
 
 .. _Notebook: https://github.com/ym001/distancia/tree/master/notebook
-
 .. _vectorDistance: https://github.com/ym001/distancia/blob/master/notebook/vectorDistance.ipynb
-
 .. _matrixDistance: https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb
-
 .. _textDistance: https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb
-
 .. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
-
 .. _MarkovChain: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
-
 .. _Loss_function: https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb
-
 .. _distance: https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb
-
 .. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
-
 .. _lossDistance: https://github.com/ym001/distancia/blob/master/notebook/lossDistance.ipynb
-
 .. _similarity: https://github.com/ym001/distancia/blob/master/notebook/similarity.ipynb
-
 .. _imageDistance: https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb
-
 .. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
-
 .. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
-
-
-
 
 + `Exemples`_
 .. _Exemples: https://github.com/ym001/distancia/blob/master/src/exemple.py
+
 + `Pypi`_
 .. _Pypi: https://pypi.org/project/distancia/
+
 + `Source`_
 .. _Source: https://github.com/ym001/distancia
+
 + `Documentation`_
 .. _Documentation: https://distancia.readthedocs.io/en/latest/
+
 + `License`_
 .. _License: https://github.com/ym001/distancia/blob/master/LICENSE
 
