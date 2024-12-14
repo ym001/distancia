@@ -15,7 +15,7 @@ The documentation is divided into the following sections:
    The code examples provided in this documentation are written for Python 3.x.
    The python code in this package has been optimized by static typing with Cython
 
-Getting Started
+*Getting Started*
 ---------------
 
 Distancia is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancia provides the tools you need to measure the similarity or dissimilarity between objects.
@@ -31,7 +31,7 @@ For a quick introduction, check out the `quickstart`_ guide. If you want to dive
 
    If you find any issues or have suggestions for improvements, feel free to contribute!
 
-Installation
+*Installation*
 ------------
 
 You can install the distancia package with pip:
@@ -86,9 +86,6 @@ Here are some common examples of how to use distancia:
 
    >>>Euclidean Distance: 5.196
 
-
-
-
 .. code-block:: python
    :caption: Example 2: Calculating Levenshtein Distance
 
@@ -109,9 +106,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 *Available Metrics*
 -----------------
 
-
 1.  `Vector`_ 
-
 
    + `Euclidean`_
    + `Manhattan`_ 
@@ -448,7 +443,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 And many more...
 
-Overview
+*Overview*
 --------
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
@@ -564,8 +559,8 @@ We welcome contributions! If you would like to contribute to distancia, please r
 .. contributing: https://distancia.readthedocs.io/en/latest/CONTRIBUTING.html
 
 
-Link
-----
+*Link*
+------
 
 + `Notebook`_
    + `vectorDistance`_
@@ -612,8 +607,8 @@ Link
 + `License`_
 .. _License: https://github.com/ym001/distancia/blob/master/LICENSE
 
-Conclusion
-----------
+*Conclusion*
+------------
 
 The distancia package offers a versatile toolkit for handling a wide range of distance and similarity calculations. Whether you're working with numeric data, categorical data, strings, or time series, the package's classes provide the necessary tools to accurately measure distances and similarities. By understanding and utilizing these classes, you can enhance your data analysis workflows and improve the performance of your machine learning models.
 
