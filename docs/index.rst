@@ -198,9 +198,9 @@ For a complete list and detailed explanations of each metric, see the next secti
  
 2. `Matrix`_
 
-  - `Mahalanobis`_
-  - `MahalanobisTaguchi`_
-  - `MatrixSpectral`_
+    - `Mahalanobis`_
+    - `MahalanobisTaguchi`_
+    - `MatrixSpectral`_
     - `NormalizedSpectral`_
     - `PureDiffusion`_
     - `RandomWalk`_
