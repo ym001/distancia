@@ -552,7 +552,7 @@ The `DimensionalityReductionAndScaling` class offers powerful methods for simpli
    + `ComparisonAndValidation`_
 .. _ComparisonAndValidation: https://distancia.readthedocs.io/en/latest/ComparisonAndValidation.html
 
-The ComparisonAndValidation class offers tools to analyze and validate the performance of a distance or similarity metric by comparing it with other metrics and using established benchmarks. This class is essential for evaluating the effectiveness of a metric in various tasks, such as clustering, classification, or retrieval. By providing cross-validation techniques and benchmarking methods, it allows users to gain a deeper understanding of the metric's strengths and weaknesses.
+   The ComparisonAndValidation class offers tools to analyze and validate the performance of a distance or similarity metric by comparing it with other metrics and using established benchmarks. This class is essential for evaluating the effectiveness of a metric in various tasks, such as clustering, classification, or retrieval. By providing cross-validation techniques and benchmarking methods, it allows users to gain a deeper understanding of the metric's strengths and weaknesses.
 
 
    + `StatisticalAnalysis`_
