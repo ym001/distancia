@@ -182,58 +182,42 @@ Available Metrics
  
 2. `Matrix`_
 
+      + `Mahalanobis`_
+      + `MahalanobisTaguchi`_
+      + `MatrixSpectral`_
+      + `NormalizedSpectral`_
+      + `PureDiffusion`_
+      +  `RandomWalk`_
+      + `HeatKernel`_
+      + `GraphEditMatrix`_
+      + `WeisfeilerLehman`_
+      + `NetSimile`_
+      + `TriangleMatrixDistance`_
+      + `PatternBased`_
+      + `CliqueBasedGraph`_
+      + `CycleMatrixDistance`_
+      + `GraphletMatrixDistance`_
+      + `MinimumCutDistanceCalculator`_
+      + `Percolation`_
+
 .. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
-
-   `Mahalanobis`_
 .. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
-
-   `MahalanobisTaguchi`_
 .. _MahalanobisTaguchi: https://distancia.readthedocs.io/en/latest/MahalanobisTaguchi.html
-
-   `MatrixSpectral`_
 .. _MatrixSpectral: https://distancia.readthedocs.io/en/latest/MatrixSpectral.html
-
-   `NormalizedSpectral`_
 .. _NormalizedSpectral: https://distancia.readthedocs.io/en/latest/NormalizedSpectral.html
-
-   `PureDiffusion`_
 .. _PureDiffusion: https://distancia.readthedocs.io/en/latest/PureDiffusion.html
-
-   `RandomWalk`_
 .. _RandomWalk: https://distancia.readthedocs.io/en/latest/RandomWalk.html
-
-   `HeatKernel`_
 .. _HeatKernel: https://distancia.readthedocs.io/en/latest/HeatKernel.html
-
-   `GraphEditMatrix`_
 .. _GraphEditMatrix: https://distancia.readthedocs.io/en/latest/GraphEditMatrix.html
-
-   `WeisfeilerLehman`_
 .. _WeisfeilerLehman: https://distancia.readthedocs.io/en/latest/WeisfeilerLehman.html
-
-   `NetSimile`_
 .. _NetSimile: https://distancia.readthedocs.io/en/latest/NetSimile.html
-
-   `TriangleMatrixDistance`_
 .. _TriangleMatrixDistance: https://distancia.readthedocs.io/en/latest/TriangleMatrixDistance.html
-
-   `PatternBased`_
 .. _PatternBased: https://distancia.readthedocs.io/en/latest/PatternBased.html
-
-   `CliqueBasedGraph`_
 .. _CliqueBasedGraph: https://distancia.readthedocs.io/en/latest/CliqueBasedGraph.html
-
-   `CycleMatrixDistance`_
 .. _CycleMatrixDistance: https://distancia.readthedocs.io/en/latest/CycleMatrixDistance.html
-
-   `GraphletMatrixDistance`_
 .. _GraphletMatrixDistance: https://distancia.readthedocs.io/en/latest/GraphletMatrixDistance.html
-
-   `MinimumCutDistanceCalculator`_
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
-
-   `Percolation`_
-   .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
+.. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
 3. `Text`_
 
