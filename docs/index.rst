@@ -110,7 +110,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-*`This is a link text <https://example.com>`_*
+:ref:`*This is a link text* <https://example.com>`
 
 1. [Vector](https://distancia.readthedocs.io/en/latest/vectorDistance.html)
 
