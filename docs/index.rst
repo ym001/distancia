@@ -420,23 +420,32 @@ Available Metrics
 
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
-* :doc:`ByteLevelDistance`
+   + `ByteLevelDistance`_
+.. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
 
-* :doc:`HashComparison`
+   + `HashComparison`_
+.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
 
-* :doc:`NormalizedCompression`
+   + `NormalizedCompression`_
+.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
 
-* :doc:`KolmogorovComplexity`
+   + `KolmogorovComplexity`_
+.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
 
-* :doc:`DynamicBinaryInstrumentation`
+   + `DynamicBinaryInstrumentation`_
+.. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
 
-* :doc:`FileMetadataComparison`
+   + `FileMetadataComparison`_
+.. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
 
-* :doc:`FileTypeDistance`
+   + `FileTypeDistance`_
+.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
 
-* :doc:`TreeEditDistance`
+   + `TreeEditDistance`_
+.. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
 
-* :doc:`ZlibBasedDistance`
+   + `ZlibBasedDistance`_
+.. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
 
 And many more...
 
