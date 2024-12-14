@@ -418,15 +418,15 @@ Available Metrics
 
 10. `File`_
 
-      + `ByteLevelDistance`_
-      + `HashComparison`_
-      + `NormalizedCompression`_
-      + `KolmogorovComplexity`_
-      + `DynamicBinaryInstrumentation`_
-      + `FileMetadataComparison`_
-      + `FileTypeDistance`_
-      + `TreeEditDistance`_
-      + `ZlibBasedDistance`_
+   + `ByteLevelDistance`_
+   + `HashComparison`_
+   + `NormalizedCompression`_
+   + `KolmogorovComplexity`_
+   + `DynamicBinaryInstrumentation`_
+   + `FileMetadataComparison`_
+   + `FileTypeDistance`_
+   + `TreeEditDistance`_
+   + `ZlibBasedDistance`_
 
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
@@ -552,7 +552,9 @@ The StatisticalAnalysis class provides essential tools to analyze and interpret 
 Contributing
 ------------
 
-We welcome contributions! If you would like to contribute to distancia, please read the :doc:`contributing` guide to get started. We appreciate your help in making this project better.
+We welcome contributions! If you would like to contribute to distancia, please read the `contributing`_ guide to get started. We appreciate your help in making this project better.
+
+.. contributing: https://distancia.readthedocs.io/en/latest/contributing.html
 
 
 Link
