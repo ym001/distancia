@@ -112,7 +112,7 @@ Available Metrics
 
 1. `Vector`_
 
-     + `Euclidean`_
+   + `Euclidean`_
    + `Manhattan`_ 
    + `Jaro`_
    + `KendallTau`_
