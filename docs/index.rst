@@ -283,10 +283,10 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `Time`_
 ~~~~~~~
-
-+ `DynamicTimeWarping`_
-+ `LongestCommonSubsequence`_
-+ `Frechet`_
++
+ - `DynamicTimeWarping`_
+ - `LongestCommonSubsequence`_
+ - `Frechet`_
 
 .. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
 .. _DynamicTimeWarping: https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
@@ -295,13 +295,13 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `Loss`_
 ~~~~~~~
-
-+ `CrossEntropy`_
-+ `MeanAbsoluteError`_
-+ `MeanAbsolutePercentageError`_
-+ `MeanSquaredError`_
-+ `SquaredLogarithmicError`_
-+ `GaloisWassersteinLoss`_
++
+- `CrossEntropy`_
+- `MeanAbsoluteError`_
+- `MeanAbsolutePercentageError`_
+- `MeanSquaredError`_
+- `SquaredLogarithmicError`_
+- `GaloisWassersteinLoss`_
 
 .. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
 .. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
