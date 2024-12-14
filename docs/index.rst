@@ -568,7 +568,6 @@ Link
 ----
 
 + `Notebook`_
-
    + `vectorDistance`_
    + `matrixDistance`_
    +  `textDistance`_
