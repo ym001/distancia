@@ -560,7 +560,7 @@ The StatisticalAnalysis class provides essential tools to analyze and interpret 
 *Contributing*
 ------------
 
-We welcome contributions! If you would like to contribute to distancia, please read the `contributing`_ guide to get started. We appreciate your help in making this project better.
+We welcome contributions! If you would like to contribute to **Distancia**, please read the `contributing`_ guide to get started. We appreciate your help in making this project better.
 
 .. contributing: https://distancia.readthedocs.io/en/latest/CONTRIBUTING.html
 
@@ -616,5 +616,5 @@ We welcome contributions! If you would like to contribute to distancia, please r
 *Conclusion*
 ------------
 
-The distancia package offers a versatile toolkit for handling a wide range of distance and similarity calculations. Whether you're working with numeric data, categorical data, strings, or time series, the package's classes provide the necessary tools to accurately measure distances and similarities. By understanding and utilizing these classes, you can enhance your data analysis workflows and improve the performance of your machine learning models.
+The *Distancia* package offers a versatile toolkit for handling a wide range of distance and similarity calculations. Whether you're working with numeric data, categorical data, strings, or time series, the package's classes provide the necessary tools to accurately measure distances and similarities. By understanding and utilizing these classes, you can enhance your data analysis workflows and improve the performance of your machine learning models.
 
