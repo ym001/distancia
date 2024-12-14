@@ -192,10 +192,6 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `FagerMcGowan`_
     - `Otsuka`_ 
     - `Gestalt`_
-
-
-
- 
 2. `Matrix`_
 
     - `Mahalanobis`_
