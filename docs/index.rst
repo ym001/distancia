@@ -110,7 +110,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-*italic link*: `*Visit our website* <https://example.com>`_
+*italic link*: `Visit our website<https://example.com>`_
 
 1. [Vector](https://distancia.readthedocs.io/en/latest/vectorDistance.html)
 
