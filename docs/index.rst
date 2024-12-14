@@ -106,7 +106,7 @@ Here are some common examples of how to use distancia:
 
 For a complete list and detailed explanations of each metric, see the next section.
 
-Available Metrics
+*Available Metrics*
 -----------------
 
 
