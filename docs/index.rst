@@ -110,7 +110,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-Here is a link with italic text: *`Visit our website <https://example.com>`_*
+Here is a link with italic text: *Visit our website*_
+
+.. _Visit our website: https://example.com
 
 1. [Vector](https://distancia.readthedocs.io/en/latest/vectorDistance.html)
 
