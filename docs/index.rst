@@ -2,7 +2,7 @@
    sphinx-quickstart on Tue Aug 10 14:57:34 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
+======================================
 Welcome to Distancia's documentation!
 ======================================
 
@@ -110,7 +110,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-1. *`Vector`_*
+1. `Vector`_
 
    + `Euclidean`_
    + `Manhattan`_ 
