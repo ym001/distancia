@@ -222,64 +222,92 @@ Available Metrics
 
 .. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
 
+   + `Levenshtein`_
+.. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
 
-   Levenshtein
+   + `DamerauLevenshtein`_
+.. _DamerauLevenshtein: https://distancia.readthedocs.io/en/latest/DamerauLevenshtein.html
 
-   DamerauLevenshtein
+   + `Hamming`_
+.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
 
-   Hamming
+   + `Cosine`_
+.. _Cosine: https://distancia.readthedocs.io/en/latest/Cosine.html
 
-   Cosine
+   + `TFIDFDistance`_
+.. _TFIDFDistance: https://distancia.readthedocs.io/en/latest/TFIDFDistance.html
 
-   TFIDFDistance
+   + `SimHash`_
+.. _SimHash: https://distancia.readthedocs.io/en/latest/SimHash.html
 
-   SimHash
+   + `CosineTF`_
+.. _CosineTF: https://distancia.readthedocs.io/en/latest/CosineTF.html
 
-   CosineTF
+   + `WordMoversDistance`_
+.. _WordMoversDistance: https://distancia.readthedocs.io/en/latest/WordMoversDistance.html
 
-   WordMoversDistance
+   + `BERTBasedDistance`_
+.. _BERTBasedDistance: https://distancia.readthedocs.io/en/latest/BERTBasedDistance.html
 
-   BERTBasedDistance
+   + `JaroWinkler`_
+.. _JaroWinkler: https://distancia.readthedocs.io/en/latest/JaroWinkler.html
 
-   JaroWinkler
+   + `OverlapCoefficient`_
+.. _OverlapCoefficient: https://distancia.readthedocs.io/en/latest/OverlapCoefficient.html
 
-   OverlapCoefficient
+   + `SorensenDice`_
+.. _SorensenDice: https://distancia.readthedocs.io/en/latest/SorensenDice.html
 
-   SorensenDice
+   + `BagOfWordsDistance`_
+.. _BagOfWordsDistance: https://distancia.readthedocs.io/en/latest/BagOfWordsDistance.html
 
-   BagOfWordsDistance
+   + `FastTextDistance`_
+.. _FastTextDistance: https://distancia.readthedocs.io/en/latest/FastTextDistance.html
 
-   FastTextDistance
+   + `Dice`_ 
+.. _Dice: https://distancia.readthedocs.io/en/latest/Dice.html
 
-   Dice 
+   + `Tversky`_ 
+.. _Tversky: https://distancia.readthedocs.io/en/latest/Tversky.html
 
-   Tversky 
+   + `NgramDistance`_
+.. _NgramDistance: https://distancia.readthedocs.io/en/latest/NgramDistance.html
 
-   NgramDistance
+   + `SmithWaterman`_
+.. _SmithWaterman: https://distancia.readthedocs.io/en/latest/SmithWaterman.html
 
-   SmithWaterman
+   + `RatcliffObershelp`_
+.. _RatcliffObershelp: https://distancia.readthedocs.io/en/latest/RatcliffObershelp.html
 
-   RatcliffObershelp
+   + `BLEUScore`_
+.. _BLEUScore: https://distancia.readthedocs.io/en/latest/BLEUScore.html
 
-   BLEUScore
+   + `ROUGEScore`_
+.. _ROUGEScore: https://distancia.readthedocs.io/en/latest/ROUGEScore.html
 
-   ROUGEScore
+   + `SoftCosineSimilarity`_
+.. _SoftCosineSimilarity: https://distancia.readthedocs.io/en/latest/SoftCosineSimilarity.html
 
-   SoftCosineSimilarity
+   + `TopicModelingDistance`_
+.. _TopicModelingDistance: https://distancia.readthedocs.io/en/latest/TopicModelingDistance.html
 
-   TopicModelingDistance
+   + `AlignmentBasedMeasures`_
+.. _AlignmentBasedMeasures: https://distancia.readthedocs.io/en/latest/AlignmentBasedMeasures.html
 
-   AlignmentBasedMeasures
+   + `GappyNGramDistance`_
+.. _GappyNGramDistance: https://distancia.readthedocs.io/en/latest/GappyNGramDistance.html
 
-   GappyNGramDistance
+   + `SoftJaccardSimilarity`_
+.. _SoftJaccardSimilarity: https://distancia.readthedocs.io/en/latest/SoftJaccardSimilarity.html
 
-   SoftJaccardSimilarity
+   + `NormalizedCompressionDistance`_
+.. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
 
-   NormalizedCompressionDistance
+   + `MongeElkanDistance`_
+.. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
 
-   MongeElkanDistance
-
-   JensenShannonDivergence
+   + `JensenShannonDivergence`_
+.. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 
 4. `Time`_
 
