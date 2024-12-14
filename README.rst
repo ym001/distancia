@@ -425,7 +425,7 @@ Available Metrics
 
 10. `File`_
 
-   + `ByteLevelDistance`_
+   - `ByteLevelDistance`_
    + `HashComparison`_
    + `NormalizedCompression`_
    + `KolmogorovComplexity`_
