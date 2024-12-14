@@ -567,8 +567,8 @@ We welcome contributions! If you would like to contribute to distancia, please r
 Link
 ----
 
-
 + `Notebook`_
+
    + `vectorDistance`_
    + `matrixDistance`_
    +  `textDistance`_
