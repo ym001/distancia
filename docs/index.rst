@@ -58,7 +58,7 @@ This modular installation allows you to keep your setup lightweight or include e
 *Quickstart*
 ----------
 
-Here are some common examples of how to use distancia:
+Here are some common examples of how to use **Distancia**:
 
 .. code-block:: python
    :caption: Example 1: Calculating Euclidean Distance
