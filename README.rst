@@ -112,8 +112,6 @@ Available Metrics
 
 1. `Vector`_
 
-.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
-
    + `Euclidean`_
    + `Manhattan`_ 
    + `Jaro`_
@@ -147,6 +145,7 @@ Available Metrics
    + `Otsuka`_ 
    + `Gestalt`_
 
+.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 .. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
@@ -182,42 +181,43 @@ Available Metrics
  
 2. `Matrix`_
 
+   + `Mahalanobis`_
+   + `MahalanobisTaguchi`_
+   + `MatrixSpectral`_
+   + `NormalizedSpectral`_
+   + `PureDiffusion`_
+   +  `RandomWalk`_
+   + `HeatKernel`_
+   + `GraphEditMatrix`_
+   + `WeisfeilerLehman`_
+   + `NetSimile`_
+   + `TriangleMatrixDistance`_
+   + `PatternBased`_
+   + `CliqueBasedGraph`_
+   + `CycleMatrixDistance`_
+   + `GraphletMatrixDistance`_
+   + `MinimumCutDistanceCalculator`_
+   + `Percolation`_
+
 .. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
+.. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
+.. _MahalanobisTaguchi: https://distancia.readthedocs.io/en/latest/MahalanobisTaguchi.html
+.. _MatrixSpectral: https://distancia.readthedocs.io/en/latest/MatrixSpectral.html
+.. _NormalizedSpectral: https://distancia.readthedocs.io/en/latest/NormalizedSpectral.html
+.. _PureDiffusion: https://distancia.readthedocs.io/en/latest/PureDiffusion.html
+.. _RandomWalk: https://distancia.readthedocs.io/en/latest/RandomWalk.html
+.. _HeatKernel: https://distancia.readthedocs.io/en/latest/HeatKernel.html
+.. _GraphEditMatrix: https://distancia.readthedocs.io/en/latest/GraphEditMatrix.html
+.. _WeisfeilerLehman: https://distancia.readthedocs.io/en/latest/WeisfeilerLehman.html
+.. _NetSimile: https://distancia.readthedocs.io/en/latest/NetSimile.html
+.. _TriangleMatrixDistance: https://distancia.readthedocs.io/en/latest/TriangleMatrixDistance.html
+.. _PatternBased: https://distancia.readthedocs.io/en/latest/PatternBased.html
+.. _CliqueBasedGraph: https://distancia.readthedocs.io/en/latest/CliqueBasedGraph.html
+.. _CycleMatrixDistance: https://distancia.readthedocs.io/en/latest/CycleMatrixDistance.html
+.. _GraphletMatrixDistance: https://distancia.readthedocs.io/en/latest/GraphletMatrixDistance.html
+.. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
+.. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
-   Mahalanobis
-
-   MahalanobisTaguchi
-
-   MatrixSpectral
-
-   NormalizedSpectral
-
-   PureDiffusion
-
-   RandomWalk
-
-   HeatKernel
-
-   GraphEditMatrix
-
-   WeisfeilerLehman
-
-   NetSimile
-
-   TriangleMatrixDistance
-
-   PatternBased
-
-   CliqueBasedGraph
-
-   CycleMatrixDistance
-
-   GraphletMatrixDistance
-
-   MinimumCutDistanceCalculator
-
-   Percolation
-   
 3. `Text`_
 
 .. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
@@ -418,25 +418,27 @@ Available Metrics
 
 10. `File`_
 
+
+   + `ByteLevelDistance`_
+   + `HashComparison`_
+   + `NormalizedCompression`_
+   + `KolmogorovComplexity`_
+   + `DynamicBinaryInstrumentation`_
+   + `FileMetadataComparison`_
+   + `FileTypeDistance`_
+   + `TreeEditDistance`_
+   + `ZlibBasedDistance`_
+
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
-
-* :doc:`ByteLevelDistance`
-
-* :doc:`HashComparison`
-
-* :doc:`NormalizedCompression`
-
-* :doc:`KolmogorovComplexity`
-
-* :doc:`DynamicBinaryInstrumentation`
-
-* :doc:`FileMetadataComparison`
-
-* :doc:`FileTypeDistance`
-
-* :doc:`TreeEditDistance`
-
-* :doc:`ZlibBasedDistance`
+.. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
+.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
+.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
+.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
+.. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
+.. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
+.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
+.. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
+.. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
 
 And many more...
 
@@ -551,7 +553,9 @@ The StatisticalAnalysis class provides essential tools to analyze and interpret 
 Contributing
 ------------
 
-We welcome contributions! If you would like to contribute to distancia, please read the :doc:`contributing` guide to get started. We appreciate your help in making this project better.
+We welcome contributions! If you would like to contribute to distancia, please read the `contributing`_ guide to get started. We appreciate your help in making this project better.
+
+.. contributing: https://distancia.readthedocs.io/en/latest/contributing.html
 
 
 Link
@@ -599,8 +603,7 @@ Link
 
 .. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
 
-.. _timeSeriesDistance: 
-https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
+.. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
 
 
 
