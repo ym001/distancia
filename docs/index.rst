@@ -304,18 +304,18 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
 + `Graph`_
-  - `ShortestPath`_
-  - `GraphEditDistance`_
-  - `SpectralDistance`_
-  - `WeisfeilerLehmanSimilarity`_
-  - `ComparingRandomWalkStationaryDistributions`_
-  - `Diffusion`_
-  - `FrobeniusDistance`_
-  - `GraphKernelDistance`_
-  - `PatternBasedDistance`_
-  - `GraphCompressionDistance`_
-  - `DegreeDistributionDistance`_
-  - `CommunityStructureDistance`_
+    - `ShortestPath`_
+    - `GraphEditDistance`_
+    - `SpectralDistance`_
+    - `WeisfeilerLehmanSimilarity`_
+    - `ComparingRandomWalkStationaryDistributions`_
+    - `Diffusion`_
+    - `FrobeniusDistance`_
+    - `GraphKernelDistance`_
+    - `PatternBasedDistance`_
+    - `GraphCompressionDistance`_
+    - `DegreeDistributionDistance`_
+    - `CommunityStructureDistance`_
 
 .. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
 .. _ShortestPath: https://distancia.readthedocs.io/en/latest/ShortestPath.html
