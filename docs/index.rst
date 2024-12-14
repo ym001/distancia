@@ -110,37 +110,37 @@ For a complete list and detailed explanations of each metric, see the next secti
 A.  `Vector`_ 
 
     - `Euclidean`_
-+ `Manhattan`_ 
-+ `Jaro`_
-+ `KendallTau`_
-+ `Bhattacharyya`_
-+ `Haversine`_
-+ `Chebyshev`_
-+ `ContextualDynamicDistance`_
-+ `Canberra`_
-+ `BrayCurtis`_
-+ `RogersTanimoto`_
-+ `RussellRao`_
-+ `SokalMichener`_
-+ `SokalSneath`_
-+ `Wasserstein`_
-+ `Gower`_
-+ `CzekanowskiDice`_
-+ `Hellinger`_
-+ `MotzkinStraus`_
-+ `EnhancedRogersTanimoto`_
-+ `KullbackLeibler`_
-+ `Jaccard`_
-+ `GeneralizedJaccard`_
-+ `Tanimoto`_
-+ `InverseTanimoto`_
-+ `Ochiai`_ 
-+ `CzekanowskiDice`_
-+ `Pearson`_
-+ `Spearman`_ 
-+ `FagerMcGowan`_
-+ `Otsuka`_ 
-+ `Gestalt`_
+    - `Manhattan`_ 
+    - `Jaro`_
+    - `KendallTau`_
+    - `Bhattacharyya`_
+    - `Haversine`_
+    - `Chebyshev`_
+    - `ContextualDynamicDistance`_
+    - `Canberra`_
+    - `BrayCurtis`_
+    - `RogersTanimoto`_
+    - `RussellRao`_
+    - `SokalMichener`_
+    - `SokalSneath`_
+    - `Wasserstein`_
+    - `Gower`_
+    - `CzekanowskiDice`_
+    - `Hellinger`_
+    - `MotzkinStraus`_
+    - `EnhancedRogersTanimoto`_
+    - `KullbackLeibler`_
+    - `Jaccard`_
+    - `GeneralizedJaccard`_
+    - `Tanimoto`_
+    - `InverseTanimoto`_
+    - `Ochiai`_ 
+    - `CzekanowskiDice`_
+    - `Pearson`_
+    - `Spearman`_ 
+    - `FagerMcGowan`_
+    - `Otsuka`_ 
+    - `Gestalt`_
 
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
@@ -176,9 +176,9 @@ A.  `Vector`_
 .. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
  
-2. `Matrix`_
+B. `Matrix`_
 
-+ `Mahalanobis`_
+    - `Mahalanobis`_
 + `MahalanobisTaguchi`_
 + `MatrixSpectral`_
 + `NormalizedSpectral`_
