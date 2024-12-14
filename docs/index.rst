@@ -103,9 +103,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 *Available Metrics*
 -------------------
 
-1.  `Vector`_ 
++  `Vector`_ 
 
-+ `Euclidean`_
+- `Euclidean`_
 + `Manhattan`_ 
 + `Jaro`_
 + `KendallTau`_
@@ -444,7 +444,7 @@ And many more...
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
 
-- `BatchDistance`_
++ `BatchDistance`_
 
 .. _BatchDistance: https://distancia.readthedocs.io/en/latest/BatchDistance.html
 
