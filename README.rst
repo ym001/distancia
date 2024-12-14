@@ -423,6 +423,11 @@ Available Metrics
 .. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
 .. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
+10. `Sound`_
+
+   + `SpectralConvergence`_
+   + `MFCCProcessor`_
+
 10. `File`_
 
    + `ByteLevelDistance`_
