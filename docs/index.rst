@@ -112,9 +112,7 @@ Available Metrics
 
 1. `Vector`_
 
-.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
-
-   + `Euclidean`_
+     + `Euclidean`_
    + `Manhattan`_ 
    + `Jaro`_
    + `KendallTau`_
@@ -147,6 +145,7 @@ Available Metrics
    + `Otsuka`_ 
    + `Gestalt`_
 
+.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 .. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
