@@ -413,7 +413,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 10. `File`_
 
- - `ByteLevelDistance`_
+ o `ByteLevelDistance`_
 + `HashComparison`_
 + `NormalizedCompression`_
 + `KolmogorovComplexity`_
