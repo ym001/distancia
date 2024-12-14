@@ -418,6 +418,7 @@ Available Metrics
 
 10. `File`_
 
+
    + `ByteLevelDistance`_
    + `HashComparison`_
    + `NormalizedCompression`_
