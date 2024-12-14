@@ -161,8 +161,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 `Vector`_ 
 ~~~~~~~~~~
 
-    - `Euclidean`_
-    - `Manhattan`_ 
++ `Euclidean`_
++ `Manhattan`_ 
     - `Jaro`_
 
     - `KendallTau`_
