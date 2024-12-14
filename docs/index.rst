@@ -598,8 +598,8 @@ Link
 .. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
 .. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
 
-+ `Exemples`_
-.. _Exemples: https://github.com/ym001/distancia/blob/master/src/exemple.py
++ `Examples`_
+.. _Examples: https://github.com/ym001/distancia/blob/master/src/example.py
 
 + `Pypi`_
 .. _Pypi: https://pypi.org/project/distancia/
