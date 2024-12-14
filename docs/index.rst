@@ -159,6 +159,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
 + `Vector`_ 
+~~~~~~~~~~~
 
     - `Euclidean`_
     - `Manhattan`_ 
