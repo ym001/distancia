@@ -282,18 +282,18 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `JensenShannonDivergence`_
 
 + `Time`_
- - `DynamicTimeWarping`_
- - `LongestCommonSubsequence`_
- - `Frechet`_
+    - `DynamicTimeWarping`_
+    - `LongestCommonSubsequence`_
+    - `Frechet`_
 
 
 + `Loss`_
-  - `CrossEntropy`_
-  - `MeanAbsoluteError`_
-  - `MeanAbsolutePercentageError`_
-  - `MeanSquaredError`_
-  - `SquaredLogarithmicError`_
-  - `GaloisWassersteinLoss`_
+    - `CrossEntropy`_
+    - `MeanAbsoluteError`_
+    - `MeanAbsolutePercentageError`_
+    - `MeanSquaredError`_
+    - `SquaredLogarithmicError`_
+    - `GaloisWassersteinLoss`_
 
 .. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
 .. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
