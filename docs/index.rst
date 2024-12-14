@@ -102,38 +102,38 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 1.  `Vector`_ 
 
-   + `Euclidean`_
-   + `Manhattan`_ 
-   + `Jaro`_
-   + `KendallTau`_
-   + `Bhattacharyya`_
-   + `Haversine`_
-   + `Chebyshev`_
-   + `ContextualDynamicDistance`_
-   + `Canberra`_
-   + `BrayCurtis`_
-   + `RogersTanimoto`_
-   + `RussellRao`_
-   + `SokalMichener`_
-   + `SokalSneath`_
-   + `Wasserstein`_
-   + `Gower`_
-   + `CzekanowskiDice`_
-   + `Hellinger`_
-   + `MotzkinStraus`_
-   + `EnhancedRogersTanimoto`_
-   + `KullbackLeibler`_
-   + `Jaccard`_
-   + `GeneralizedJaccard`_
-   + `Tanimoto`_
-   + `InverseTanimoto`_
-   + `Ochiai`_ 
-   + `CzekanowskiDice`_
-   + `Pearson`_
-   + `Spearman`_ 
-   + `FagerMcGowan`_
-   + `Otsuka`_ 
-   + `Gestalt`_
++ `Euclidean`_
++ `Manhattan`_ 
++ `Jaro`_
++ `KendallTau`_
++ `Bhattacharyya`_
++ `Haversine`_
++ `Chebyshev`_
++ `ContextualDynamicDistance`_
++ `Canberra`_
++ `BrayCurtis`_
++ `RogersTanimoto`_
++ `RussellRao`_
++ `SokalMichener`_
++ `SokalSneath`_
++ `Wasserstein`_
++ `Gower`_
++ `CzekanowskiDice`_
++ `Hellinger`_
++ `MotzkinStraus`_
++ `EnhancedRogersTanimoto`_
++ `KullbackLeibler`_
++ `Jaccard`_
++ `GeneralizedJaccard`_
++ `Tanimoto`_
++ `InverseTanimoto`_
++ `Ochiai`_ 
++ `CzekanowskiDice`_
++ `Pearson`_
++ `Spearman`_ 
++ `FagerMcGowan`_
++ `Otsuka`_ 
++ `Gestalt`_
 
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
@@ -171,23 +171,23 @@ For a complete list and detailed explanations of each metric, see the next secti
  
 2. `Matrix`_
 
-   + `Mahalanobis`_
-   + `MahalanobisTaguchi`_
-   + `MatrixSpectral`_
-   + `NormalizedSpectral`_
-   + `PureDiffusion`_
-   + `RandomWalk`_
-   + `HeatKernel`_
-   + `GraphEditMatrix`_
-   + `WeisfeilerLehman`_
-   + `NetSimile`_
-   + `TriangleMatrixDistance`_
-   + `PatternBased`_
-   + `CliqueBasedGraph`_
-   + `CycleMatrixDistance`_
-   + `GraphletMatrixDistance`_
-   + `MinimumCutDistanceCalculator`_
-   + `Percolation`_
++ `Mahalanobis`_
++ `MahalanobisTaguchi`_
++ `MatrixSpectral`_
++ `NormalizedSpectral`_
++ `PureDiffusion`_
++ `RandomWalk`_
++ `HeatKernel`_
++ `GraphEditMatrix`_
++ `WeisfeilerLehman`_
++ `NetSimile`_
++ `TriangleMatrixDistance`_
++ `PatternBased`_
++ `CliqueBasedGraph`_
++ `CycleMatrixDistance`_
++ `GraphletMatrixDistance`_
++ `MinimumCutDistanceCalculator`_
++ `Percolation`_
 
 .. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
@@ -210,35 +210,35 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 3. `Text`_
 
-   + `Levenshtein`_
-   + `DamerauLevenshtein`_
-   + `Hamming`_
-   + `Cosine`_
-   + `TFIDFDistance`_
-   + `SimHash`_
-   + `CosineTF`_
-   + `WordMoversDistance`_
-   + `BERTBasedDistance`_
-   + `JaroWinkler`_
-   + `OverlapCoefficient`_
-   + `SorensenDice`_
-   + `BagOfWordsDistance`_
-   + `FastTextDistance`_
-   + `Dice`_ 
-   + `Tversky`_ 
-   + `NgramDistance`_
-   + `SmithWaterman`_
-   + `RatcliffObershelp`_
-   + `BLEUScore`_
-   + `ROUGEScore`_
-   + `SoftCosineSimilarity`_
-   + `TopicModelingDistance`_
-   + `AlignmentBasedMeasures`_
-   + `GappyNGramDistance`_
-   + `SoftJaccardSimilarity`_
-   + `NormalizedCompressionDistance`_
-   + `MongeElkanDistance`_
-   + `JensenShannonDivergence`_
++ `Levenshtein`_
++ `DamerauLevenshtein`_
++ `Hamming`_
++ `Cosine`_
++ `TFIDFDistance`_
++ `SimHash`_
++ `CosineTF`_
++ `WordMoversDistance`_
++ `BERTBasedDistance`_
++ `JaroWinkler`_
++ `OverlapCoefficient`_
++ `SorensenDice`_
++ `BagOfWordsDistance`_
++ `FastTextDistance`_
++ `Dice`_ 
++ `Tversky`_ 
++ `NgramDistance`_
++ `SmithWaterman`_
++ `RatcliffObershelp`_
++ `BLEUScore`_
++ `ROUGEScore`_
++ `SoftCosineSimilarity`_
++ `TopicModelingDistance`_
++ `AlignmentBasedMeasures`_
++ `GappyNGramDistance`_
++ `SoftJaccardSimilarity`_
++ `NormalizedCompressionDistance`_
++ `MongeElkanDistance`_
++ `JensenShannonDivergence`_
 
 .. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
@@ -273,9 +273,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 4. `Time`_
 
-   + `DynamicTimeWarping`_
-   + `LongestCommonSubsequence`_
-   + `Frechet`_
++ `DynamicTimeWarping`_
++ `LongestCommonSubsequence`_
++ `Frechet`_
 
 .. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
 .. _DynamicTimeWarping: https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
@@ -301,18 +301,18 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 6. `Graph`_
 
-   + `ShortestPath`_
-   + `GraphEditDistance`_
-   + `SpectralDistance`_
-   + `WeisfeilerLehmanSimilarity`_
-   + `ComparingRandomWalkStationaryDistributions`_
-   + `Diffusion`_
-   + `FrobeniusDistance`_
-   + `GraphKernelDistance`_
-   + `PatternBasedDistance`_
-   + `GraphCompressionDistance`_
-   + `DegreeDistributionDistance`_
-   + `CommunityStructureDistance`_
++ `ShortestPath`_
++ `GraphEditDistance`_
++ `SpectralDistance`_
++ `WeisfeilerLehmanSimilarity`_
++ `ComparingRandomWalkStationaryDistributions`_
++ `Diffusion`_
++ `FrobeniusDistance`_
++ `GraphKernelDistance`_
++ `PatternBasedDistance`_
++ `GraphCompressionDistance`_
++ `DegreeDistributionDistance`_
++ `CommunityStructureDistance`_
 
 .. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
 .. _ShortestPath: https://distancia.readthedocs.io/en/latest/ShortestPath.html
@@ -330,13 +330,13 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 7. `MarkovChaine`_
 
-   + `MarkovChainKullbackLeibler`_
-   + `MarkovChainWasserstein`_
-   + `MarkovChainTotalVariation`_
-   + `MarkovChainHellinger`_
-   + `MarkovChainJensenShannon`_
-   + `MarkovChainFrobenius`_
-   + `MarkovChainSpectral`_
++ `MarkovChainKullbackLeibler`_
++ `MarkovChainWasserstein`_
++ `MarkovChainTotalVariation`_
++ `MarkovChainHellinger`_
++ `MarkovChainJensenShannon`_
++ `MarkovChainFrobenius`_
++ `MarkovChainSpectral`_
 
 .. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 .. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
@@ -349,14 +349,14 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 8. `Image`_
 
-   + `StructuralSimilarityIndex`_
-   + `PeakSignalToNoiseRatio`_
-   + `HistogramIntersection`_
-   + `EarthMoversDistance`_
-   + `ChiSquareDistance`_
-   + `FeatureBasedDistance`_
-   + `PerceptualHashing`_
-   + `NormalizedCrossCorrelation`_
++ `StructuralSimilarityIndex`_
++ `PeakSignalToNoiseRatio`_
++ `HistogramIntersection`_
++ `EarthMoversDistance`_
++ `ChiSquareDistance`_
++ `FeatureBasedDistance`_
++ `PerceptualHashing`_
++ `NormalizedCrossCorrelation`_
 
 .. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
 .. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
@@ -530,6 +530,7 @@ The ReportingAndDocumentation class is a powerful tool for automating the analys
 
 
 +AdvancedAnalysis`_
+
 .. _AdvancedAnalysis: https://distancia.readthedocs.io/en/latest/AdvancedAnalysis.html
 
 The AdvancedAnalysis class provides essential tools for evaluating the performance, robustness, and sensitivity of distance metrics. These advanced analyses ensure that a metric is not only theoretically sound but also practical and reliable in diverse applications. By offering deep insights into the behavior of distance metrics under perturbations, noise, and dataset divisions, this class is crucial for building resilient models in real-world environments.
