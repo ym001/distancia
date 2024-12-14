@@ -424,15 +424,16 @@ Available Metrics
 
 10. `File`_
 
-     + `ByteLevelDistance`_
-     + `HashComparison`_
-     + `NormalizedCompression`_
-     + `KolmogorovComplexity`_
-     + `DynamicBinaryInstrumentation`_
-     + `FileMetadataComparison`_
-     + `FileTypeDistance`_
-     + `TreeEditDistance`_
-     + `ZlibBasedDistance`_
+
+   + `ByteLevelDistance`_
+   + `HashComparison`_
+   + `NormalizedCompression`_
+   + `KolmogorovComplexity`_
+   + `DynamicBinaryInstrumentation`_
+   + `FileMetadataComparison`_
+   + `FileTypeDistance`_
+   + `TreeEditDistance`_
+   + `ZlibBasedDistance`_
 
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
