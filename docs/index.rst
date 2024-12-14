@@ -139,6 +139,25 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Otsuka: https://distancia.readthedocs.io/en/latest/Otsuka.html
 .. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
+.. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
+.. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
+.. _MahalanobisTaguchi: https://distancia.readthedocs.io/en/latest/MahalanobisTaguchi.html
+.. _MatrixSpectral: https://distancia.readthedocs.io/en/latest/MatrixSpectral.html
+.. _NormalizedSpectral: https://distancia.readthedocs.io/en/latest/NormalizedSpectral.html
+.. _PureDiffusion: https://distancia.readthedocs.io/en/latest/PureDiffusion.html
+.. _RandomWalk: https://distancia.readthedocs.io/en/latest/RandomWalk.html
+.. _HeatKernel: https://distancia.readthedocs.io/en/latest/HeatKernel.html
+.. _GraphEditMatrix: https://distancia.readthedocs.io/en/latest/GraphEditMatrix.html
+.. _WeisfeilerLehman: https://distancia.readthedocs.io/en/latest/WeisfeilerLehman.html
+.. _NetSimile: https://distancia.readthedocs.io/en/latest/NetSimile.html
+.. _TriangleMatrixDistance: https://distancia.readthedocs.io/en/latest/TriangleMatrixDistance.html
+.. _PatternBased: https://distancia.readthedocs.io/en/latest/PatternBased.html
+.. _CliqueBasedGraph: https://distancia.readthedocs.io/en/latest/CliqueBasedGraph.html
+.. _CycleMatrixDistance: https://distancia.readthedocs.io/en/latest/CycleMatrixDistance.html
+.. _GraphletMatrixDistance: https://distancia.readthedocs.io/en/latest/GraphletMatrixDistance.html
+.. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
+.. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
+
 1.  `Vector`_ 
 
     - `Euclidean`_
@@ -179,9 +198,9 @@ For a complete list and detailed explanations of each metric, see the next secti
  
 2. `Matrix`_
 
-- `Mahalanobis`_
-- `MahalanobisTaguchi`_
-    - `MatrixSpectral`_
+  - `Mahalanobis`_
+  - `MahalanobisTaguchi`_
+  - `MatrixSpectral`_
     - `NormalizedSpectral`_
     - `PureDiffusion`_
     - `RandomWalk`_
@@ -197,24 +216,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MinimumCutDistanceCalculator`_
     - `Percolation`_
 
-.. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
-.. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
-.. _MahalanobisTaguchi: https://distancia.readthedocs.io/en/latest/MahalanobisTaguchi.html
-.. _MatrixSpectral: https://distancia.readthedocs.io/en/latest/MatrixSpectral.html
-.. _NormalizedSpectral: https://distancia.readthedocs.io/en/latest/NormalizedSpectral.html
-.. _PureDiffusion: https://distancia.readthedocs.io/en/latest/PureDiffusion.html
-.. _RandomWalk: https://distancia.readthedocs.io/en/latest/RandomWalk.html
-.. _HeatKernel: https://distancia.readthedocs.io/en/latest/HeatKernel.html
-.. _GraphEditMatrix: https://distancia.readthedocs.io/en/latest/GraphEditMatrix.html
-.. _WeisfeilerLehman: https://distancia.readthedocs.io/en/latest/WeisfeilerLehman.html
-.. _NetSimile: https://distancia.readthedocs.io/en/latest/NetSimile.html
-.. _TriangleMatrixDistance: https://distancia.readthedocs.io/en/latest/TriangleMatrixDistance.html
-.. _PatternBased: https://distancia.readthedocs.io/en/latest/PatternBased.html
-.. _CliqueBasedGraph: https://distancia.readthedocs.io/en/latest/CliqueBasedGraph.html
-.. _CycleMatrixDistance: https://distancia.readthedocs.io/en/latest/CycleMatrixDistance.html
-.. _GraphletMatrixDistance: https://distancia.readthedocs.io/en/latest/GraphletMatrixDistance.html
-.. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
-.. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
+
 
 3. `Text`_
 
