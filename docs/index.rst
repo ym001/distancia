@@ -1,4 +1,7 @@
 .. meta::
+   :description: Distancia is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
+
+
    :keywords: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
    :keywords lang=en: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
 ======================================
@@ -102,6 +105,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 *Available Metrics*
 -------------------
+`Link text <https://domain.invalid/>`_
 
 +  `Vector`_ 
 
