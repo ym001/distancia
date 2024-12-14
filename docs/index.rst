@@ -382,45 +382,46 @@ Available Metrics
 
 9. `Sound`_
 
+   + `SpectralConvergence`_
+   + `MFCCProcessor`_
+   + `SignalProcessor`_
+   + `PowerSpectralDensityDistance`_
+   + `CrossCorrelation`_
+   + `PhaseDifferenceCalculator`_
+   + `TimeLagDistance`_
+   + `PESQ`_
+   + `LogSpectralDistance`_
+   + `BarkSpectralDistortion`_
+   + `ItakuraSaitoDistance`_
+   + `SignalToNoiseRatio`_
+   + `EnergyDistance`_
+   + `EnvelopeCorrelation`_
+   + `ZeroCrossingRateDistance`_
+   + `CochleagramDistance`_
+   + `ChromagramDistance`_
+   + `SpectrogramDistance`_
+   + `CQTDistance`_
+
 .. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
-
-   SpectralConvergence
-
-   MFCCProcessor
-
-   SignalProcessor
-
-   PowerSpectralDensityDistance
-
-   CrossCorrelation
-
-   PhaseDifferenceCalculator
-
-   TimeLagDistance
-
-   PESQ
-
-   LogSpectralDistance
-
-   BarkSpectralDistortion
-
-   ItakuraSaitoDistance
-
-   SignalToNoiseRatio
-
-   EnergyDistance
-
-   EnvelopeCorrelation
-
-   ZeroCrossingRateDistance
-
-   CochleagramDistance
-
-   ChromagramDistance
-
-   SpectrogramDistance
-
-   CQTDistance
+.. _SpectralConvergence: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
+.. _MFCCProcessor: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
+.. _SignalProcessor: https://distancia.readthedocs.io/en/latest/SignalProcessor.html
+.. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
+.. _CrossCorrelation: https://distancia.readthedocs.io/en/latest/CrossCorrelation.html
+.. _PhaseDifferenceCalculator: https://distancia.readthedocs.io/en/latest/PhaseDifferenceCalculator.html
+.. _TimeLagDistance: https://distancia.readthedocs.io/en/latest/TimeLagDistance.html
+.. _PESQ: https://distancia.readthedocs.io/en/latest/PESQ.html
+.. _LogSpectralDistance: https://distancia.readthedocs.io/en/latest/LogSpectralDistance.html
+.. _BarkSpectralDistortion: https://distancia.readthedocs.io/en/latest/BarkSpectralDistortion.html
+.. _ItakuraSaitoDistance: https://distancia.readthedocs.io/en/latest/ItakuraSaitoDistance.html
+.. _SignalToNoiseRatio: https://distancia.readthedocs.io/en/latest/SignalToNoiseRatio.html
+.. _EnergyDistance: https://distancia.readthedocs.io/en/latest/EnergyDistance.html
+.. _EnvelopeCorrelation: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
+.. _ZeroCrossingRateDistance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
+.. _CochleagramDistance: https://distancia.readthedocs.io/en/latest/CochleagramDistance.html
+.. _ChromagramDistance: https://distancia.readthedocs.io/en/latest/ChromagramDistance.html
+.. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
+.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
 10. `File`_
 
