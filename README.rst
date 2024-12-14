@@ -8,6 +8,7 @@
 Welcome to Distancia's documentation!
 ======================================
 
+
 **Distancia** is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
 The documentation is divided into the following sections:
@@ -158,11 +159,45 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
-`Vector`_ 
-~~~~~~~~~~
 
-+ `Vector`_
-~~~~~~~~~~
+.. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
+.. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
+.. _DamerauLevenshtein: https://distancia.readthedocs.io/en/latest/DamerauLevenshtein.html
+.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
+.. _Cosine: https://distancia.readthedocs.io/en/latest/Cosine.html
+.. _TFIDFDistance: https://distancia.readthedocs.io/en/latest/TFIDFDistance.html
+.. _SimHash: https://distancia.readthedocs.io/en/latest/SimHash.html
+.. _CosineTF: https://distancia.readthedocs.io/en/latest/CosineTF.html
+.. _WordMoversDistance: https://distancia.readthedocs.io/en/latest/WordMoversDistance.html
+.. _BERTBasedDistance: https://distancia.readthedocs.io/en/latest/BERTBasedDistance.html
+.. _JaroWinkler: https://distancia.readthedocs.io/en/latest/JaroWinkler.html
+.. _OverlapCoefficient: https://distancia.readthedocs.io/en/latest/OverlapCoefficient.html
+.. _SorensenDice: https://distancia.readthedocs.io/en/latest/SorensenDice.html
+.. _BagOfWordsDistance: https://distancia.readthedocs.io/en/latest/BagOfWordsDistance.html
+.. _FastTextDistance: https://distancia.readthedocs.io/en/latest/FastTextDistance.html
+.. _Dice: https://distancia.readthedocs.io/en/latest/Dice.html
+.. _Tversky: https://distancia.readthedocs.io/en/latest/Tversky.html
+.. _NgramDistance: https://distancia.readthedocs.io/en/latest/NgramDistance.html
+.. _SmithWaterman: https://distancia.readthedocs.io/en/latest/SmithWaterman.html
+.. _RatcliffObershelp: https://distancia.readthedocs.io/en/latest/RatcliffObershelp.html
+.. _BLEUScore: https://distancia.readthedocs.io/en/latest/BLEUScore.html
+.. _ROUGEScore: https://distancia.readthedocs.io/en/latest/ROUGEScore.html
+.. _SoftCosineSimilarity: https://distancia.readthedocs.io/en/latest/SoftCosineSimilarity.html
+.. _TopicModelingDistance: https://distancia.readthedocs.io/en/latest/TopicModelingDistance.html
+.. _AlignmentBasedMeasures: https://distancia.readthedocs.io/en/latest/AlignmentBasedMeasures.html
+.. _GappyNGramDistance: https://distancia.readthedocs.io/en/latest/GappyNGramDistance.html
+.. _SoftJaccardSimilarity: https://distancia.readthedocs.io/en/latest/SoftJaccardSimilarity.html
+.. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
+.. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
+.. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
+
+
+.. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
+.. _DynamicTimeWarping: https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
+.. _LongestCommonSubsequence: https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
+.. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
+
++ `Vector`_ 
     - `Euclidean`_
     - `Manhattan`_ 
     - `Jaro`_
@@ -196,9 +231,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Otsuka`_ 
     - `Gestalt`_
 
-`Matrix`_
-~~~~~~~~~
-+
++ `Matrix`_
     - `Mahalanobis`_
     - `MahalanobisTaguchi`_
     - `MatrixSpectral`_
@@ -217,9 +250,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MinimumCutDistanceCalculator`_
     - `Percolation`_
 
-`Text`_
-~~~~~~~
-+
++ `Text`_
     - `Levenshtein`_
     - `DamerauLevenshtein`_
     - `Hamming`_
@@ -250,58 +281,19 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MongeElkanDistance`_
     - `JensenShannonDivergence`_
 
-.. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
-.. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
-.. _DamerauLevenshtein: https://distancia.readthedocs.io/en/latest/DamerauLevenshtein.html
-.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
-.. _Cosine: https://distancia.readthedocs.io/en/latest/Cosine.html
-.. _TFIDFDistance: https://distancia.readthedocs.io/en/latest/TFIDFDistance.html
-.. _SimHash: https://distancia.readthedocs.io/en/latest/SimHash.html
-.. _CosineTF: https://distancia.readthedocs.io/en/latest/CosineTF.html
-.. _WordMoversDistance: https://distancia.readthedocs.io/en/latest/WordMoversDistance.html
-.. _BERTBasedDistance: https://distancia.readthedocs.io/en/latest/BERTBasedDistance.html
-.. _JaroWinkler: https://distancia.readthedocs.io/en/latest/JaroWinkler.html
-.. _OverlapCoefficient: https://distancia.readthedocs.io/en/latest/OverlapCoefficient.html
-.. _SorensenDice: https://distancia.readthedocs.io/en/latest/SorensenDice.html
-.. _BagOfWordsDistance: https://distancia.readthedocs.io/en/latest/BagOfWordsDistance.html
-.. _FastTextDistance: https://distancia.readthedocs.io/en/latest/FastTextDistance.html
-.. _Dice: https://distancia.readthedocs.io/en/latest/Dice.html
-.. _Tversky: https://distancia.readthedocs.io/en/latest/Tversky.html
-.. _NgramDistance: https://distancia.readthedocs.io/en/latest/NgramDistance.html
-.. _SmithWaterman: https://distancia.readthedocs.io/en/latest/SmithWaterman.html
-.. _RatcliffObershelp: https://distancia.readthedocs.io/en/latest/RatcliffObershelp.html
-.. _BLEUScore: https://distancia.readthedocs.io/en/latest/BLEUScore.html
-.. _ROUGEScore: https://distancia.readthedocs.io/en/latest/ROUGEScore.html
-.. _SoftCosineSimilarity: https://distancia.readthedocs.io/en/latest/SoftCosineSimilarity.html
-.. _TopicModelingDistance: https://distancia.readthedocs.io/en/latest/TopicModelingDistance.html
-.. _AlignmentBasedMeasures: https://distancia.readthedocs.io/en/latest/AlignmentBasedMeasures.html
-.. _GappyNGramDistance: https://distancia.readthedocs.io/en/latest/GappyNGramDistance.html
-.. _SoftJaccardSimilarity: https://distancia.readthedocs.io/en/latest/SoftJaccardSimilarity.html
-.. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
-.. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
-.. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
++ `Time`_
+    - `DynamicTimeWarping`_
+    - `LongestCommonSubsequence`_
+    - `Frechet`_
 
-`Time`_
-~~~~~~~
-+
- - `DynamicTimeWarping`_
- - `LongestCommonSubsequence`_
- - `Frechet`_
 
-.. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
-.. _DynamicTimeWarping: https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
-.. _LongestCommonSubsequence: https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
-.. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
-
-`Loss`_
-~~~~~~~
-+
-  - `CrossEntropy`_
-  - `MeanAbsoluteError`_
-  - `MeanAbsolutePercentageError`_
-  - `MeanSquaredError`_
-  - `SquaredLogarithmicError`_
-  - `GaloisWassersteinLoss`_
++ `Loss`_
+    - `CrossEntropy`_
+    - `MeanAbsoluteError`_
+    - `MeanAbsolutePercentageError`_
+    - `MeanSquaredError`_
+    - `SquaredLogarithmicError`_
+    - `GaloisWassersteinLoss`_
 
 .. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
 .. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
@@ -311,21 +303,19 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _SquaredLogarithmicError: https://distancia.readthedocs.io/en/latest/SquaredLogarithmicError.html
 .. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
-`Graph`_
-~~~~~~~~
-+
-  - `ShortestPath`_
-  - `GraphEditDistance`_
-  - `SpectralDistance`_
-  - `WeisfeilerLehmanSimilarity`_
-  - `ComparingRandomWalkStationaryDistributions`_
-  - `Diffusion`_
-  - `FrobeniusDistance`_
-  - `GraphKernelDistance`_
-  - `PatternBasedDistance`_
-  - `GraphCompressionDistance`_
-  - `DegreeDistributionDistance`_
-  - `CommunityStructureDistance`_
++ `Graph`_
+    - `ShortestPath`_
+    - `GraphEditDistance`_
+    - `SpectralDistance`_
+    - `WeisfeilerLehmanSimilarity`_
+    - `ComparingRandomWalkStationaryDistributions`_
+    - `Diffusion`_
+    - `FrobeniusDistance`_
+    - `GraphKernelDistance`_
+    - `PatternBasedDistance`_
+    - `GraphCompressionDistance`_
+    - `DegreeDistributionDistance`_
+    - `CommunityStructureDistance`_
 
 .. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
 .. _ShortestPath: https://distancia.readthedocs.io/en/latest/ShortestPath.html
@@ -341,16 +331,14 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _DegreeDistributionDistance: https://distancia.readthedocs.io/en/latest/DegreeDistributionDistance.html
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
-`MarkovChaine`_
-~~~~~~~~~~~~~~~~~
-+
-  - `MarkovChainKullbackLeibler`_
-  - `MarkovChainWasserstein`_
-  - `MarkovChainTotalVariation`_
-  - `MarkovChainHellinger`_
-  - `MarkovChainJensenShannon`_
-  - `MarkovChainFrobenius`_
-  - `MarkovChainSpectral`_
++ `MarkovChaine`_
+    - `MarkovChainKullbackLeibler`_
+    - `MarkovChainWasserstein`_
+    - `MarkovChainTotalVariation`_
+    - `MarkovChainHellinger`_
+    - `MarkovChainJensenShannon`_
+    - `MarkovChainFrobenius`_
+    - `MarkovChainSpectral`_
 
 .. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 .. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
@@ -361,17 +349,15 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MarkovChainFrobenius: https://distancia.readthedocs.io/en/latest/MarkovChainFrobenius.html
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
-`Image`_
-~~~~~~~~
-+
-  - `StructuralSimilarityIndex`_
-  - `PeakSignalToNoiseRatio`_
-  - `HistogramIntersection`_
-  - `EarthMoversDistance`_
-  - `ChiSquareDistance`_
-  - `FeatureBasedDistance`_
-  - `PerceptualHashing`_
-  - `NormalizedCrossCorrelation`_
++ `Image`_
+    - `StructuralSimilarityIndex`_
+    - `PeakSignalToNoiseRatio`_
+    - `HistogramIntersection`_
+    - `EarthMoversDistance`_
+    - `ChiSquareDistance`_
+    - `FeatureBasedDistance`_
+    - `PerceptualHashing`_
+    - `NormalizedCrossCorrelation`_
 
 .. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
 .. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
@@ -383,28 +369,26 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _PerceptualHashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
 .. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
-`Sound`_
-~~~~~~~~
-+
-  - `SpectralConvergence`_
-  - `MFCCProcessor`_
-  - `SignalProcessor`_
-  - `PowerSpectralDensityDistance`_
-  - `CrossCorrelation`_
-  - `PhaseDifferenceCalculator`_
-  - `TimeLagDistance`_
-  - `PESQ`_
-  -  `LogSpectralDistance`_
-  - `BarkSpectralDistortion`_
-  - `ItakuraSaitoDistance`_
-  - `SignalToNoiseRatio`_
-  - `EnergyDistance`_
-  -  `EnvelopeCorrelation`_
-  - `ZeroCrossingRateDistance`_
-  - `CochleagramDistance`_
-  - `ChromagramDistance`_
-  - `SpectrogramDistance`_
-  - `CQTDistance`_
++ `Sound`_
+    - `SpectralConvergence`_
+    - `MFCCProcessor`_
+    - `SignalProcessor`_
+    - `PowerSpectralDensityDistance`_
+    - `CrossCorrelation`_
+    - `PhaseDifferenceCalculator`_
+    - `TimeLagDistance`_
+    - `PESQ`_
+    -  `LogSpectralDistance`_
+    - `BarkSpectralDistortion`_
+    - `ItakuraSaitoDistance`_
+    - `SignalToNoiseRatio`_
+    - `EnergyDistance`_
+    -  `EnvelopeCorrelation`_
+    - `ZeroCrossingRateDistance`_
+    - `CochleagramDistance`_
+    - `ChromagramDistance`_
+    - `SpectrogramDistance`_
+    - `CQTDistance`_
 
 .. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 .. _SpectralConvergence: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
@@ -427,18 +411,16 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
 .. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
-`File`_
-~~~~~~~
-+
-  - `ByteLevelDistance`_
-  - `HashComparison`_
-  - `NormalizedCompression`_
-  - `KolmogorovComplexity`_
-  - `DynamicBinaryInstrumentation`_
-  - `FileMetadataComparison`_
-  - `FileTypeDistance`_
-  - `TreeEditDistance`_
-  - `ZlibBasedDistance`_
++ `File`_
+    - `ByteLevelDistance`_
+    - `HashComparison`_
+    - `NormalizedCompression`_
+    - `KolmogorovComplexity`_
+    - `DynamicBinaryInstrumentation`_
+    - `FileMetadataComparison`_
+    - `FileTypeDistance`_
+    - `TreeEditDistance`_
+    - `ZlibBasedDistance`_
 
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
