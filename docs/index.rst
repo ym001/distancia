@@ -215,37 +215,37 @@ B. `Matrix`_
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
-3. `Text`_
+C. `Text`_
 
-+ `Levenshtein`_
-+ `DamerauLevenshtein`_
-+ `Hamming`_
-+ `Cosine`_
-+ `TFIDFDistance`_
-+ `SimHash`_
-+ `CosineTF`_
-+ `WordMoversDistance`_
-+ `BERTBasedDistance`_
-+ `JaroWinkler`_
-+ `OverlapCoefficient`_
-+ `SorensenDice`_
-+ `BagOfWordsDistance`_
-+ `FastTextDistance`_
-+ `Dice`_ 
-+ `Tversky`_ 
-+ `NgramDistance`_
-+ `SmithWaterman`_
-+ `RatcliffObershelp`_
-+ `BLEUScore`_
-+ `ROUGEScore`_
-+ `SoftCosineSimilarity`_
-+ `TopicModelingDistance`_
-+ `AlignmentBasedMeasures`_
-+ `GappyNGramDistance`_
-+ `SoftJaccardSimilarity`_
-+ `NormalizedCompressionDistance`_
-+ `MongeElkanDistance`_
-+ `JensenShannonDivergence`_
+    - `Levenshtein`_
+    - `DamerauLevenshtein`_
+    - `Hamming`_
+    - `Cosine`_
+    - `TFIDFDistance`_
+    - `SimHash`_
+    - `CosineTF`_
+    - `WordMoversDistance`_
+    - `BERTBasedDistance`_
+    - `JaroWinkler`_
+    - `OverlapCoefficient`_
+    - `SorensenDice`_
+    - `BagOfWordsDistance`_
+    - `FastTextDistance`_
+    - `Dice`_ 
+    - `Tversky`_ 
+    - `NgramDistance`_
+    - `SmithWaterman`_
+    - `RatcliffObershelp`_
+    - `BLEUScore`_
+    - `ROUGEScore`_
+    - `SoftCosineSimilarity`_
+    - `TopicModelingDistance`_
+    - `AlignmentBasedMeasures`_
+    - `GappyNGramDistance`_
+    - `SoftJaccardSimilarity`_
+    - `NormalizedCompressionDistance`_
+    - `MongeElkanDistance`_
+    - `JensenShannonDivergence`_
 
 .. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
