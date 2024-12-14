@@ -451,7 +451,6 @@ Available Metrics
 .. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
 .. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
 
-And many more...
 
 Overview
 --------
