@@ -194,7 +194,6 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Otsuka`_ 
     - `Gestalt`_
 
-
 + `Matrix`_
     - `Mahalanobis`_
     - `MahalanobisTaguchi`_
@@ -330,7 +329,6 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _DegreeDistributionDistance: https://distancia.readthedocs.io/en/latest/DegreeDistributionDistance.html
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
-~~~~~~~~~~~~~~~~~
 + `MarkovChaine`_
   - `MarkovChainKullbackLeibler`_
   - `MarkovChainWasserstein`_
