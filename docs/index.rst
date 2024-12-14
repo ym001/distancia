@@ -110,7 +110,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-1. `*Vector*`_
+1. *`Vector`_*
 
    + `Euclidean`_
    + `Manhattan`_ 
@@ -219,6 +219,7 @@ Available Metrics
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
 3. `Text`_
+
    + `Levenshtein`_
    + `DamerauLevenshtein`_
    + `Hamming`_
@@ -281,6 +282,7 @@ Available Metrics
 .. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 
 4. `Time`_
+
    + `DynamicTimeWarping`_
    + `LongestCommonSubsequence`_
    + `Frechet`_
@@ -291,6 +293,7 @@ Available Metrics
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 
 5. `Loss`_
+
    + `CrossEntropy`_
    + `MeanAbsoluteError`_
    + `MeanAbsolutePercentageError`_
@@ -307,6 +310,7 @@ Available Metrics
 .. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
 6. `Graph`_
+
    + `ShortestPath`_
    + `GraphEditDistance`_
    + `SpectralDistance`_
@@ -335,6 +339,7 @@ Available Metrics
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
 7. `MarkovChaine`_
+
    + `MarkovChainKullbackLeibler`_
    + `MarkovChainWasserstein`_
    + `MarkovChainTotalVariation`_
@@ -353,6 +358,7 @@ Available Metrics
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
 8. `Image`_
+
    + `StructuralSimilarityIndex`_
    + `PeakSignalToNoiseRatio`_
    + `HistogramIntersection`_
@@ -373,6 +379,7 @@ Available Metrics
 .. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
 9. `Sound`_
+
    + `SpectralConvergence`_
    + `MFCCProcessor`_
    + `SignalProcessor`_
@@ -415,6 +422,7 @@ Available Metrics
 .. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
 10. `File`_
+
    + `ByteLevelDistance`_
    + `HashComparison`_
    + `NormalizedCompression`_
