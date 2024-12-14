@@ -1,7 +1,6 @@
 .. meta::
-   :keywords: backup
-   :keywords lang=en: pleasefindthiskey pleasefindthiskeytoo
-
+   :keywords: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
+   :keywords lang=en: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
 ======================================
 Welcome to Distancia's documentation!
 ======================================
