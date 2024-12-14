@@ -59,7 +59,7 @@ With all supported extras: Install all optional dependencies for maximum functio
 
 This modular installation allows you to keep your setup lightweight or include everything for full capabilities.
 
-Quickstart
+*Quickstart*
 ----------
 
 Here are some common examples of how to use distancia:
