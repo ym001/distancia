@@ -332,13 +332,13 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
 + `MarkovChaine`_
-  - `MarkovChainKullbackLeibler`_
-  - `MarkovChainWasserstein`_
-  - `MarkovChainTotalVariation`_
-  - `MarkovChainHellinger`_
-  - `MarkovChainJensenShannon`_
-  - `MarkovChainFrobenius`_
-  - `MarkovChainSpectral`_
+    - `MarkovChainKullbackLeibler`_
+    - `MarkovChainWasserstein`_
+    - `MarkovChainTotalVariation`_
+    - `MarkovChainHellinger`_
+    - `MarkovChainJensenShannon`_
+    - `MarkovChainFrobenius`_
+    - `MarkovChainSpectral`_
 
 .. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 .. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
@@ -350,14 +350,14 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
 + `Image`_
-  - `StructuralSimilarityIndex`_
-  - `PeakSignalToNoiseRatio`_
-  - `HistogramIntersection`_
-  - `EarthMoversDistance`_
-  - `ChiSquareDistance`_
-  - `FeatureBasedDistance`_
-  - `PerceptualHashing`_
-  - `NormalizedCrossCorrelation`_
+    - `StructuralSimilarityIndex`_
+    - `PeakSignalToNoiseRatio`_
+    - `HistogramIntersection`_
+    - `EarthMoversDistance`_
+    - `ChiSquareDistance`_
+    - `FeatureBasedDistance`_
+    - `PerceptualHashing`_
+    - `NormalizedCrossCorrelation`_
 
 .. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
 .. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
@@ -370,25 +370,25 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
 + `Sound`_
-  - `SpectralConvergence`_
-  - `MFCCProcessor`_
-  - `SignalProcessor`_
-  - `PowerSpectralDensityDistance`_
-  - `CrossCorrelation`_
-  - `PhaseDifferenceCalculator`_
-  - `TimeLagDistance`_
-  - `PESQ`_
-  -  `LogSpectralDistance`_
-  - `BarkSpectralDistortion`_
-  - `ItakuraSaitoDistance`_
-  - `SignalToNoiseRatio`_
-  - `EnergyDistance`_
-  -  `EnvelopeCorrelation`_
-  - `ZeroCrossingRateDistance`_
-  - `CochleagramDistance`_
-  - `ChromagramDistance`_
-  - `SpectrogramDistance`_
-  - `CQTDistance`_
+    - `SpectralConvergence`_
+    - `MFCCProcessor`_
+    - `SignalProcessor`_
+    - `PowerSpectralDensityDistance`_
+    - `CrossCorrelation`_
+    - `PhaseDifferenceCalculator`_
+    - `TimeLagDistance`_
+    - `PESQ`_
+    -  `LogSpectralDistance`_
+    - `BarkSpectralDistortion`_
+    - `ItakuraSaitoDistance`_
+    - `SignalToNoiseRatio`_
+    - `EnergyDistance`_
+    -  `EnvelopeCorrelation`_
+    - `ZeroCrossingRateDistance`_
+    - `CochleagramDistance`_
+    - `ChromagramDistance`_
+    - `SpectrogramDistance`_
+    - `CQTDistance`_
 
 .. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 .. _SpectralConvergence: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
@@ -412,15 +412,15 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
 + `File`_
-  - `ByteLevelDistance`_
-  - `HashComparison`_
-  - `NormalizedCompression`_
-  - `KolmogorovComplexity`_
-  - `DynamicBinaryInstrumentation`_
-  - `FileMetadataComparison`_
-  - `FileTypeDistance`_
-  - `TreeEditDistance`_
-  - `ZlibBasedDistance`_
+    - `ByteLevelDistance`_
+    - `HashComparison`_
+    - `NormalizedCompression`_
+    - `KolmogorovComplexity`_
+    - `DynamicBinaryInstrumentation`_
+    - `FileMetadataComparison`_
+    - `FileTypeDistance`_
+    - `TreeEditDistance`_
+    - `ZlibBasedDistance`_
 
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
