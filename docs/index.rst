@@ -114,7 +114,7 @@ Here is a link with italic text: *this amazing site*_.
 
 .. _this amazing site: https://example.com
 
-1.  `Vector`_
+1.  * `Vector`_ *
 
    + `Euclidean`_
    + `Manhattan`_ 
