@@ -198,7 +198,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `Matrix`_
 ~~~~~~~~~
-
++
     - `Mahalanobis`_
     - `MahalanobisTaguchi`_
     - `MatrixSpectral`_
@@ -219,7 +219,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `Text`_
 ~~~~~~~
-
++
     - `Levenshtein`_
     - `DamerauLevenshtein`_
     - `Hamming`_
