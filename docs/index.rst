@@ -296,12 +296,12 @@ For a complete list and detailed explanations of each metric, see the next secti
 `Loss`_
 ~~~~~~~
 +
-- `CrossEntropy`_
-- `MeanAbsoluteError`_
-- `MeanAbsolutePercentageError`_
-- `MeanSquaredError`_
-- `SquaredLogarithmicError`_
-- `GaloisWassersteinLoss`_
+  - `CrossEntropy`_
+  - `MeanAbsoluteError`_
+  - `MeanAbsolutePercentageError`_
+  - `MeanSquaredError`_
+  - `SquaredLogarithmicError`_
+  - `GaloisWassersteinLoss`_
 
 .. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
 .. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
@@ -313,19 +313,19 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `Graph`_
 ~~~~~~~~
-
-+ `ShortestPath`_
-+ `GraphEditDistance`_
-+ `SpectralDistance`_
-+ `WeisfeilerLehmanSimilarity`_
-+ `ComparingRandomWalkStationaryDistributions`_
-+ `Diffusion`_
-+ `FrobeniusDistance`_
-+ `GraphKernelDistance`_
-+ `PatternBasedDistance`_
-+ `GraphCompressionDistance`_
-+ `DegreeDistributionDistance`_
-+ `CommunityStructureDistance`_
++
+  - `ShortestPath`_
+  - `GraphEditDistance`_
+  - `SpectralDistance`_
+  - `WeisfeilerLehmanSimilarity`_
+  - `ComparingRandomWalkStationaryDistributions`_
+  - `Diffusion`_
+  - `FrobeniusDistance`_
+  - `GraphKernelDistance`_
+  - `PatternBasedDistance`_
+  - `GraphCompressionDistance`_
+  - `DegreeDistributionDistance`_
+  - `CommunityStructureDistance`_
 
 .. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
 .. _ShortestPath: https://distancia.readthedocs.io/en/latest/ShortestPath.html
@@ -343,14 +343,14 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `MarkovChaine`_
 ~~~~~~~~~~~~~~~~~
-
-+ `MarkovChainKullbackLeibler`_
-+ `MarkovChainWasserstein`_
-+ `MarkovChainTotalVariation`_
-+ `MarkovChainHellinger`_
-+ `MarkovChainJensenShannon`_
-+ `MarkovChainFrobenius`_
-+ `MarkovChainSpectral`_
++
+  - `MarkovChainKullbackLeibler`_
+  - `MarkovChainWasserstein`_
+  - `MarkovChainTotalVariation`_
+  - `MarkovChainHellinger`_
+  - `MarkovChainJensenShannon`_
+  - `MarkovChainFrobenius`_
+  - `MarkovChainSpectral`_
 
 .. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 .. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
@@ -363,15 +363,15 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `Image`_
 ~~~~~~~~
-
-+ `StructuralSimilarityIndex`_
-+ `PeakSignalToNoiseRatio`_
-+ `HistogramIntersection`_
-+ `EarthMoversDistance`_
-+ `ChiSquareDistance`_
-+ `FeatureBasedDistance`_
-+ `PerceptualHashing`_
-+ `NormalizedCrossCorrelation`_
++
+  - `StructuralSimilarityIndex`_
+  - `PeakSignalToNoiseRatio`_
+  - `HistogramIntersection`_
+  - `EarthMoversDistance`_
+  - `ChiSquareDistance`_
+  - `FeatureBasedDistance`_
+  - `PerceptualHashing`_
+  - `NormalizedCrossCorrelation`_
 
 .. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
 .. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
@@ -385,26 +385,26 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `Sound`_
 ~~~~~~~~
-
-+ `SpectralConvergence`_
-+ `MFCCProcessor`_
-+ `SignalProcessor`_
-+ `PowerSpectralDensityDistance`_
-+ `CrossCorrelation`_
-+ `PhaseDifferenceCalculator`_
-+ `TimeLagDistance`_
-+ `PESQ`_
-+ `LogSpectralDistance`_
-+ `BarkSpectralDistortion`_
-+ `ItakuraSaitoDistance`_
-+ `SignalToNoiseRatio`_
-+ `EnergyDistance`_
-+ `EnvelopeCorrelation`_
-+ `ZeroCrossingRateDistance`_
-+ `CochleagramDistance`_
-+ `ChromagramDistance`_
-+ `SpectrogramDistance`_
-+ `CQTDistance`_
++
+  - `SpectralConvergence`_
+  - `MFCCProcessor`_
+  - `SignalProcessor`_
+  - `PowerSpectralDensityDistance`_
+  - `CrossCorrelation`_
+  - `PhaseDifferenceCalculator`_
+  - `TimeLagDistance`_
+  - `PESQ`_
+  -  `LogSpectralDistance`_
+  - `BarkSpectralDistortion`_
+  - `ItakuraSaitoDistance`_
+  - `SignalToNoiseRatio`_
+  - `EnergyDistance`_
+  -  `EnvelopeCorrelation`_
+  - `ZeroCrossingRateDistance`_
+  - `CochleagramDistance`_
+  - `ChromagramDistance`_
+  - `SpectrogramDistance`_
+  - `CQTDistance`_
 
 .. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 .. _SpectralConvergence: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
@@ -429,16 +429,16 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 `File`_
 ~~~~~~~
-
-+ `ByteLevelDistance`_
-+ `HashComparison`_
-+ `NormalizedCompression`_
-+ `KolmogorovComplexity`_
-+ `DynamicBinaryInstrumentation`_
-+ `FileMetadataComparison`_
-+ `FileTypeDistance`_
-+ `TreeEditDistance`_
-+ `ZlibBasedDistance`_
++
+  - `ByteLevelDistance`_
+  - `HashComparison`_
+  - `NormalizedCompression`_
+  - `KolmogorovComplexity`_
+  - `DynamicBinaryInstrumentation`_
+  - `FileMetadataComparison`_
+  - `FileTypeDistance`_
+  - `TreeEditDistance`_
+  - `ZlibBasedDistance`_
 
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
