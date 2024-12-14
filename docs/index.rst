@@ -413,15 +413,15 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 10. `File`_
 
-   + `ByteLevelDistance`_
-   + `HashComparison`_
-   + `NormalizedCompression`_
-   + `KolmogorovComplexity`_
-   + `DynamicBinaryInstrumentation`_
-   + `FileMetadataComparison`_
-   + `FileTypeDistance`_
-   + `TreeEditDistance`_
-   + `ZlibBasedDistance`_
++ `ByteLevelDistance`_
++ `HashComparison`_
++ `NormalizedCompression`_
++ `KolmogorovComplexity`_
++ `DynamicBinaryInstrumentation`_
++ `FileMetadataComparison`_
++ `FileTypeDistance`_
++ `TreeEditDistance`_
++ `ZlibBasedDistance`_
 
 .. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
@@ -449,7 +449,6 @@ Purpose: Facilitates batch processing of distance computations, enabling users t
 
 Use Case: Essential in real-time systems or when working with large datasets where efficiency is critical. Batch processing saves time and computational resources by handling multiple distance computations in one go.
 
-
 + `ComprehensiveBenchmarking`_
 
 .. _ComprehensiveBenchmarking: https://distancia.readthedocs.io/en/latest/ComprehensiveBenchmarking.html
@@ -457,7 +456,6 @@ Use Case: Essential in real-time systems or when working with large datasets whe
 Purpose: Provides tools for benchmarking the performance of various distance metrics on different types of data.
 
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
-
 
 + `CustomDistanceFunction`_
 .. _CustomDistanceFunction: https://distancia.readthedocs.io/en/latest/CustomDistanceFunction.html
@@ -472,7 +470,6 @@ Use Case: Useful for researchers or practitioners who need a specific metric tha
 Purpose: Automatically generates a distance matrix for a set of data points using a specified distance metric.
 
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
-
 
 + `DistanceMetricLearning`_
 .. _DistanceMetricLearning: https://distancia.readthedocs.io/en/latest/DistanceMetricLearning.html
@@ -495,7 +492,6 @@ Purpose: Identifies the most appropriate distance metric for two given data poin
 
 Use Case: Useful when dealing with various types of data, this class helps users automatically determine the best distance metric to apply, ensuring that the metric chosen is suitable for the data's characteristics.
 
-
 + `OutlierDetection`_
 .. _OutlierDetection: https://distancia.readthedocs.io/en/latest/OutlierDetection.html
 
@@ -503,14 +499,12 @@ Purpose: Implements methods for detecting outliers in datasets by using distance
 
 Use Case: Essential in fields such as fraud detection, quality control, and data cleaning, where identifying and managing outliers is crucial for maintaining data integrity.
 
-
 + `ParallelandDistributedComputation`_
 .. _ParallelandDistributedComputation: https://distancia.readthedocs.io/en/latest/ParallelandDistributedComputation.html
 
 Purpose: Adds support for parallel or distributed computation of distances, particularly useful for large datasets.
 
 Use Case: In big data scenarios, calculating distances between millions of data points can be computationally expensive. This class significantly reduces computation time by parallelizing these calculations across multiple processors or machines.
-
 
 + `Visualization`_
 .. _Visualization: https://distancia.readthedocs.io/en/latest/Visualization.html
