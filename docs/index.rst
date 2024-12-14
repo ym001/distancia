@@ -179,22 +179,22 @@ A.  `Vector`_
 B. `Matrix`_
 
     - `Mahalanobis`_
-+ `MahalanobisTaguchi`_
-+ `MatrixSpectral`_
-+ `NormalizedSpectral`_
-+ `PureDiffusion`_
-+ `RandomWalk`_
-+ `HeatKernel`_
-+ `GraphEditMatrix`_
-+ `WeisfeilerLehman`_
-+ `NetSimile`_
-+ `TriangleMatrixDistance`_
-+ `PatternBased`_
-+ `CliqueBasedGraph`_
-+ `CycleMatrixDistance`_
-+ `GraphletMatrixDistance`_
-+ `MinimumCutDistanceCalculator`_
-+ `Percolation`_
+    - `MahalanobisTaguchi`_
+    - `MatrixSpectral`_
+    - `NormalizedSpectral`_
+    - `PureDiffusion`_
+    - `RandomWalk`_
+    - `HeatKernel`_
+    - `GraphEditMatrix`_
+    - `WeisfeilerLehman`_
+    - `NetSimile`_
+    - `TriangleMatrixDistance`_
+    - `PatternBased`_
+    - `CliqueBasedGraph`_
+    - `CycleMatrixDistance`_
+    - `GraphletMatrixDistance`_
+    - `MinimumCutDistanceCalculator`_
+    - `Percolation`_
 
 .. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
