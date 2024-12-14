@@ -106,11 +106,10 @@ For a complete list and detailed explanations of each metric, see the next secti
 *Available Metrics*
 -------------------
 
-`*Link text* <https://domain.invalid/>`_
 
 +  `Vector`_ 
 
-- `Euclidean`_
+  - `Euclidean`_
 + `Manhattan`_ 
 + `Jaro`_
 + `KendallTau`_
