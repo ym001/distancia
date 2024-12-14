@@ -111,6 +111,7 @@ Available Metrics
 -----------------
 
 1. `Vector`_
+
    + `Euclidean`_
    + `Manhattan`_ 
    + `Jaro`_
