@@ -64,10 +64,8 @@ Quickstart
 
 Here are some common examples of how to use distancia:
 
-
 .. code-block:: python
    :caption: Example 1: Calculating Euclidean Distance
-
 
    from distancia import Euclidean
 
@@ -551,7 +549,7 @@ The ComparisonAndValidation class offers tools to analyze and validate the perfo
 
 The StatisticalAnalysis class provides essential tools to analyze and interpret the statistical properties of distances or similarities within a dataset. Through the computation of mean, variance, and distance distributions, 
 
-Contributing
+*Contributing*
 ------------
 
 We welcome contributions! If you would like to contribute to distancia, please read the `contributing`_ guide to get started. We appreciate your help in making this project better.
