@@ -549,13 +549,13 @@ The AdvancedAnalysis class provides essential tools for evaluating the performan
 The `DimensionalityReductionAndScaling` class offers powerful methods for simplifying and scaling datasets. By providing tools for dimensionality reduction such as Multi-Dimensional Scaling (MDS), it allows users to project high-dimensional data into lower dimensions while retaining its key characteristics.
 
 
-   + `ComparisonAndValidation`_
++ `ComparisonAndValidation`_
 .. _ComparisonAndValidation: https://distancia.readthedocs.io/en/latest/ComparisonAndValidation.html
 
-   The ComparisonAndValidation class offers tools to analyze and validate the performance of a distance or similarity metric by comparing it with other metrics and using established benchmarks. This class is essential for evaluating the effectiveness of a metric in various tasks, such as clustering, classification, or retrieval. By providing cross-validation techniques and benchmarking methods, it allows users to gain a deeper understanding of the metric's strengths and weaknesses.
+The ComparisonAndValidation class offers tools to analyze and validate the performance of a distance or similarity metric by comparing it with other metrics and using established benchmarks. This class is essential for evaluating the effectiveness of a metric in various tasks, such as clustering, classification, or retrieval. By providing cross-validation techniques and benchmarking methods, it allows users to gain a deeper understanding of the metric's strengths and weaknesses.
 
 
-   + `StatisticalAnalysis`_
++ `StatisticalAnalysis`_
 .. _StatisticalAnalysis: https://distancia.readthedocs.io/en/latest/StatisticalAnalysis.html
 
 The StatisticalAnalysis class provides essential tools to analyze and interpret the statistical properties of distances or similarities within a dataset. Through the computation of mean, variance, and distance distributions, 
