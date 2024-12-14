@@ -418,33 +418,26 @@ Available Metrics
 
 10. `File`_
 
-.. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
    + `ByteLevelDistance`_
-.. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
-
    + `HashComparison`_
-.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
-
    + `NormalizedCompression`_
-.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
-
    + `KolmogorovComplexity`_
-.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
-
    + `DynamicBinaryInstrumentation`_
-.. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
-
    + `FileMetadataComparison`_
-.. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
-
    + `FileTypeDistance`_
-.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
-
    + `TreeEditDistance`_
-.. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
-
    + `ZlibBasedDistance`_
+
+.. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
+.. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
+.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
+.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
+.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
+.. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
+.. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
+.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
+.. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
 .. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
 
 And many more...
