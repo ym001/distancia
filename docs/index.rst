@@ -178,8 +178,8 @@ A.  `Vector`_
  
 B. `Matrix`_
 
-    - `Mahalanobis`_
-    - `MahalanobisTaguchi`_
+- `Mahalanobis`_
+- `MahalanobisTaguchi`_
     - `MatrixSpectral`_
     - `NormalizedSpectral`_
     - `PureDiffusion`_
