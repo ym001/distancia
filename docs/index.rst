@@ -413,7 +413,6 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 10. `File`_
 
-
    + `ByteLevelDistance`_
    + `HashComparison`_
    + `NormalizedCompression`_
@@ -443,6 +442,7 @@ The distancia package offers a comprehensive set of tools for computing and anal
 
 
    + `BatchDistance`_
+
 .. _BatchDistance: https://distancia.readthedocs.io/en/latest/BatchDistance.html
 
 Purpose: Facilitates batch processing of distance computations, enabling users to compute distances for large sets of pairs in a single operation.
@@ -451,6 +451,7 @@ Use Case: Essential in real-time systems or when working with large datasets whe
 
 
    + `ComprehensiveBenchmarking`_
+
 .. _ComprehensiveBenchmarking: https://distancia.readthedocs.io/en/latest/ComprehensiveBenchmarking.html
 
 Purpose: Provides tools for benchmarking the performance of various distance metrics on different types of data.
