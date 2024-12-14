@@ -159,7 +159,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
 `Vector`_ 
-~~~~~~~~~~~
+~~~~~~~~~~
 
     - `Euclidean`_
     - `Manhattan`_ 
@@ -194,7 +194,8 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Otsuka`_ 
     - `Gestalt`_
 
-+ `Matrix`_
+`Matrix`_
+~~~~~~~~~
 
     - `Mahalanobis`_
     - `MahalanobisTaguchi`_
@@ -214,7 +215,8 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MinimumCutDistanceCalculator`_
     - `Percolation`_
 
-3. `Text`_
+`Text`_
+~~~~~~~
 
     - `Levenshtein`_
     - `DamerauLevenshtein`_
@@ -277,7 +279,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
 .. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 
-4. `Time`_
+`Time`_
+~~~~~~~
 
 + `DynamicTimeWarping`_
 + `LongestCommonSubsequence`_
@@ -288,7 +291,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _LongestCommonSubsequence: https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 
-5. `Loss`_
+`Loss`_
+~~~~~~~
 
 + `CrossEntropy`_
 + `MeanAbsoluteError`_
@@ -305,7 +309,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _SquaredLogarithmicError: https://distancia.readthedocs.io/en/latest/SquaredLogarithmicError.html
 .. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
-6. `Graph`_
+`Graph`_
+~~~~~~~~
 
 + `ShortestPath`_
 + `GraphEditDistance`_
@@ -334,7 +339,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _DegreeDistributionDistance: https://distancia.readthedocs.io/en/latest/DegreeDistributionDistance.html
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
-7. `MarkovChaine`_
+`MarkovChaine`_
+~~~~~~~~~~~~~~~~~
 
 + `MarkovChainKullbackLeibler`_
 + `MarkovChainWasserstein`_
@@ -353,7 +359,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MarkovChainFrobenius: https://distancia.readthedocs.io/en/latest/MarkovChainFrobenius.html
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
-8. `Image`_
+`Image`_
+~~~~~~~~
 
 + `StructuralSimilarityIndex`_
 + `PeakSignalToNoiseRatio`_
@@ -374,7 +381,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _PerceptualHashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
 .. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
-9. `Sound`_
+`Sound`_
+~~~~~~~~
 
 + `SpectralConvergence`_
 + `MFCCProcessor`_
@@ -417,7 +425,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
 .. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
-10. `File`_
+`File`_
+~~~~~~~
 
 + `ByteLevelDistance`_
 + `HashComparison`_
