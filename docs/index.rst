@@ -107,7 +107,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 -------------------
 
 
-A.  `Vector`_ 
+1.  `Vector`_ 
 
     - `Euclidean`_
     - `Manhattan`_ 
@@ -176,7 +176,7 @@ A.  `Vector`_
 .. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
  
-B. `Matrix`_
+2. `Matrix`_
 
 - `Mahalanobis`_
 - `MahalanobisTaguchi`_
@@ -215,7 +215,7 @@ B. `Matrix`_
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
-C. `Text`_
+3. `Text`_
 
     - `Levenshtein`_
     - `DamerauLevenshtein`_
