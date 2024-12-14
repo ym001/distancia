@@ -555,7 +555,7 @@ Contributing
 
 We welcome contributions! If you would like to contribute to distancia, please read the `contributing`_ guide to get started. We appreciate your help in making this project better.
 
-.. contributing: https://distancia.readthedocs.io/en/latest/contributing.html
+.. contributing: https://distancia.readthedocs.io/en/latest/CONTRIBUTING.html
 
 
 Link
