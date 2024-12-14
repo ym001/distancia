@@ -370,25 +370,25 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 9. `Sound`_
 
-   + `SpectralConvergence`_
-   + `MFCCProcessor`_
-   + `SignalProcessor`_
-   + `PowerSpectralDensityDistance`_
-   + `CrossCorrelation`_
-   + `PhaseDifferenceCalculator`_
-   + `TimeLagDistance`_
-   + `PESQ`_
-   + `LogSpectralDistance`_
-   + `BarkSpectralDistortion`_
-   + `ItakuraSaitoDistance`_
-   + `SignalToNoiseRatio`_
-   + `EnergyDistance`_
-   + `EnvelopeCorrelation`_
-   + `ZeroCrossingRateDistance`_
-   + `CochleagramDistance`_
-   + `ChromagramDistance`_
-   + `SpectrogramDistance`_
-   + `CQTDistance`_
++ `SpectralConvergence`_
++ `MFCCProcessor`_
++ `SignalProcessor`_
++ `PowerSpectralDensityDistance`_
++ `CrossCorrelation`_
++ `PhaseDifferenceCalculator`_
++ `TimeLagDistance`_
++ `PESQ`_
++ `LogSpectralDistance`_
++ `BarkSpectralDistortion`_
++ `ItakuraSaitoDistance`_
++ `SignalToNoiseRatio`_
++ `EnergyDistance`_
++ `EnvelopeCorrelation`_
++ `ZeroCrossingRateDistance`_
++ `CochleagramDistance`_
++ `ChromagramDistance`_
++ `SpectrogramDistance`_
++ `CQTDistance`_
 
 .. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
 .. _SpectralConvergence: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
@@ -512,7 +512,6 @@ Use Case: In big data scenarios, calculating distances between millions of data 
 Purpose: Provides tools for visualizing distance matrices, dendrograms (for hierarchical clustering), and 2D/3D representations of data points based on distance metrics.
 
 Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), helping users understand the relationships between data points. This class is particularly useful for creating visual aids like heatmaps or dendrograms to better interpret the data.
-
 
 + `APICompatibility`_
 .. _APICompatibility: https://distancia.readthedocs.io/en/latest/APICompatibility.html
