@@ -283,29 +283,32 @@ Available Metrics
 
 4. `Time`_
 
+
+   + `DynamicTimeWarping`_
+   + `LongestCommonSubsequence`_
+   + `Frechet`_
+
 .. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
-
-   DynamicTimeWarping
-
-   LongestCommonSubsequence
-
-   Frechet
+.. _DynamicTimeWarping: https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
+.. _LongestCommonSubsequence: https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
+.. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 
 5. `Loss`_
 
+   + `CrossEntropy`_
+   + `MeanAbsoluteError`_
+   + `MeanAbsolutePercentageError`_
+   + `MeanSquaredError`_
+   + `SquaredLogarithmicError`_
+   + `GaloisWassersteinLoss`_
+
 .. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
-
-   CrossEntropy
-
-   MeanAbsoluteError
-
-   MeanAbsolutePercentageError
-
-   MeanSquaredError
-
-   SquaredLogarithmicError
-
-   GaloisWassersteinLoss
+.. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
+.. _MeanAbsoluteError: https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
+.. _MeanAbsolutePercentageError: https://distancia.readthedocs.io/en/latest/MeanAbsolutePercentageError.html
+.. _MeanSquaredError: https://distancia.readthedocs.io/en/latest/MeanSquaredError.html
+.. _SquaredLogarithmicError: https://distancia.readthedocs.io/en/latest/SquaredLogarithmicError.html
+.. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
 
 6. `Graph`_
