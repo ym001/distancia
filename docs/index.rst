@@ -158,9 +158,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
-`Vector`_ 
++`Vector`_ 
 ~~~~~~~~~~
-+
+
     - `Euclidean`_
     - `Manhattan`_ 
     - `Jaro`_
