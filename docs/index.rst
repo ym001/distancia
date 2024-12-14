@@ -442,106 +442,120 @@ And many more...
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
 
-   BatchDistance
+   + `BatchDistance`_
+.. _BatchDistance: https://distancia.readthedocs.io/en/latest/BatchDistance.html
 
 Purpose: Facilitates batch processing of distance computations, enabling users to compute distances for large sets of pairs in a single operation.
 
 Use Case: Essential in real-time systems or when working with large datasets where efficiency is critical. Batch processing saves time and computational resources by handling multiple distance computations in one go.
 
 
-   ComprehensiveBenchmarking
+   + `ComprehensiveBenchmarking`_
+.. _ComprehensiveBenchmarking: https://distancia.readthedocs.io/en/latest/ComprehensiveBenchmarking.html
 
 Purpose: Provides tools for benchmarking the performance of various distance metrics on different types of data.
 
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
 
 
-   CustomDistanceFunction
+   + `CustomDistanceFunction`_
+.. _CustomDistanceFunction: https://distancia.readthedocs.io/en/latest/CustomDistanceFunction.html
 
 Purpose: Allows users to define custom distance functions by specifying a mathematical formula or providing a custom Python function.
 
 Use Case: Useful for researchers or practitioners who need a specific metric that isn’t commonly used or already implemented.
 
 
-   DistanceMatrix
+   + `DistanceMatrix`_
+.. _DistanceMatrix: https://distancia.readthedocs.io/en/latest/DistanceMatrix.html
 
 Purpose: Automatically generates a distance matrix for a set of data points using a specified distance metric.
 
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
 
 
-   DistanceMetricLearning
+   + `DistanceMetricLearning`_
+.. _DistanceMetricLearning: https://distancia.readthedocs.io/en/latest/DistanceMetricLearning.html
 
 Purpose: Implements algorithms for learning an optimal distance metric from data based on a specific task, such as classification or clustering.
 
 Use Case: Critical in machine learning tasks where the goal is to optimize a distance metric for maximum task-specific performance, improving the accuracy of models.
 
-   IntegratedDistance
+   + `IntegratedDistance`_
+.. _IntegratedDistance: https://distancia.readthedocs.io/en/latest/IntegratedDistance.html
 
 Purpose: Enables seamless integration of distance computations with popular data science libraries like pandas, scikit-learn, and numpy.
 
 Use Case: This class enhances the usability of the distancia package, allowing users to incorporate distance calculations directly into their existing data analysis workflows.
 
-   MetricFinder
+   + `MetricFinder`_
+.. _MetricFinder: https://distancia.readthedocs.io/en/latest/MetricFinder.html
 
 Purpose: Identifies the most appropriate distance metric for two given data points based on their structure.
 
 Use Case: Useful when dealing with various types of data, this class helps users automatically determine the best distance metric to apply, ensuring that the metric chosen is suitable for the data's characteristics.
 
 
-   OutlierDetection
+   + `OutlierDetection`_
+.. _OutlierDetection: https://distancia.readthedocs.io/en/latest/OutlierDetection.html
 
 Purpose: Implements methods for detecting outliers in datasets by using distance metrics to identify points that deviate significantly from others.
 
 Use Case: Essential in fields such as fraud detection, quality control, and data cleaning, where identifying and managing outliers is crucial for maintaining data integrity.
 
 
-   ParallelandDistributedComputation
+   + `ParallelandDistributedComputation`_
+.. _ParallelandDistributedComputation: https://distancia.readthedocs.io/en/latest/ParallelandDistributedComputation.html
 
 Purpose: Adds support for parallel or distributed computation of distances, particularly useful for large datasets.
 
 Use Case: In big data scenarios, calculating distances between millions of data points can be computationally expensive. This class significantly reduces computation time by parallelizing these calculations across multiple processors or machines.
 
 
-   Visualization
+   + `Visualization`_
+.. _Visualization: https://distancia.readthedocs.io/en/latest/Visualization.html
 
 Purpose: Provides tools for visualizing distance matrices, dendrograms (for hierarchical clustering), and 2D/3D representations of data points based on distance metrics.
 
 Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), helping users understand the relationships between data points. This class is particularly useful for creating visual aids like heatmaps or dendrograms to better interpret the data.
 
 
-   APICompatibility
+   + `APICompatibility`_
+.. _APICompatibility: https://distancia.readthedocs.io/en/latest/APICompatibility.html
 
 The APICompatibility class in the distancia package bridges the gap between powerful distance computation tools and modern API-based architectures. By enabling the creation of REST endpoints for distance metrics, it facilitates the integration of distancia into a wide range of applications, from web services to distributed computing environments. This not only enhances the usability of the package but also ensures that it can be effectively deployed in real-world, production-grade systems.
 
-
-
-   AutomatedDistanceMetricSelection
+   + `AutomatedDistanceMetricSelection`_
+.. _AutomatedDistanceMetricSelection: https://distancia.readthedocs.io/en/latest/AutomatedDistanceMetricSelection.html
 
 The AutomatedDistanceMetricSelection feature in the distancia package represents a significant advancement in the ease of use and accessibility of distance metric selection. By automating the process of metric recommendation, it helps users, especially those less familiar with the intricacies of different metrics, to achieve better results in their analyses. This feature not only saves time but also improves the accuracy of data-driven decisions, making distancia a more powerful and user-friendly tool for the data science community.
 
-
-   ReportingAndDocumentation
+   + `ReportingAndDocumentation`_
+.. _ReportingAndDocumentation: https://distancia.readthedocs.io/en/latest/ReportingAndDocumentation.html
 
 The ReportingAndDocumentation class is a powerful tool for automating the analysis and documentation of distance metrics. By integrating report generation, matrix export, and property documentation, it provides users with a streamlined way to evaluate and present the results of their distance-based models. This class is especially valuable for machine learning practitioners who require a deeper understanding of the behavior of the metrics they employ.
 
 
-   AdvancedAnalysis
+   +AdvancedAnalysis`_
+.. _AdvancedAnalysis: https://distancia.readthedocs.io/en/latest/AdvancedAnalysis.html
 
 The AdvancedAnalysis class provides essential tools for evaluating the performance, robustness, and sensitivity of distance metrics. These advanced analyses ensure that a metric is not only theoretically sound but also practical and reliable in diverse applications. By offering deep insights into the behavior of distance metrics under perturbations, noise, and dataset divisions, this class is crucial for building resilient models in real-world environments.
 
 
-   DimensionalityReductionAndScaling
+   + `DimensionalityReductionAndScaling`_
+.. _DimensionalityReductionAndScaling: https://distancia.readthedocs.io/en/latest/DimensionalityReductionAndScaling.html
 
 The `DimensionalityReductionAndScaling` class offers powerful methods for simplifying and scaling datasets. By providing tools for dimensionality reduction such as Multi-Dimensional Scaling (MDS), it allows users to project high-dimensional data into lower dimensions while retaining its key characteristics.
 
 
-   ComparisonAndValidation
+   + `ComparisonAndValidation`_
+.. _ComparisonAndValidation: https://distancia.readthedocs.io/en/latest/ComparisonAndValidation.html
 
 The ComparisonAndValidation class offers tools to analyze and validate the performance of a distance or similarity metric by comparing it with other metrics and using established benchmarks. This class is essential for evaluating the effectiveness of a metric in various tasks, such as clustering, classification, or retrieval. By providing cross-validation techniques and benchmarking methods, it allows users to gain a deeper understanding of the metric's strengths and weaknesses.
 
 
-   StatisticalAnalysis
+   + `StatisticalAnalysis`_
+.. _StatisticalAnalysis: https://distancia.readthedocs.io/en/latest/StatisticalAnalysis.html
 
 The StatisticalAnalysis class provides essential tools to analyze and interpret the statistical properties of distances or similarities within a dataset. Through the computation of mean, variance, and distance distributions, 
 
