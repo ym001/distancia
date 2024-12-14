@@ -158,7 +158,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
-1.  `Vector`_ 
++ `Vector`_ 
 
     - `Euclidean`_
     - `Manhattan`_ 
@@ -193,7 +193,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Otsuka`_ 
     - `Gestalt`_
 
-2. `Matrix`_
++ `Matrix`_
 
     - `Mahalanobis`_
     - `MahalanobisTaguchi`_
