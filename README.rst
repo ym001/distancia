@@ -425,7 +425,7 @@ Available Metrics
 
 10. `File`_
 
-   - `ByteLevelDistance`_
+   + `ByteLevelDistance`_
    + `HashComparison`_
    + `NormalizedCompression`_
    + `KolmogorovComplexity`_
@@ -450,6 +450,7 @@ And many more...
 
 Overview
 --------
+
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
 
