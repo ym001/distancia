@@ -110,11 +110,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-Here is a link with italic text: *this amazing site*_.
-
-.. _this amazing site: https://example.com
-
-1.  * `Vector`_ *
+1.  `Vector`_ 
 
    + `Euclidean`_
    + `Manhattan`_ 
