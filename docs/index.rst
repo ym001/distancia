@@ -192,6 +192,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `FagerMcGowan`_
     - `Otsuka`_ 
     - `Gestalt`_
+
 2. `Matrix`_
 
     - `Mahalanobis`_
@@ -211,8 +212,6 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `GraphletMatrixDistance`_
     - `MinimumCutDistanceCalculator`_
     - `Percolation`_
-
-
 
 3. `Text`_
 
