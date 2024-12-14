@@ -599,7 +599,7 @@ Link
 
 .. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
 
-.. _timeSeriesDistance:https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
+.. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
 
 
 
