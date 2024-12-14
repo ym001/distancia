@@ -342,41 +342,43 @@ Available Metrics
 
 7. `MarkovChaine`_
 
+   + `MarkovChainKullbackLeibler`_
+   + `MarkovChainWasserstein`_
+   + `MarkovChainTotalVariation`_
+   + `MarkovChainHellinger`_
+   + `MarkovChainJensenShannon`_
+   + `MarkovChainFrobenius`_
+   + `MarkovChainSpectral`_
+
 .. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
-
-   MarkovChainKullbackLeibler
-
-   MarkovChainWasserstein
-
-   MarkovChainTotalVariation
-
-   MarkovChainHellinger
-
-   MarkovChainJensenShannon
-
-   MarkovChainFrobenius
-
-   MarkovChainSpectral
+.. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
+.. _MarkovChainWasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
+.. _MarkovChainTotalVariation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
+.. _MarkovChainHellinger: https://distancia.readthedocs.io/en/latest/MarkovChainHellinger.html
+.. _MarkovChainJensenShannon: https://distancia.readthedocs.io/en/latest/MarkovChainJensenShannon.html
+.. _MarkovChainFrobenius: https://distancia.readthedocs.io/en/latest/MarkovChainFrobenius.html
+.. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
 8. `Image`_
 
+   + `StructuralSimilarityIndex`_
+   + `PeakSignalToNoiseRatio`_
+   + `HistogramIntersection`_
+   + `EarthMoversDistance`_
+   + `ChiSquareDistance`_
+   + `FeatureBasedDistance`_
+   + `PerceptualHashing`_
+   + `NormalizedCrossCorrelation`_
+
 .. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
-
-   StructuralSimilarityIndex
-
-   PeakSignalToNoiseRatio
-
-   HistogramIntersection
-
-   EarthMoversDistance
-
-   ChiSquareDistance
-
-   FeatureBasedDistance
-
-   PerceptualHashing
-
-   NormalizedCrossCorrelation
+.. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
+.. _PeakSignalToNoiseRatio: https://distancia.readthedocs.io/en/latest/PeakSignalToNoiseRatio.html
+.. _HistogramIntersection: https://distancia.readthedocs.io/en/latest/HistogramIntersection.html
+.. _EarthMoversDistance: https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
+.. _ChiSquareDistance: https://distancia.readthedocs.io/en/latest/ChiSquareDistance.html
+.. _FeatureBasedDistance: https://distancia.readthedocs.io/en/latest/FeatureBasedDistance.html
+.. _PerceptualHashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
+.. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
 9. `Sound`_
 
