@@ -14,7 +14,7 @@ The documentation is divided into the following sections:
 *Getting Started*
 ---------------
 
-Distancia is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancia provides the tools you need to measure the similarity or dissimilarity between objects.
+**Distancia** is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancia provides the tools you need to measure the distance or similarity between objects.
 
 
 For a quick introduction, check out the `quickstart`_ guide. If you want to dive straight into the code, head over to the `Euclidean`_ page.
@@ -39,7 +39,7 @@ You can install the distancia package with pip:
 By default, this will install the core functionality of the package, suitable for users who only need basic distance metrics.
 
 Optional Dependencies
-The distancia package also supports optional modules to enable additional features. You can install these extras depending on your needs:
+The **Distancia** package also supports optional modules to enable additional features. You can install these extras depending on your needs:
 
 With pandas support: Install with additional support for working with tabular data:
 
@@ -98,7 +98,7 @@ Here are some common examples of how to use distancia:
 For a complete list and detailed explanations of each metric, see the next section.
 
 *Available Metrics*
------------------
+-------------------
 
 1.  `Vector`_ 
 
@@ -176,7 +176,7 @@ For a complete list and detailed explanations of each metric, see the next secti
    + `MatrixSpectral`_
    + `NormalizedSpectral`_
    + `PureDiffusion`_
-   +  `RandomWalk`_
+   + `RandomWalk`_
    + `HeatKernel`_
    + `GraphEditMatrix`_
    + `WeisfeilerLehman`_
