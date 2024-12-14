@@ -110,7 +110,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 Available Metrics
 -----------------
 
-1. `Vector`_
+1. `*Vector*`_
 
    + `Euclidean`_
    + `Manhattan`_ 
@@ -180,6 +180,7 @@ Available Metrics
 
  
 2. `Matrix`_
+
    + `Mahalanobis`_
    + `MahalanobisTaguchi`_
    + `MatrixSpectral`_
