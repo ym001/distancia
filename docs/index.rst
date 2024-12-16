@@ -200,7 +200,6 @@ For a complete list and detailed explanations of each metric, see the next secti
 + `Vector`_ 
     - `Euclidean`_
     - `Manhattan`_ 
-    - `KendallTau`_
     - `Bhattacharyya`_
     - `Haversine`_
     - `Chebyshev`_
@@ -280,6 +279,8 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `NormalizedCompressionDistance`_
     - `MongeElkanDistance`_
     - `JensenShannonDivergence`_
++ 'statistics'
+    - `KendallTau`_
 
 + `Time`_
     - `DynamicTimeWarping`_
