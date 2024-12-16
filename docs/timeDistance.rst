@@ -6,8 +6,6 @@ This section outlines a comprehensive list of distance measures designed for com
 
 **Basic Statistical Distances**
 
-.. rst-class:: enumerated
-
 #. **Euclidean Distance**:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 #. **Manhattan Distance**:
@@ -19,10 +17,7 @@ This section outlines a comprehensive list of distance measures designed for com
 
 **Dynamic Programming-Based Distances**
 
-.. rst-class:: enumerated
-   :start: 10
-
-#. **Dynamic Time Warping (DTW)**:
+6. **Dynamic Time Warping (DTW)**:
    Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
 #. **FastDTW**:
    A computationally efficient approximation of DTW, useful for large-scale datasets.
