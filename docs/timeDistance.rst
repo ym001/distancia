@@ -28,10 +28,8 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Time Warp Edit Distance (TWED)**:
    Combines edit distance with a time-based penalty, preserving temporal relationships.
 
----
+**Shape-Based Distances**
 
-Shape-Based Distances
----------------------
 10. **Shape-Based Distance (SBD)**:
     Uses normalized cross-correlation to compare the overall shape of two time series.
 
@@ -41,10 +39,8 @@ Shape-Based Distances
 #. **Fréchet Distance**:
    Captures the similarity between curves, considering the sequence of points.
 
----
+**Frequency-Based Distances**
 
-Frequency-Based Distances
--------------------------
 13. **Spectral Distance**:
     Compares the frequency spectra of two time series, focusing on periodicity and frequency content.
 
@@ -54,10 +50,8 @@ Frequency-Based Distances
 #. **Wavelet-Based Distance**:
    Uses wavelet decomposition to capture both frequency and temporal differences.
 
----
+**Feature-Based Distances**
 
-Feature-Based Distances
-------------------------
 16. **Derivative Dynamic Time Warping (DDTW)**:
     Extends DTW to use the first derivatives of the time series, emphasizing shape similarity.
 
@@ -70,11 +64,9 @@ Feature-Based Distances
 #. **Symbolic Aggregate Approximation (SAX) Distance**:
    Converts time series into symbolic strings, facilitating fast distance computations.
 
----
+**Model-Based Distances**
 
-Model-Based Distances
-----------------------
-21. **Hidden Markov Model (HMM) Distance**:
+20. **Hidden Markov Model (HMM) Distance**:
     Measures the similarity between time series using fitted HMM parameters.
 
 #. **Autoregressive Model Distance**:
@@ -83,60 +75,52 @@ Model-Based Distances
 #. **Dynamic Bayesian Network Distance**:
    Evaluates structural and parameter similarity in probabilistic models.
 
----
-
 Elastic Distances
------------------
-- **Soft-DTW**:
-  A differentiable version of DTW, useful for optimization-based methods like deep learning.
 
-25. **Global Alignment Kernel (GAK)**:
-  Combines DTW alignment with a kernel-based similarity measure.
+23. **Soft-DTW**:
+   A differentiable version of DTW, useful for optimization-based methods like deep learning.
+
+#. **Global Alignment Kernel (GAK)**:
+   Combines DTW alignment with a kernel-based similarity measure.
 
 #. **Move-Split-Merge (MSM) Distance**:
-  An edit distance tailored for time series, allowing move, split, and merge operations.
+   An edit distance tailored for time series, allowing move, split, and merge operations.
 
----
+**Entropy-Based and Information-Theoretic Distances**
 
-Entropy-Based and Information-Theoretic Distances
---------------------------------------------------
-27. **Kullback-Leibler (KL) Divergence**:
-  Measures the difference between probability distributions of two time series.
+26. **Kullback-Leibler (KL) Divergence**:
+    Measures the difference between probability distributions of two time series.
 
 #. **Jensen-Shannon Distance**:
-  A symmetric variant of KL divergence, emphasizing shared information.
+   A symmetric variant of KL divergence, emphasizing shared information.
 
 #. **Permutation Entropy Distance**:
-  Compares time series based on their entropy using symbolic permutation.
+   Compares time series based on their entropy using symbolic permutation.
 
 #. **Cross-Entropy Distance**:
-  Evaluates the predictive similarity of two sequences.
+   Evaluates the predictive similarity of two sequences.
 
----
+**Clustering and Anomaly-Specific Distances**
 
-Clustering and Anomaly-Specific Distances
------------------------------------------
-31. **Self-Organizing Map (SOM) Distance**:
-  Uses SOM embeddings for clustering similar time series.
+30. **Self-Organizing Map (SOM) Distance**:
+    Uses SOM embeddings for clustering similar time series.
 
 #. **Isolation Forest Distance**:
-  Leverages anomaly detection techniques to compare series.
+   Leverages anomaly detection techniques to compare series.
 
 #. **Cluster Membership Distance**:
-  Measures similarity based on shared cluster assignments.
+   Measures similarity based on shared cluster assignments.
 
----
+**Other Specialized Measures**
 
-Other Specialized Measures
---------------------------
-34. **Earth Mover’s Distance (EMD)**:
-  Measures the effort needed to transform one time series distribution into another.
+33. **Earth Mover’s Distance (EMD)**:
+    Measures the effort needed to transform one time series distribution into another.
 
 #. **Mahalanobis Distance**:
-  Incorporates covariance structure for multivariate time series.
+   Incorporates covariance structure for multivariate time series.
 
 #. **Cosine Similarity (as Distance)**:
-  Converts cosine similarity into a distance metric.
+   Converts cosine similarity into a distance metric.
 
 ---
 
