@@ -45,43 +45,43 @@ Shape-Based Distances
 
 Frequency-Based Distances
 -------------------------
-15. **Spectral Distance**:
-  Compares the frequency spectra of two time series, focusing on periodicity and frequency content.
+13. **Spectral Distance**:
+    Compares the frequency spectra of two time series, focusing on periodicity and frequency content.
 
 #. **Fourier Transform Distance**:
-  Measures similarity in the frequency domain using transformed time series data.
+   Measures similarity in the frequency domain using transformed time series data.
 
 #. **Wavelet-Based Distance**:
-  Uses wavelet decomposition to capture both frequency and temporal differences.
+   Uses wavelet decomposition to capture both frequency and temporal differences.
 
 ---
 
 Feature-Based Distances
 ------------------------
-18. **Derivative Dynamic Time Warping (DDTW)**:
-  Extends DTW to use the first derivatives of the time series, emphasizing shape similarity.
+16. **Derivative Dynamic Time Warping (DDTW)**:
+    Extends DTW to use the first derivatives of the time series, emphasizing shape similarity.
 
 #. **Longest Common Subsequence (LCSS)**:
-  Identifies the longest shared subsequence between two time series, allowing for gaps.
+   Identifies the longest shared subsequence between two time series, allowing for gaps.
 
 #. **Piecewise Aggregate Approximation (PAA) Distance**:
-  Reduces dimensionality by summarizing time series into segments before comparison.
+   Reduces dimensionality by summarizing time series into segments before comparison.
 
 #. **Symbolic Aggregate Approximation (SAX) Distance**:
-  Converts time series into symbolic strings, facilitating fast distance computations.
+   Converts time series into symbolic strings, facilitating fast distance computations.
 
 ---
 
 Model-Based Distances
 ----------------------
-22. **Hidden Markov Model (HMM) Distance**:
-  Measures the similarity between time series using fitted HMM parameters.
+21. **Hidden Markov Model (HMM) Distance**:
+    Measures the similarity between time series using fitted HMM parameters.
 
 #. **Autoregressive Model Distance**:
-  Compares the parameters of autoregressive models fitted to the time series.
+   Compares the parameters of autoregressive models fitted to the time series.
 
 #. **Dynamic Bayesian Network Distance**:
-  Evaluates structural and parameter similarity in probabilistic models.
+   Evaluates structural and parameter similarity in probabilistic models.
 
 ---
 
