@@ -3,9 +3,9 @@ Distances for Time Series
 
 This section outlines a comprehensive list of distance measures designed for comparing time series data. These measures are essential for tasks such as clustering, classification, and anomaly detection. Each entry includes a brief description of its purpose and application.
 
-**Basic Statistical Distances**
-
 .. rst-class:: enumerated
+
+**Basic Statistical Distances**
 
 #. **Euclidean Distance**:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
@@ -18,8 +18,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 **Dynamic Programming-Based Distances**
 
-.. enumitem::
-   :resume:
+.. rst-class:: enumerated
+   :start: 10
 
 #. **Dynamic Time Warping (DTW)**:
    Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
