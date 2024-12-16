@@ -23,8 +23,8 @@ These distances are based on geometric norms and are widely used in various appl
 
 #. **Euclidean** 
    The straight-line distance between two points in Euclidean space.
-#. ** `Manhattan`_ **
-   The sum of absolute differences between vector components, also known as L1 norm.
+#. **`Manhattan`_ 
+   The sum of absolute differences between vector components, also known as L1 norm.**
 #. **Chebyshev** 
    The maximum absolute difference between vector components, corresponding to L∞ norm.
 #. **Canberra**  
