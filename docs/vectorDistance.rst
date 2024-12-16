@@ -5,14 +5,6 @@ Introduction
 ============
 When comparing vectors, it is crucial to understand the different mathematical principles and methods that can be applied depending on the type of data and the context. The **Distancia** package provides a comprehensive suite of vector-based distance measures that allow for the evaluation of similarity or dissimilarity between vectors. These methods can be applied in domains such as machine learning, signal processing, and data clustering, among others.
 
-Categories of Vector-Based Distances
-====================================
-
-1. **Metric Distances**
-2. **Non-Metric Distances**
-3. **Probabilistic Distances**
-4. **Information-Theoretic Distances**
-
 
 List of Vector-Based Distances
 ==============================
@@ -21,77 +13,115 @@ List of Vector-Based Distances
 --------------------
 
 Metric distances follow mathematical properties such as symmetry, non-negativity, and the triangle inequality. These distances are often used when a precise, geometrically consistent measurement is required between vectors.
+Vector-Based Distance Measures
+==============================
 
-1. :doc:`Euclidean`
+This section organizes vector-based distance measures into distinct categories for better clarity and understanding. Each measure is linked to its respective documentation or mathematical definition.
 
-   - Calculates the straight-line (L2 norm) distance between two vectors in n-dimensional space, often used as the default distance measure.
+**1. Euclidean and Minkowski Family**  
+These distances are based on geometric norms and are widely used in various applications.
 
-2. :doc:`Manhattan`
+- `Euclidean`_  
+  The straight-line distance between two points in Euclidean space.
 
-   - Measures the distance between two vectors by summing the absolute differences of their coordinates, simulating a grid-like path between points.
+- `Manhattan`_  
+  The sum of absolute differences between vector components, also known as L1 norm.
 
-3. :doc:`Minkowski`
+- `Chebyshev`_  
+  The maximum absolute difference between vector components, corresponding to L∞ norm.
 
-   - Generalizes both Euclidean and Manhattan distances by using an adjustable parameter p to define the Lp norm, providing flexibility in the distance calculation.
+- `Canberra`_  
+  A weighted metric emphasizing small differences between components.
 
-4. :doc:`Chebyshev`
+**2. Similarity Measures**  
+These metrics quantify similarity rather than dissimilarity between vectors.
 
-   - Measures the greatest difference between any corresponding components of two vectors, often used in chessboard-like grid layouts.
+- `Jaccard`_  
+  The intersection over the union of two binary vectors.
 
-5. :doc:`Cosine`
+- `GeneralizedJaccard`_  
+  Extends Jaccard to weighted vectors.
 
-   - Measures the cosine of the angle between two vectors, evaluating how closely aligned they are in space, regardless of their magnitude.
+- `Tanimoto`_  
+  A similarity metric similar to Jaccard, used in chemistry and information retrieval.
 
-6. :doc:`Mahalanobis`
+- `Ochiai`_  
+  A cosine-like measure for binary overlaps.
 
-   - A distance metric that accounts for the correlations between features, giving greater weight to highly correlated dimensions.
+- `CzekanowskiDice`_  
+  A similarity measure emphasizing common elements.
 
-**Non-Metric Distances**
-------------------------
+- `Pearson`_  
+  Measures linear correlation between two vectors.
 
-  Non-metric distances do not strictly adhere to all the properties of metric distances but are often more flexible or tailored for specific data types. These distances are useful when traditional metrics fail to capture the nuances in vector comparison.
+- `Spearman`_  
+  A rank-based correlation metric.
 
-1. :doc:`Hamming`
+**3. Probabilistic and Divergence Measures**  
+Metrics designed for comparing probability distributions or statistical properties.
 
-   - Counts the number of positions where corresponding elements of two vectors differ, commonly used for comparing binary or categorical data.
+- `Bhattacharyya`_  
+  Quantifies similarity between two probability distributions.
 
-2. :doc:`Jaccard`
+- `KullbackLeibler`_  
+  A divergence metric for comparing probability distributions, often asymmetric.
 
-   - Measures the dissimilarity between two vectors by comparing the size of their intersection relative to their union, often used for sparse or binary data.
+- `Hellinger`_  
+  Computes the divergence based on the Bhattacharyya coefficient.
 
-3. :doc:`Bray-Curtis`
+- `Wasserstein`_  
+  Also known as Earth Mover's Distance, measures the effort required to transform one distribution into another.
 
-   - Quantifies the dissimilarity between two vectors based on their magnitudes, commonly used in ecological and biological studies.
+**4. Binary and Categorical Measures**  
+Specialized for binary vectors and categorical data.
 
-**Probabilistic Distances**
----------------------------
+- `RogersTanimoto`_  
+  Focuses on binary matches and mismatches.
 
-  Probabilistic distances treat the vectors as representations of probability distributions. These measures are useful in contexts such as statistical modeling, where vectors represent frequencies, likelihoods, or distributions.
+- `RussellRao`_  
+  Measures binary similarity based on shared ones.
 
-1. :doc:`Kullback-LeiblerDivergence`
+- `SokalMichener`_  
+  Evaluates binary dissimilarity using equal weighting for matches.
 
-   - Measures the divergence between two probability distributions by comparing how one distribution diverges from a reference distribution.
+- `SokalSneath`_  
+  A variant of SokalMichener with different weighting.
 
-2. :doc:`Jensen-ShannonDivergence`
+- `EnhancedRogersTanimoto`_  
+  An improved version of RogersTanimoto.
 
-   - A symmetrized and smoother version of Kullback-Leibler divergence that measures the similarity between two probability distributions.
+- `FagerMcGowan`_  
+  Derived from ecological studies, adapted for binary data.
 
-3. :doc:`Bhattacharyya Distance`
+- `Otsuka`_  
+  Measures binary similarity, emphasizing shared proportions.
 
-   - Estimates the amount of overlap between two statistical distributions, useful in classification and pattern recognition.
+**5. Geometric and Contextual Measures**  
+Metrics designed for spatial and contextual data.
 
-**Information-Theoretic Distances**
------------------------------------
+- `Haversine`_  
+  Computes spherical distances, useful for geographic coordinates.
 
-  Information-theoretic distances are derived from concepts in information theory, such as entropy and divergence. These distances quantify the difference in information content between vectors, making them ideal for applications involving data compression or communication theory.
+- `ContextualDynamicDistance`_  
+  Adapts dynamically based on data properties.
 
-1. :doc:`Entropy-Based Distance`
+- `Gestalt`_  
+  Captures overall alignment between two vectors.
 
-   - Measures the difference in information content between two vectors by comparing their entropy values, capturing the unpredictability in their distributions.
+**6. Graph and Miscellaneous Measures**  
+Unique metrics for specialized applications, including graph theory.
 
-2. :doc:`Normalized Compression Distance`
+- `MotzkinStraus`_  
+  Used in graph-theoretic contexts, adapted for vectors.
 
-   - Measures the distance between two data points by comparing how much their combined representation can be compressed, making it ideal for detecting shared structure between data.
+- `BrayCurtis`_  
+  Measures compositional dissimilarity in ecology.
+
+- `Gower`_  
+  A general similarity measure applicable to mixed-type data.
+
+This categorized approach facilitates better navigation and understanding of vector-based distance measures, aligning them with specific domains and applications. 
+
    
 Conclusion
 ==========
