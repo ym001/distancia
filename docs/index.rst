@@ -200,7 +200,6 @@ For a complete list and detailed explanations of each metric, see the next secti
 + `Vector`_ 
     - `Euclidean`_
     - `Manhattan`_ 
-    - `Jaro`_
     - `KendallTau`_
     - `Bhattacharyya`_
     - `Haversine`_
@@ -260,6 +259,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `CosineTF`_
     - `WordMoversDistance`_
     - `BERTBasedDistance`_
+    - `Jaro`_
     - `JaroWinkler`_
     - `OverlapCoefficient`_
     - `SorensenDice`_
