@@ -70,9 +70,9 @@ This section outlines a comprehensive list of distance measures designed for com
 23. **Soft-DTW**:
     A differentiable version of DTW, useful for optimization-based methods like deep learning.
 #. **Global Alignment Kernel (GAK)**:
-     Combines DTW alignment with a kernel-based similarity measure.
+   Combines DTW alignment with a kernel-based similarity measure.
 #. **Move-Split-Merge (MSM) Distance**:
-     An edit distance tailored for time series, allowing move, split, and merge operations.
+   An edit distance tailored for time series, allowing move, split, and merge operations.
 
 **Entropy-Based and Information-Theoretic Distances**
 
