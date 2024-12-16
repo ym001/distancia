@@ -14,7 +14,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Correlation Distance**:
    Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
 
-**Dynamic Programming-Based Distances**
+Dynamic Programming-Based Distances
 
 #. **Dynamic Time Warping (DTW)**:
    Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
