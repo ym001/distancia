@@ -12,15 +12,12 @@ Basic Statistical Distances
 Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 
 #. **Manhattan Distance**:
-
 Computes the sum of absolute differences between corresponding points in two time series.
 
 #. **Chebyshev Distance**:
-
 Finds the maximum absolute difference between two time series values.
 
 #. **Correlation Distance**:
-
 Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
 
 Dynamic Programming-Based Distances
