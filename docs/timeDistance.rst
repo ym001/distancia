@@ -7,6 +7,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 Basic Statistical Distances
 ---------------------------
+.. enumerate::
+
 - **Euclidean Distance**:
   Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 
