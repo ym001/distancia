@@ -33,13 +33,13 @@ This section outlines a comprehensive list of distance measures designed for com
 Shape-Based Distances
 ---------------------
 10. **Shape-Based Distance (SBD)**:
-  Uses normalized cross-correlation to compare the overall shape of two time series.
+    Uses normalized cross-correlation to compare the overall shape of two time series.
 
 #. **Hausdorff Distance**:
-  Measures the similarity between two sets of points, considering the worst-case deviation.
+   Measures the similarity between two sets of points, considering the worst-case deviation.
 
 #. **Fréchet Distance**:
-  Captures the similarity between curves, considering the sequence of points.
+   Captures the similarity between curves, considering the sequence of points.
 
 ---
 
