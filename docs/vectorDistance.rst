@@ -33,7 +33,7 @@ These distances are based on geometric norms and are widely used in various appl
 **2. Similarity Measures**  
 These metrics quantify similarity rather than dissimilarity between vectors.
 
-#. **Jaccard** 
+5. **Jaccard** 
    The intersection over the union of two binary vectors.
 #. **GeneralizedJaccard** 
    Extends Jaccard to weighted vectors.
@@ -51,8 +51,8 @@ These metrics quantify similarity rather than dissimilarity between vectors.
 **3. Probabilistic and Divergence Measures**  
 Metrics designed for comparing probability distributions or statistical properties.
 
-#. **Bhattacharyya**
-   Quantifies similarity between two probability distributions.
+12. **Bhattacharyya**
+    Quantifies similarity between two probability distributions.
 #. **KullbackLeibler**
    A divergence metric for comparing probability distributions, often asymmetric.
 #. **Hellinger** 
@@ -63,8 +63,8 @@ Metrics designed for comparing probability distributions or statistical properti
 **4. Binary and Categorical Measures**  
 Specialized for binary vectors and categorical data.
 
-#. **RogersTanimoto** 
-   Focuses on binary matches and mismatches.
+16. **RogersTanimoto** 
+    Focuses on binary matches and mismatches.
 #. **RussellRao**  
    Measures binary similarity based on shared ones.
 #. **SokalMichener**
@@ -80,8 +80,9 @@ Specialized for binary vectors and categorical data.
 
 **5. Geometric and Contextual Measures**  
 Metrics designed for spatial and contextual data.
-#. **Haversine**
-   Computes spherical distances, useful for geographic coordinates.
+
+23. **Haversine**
+    Computes spherical distances, useful for geographic coordinates.
 #. **ContextualDynamicDistance** 
    Adapts dynamically based on data properties.
 #. **Gestalt**
@@ -90,8 +91,8 @@ Metrics designed for spatial and contextual data.
 **6. Graph and Miscellaneous Measures**  
 Unique metrics for specialized applications, including graph theory.
 
-#. **MotzkinStraus**  
-   Used in graph-theoretic contexts, adapted for vectors.
+26. **MotzkinStraus**  
+    Used in graph-theoretic contexts, adapted for vectors.
 #. **BrayCurtis**
    Measures compositional dissimilarity in ecology.
 #. **Gower**  
