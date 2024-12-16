@@ -17,7 +17,7 @@ This section outlines a comprehensive list of distance measures designed for com
 
 **Dynamic Programming-Based Distances**
 
-6. **Dynamic Time Warping (DTW)**:
+5. **Dynamic Time Warping (DTW)**:
    Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
 #. **FastDTW**:
    A computationally efficient approximation of DTW, useful for large-scale datasets.
@@ -32,7 +32,7 @@ This section outlines a comprehensive list of distance measures designed for com
 
 Shape-Based Distances
 ---------------------
-12. **Shape-Based Distance (SBD)**:
+10. **Shape-Based Distance (SBD)**:
   Uses normalized cross-correlation to compare the overall shape of two time series.
 
 #. **Hausdorff Distance**:
