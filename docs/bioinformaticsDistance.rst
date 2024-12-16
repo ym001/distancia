@@ -33,7 +33,7 @@ Used to compare DNA, RNA, or protein sequences.
 Used to compute evolutionary distances between species or genes.
 
 11. **P-Distance (Proportional Distance)**:
-   The fraction of differing positions between two sequences.
+    The fraction of differing positions between two sequences.
 #. **General Time-Reversible (GTR) Distance**:
    A sophisticated model that accounts for different rates of substitutions.
 #. **Maximum Composite Likelihood (MCL) Distance**:
