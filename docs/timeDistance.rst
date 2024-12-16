@@ -12,26 +12,26 @@ Basic Statistical Distances
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 #. **Manhattan Distance**:
    Computes the sum of absolute differences between corresponding points in two time series.
-#.  **Chebyshev Distance**:
-    Finds the maximum absolute difference between two time series values.
-#.  **Correlation Distance**:
-    Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
+#. **Chebyshev Distance**:
+   Finds the maximum absolute difference between two time series values.
+#. **Correlation Distance**:
+   Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
 
 Dynamic Programming-Based Distances
 -----------------------------------
-- **Dynamic Time Warping (DTW)**:
+#. **Dynamic Time Warping (DTW)**:
   Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
 
-- **FastDTW**:
+#. **FastDTW**:
   A computationally efficient approximation of DTW, useful for large-scale datasets.
 
-- **Edit Distance with Real Penalty (ERP)**:
+#. **Edit Distance with Real Penalty (ERP)**:
   A variation of edit distance, replacing gaps with a constant penalty and considering numerical values.
 
-- **Edit Distance on Real Sequences (EDR)**:
+#. **Edit Distance on Real Sequences (EDR)**:
   Accounts for numerical tolerance when comparing time series elements.
 
-- **Time Warp Edit Distance (TWED)**:
+#. **Time Warp Edit Distance (TWED)**:
   Combines edit distance with a time-based penalty, preserving temporal relationships.
 
 ---
