@@ -3,9 +3,10 @@ Distances for Time Series
 
 This section outlines a comprehensive list of distance measures designed for comparing time series data. These measures are essential for tasks such as clustering, classification, and anomaly detection. Each entry includes a brief description of its purpose and application.
 
-.. rst-class:: enumerated
 
 **Basic Statistical Distances**
+
+.. rst-class:: enumerated
 
 #. **Euclidean Distance**:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
