@@ -8,25 +8,14 @@ This section outlines a comprehensive list of distance measures designed for com
 Basic Statistical Distances
 ---------------------------
 
-Below is an enumerated list of distance measures specifically designed for analyzing time series data.
-
-#. **Euclidean Distance**  
-   Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
-
-#. **Dynamic Time Warping (DTW)**  
-   Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
-
-#. **Edit Distance on Real Sequences (EDR)**  
-   Accounts for numerical tolerance when comparing time series elements.
-
 #. **Euclidean Distance**:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 #. **Manhattan Distance**:
    Computes the sum of absolute differences between corresponding points in two time series.
 #.  **Chebyshev Distance**:
-Finds the maximum absolute difference between two time series values.
+    Finds the maximum absolute difference between two time series values.
 #.  **Correlation Distance**:
-Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
+    Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
 
 Dynamic Programming-Based Distances
 -----------------------------------
