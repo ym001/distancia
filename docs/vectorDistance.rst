@@ -21,81 +21,81 @@ This section organizes vector-based distance measures into distinct categories f
 **1. Euclidean and Minkowski Family**  
 These distances are based on geometric norms and are widely used in various applications.
 
-#. **Euclidean** 
+#. **Euclidean`_  
    The straight-line distance between two points in Euclidean space.
 #. `Manhattan`_ 
    The sum of absolute differences between vector components, also known as L1 norm.
-#. **Chebyshev** 
+#. `Chebyshev`_  
    The maximum absolute difference between vector components, corresponding to L∞ norm.
-#. **Canberra**  
+#. `Canberra`_  
    A weighted metric emphasizing small differences between components.
 
 **2. Similarity Measures**  
 These metrics quantify similarity rather than dissimilarity between vectors.
 
-5. **Jaccard** 
+5. `Jaccard`_  
    The intersection over the union of two binary vectors.
-#. **GeneralizedJaccard** 
+#. `GeneralizedJaccard`_  
    Extends Jaccard to weighted vectors.
-#. **Tanimoto**
+#. `Tanimoto`_ 
    A similarity metric similar to Jaccard, used in chemistry and information retrieval.
-#. **Ochiai**  
+#. `Ochiai`_   
    A cosine-like measure for binary overlaps.
-#. **CzekanowskiDice**
+#. `CzekanowskiDice`_ 
    A similarity measure emphasizing common elements.
-#. **Pearson**
+#. `Pearson`_ 
    Measures linear correlation between two vectors.
-#. **Spearman**
+#. `Spearman`_ 
    A rank-based correlation metric.
 
 **3. Probabilistic and Divergence Measures**  
 Metrics designed for comparing probability distributions or statistical properties.
 
-12. **Bhattacharyya**
+12. `Bhattacharyya`_ 
     Quantifies similarity between two probability distributions.
-#. **KullbackLeibler**
+#. `KullbackLeibler`_ 
    A divergence metric for comparing probability distributions, often asymmetric.
-#. **Hellinger** 
+#. `Hellinger`_  
    Computes the divergence based on the Bhattacharyya coefficient.
-#. **Wasserstein** 
+#. `Wasserstein`_ 
    Also known as Earth Mover's Distance, measures the effort required to transform one distribution into another.
 
 **4. Binary and Categorical Measures**  
 Specialized for binary vectors and categorical data.
 
-16. **RogersTanimoto** 
+16. `RogersTanimoto`_  
     Focuses on binary matches and mismatches.
-#. **RussellRao**  
+#. `RussellRao`_   
    Measures binary similarity based on shared ones.
-#. **SokalMichener**
+#. `SokalMichener`_ 
    Evaluates binary dissimilarity using equal weighting for matches.
-#. **SokalSneath**
+#. `SokalSneath`_ 
    A variant of SokalMichener with different weighting.
-#. **EnhancedRogersTanimoto** 
+#. `EnhancedRogersTanimoto`_  
    An improved version of RogersTanimoto.
-#. **FagerMcGowan** 
+#. `FagerMcGowan`_  
    Derived from ecological studies, adapted for binary data.
-#. **Otsuka**  
+#. `Otsuka`_   
    Measures binary similarity, emphasizing shared proportions.
 
 **5. Geometric and Contextual Measures**  
 Metrics designed for spatial and contextual data.
 
-23. **Haversine**
+23. `Haversine`_ 
     Computes spherical distances, useful for geographic coordinates.
-#. **ContextualDynamicDistance** 
+#. `ContextualDynamicDistance`_ 
    Adapts dynamically based on data properties.
-#. **Gestalt**
+#. `Gestalt`_ 
    Captures overall alignment between two vectors.
 
 **6. Graph and Miscellaneous Measures**  
 Unique metrics for specialized applications, including graph theory.
 
-26. **MotzkinStraus**  
+26. `MotzkinStraus`_   
     Used in graph-theoretic contexts, adapted for vectors.
-#. **BrayCurtis**
+#. `BrayCurtis`_ 
    Measures compositional dissimilarity in ecology.
-#. **Gower**  
+#. `Gower`_   
    A general similarity measure applicable to mixed-type data.
 
 This categorized approach facilitates better navigation and understanding of vector-based distance measures, aligning them with specific domains and applications. 
