@@ -9,7 +9,6 @@ Basic Statistical Distances
 ---------------------------
 
 #. **Euclidean Distance**:
-
 Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 
 #. **Manhattan Distance**:
