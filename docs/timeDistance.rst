@@ -17,22 +17,24 @@ Basic Statistical Distances
 #. **Correlation Distance**:
    Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
 
+---
+
 Dynamic Programming-Based Distances
 -----------------------------------
 #. **Dynamic Time Warping (DTW)**:
-  Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
+   Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
 
 #. **FastDTW**:
-  A computationally efficient approximation of DTW, useful for large-scale datasets.
+   A computationally efficient approximation of DTW, useful for large-scale datasets.
 
 #. **Edit Distance with Real Penalty (ERP)**:
-  A variation of edit distance, replacing gaps with a constant penalty and considering numerical values.
+   A variation of edit distance, replacing gaps with a constant penalty and considering numerical values.
 
 #. **Edit Distance on Real Sequences (EDR)**:
-  Accounts for numerical tolerance when comparing time series elements.
+   Accounts for numerical tolerance when comparing time series elements.
 
 #. **Time Warp Edit Distance (TWED)**:
-  Combines edit distance with a time-based penalty, preserving temporal relationships.
+   Combines edit distance with a time-based penalty, preserving temporal relationships.
 
 ---
 
