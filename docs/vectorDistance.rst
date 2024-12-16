@@ -21,7 +21,7 @@ This section organizes vector-based distance measures into distinct categories f
 **1. Euclidean and Minkowski Family**  
 These distances are based on geometric norms and are widely used in various applications.
 
-#. **Euclidean`_  
+#. `Euclidean`_  
    The straight-line distance between two points in Euclidean space.
 #. `Manhattan`_ 
    The sum of absolute differences between vector components, also known as L1 norm.
@@ -105,6 +105,7 @@ Conclusion
 ==========
 The **Distancia** package provides a versatile and robust collection of vector-based distance measures, allowing users to compare vectors in various ways depending on their specific needs. By categorizing distances into metric, non-metric, probabilistic, and information-theoretic types, **Distancia** enables flexible and accurate vector comparisons. Whether you need to compute exact geometric distances or probabilistic differences, **Distancia** offers a comprehensive toolkit for analyzing the relationships between vectors in your data.
 
+.. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 .. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
