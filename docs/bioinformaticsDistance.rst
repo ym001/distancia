@@ -32,7 +32,7 @@ Used to compare DNA, RNA, or protein sequences.
 -----------------------
 Used to compute evolutionary distances between species or genes.
 
-#. **P-Distance (Proportional Distance)**:
+11. **P-Distance (Proportional Distance)**:
    The fraction of differing positions between two sequences.
 #. **General Time-Reversible (GTR) Distance**:
    A sophisticated model that accounts for different rates of substitutions.
@@ -45,7 +45,7 @@ Used to compute evolutionary distances between species or genes.
 --------------------
 Used for comparing 3D structures of proteins or RNA.
 
-#. **Root-Mean-Square Deviation (RMSD)**:
+15. **Root-Mean-Square Deviation (RMSD)**:
    Measures the average distance between atoms in two aligned structures.
 #. **Template Modeling (TM) Score**:
    Evaluates structural similarity based on the best alignment of residues.
@@ -60,7 +60,7 @@ Used for comparing 3D structures of proteins or RNA.
 -----------------
 For comparing entire genomes or large genomic regions.
 
-#. **Average Nucleotide Identity (ANI)**:
+20. **Average Nucleotide Identity (ANI)**:
    Measures the average similarity between two genomic datasets.
 #. **Mash Distance**:
    Estimates genomic distance using sketch-based compression.
@@ -75,7 +75,7 @@ For comparing entire genomes or large genomic regions.
 -------------------------------------------
 Used to compare protein function or features.
 
-#. **BLAST Score as Distance**:
+25. **BLAST Score as Distance**:
    Converts BLAST alignment scores into a distance metric.
 #. **Gene Ontology (GO) Semantic Distance**:
    Measures functional similarity using the Gene Ontology hierarchy.
@@ -86,7 +86,7 @@ Used to compare protein function or features.
 ----------------------
 For comparing microbiomes or metagenomic samples.
 
-#. **Bray-Curtis Dissimilarity**:
+28. **Bray-Curtis Dissimilarity**:
    Compares the composition of two ecological communities.
 #. **UniFrac Distance**:
    A phylogenetic measure of dissimilarity between microbiome samples.
@@ -99,7 +99,7 @@ For comparing microbiomes or metagenomic samples.
 ------------------------------------
 For transcriptomics and chromatin accessibility comparisons.
 
-#. **Euclidean Distance on Gene Expression**:
+32. **Euclidean Distance on Gene Expression**:
    Measures the direct distance between expression levels of genes.
 #. **Correlation-Based Distance**:
    Converts Pearson or Spearman correlation into a dissimilarity metric.
@@ -114,7 +114,7 @@ For transcriptomics and chromatin accessibility comparisons.
 -----------------------------
 Used for analyzing genetic variation within and between populations.
 
-#. **FST Distance**:
+37. **FST Distance**:
    Measures genetic differentiation between populations.
 #. **Nei's Genetic Distance**:
    Estimates the genetic divergence based on allele frequencies.
@@ -129,7 +129,7 @@ Used for analyzing genetic variation within and between populations.
 -----------------------
 For analyzing biological networks (e.g., protein interaction or gene regulatory networks).
 
-#. **Graph Edit Distance**:
+42. **Graph Edit Distance**:
    Measures changes needed to transform one graph into another.
 #. **Shortest Path Distance**:
    Compares network structure using shortest paths.
@@ -142,7 +142,7 @@ For analyzing biological networks (e.g., protein interaction or gene regulatory 
 
 **Other Specialized Measures**
 --------------------------
-#. **Hausdorff Distance**:
+47. **Hausdorff Distance**:
    Used for comparing shapes of biological structures.
 #. **Earth Mover’s Distance (EMD)**:
    Measures the "work" needed to transform one distribution into another.
