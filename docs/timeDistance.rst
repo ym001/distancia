@@ -3,7 +3,6 @@ Distances for Time Series
 
 This section outlines a comprehensive list of distance measures designed for comparing time series data. These measures are essential for tasks such as clustering, classification, and anomaly detection. Each entry includes a brief description of its purpose and application.
 
-
 **Basic Statistical Distances**
 
 #. **Euclidean Distance**:
@@ -32,10 +31,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 10. **Shape-Based Distance (SBD)**:
     Uses normalized cross-correlation to compare the overall shape of two time series.
-
 #. **Hausdorff Distance**:
    Measures the similarity between two sets of points, considering the worst-case deviation.
-
 #. **Fréchet Distance**:
    Captures the similarity between curves, considering the sequence of points.
 
@@ -43,10 +40,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 13. **Spectral Distance**:
     Compares the frequency spectra of two time series, focusing on periodicity and frequency content.
-
 #. **Fourier Transform Distance**:
    Measures similarity in the frequency domain using transformed time series data.
-
 #. **Wavelet-Based Distance**:
    Uses wavelet decomposition to capture both frequency and temporal differences.
 
@@ -54,13 +49,10 @@ This section outlines a comprehensive list of distance measures designed for com
 
 16. **Derivative Dynamic Time Warping (DDTW)**:
     Extends DTW to use the first derivatives of the time series, emphasizing shape similarity.
-
 #. **Longest Common Subsequence (LCSS)**:
    Identifies the longest shared subsequence between two time series, allowing for gaps.
-
 #. **Piecewise Aggregate Approximation (PAA) Distance**:
    Reduces dimensionality by summarizing time series into segments before comparison.
-
 #. **Symbolic Aggregate Approximation (SAX) Distance**:
    Converts time series into symbolic strings, facilitating fast distance computations.
 
@@ -68,10 +60,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 20. **Hidden Markov Model (HMM) Distance**:
     Measures the similarity between time series using fitted HMM parameters.
-
 #. **Autoregressive Model Distance**:
    Compares the parameters of autoregressive models fitted to the time series.
-
 #. **Dynamic Bayesian Network Distance**:
    Evaluates structural and parameter similarity in probabilistic models.
 
@@ -79,10 +69,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 23. **Soft-DTW**:
     A differentiable version of DTW, useful for optimization-based methods like deep learning.
-
 #. **Global Alignment Kernel (GAK)**:
      Combines DTW alignment with a kernel-based similarity measure.
-
 #. **Move-Split-Merge (MSM) Distance**:
      An edit distance tailored for time series, allowing move, split, and merge operations.
 
@@ -90,13 +78,10 @@ This section outlines a comprehensive list of distance measures designed for com
 
 26. **Kullback-Leibler (KL) Divergence**:
     Measures the difference between probability distributions of two time series.
-
 #. **Jensen-Shannon Distance**:
    A symmetric variant of KL divergence, emphasizing shared information.
-
 #. **Permutation Entropy Distance**:
    Compares time series based on their entropy using symbolic permutation.
-
 #. **Cross-Entropy Distance**:
    Evaluates the predictive similarity of two sequences.
 
@@ -104,10 +89,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 30. **Self-Organizing Map (SOM) Distance**:
     Uses SOM embeddings for clustering similar time series.
-
 #. **Isolation Forest Distance**:
    Leverages anomaly detection techniques to compare series.
-
 #. **Cluster Membership Distance**:
    Measures similarity based on shared cluster assignments.
 
@@ -115,10 +98,8 @@ This section outlines a comprehensive list of distance measures designed for com
 
 33. **Earth Mover’s Distance (EMD)**:
     Measures the effort needed to transform one time series distribution into another.
-
 #. **Mahalanobis Distance**:
    Incorporates covariance structure for multivariate time series.
-
 #. **Cosine Similarity (as Distance)**:
    Converts cosine similarity into a distance metric.
 
