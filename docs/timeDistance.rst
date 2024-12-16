@@ -7,6 +7,7 @@ This section outlines a comprehensive list of distance measures designed for com
 
 Basic Statistical Distances
 ---------------------------
+
 .. enumerate::
 
  **Euclidean Distance**:
