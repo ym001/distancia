@@ -4,7 +4,7 @@ Distances for Time Series
 This section outlines a comprehensive list of distance measures designed for comparing time series data. These measures are essential for tasks such as clustering, classification, and anomaly detection. Each entry includes a brief description of its purpose and application.
 
 **Basic Statistical Distances**
-
+-------------------------------
 #. **Euclidean Distance**:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 #. **Manhattan Distance**:
@@ -15,6 +15,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
 
 **Dynamic Programming-Based Distances**
+-------------------------------
 
 5. **Dynamic Time Warping (DTW)**:
    Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
@@ -28,6 +29,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Combines edit distance with a time-based penalty, preserving temporal relationships.
 
 **Shape-Based Distances**
+-------------------------------
 
 10. **Shape-Based Distance (SBD)**:
     Uses normalized cross-correlation to compare the overall shape of two time series.
@@ -37,6 +39,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Captures the similarity between curves, considering the sequence of points.
 
 **Frequency-Based Distances**
+-------------------------------
 
 13. **Spectral Distance**:
     Compares the frequency spectra of two time series, focusing on periodicity and frequency content.
@@ -46,6 +49,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Uses wavelet decomposition to capture both frequency and temporal differences.
 
 **Feature-Based Distances**
+-------------------------------
 
 16. **Derivative Dynamic Time Warping (DDTW)**:
     Extends DTW to use the first derivatives of the time series, emphasizing shape similarity.
@@ -57,6 +61,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Converts time series into symbolic strings, facilitating fast distance computations.
 
 **Model-Based Distances**
+-------------------------------
 
 20. **Hidden Markov Model (HMM) Distance**:
     Measures the similarity between time series using fitted HMM parameters.
@@ -66,6 +71,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Evaluates structural and parameter similarity in probabilistic models.
 
 **Elastic Distances**
+-------------------------------
 
 23. **Soft-DTW**:
     A differentiable version of DTW, useful for optimization-based methods like deep learning.
@@ -75,6 +81,7 @@ This section outlines a comprehensive list of distance measures designed for com
    An edit distance tailored for time series, allowing move, split, and merge operations.
 
 **Entropy-Based and Information-Theoretic Distances**
+-------------------------------
 
 26. **Kullback-Leibler (KL) Divergence**:
     Measures the difference between probability distributions of two time series.
@@ -86,6 +93,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Evaluates the predictive similarity of two sequences.
 
 **Clustering and Anomaly-Specific Distances**
+-------------------------------
 
 30. **Self-Organizing Map (SOM) Distance**:
     Uses SOM embeddings for clustering similar time series.
@@ -95,6 +103,7 @@ This section outlines a comprehensive list of distance measures designed for com
    Measures similarity based on shared cluster assignments.
 
 **Other Specialized Measures**
+-------------------------------
 
 33. **Earth Mover’s Distance (EMD)**:
     Measures the effort needed to transform one time series distribution into another.
@@ -103,7 +112,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Cosine Similarity (as Distance)**:
    Converts cosine similarity into a distance metric.
 
----
+
 
 **Conclusion**
 This exhaustive list highlights the diversity of distance measures for time series analysis. Each measure has specific strengths and limitations, making them suitable for different types of datasets and applications.
