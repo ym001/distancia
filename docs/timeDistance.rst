@@ -5,8 +5,7 @@ This section outlines a comprehensive list of distance measures designed for com
 
 ---
 
-Basic Statistical Distances
----------------------------
+**Basic Statistical Distances**
 
 #. **Euclidean Distance**:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
@@ -19,8 +18,8 @@ Basic Statistical Distances
 
 ---
 
-Dynamic Programming-Based Distances
------------------------------------
+**Dynamic Programming-Based Distances**
+
 #. **Dynamic Time Warping (DTW)**:
    Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
 
