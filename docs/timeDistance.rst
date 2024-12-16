@@ -3,8 +3,6 @@ Distances for Time Series
 
 This section outlines a comprehensive list of distance measures designed for comparing time series data. These measures are essential for tasks such as clustering, classification, and anomaly detection. Each entry includes a brief description of its purpose and application.
 
----
-
 **Basic Statistical Distances**
 
 #. **Euclidean Distance**:
