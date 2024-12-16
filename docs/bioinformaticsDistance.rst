@@ -5,7 +5,7 @@ This section provides a comprehensive list of distance measures commonly used in
 
 ---
 
-Sequence Alignment Distances
+**Sequence Alignment Distances**
 ----------------------------
 Used to compare DNA, RNA, or protein sequences.
 
@@ -38,7 +38,7 @@ Used to compare DNA, RNA, or protein sequences.
 
 ---
 
-Phylogenetics Distances
+**Phylogenetics Distances**
 -----------------------
 Used to compute evolutionary distances between species or genes.
 
@@ -54,9 +54,7 @@ Used to compute evolutionary distances between species or genes.
 - **Pairwise Log-Det Distance**:
   Accounts for unequal base compositions when comparing sequences.
 
----
-
-Structural Distances
+**Structural Distances**
 --------------------
 Used for comparing 3D structures of proteins or RNA.
 
@@ -75,9 +73,7 @@ Used for comparing 3D structures of proteins or RNA.
 - **ProDy Dynamics Similarity Index**:
   Analyzes dynamic behavior differences in protein structures.
 
----
-
-Genomic Distances
+**Genomic Distances**
 -----------------
 For comparing entire genomes or large genomic regions.
 
@@ -96,9 +92,7 @@ For comparing entire genomes or large genomic regions.
 - **Copy Number Distance**:
   Analyzes differences in gene or segmental copy numbers.
 
----
-
-Protein Similarity and Functional Distances
+**Protein Similarity and Functional Distances**
 -------------------------------------------
 Used to compare protein function or features.
 
@@ -111,9 +105,7 @@ Used to compare protein function or features.
 - **Protein Interaction Network Distance**:
   Compares similarity in protein interaction networks between species or experiments.
 
----
-
-Metagenomics Distances
+**Metagenomics Distances**
 ----------------------
 For comparing microbiomes or metagenomic samples.
 
@@ -129,9 +121,7 @@ For comparing microbiomes or metagenomic samples.
 - **Weighted UniFrac**:
   Similar to UniFrac, but incorporates abundance data for weighting.
 
----
-
-Expression and Epigenomics Distances
+**Expression and Epigenomics Distances**
 ------------------------------------
 For transcriptomics and chromatin accessibility comparisons.
 
@@ -150,9 +140,7 @@ For transcriptomics and chromatin accessibility comparisons.
 - **Epigenetic Distance**:
   Compares histone modifications or DNA methylation patterns.
 
----
-
-Population Genetics Distances
+**Population Genetics Distances**
 -----------------------------
 Used for analyzing genetic variation within and between populations.
 
@@ -171,9 +159,7 @@ Used for analyzing genetic variation within and between populations.
 - **Identity-by-Descent (IBD) Distance**:
   Quantifies shared genetic ancestry.
 
----
-
-Network-Based Distances
+**Network-Based Distances**
 -----------------------
 For analyzing biological networks (e.g., protein interaction or gene regulatory networks).
 
@@ -192,9 +178,7 @@ For analyzing biological networks (e.g., protein interaction or gene regulatory 
 - **Network Alignment Distance**:
   Measures the similarity of node mappings between networks.
 
----
-
-Other Specialized Measures
+**Other Specialized Measures**
 --------------------------
 - **Hausdorff Distance**:
   Used for comparing shapes of biological structures.
@@ -210,8 +194,6 @@ Other Specialized Measures
 
 - **Chi-Square Distance**:
   Used for categorical or binned data like gene counts.
-
----
 
 **Conclusion**
 This exhaustive list captures the breadth of distance measures applied in bioinformatics, each suited for specific types of biological data and analytical contexts. These measures are essential for sequence alignment, structural analysis, genomic comparison, and more.
