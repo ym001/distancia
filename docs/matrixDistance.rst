@@ -15,7 +15,7 @@ These distances compare two matrices by evaluating differences between correspon
 
 #. `Euclidean`_ : Measures the straight-line distance between two matrices by treating them as flattened vectors.
 #. `Manhattan`_ (L1 Distance): Sum of the absolute differences between corresponding elements of two matrices.
-#. `hebyshev`_  : Maximum absolute difference between corresponding elements of two matrices.
+#. `chebyshev`_  : Maximum absolute difference between corresponding elements of two matrices.
 #. `Minkowski`_  : Generalization of Euclidean and Manhattan distances, parameterized by a power p.
 #. `Hamming`_  : Measures the number of positions where corresponding elements are different (binary matrices or categorical values).
 
@@ -80,6 +80,7 @@ If matrices are adjacency matrices of graphs, specialized graph distances are us
 #. `CliqueBasedGraph`_
 #. `CycleMatrixDistance`_
 #. `GraphletMatrixDistance`_
+#. `MinimumCutDistanceCalculator`_
 
 **Statistical Distance**
 -----------------------
@@ -91,7 +92,6 @@ These distances focus on comparing matrices that represent statistical propertie
 #. `Bhattacharyya`_  : Measures the overlap between statistical distributions represented by two matrices.
 #. `Energy`_  : Measures the statistical distance between two matrices in terms of their probability distributions.
 #. `WeisfeilerLehman`_
-#. `MinimumCutDistanceCalculator`_
 
 **Compression-Based Distance**
 -----------------------------
