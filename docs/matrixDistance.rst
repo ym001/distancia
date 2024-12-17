@@ -36,6 +36,7 @@ These methods compute distances between matrices using kernels, which map matric
 9. `Gaussian Kernel`_  : Measures similarity based on the Gaussian kernel applied to matrix entries.
 #. `Polynomial Kernel`_  : Computes distances using a polynomial kernel applied to matrix entries.
 #. `RBF (Radial Basis Function)`_  : Another kernel-based measure, widely used for comparing matrix-valued data.
+#. `HeatKernel`_
 
 **Geometric Distance**
 ---------------------
@@ -45,6 +46,7 @@ These distances treat matrices as geometric objects and compute distances based 
 12. `Procrustes`_  : Measures the similarity between two matrices by finding the best alignment through rotation, scaling, and translation.
 #. `Hausdorff`_  : Measures the maximum distance of a point in one matrix to the closest point in the other matrix.
 #. `Earth Mover’s Distance (Wasserstein Distance)`_  : Measures the minimum "cost" to transform one matrix into another, useful in distributions or spatial data.
+#. `TriangleMatrixDistance`_
 
 **Decomposition-Based Distance**
 -------------------------------
@@ -69,9 +71,15 @@ These methods compare matrices using concepts from information theory, often tre
 
 If matrices are adjacency matrices of graphs, specialized graph distances are used.
 
-21. `Spectral Graph`_  : Compares matrices based on their eigenvalue spectra, often used for graph adjacency matrices.
+21. `MatrixSpectral`_ : Compares matrices based on their eigenvalue spectra, often used for graph adjacency matrices.
 #. `Graph Edit`_  : Measures the number of edits (insertion, deletion, modification of edges/nodes) needed to transform one graph into another.
 #. `Resistance`_  : Based on electrical network theory, comparing the resistance of nodes between two graph adjacency matrices.
+#. `RandomWalk`_
+#. `GraphEditMatrix`_
+#. `PatternBased`_
+#. `CliqueBasedGraph`_
+#. `CycleMatrixDistance`_
+#. `GraphletMatrixDistance`_
 
 **Statistical Distance**
 -----------------------
@@ -79,8 +87,11 @@ If matrices are adjacency matrices of graphs, specialized graph distances are us
 These distances focus on comparing matrices that represent statistical properties or distributions.
 
 24. `Mahalanobis`_  : Takes into account the correlations between variables in the matrices, useful for covariance matrices.
+#. `MahalanobisTaguchi`_
 #. `Bhattacharyya`_  : Measures the overlap between statistical distributions represented by two matrices.
 #. `Energy`_  : Measures the statistical distance between two matrices in terms of their probability distributions.
+#. `WeisfeilerLehman`_
+#. `MinimumCutDistanceCalculator`_
 
 **Compression-Based Distance**
 -----------------------------
@@ -106,6 +117,7 @@ Norm-based distances focus on comparing matrices using mathematical norms, which
 #. `L1`_  : Measures the sum of the absolute differences between corresponding elements in two matrices, highlighting overall deviation.
 #. `L2`_  : Computes the Euclidean distance between two matrices, summing the squared differences between elements and taking the square root.
 #. `MaxNorm`_  : Compares two matrices by finding the largest absolute difference between corresponding elements, focusing on the most significant deviation.
+#. `NormalizedSpectral`_
 
 **Spectral-Based Distances**
 ----------------------------
@@ -113,10 +125,11 @@ Norm-based distances focus on comparing matrices using mathematical norms, which
 Spectral-based distances compare matrices by analyzing their spectral properties, such as eigenvalues or singular values. These distances are particularly effective for comparing matrices in fields such as graph theory or signal processing, where the structure and flow captured in matrix transformations are of interest.
 
 #. `SpectralNorm`_  : Compares matrices by calculating the largest singular value difference, capturing differences in matrix transformations.
-
 #. `Eigenvalue`_  : Measures the distance between the eigenvalue spectra of two matrices, often used in structural or network matrix comparisons.
-
 #. `NuclearNorm`_  : Uses the sum of the singular values of the matrix difference to capture differences in the overall structure and rank of the matrices.
+#. `PureDiffusion`_
+#. `NetSimile`_
+#. `Percolation`_
 
 Conclusion
 ==========
