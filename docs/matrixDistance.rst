@@ -49,7 +49,7 @@ These methods compute distances between matrices using kernels, which map matric
 
 These distances treat matrices as geometric objects and compute distances based on their structure.
 
-12. `Procrustes`_  : Measures the similarity between two matrices by finding the best alignment through rotation, scaling, and translation.
+13. `Procrustes`_  : Measures the similarity between two matrices by finding the best alignment through rotation, scaling, and translation.
 #. `Hausdorff`_  : Measures the maximum distance of a point in one matrix to the closest point in the other matrix.
 #. `Earth Mover’s Distance (Wasserstein Distance)`_  : Measures the minimum "cost" to transform one matrix into another, useful in distributions or spatial data.
 #. `TriangleMatrixDistance`_
@@ -59,7 +59,7 @@ These distances treat matrices as geometric objects and compute distances based 
 
 These methods rely on matrix decompositions like SVD or eigenvalue decompositions.
 
-15. `Subspace`_  : Measures the distance between the subspaces spanned by two matrices, using singular value decomposition (SVD).
+17. `Subspace`_  : Measures the distance between the subspaces spanned by two matrices, using singular value decomposition (SVD).
 #. `Canonical Correlation`_  : Compares matrices by measuring the correlation between their canonical variables.
 #. `Eigenvalue-Based`_  : Compares matrices based on the differences between their eigenvalues (often for symmetric matrices).
 
@@ -68,7 +68,7 @@ These methods rely on matrix decompositions like SVD or eigenvalue decomposition
 
 These methods compare matrices using concepts from information theory, often treating matrices as probabilistic models.
 
-18. `Kullback-Leibler`_  : Measures the divergence between two matrices viewed as probability distributions.
+20. `Kullback-Leibler`_  : Measures the divergence between two matrices viewed as probability distributions.
 #. `Jensen-Shannon`_  : A symmetrized and smoothed version of KL divergence for matrix comparison.
 #. `Log-Determinant Divergence`_  : Measures the divergence between two positive semi-definite matrices using their determinants.
 
@@ -77,7 +77,7 @@ These methods compare matrices using concepts from information theory, often tre
 
 If matrices are adjacency matrices of graphs, specialized graph distances are used.
 
-21. `MatrixSpectral`_ : Compares matrices based on their eigenvalue spectra, often used for graph adjacency matrices.
+23. `MatrixSpectral`_ : Compares matrices based on their eigenvalue spectra, often used for graph adjacency matrices.
 #. `Graph Edit`_  : Measures the number of edits (insertion, deletion, modification of edges/nodes) needed to transform one graph into another.
 #. `Resistance`_  : Based on electrical network theory, comparing the resistance of nodes between two graph adjacency matrices.
 #. `RandomWalk`_
@@ -93,7 +93,7 @@ If matrices are adjacency matrices of graphs, specialized graph distances are us
 
 These distances focus on comparing matrices that represent statistical properties or distributions.
 
-24. `Mahalanobis`_  : Takes into account the correlations between variables in the matrices, useful for covariance matrices.
+33. `Mahalanobis`_  : Takes into account the correlations between variables in the matrices, useful for covariance matrices.
 #. `MahalanobisTaguchi`_
 #. `Bhattacharyya`_  : Measures the overlap between statistical distributions represented by two matrices.
 #. `Energy`_  : Measures the statistical distance between two matrices in terms of their probability distributions.
@@ -104,7 +104,7 @@ These distances focus on comparing matrices that represent statistical propertie
 
 These methods compress the matrices and then compare their compressed versions.
 
-27. `Normalized Compression Distance (NCD)`_  : Uses compression algorithms (like zlib) to measure the complexity difference between two matrices.
+38. `Normalized Compression Distance (NCD)`_  : Uses compression algorithms (like zlib) to measure the complexity difference between two matrices.
 #. `Kolmogorov`_  : Measures the difference between the compressibility of two matrices by estimating their algorithmic complexity.
 
 **Matrix Factorization-Based Distance**
@@ -112,7 +112,7 @@ These methods compress the matrices and then compare their compressed versions.
 
 These methods are based on matrix factorizations like NMF (Non-negative Matrix Factorization) or PCA (Principal Component Analysis).
 
-29. `Non-negative Matrix Factorization (NMF)`_  : Compares matrices based on their factorizations into non-negative components.
+40. `Non-negative Matrix Factorization (NMF)`_  : Compares matrices based on their factorizations into non-negative components.
 #. `Principal Component`_  : Measures the distance between two matrices by comparing their principal components (from PCA).
 
 **Norm-Based Distances**
@@ -120,7 +120,7 @@ These methods are based on matrix factorizations like NMF (Non-negative Matrix F
 
 Norm-based distances focus on comparing matrices using mathematical norms, which summarize the overall difference between two matrices in terms of magnitude or geometric properties.
 
-#. `L1`_  : Measures the sum of the absolute differences between corresponding elements in two matrices, highlighting overall deviation.
+42. `L1`_  : Measures the sum of the absolute differences between corresponding elements in two matrices, highlighting overall deviation.
 #. `L2`_  : Computes the Euclidean distance between two matrices, summing the squared differences between elements and taking the square root.
 #. `MaxNorm`_  : Compares two matrices by finding the largest absolute difference between corresponding elements, focusing on the most significant deviation.
 #. `NormalizedSpectral`_
@@ -130,7 +130,7 @@ Norm-based distances focus on comparing matrices using mathematical norms, which
 
 Spectral-based distances compare matrices by analyzing their spectral properties, such as eigenvalues or singular values. These distances are particularly effective for comparing matrices in fields such as graph theory or signal processing, where the structure and flow captured in matrix transformations are of interest.
 
-#. `SpectralNorm`_  : Compares matrices by calculating the largest singular value difference, capturing differences in matrix transformations.
+46. `SpectralNorm`_  : Compares matrices by calculating the largest singular value difference, capturing differences in matrix transformations.
 #. `Eigenvalue`_  : Measures the distance between the eigenvalue spectra of two matrices, often used in structural or network matrix comparisons.
 #. `NuclearNorm`_  : Uses the sum of the singular values of the matrix difference to capture differences in the overall structure and rank of the matrices.
 #. `PureDiffusion`_
