@@ -18,7 +18,7 @@ Vector-Based Distance Measures
 
 This section organizes vector-based distance measures into distinct categories for better clarity and understanding. Each measure is linked to its respective documentation or mathematical definition.
 
-**1. Euclidean and Minkowski Family**  
+**Euclidean and Minkowski Family**  
 -------------------------------------
 
 These distances are based on geometric norms and are widely used in various applications.
@@ -32,7 +32,7 @@ These distances are based on geometric norms and are widely used in various appl
 #. `Canberra`_  
    A weighted metric emphasizing small differences between components.
 
-**2. Similarity Measures** 
+**Similarity Measures** 
 --------------------------
 
 These metrics quantify similarity rather than dissimilarity between vectors.
@@ -52,7 +52,7 @@ These metrics quantify similarity rather than dissimilarity between vectors.
 #. `Spearman`_ 
    A rank-based correlation metric.
 
-**3. Probabilistic and Divergence Measures**  
+**Probabilistic and Divergence Measures**  
 --------------------------------------------
 
 Metrics designed for comparing probability distributions or statistical properties.
@@ -66,7 +66,7 @@ Metrics designed for comparing probability distributions or statistical properti
 #. `Wasserstein`_ 
    Also known as Earth Mover's Distance, measures the effort required to transform one distribution into another.
 
-**4. Binary and Categorical Measures** 
+**Binary and Categorical Measures** 
 --------------------------------------
 
 Specialized for binary vectors and categorical data.
@@ -86,7 +86,7 @@ Specialized for binary vectors and categorical data.
 #. `Otsuka`_   
    Measures binary similarity, emphasizing shared proportions.
 
-**5. Geometric and Contextual Measures**  
+**Geometric and Contextual Measures**  
 ----------------------------------------
 
 Metrics designed for spatial and contextual data.
@@ -98,7 +98,7 @@ Metrics designed for spatial and contextual data.
 #. `Gestalt`_ 
    Captures overall alignment between two vectors.
 
-**6. Graph and Miscellaneous Measures** 
+**Graph and Miscellaneous Measures** 
 ----------------------------------------
 
 Unique metrics for specialized applications, including graph theory.
