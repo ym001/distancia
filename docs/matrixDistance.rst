@@ -146,3 +146,22 @@ Spectral-based distances compare matrices by analyzing their spectral properties
 Conclusion
 ==========
 The diverse set of matrix distance measures provided by **Distancia** allows for comprehensive analysis across various domains, from numerical accuracy in computations to structural comparisons in matrices representing networks or systems. Each distance captures unique aspects of the matrices, whether focusing on element-wise precision, overall magnitude, or spectral properties. The flexibility of these distances makes **Distancia** an invaluable tool for applications in machine learning, image processing, and network analysis.
+
+.. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
+.. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
+.. _MahalanobisTaguchi: https://distancia.readthedocs.io/en/latest/MahalanobisTaguchi.html
+.. _MatrixSpectral: https://distancia.readthedocs.io/en/latest/MatrixSpectral.html
+.. _NormalizedSpectral: https://distancia.readthedocs.io/en/latest/NormalizedSpectral.html
+.. _PureDiffusion: https://distancia.readthedocs.io/en/latest/PureDiffusion.html
+.. _RandomWalk: https://distancia.readthedocs.io/en/latest/RandomWalk.html
+.. _HeatKernel: https://distancia.readthedocs.io/en/latest/HeatKernel.html
+.. _GraphEditMatrix: https://distancia.readthedocs.io/en/latest/GraphEditMatrix.html
+.. _WeisfeilerLehman: https://distancia.readthedocs.io/en/latest/WeisfeilerLehman.html
+.. _NetSimile: https://distancia.readthedocs.io/en/latest/NetSimile.html
+.. _TriangleMatrixDistance: https://distancia.readthedocs.io/en/latest/TriangleMatrixDistance.html
+.. _PatternBased: https://distancia.readthedocs.io/en/latest/PatternBased.html
+.. _CliqueBasedGraph: https://distancia.readthedocs.io/en/latest/CliqueBasedGraph.html
+.. _CycleMatrixDistance: https://distancia.readthedocs.io/en/latest/CycleMatrixDistance.html
+.. _GraphletMatrixDistance: https://distancia.readthedocs.io/en/latest/GraphletMatrixDistance.html
+.. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
+.. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
