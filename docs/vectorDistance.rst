@@ -5,10 +5,6 @@ Introduction
 ============
 When comparing vectors, it is crucial to understand the different mathematical principles and methods that can be applied depending on the type of data and the context. The **Distancia** package provides a comprehensive suite of vector-based distance measures that allow for the evaluation of similarity or dissimilarity between vectors. These methods can be applied in domains such as machine learning, signal processing, and data clustering, among others.
 
-
-List of Vector-Based Distances
-==============================
-
 **Metric Distances**
 --------------------
 
@@ -40,7 +36,7 @@ These distances are based on geometric norms and are widely used in various appl
 
 These metrics quantify similarity rather than dissimilarity between vectors.
 
-5. `Jaccard`_  
+6. `Jaccard`_  
    The intersection over the union of two binary vectors.
 #. `GeneralizedJaccard`_  
    Extends Jaccard to weighted vectors.
@@ -60,7 +56,7 @@ These metrics quantify similarity rather than dissimilarity between vectors.
 
 Metrics designed for comparing probability distributions or statistical properties.
 
-12. `Bhattacharyya`_ 
+13. `Bhattacharyya`_ 
     Quantifies similarity between two probability distributions.
 #. `KullbackLeibler`_ 
    A divergence metric for comparing probability distributions, often asymmetric.
@@ -74,7 +70,7 @@ Metrics designed for comparing probability distributions or statistical properti
 
 Specialized for binary vectors and categorical data.
 
-16. `RogersTanimoto`_  
+17. `RogersTanimoto`_  
     Focuses on binary matches and mismatches.
 #. `RussellRao`_   
    Measures binary similarity based on shared ones.
@@ -94,7 +90,7 @@ Specialized for binary vectors and categorical data.
 
 Metrics designed for spatial and contextual data.
 
-23. `Haversine`_ 
+24. `Haversine`_ 
     Computes spherical distances, useful for geographic coordinates.
 #. `ContextualDynamicDistance`_ 
    Adapts dynamically based on data properties.
@@ -106,7 +102,7 @@ Metrics designed for spatial and contextual data.
 
 Unique metrics for specialized applications, including graph theory.
 
-26. `MotzkinStraus`_   
+27. `MotzkinStraus`_   
     Used in graph-theoretic contexts, adapted for vectors.
 #. `BrayCurtis`_ 
    Measures compositional dissimilarity in ecology.
