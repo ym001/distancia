@@ -13,6 +13,7 @@ List of Vector-Based Distances
 --------------------
 
 Metric distances follow mathematical properties such as symmetry, non-negativity, and the triangle inequality. These distances are often used when a precise, geometrically consistent measurement is required between vectors.
+
 Vector-Based Distance Measures
 ==============================
 
