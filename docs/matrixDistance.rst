@@ -147,7 +147,6 @@ Conclusion
 ==========
 The diverse set of matrix distance measures provided by **Distancia** allows for comprehensive analysis across various domains, from numerical accuracy in computations to structural comparisons in matrices representing networks or systems. Each distance captures unique aspects of the matrices, whether focusing on element-wise precision, overall magnitude, or spectral properties. The flexibility of these distances makes **Distancia** an invaluable tool for applications in machine learning, image processing, and network analysis.
 
-.. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
 .. _MahalanobisTaguchi: https://distancia.readthedocs.io/en/latest/MahalanobisTaguchi.html
 .. _MatrixSpectral: https://distancia.readthedocs.io/en/latest/MatrixSpectral.html
