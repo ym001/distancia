@@ -19,6 +19,11 @@ These distances compare two matrices by evaluating differences between correspon
 #. `Minkowski`_  : Generalization of Euclidean and Manhattan distances, parameterized by a power p.
 #. `Hamming`_  : Measures the number of positions where corresponding elements are different (binary matrices or categorical values).
 
+.. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
+.. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
+.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
+
 **Norm-Based Distance**
 ----------------------
 
