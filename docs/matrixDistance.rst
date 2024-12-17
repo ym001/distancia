@@ -23,6 +23,7 @@ These distances compare two matrices by evaluating differences between correspon
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
+.. _Minkowski: https://distancia.readthedocs.io/en/latest/Minkowski.html
 
 **Norm-Based Distance**
 ----------------------
