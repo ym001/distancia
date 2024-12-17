@@ -87,6 +87,9 @@ If matrices are adjacency matrices of graphs, specialized graph distances are us
 #. `CycleMatrixDistance`_
 #. `GraphletMatrixDistance`_
 #. `MinimumCutDistanceCalculator`_
+#. `Percolation`_
+#. `NetSimile`_
+#. `PureDiffusion`_
 
 **Statistical Distance**
 -----------------------
@@ -133,9 +136,6 @@ Spectral-based distances compare matrices by analyzing their spectral properties
 46. `SpectralNorm`_  : Compares matrices by calculating the largest singular value difference, capturing differences in matrix transformations.
 #. `Eigenvalue`_  : Measures the distance between the eigenvalue spectra of two matrices, often used in structural or network matrix comparisons.
 #. `NuclearNorm`_  : Uses the sum of the singular values of the matrix difference to capture differences in the overall structure and rank of the matrices.
-#. `PureDiffusion`_
-#. `NetSimile`_
-#. `Percolation`_
 
 Conclusion
 ==========
