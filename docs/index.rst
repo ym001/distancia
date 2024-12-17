@@ -108,6 +108,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 -------------------
 
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 .. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
