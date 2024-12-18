@@ -23,7 +23,7 @@ This section categorizes and details an exhaustive list of distance measures spe
 **Phonetic and String Matching**
 ----------------------------
 
-7. `Jaro Distance`_ :Focuses on matching characters and minimizing transpositions.
+7. `Jaro`_ :Focuses on matching characters and minimizing transpositions.
 #. `JaroWinkler`_ :Extends Jaro by giving extra weight to matches at the start of strings.
 #. `NgramDistance`_ :Compares substrings of size *n* between two strings.
 #. `GappyNGramDistance`_ :Considers n-grams that may skip characters or words.
@@ -119,3 +119,4 @@ The **Distancia** package offers a comprehensive set of text-based distance meas
 .. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
 .. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
 .. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
+.. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
