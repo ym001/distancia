@@ -18,7 +18,7 @@ This section categorizes and details an exhaustive list of distance measures spe
 #. `Hamming`_ :Counts character mismatches between two strings of equal length.
 #. `SmithWaterman`_ :A local alignment method commonly used for comparing text or biological sequences.
 #. `RatcliffObershelp`_ :Computes similarity by identifying the longest common subsequence of two strings.
-#. `Monge-Elkan Distance`_ :Aggregates pairwise comparisons between elements of two sequences.
+#. `MongeElkanDistance`_ :Aggregates pairwise comparisons between elements of two sequences.
 
 **Phonetic and String Matching**
 ----------------------------
@@ -42,7 +42,7 @@ This section categorizes and details an exhaustive list of distance measures spe
 ---------------------------------
 
 17. `CosineTF`_ :Computes the cosine of the angle between two text vectors.
-#. `TF-IDF`_ :Weights terms by their importance in documents and uses cosine similarity.
+#. `TFIDF`_ :Weights terms by their importance in documents and uses cosine similarity.
 #. `WordMoversDistance`_ :Quantifies semantic distance between text documents using word embeddings.
 #. `FastTextDistance`_ :Employs FastText embeddings for semantic comparison.
 #. `BERTBasedDistance`_ :Uses embeddings from BERT models to measure semantic similarity.
@@ -120,3 +120,4 @@ The **Distancia** package offers a comprehensive set of text-based distance meas
 .. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
 .. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
+.. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
