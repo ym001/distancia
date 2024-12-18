@@ -223,3 +223,35 @@ Statistical distances measure similarity based on frequency counts, probability 
 Conclusion
 ==========
 The **Distancia** package offers a comprehensive set of text-based distance measures, providing powerful tools for comparing documents, analyzing textual similarity, and evaluating translations. By categorizing distances into lexical, semantic, structural, and statistical, users can choose the most suitable method depending on the nature of their comparison task. Whether you are interested in the exact match of words or the deeper semantic relationship between texts, **Distancia** has a solution that fits your needs.
+
+
+.. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
+.. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
+.. _DamerauLevenshtein: https://distancia.readthedocs.io/en/latest/DamerauLevenshtein.html
+.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
+.. _Cosine: https://distancia.readthedocs.io/en/latest/Cosine.html
+.. _TFIDFDistance: https://distancia.readthedocs.io/en/latest/TFIDFDistance.html
+.. _SimHash: https://distancia.readthedocs.io/en/latest/SimHash.html
+.. _CosineTF: https://distancia.readthedocs.io/en/latest/CosineTF.html
+.. _WordMoversDistance: https://distancia.readthedocs.io/en/latest/WordMoversDistance.html
+.. _BERTBasedDistance: https://distancia.readthedocs.io/en/latest/BERTBasedDistance.html
+.. _JaroWinkler: https://distancia.readthedocs.io/en/latest/JaroWinkler.html
+.. _OverlapCoefficient: https://distancia.readthedocs.io/en/latest/OverlapCoefficient.html
+.. _SorensenDice: https://distancia.readthedocs.io/en/latest/SorensenDice.html
+.. _BagOfWordsDistance: https://distancia.readthedocs.io/en/latest/BagOfWordsDistance.html
+.. _FastTextDistance: https://distancia.readthedocs.io/en/latest/FastTextDistance.html
+.. _Dice: https://distancia.readthedocs.io/en/latest/Dice.html
+.. _Tversky: https://distancia.readthedocs.io/en/latest/Tversky.html
+.. _NgramDistance: https://distancia.readthedocs.io/en/latest/NgramDistance.html
+.. _SmithWaterman: https://distancia.readthedocs.io/en/latest/SmithWaterman.html
+.. _RatcliffObershelp: https://distancia.readthedocs.io/en/latest/RatcliffObershelp.html
+.. _BLEUScore: https://distancia.readthedocs.io/en/latest/BLEUScore.html
+.. _ROUGEScore: https://distancia.readthedocs.io/en/latest/ROUGEScore.html
+.. _SoftCosineSimilarity: https://distancia.readthedocs.io/en/latest/SoftCosineSimilarity.html
+.. _TopicModelingDistance: https://distancia.readthedocs.io/en/latest/TopicModelingDistance.html
+.. _AlignmentBasedMeasures: https://distancia.readthedocs.io/en/latest/AlignmentBasedMeasures.html
+.. _GappyNGramDistance: https://distancia.readthedocs.io/en/latest/GappyNGramDistance.html
+.. _SoftJaccardSimilarity: https://distancia.readthedocs.io/en/latest/SoftJaccardSimilarity.html
+.. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
+.. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
+.. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
