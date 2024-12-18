@@ -58,7 +58,7 @@ This section categorizes and details an exhaustive list of distance measures spe
 #. `JensenShannonDivergence`_ :A symmetric measure derived from Kullback-Leibler divergence.
 #. `Tversky`_ :A generalized Jaccard similarity that allows weighting of set components.
 #. `Bhattacharyya`_ :Evaluates the similarity between two probability distributions.
-#. `Dice`_ :
+#. `Dice`_ :The Dice distance is a measure of dissimilarity between two sets, defined as one minus twice the size of their intersection divided by the sum of the sizes of the two sets, often used to compare text or binary data representations.
 #. `MongeElkan`_ :The Monge-Elkan distance measures the similarity between two sequences by evaluating the closest match between each element in one sequence and the elements in the other sequence. 
 
 
