@@ -59,7 +59,7 @@ This section categorizes and details an exhaustive list of distance measures spe
 #. `Tversky`_ :A generalized Jaccard similarity that allows weighting of set components.
 #. `Bhattacharyya`_ :Evaluates the similarity between two probability distributions.
 #. `Dice`_ :
-#. `MongeElkanDistance`_ :
+#. `MongeElkan`_ :The Monge-Elkan distance measures the similarity between two sequences by evaluating the closest match between each element in one sequence and the elements in the other sequence. 
 
 
 **Evaluation and NLP Metrics**
@@ -117,7 +117,7 @@ The **Distancia** package offers a comprehensive set of text-based distance meas
 .. _GappyNGramDistance: https://distancia.readthedocs.io/en/latest/GappyNGramDistance.html
 .. _SoftJaccardSimilarity: https://distancia.readthedocs.io/en/latest/SoftJaccardSimilarity.html
 .. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
-.. _MongeElkanDistance: https://distancia.readthedocs.io/en/latest/MongeElkanDistance.html
+.. _MongeElkan: https://distancia.readthedocs.io/en/latest/MongeElkan.html
 .. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 .. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
