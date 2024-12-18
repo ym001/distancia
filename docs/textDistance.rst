@@ -9,116 +9,84 @@ Text-Based Distance Measures
 ============================
 
 This section categorizes and details an exhaustive list of distance measures specifically designed for text data. These measures serve diverse applications in natural language processing, computational linguistics, and related fields.
-
+#. `Euclidean`_ :
 **Edit-Based Distances**
 ---------------------
-1. **Levenshtein Distance (Edit Distance)**:
-   - Measures the minimum number of insertions, deletions, and substitutions needed to transform one string into another.
+#. `Levenshtein`_ : Edit Distance, measures the minimum number of insertions, deletions, and substitutions needed to transform one string into another.
 
-2. **Damerau-Levenshtein Distance**:
-   - Extends Levenshtein by allowing transpositions of adjacent characters.
+#. `Damerau-Levenshtein Distance`_ :Extends Levenshtein by allowing transpositions of adjacent characters.
 
-3. **Hamming Distance**:
-   - Counts character mismatches between two strings of equal length.
+#. `Hamming Distance`_ :Counts character mismatches between two strings of equal length.
 
-4. **Smith-Waterman**:
-   - A local alignment method commonly used for comparing text or biological sequences.
+#. `Smith-Waterman`_ :A local alignment method commonly used for comparing text or biological sequences.
 
-5. **Ratcliff-Obershelp Similarity**:
-   - Computes similarity by identifying the longest common subsequence of two strings.
+#. `Ratcliff-Obershelp Similarity`_ :Computes similarity by identifying the longest common subsequence of two strings.
 
-6. **Monge-Elkan Distance**:
-   - Aggregates pairwise comparisons between elements of two sequences.
+#. `Monge-Elkan Distance`_ :Aggregates pairwise comparisons between elements of two sequences.
 
 **Phonetic and String Matching**
 ----------------------------
 
-7. **Jaro Distance**:
-   - Focuses on matching characters and minimizing transpositions.
+#. `Jaro Distance`_ :Focuses on matching characters and minimizing transpositions.
 
-8. **Jaro-Winkler Distance**:
-   - Extends Jaro by giving extra weight to matches at the start of strings.
+#. `Jaro-Winkler`_ :Extends Jaro by giving extra weight to matches at the start of strings.
 
-9. **N-gram Distance**:
-   - Compares substrings of size *n* between two strings.
+#. `N-gram Distance`_ :Compares substrings of size *n* between two strings.
 
-10. **Gappy N-gram Distance**:
-    - Considers n-grams that may skip characters or words.
-
-11. **SimHash**:
-    - A hash-based method to identify approximate matches.
+#. `Gappy N-gram`_ :Considers n-grams that may skip characters or words.
+#. `SimHash`_ :A hash-based method to identify approximate matches.
 
 **Set and Token-Based Measures**
 -----------------------------
 
-12. **Jaccard Similarity**:
-    - Compares the overlap of word sets between two strings.
+#. `Jaccard`_ :Compares the overlap of word sets between two strings.
 
-13. **Soft Jaccard Similarity**:
-    - Extends Jaccard by considering similarity between tokens.
+#. `Soft Jaccard`_ :Extends Jaccard by considering similarity between tokens.
 
-14. **Sorensen-Dice Coefficient**:
-    - Measures similarity as twice the size of the intersection divided by the total size of both sets.
+#. `Sorensen-Dice`_ :Measures similarity as twice the size of the intersection divided by the total size of both sets.
 
-15. **Overlap Coefficient**:
-    - Normalizes the intersection of two sets by the size of the smaller set.
+#. `Overlap Coefficient`_ :Normalizes the intersection of two sets by the size of the smaller set.
 
-16. **Bag-of-Words Distance**:
-    - Measures dissimilarity between word frequency vectors.
+#. `Bag-of-Words`_ :Measures dissimilarity between word frequency vectors.
 
 **Semantic and Contextual Measures**
 ---------------------------------
 
-17. **Cosine Similarity**:
-    - Computes the cosine of the angle between two text vectors.
+#. `Cosine`_ :Computes the cosine of the angle between two text vectors.
 
-18. **TF-IDF Distance**:
-    - Weights terms by their importance in documents and uses cosine similarity.
+#. `TF-IDF`_ :Weights terms by their importance in documents and uses cosine similarity.
 
-19. **Word Mover's Distance**:
-    - Quantifies semantic distance between text documents using word embeddings.
+#. `Word Mover's`_ :Quantifies semantic distance between text documents using word embeddings.
 
-20. **FastText Distance**:
-    - Employs FastText embeddings for semantic comparison.
+#. `FastText`_ :Employs FastText embeddings for semantic comparison.
 
-21. **BERT-Based Distance**:
-    - Uses embeddings from BERT models to measure semantic similarity.
+#. `BERT-Based`_ :Uses embeddings from BERT models to measure semantic similarity.
 
-22. **Soft Cosine Similarity**:
-    - Incorporates pairwise token similarities into cosine calculations.
+#. `Soft Cosine`_ :Incorporates pairwise token similarities into cosine calculations.
 
-23. **Topic Modeling Distance**:
-    - Measures similarity using probabilistic topic distributions.
+#. `Topic Modeling`_ :Measures similarity using probabilistic topic distributions.
 
-24. **Alignment-Based Measures**:
-    - Aligns and compares text sequences at word or phrase levels.
+#. `Alignment-Based`_ :Aligns and compares text sequences at word or phrase levels.
 
 **Statistical and Compression-Based Measures**
 ------------------------------------------
 
-25. **Normalized Compression Distance**:
-    - Uses compression techniques to measure shared information.
+#. `Normalized Compression`_ :Uses compression techniques to measure shared information.
 
-26. **Kullback-Leibler Divergence**:
-    - Measures divergence between two probability distributions.
+#. `Kullback-Leibler Divergence`_ :Measures divergence between two probability distributions.
 
-27. **Jensen-Shannon Divergence**:
-    - A symmetric measure derived from Kullback-Leibler divergence.
+#. `Jensen-Shannon Divergence`_ :A symmetric measure derived from Kullback-Leibler divergence.
 
-28. **Tversky Index**:
-    - A generalized Jaccard similarity that allows weighting of set components.
+#. `Tversky Index`_ :A generalized Jaccard similarity that allows weighting of set components.
 
-29. **Bhattacharyya Distance**:
-    - Evaluates the similarity between two probability distributions.
+#. `Bhattacharyya`_ :Evaluates the similarity between two probability distributions.
 
 **Evaluation and NLP Metrics**
 --------------------------
 
-30. **BLEU Score**:
-    - Assesses machine translation quality by comparing n-grams with a reference.
+#. `BLEU Score`_ :Assesses machine translation quality by comparing n-grams with a reference.
 
-31. **ROUGE Score**:
-    - Evaluates text summarization by comparing overlapping units with a reference.
+#. `ROUGE Score`_ :Evaluates text summarization by comparing overlapping units with a reference.
 
 Applications
 ------------
