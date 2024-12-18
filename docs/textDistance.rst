@@ -9,84 +9,64 @@ Text-Based Distance Measures
 ============================
 
 This section categorizes and details an exhaustive list of distance measures specifically designed for text data. These measures serve diverse applications in natural language processing, computational linguistics, and related fields.
-#. `Euclidean`_ :
+
 **Edit-Based Distances**
 ---------------------
 #. `Levenshtein`_ : Edit Distance, measures the minimum number of insertions, deletions, and substitutions needed to transform one string into another.
 
-#. `Damerau-Levenshtein Distance`_ :Extends Levenshtein by allowing transpositions of adjacent characters.
-
-#. `Hamming Distance`_ :Counts character mismatches between two strings of equal length.
-
-#. `Smith-Waterman`_ :A local alignment method commonly used for comparing text or biological sequences.
-
-#. `Ratcliff-Obershelp Similarity`_ :Computes similarity by identifying the longest common subsequence of two strings.
-
+#. `DamerauLevenshtein`_ :Extends Levenshtein by allowing transpositions of adjacent characters.
+#. `Hamming`_ :Counts character mismatches between two strings of equal length.
+#. `SmithWaterman`_ :A local alignment method commonly used for comparing text or biological sequences.
+#. `RatcliffObershelp`_ :Computes similarity by identifying the longest common subsequence of two strings.
 #. `Monge-Elkan Distance`_ :Aggregates pairwise comparisons between elements of two sequences.
 
 **Phonetic and String Matching**
 ----------------------------
 
 #. `Jaro Distance`_ :Focuses on matching characters and minimizing transpositions.
-
-#. `Jaro-Winkler`_ :Extends Jaro by giving extra weight to matches at the start of strings.
-
-#. `N-gram Distance`_ :Compares substrings of size *n* between two strings.
-
-#. `Gappy N-gram`_ :Considers n-grams that may skip characters or words.
+#. `JaroWinkler`_ :Extends Jaro by giving extra weight to matches at the start of strings.
+#. `NgramDistance`_ :Compares substrings of size *n* between two strings.
+#. `GappyNGramDistance`_ :Considers n-grams that may skip characters or words.
 #. `SimHash`_ :A hash-based method to identify approximate matches.
 
 **Set and Token-Based Measures**
 -----------------------------
 
 #. `Jaccard`_ :Compares the overlap of word sets between two strings.
-
-#. `Soft Jaccard`_ :Extends Jaccard by considering similarity between tokens.
-
-#. `Sorensen-Dice`_ :Measures similarity as twice the size of the intersection divided by the total size of both sets.
-
-#. `Overlap Coefficient`_ :Normalizes the intersection of two sets by the size of the smaller set.
-
-#. `Bag-of-Words`_ :Measures dissimilarity between word frequency vectors.
+#. `SoftJaccardSimilarity`_ :Extends Jaccard by considering similarity between tokens.
+#. `SorensenDice`_ :Measures similarity as twice the size of the intersection divided by the total size of both sets
+#. `OverlapCoefficient`_ :Normalizes the intersection of two sets by the size of the smaller set.
+#. `BagOfWordsDistance`_ :Measures dissimilarity between word frequency vectors.
 
 **Semantic and Contextual Measures**
 ---------------------------------
 
-#. `Cosine`_ :Computes the cosine of the angle between two text vectors.
-
+#. `CosineTF`_ :Computes the cosine of the angle between two text vectors.
 #. `TF-IDF`_ :Weights terms by their importance in documents and uses cosine similarity.
-
-#. `Word Mover's`_ :Quantifies semantic distance between text documents using word embeddings.
-
-#. `FastText`_ :Employs FastText embeddings for semantic comparison.
-
-#. `BERT-Based`_ :Uses embeddings from BERT models to measure semantic similarity.
-
-#. `Soft Cosine`_ :Incorporates pairwise token similarities into cosine calculations.
-
-#. `Topic Modeling`_ :Measures similarity using probabilistic topic distributions.
-
-#. `Alignment-Based`_ :Aligns and compares text sequences at word or phrase levels.
+#. `WordMoversDistance`_ :Quantifies semantic distance between text documents using word embeddings.
+#. `FastTextDistance`_ :Employs FastText embeddings for semantic comparison.
+#. `BERTBasedDistance`_ :Uses embeddings from BERT models to measure semantic similarity.
+#. `SoftCosineSimilarity`_ :Incorporates pairwise token similarities into cosine calculations.
+#. `TopicModelingDistance`_ :Measures similarity using probabilistic topic distributions.
+#. `AlignmentBasedMeasures`_ :Aligns and compares text sequences at word or phrase levels.
 
 **Statistical and Compression-Based Measures**
 ------------------------------------------
 
-#. `Normalized Compression`_ :Uses compression techniques to measure shared information.
-
+#. `NormalizedCompressionDistance`_ :Uses compression techniques to measure shared information.
 #. `Kullback-Leibler Divergence`_ :Measures divergence between two probability distributions.
-
-#. `Jensen-Shannon Divergence`_ :A symmetric measure derived from Kullback-Leibler divergence.
-
-#. `Tversky Index`_ :A generalized Jaccard similarity that allows weighting of set components.
-
+#. `JensenShannonDivergence`_ :A symmetric measure derived from Kullback-Leibler divergence.
+#. `Tversky`_ :A generalized Jaccard similarity that allows weighting of set components.
 #. `Bhattacharyya`_ :Evaluates the similarity between two probability distributions.
+#. `Dice`_ :
+#. `MongeElkanDistance`_ :
+
 
 **Evaluation and NLP Metrics**
 --------------------------
 
-#. `BLEU Score`_ :Assesses machine translation quality by comparing n-grams with a reference.
-
-#. `ROUGE Score`_ :Evaluates text summarization by comparing overlapping units with a reference.
+#. `BLEUScore`_ :Assesses machine translation quality by comparing n-grams with a reference.
+#. `ROUGEScore`_ :Evaluates text summarization by comparing overlapping units with a reference.
 
 Applications
 ------------
@@ -193,12 +173,11 @@ Conclusion
 The **Distancia** package offers a comprehensive set of text-based distance measures, providing powerful tools for comparing documents, analyzing textual similarity, and evaluating translations. By categorizing distances into lexical, semantic, structural, and statistical, users can choose the most suitable method depending on the nature of their comparison task. Whether you are interested in the exact match of words or the deeper semantic relationship between texts, **Distancia** has a solution that fits your needs.
 
 
-.. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
 .. _DamerauLevenshtein: https://distancia.readthedocs.io/en/latest/DamerauLevenshtein.html
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
 .. _Cosine: https://distancia.readthedocs.io/en/latest/Cosine.html
-.. _TFIDFDistance: https://distancia.readthedocs.io/en/latest/TFIDFDistance.html
+.. _TFIDF: https://distancia.readthedocs.io/en/latest/TFIDFDistance.html
 .. _SimHash: https://distancia.readthedocs.io/en/latest/SimHash.html
 .. _CosineTF: https://distancia.readthedocs.io/en/latest/CosineTF.html
 .. _WordMoversDistance: https://distancia.readthedocs.io/en/latest/WordMoversDistance.html
