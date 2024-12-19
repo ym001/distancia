@@ -8,7 +8,7 @@ Loss functions are critical components in optimization and machine learning, as 
 Regression Losses
 -----------------
 
-#. `_MeanSquaredError`_  (MSE): Measures the average squared difference between predictions and actual values, penalizing larger errors.
+#. `MeanSquaredError`_  (MSE): Measures the average squared difference between predictions and actual values, penalizing larger errors.
 #. `MeanAbsoluteError`_  (MAE): Computes the average absolute differences between predicted and true values.
 #. `MeanAbsolutePercentageError`_  (MAPE): 
 #. `SquaredLogarithmicError`_  : 
