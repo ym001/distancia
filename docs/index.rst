@@ -299,7 +299,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `SquaredLogarithmicError`_
     - `GaloisWassersteinLoss`_
 
-.. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
+.. _Loss: https://distancia.readthedocs.io/en/latest/lossFunction.html
 .. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
 .. _MeanAbsoluteError: https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
 .. _MeanAbsolutePercentageError: https://distancia.readthedocs.io/en/latest/MeanAbsolutePercentageError.html
