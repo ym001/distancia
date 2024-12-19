@@ -20,7 +20,7 @@ Regression Losses
 Classification Losses
 ----------------------
 
-#. `CrossEntropy`_ : Quantifies the difference between true and predicted probability distributions.
+8. `CrossEntropy`_ : Quantifies the difference between true and predicted probability distributions.
 #. `Hinge Loss`_ : Commonly used for training Support Vector Machines (SVMs).
 #. `Kullback-Leibler Divergence (KL Divergence)`_ : Measures how one probability distribution diverges from a reference distribution.
 #. `Focal Loss`_ : Focuses on hard-to-classify examples by assigning them higher weights.
@@ -29,27 +29,27 @@ Classification Losses
 Probabilistic Losses
 ---------------------
 
-#. `Negative Log-Likelihood (NLL)`_ : Maximizes the probability of the observed data under the model.
+13. `Negative Log-Likelihood (NLL)`_ : Maximizes the probability of the observed data under the model.
 #. `Poisson Loss`_ : Suitable for count-based predictions.
 
 Ranking and Metric Learning Losses
 -----------------------------------
 
-#. `Contrastive Loss`_ : Minimizes distances between similar samples while maximizing distances between dissimilar ones.
+15. `Contrastive Loss`_ : Minimizes distances between similar samples while maximizing distances between dissimilar ones.
 #. `Triplet Loss`_ : Encourages the correct ranking of anchor, positive, and negative samples.
 #. `Cosine Embedding Loss`_ : Optimizes cosine similarity for embedding-based models.
 
 Generative Model Losses
 ------------------------
 
-#. `Wasserstein Loss`_ : A metric used in Generative Adversarial Networks (GANs) for stable training.
+18. `Wasserstein Loss`_ : A metric used in Generative Adversarial Networks (GANs) for stable training.
 #. `Reconstruction Loss`_ : Used in autoencoders, measures the difference between input and reconstructed data.
 #. `Variational Loss`_ : Combines reconstruction loss with KL divergence for Variational Autoencoders (VAEs).
 
 Custom and Domain-Specific Losses
 ---------------------------------
 
-#. `Custom Weighted Losses`_ : Weighted combinations of losses to suit specific applications.
+21. `Custom Weighted Losses`_ : Weighted combinations of losses to suit specific applications.
 #. `Temporal Losses`_ : Designed for time-series data, accounting for temporal dependencies.
 #. `Sequence-to-Sequence Loss`_ : Specific to applications like translation or text generation.
 
