@@ -3,7 +3,7 @@ Distances for Time Series
 
 This section outlines a comprehensive list of distance measures designed for comparing time series data. These measures are essential for tasks such as clustering, classification, and anomaly detection. Each entry includes a brief description of its purpose and application.
 
-**Basic Statistical Distances**
+Basic Statistical Distances
 -------------------------------
 #. **Euclidean Distance**:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
@@ -14,7 +14,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Correlation Distance**:
    Converts the correlation coefficient into a distance measure. Useful for determining the similarity in trends.
 
-**Dynamic Programming-Based Distances**
+Dynamic Programming-Based Distances
 -------------------------------
 
 5. **Dynamic Time Warping (DTW)**:
@@ -28,7 +28,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Time Warp Edit Distance (TWED)**:
    Combines edit distance with a time-based penalty, preserving temporal relationships.
 
-**Shape-Based Distances**
+Shape-Based Distances
 -------------------------------
 
 10. **Shape-Based Distance (SBD)**:
@@ -38,7 +38,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Fréchet Distance**:
    Captures the similarity between curves, considering the sequence of points.
 
-**Frequency-Based Distances**
+Frequency-Based Distances
 -------------------------------
 
 13. **Spectral Distance**:
@@ -48,7 +48,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Wavelet-Based Distance**:
    Uses wavelet decomposition to capture both frequency and temporal differences.
 
-**Feature-Based Distances**
+Feature-Based Distances
 -------------------------------
 
 16. **Derivative Dynamic Time Warping (DDTW)**:
@@ -60,7 +60,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Symbolic Aggregate Approximation (SAX) Distance**:
    Converts time series into symbolic strings, facilitating fast distance computations.
 
-**Model-Based Distances**
+Model-Based Distances
 -------------------------------
 
 20. **Hidden Markov Model (HMM) Distance**:
@@ -70,7 +70,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Dynamic Bayesian Network Distance**:
    Evaluates structural and parameter similarity in probabilistic models.
 
-**Elastic Distances**
+Elastic Distances
 -------------------------------
 
 23. **Soft-DTW**:
@@ -80,7 +80,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Move-Split-Merge (MSM) Distance**:
    An edit distance tailored for time series, allowing move, split, and merge operations.
 
-**Entropy-Based and Information-Theoretic Distances**
+Entropy-Based and Information-Theoretic Distances
 -------------------------------
 
 26. **Kullback-Leibler (KL) Divergence**:
@@ -92,7 +92,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Cross-Entropy Distance**:
    Evaluates the predictive similarity of two sequences.
 
-**Clustering and Anomaly-Specific Distances**
+Clustering and Anomaly-Specific Distances
 -------------------------------
 
 30. **Self-Organizing Map (SOM) Distance**:
@@ -102,7 +102,7 @@ This section outlines a comprehensive list of distance measures designed for com
 #. **Cluster Membership Distance**:
    Measures similarity based on shared cluster assignments.
 
-**Other Specialized Measures**
+Other Specialized Measures
 -------------------------------
 
 33. **Earth Mover’s Distance (EMD)**:
