@@ -8,15 +8,19 @@ Loss functions are critical components in optimization and machine learning, as 
 Regression Losses
 -----------------
 
-#. `Mean Squared Error (MSE)`_ : Measures the average squared difference between predictions and actual values, penalizing larger errors.
-#. `Mean Absolute Error (MAE)`_ : Computes the average absolute differences between predicted and true values.
+#. `_MeanSquaredError`_  (MSE): Measures the average squared difference between predictions and actual values, penalizing larger errors.
+#. `MeanAbsoluteError`_  (MAE): Computes the average absolute differences between predicted and true values.
+#. `MeanAbsolutePercentageError`_  (MAPE): 
+#. `SquaredLogarithmicError`_  : 
+#. `GaloisWassersteinLoss`_  : 
+
 #. `Huber Loss`_ : A combination of MSE and MAE, robust to outliers.
 #. `Log-Cosh Loss`_ : A smooth approximation of MAE using hyperbolic cosine.
 
 Classification Losses
 ----------------------
 
-#. `Cross-Entropy Loss`_ : Quantifies the difference between true and predicted probability distributions.
+#. `CrossEntropy`_ : Quantifies the difference between true and predicted probability distributions.
 #. `Hinge Loss`_ : Commonly used for training Support Vector Machines (SVMs).
 #. `Kullback-Leibler Divergence (KL Divergence)`_ : Measures how one probability distribution diverges from a reference distribution.
 #. `Focal Loss`_ : Focuses on hard-to-classify examples by assigning them higher weights.
@@ -53,3 +57,10 @@ Conclusion
 ----------
 
 The selection of a loss function depends on the problem domain, data type, and model requirements. Using appropriate loss functions is essential for efficient training and achieving optimal performance in machine learning models. For further details on implementation and use cases, refer to the accompanying documentation for each loss function.
+
+.. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
+.. _MeanAbsoluteError: https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
+.. _MeanAbsolutePercentageError: https://distancia.readthedocs.io/en/latest/MeanAbsolutePercentageError.html
+.. _MeanSquaredError: https://distancia.readthedocs.io/en/latest/MeanSquaredError.html
+.. _SquaredLogarithmicError: https://distancia.readthedocs.io/en/latest/SquaredLogarithmicError.html
+.. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
