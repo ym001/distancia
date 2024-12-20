@@ -29,7 +29,7 @@ Edge-Level Measures
 
 These measures assess the importance or characteristics of edges in a graph.
 
-#. `Edge Betweenness`_: Measures the number of shortest paths that pass through an edge.
+9. `Edge Betweenness`_: Measures the number of shortest paths that pass through an edge.
 #. `Edge Weight`_: Represents the strength or capacity of a connection between nodes.
 
 
@@ -38,7 +38,7 @@ Global Graph Measures
 
 These measures provide insights into the overall structure and properties of a graph.
 
-#. `Graph Density`_: Ratio of actual edges to the maximum possible edges in the graph.
+11. `Graph Density`_: Ratio of actual edges to the maximum possible edges in the graph.
 #. `Graph Diameter`_: The longest shortest path between any two nodes in the graph.
 #. `Average Path Length`_: The mean of all shortest paths in the graph.
 #. `Clustering Coefficient`_: Measures the degree to which nodes in a graph tend to cluster together.
@@ -52,7 +52,7 @@ Community Detection Measures
 
 These measures analyze groups of nodes within a graph.
 
-#. `Community Detection`_: Identifies groups of nodes with dense internal connections and sparse external connections.
+19. `Community Detection`_: Identifies groups of nodes with dense internal connections and sparse external connections.
 #. `Modularity Optimization`_: Quantifies the quality of community assignments.
 #. `Modularity Score`_: Quantifies the quality of a graph's division into communities.
 #. `Conductance`_: Measures the quality of a community by evaluating the ratio of inter-community edges to intra-community edges.
@@ -63,7 +63,7 @@ Spectral Measures
 
 These measures are based on the eigenvalues and eigenvectors of matrices associated with the graph.
 
-#. `Spectral Radius`_: The largest eigenvalue of the adjacency matrix.
+24. `Spectral Radius`_: The largest eigenvalue of the adjacency matrix.
 #. `Graph Laplacian`_: Matrix representation used for analyzing graph properties.
 #. `Algebraic Connectivity`_: The second smallest eigenvalue of the Laplacian, indicating graph robustness.
 #. `SpectralDistance`_
@@ -73,7 +73,7 @@ Dynamic Graph Measures
 
 These measures capture properties of evolving graphs over time.
 
-#. `Temporal Reachability`_: Tracks the ability to connect nodes over time-varying edges.
+28. `Temporal Reachability`_: Tracks the ability to connect nodes over time-varying edges.
 #. `Dynamic Centrality`_: Adaptations of static centrality measures to dynamic networks.
 #. `Temporal Clustering Coefficient`_: Evaluates clustering in temporal snapshots.
 #. `Edge Persistence`_: Measures the stability of edges over time.
@@ -83,7 +83,7 @@ Application-Specific Measures
 
 Measures designed for specific types of graphs or applications.
 
-#. `Shortest Path Length`_: Often used in transportation and communication networks.
+32. `Shortest Path Length`_: Often used in transportation and communication networks.
 #. `Resistance Distance`_: Measures connectivity in electrical networks.
 #. `Network Flow`_: Models capacities and bottlenecks in flow-based networks.
 #. `Random Walk Centrality`_: Related to the probability of visiting nodes during random walks.
@@ -91,7 +91,7 @@ Measures designed for specific types of graphs or applications.
 Graph-Level Measures
 --------------------
 
-#. `Graph Density`_: Proportion of observed edges to possible edges.
+36. `Graph Density`_: Proportion of observed edges to possible edges.
 #. `Average Clustering Coefficient`_: Measures the likelihood of nodes forming tightly connected groups.
 #. `Diameter`_: The longest shortest path between any two nodes in the graph.
 #. `Radius`_: The shortest maximum distance from a central node to any other node.
@@ -101,7 +101,7 @@ Graph-Level Measures
 Shortest Path Measures
 ----------------------
 
-#. `Shortest Path Length`_: Calculates the shortest path distance between nodes.
+42. `Shortest Path Length`_: Calculates the shortest path distance between nodes.
 #. `Average Path Length`_: Computes the mean distance between all node pairs.
 #. `Eccentricity`_: Measures the greatest distance from a node to all other nodes.
 #. `ComparingRandomWalkStationaryDistributions`_
@@ -109,7 +109,7 @@ Shortest Path Measures
 Other Specialized Measures
 --------------------------
 
-#. `Random Walk Betweenness`_: Measures centrality based on random walk processes.
+46. `Random Walk Betweenness`_: Measures centrality based on random walk processes.
 #. `Resistance Distance`_: Computes the effective electrical resistance between nodes.
 #. `Graph Entropy`_: Quantifies the information content of a graph.
 #. `GraphEditDistance`_
