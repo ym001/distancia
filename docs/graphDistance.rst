@@ -15,7 +15,7 @@ Node-Level Measures
 
 These measures describe the importance, influence, or role of individual nodes within the graph.
 
-#. `Betweenness Centrality`_: Measures how often a node acts as a bridge along the shortest path between two other nodes.
+..#. `Betweenness Centrality`_: Measures how often a node acts as a bridge along the shortest path between two other nodes.
 #. `K-Core Number`_: Indicates the largest subgraph in which all nodes have at least \(k\) neighbors.
 #. `Degree Centrality`_: Measures the number of edges connected to a node.
 #. `Closeness Centrality`_: Evaluates how close a node is to all other nodes in the graph.
