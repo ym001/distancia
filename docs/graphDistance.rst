@@ -127,3 +127,17 @@ Other Specialized Measures
 Conclusion
 ==========
 The variety of graph distance measures provided by **Distancia** allows for comprehensive comparisons across different dimensions of graph structure and properties. Whether you're interested in structural differences, node-level comparisons, or the spectral characteristics of graphs, **Distancia** offers the right tools for a detailed and insightful analysis. These distances are applicable in numerous fields, from social network analysis to biology, offering flexibility and depth in graph comparison tasks.
+
+.. _ShortestPath: https://distancia.readthedocs.io/en/latest/ShortestPath.html
+.. _GraphEditDistance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
+.. _SpectralDistance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
+.. _WeisfeilerLehmanSimilarity: https://distancia.readthedocs.io/en/latest/WeisfeilerLehmanSimilarity.html
+.. _ComparingRandomWalkStationaryDistributions: https://distancia.readthedocs.io/en/latest/ComparingRandomWalkStationaryDistributions.html
+.. _Diffusion: https://distancia.readthedocs.io/en/latest/Diffusion.html
+.. _FrobeniusDistance: https://distancia.readthedocs.io/en/latest/FrobeniusDistance.html
+.. _GraphKernelDistance: https://distancia.readthedocs.io/en/latest/GraphKernelDistance.html
+.. _PatternBasedDistance: https://distancia.readthedocs.io/en/latest/PatternBasedDistance.html
+.. _GraphCompressionDistance: https://distancia.readthedocs.io/en/latest/GraphCompressionDistance.html
+.. _DegreeDistributionDistance: https://distancia.readthedocs.io/en/latest/DegreeDistributionDistance.html
+.. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
+
