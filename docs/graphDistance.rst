@@ -12,6 +12,17 @@ This section provides a comprehensive list of graph measures supported by our pa
 
 Node-Level Measures
 -------------------
+  - `ShortestPath`_
+    - `GraphEditDistance`_
+    - `SpectralDistance`_
+    - `WeisfeilerLehmanSimilarity`_
+    - `ComparingRandomWalkStationaryDistributions`_
+    - `Diffusion`_
+    - `FrobeniusDistance`_
+    - `GraphKernelDistance`_
+    - `PatternBasedDistance`_
+    - `GraphCompressionDistance`_
+    - `DegreeDistributionDistance`_
 #. ``_ 
 #. `Degree Centrality`_: Measures the number of edges connected to a node.
 #. `Closeness Centrality`_: Evaluates how close a node is to all other nodes in the graph.
@@ -23,7 +34,7 @@ Node-Level Measures
 Edge-Level Measures
 -------------------
 #. `Edge Betweenness`_: Measures the extent to which an edge lies on the shortest paths between nodes.
-#. `Jaccard Similarity`_: Measures the similarity between the neighborhoods of two nodes connected by an edge.
+#. `Jaccard`_: Measures the similarity between the neighborhoods of two nodes connected by an edge.
 
 Global Graph Measures
 ---------------------
@@ -140,5 +151,5 @@ The variety of graph distance measures provided by **Distancia** allows for comp
 .. _PatternBasedDistance: https://distancia.readthedocs.io/en/latest/PatternBasedDistance.html
 .. _GraphCompressionDistance: https://distancia.readthedocs.io/en/latest/GraphCompressionDistance.html
 .. _DegreeDistributionDistance: https://distancia.readthedocs.io/en/latest/DegreeDistributionDistance.html
-.. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
+.. _Community Detection: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
