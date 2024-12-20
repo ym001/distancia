@@ -5,66 +5,124 @@ Introduction
 ============
 Graphs are fundamental structures used to represent relationships between objects, making them indispensable in fields like computer science, biology, and network analysis. Comparing two graphs is a complex task that can involve structural, topological, and feature-based analysis. The **Distancia** package offers several distance measures tailored for graph comparison, helping users analyze differences in structure, node properties, and overall connectivity.
 
-Categories 
-==========
+Graph Measures
+===============
 
-1. **Structural Distances**
-2. **Node-Based Distances**
-3. **Spectral Distances**
+This section provides a comprehensive list of graph measures supported by our package. These measures are grouped into categories to aid understanding and selection based on specific graph analysis tasks.
 
-List of Graph Distances
-=======================
+Node-Level Measures
+-------------------
+- **Degree Centrality**: Measures the number of edges connected to a node.
+- **Closeness Centrality**: Evaluates how close a node is to all other nodes in the graph.
+- **Betweenness Centrality**: Quantifies the number of times a node acts as a bridge along the shortest path between two other nodes.
+- **Eigenvector Centrality**: Indicates the influence of a node in a network based on its connections to other high-scoring nodes.
+- **Katz Centrality**: A variant of eigenvector centrality that incorporates a damping factor.
+- **PageRank**: A probabilistic algorithm to measure the importance of nodes.
 
-**Structural Distances**
+Edge-Level Measures
+-------------------
+- **Edge Betweenness**: Measures the extent to which an edge lies on the shortest paths between nodes.
+- **Jaccard Similarity**: Measures the similarity between the neighborhoods of two nodes connected by an edge.
+
+Global Graph Measures
+---------------------
+These measures provide insights into the overall structure and properties of a graph.
+
+- **Graph Density**: Ratio of actual edges to the maximum possible edges in the graph.
+- **Graph Diameter**: The longest shortest path between any two nodes in the graph.
+- **Average Path Length**: The mean of all shortest paths in the graph.
+- **Clustering Coefficient**: Measures the degree to which nodes in a graph tend to cluster together.
+- **Graph Assortativity**: Indicates the tendency of nodes to connect with similar nodes.
+- **Global Efficiency**: Measures how efficiently information is exchanged over the graph.
+- **Modularity**: Quantifies the strength of division of a graph into modules or communities.
+
+Node-Level Measures
+-------------------
+These measures describe the importance, influence, or role of individual nodes within the graph.
+
+- **Degree Centrality**: Number of direct connections a node has.
+- **Betweenness Centrality**: Measures how often a node acts as a bridge along the shortest path between two other nodes.
+- **Closeness Centrality**: Inverse of the average length of the shortest path from a node to all other nodes.
+- **Eigenvector Centrality**: Assigns scores to nodes based on their connections and the influence of their neighbors.
+- **PageRank**: A variant of eigenvector centrality originally designed for ranking web pages.
+- **K-Core Number**: Indicates the largest subgraph in which all nodes have at least \(k\) neighbors.
+
+Edge-Level Measures
+-------------------
+These measures assess the importance or characteristics of edges in a graph.
+
+- **Edge Betweenness**: Measures the number of shortest paths that pass through an edge.
+- **Edge Weight**: Represents the strength or capacity of a connection between nodes.
+
+Community-Level Measures
 ------------------------
+These measures analyze groups of nodes within a graph.
 
-  These distances focus on comparing the overall structure of the graphs, including their connectivity, edge relationships, and graph topology. They help determine how similar or different the structural frameworks of two graphs are.
+- **Community Detection**: Identifies groups of nodes with dense internal connections and sparse external connections.
+- **Modularity Optimization**: Quantifies the quality of community assignments.
 
-1. :doc:`GraphEditDistance`
+Spectral Measures
+-----------------
+These measures are based on the eigenvalues and eigenvectors of matrices associated with the graph.
 
-   - Measures the minimum number of operations (additions, deletions, substitutions) needed to transform one graph into another.
+- **Spectral Radius**: The largest eigenvalue of the adjacency matrix.
+- **Graph Laplacian**: Matrix representation used for analyzing graph properties.
+- **Algebraic Connectivity**: The second smallest eigenvalue of the Laplacian, indicating graph robustness.
 
-2. :doc:`Hamming`
-
-   - Compares two graphs by calculating the number of differing edges between them, providing a simple structural comparison.
-
-3. :doc:`Jaccard`
-
-   - Measures the dissimilarity between two graphs by comparing the sets of edges, using the ratio of the intersection to the union of edges.
-
-**Node-Based Distances**
-------------------------
-
-Node-based distances compare graphs by analyzing the properties and relationships of individual nodes. They are particularly useful when you need to compare graphs based on local node attributes or node connections.
-
-1. :doc:`DegreeDistribution`
-
-   - Compares the degree distributions of two graphs, capturing differences in the number of connections per node.
-
-2. :doc:`MatchingDistance`
-
-   - Analyzes the alignment of node labels or node features between two graphs, measuring how well the nodes match.
-
-3. :doc:`GraphletDistribution`
-
-   - Compares small subgraph (graphlet) occurrences within two graphs, capturing local structural similarities.
-
-**Spectral Distances**
+Dynamic Graph Measures
 ----------------------
+These measures capture properties of evolving graphs over time.
 
-Spectral distances focus on comparing the eigenvalues or spectral properties of the graphs' adjacency or Laplacian matrices. These measures capture differences in the overall connectivity and flow within the graphs.
+- **Temporal Reachability**: Tracks the ability to connect nodes over time-varying edges.
+- **Dynamic Centrality**: Adaptations of static centrality measures to dynamic networks.
 
-1. :doc:`SpectralDistance`
+Application-Specific Measures
+-----------------------------
+Measures designed for specific types of graphs or applications.
 
-   - Compares the eigenvalues of the adjacency or Laplacian matrices of the two graphs, highlighting differences in graph connectivity and flow.
+- **Shortest Path Length**: Often used in transportation and communication networks.
+- **Resistance Distance**: Measures connectivity in electrical networks.
+- **Network Flow**: Models capacities and bottlenecks in flow-based networks.
+- **Random Walk Centrality**: Related to the probability of visiting nodes during random walks.
 
-2. :doc:`HeatKernel`
+Graph-Level Measures
+--------------------
+- **Graph Density**: Proportion of observed edges to possible edges.
+- **Average Clustering Coefficient**: Measures the likelihood of nodes forming tightly connected groups.
+- **Diameter**: The longest shortest path between any two nodes in the graph.
+- **Radius**: The shortest maximum distance from a central node to any other node.
+- **Modularity**: Quantifies the strength of division of a network into communities.
+- **Assortativity**: Measures the tendency of nodes to connect to other nodes with similar properties.
 
-   - Uses the heat kernel representation of the graph's Laplacian matrix to measure the diffusion of information between nodes, capturing connectivity patterns.
+Community Detection Measures
+----------------------------
+- **Modularity Score**: Quantifies the quality of a graph's division into communities.
+- **Conductance**: Measures the quality of a community by evaluating the ratio of inter-community edges to intra-community edges.
+- **Normalized Cut**: Evaluates the separation quality of a graph into subgraphs.
 
-3. :doc:`Resistance`
+Dynamic Graph Measures
+----------------------
+- **Temporal Betweenness**: Extends betweenness centrality to dynamic graphs.
+- **Temporal Clustering Coefficient**: Evaluates clustering in temporal snapshots.
+- **Edge Persistence**: Measures the stability of edges over time.
 
-   - Based on the effective resistance between nodes, this distance measures how difficult it is for information to travel between different parts of the graph.
+Shortest Path Measures
+----------------------
+- **Shortest Path Length**: Calculates the shortest path distance between nodes.
+- **Average Path Length**: Computes the mean distance between all node pairs.
+- **Eccentricity**: Measures the greatest distance from a node to all other nodes.
+
+Spectral Measures
+-----------------
+- **Spectral Radius**: The largest eigenvalue of the adjacency matrix.
+- **Graph Laplacian Eigenvalues**: Encodes various structural properties of the graph.
+- **Algebraic Connectivity**: The second smallest eigenvalue of the Laplacian matrix, indicating the graph's connectivity.
+
+Other Specialized Measures
+--------------------------
+- **Random Walk Betweenness**: Measures centrality based on random walk processes.
+- **Resistance Distance**: Computes the effective electrical resistance between nodes.
+- **Graph Entropy**: Quantifies the information content of a graph.
 
 Conclusion
 ==========
