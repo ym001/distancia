@@ -254,7 +254,8 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Percolation`_
 
 + `Text`_
-    - `Levenshtein`_
+
+..  - `Levenshtein`_
     - `DamerauLevenshtein`_
     - `Hamming`_
     - `Cosine`_
@@ -288,13 +289,15 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `KendallTau`_
 
 + `Time`_
-    - `DynamicTimeWarping`_
+
+..  - `DynamicTimeWarping`_
     - `LongestCommonSubsequence`_
     - `Frechet`_
 
 
 + `Loss`_
-    - `CrossEntropy`_
+
+..  - `CrossEntropy`_
     - `MeanAbsoluteError`_
     - `MeanAbsolutePercentageError`_
     - `MeanSquaredError`_
