@@ -86,7 +86,7 @@ Perceptual Measures
 Application-Specific Measures
 =============================
 
-#. `FID`_ :   (Fréchet Inception Distance) Used for evaluating the quality of generated images by comparing feature distributions.
+32. `FID`_ :   (Fréchet Inception Distance) Used for evaluating the quality of generated images by comparing feature distributions.
 #. `IS`_ :   (Inception Score) Evaluates generative models by assessing image diversity and quality.
 #. `BRISQUE`_ :   (Blind/Referenceless Image Spatial Quality Evaluator) Assesses the quality of an image without reference.
 
@@ -95,7 +95,7 @@ Deep Learning-Based Distances
 
 Deep learning-based distances rely on pre-trained convolutional neural networks (CNNs) to extract high-level feature vectors from images. These methods are highly effective for capturing complex, abstract representations of images and are widely used for tasks like image retrieval or content-based comparison.
 
-17. `VGG16-Based`_ : Uses the VGG16 deep convolutional neural network to extract high-level features from images and computes the distance between these feature representations. Suitable for high-level content comparison.
+35. `VGG16-Based`_ : Uses the VGG16 deep convolutional neural network to extract high-level features from images and computes the distance between these feature representations. Suitable for high-level content comparison.
 #. `Inception-Based`_ : Employs the Inception architecture to extract feature vectors from images and compares them using a chosen distance metric. It is effective for capturing complex features in images.
 #. `ResNet-Based`_ : Utilizes the ResNet architecture to compare the deep features of images, enabling robust comparison of complex, high-dimensional image representations.
 
