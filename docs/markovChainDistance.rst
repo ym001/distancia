@@ -86,3 +86,4 @@ This categorized approach simplifies the selection process and ensures you have 
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
 .. _GraphEditDistance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
 .. _SpectralDistance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
+.. _L1: https://distancia.readthedocs.io/en/latest/Manhattan.html
