@@ -36,7 +36,7 @@ Graph-Theoretic Measures
 
 Structural distances assess the overall architecture of the Markov chains, including how the states are connected and whether there are differences in the structure of the state transitions.
 
-11. `Commute Time Distance`_ : Measures the average time taken for a random walk to move between two states.
+16. `Commute Time Distance`_ : Measures the average time taken for a random walk to move between two states.
 #. `Hitting Time Distance`_ : The expected time for a random walk to first reach a particular state.
 #. `Resistance Distance`_ : Interprets the Markov Chain as an electrical network and computes resistances.
 #. `Graph Laplacian Distance`_ : Uses properties of the Laplacian matrix of the graph induced by the Markov Chain.
