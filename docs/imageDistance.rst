@@ -79,7 +79,7 @@ These distances analyze the overall structure of images or operate in the freque
 Perceptual Measures
 ===================
 
-#. `Content-Based Perceptual Distance`_ :  (CPBD):** Evaluates perceptual differences in image content.
+29. `Content-Based Perceptual Distance`_ :  (CPBD):** Evaluates perceptual differences in image content.
 #. `Perceptual Hashing`_ : Generates hash values for images and measures similarity.
 #. `LPIPS`_ :  (Learned Perceptual Image Patch Similarity) A deep-learning-based similarity metric for perceptual quality.
 
