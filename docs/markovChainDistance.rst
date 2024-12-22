@@ -46,7 +46,7 @@ Structural distances assess the overall architecture of the Markov chains, inclu
 Entropy and Information-Based Measures
 -----------------------------
 
-15. `Relative Entropy Rate`_ : Measures the divergence between the entropy rates of two Markov Chains.
+22. `Relative Entropy Rate`_ : Measures the divergence between the entropy rates of two Markov Chains.
 #. `Cross-Entropy Distance`_ : Combines entropy rates to evaluate the distance between chains.
 #. `Entropy-Based Similarity`_ : Quantifies similarity using entropy principles.
 
