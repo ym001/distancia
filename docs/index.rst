@@ -108,6 +108,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 -------------------
 
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Minkowski: https://distancia.readthedocs.io/en/latest/Minkowski.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
@@ -199,6 +200,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 
 + `Vector`_ 
+.. only:: comment
+
     - `Euclidean`_
     - `Manhattan`_ 
     - `Minkowski`_ 
