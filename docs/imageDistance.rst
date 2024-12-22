@@ -44,7 +44,7 @@ Feature-Based Distances
 Feature-based distances extract key points or descriptors from images and compare them instead of pixel values. These methods, such as SIFT or ORB, are robust to transformations like scaling, rotation, or translation, making them ideal for object recognition and image matching tasks.
 
 
-9. `SIFT-Based`_ : Uses the Scale-Invariant Feature Transform (SIFT) algorithm to detect and compare keypoints and descriptors in two images, providing robustness to scale, rotation, and translation differences.
+12. `SIFT-Based`_ : Uses the Scale-Invariant Feature Transform (SIFT) algorithm to detect and compare keypoints and descriptors in two images, providing robustness to scale, rotation, and translation differences.
 #. `SURF-Based`_ : Similar to SIFT but faster, SURF (Speeded Up Robust Features) is used to extract and compare distinctive points between two images, particularly useful for object recognition tasks.
 #. `ORB-Based`_ : ORB (Oriented FAST and Rotated BRIEF) is an efficient alternative to SIFT and SURF, focusing on matching image keypoints and descriptors. It is fast and well-suited for real-time applications.
 #. `PeakSignalToNoiseRatio`_
