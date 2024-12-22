@@ -285,8 +285,8 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `NormalizedCompressionDistance`_
     - `MongeElkanDistance`_
     - `JensenShannonDivergence`_
-+ 'statistics'
-    - `KendallTau`_
+.. + 'statistics'
+..    - `KendallTau`_
 
 + `Time`_
 
