@@ -99,3 +99,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _ChiSquareDistance: https://distancia.readthedocs.io/en/latest/ChiSquareDistance.html
 .. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
