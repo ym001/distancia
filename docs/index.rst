@@ -313,7 +313,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
 + `Graph`_
-    - `ShortestPath`_
+
+..  - `ShortestPath`_
     - `GraphEditDistance`_
     - `SpectralDistance`_
     - `WeisfeilerLehmanSimilarity`_
@@ -341,7 +342,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
 + `MarkovChaine`_
-    - `MarkovChainKullbackLeibler`_
+
+..  - `MarkovChainKullbackLeibler`_
     - `MarkovChainWasserstein`_
     - `MarkovChainTotalVariation`_
     - `MarkovChainHellinger`_
@@ -359,7 +361,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
 + `Image`_
-    - `StructuralSimilarityIndex`_
+
+..  - `StructuralSimilarityIndex`_
     - `PeakSignalToNoiseRatio`_
     - `HistogramIntersection`_
     - `EarthMoversDistance`_
