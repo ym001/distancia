@@ -72,7 +72,7 @@ Structural and Transform-Based Distances
 
 These distances analyze the overall structure of images or operate in the frequency domain by transforming the image. Metrics like SSIM or Fourier Transform Distance provide a higher-level comparison that reflects structural or periodic patterns, often used in image quality assessment.
 
-14. `StructuralSimilarityIndex`_ : Measures the structural similarity between two images, focusing on luminance, contrast, and structure. It provides a perceptually meaningful comparison.
+26. `StructuralSimilarityIndex`_ : Measures the structural similarity between two images, focusing on luminance, contrast, and structure. It provides a perceptually meaningful comparison.
 #. `FourierTransform`_ : Compares images in the frequency domain using their Fourier transforms. This distance is particularly useful for comparing images based on global patterns and periodic structures.
 #. `WaveletTransform`_ : Measures the difference between two images after decomposing them into their wavelet components. Wavelet-based methods are effective for capturing local image details at multiple scales.
 
