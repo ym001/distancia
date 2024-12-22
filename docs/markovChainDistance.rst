@@ -60,7 +60,7 @@ Behavioral or State-Sequence Measures
 Customized Measures
 -----------------------------
 
-21. `Wasserstein Distance`_ : Computes the cost of transforming one stationary distribution into another, using the structure of the state space.
+25. `Wasserstein Distance`_ : Computes the cost of transforming one stationary distribution into another, using the structure of the state space.
 #. `Markov Earth Mover's Distance (MEMD)`_ : A variation of Wasserstein designed for Markov Chains.
 #. `Bhattacharyya Distance for Markov Chains`_ : Measures overlap between stationary distributions.
 #. `Cosine Similarity on Transition Matrices`_ : Treats the transition matrices as vectors and computes cosine similarity.
