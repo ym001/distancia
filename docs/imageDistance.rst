@@ -136,3 +136,5 @@ For detailed information on the implementation and usage of each distance, refer
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 .. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
 .. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
+.. _MeanAbsoluteError: https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
+.. _MeanSquaredError: https://distancia.readthedocs.io/en/latest/MeanSquaredError.html
