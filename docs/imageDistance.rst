@@ -62,7 +62,7 @@ Shape and Contour Measures
 Distribution-Based Measures
 ===========================
 
-#. `KL-Divergence`_ :  (Kullback-Leibler Divergence):** Compares two probability distributions derived from images.
+#. `KullbackLeibler`_ :  (Kullback-Leibler Divergence):** Compares two probability distributions derived from images.
 #. `Hellinger`_ :  A probabilistic similarity measure between distributions.
 #. `Wasserstein`_ :  Also known as EMD, used for comparing distributions or textures.
 #. `Bhattacharyya`_ :  Captures the overlap between probability distributions.
@@ -140,3 +140,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _MeanSquaredError: https://distancia.readthedocs.io/en/latest/MeanSquaredError.html
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 .. _Hausdorff: https://distancia.readthedocs.io/en/latest/Hausdorff.html
+.. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
