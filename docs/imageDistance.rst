@@ -93,3 +93,5 @@ For detailed information on the implementation and usage of each distance, refer
 .. _FeatureBasedDistance: https://distancia.readthedocs.io/en/latest/FeatureBasedDistance.html
 .. _PerceptualHashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
 .. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
+
+.. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
