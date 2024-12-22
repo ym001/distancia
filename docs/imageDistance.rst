@@ -62,7 +62,7 @@ Shape and Contour Measures
 Distribution-Based Measures
 ===========================
 
-#. `KullbackLeibler`_ :  (Kullback-Leibler Divergence):** Compares two probability distributions derived from images.
+22. `KullbackLeibler`_ :  (Kullback-Leibler Divergence):** Compares two probability distributions derived from images.
 #. `Hellinger`_ :  A probabilistic similarity measure between distributions.
 #. `Wasserstein`_ :  Also known as EMD, used for comparing distributions or textures.
 #. `Bhattacharyya`_ :  Captures the overlap between probability distributions.
