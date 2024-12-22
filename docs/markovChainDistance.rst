@@ -26,12 +26,10 @@ Stationary Distribution-Based Measures
 #. `MarkovChainJensenShannon`_ : A symmetric version of the Kullback-Leibler divergence.
 #. `Hellinger Distance`_ : Measures the similarity between two stationary distributions using a probabilistic approach.
 #. `Total Variation Distance`_ : Calculates the maximum probability difference across all states between two stationary distributions.
-1. :doc:`Steady-StateDistribution` Compares the steady-state distributions of two Markov chains, evaluating the long-term behavior differences.
-
-2. `MarkovChainWasserstein`_ : Measures the “cost” of transforming one steady-state distribution into another, capturing the distributional differences between two chains.
-
-3. :doc:`JensenShannonDivergence` Symmetrized version of the Kullback-Leibler divergence that compares the steady-state distributions of the two chains.
-3. :doc:`TotalVariation`Measures the maximum difference between transition probabilities, capturing the largest deviation in state transitions between two chains.
+#. `Steady-StateDistribution`_ Compares the steady-state distributions of two Markov chains, evaluating the long-term behavior differences.
+#. `MarkovChainWasserstein`_ : Measures the “cost” of transforming one steady-state distribution into another, capturing the distributional differences between two chains.
+#. `MarkovChainJensenShannon`_ : Symmetrized version of the Kullback-Leibler divergence that compares the steady-state distributions of the two chains.
+#. `MarkovChainTotalVariation`_ : Measures the maximum difference between transition probabilities, capturing the largest deviation in state transitions between two chains.
 
 Graph-Theoretic Measures
 -----------------------------
@@ -44,7 +42,7 @@ Structural distances assess the overall architecture of the Markov chains, inclu
 #. `Graph Laplacian Distance`_ : Uses properties of the Laplacian matrix of the graph induced by the Markov Chain.
 
 
-1. :doc:`GraphEditDistance`Calculates the minimal number of edits (additions, deletions, substitutions) required to transform the state transition graph of one Markov chain into another.
+#. `GraphEditDistance`_ : Calculates the minimal number of edits (additions, deletions, substitutions) required to transform the state transition graph of one Markov chain into another.
 
 3. :doc:`SpectralDistance` Compares the eigenvalues of the transition matrices, capturing the differences in the dynamics of the chains, such as mixing times and convergence rates.
 
