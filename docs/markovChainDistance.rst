@@ -88,3 +88,4 @@ This categorized approach simplifies the selection process and ensures you have 
 .. _MarkovChainJensenShannon: https://distancia.readthedocs.io/en/latest/MarkovChainJensenShannon.html
 .. _MarkovChainFrobenius: https://distancia.readthedocs.io/en/latest/MarkovChainFrobenius.html
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
+.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
