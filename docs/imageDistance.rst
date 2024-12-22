@@ -97,3 +97,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 .. _Minkowski: https://distancia.readthedocs.io/en/latest/Minkowski.html
 .. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
+.. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
