@@ -22,7 +22,8 @@ Pixel-based distances compare images directly at the pixel level, treating each 
 #. `Manhattan`_ : Also known as the "taxicab" distance, this metric sums the absolute differences of the pixel values between two images. It's robust to small variations in pixel values.
 #. `Chebyshev`_ : Measures the greatest difference between pixel values of two images across any dimension. It emphasizes the maximum change in intensity rather than the overall sum of changes.
 #. `Minkowski`_ : A generalization of both Euclidean and Manhattan distances, it offers flexibility by allowing different levels of emphasis on small or large differences between pixel values.
-#. `ChiSquareDistance`_
+#. `MeanSquaredError`_  (MSE): Measures the average squared difference between corresponding pixel values.
+#. `MeanAbsoluteError`_  (MAE): Calculates the average absolute difference between pixel values.
 
 Histogram-Based Distances
 =========================
@@ -33,6 +34,9 @@ Histogram-based distances focus on comparing the distribution of color or pixel 
 6. `HistogramIntersection`_ : Compares two images by computing the intersection of their color histograms. This method focuses on how many pixel colors overlap between the two images.
 #. `Bhattacharyya`_ : Measures the similarity between two image histograms by calculating the overlap between their probability distributions. It is often used in object recognition tasks.
 #. `KullbackLeibler`_ : A measure of how one probability distribution (histogram) differs from another, capturing the amount of information lost when one histogram is used to approximate another.
+#. `ChiSquareDistance`_
+   - **Jensen-Shannon Divergence:** Evaluates the divergence between histograms in a probabilistic manner.
+#. `EarthMoversDistance`_
 
 Feature-Based Distances
 =======================
@@ -45,6 +49,23 @@ Feature-based distances extract key points or descriptors from images and compar
 #. `ORB-Based`_ : ORB (Oriented FAST and Rotated BRIEF) is an efficient alternative to SIFT and SURF, focusing on matching image keypoints and descriptors. It is fast and well-suited for real-time applications.
 #. `PeakSignalToNoiseRatio`_
 #. `FeatureBasedDistance`_
+   - **Cosine Similarity:** Computes the cosine of the angle between feature vectors.
+
+Shape and Contour Measures
+==========================
+
+   - **Hausdorff Distance:** Measures the greatest distance between the edges or contours of two shapes.
+   - **Frechet Distance:** Compares shapes by minimizing the distance between curves.
+   - **Chamfer Distance:** A metric for comparing shapes using nearest neighbor distances.
+   - **Shape Context Distance:** Captures differences in spatial arrangements of shapes.
+
+Distribution-Based Measures
+===========================
+
+   - **KL-Divergence (Kullback-Leibler Divergence):** Compares two probability distributions derived from images.
+   - **Hellinger Distance:** A probabilistic similarity measure between distributions.
+   - **Wasserstein Distance:** Also known as EMD, used for comparing distributions or textures.
+   - **Bhattacharyya Distance:** Captures the overlap between probability distributions.
 
 Structural and Transform-Based Distances
 ========================================
@@ -55,6 +76,20 @@ These distances analyze the overall structure of images or operate in the freque
 #. `FourierTransform`_ : Compares images in the frequency domain using their Fourier transforms. This distance is particularly useful for comparing images based on global patterns and periodic structures.
 #. `WaveletTransform`_ : Measures the difference between two images after decomposing them into their wavelet components. Wavelet-based methods are effective for capturing local image details at multiple scales.
 
+Perceptual Measures
+===================
+
+   - **Content-Based Perceptual Distance (CPBD):** Evaluates perceptual differences in image content.
+   - **Perceptual Hashing:** Generates hash values for images and measures similarity.
+   - **LPIPS (Learned Perceptual Image Patch Similarity):** A deep-learning-based similarity metric for perceptual quality.
+
+Application-Specific Measures
+=============================
+
+   - **FID (Fréchet Inception Distance):** Used for evaluating the quality of generated images by comparing feature distributions.
+   - **IS (Inception Score):** Evaluates generative models by assessing image diversity and quality.
+   - **BRISQUE (Blind/Referenceless Image Spatial Quality Evaluator):** Assesses the quality of an image without reference.
+
 Deep Learning-Based Distances
 =============================
 
@@ -63,7 +98,6 @@ Deep learning-based distances rely on pre-trained convolutional neural networks 
 17. `VGG16-Based`_ : Uses the VGG16 deep convolutional neural network to extract high-level features from images and computes the distance between these feature representations. Suitable for high-level content comparison.
 #. `Inception-Based`_ : Employs the Inception architecture to extract feature vectors from images and compares them using a chosen distance metric. It is effective for capturing complex features in images.
 #. `ResNet-Based`_ : Utilizes the ResNet architecture to compare the deep features of images, enabling robust comparison of complex, high-dimensional image representations.
-#. `EarthMoversDistance`_
 
 Compression-Based Distances
 ===========================
