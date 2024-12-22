@@ -200,7 +200,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 
 + `Vector`_ 
-.. only:: comment
+..
 
     - `Euclidean`_
     - `Manhattan`_ 
