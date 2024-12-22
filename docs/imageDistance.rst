@@ -62,10 +62,10 @@ Shape and Contour Measures
 Distribution-Based Measures
 ===========================
 
-   - **KL-Divergence (Kullback-Leibler Divergence):** Compares two probability distributions derived from images.
-   - **Hellinger Distance:** A probabilistic similarity measure between distributions.
-   - **Wasserstein Distance:** Also known as EMD, used for comparing distributions or textures.
-   - **Bhattacharyya Distance:** Captures the overlap between probability distributions.
+#. `KL-Divergence`_ :  (Kullback-Leibler Divergence):** Compares two probability distributions derived from images.
+#. `Hellinger`_ :  A probabilistic similarity measure between distributions.
+#. `Wasserstein`_ :  Also known as EMD, used for comparing distributions or textures.
+#. `Bhattacharyya`_ :  Captures the overlap between probability distributions.
 
 Structural and Transform-Based Distances
 ========================================
