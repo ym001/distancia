@@ -54,7 +54,7 @@ Feature-based distances extract key points or descriptors from images and compar
 Shape and Contour Measures
 ==========================
 
-#. `Hausdorff`_ : Measures the greatest distance between the edges or contours of two shapes.
+18. `Hausdorff`_ : Measures the greatest distance between the edges or contours of two shapes.
 #. `Frechet`_ : Compares shapes by minimizing the distance between curves.
 #. `Chamfer Distance`_ : A metric for comparing shapes using nearest neighbor distances.
 #. `Shape Context Distance`_ : Captures differences in spatial arrangements of shapes.
