@@ -104,7 +104,7 @@ Compression-Based Distances
 
 Compression-based distances measure the similarity between two images based on their compressibility, reflecting the shared information and structure. Methods like Normalized Compression Distance (NCD) evaluate how efficiently two images can be compressed together, capturing redundancy in their data.
 
-21. `NormalizedCompression`_ : Measures the similarity between two images by comparing the compression of the images concatenated together with their individual compressions. It captures the redundancy and shared information between images.
+38. `NormalizedCompression`_ : Measures the similarity between two images by comparing the compression of the images concatenated together with their individual compressions. It captures the redundancy and shared information between images.
 #. `ZlibBasedDistance`_ : A variant of compression-based distance that uses the zlib algorithm to compare images based on their compressibility, reflecting how much the structure of two images is alike.
 #. `PerceptualHashing`_
 #. `NormalizedCrossCorrelation`_
