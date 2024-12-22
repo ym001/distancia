@@ -79,16 +79,16 @@ These distances analyze the overall structure of images or operate in the freque
 Perceptual Measures
 ===================
 
-   - **Content-Based Perceptual Distance (CPBD):** Evaluates perceptual differences in image content.
-   - **Perceptual Hashing:** Generates hash values for images and measures similarity.
-   - **LPIPS (Learned Perceptual Image Patch Similarity):** A deep-learning-based similarity metric for perceptual quality.
+#. `Content-Based Perceptual Distance`_ :  (CPBD):** Evaluates perceptual differences in image content.
+#. `Perceptual Hashing`_ : Generates hash values for images and measures similarity.
+#. `LPIPS`_ :  (Learned Perceptual Image Patch Similarity) A deep-learning-based similarity metric for perceptual quality.
 
 Application-Specific Measures
 =============================
 
-   - **FID (Fréchet Inception Distance):** Used for evaluating the quality of generated images by comparing feature distributions.
-   - **IS (Inception Score):** Evaluates generative models by assessing image diversity and quality.
-   - **BRISQUE (Blind/Referenceless Image Spatial Quality Evaluator):** Assesses the quality of an image without reference.
+#. `FID`_ :   (Fréchet Inception Distance) Used for evaluating the quality of generated images by comparing feature distributions.
+#. `IS`_ :   (Inception Score) Evaluates generative models by assessing image diversity and quality.
+#. `BRISQUE`_ :   (Blind/Referenceless Image Spatial Quality Evaluator) Assesses the quality of an image without reference.
 
 Deep Learning-Based Distances
 =============================
@@ -143,3 +143,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 .. _Hellinger: https://distancia.readthedocs.io/en/latest/Hellinger.html
 .. _Wasserstein: https://distancia.readthedocs.io/en/latest/Wasserstein.html
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
