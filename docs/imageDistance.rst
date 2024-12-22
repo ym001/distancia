@@ -49,15 +49,15 @@ Feature-based distances extract key points or descriptors from images and compar
 #. `ORB-Based`_ : ORB (Oriented FAST and Rotated BRIEF) is an efficient alternative to SIFT and SURF, focusing on matching image keypoints and descriptors. It is fast and well-suited for real-time applications.
 #. `PeakSignalToNoiseRatio`_
 #. `FeatureBasedDistance`_
-   - **Cosine Similarity:** Computes the cosine of the angle between feature vectors.
+#. `Cosine`_ : Computes the cosine of the angle between feature vectors.
 
 Shape and Contour Measures
 ==========================
 
-   - **Hausdorff Distance:** Measures the greatest distance between the edges or contours of two shapes.
-   - **Frechet Distance:** Compares shapes by minimizing the distance between curves.
-   - **Chamfer Distance:** A metric for comparing shapes using nearest neighbor distances.
-   - **Shape Context Distance:** Captures differences in spatial arrangements of shapes.
+#. `Hausdorff`_ : Measures the greatest distance between the edges or contours of two shapes.
+#. `Frechet`_ : Compares shapes by minimizing the distance between curves.
+#. `Chamfer Distance`_ : A metric for comparing shapes using nearest neighbor distances.
+#. `Shape Context Distance`_ : Captures differences in spatial arrangements of shapes.
 
 Distribution-Based Measures
 ===========================
