@@ -12,8 +12,8 @@ Categorized Distance Measures
 -----------------------------
 #. `Euclidean`_ :
 
-#. `L1 Distance`_ : Computes the element-wise \( L1 \) distance (Manhattan distance) between the transition matrices of two Markov Chains.
-#. `L2 Distance`_ : Computes the element-wise \( L2 \) distance (Euclidean distance) between the transition matrices.
+#. `L1`_ : Computes the element-wise \( L1 \) distance (Manhattan distance) between the transition matrices of two Markov Chains.
+#. `L2`_ : Computes the element-wise \( L2 \) distance (Euclidean distance) between the transition matrices.
 #. `MarkovChainFrobenius`_ : Measures the norm of the difference between the transition matrices.
 #. `Matrix Divergence`_ : A general measure comparing two matrices in terms of divergence metrics.
 #. `Spectral Norm Distance`_ : Focuses on the spectral properties of the transition matrices.
