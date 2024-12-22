@@ -22,7 +22,7 @@ Categorized Distance Measures
 Stationary Distribution-Based Measures
 -----------------------------
 
-7. `MarkovChainKullbackLeibler`_ : Measures the information gain or loss between the stationary distributions.
+8. `MarkovChainKullbackLeibler`_ : Measures the information gain or loss between the stationary distributions.
 #. `MarkovChainJensenShannon`_ : A symmetric version of the Kullback-Leibler divergence.
 #. `Hellinger Distance`_ : Measures the similarity between two stationary distributions using a probabilistic approach.
 #. `Total Variation Distance`_ : Calculates the maximum probability difference across all states between two stationary distributions.
