@@ -139,3 +139,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _MeanAbsoluteError: https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
 .. _MeanSquaredError: https://distancia.readthedocs.io/en/latest/MeanSquaredError.html
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
+.. _Hausdorff: https://distancia.readthedocs.io/en/latest/Hausdorff.html
