@@ -31,7 +31,7 @@ Histogram-Based Distances
 Histogram-based distances focus on comparing the distribution of color or pixel intensities between two images. Instead of comparing pixel-to-pixel, these methods compare the frequency distribution of pixel values, making them robust to small shifts or variations in image content.
 
 
-6. `HistogramIntersection`_ : Compares two images by computing the intersection of their color histograms. This method focuses on how many pixel colors overlap between the two images.
+7. `HistogramIntersection`_ : Compares two images by computing the intersection of their color histograms. This method focuses on how many pixel colors overlap between the two images.
 #. `Bhattacharyya`_ : Measures the similarity between two image histograms by calculating the overlap between their probability distributions. It is often used in object recognition tasks.
 #. `KullbackLeibler`_ : A measure of how one probability distribution (histogram) differs from another, capturing the amount of information lost when one histogram is used to approximate another.
 #. `ChiSquareDistance`_
