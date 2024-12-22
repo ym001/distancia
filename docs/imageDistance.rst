@@ -32,7 +32,7 @@ Histogram-based distances focus on comparing the distribution of color or pixel 
 
 #. `HistogramIntersection`_ : Compares two images by computing the intersection of their color histograms. This method focuses on how many pixel colors overlap between the two images.
 #. `Bhattacharyya`_ : Measures the similarity between two image histograms by calculating the overlap between their probability distributions. It is often used in object recognition tasks.
-#. `Kullback-Leibler`_ : A measure of how one probability distribution (histogram) differs from another, capturing the amount of information lost when one histogram is used to approximate another.
+#. `KullbackLeibler`_ : A measure of how one probability distribution (histogram) differs from another, capturing the amount of information lost when one histogram is used to approximate another.
 
 Feature-Based Distances
 =======================
@@ -98,3 +98,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _ChiSquareDistance: https://distancia.readthedocs.io/en/latest/ChiSquareDistance.html
+.. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
