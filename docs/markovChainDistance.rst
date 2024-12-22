@@ -40,11 +40,8 @@ Structural distances assess the overall architecture of the Markov chains, inclu
 #. `Hitting Time Distance`_ : The expected time for a random walk to first reach a particular state.
 #. `Resistance Distance`_ : Interprets the Markov Chain as an electrical network and computes resistances.
 #. `Graph Laplacian Distance`_ : Uses properties of the Laplacian matrix of the graph induced by the Markov Chain.
-
-
 #. `GraphEditDistance`_ : Calculates the minimal number of edits (additions, deletions, substitutions) required to transform the state transition graph of one Markov chain into another.
-
-3. :doc:`SpectralDistance` Compares the eigenvalues of the transition matrices, capturing the differences in the dynamics of the chains, such as mixing times and convergence rates.
+#. `SpectralDistance`_ : Compares the eigenvalues of the transition matrices, capturing the differences in the dynamics of the chains, such as mixing times and convergence rates.
 
 Entropy and Information-Based Measures
 -----------------------------
@@ -87,3 +84,4 @@ This categorized approach simplifies the selection process and ensures you have 
 .. _MarkovChainFrobenius: https://distancia.readthedocs.io/en/latest/MarkovChainFrobenius.html
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
+.. _GraphEditDistance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
