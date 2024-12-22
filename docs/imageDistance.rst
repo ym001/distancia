@@ -95,3 +95,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
 .. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
+.. _Minkowski: https://distancia.readthedocs.io/en/latest/Minkowski.html
