@@ -142,3 +142,4 @@ For detailed information on the implementation and usage of each distance, refer
 .. _Hausdorff: https://distancia.readthedocs.io/en/latest/Hausdorff.html
 .. _KullbackLeibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 .. _Hellinger: https://distancia.readthedocs.io/en/latest/Hellinger.html
+.. _Wasserstein: https://distancia.readthedocs.io/en/latest/Wasserstein.html
