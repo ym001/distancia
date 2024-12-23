@@ -19,15 +19,15 @@ Below is a comprehensive list of sound distance measures, categorized for clarit
 
 Categorized Distance Measures
 =============================
-7. `HistogramIntersection`_ : 
+ 
 Spectral-Based Measures
 -----------------------
 
-#. `Spectral Convergence Distance:** Measures the similarity of spectral envelopes between signals.
-#. `Spectral Flatness Measure (SFM):** Evaluates the tonality of a sound signal.
-#. `Spectral Centroid Distance:** Calculates the perceptual brightness of audio signals.
-#. `Spectral Flux:** Measures the difference in spectral power between consecutive frames.
-#. `Mel-Frequency Cepstral Coefficient (MFCC) Distance:** Captures differences in audio timbre based on MFCC features.
+#. `Spectral Convergence Distance`_ :Measures the similarity of spectral envelopes between signals.
+#. `Spectral Flatness Measure (SFM)`_ :Evaluates the tonality of a sound signal.
+#. `Spectral Centroid Distance`_ :Calculates the perceptual brightness of audio signals.
+#. `Spectral Flux`_ :Measures the difference in spectral power between consecutive frames.
+#. `Mel-Frequency Cepstral Coefficient (MFCC) Distance`_ :Captures differences in audio timbre based on MFCC features.
 
 Temporal-Based Measures
 -----------------------
@@ -35,10 +35,10 @@ Temporal-Based Measures
 Time-based distances measure similarities or differences directly in the time domain, analyzing how the waveforms of two audio signals evolve over time. These methods are useful for comparing temporal patterns in sound.
 
 
-#. `Dynamic Time Warping (DTW):** Aligns temporal sequences of audio signals to measure similarity.
-#. `Time Domain Cross-Correlation:** Compares temporal alignment of two signals.
-#. `Envelope Cross-Distance:** Analyzes differences in the amplitude envelope of signals.
-#. `Short-Time Energy Distance:** Evaluates variations in energy patterns of sound over time.
+#. `Dynamic Time Warping (DTW)`_ :Aligns temporal sequences of audio signals to measure similarity.
+#. `Time Domain Cross-Correlation`_ :Compares temporal alignment of two signals.
+#. `Envelope Cross-Distance`_ :Analyzes differences in the amplitude envelope of signals.
+#. `Short-Time Energy Distance`_ :Evaluates variations in energy patterns of sound over time.
 `WaveformDistance` Directly compares the raw waveform of two signals, useful for detecting small time-domain differences.
 `DynamicTimeWarping` Aligns two audio signals in time to measure their similarity, often used in speech processing.
 
@@ -47,94 +47,57 @@ Frequency-Based Measures
 
 These distances focus on the frequency components of the audio signal, comparing the spectra or other frequency-domain transformations. They are ideal for comparing musical tones or the harmonic content of audio.
 
-#. `Frequency Bin Distance:** Compares specific frequency bins of audio spectra.
-#. `Pitch Distance (e.g., Harmonic Product Spectrum):** Measures differences in pitch between signals.
-#. `Log-Frequency Spectral Distance:** Captures differences in frequency representation on a logarithmic scale.
+#. `Frequency Bin Distance`_ :Compares specific frequency bins of audio spectra.
+#. `Pitch Distance (e.g., Harmonic Product Spectrum)`_ :Measures differences in pitch between signals.
+#. `Log-Frequency Spectral Distance`_ :Captures differences in frequency representation on a logarithmic scale.
 `CQTDistance` Computes the Constant-Q Transform (CQT) distance, used primarily in musical applications for comparing pitch content.
 `SpectrogramDistance` Measures the difference between the spectrogram representations of two audio signals, comparing their frequency content over time.
 
 Perceptual Measures
 -------------------
 
-#. `Perceptual Evaluation of Audio Quality (PEAQ):** Quantifies perceptual audio quality.
-#. `Perceptual Spectral Divergence:** Evaluates perceived differences in spectral characteristics.
-#. `Psychoacoustic Distance:** Accounts for human auditory perception, such as masking effects.
-#. `Mel-Frequency Perceptual Distance:** Measures perceptual differences in mel-frequency representation.
+Perceptual distances attempt to model how humans perceive differences in sounds. These measures take into account psychoacoustic models, making them more aligned with human auditory perception.
+
+#. `Perceptual Evaluation of Audio Quality (PEAQ)`_ :Quantifies perceptual audio quality.
+#. `Perceptual Spectral Divergence`_ :Evaluates perceived differences in spectral characteristics.
+#. `Psychoacoustic Distance`_ :Accounts for human auditory perception, such as masking effects.
+#. `Mel-Frequency Perceptual Distance`_ :Measures perceptual differences in mel-frequency representation.
+`PerceptualHashing` Computes a hash based on how the human ear would perceive the sound, robust to noise and minor variations.
+PLPDistance` Compares Perceptual Linear Predictive coefficients, which model how the ear processes sounds.
 
 Feature-Based Measures
 ----------------------
 
-#. `Cosine Similarity on Feature Vectors:** Compares audio features like MFCCs or chroma.
-#. `Euclidean Distance on Feature Space:** Measures straightforward differences in audio feature vectors.
-#. `Mahalanobis Distance in Feature Space:** Considers correlations between audio features.
-#. `KL-Divergence on Audio Distributions:** Evaluates divergence between probability distributions of audio features.
 Feature-based distances extract specific characteristics or features of audio signals, such as Mel-frequency cepstral coefficients (MFCCs), and compare these feature vectors. These methods are robust for capturing the overall characteristics of sounds.
 
-1. :doc:`MFCCDistance`
-
-   - Measures the difference between two audio signals by comparing their Mel-Frequency Cepstral Coefficients (MFCCs), which capture timbral characteristics.
-
-2. :doc:`ChromaDistance`
-
-   - Compares the chromagram features of two audio signals, capturing harmonic and tonal similarities.
+#. `Cosine Similarity on Feature Vectors`_ :Compares audio features like MFCCs or chroma.
+#. `Euclidean Distance on Feature Space`_ :Measures straightforward differences in audio feature vectors.
+#. `Mahalanobis Distance in Feature Space`_ :Considers correlations between audio features.
+#. `KL-Divergence on Audio Distributions`_ :Evaluates divergence between probability distributions of audio features.
+`MFCCDistance` Measures the difference between two audio signals by comparing their Mel-Frequency Cepstral Coefficients (MFCCs), which capture timbral characteristics.
+`ChromaDistance` Compares the chromagram features of two audio signals, capturing harmonic and tonal similarities.
 Waveform-Based Measures
 -----------------------
 
-#. `Root Mean Square (RMS) Energy Difference:** Compares overall energy levels in audio signals.
-#. `Peak Signal Difference:** Measures the maximum amplitude variation between signals.
-#. `Zero-Crossing Rate Distance:** Compares the rate of sign changes in waveforms.
+#. `Root Mean Square (RMS) Energy Difference`_ :Compares overall energy levels in audio signals.
+#. `Peak Signal Difference`_ :Measures the maximum amplitude variation between signals.
+#. `Zero-Crossing Rate Distance`_ :Compares the rate of sign changes in waveforms.
 
 Application-Specific Measures
 -----------------------------
 
-#. `Chord Similarity Distance:** Used for comparing harmonic content in music.
-#. `Speech Recognition Error Rate (WER):** Evaluates distance in spoken word sequences.
-#. `Environmental Sound Matching Distance:** Measures similarity between environmental sounds for classification.
+#. `Chord Similarity Distance`_ :Used for comparing harmonic content in music.
+#. `Speech Recognition Error Rate (WER)`_ :Evaluates distance in spoken word sequences.
+#. `Environmental Sound Matching Distance`_ :Measures similarity between environmental sounds for classification.
 
-
-
-1. **Frequency-Based Distances**
------------------------------
-
-
-
-
-
-2. **Time-Based Distances**
-------------------------
-
-
-
-3. **Feature-Based Distances**
+Compression-Based Distances
 ---------------------------
-
-
-
-4. **Perceptual-Based Distances**
-------------------------------
-
-Perceptual distances attempt to model how humans perceive differences in sounds. These measures take into account psychoacoustic models, making them more aligned with human auditory perception.
-
-1. :doc:`PerceptualHashing`
-
-   - Computes a hash based on how the human ear would perceive the sound, robust to noise and minor variations.
-
-2. :doc:`PLPDistance`
-
-   - Compares Perceptual Linear Predictive coefficients, which model how the ear processes sounds.
-
-5. **Compression-Based Distances**
--------------------------------
 
 Compression-based distances measure the similarity between audio signals by evaluating how efficiently they can be compressed together. These methods capture shared patterns and structures in the audio.
 
-1. :doc:`ZlibCompressionDistance`
+`ZlibCompressionDistance` Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
 
-   - Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
-
-2. :doc:`NormalizedCompressionDistance`
-
-   - Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
+`NormalizedCompressionDistance` Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
 
 Conclusion
 ==========
