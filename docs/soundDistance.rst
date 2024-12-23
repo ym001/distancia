@@ -35,12 +35,12 @@ Temporal-Based Measures
 Time-based distances measure similarities or differences directly in the time domain, analyzing how the waveforms of two audio signals evolve over time. These methods are useful for comparing temporal patterns in sound.
 
 
-#. `Dynamic Time Warping (DTW)`_ :Aligns temporal sequences of audio signals to measure similarity.
+6. `Dynamic Time Warping (DTW)`_ :Aligns temporal sequences of audio signals to measure similarity.
 #. `Time Domain Cross-Correlation`_ :Compares temporal alignment of two signals.
 #. `Envelope Cross-Distance`_ :Analyzes differences in the amplitude envelope of signals.
 #. `Short-Time Energy Distance`_ :Evaluates variations in energy patterns of sound over time.
-`WaveformDistance` Directly compares the raw waveform of two signals, useful for detecting small time-domain differences.
-`DynamicTimeWarping` Aligns two audio signals in time to measure their similarity, often used in speech processing.
+#. `WaveformDistance`_ :Directly compares the raw waveform of two signals, useful for detecting small time-domain differences.
+#. `DynamicTimeWarping`_ :Aligns two audio signals in time to measure their similarity, often used in speech processing.
 #. `TimeLagDistance`_ :
 
 
@@ -49,11 +49,11 @@ Frequency-Based Measures
 
 These distances focus on the frequency components of the audio signal, comparing the spectra or other frequency-domain transformations. They are ideal for comparing musical tones or the harmonic content of audio.
 
-#. `Frequency Bin Distance`_ :Compares specific frequency bins of audio spectra.
+13. `Frequency Bin Distance`_ :Compares specific frequency bins of audio spectra.
 #. `Pitch Distance (e.g., Harmonic Product Spectrum)`_ :Measures differences in pitch between signals.
 #. `Log-Frequency Spectral Distance`_ :Captures differences in frequency representation on a logarithmic scale.
-`CQTDistance` Computes the Constant-Q Transform (CQT) distance, used primarily in musical applications for comparing pitch content.
-`SpectrogramDistance` Measures the difference between the spectrogram representations of two audio signals, comparing their frequency content over time.
+#. `CQTDistance`_ :Computes the Constant-Q Transform (CQT) distance, used primarily in musical applications for comparing pitch content.
+#. `SpectrogramDistance`_ :Measures the difference between the spectrogram representations of two audio signals, comparing their frequency content over time.
 #. `PowerSpectralDensityDistance`_ :
 #. `LogSpectralDistance`_ :
 #. `BarkSpectralDistortion`_ :
@@ -64,30 +64,30 @@ Perceptual Measures
 
 Perceptual distances attempt to model how humans perceive differences in sounds. These measures take into account psychoacoustic models, making them more aligned with human auditory perception.
 
-#. `Perceptual Evaluation of Audio Quality (PEAQ)`_ :Quantifies perceptual audio quality.
+22. `Perceptual Evaluation of Audio Quality (PEAQ)`_ :Quantifies perceptual audio quality.
 #. `Perceptual Spectral Divergence`_ :Evaluates perceived differences in spectral characteristics.
 #. `Psychoacoustic Distance`_ :Accounts for human auditory perception, such as masking effects.
 #. `Mel-Frequency Perceptual Distance`_ :Measures perceptual differences in mel-frequency representation.
-`PerceptualHashing` Computes a hash based on how the human ear would perceive the sound, robust to noise and minor variations.
-PLPDistance` Compares Perceptual Linear Predictive coefficients, which model how the ear processes sounds.
+#. `PerceptualHashing`_ :Computes a hash based on how the human ear would perceive the sound, robust to noise and minor variations.
+#. `PLPDistance`_ :Compares Perceptual Linear Predictive coefficients, which model how the ear processes sounds.
 
 Feature-Based Measures
 ----------------------
 
 Feature-based distances extract specific characteristics or features of audio signals, such as Mel-frequency cepstral coefficients (MFCCs), and compare these feature vectors. These methods are robust for capturing the overall characteristics of sounds.
 
-#. `Cosine Similarity on Feature Vectors`_ :Compares audio features like MFCCs or chroma.
+27. `Cosine Similarity on Feature Vectors`_ :Compares audio features like MFCCs or chroma.
 #. `Euclidean Distance on Feature Space`_ :Measures straightforward differences in audio feature vectors.
 #. `Mahalanobis Distance in Feature Space`_ :Considers correlations between audio features.
 #. `KL-Divergence on Audio Distributions`_ :Evaluates divergence between probability distributions of audio features.
 #. `MFCCProcessor`_ :Measures the difference between two audio signals by comparing their Mel-Frequency Cepstral Coefficients (MFCCs), which capture timbral characteristics.
-`ChromaDistance` Compares the chromagram features of two audio signals, capturing harmonic and tonal similarities.
+#. `ChromaDistance`_ :Compares the chromagram features of two audio signals, capturing harmonic and tonal similarities.
 #. `EnergyDistance`_ :
 
 Waveform-Based Measures
 -----------------------
 
-#. `Root Mean Square (RMS) Energy Difference`_ :Compares overall energy levels in audio signals.
+34. `Root Mean Square (RMS) Energy Difference`_ :Compares overall energy levels in audio signals.
 #. `Peak Signal Difference`_ :Measures the maximum amplitude variation between signals.
 #. `Zero-Crossing Rate Distance`_ :Compares the rate of sign changes in waveforms.
 #. `CrossCorrelation`_ :
@@ -99,7 +99,7 @@ Waveform-Based Measures
 Application-Specific Measures
 -----------------------------
 
-#. `Chord Similarity Distance`_ :Used for comparing harmonic content in music.
+42. `Chord Similarity Distance`_ :Used for comparing harmonic content in music.
 #. `Speech Recognition Error Rate (WER)`_ :Evaluates distance in spoken word sequences.
 #. `Environmental Sound Matching Distance`_ :Measures similarity between environmental sounds for classification.
 #. `SignalProcessor`_ :
@@ -114,9 +114,8 @@ Compression-Based Distances
 
 Compression-based distances measure the similarity between audio signals by evaluating how efficiently they can be compressed together. These methods capture shared patterns and structures in the audio.
 
-`ZlibCompressionDistance` Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
-
-`NormalizedCompressionDistance` Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
+52. `ZlibCompressionDistance`_ :Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
+#. `NormalizedCompressionDistanc`_ : Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
 
 Conclusion
 ==========
