@@ -7,9 +7,8 @@ In the realm of audio signal processing, comparing sounds is a complex task that
 
 List of Audio-Based Distances
 
-=================================
 Sound Distance Measures
-=================================
+=======================
 
 Introduction
 =============
