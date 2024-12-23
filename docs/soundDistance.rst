@@ -113,7 +113,7 @@ Compression-Based Distances
 
 Compression-based distances measure the similarity between audio signals by evaluating how efficiently they can be compressed together. These methods capture shared patterns and structures in the audio.
 
-53. `ZlibCompressionDistance`_ :Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
+52. `ZlibCompressionDistance`_ :Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
 #. `NormalizedCompressionDistanc`_ : Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
 
 Conclusion
