@@ -75,7 +75,7 @@ Feature-Based Measures
 
 Feature-based distances extract specific characteristics or features of audio signals, such as Mel-frequency cepstral coefficients (MFCCs), and compare these feature vectors. These methods are robust for capturing the overall characteristics of sounds.
 
-27. `Cosine Similarity on Feature Vectors`_ :Compares audio features like MFCCs or chroma.
+28. `Cosine Similarity on Feature Vectors`_ :Compares audio features like MFCCs or chroma.
 #. `Euclidean Distance on Feature Space`_ :Measures straightforward differences in audio feature vectors.
 #. `Mahalanobis Distance in Feature Space`_ :Considers correlations between audio features.
 #. `KL-Divergence on Audio Distributions`_ :Evaluates divergence between probability distributions of audio features.
@@ -86,7 +86,7 @@ Feature-based distances extract specific characteristics or features of audio si
 Waveform-Based Measures
 -----------------------
 
-34. `Root Mean Square (RMS) Energy Difference`_ :Compares overall energy levels in audio signals.
+35. `Root Mean Square (RMS) Energy Difference`_ :Compares overall energy levels in audio signals.
 #. `Peak Signal Difference`_ :Measures the maximum amplitude variation between signals.
 #. `Zero-Crossing Rate Distance`_ :Compares the rate of sign changes in waveforms.
 #. `CrossCorrelation`_ :
@@ -98,7 +98,7 @@ Waveform-Based Measures
 Application-Specific Measures
 -----------------------------
 
-42. `Chord Similarity Distance`_ :Used for comparing harmonic content in music.
+43. `Chord Similarity Distance`_ :Used for comparing harmonic content in music.
 #. `Speech Recognition Error Rate (WER)`_ :Evaluates distance in spoken word sequences.
 #. `Environmental Sound Matching Distance`_ :Measures similarity between environmental sounds for classification.
 #. `SignalProcessor`_ :
@@ -113,7 +113,7 @@ Compression-Based Distances
 
 Compression-based distances measure the similarity between audio signals by evaluating how efficiently they can be compressed together. These methods capture shared patterns and structures in the audio.
 
-52. `ZlibCompressionDistance`_ :Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
+53. `ZlibCompressionDistance`_ :Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
 #. `NormalizedCompressionDistanc`_ : Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
 
 Conclusion
