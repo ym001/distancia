@@ -43,6 +43,7 @@ Time-based distances measure similarities or differences directly in the time do
 `DynamicTimeWarping` Aligns two audio signals in time to measure their similarity, often used in speech processing.
 #. `TimeLagDistance`_ :
 
+
 Frequency-Based Measures
 ------------------------
 
@@ -56,6 +57,7 @@ These distances focus on the frequency components of the audio signal, comparing
 #. `PowerSpectralDensityDistance`_ :
 #. `LogSpectralDistance`_ :
 #. `BarkSpectralDistortion`_ :
+#. `SpectrogramDistance`_ :
 
 Perceptual Measures
 -------------------
@@ -80,6 +82,7 @@ Feature-based distances extract specific characteristics or features of audio si
 #. `KL-Divergence on Audio Distributions`_ :Evaluates divergence between probability distributions of audio features.
 #. `MFCCProcessor`_ :Measures the difference between two audio signals by comparing their Mel-Frequency Cepstral Coefficients (MFCCs), which capture timbral characteristics.
 `ChromaDistance` Compares the chromagram features of two audio signals, capturing harmonic and tonal similarities.
+#. `EnergyDistance`_ :
 
 Waveform-Based Measures
 -----------------------
@@ -88,7 +91,10 @@ Waveform-Based Measures
 #. `Peak Signal Difference`_ :Measures the maximum amplitude variation between signals.
 #. `Zero-Crossing Rate Distance`_ :Compares the rate of sign changes in waveforms.
 #. `CrossCorrelation`_ :
+#. `ZeroCrossingRateDistance`_ :
 #. `PhaseDifferenceCalculator`_ :
+#. `SignalToNoiseRatio`_ :
+#. `EnvelopeCorrelation`_ :
 
 Application-Specific Measures
 -----------------------------
@@ -98,6 +104,10 @@ Application-Specific Measures
 #. `Environmental Sound Matching Distance`_ :Measures similarity between environmental sounds for classification.
 #. `SignalProcessor`_ :
 #. `PESQ`_ :
+#. `ItakuraSaitoDistance`_ :
+#. `CochleagramDistance`_ :
+#. `ChromagramDistance`_ :
+#. `CQTDistance`_ :
 
 Compression-Based Distances
 ---------------------------
