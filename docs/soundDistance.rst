@@ -41,6 +41,7 @@ Time-based distances measure similarities or differences directly in the time do
 #. `Short-Time Energy Distance`_ :Evaluates variations in energy patterns of sound over time.
 `WaveformDistance` Directly compares the raw waveform of two signals, useful for detecting small time-domain differences.
 `DynamicTimeWarping` Aligns two audio signals in time to measure their similarity, often used in speech processing.
+#. `TimeLagDistance`_ :
 
 Frequency-Based Measures
 ------------------------
@@ -52,6 +53,9 @@ These distances focus on the frequency components of the audio signal, comparing
 #. `Log-Frequency Spectral Distance`_ :Captures differences in frequency representation on a logarithmic scale.
 `CQTDistance` Computes the Constant-Q Transform (CQT) distance, used primarily in musical applications for comparing pitch content.
 `SpectrogramDistance` Measures the difference between the spectrogram representations of two audio signals, comparing their frequency content over time.
+#. `PowerSpectralDensityDistance`_ :
+#. `LogSpectralDistance`_ :
+#. `BarkSpectralDistortion`_ :
 
 Perceptual Measures
 -------------------
@@ -74,14 +78,17 @@ Feature-based distances extract specific characteristics or features of audio si
 #. `Euclidean Distance on Feature Space`_ :Measures straightforward differences in audio feature vectors.
 #. `Mahalanobis Distance in Feature Space`_ :Considers correlations between audio features.
 #. `KL-Divergence on Audio Distributions`_ :Evaluates divergence between probability distributions of audio features.
-`MFCCDistance` Measures the difference between two audio signals by comparing their Mel-Frequency Cepstral Coefficients (MFCCs), which capture timbral characteristics.
+#. `MFCCProcessor`_ :Measures the difference between two audio signals by comparing their Mel-Frequency Cepstral Coefficients (MFCCs), which capture timbral characteristics.
 `ChromaDistance` Compares the chromagram features of two audio signals, capturing harmonic and tonal similarities.
+
 Waveform-Based Measures
 -----------------------
 
 #. `Root Mean Square (RMS) Energy Difference`_ :Compares overall energy levels in audio signals.
 #. `Peak Signal Difference`_ :Measures the maximum amplitude variation between signals.
 #. `Zero-Crossing Rate Distance`_ :Compares the rate of sign changes in waveforms.
+#. `CrossCorrelation`_ :
+#. `PhaseDifferenceCalculator`_ :
 
 Application-Specific Measures
 -----------------------------
@@ -89,6 +96,8 @@ Application-Specific Measures
 #. `Chord Similarity Distance`_ :Used for comparing harmonic content in music.
 #. `Speech Recognition Error Rate (WER)`_ :Evaluates distance in spoken word sequences.
 #. `Environmental Sound Matching Distance`_ :Measures similarity between environmental sounds for classification.
+#. `SignalProcessor`_ :
+#. `PESQ`_ :
 
 Compression-Based Distances
 ---------------------------
@@ -107,4 +116,22 @@ By carefully selecting the appropriate distance measure, users can achieve accur
 
 The **Distancia** package offers a wide range of audio-based distance measures, making it versatile for tasks such as music information retrieval, voice recognition, and environmental sound analysis. By providing methods that span frequency, time, feature, perceptual, and compression-based approaches, **Distancia** ensures that users can select the most appropriate distance measure for their specific application. Whether the goal is to compare melodies, detect similarities in speech, or analyze environmental sounds, **Distancia** provides a comprehensive toolkit for robust audio comparison.
 
-
+.. _Spectral Convergence Distance: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
+.. _MFCCProcessor: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
+.. _SignalProcessor: https://distancia.readthedocs.io/en/latest/SignalProcessor.html
+.. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
+.. _CrossCorrelation: https://distancia.readthedocs.io/en/latest/CrossCorrelation.html
+.. _PhaseDifferenceCalculator: https://distancia.readthedocs.io/en/latest/PhaseDifferenceCalculator.html
+.. _TimeLagDistance: https://distancia.readthedocs.io/en/latest/TimeLagDistance.html
+.. _PESQ: https://distancia.readthedocs.io/en/latest/PESQ.html
+.. _LogSpectralDistance: https://distancia.readthedocs.io/en/latest/LogSpectralDistance.html
+.. _BarkSpectralDistortion: https://distancia.readthedocs.io/en/latest/BarkSpectralDistortion.html
+.. _ItakuraSaitoDistance: https://distancia.readthedocs.io/en/latest/ItakuraSaitoDistance.html
+.. _SignalToNoiseRatio: https://distancia.readthedocs.io/en/latest/SignalToNoiseRatio.html
+.. _EnergyDistance: https://distancia.readthedocs.io/en/latest/EnergyDistance.html
+.. _EnvelopeCorrelation: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
+.. _ZeroCrossingRateDistance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
+.. _CochleagramDistance: https://distancia.readthedocs.io/en/latest/CochleagramDistance.html
+.. _ChromagramDistance: https://distancia.readthedocs.io/en/latest/ChromagramDistance.html
+.. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
+.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
