@@ -20,7 +20,6 @@ Binary and File Structure Distances
 -----------------------------------
 
 Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
-#. ``_ 
 
 #. `ControlFlowGraph`_ : Compares the control flow graphs of two executables or structured files, measuring the structural differences in program logic or file structure.
 #. `FileTypeDistance`_ : Identifies differences in file types based on their magic bytes or signatures, determining the nature of the files being compared.
@@ -38,7 +37,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 Content-Based Measures
 ----------------------
 
-#. `Hash-Based Distance`_ : Measures differences in file content using hash functions (e.g., MD5, SHA-256).
+13. `Hash-Based Distance`_ : Measures differences in file content using hash functions (e.g., MD5, SHA-256).
 #. `Bytewise Hamming Distance`_ : Compares files byte by byte to identify dissimilarities.
 #. `Entropy-Based Distance`_ : Quantifies the difference in informational content between files.
 #. `Character Frequency Distance`_ : Evaluates differences in character distributions.
