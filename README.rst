@@ -108,7 +108,9 @@ For a complete list and detailed explanations of each metric, see the next secti
 -------------------
 
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _Minkowski: https://distancia.readthedocs.io/en/latest/Minkowski.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 .. _KendallTau: https://distancia.readthedocs.io/en/latest/KendallTau.html
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
@@ -198,10 +200,10 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 
 + `Vector`_ 
-    - `Euclidean`_
+
+..  - `Euclidean`_
     - `Manhattan`_ 
-    - `Jaro`_
-    - `KendallTau`_
+    - `Minkowski`_ 
     - `Bhattacharyya`_
     - `Haversine`_
     - `Chebyshev`_
@@ -232,7 +234,8 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Gestalt`_
 
 + `Matrix`_
-    - `Mahalanobis`_
+
+..  - `Mahalanobis`_
     - `MahalanobisTaguchi`_
     - `MatrixSpectral`_
     - `NormalizedSpectral`_
@@ -251,7 +254,8 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Percolation`_
 
 + `Text`_
-    - `Levenshtein`_
+
+..  - `Levenshtein`_
     - `DamerauLevenshtein`_
     - `Hamming`_
     - `Cosine`_
@@ -260,6 +264,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `CosineTF`_
     - `WordMoversDistance`_
     - `BERTBasedDistance`_
+    - `Jaro`_
     - `JaroWinkler`_
     - `OverlapCoefficient`_
     - `SorensenDice`_
@@ -280,22 +285,26 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `NormalizedCompressionDistance`_
     - `MongeElkanDistance`_
     - `JensenShannonDivergence`_
+.. + 'statistics'
+..    - `KendallTau`_
 
 + `Time`_
-    - `DynamicTimeWarping`_
+
+..  - `DynamicTimeWarping`_
     - `LongestCommonSubsequence`_
     - `Frechet`_
 
 
 + `Loss`_
-    - `CrossEntropy`_
+
+..  - `CrossEntropy`_
     - `MeanAbsoluteError`_
     - `MeanAbsolutePercentageError`_
     - `MeanSquaredError`_
     - `SquaredLogarithmicError`_
     - `GaloisWassersteinLoss`_
 
-.. _Loss: https://distancia.readthedocs.io/en/latest/lossDistance.html
+.. _Loss: https://distancia.readthedocs.io/en/latest/lossFunction.html
 .. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
 .. _MeanAbsoluteError: https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
 .. _MeanAbsolutePercentageError: https://distancia.readthedocs.io/en/latest/MeanAbsolutePercentageError.html
@@ -304,7 +313,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
 + `Graph`_
-    - `ShortestPath`_
+
+..  - `ShortestPath`_
     - `GraphEditDistance`_
     - `SpectralDistance`_
     - `WeisfeilerLehmanSimilarity`_
@@ -332,7 +342,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
 + `MarkovChaine`_
-    - `MarkovChainKullbackLeibler`_
+
+..  - `MarkovChainKullbackLeibler`_
     - `MarkovChainWasserstein`_
     - `MarkovChainTotalVariation`_
     - `MarkovChainHellinger`_
@@ -350,7 +361,8 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
 + `Image`_
-    - `StructuralSimilarityIndex`_
+
+..  - `StructuralSimilarityIndex`_
     - `PeakSignalToNoiseRatio`_
     - `HistogramIntersection`_
     - `EarthMoversDistance`_
@@ -370,7 +382,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
 + `Sound`_
-    - `SpectralConvergence`_
+..  - `SpectralConvergence`_
     - `MFCCProcessor`_
     - `SignalProcessor`_
     - `PowerSpectralDensityDistance`_
