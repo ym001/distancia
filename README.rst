@@ -359,9 +359,15 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 + `Image`_
 
+.. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
+
 + `Sound`_
 
+.. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
+
 + `File`_
+
+.. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 And many more...
 
