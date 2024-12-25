@@ -157,3 +157,14 @@ Conclusion
 These file distance measures offer diverse methods for comparing files based on their content, structure, metadata, and specific use cases. By leveraging the appropriate distance measure, users can enhance tasks such as file deduplication, version control, and data analysis. This categorization helps in identifying the right measure for specific applications, ensuring optimal results.
 
 The **Distancia** package offers a comprehensive set of file-based distance measures, making it a versatile tool for comparing files of various types and formats. Whether working with text documents, executable binaries, or structured data like XML, the range of distance metrics ensures that you can choose the most appropriate method for your specific needs. By covering different aspects such as content, structure, and metadata, **Distancia** allows for nuanced and robust file comparison, suitable for applications ranging from document analysis to software engineering.
+
+.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
+.. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
+.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
+.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
+.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
+.. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
+.. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
+.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
+.. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
+.. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
