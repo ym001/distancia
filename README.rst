@@ -4,6 +4,7 @@
 
    :keywords: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
    :keywords lang=en: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
+   
 ======================================
 Welcome to Distancia's documentation!
 ======================================
@@ -19,7 +20,7 @@ The documentation is divided into the following sections:
    The python code in this package has been optimized by static typing with Cython
 
 *Getting Started*
----------------
+-----------------
 
 **Distancia** is designed to be simple and intuitive, yet powerful and flexible. Whether you are working with numerical data, strings, or other types of data, Distancia provides the tools you need to measure the distance or similarity between objects.
 
@@ -35,7 +36,7 @@ For a quick introduction, check out the `quickstart`_ guide. If you want to dive
    If you find any issues or have suggestions for improvements, feel free to contribute!
 
 *Installation*
-------------
+--------------
 
 You can install the distancia package with pip:
 
@@ -63,12 +64,11 @@ With all supported extras: Install all optional dependencies for maximum functio
 This modular installation allows you to keep your setup lightweight or include everything for full capabilities.
 
 *Quickstart*
-----------
+------------
 
 Here are some common examples of how to use **Distancia**:
 
 .. code-block:: python
-   :caption: Example 1: Calculating Euclidean Distance
 
    from distancia import Euclidean
 
@@ -88,7 +88,6 @@ Here are some common examples of how to use **Distancia**:
    >>>Euclidean Distance: 5.196
 
 .. code-block:: python
-   :caption: Example 2: Calculating Levenshtein Distance
 
    from distancia import Levenshtein
 
@@ -125,7 +124,6 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _SokalSneath: https://distancia.readthedocs.io/en/latest/SokalSneath.html
 .. _Wasserstein: https://distancia.readthedocs.io/en/latest/Wasserstein.html
 .. _Gower: https://distancia.readthedocs.io/en/latest/Gower.html
-.. _CzekanowskiDice: https://distancia.readthedocs.io/en/latest/CzekanowskiDice.html
 .. _Hellinger: https://distancia.readthedocs.io/en/latest/Hellinger.html
 .. _MotzkinStraus: https://distancia.readthedocs.io/en/latest/MotzkinStraus.html
 .. _EnhancedRogersTanimoto: https://distancia.readthedocs.io/en/latest/EnhancedRogersTanimoto.html
@@ -226,7 +224,6 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Tanimoto`_
     - `InverseTanimoto`_
     - `Ochiai`_ 
-    - `CzekanowskiDice`_
     - `Pearson`_
     - `Spearman`_ 
     - `FagerMcGowan`_
@@ -362,93 +359,14 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 + `Image`_
 
-..  - `StructuralSimilarityIndex`_
-    - `PeakSignalToNoiseRatio`_
-    - `HistogramIntersection`_
-    - `EarthMoversDistance`_
-    - `ChiSquareDistance`_
-    - `FeatureBasedDistance`_
-    - `PerceptualHashing`_
-    - `NormalizedCrossCorrelation`_
-
-.. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
-.. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
-.. _PeakSignalToNoiseRatio: https://distancia.readthedocs.io/en/latest/PeakSignalToNoiseRatio.html
-.. _HistogramIntersection: https://distancia.readthedocs.io/en/latest/HistogramIntersection.html
-.. _EarthMoversDistance: https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
-.. _ChiSquareDistance: https://distancia.readthedocs.io/en/latest/ChiSquareDistance.html
-.. _FeatureBasedDistance: https://distancia.readthedocs.io/en/latest/FeatureBasedDistance.html
-.. _PerceptualHashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
-.. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
-
 + `Sound`_
-..  - `SpectralConvergence`_
-    - `MFCCProcessor`_
-    - `SignalProcessor`_
-    - `PowerSpectralDensityDistance`_
-    - `CrossCorrelation`_
-    - `PhaseDifferenceCalculator`_
-    - `TimeLagDistance`_
-    - `PESQ`_
-    -  `LogSpectralDistance`_
-    - `BarkSpectralDistortion`_
-    - `ItakuraSaitoDistance`_
-    - `SignalToNoiseRatio`_
-    - `EnergyDistance`_
-    -  `EnvelopeCorrelation`_
-    - `ZeroCrossingRateDistance`_
-    - `CochleagramDistance`_
-    - `ChromagramDistance`_
-    - `SpectrogramDistance`_
-    - `CQTDistance`_
-
-.. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
-.. _SpectralConvergence: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
-.. _MFCCProcessor: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
-.. _SignalProcessor: https://distancia.readthedocs.io/en/latest/SignalProcessor.html
-.. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
-.. _CrossCorrelation: https://distancia.readthedocs.io/en/latest/CrossCorrelation.html
-.. _PhaseDifferenceCalculator: https://distancia.readthedocs.io/en/latest/PhaseDifferenceCalculator.html
-.. _TimeLagDistance: https://distancia.readthedocs.io/en/latest/TimeLagDistance.html
-.. _PESQ: https://distancia.readthedocs.io/en/latest/PESQ.html
-.. _LogSpectralDistance: https://distancia.readthedocs.io/en/latest/LogSpectralDistance.html
-.. _BarkSpectralDistortion: https://distancia.readthedocs.io/en/latest/BarkSpectralDistortion.html
-.. _ItakuraSaitoDistance: https://distancia.readthedocs.io/en/latest/ItakuraSaitoDistance.html
-.. _SignalToNoiseRatio: https://distancia.readthedocs.io/en/latest/SignalToNoiseRatio.html
-.. _EnergyDistance: https://distancia.readthedocs.io/en/latest/EnergyDistance.html
-.. _EnvelopeCorrelation: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
-.. _ZeroCrossingRateDistance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
-.. _CochleagramDistance: https://distancia.readthedocs.io/en/latest/CochleagramDistance.html
-.. _ChromagramDistance: https://distancia.readthedocs.io/en/latest/ChromagramDistance.html
-.. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
-.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
 + `File`_
-..  - `ByteLevelDistance`_
-    - `HashComparison`_
-    - `NormalizedCompression`_
-    - `KolmogorovComplexity`_
-    - `DynamicBinaryInstrumentation`_
-    - `FileMetadataComparison`_
-    - `FileTypeDistance`_
-    - `TreeEditDistance`_
-    - `ZlibBasedDistance`_
-
-.. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
-.. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
-.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
-.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
-.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
-.. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
-.. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
-.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
-.. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
-.. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
 
 And many more...
 
 *Overview*
---------
+-----------
 The distancia package offers a comprehensive set of tools for computing and analyzing distances and similarities between data points. This package is particularly useful for tasks in data analysis, machine learning, and pattern recognition. Below is an overview of the key classes included in the package, each designed to address specific types of distance or similarity calculations.
 
 
@@ -469,6 +387,7 @@ Purpose: Provides tools for benchmarking the performance of various distance met
 Use Case: Useful in performance-sensitive applications where choosing the optimal metric can greatly impact computational efficiency and accuracy. This class helps users make informed decisions about which distance metric to use for their specific task.
 
 + `CustomDistanceFunction`_
+
 .. _CustomDistanceFunction: https://distancia.readthedocs.io/en/latest/CustomDistanceFunction.html
 
 Purpose: Allows users to define custom distance functions by specifying a mathematical formula or providing a custom Python function.
@@ -476,6 +395,7 @@ Purpose: Allows users to define custom distance functions by specifying a mathem
 Use Case: Useful for researchers or practitioners who need a specific metric that isn’t commonly used or already implemented.
 
 + `DistanceMatrix`_
+
 .. _DistanceMatrix: https://distancia.readthedocs.io/en/latest/DistanceMatrix.html
 
 Purpose: Automatically generates a distance matrix for a set of data points using a specified distance metric.
@@ -483,6 +403,7 @@ Purpose: Automatically generates a distance matrix for a set of data points usin
 Use Case: Useful in clustering algorithms like k-means, hierarchical clustering, or in generating heatmaps for visualizing similarity/dissimilarity in datasets.
 
 + `DistanceMetricLearning`_
+
 .. _DistanceMetricLearning: https://distancia.readthedocs.io/en/latest/DistanceMetricLearning.html
 
 Purpose: Implements algorithms for learning an optimal distance metric from data based on a specific task, such as classification or clustering.
@@ -490,6 +411,7 @@ Purpose: Implements algorithms for learning an optimal distance metric from data
 Use Case: Critical in machine learning tasks where the goal is to optimize a distance metric for maximum task-specific performance, improving the accuracy of models.
 
 + `IntegratedDistance`_
+
 .. _IntegratedDistance: https://distancia.readthedocs.io/en/latest/IntegratedDistance.html
 
 Purpose: Enables seamless integration of distance computations with popular data science libraries like pandas, scikit-learn, and numpy.
@@ -497,6 +419,7 @@ Purpose: Enables seamless integration of distance computations with popular data
 Use Case: This class enhances the usability of the distancia package, allowing users to incorporate distance calculations directly into their existing data analysis workflows.
 
 + `MetricFinder`_
+
 .. _MetricFinder: https://distancia.readthedocs.io/en/latest/MetricFinder.html
 
 Purpose: Identifies the most appropriate distance metric for two given data points based on their structure.
@@ -504,6 +427,7 @@ Purpose: Identifies the most appropriate distance metric for two given data poin
 Use Case: Useful when dealing with various types of data, this class helps users automatically determine the best distance metric to apply, ensuring that the metric chosen is suitable for the data's characteristics.
 
 + `OutlierDetection`_
+
 .. _OutlierDetection: https://distancia.readthedocs.io/en/latest/OutlierDetection.html
 
 Purpose: Implements methods for detecting outliers in datasets by using distance metrics to identify points that deviate significantly from others.
@@ -511,6 +435,7 @@ Purpose: Implements methods for detecting outliers in datasets by using distance
 Use Case: Essential in fields such as fraud detection, quality control, and data cleaning, where identifying and managing outliers is crucial for maintaining data integrity.
 
 + `ParallelandDistributedComputation`_
+
 .. _ParallelandDistributedComputation: https://distancia.readthedocs.io/en/latest/ParallelandDistributedComputation.html
 
 Purpose: Adds support for parallel or distributed computation of distances, particularly useful for large datasets.
@@ -518,6 +443,7 @@ Purpose: Adds support for parallel or distributed computation of distances, part
 Use Case: In big data scenarios, calculating distances between millions of data points can be computationally expensive. This class significantly reduces computation time by parallelizing these calculations across multiple processors or machines.
 
 + `Visualization`_
+
 .. _Visualization: https://distancia.readthedocs.io/en/latest/Visualization.html
 
 Purpose: Provides tools for visualizing distance matrices, dendrograms (for hierarchical clustering), and 2D/3D representations of data points based on distance metrics.
@@ -525,16 +451,19 @@ Purpose: Provides tools for visualizing distance matrices, dendrograms (for hier
 Use Case: Visualization is a powerful tool in exploratory data analysis (EDA), helping users understand the relationships between data points. This class is particularly useful for creating visual aids like heatmaps or dendrograms to better interpret the data.
 
 + `APICompatibility`_
+
 .. _APICompatibility: https://distancia.readthedocs.io/en/latest/APICompatibility.html
 
 The APICompatibility class in the distancia package bridges the gap between powerful distance computation tools and modern API-based architectures. By enabling the creation of REST endpoints for distance metrics, it facilitates the integration of distancia into a wide range of applications, from web services to distributed computing environments. This not only enhances the usability of the package but also ensures that it can be effectively deployed in real-world, production-grade systems.
 
 + `AutomatedDistanceMetricSelection`_
+
 .. _AutomatedDistanceMetricSelection: https://distancia.readthedocs.io/en/latest/AutomatedDistanceMetricSelection.html
 
 The AutomatedDistanceMetricSelection feature in the distancia package represents a significant advancement in the ease of use and accessibility of distance metric selection. By automating the process of metric recommendation, it helps users, especially those less familiar with the intricacies of different metrics, to achieve better results in their analyses. This feature not only saves time but also improves the accuracy of data-driven decisions, making distancia a more powerful and user-friendly tool for the data science community.
 
 + `ReportingAndDocumentation`_
+
 .. _ReportingAndDocumentation: https://distancia.readthedocs.io/en/latest/ReportingAndDocumentation.html
 
 The ReportingAndDocumentation class is a powerful tool for automating the analysis and documentation of distance metrics. By integrating report generation, matrix export, and property documentation, it provides users with a streamlined way to evaluate and present the results of their distance-based models. This class is especially valuable for machine learning practitioners who require a deeper understanding of the behavior of the metrics they employ.
@@ -548,24 +477,27 @@ The AdvancedAnalysis class provides essential tools for evaluating the performan
 
 
 + `DimensionalityReductionAndScaling`_
+
 .. _DimensionalityReductionAndScaling: https://distancia.readthedocs.io/en/latest/DimensionalityReductionAndScaling.html
 
 The `DimensionalityReductionAndScaling` class offers powerful methods for simplifying and scaling datasets. By providing tools for dimensionality reduction such as Multi-Dimensional Scaling (MDS), it allows users to project high-dimensional data into lower dimensions while retaining its key characteristics.
 
 
 + `ComparisonAndValidation`_
+
 .. _ComparisonAndValidation: https://distancia.readthedocs.io/en/latest/ComparisonAndValidation.html
 
 The ComparisonAndValidation class offers tools to analyze and validate the performance of a distance or similarity metric by comparing it with other metrics and using established benchmarks. This class is essential for evaluating the effectiveness of a metric in various tasks, such as clustering, classification, or retrieval. By providing cross-validation techniques and benchmarking methods, it allows users to gain a deeper understanding of the metric's strengths and weaknesses.
 
 
 + `StatisticalAnalysis`_
+
 .. _StatisticalAnalysis: https://distancia.readthedocs.io/en/latest/StatisticalAnalysis.html
 
 The StatisticalAnalysis class provides essential tools to analyze and interpret the statistical properties of distances or similarities within a dataset. Through the computation of mean, variance, and distance distributions, 
 
 *Contributing*
-------------
+---------------
 
 We welcome contributions! If you would like to contribute to **Distancia**, please read the `contributing`_ guide to get started. We appreciate your help in making this project better.
 
@@ -606,18 +538,23 @@ We welcome contributions! If you would like to contribute to **Distancia**, plea
 .. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
 
 + `Examples`_
+
 .. _Examples: https://github.com/ym001/distancia/blob/master/src/example.py
 
 + `Pypi`_
+
 .. _Pypi: https://pypi.org/project/distancia/
 
 + `Source`_
+
 .. _Source: https://github.com/ym001/distancia
 
 + `Documentation`_
+
 .. _Documentation: https://distancia.readthedocs.io/en/latest/
 
 + `License`_
+
 .. _License: https://github.com/ym001/distancia/blob/master/LICENSE
 
 *Conclusion*
