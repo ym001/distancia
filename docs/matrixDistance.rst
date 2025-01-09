@@ -159,4 +159,5 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _OperatorNormCalculator: https://distancia.readthedocs.io/en/latest/OperatorNormCalculator.html
 .. _Frobenius: https://distancia.readthedocs.io/en/latest/Frobenius.html
 .. _Nuclear: https://distancia.readthedocs.io/en/latest/NuclearNorm.html
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 
