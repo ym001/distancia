@@ -100,7 +100,7 @@ If matrices are adjacency matrices of graphs, specialized graph distances are us
 
 These distances focus on comparing matrices that represent statistical properties or distributions.
 
-37. `Mahalanobis`_  : Takes into account the correlations between variables in the matrices, useful for covariance matrices.
+40. `Mahalanobis`_  : Takes into account the correlations between variables in the matrices, useful for covariance matrices.
 #. `MahalanobisTaguchi`_
 #. `Bhattacharyya`_  : Measures the overlap between statistical distributions represented by two matrices.
 #. `Energy`_  : Measures the statistical distance between two matrices in terms of their probability distributions.
@@ -111,7 +111,7 @@ These distances focus on comparing matrices that represent statistical propertie
 
 These methods compress the matrices and then compare their compressed versions.
 
-42. `Normalized Compression Distance (NCD)`_  : Uses compression algorithms (like zlib) to measure the complexity difference between two matrices.
+44. `Normalized Compression Distance (NCD)`_  : Uses compression algorithms (like zlib) to measure the complexity difference between two matrices.
 #. `Kolmogorov`_  : Measures the difference between the compressibility of two matrices by estimating their algorithmic complexity.
 
 **Matrix Factorization-Based Distance**
@@ -119,7 +119,7 @@ These methods compress the matrices and then compare their compressed versions.
 
 These methods are based on matrix factorizations like NMF (Non-negative Matrix Factorization) or PCA (Principal Component Analysis).
 
-44. `Non-negative Matrix Factorization (NMF)`_  : Compares matrices based on their factorizations into non-negative components.
+46. `Non-negative Matrix Factorization (NMF)`_  : Compares matrices based on their factorizations into non-negative components.
 #. `Principal Component`_  : Measures the distance between two matrices by comparing their principal components (from PCA).
 
 
@@ -129,7 +129,7 @@ These methods are based on matrix factorizations like NMF (Non-negative Matrix F
 
 Spectral-based distances compare matrices by analyzing their spectral properties, such as eigenvalues or singular values. These distances are particularly effective for comparing matrices in fields such as graph theory or signal processing, where the structure and flow captured in matrix transformations are of interest.
 
-46. `SpectralNorm`_  : Compares matrices by calculating the largest singular value difference, capturing differences in matrix transformations.
+48. `SpectralNorm`_  : Compares matrices by calculating the largest singular value difference, capturing differences in matrix transformations.
 #. `Eigenvalue`_  : Measures the distance between the eigenvalue spectra of two matrices, often used in structural or network matrix comparisons.
 #. `NuclearNorm`_  : Uses the sum of the singular values of the matrix difference to capture differences in the overall structure and rank of the matrices.
 
