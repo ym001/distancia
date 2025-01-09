@@ -20,7 +20,9 @@ These distances compare two matrices by evaluating differences between correspon
 #. `Hamming`_  : Measures the number of positions where corresponding elements are different (binary matrices or categorical values).
 
 .. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
+.. _L2: https://distancia.readthedocs.io/en/latest/Euclidean.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _L1: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Chebyshev: https://distancia.readthedocs.io/en/latest/Chebyshev.html
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
 .. _Minkowski: https://distancia.readthedocs.io/en/latest/Minkowski.html
