@@ -158,3 +158,4 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _GraphletMatrixDistance: https://distancia.readthedocs.io/en/latest/GraphletMatrixDistance.html
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
+.. _Frobenius: https://distancia.readthedocs.io/en/latest/Frobenius.html
