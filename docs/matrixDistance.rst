@@ -160,5 +160,5 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 .. _OperatorNormCalculator: https://distancia.readthedocs.io/en/latest/OperatorNormCalculator.html
 .. _Frobenius: https://distancia.readthedocs.io/en/latest/Frobenius.html
-.. _Nuclear: https://distancia.readthedocs.io/en/latest/Nuclear.html
+.. _Nuclear: https://distancia.readthedocs.io/en/latest/NuclearNorm.html
 
