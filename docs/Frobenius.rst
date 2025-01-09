@@ -1,5 +1,5 @@
-FrobeniusDistance
-==================
+Frobenius
+=========
 
 Introduction
 ------------
