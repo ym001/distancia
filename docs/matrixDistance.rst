@@ -67,7 +67,7 @@ These methods rely on matrix decompositions like SVD or eigenvalue decomposition
 
 21. `Subspace`_  : Measures the distance between the subspaces spanned by two matrices, using singular value decomposition (SVD).
 #. `Canonical Correlation`_  : Compares matrices by measuring the correlation between their canonical variables.
-#. `Eigenvalue-Based`_  : Compares matrices based on the differences between their eigenvalues (often for symmetric matrices).
+
 
 **Information-Theoretic Distance**
 ---------------------------------
