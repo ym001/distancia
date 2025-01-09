@@ -32,7 +32,7 @@ These distances are based on matrix norms, which are generalizations of vector n
 
 6. `Frobenius`_  : Sum of the squares of the matrix elements, often used to compare the overall magnitude of two matrices.
 #. `Nuclear`_  : Sum of the singular values of the matrix, often used for comparing low-rank matrices.
-#. `Operator Norm`_  : Based on the largest singular value (spectral norm) of the difference between two matrices.
+#. `OperatorNormCalculator`_  : Based on the largest singular value (spectral norm) of the difference between two matrices.
 
 **Kernel-Based Distance**
 ------------------------
@@ -158,4 +158,7 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _GraphletMatrixDistance: https://distancia.readthedocs.io/en/latest/GraphletMatrixDistance.html
 .. _MinimumCutDistanceCalculator: https://distancia.readthedocs.io/en/latest/MinimumCutDistanceCalculator.html
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
+.. _OperatorNormCalculator: https://distancia.readthedocs.io/en/latest/OperatorNormCalculator.html
 .. _Frobenius: https://distancia.readthedocs.io/en/latest/Frobenius.html
+.. _Nuclear: https://distancia.readthedocs.io/en/latest/Nuclear.html
+
