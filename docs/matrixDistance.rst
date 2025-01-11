@@ -122,7 +122,7 @@ These methods compress the matrices and then compare their compressed versions.
 These methods are based on matrix factorizations like NMF (Non-negative Matrix Factorization) or PCA (Principal Component Analysis).
 
 46. `Non-negative Matrix Factorization (NMF)`_  : Compares matrices based on their factorizations into non-negative components.
-#. `Principal Component`_  : Measures the distance between two matrices by comparing their principal components (from PCA).
+#. `Principal Component Comparator`_  : Measures the distance between two matrices by comparing their principal components (from PCA).
 
 
 
@@ -161,7 +161,7 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Nuclear: https://distancia.readthedocs.io/en/latest/NuclearNorm.html
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 
-.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Principal Component Comparator: https://distancia.readthedocs.io/en/latest/PrincipalComponentComparator.html
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
