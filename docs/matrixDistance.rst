@@ -174,8 +174,7 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Kullback-Leibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 .. _Jensen-Shannon: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Log-Determinant Divergence: https://distancia.readthedocs.io/en/latest/LogDetDivergence.html
-.. _Graph Edit Distance
-: https://distancia.readthedocs.io/en/latest/GraphEditDistance
+.. _Graph Edit Distance: https://distancia.readthedocs.io/en/latest/GraphEditDistance
 .html
 
 
