@@ -114,7 +114,7 @@ These distances focus on comparing matrices that represent statistical propertie
 These methods compress the matrices and then compare their compressed versions.
 
 44. `Normalized Compression Distance (NCD)`_  : Uses compression algorithms (like zlib) to measure the complexity difference between two matrices.
-#. `Kolmogorov`_  : Measures the difference between the compressibility of two matrices by estimating their algorithmic complexity.
+#. `Kolmogorov Complexity`_  : Measures the difference between the compressibility of two matrices by estimating their algorithmic complexity.
 
 **Matrix Factorization-Based Distance**
 ---------------------------------------
@@ -163,6 +163,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 
 .. _Principal Component Comparator: https://distancia.readthedocs.io/en/latest/PrincipalComponentComparator.html
 .. _Non-negative Matrix Factorization Comparator: https://distancia.readthedocs.io/en/latest/NonnegativeMatrixFactorizationComparator.html
-.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
-.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Kolmogorov Complexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
+.. _Normalized Compression Distance (NCD): https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 
