@@ -57,7 +57,7 @@ These distances treat matrices as geometric objects and compute distances based 
 
 17. `Procrustes`_  : Measures the similarity between two matrices by finding the best alignment through rotation, scaling, and translation.
 #. `Hausdorff`_  : Measures the maximum distance of a point in one matrix to the closest point in the other matrix.
-#. `Earth Mover’s Distance`_  : Measures the minimum "cost" to transform one matrix into another, useful in distributions or spatial data.
+#. `Earth Mover s Distance`_  : Measures the minimum "cost" to transform one matrix into another, useful in distributions or spatial data.
 #. `TriangleMatrixDistance`_
 
 **Decomposition-Based Distance**
@@ -176,6 +176,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Log-Determinant Divergence: https://distancia.readthedocs.io/en/latest/LogDetDivergence.html
 .. _Graph Edit Distance: https://distancia.readthedocs.io/en/latest/GraphEditDistance
 .html
-.. _Earth Mover’s Distance: https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
+.. _Earth Mover s Distance: https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
 
 
