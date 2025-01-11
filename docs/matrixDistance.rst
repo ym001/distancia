@@ -161,3 +161,8 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Nuclear: https://distancia.readthedocs.io/en/latest/NuclearNorm.html
 .. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Bhattacharyya: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+
