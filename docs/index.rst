@@ -348,6 +348,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MarkovChainFrobenius`_
     - `MarkovChainSpectral`_
 
+
 .. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 .. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
 .. _MarkovChainWasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
