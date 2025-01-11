@@ -84,7 +84,7 @@ These methods compare matrices using concepts from information theory, often tre
 If matrices are adjacency matrices of graphs, specialized graph distances are used.
 
 27. `MatrixSpectral`_ : Compares matrices based on their eigenvalue spectra, often used for graph adjacency matrices.
-#. `Graph Edit`_  : Measures the number of edits (insertion, deletion, modification of edges/nodes) needed to transform one graph into another.
+#. `Graph Edit Distance`_  : Measures the number of edits (insertion, deletion, modification of edges/nodes) needed to transform one graph into another.
 #. `Resistance`_  : Based on electrical network theory, comparing the resistance of nodes between two graph adjacency matrices.
 #. `RandomWalk`_
 #. `GraphEditMatrix`_
@@ -174,6 +174,8 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Kullback-Leibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 .. _Jensen-Shannon: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Log-Determinant Divergence: https://distancia.readthedocs.io/en/latest/LogDetDivergence.html
-
+.. _Graph Edit Distance
+: https://distancia.readthedocs.io/en/latest/GraphEditDistance
+.html
 
 
