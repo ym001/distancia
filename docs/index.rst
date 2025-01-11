@@ -519,7 +519,7 @@ We welcome contributions! If you would like to contribute to **Distancia**, plea
    + `matrixDistance`_
    +  `textDistance`_
    +  `graphDistance`_
-   +  `MarkovChain Notebook`_
+   +  `MarkovChainDistance`_
    +  `Loss_function`_
    +  `distance`_
    +  `fileDistance`_
@@ -542,7 +542,7 @@ We welcome contributions! If you would like to contribute to **Distancia**, plea
 .. _imageDistance: https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb
 .. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
 .. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
-.. _MarkovChain Notebook: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
+.. _MarkovChainDistance: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 
 + `Examples`_
 
