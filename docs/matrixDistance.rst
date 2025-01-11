@@ -172,6 +172,7 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _MaxNorm: https://distancia.readthedocs.io/en/latest/MaxNorm.html
 .. _Hausdorff: https://distancia.readthedocs.io/en/latest/Hausdorff.html
 .. _Kullback-Leibler: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
+.. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 
 
 
