@@ -176,5 +176,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Log-Determinant Divergence: https://distancia.readthedocs.io/en/latest/LogDetDivergence.html
 .. _Graph Edit Distance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
 .. _Earth Mover s Distance: https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
+.. _Polynomial Kernel: https://distancia.readthedocs.io/en/latest/PolynomialKernel.html
 
 
