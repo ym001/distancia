@@ -166,4 +166,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Kolmogorov Complexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
 .. _Normalized Compression Distance (NCD): https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
 .. _Energy: https://distancia.readthedocs.io/en/latest/EnergyDistanceMatrix.html
+.. _SpectralNorm: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
+.. _Eigenvalue: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
 
