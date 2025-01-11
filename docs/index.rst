@@ -534,7 +534,6 @@ We welcome contributions! If you would like to contribute to **Distancia**, plea
 .. _matrixDistance: https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb
 .. _textDistance: https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb
 .. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
-.. _MarkovChain: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 .. _Loss_function: https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb
 .. _distance: https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb
 .. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
