@@ -349,6 +349,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MarkovChainSpectral`_
 
 .. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
+
 .. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
 .. _MarkovChainWasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
 .. _MarkovChainTotalVariation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
@@ -518,7 +519,7 @@ We welcome contributions! If you would like to contribute to **Distancia**, plea
    + `matrixDistance`_
    +  `textDistance`_
    +  `graphDistance`_
-   +  `MarkovChain`_
+   +  `MarkovChainDistance`_
    +  `Loss_function`_
    +  `distance`_
    +  `fileDistance`_
@@ -533,7 +534,6 @@ We welcome contributions! If you would like to contribute to **Distancia**, plea
 .. _matrixDistance: https://github.com/ym001/distancia/blob/master/notebook/matrixDistance.ipynb
 .. _textDistance: https://github.com/ym001/distancia/blob/master/notebook/textDistance.ipynb
 .. _graphDistance: https://github.com/ym001/distancia/blob/master/notebook/graphDistance.ipynb
-.. _MarkovChain: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 .. _Loss_function: https://github.com/ym001/distancia/blob/master/notebook/Loss_function.ipynb
 .. _distance: https://github.com/ym001/distancia/blob/master/notebook/distance.ipynb
 .. _fileDistance: https://github.com/ym001/distancia/blob/master/notebook/fileDistance.ipynb
@@ -542,6 +542,7 @@ We welcome contributions! If you would like to contribute to **Distancia**, plea
 .. _imageDistance: https://github.com/ym001/distancia/blob/master/notebook/imageDistance.ipynb
 .. _soundDistance: https://github.com/ym001/distancia/blob/master/notebook/soundDistance.ipynb
 .. _timeSeriesDistance: https://github.com/ym001/distancia/blob/master/notebook/timeSeriesDistance.ipynb
+.. _MarkovChainDistance: https://github.com/ym001/distancia/blob/master/notebook/MarkovChain.ipynb
 
 + `Examples`_
 
