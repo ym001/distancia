@@ -106,7 +106,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 *Available measurement type*
 -------------------
 
-.. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+.. _VECTOR: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Minkowski: https://distancia.readthedocs.io/en/latest/Minkowski.html
@@ -140,7 +140,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Otsuka: https://distancia.readthedocs.io/en/latest/Otsuka.html
 .. _Gestalt: https://distancia.readthedocs.io/en/latest/Gestalt.html
 
-.. _Matrix: https://distancia.readthedocs.io/en/latest/matrixDistance.html
+.. _MATRIX: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _Mahalanobis: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
 .. _MahalanobisTaguchi: https://distancia.readthedocs.io/en/latest/MahalanobisTaguchi.html
 .. _MatrixSpectral: https://distancia.readthedocs.io/en/latest/MatrixSpectral.html
@@ -160,7 +160,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Percolation: https://distancia.readthedocs.io/en/latest/Percolation.html
 
 
-.. _Text: https://distancia.readthedocs.io/en/latest/textDistance.html
+.. _TEXT: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
 .. _DamerauLevenshtein: https://distancia.readthedocs.io/en/latest/DamerauLevenshtein.html
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
@@ -192,7 +192,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 
 
-.. _Time: https://distancia.readthedocs.io/en/latest/timeDistance.html
+.. _TIME: https://distancia.readthedocs.io/en/latest/timeDistance.html
 .. _DynamicTimeWarping: https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
 .. _LongestCommonSubsequence: https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
@@ -230,7 +230,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `Otsuka`_ 
     - `Gestalt`_
 
-+ `Matrix`_
++ `MATRIX`_
 
 ..  - `Mahalanobis`_
     - `MahalanobisTaguchi`_
@@ -250,7 +250,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MinimumCutDistanceCalculator`_
     - `Percolation`_
 
-+ `Text`_
++ `TEXT`_
 
 ..  - `Levenshtein`_
     - `DamerauLevenshtein`_
@@ -285,14 +285,14 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. + 'statistics'
 ..    - `KendallTau`_
 
-+ `Time`_
++ `TIME`_
 
 ..  - `DynamicTimeWarping`_
     - `LongestCommonSubsequence`_
     - `Frechet`_
 
 
-+ `Loss`_
++ `LOSS`_
 
 ..  - `CrossEntropy`_
     - `MeanAbsoluteError`_
@@ -301,7 +301,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `SquaredLogarithmicError`_
     - `GaloisWassersteinLoss`_
 
-.. _Loss: https://distancia.readthedocs.io/en/latest/lossFunction.html
+.. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
 .. _CrossEntropy: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
 .. _MeanAbsoluteError: https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
 .. _MeanAbsolutePercentageError: https://distancia.readthedocs.io/en/latest/MeanAbsolutePercentageError.html
@@ -309,7 +309,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _SquaredLogarithmicError: https://distancia.readthedocs.io/en/latest/SquaredLogarithmicError.html
 .. _GaloisWassersteinLoss: https://distancia.readthedocs.io/en/latest/GaloisWassersteinLoss.html
 
-+ `Graph`_
++ `GRAPH`_
 
 ..  - `ShortestPath`_
     - `GraphEditDistance`_
@@ -324,7 +324,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `DegreeDistributionDistance`_
     - `CommunityStructureDistance`_
 
-.. _Graph: https://distancia.readthedocs.io/en/latest/graphDistance.html
+.. _GRAPH: https://distancia.readthedocs.io/en/latest/graphDistance.html
 .. _ShortestPath: https://distancia.readthedocs.io/en/latest/ShortestPath.html
 .. _GraphEditDistance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
 .. _SpectralDistance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
@@ -338,7 +338,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _DegreeDistributionDistance: https://distancia.readthedocs.io/en/latest/DegreeDistributionDistance.html
 .. _CommunityStructureDistance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 
-+ `MarkovChaine`_
++ `MARKOVCHAIN`_
 
 ..  - `MarkovChainKullbackLeibler`_
     - `MarkovChainWasserstein`_
@@ -348,7 +348,7 @@ For a complete list and detailed explanations of each metric, see the next secti
     - `MarkovChainFrobenius`_
     - `MarkovChainSpectral`_
 
-.. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
+.. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
 .. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
 .. _MarkovChainWasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
 .. _MarkovChainTotalVariation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
@@ -357,17 +357,17 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _MarkovChainFrobenius: https://distancia.readthedocs.io/en/latest/MarkovChainFrobenius.html
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 
-+ `Image`_
++ `IMAGE`_
 
-.. _Image: https://distancia.readthedocs.io/en/latest/imageDistance.html
+.. _IMAGE: https://distancia.readthedocs.io/en/latest/imageDistance.html
 
-+ `Sound`_
++ `SOUND`_
 
-.. _Sound: https://distancia.readthedocs.io/en/latest/soundDistance.html
+.. _SOUND: https://distancia.readthedocs.io/en/latest/soundDistance.html
 
-+ `File`_
++ `FILE`_
 
-.. _File: https://distancia.readthedocs.io/en/latest/fileDistance.html
+.. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 And many more...
 
