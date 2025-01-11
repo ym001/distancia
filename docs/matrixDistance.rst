@@ -55,7 +55,7 @@ These methods compute distances between matrices using kernels, which map matric
 
 These distances treat matrices as geometric objects and compute distances based on their structure.
 
-17. `Procrustes`_  : Measures the similarity between two matrices by finding the best alignment through rotation, scaling, and translation.
+17. `Procrustes Distance`_  : Measures the similarity between two matrices by finding the best alignment through rotation, scaling, and translation.
 #. `Hausdorff`_  : Measures the maximum distance of a point in one matrix to the closest point in the other matrix.
 #. `Earth Mover s Distance`_  : Measures the minimum "cost" to transform one matrix into another, useful in distributions or spatial data.
 #. `TriangleMatrixDistance`_
@@ -181,5 +181,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _RBF (Radial Basis Function): https://distancia.readthedocs.io/en/latest/RadialBasisFunction.html
 .. _Subspace Distance: https://distancia.readthedocs.io/en/latest/SubspaceDistance.html
 .. _ResistanceDistance: https://distancia.readthedocs.io/en/latest/ResistanceDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
 
 
