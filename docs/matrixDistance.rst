@@ -85,7 +85,7 @@ If matrices are adjacency matrices of graphs, specialized graph distances are us
 
 27. `MatrixSpectral`_ : Compares matrices based on their eigenvalue spectra, often used for graph adjacency matrices.
 #. `Graph Edit Distance`_  : Measures the number of edits (insertion, deletion, modification of edges/nodes) needed to transform one graph into another.
-#. `Resistance`_  : Based on electrical network theory, comparing the resistance of nodes between two graph adjacency matrices.
+#. `ResistanceDistance`_  : Based on electrical network theory, comparing the resistance of nodes between two graph adjacency matrices.
 #. `RandomWalk`_
 #. `GraphEditMatrix`_
 #. `PatternBased`_
@@ -180,5 +180,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Canonical Correlation Analysis: https://distancia.readthedocs.io/en/latest/CanonicalCorrelationAnalysis.html
 .. _RBF (Radial Basis Function): https://distancia.readthedocs.io/en/latest/RadialBasisFunction.html
 .. _Subspace Distance: https://distancia.readthedocs.io/en/latest/SubspaceDistance.html
+.. _ResistanceDistance: https://distancia.readthedocs.io/en/latest/ResistanceDistance.html
 
 
