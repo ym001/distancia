@@ -169,4 +169,5 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _SpectralNorm: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
 .. _Eigenvalue: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
 .. _Gaussian Kernel: https://distancia.readthedocs.io/en/latest/GaussianKernel.html
+.. _MaxNorm: https://distancia.readthedocs.io/en/latest/MaxNorm.html
 
