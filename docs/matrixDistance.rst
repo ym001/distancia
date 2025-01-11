@@ -164,5 +164,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Principal Component Comparator: https://distancia.readthedocs.io/en/latest/PrincipalComponentComparator.html
 .. _Non-negative Matrix Factorization Comparator: https://distancia.readthedocs.io/en/latest/NonnegativeMatrixFactorizationComparator.html
 .. _Kolmogorov Complexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
-.. _Normalized Compression Distance (NCD): https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Normalized Compression Distance (NCD): https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
+.. _Energy: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
 
