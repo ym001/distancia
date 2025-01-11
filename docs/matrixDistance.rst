@@ -178,5 +178,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Earth Mover s Distance: https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
 .. _Polynomial Kernel: https://distancia.readthedocs.io/en/latest/PolynomialKernel.html
 .. _Canonical Correlation Analysis: https://distancia.readthedocs.io/en/latest/CanonicalCorrelationAnalysis.html
+.. _RBF (Radial Basis Function): https://distancia.readthedocs.io/en/latest/RadialBasisFunction.html
 
 
