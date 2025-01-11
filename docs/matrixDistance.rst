@@ -66,7 +66,7 @@ These distances treat matrices as geometric objects and compute distances based 
 These methods rely on matrix decompositions like SVD or eigenvalue decompositions.
 
 21. `Subspace`_  : Measures the distance between the subspaces spanned by two matrices, using singular value decomposition (SVD).
-#. `Canonical Correlation`_  : Compares matrices by measuring the correlation between their canonical variables.
+#. `Canonical Correlation Analysis`_  : Compares matrices by measuring the correlation between their canonical variables.
 
 
 **Information-Theoretic Distance**
@@ -177,5 +177,6 @@ The diverse set of matrix distance measures provided by **Distancia** allows for
 .. _Graph Edit Distance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
 .. _Earth Mover s Distance: https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
 .. _Polynomial Kernel: https://distancia.readthedocs.io/en/latest/PolynomialKernel.html
+.. _Canonical Correlation Analysis: https://distancia.readthedocs.io/en/latest/CanonicalCorrelationAnalysis.html
 
 
