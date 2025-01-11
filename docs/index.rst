@@ -103,7 +103,7 @@ Here are some common examples of how to use **Distancia**:
 
 For a complete list and detailed explanations of each metric, see the next section.
 
-*Available Metrics*
+*Available measurement type*
 -------------------
 
 .. _Vector: https://distancia.readthedocs.io/en/latest/vectorDistance.html
@@ -197,7 +197,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _LongestCommonSubsequence: https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
 .. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
 
-+ `Vector`_ 
++ `VECTOR`_ 
 
 ..  - `Euclidean`_
     - `Manhattan`_ 
