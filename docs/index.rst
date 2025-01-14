@@ -27,7 +27,7 @@ The documentation is divided into the following sections:
 
 For a quick introduction, check out the `quickstart`_ guide. If you want to dive straight into the code, head over to the `Euclidean`_ page.
 
-.. quickstart: https://distancia.readthedocs.io/en/latest/quickstart.html
+.. _quickstart: https://distancia.readthedocs.io/en/latest/quickstart.html
 
 .. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 
