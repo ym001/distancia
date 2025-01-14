@@ -104,7 +104,7 @@ Here are some common examples of how to use **Distancia**:
 For a complete list and detailed explanations of each metric, see the next section.
 
 *Available measurement type*
--------------------
+----------------------------
 
 .. _VECTOR: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 
