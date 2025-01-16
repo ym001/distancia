@@ -5,7 +5,7 @@ This section outlines a comprehensive list of distance measures designed for com
 
 Basic Statistical Distances
 -------------------------------
-#. `Euclidean Dsiatnce`_:
+#. `Euclidean Distance`_:
    Measures the straight-line distance between two time series of equal length. Assumes synchronized time points.
 #. **Manhattan Distance**:
    Computes the sum of absolute differences between corresponding points in two time series.
