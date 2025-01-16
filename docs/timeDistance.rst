@@ -128,13 +128,13 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Edit Distance on Real Sequences (EDR): https://distancia.readthedocs.io/en/latest/.html
 .. _Time Warp Edit Distance (TWED): https://distancia.readthedocs.io/en/latest/.html
 .. _Shape-Based Distance (SBD): https://distancia.readthedocs.io/en/latest/.html
-.. _Hausdorff Distance: https://distancia.readthedocs.io/en/latest/.html
-.. _Fréchet Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Hausdorff Distance: https://distancia.readthedocs.io/en/latest/Hausdorff.html
+.. _Fréchet Distance: https://distancia.readthedocs.io/en/latest/_Frechet.html
 .. _Spectral Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Fourier Transform Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Wavelet-Based Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Derivative Dynamic Time Warping (DDTW): https://distancia.readthedocs.io/en/latest/.html
-.. _Longest Common Subsequence (LCSS): https://distancia.readthedocs.io/en/latest/.html
+.. _Longest Common Subsequence (LCSS): https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
 .. _Piecewise Aggregate Approximation (PAA) Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Symbolic Aggregate Approximation (SAX) Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Hidden Markov Model (HMM) Distance: https://distancia.readthedocs.io/en/latest/.html
