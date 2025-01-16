@@ -119,38 +119,38 @@ This exhaustive list highlights the diversity of distance measures for time seri
 
 
 .. _Euclidean Distance: https://distancia.readthedocs.io/en/latest/Euclidean.html
-.. _Manhattan Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Chebyshev Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Correlation Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _FastDTW: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Edit Distance with Real Penalty (ERP): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Edit Distance on Real Sequences (EDR): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Time Warp Edit Distance (TWED): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Shape-Based Distance (SBD): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Hausdorff Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Fréchet Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Spectral Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Fourier Transform Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Wavelet-Based Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Derivative Dynamic Time Warping (DDTW): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Longest Common Subsequence (LCSS): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Piecewise Aggregate Approximation (PAA) Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Symbolic Aggregate Approximation (SAX) Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Hidden Markov Model (HMM) Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Autoregressive Model Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Dynamic Bayesian Network Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Soft-DTW: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Global Alignment Kernel (GAK): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Move-Split-Merge (MSM) Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Jensen-Shannon Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Permutation Entropy Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Cross-Entropy Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Self-Organizing Map (SOM) Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Isolation Forest Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Cluster Membership Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Earth Mover’s Distance (EMD): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Mahalanobis Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
-.. _Cosine Similarity (as Distance): https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Manhattan Distance: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _Chebyshev Distance: https://distancia.readthedocs.io/en/latest/Chebyshev.html
+.. _Correlation Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/.html
+.. _FastDTW: https://distancia.readthedocs.io/en/latest/.html
+.. _Edit Distance with Real Penalty (ERP): https://distancia.readthedocs.io/en/latest/.html
+.. _Edit Distance on Real Sequences (EDR): https://distancia.readthedocs.io/en/latest/.html
+.. _Time Warp Edit Distance (TWED): https://distancia.readthedocs.io/en/latest/.html
+.. _Shape-Based Distance (SBD): https://distancia.readthedocs.io/en/latest/.html
+.. _Hausdorff Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Fréchet Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Spectral Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Fourier Transform Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Wavelet-Based Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Derivative Dynamic Time Warping (DDTW): https://distancia.readthedocs.io/en/latest/.html
+.. _Longest Common Subsequence (LCSS): https://distancia.readthedocs.io/en/latest/.html
+.. _Piecewise Aggregate Approximation (PAA) Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Symbolic Aggregate Approximation (SAX) Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Hidden Markov Model (HMM) Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Autoregressive Model Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Dynamic Bayesian Network Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Soft-DTW: https://distancia.readthedocs.io/en/latest/.html
+.. _Global Alignment Kernel (GAK): https://distancia.readthedocs.io/en/latest/.html
+.. _Move-Split-Merge (MSM) Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/.html
+.. _Jensen-Shannon Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Permutation Entropy Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Cross-Entropy Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Self-Organizing Map (SOM) Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Isolation Forest Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Cluster Membership Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Earth Mover’s Distance (EMD): https://distancia.readthedocs.io/en/latest/.html
+.. _Mahalanobis Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Cosine Similarity (as Distance): https://distancia.readthedocs.io/en/latest/.html
 
