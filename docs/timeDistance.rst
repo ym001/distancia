@@ -150,7 +150,7 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Self-Organizing Map (SOM) Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Isolation Forest Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Cluster Membership Distance: https://distancia.readthedocs.io/en/latest/.html
-.. _Earth Mover’s Distance (EMD): https://distancia.readthedocs.io/en/latest/.html
+.. _Earth Mover’s Distance (EMD): https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
 .. _Mahalanobis Distance: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
 .. _Cosine Similarity (as Distance): https://distancia.readthedocs.io/en/latest/Cosine.html
 
