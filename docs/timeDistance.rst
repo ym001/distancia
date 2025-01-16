@@ -116,3 +116,65 @@ Other Specialized Measures
 
 **Conclusion**
 This exhaustive list highlights the diversity of distance measures for time series analysis. Each measure has specific strengths and limitations, making them suitable for different types of datasets and applications.
+
+
+.. _Euclidean Distance: https://distancia.readthedocs.io/en/latest/Euclidean.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+.. _Procrustes Distance: https://distancia.readthedocs.io/en/latest/ProcrustesDistance.html
+
