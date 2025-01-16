@@ -144,13 +144,13 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Global Alignment Kernel (GAK): https://distancia.readthedocs.io/en/latest/.html
 .. _Move-Split-Merge (MSM) Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
-.. _Jensen-Shannon Distance: https://distancia.readthedocs.io/en/latest/JensenShannon.html
+.. _Jensen-Shannon Distance: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Permutation Entropy Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Cross-Entropy Distance: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
 .. _Self-Organizing Map (SOM) Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Isolation Forest Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Cluster Membership Distance: https://distancia.readthedocs.io/en/latest/.html
 .. _Earth Mover’s Distance (EMD): https://distancia.readthedocs.io/en/latest/.html
-.. _Mahalanobis Distance: https://distancia.readthedocs.io/en/latest/.html
-.. _Cosine Similarity (as Distance): https://distancia.readthedocs.io/en/latest/.html
+.. _Mahalanobis Distance: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
+.. _Cosine Similarity (as Distance): https://distancia.readthedocs.io/en/latest/Cosine.html
 
