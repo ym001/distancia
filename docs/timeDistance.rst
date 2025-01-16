@@ -17,7 +17,7 @@ Basic Statistical Distances
 Dynamic Programming-Based Distances
 -------------------------------
 
-#. `Dynamic Time Warping (DTW)`_:
+5. `Dynamic Time Warping (DTW)`_:
    Aligns two time series by allowing non-linear mapping of time, minimizing the overall distance.
 #. `FastDTW`_:
    A computationally efficient approximation of DTW, useful for large-scale datasets.
@@ -31,7 +31,7 @@ Dynamic Programming-Based Distances
 Shape-Based Distances
 -------------------------------
 
-#. `Shape-Based Distance (SBD)`_:
+10. `Shape-Based Distance (SBD)`_:
     Uses normalized cross-correlation to compare the overall shape of two time series.
 #. `Hausdorff Distance`_:
    Measures the similarity between two sets of points, considering the worst-case deviation.
@@ -41,7 +41,7 @@ Shape-Based Distances
 Frequency-Based Distances
 -------------------------------
 
-#. `Spectral Distance`_:
+13. `Spectral Distance`_:
     Compares the frequency spectra of two time series, focusing on periodicity and frequency content.
 #. `Fourier Transform Distance`_:
    Measures similarity in the frequency domain using transformed time series data.
@@ -51,7 +51,7 @@ Frequency-Based Distances
 Feature-Based Distances
 -------------------------------
 
-#. `Derivative Dynamic Time Warping (DDTW)`_:
+16. `Derivative Dynamic Time Warping (DDTW)`_:
     Extends DTW to use the first derivatives of the time series, emphasizing shape similarity.
 #. `Longest Common Subsequence (LCSS)`_:
    Identifies the longest shared subsequence between two time series, allowing for gaps.
@@ -63,7 +63,7 @@ Feature-Based Distances
 Model-Based Distances
 -------------------------------
 
-#. `Hidden Markov Model (HMM) Distance`_:
+20. `Hidden Markov Model (HMM) Distance`_:
     Measures the similarity between time series using fitted HMM parameters.
 #. `Autoregressive Model Distance`_:
    Compares the parameters of autoregressive models fitted to the time series.
@@ -73,7 +73,7 @@ Model-Based Distances
 Elastic Distances
 -------------------------------
 
-#. `Soft-DTW`_:
+23. `Soft-DTW`_:
     A differentiable version of DTW, useful for optimization-based methods like deep learning.
 #. `Global Alignment Kernel (GAK)`_:
    Combines DTW alignment with a kernel-based similarity measure.
@@ -83,7 +83,7 @@ Elastic Distances
 Entropy-Based and Information-Theoretic Distances
 -------------------------------
 
-#. `Kullback-Leibler (KL) Divergence`_:
+26. `Kullback-Leibler (KL) Divergence`_:
     Measures the difference between probability distributions of two time series.
 #. `Jensen-Shannon Distance`_:
    A symmetric variant of KL divergence, emphasizing shared information.
@@ -95,7 +95,7 @@ Entropy-Based and Information-Theoretic Distances
 Clustering and Anomaly-Specific Distances
 -------------------------------
 
-#. `Self-Organizing Map (SOM) Distance`_:
+20. `Self-Organizing Map (SOM) Distance`_:
     Uses SOM embeddings for clustering similar time series.
 #. `Isolation Forest Distance`_:
    Leverages anomaly detection techniques to compare series.
@@ -105,7 +105,7 @@ Clustering and Anomaly-Specific Distances
 Other Specialized Measures
 -------------------------------
 
-#. `Earth Mover’s Distance (EMD)`_:
+32. `Earth Mover’s Distance (EMD)`_:
     Measures the effort needed to transform one time series distribution into another.
 #. `Mahalanobis Distance`_:
    Incorporates covariance structure for multivariate time series.
