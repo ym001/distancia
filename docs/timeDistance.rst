@@ -95,7 +95,7 @@ Entropy-Based and Information-Theoretic Distances
 Clustering and Anomaly-Specific Distances
 -------------------------------
 
-20. `Self-Organizing Map (SOM) Distance`_:
+30. `Self-Organizing Map (SOM) Distance`_:
     Uses SOM embeddings for clustering similar time series.
 #. `Isolation Forest Distance`_:
    Leverages anomaly detection techniques to compare series.
@@ -105,7 +105,7 @@ Clustering and Anomaly-Specific Distances
 Other Specialized Measures
 -------------------------------
 
-32. `Earth Mover’s Distance (EMD)`_:
+33. `Earth Mover’s Distance (EMD)`_:
     Measures the effort needed to transform one time series distribution into another.
 #. `Mahalanobis Distance`_:
    Incorporates covariance structure for multivariate time series.
