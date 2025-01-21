@@ -130,7 +130,7 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Shape-Based Distance (SBD): https://distancia.readthedocs.io/en/latest/ShapeBasedDistance.html
 .. _Hausdorff Distance: https://distancia.readthedocs.io/en/latest/Hausdorff.html
 .. _Fréchet Distance: https://distancia.readthedocs.io/en/latest/Frechet.html
-.. _Spectral Distance: https://distancia.readthedocs.io/en/latest/Spectral Distance.html
+.. _Spectral Distance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
 .. _Fourier Transform Distance: https://distancia.readthedocs.io/en/latest/FourierTransformDistance.html
 .. _Wavelet-Based Distance: https://distancia.readthedocs.io/en/latest/WaveletBasedDistance.html
 .. _Derivative Dynamic Time Warping (DDTW): https://distancia.readthedocs.io/en/latest/DerivativeDynamicTimeWarping.html
