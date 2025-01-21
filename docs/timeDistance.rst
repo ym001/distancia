@@ -124,7 +124,7 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Correlation Distance: https://distancia.readthedocs.io/en/latest/CorrelationDistance.html
 .. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
 .. _FastDTW: https://distancia.readthedocs.io/en/latest/FastDTW.html
-.. _Edit Distance with Real Penalty (ERP): https://distancia.readthedocs.io/en/latest/Edit DistancewithRealPenalty.html
+.. _Edit Distance with Real Penalty (ERP): https://distancia.readthedocs.io/en/latest/EditDistancewithRealPenalty.html
 .. _Edit Distance on Real Sequences (EDR): https://distancia.readthedocs.io/en/latest/EditDistance.html
 .. _Time Warp Edit Distance (TWED): https://distancia.readthedocs.io/en/latest/TimeWarpEditDistance.html
 .. _Shape-Based Distance (SBD): https://distancia.readthedocs.io/en/latest/ShapeBasedDistance.html
