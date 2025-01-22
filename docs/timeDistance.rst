@@ -142,7 +142,7 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Dynamic Bayesian Network Distance: https://distancia.readthedocs.io/en/latest/DynamicBayesianNetworkDistance.html
 .. _Soft-DTW: https://distancia.readthedocs.io/en/latest/SoftDynamicTimeWarpingDistance.html
 .. _Global Alignment Kernel (GAK): https://distancia.readthedocs.io/en/latest/GlobalAlignmentKernelDistance.html
-.. _Move-Split-Merge (MSM) Distance: https://distancia.readthedocs.io/en/latest/MoveSplitMerge.html
+.. _Move-Split-Merge (MSM) Distance: https://distancia.readthedocs.io/en/latest/MoveSplitMergeDistance.html
 .. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 .. _Jensen-Shannon Distance: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Permutation Entropy Distance: https://distancia.readthedocs.io/en/latest/PermutationEntropyDistance.html
