@@ -140,7 +140,7 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Hidden Markov Model (HMM) Distance: https://distancia.readthedocs.io/en/latest/HiddenMarkovModel.html
 .. _Autoregressive Model Distance: https://distancia.readthedocs.io/en/latest/AutoregressiveDistance.html
 .. _Dynamic Bayesian Network Distance: https://distancia.readthedocs.io/en/latest/DynamicBayesianNetworkDistance.html
-.. _Soft-DTW: https://distancia.readthedocs.io/en/latest/SoftDTW.html
+.. _Soft-DTW: https://distancia.readthedocs.io/en/latest/SoftDynamicTimeWarpingDistance.html
 .. _Global Alignment Kernel (GAK): https://distancia.readthedocs.io/en/latest/GlobalAlignmentKernel.html
 .. _Move-Split-Merge (MSM) Distance: https://distancia.readthedocs.io/en/latest/MoveSplitMerge.html
 .. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
