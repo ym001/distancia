@@ -107,13 +107,15 @@ For a complete list and detailed explanations of each metric, see the next secti
 ----------------------------
 
 .. _VECTOR: https://distancia.readthedocs.io/en/latest/vectorDistance.html
-
 .. _MATRIX: https://distancia.readthedocs.io/en/latest/matrixDistance.html
-
 .. _TEXT: https://distancia.readthedocs.io/en/latest/textDistance.html
-
 .. _TIME: https://distancia.readthedocs.io/en/latest/timeDistance.html
-
+.. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
+.. _GRAPH: https://distancia.readthedocs.io/en/latest/graphDistance.html
+.. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
+.. _IMAGE: https://distancia.readthedocs.io/en/latest/imageDistance.html
+.. _SOUND: https://distancia.readthedocs.io/en/latest/soundDistance.html
+.. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 + `VECTOR`_ 
 
@@ -125,27 +127,16 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 + `LOSS`_
 
-.. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
-
 + `GRAPH`_
-
-.. _GRAPH: https://distancia.readthedocs.io/en/latest/graphDistance.html
 
 + `MARKOVCHAIN`_
 
-.. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
-
 + `IMAGE`_
-
-.. _IMAGE: https://distancia.readthedocs.io/en/latest/imageDistance.html
 
 + `SOUND`_
 
-.. _SOUND: https://distancia.readthedocs.io/en/latest/soundDistance.html
-
 + `FILE`_
 
-.. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 And many more...
 
