@@ -147,7 +147,7 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Jensen-Shannon Distance: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Permutation Entropy Distance: https://distancia.readthedocs.io/en/latest/PermutationEntropyDistance.html
 .. _Cross-Entropy Distance: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
-.. _Self-Organizing Map (SOM) Distance: https://distancia.readthedocs.io/en/latest/SelfOrganizingMap.html
+.. _Self-Organizing Map (SOM) Distance: https://distancia.readthedocs.io/en/latest/SelfOrganizingMapDistance.html
 .. _Isolation Forest Distance: https://distancia.readthedocs.io/en/latest/IsolationForestDistance.html
 .. _Cluster Membership Distance: https://distancia.readthedocs.io/en/latest/ClusterMembershipDistance.html
 .. _Earth Mover’s Distance (EMD): https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
