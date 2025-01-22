@@ -138,7 +138,7 @@ This exhaustive list highlights the diversity of distance measures for time seri
 .. _Piecewise Aggregate Approximation (PAA) Distance: https://distancia.readthedocs.io/en/latest/PiecewiseAggregateApproximation.html
 .. _Symbolic Aggregate Approximation (SAX) Distance: https://distancia.readthedocs.io/en/latest/SymbolicAggregateApproximation.html
 .. _Hidden Markov Model (HMM) Distance: https://distancia.readthedocs.io/en/latest/HiddenMarkovModel.html
-.. _Autoregressive Model Distance: https://distancia.readthedocs.io/en/latest/AutoregressiveModelDistance.html
+.. _Autoregressive Model Distance: https://distancia.readthedocs.io/en/latest/AutoregressiveDistance.html
 .. _Dynamic Bayesian Network Distance: https://distancia.readthedocs.io/en/latest/DynamicBayesianNetworkDistance.html
 .. _Soft-DTW: https://distancia.readthedocs.io/en/latest/SoftDTW.html
 .. _Global Alignment Kernel (GAK): https://distancia.readthedocs.io/en/latest/GlobalAlignmentKernel.html
