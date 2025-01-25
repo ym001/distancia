@@ -1,3 +1,4 @@
+.. _huber-loss-probability:
 
 ===========================================================
 Huber Loss for Probabilistic Time Series Distance Measurement
