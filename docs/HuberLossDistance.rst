@@ -1,16 +1,7 @@
-.. _huber-loss-probability:
 
 ===========================================================
 Huber Loss for Probabilistic Time Series Distance Measurement
 ===========================================================
-
-:Author: Distancia Package Team
-:Version: 1.0.0
-:Date: |today|
-
-.. contents:: Table of Contents
-   :depth: 3
-   :local:
 
 Introduction
 ------------
