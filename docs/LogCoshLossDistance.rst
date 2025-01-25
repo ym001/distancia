@@ -1,7 +1,7 @@
 .. _log-cosh-loss-probability:
 
 ===========================================================
-Log-Cosh Loss for Probabilistic Time Series Distance Measurement
+Log-Cosh Loss for Probabilistic Distance Measurement
 ===========================================================
 
 Introduction
