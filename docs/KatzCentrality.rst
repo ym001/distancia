@@ -49,18 +49,24 @@ Implementation
     from distancia import KatzCentrality
 
     # Initialize calculator
-    calculator = KatzCentrality()
+    calculator = KatzCentrality( alpha=0.1, beta=1.0)
 
     # Example graph
-    graph = {
+    graph1 = {
         'A': {'B': 1.0, 'C': 2.0},
         'B': {'C': 1.5, 'D': 1.0},
         'C': {'D': 2.0},
         'D': {}
     }
+    graph2 = {
+        'A': {'B': 1.0, 'C': 2.0},
+        'B': {'C': 1.5, 'D': 1.0},
+        'C': {'D': 3.0},
+        'D': {}
+    }
 
     # Calculate Katz centrality
-    centrality = calculator.compute(graph, alpha=0.1, beta=1.0)
+    centrality = calculator.compute(graph1,graph2)
 
 Complexity Analysis
 -----------------
