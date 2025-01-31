@@ -60,7 +60,7 @@ Implementation
     }
 
     # Calculate Katz centrality
-    centrality = calculator.calculate(graph, alpha=0.1, beta=1.0)
+    centrality = calculator.compute(graph, alpha=0.1, beta=1.0)
 
 Complexity Analysis
 -----------------
