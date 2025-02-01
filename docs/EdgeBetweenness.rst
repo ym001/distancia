@@ -1,56 +1,53 @@
+===================================
 Edge Betweenness Distance
-=========================
+===================================
 
 Introduction
-------------
+-----------
+Edge betweenness distance is a graph similarity metric that quantifies the structural difference between two graphs by comparing the edge betweenness centrality distributions. Edge betweenness centrality measures the importance of edges in a network by counting the number of shortest paths passing through each edge. This distance metric is particularly useful in analyzing how information flows differently between two network structures.
 
-The **Edge Betweenness Distance** is a graph similarity measure that evaluates the structural difference between two graphs based on **edge betweenness centrality**. Edge betweenness measures the number of shortest paths that traverse a given edge. This metric provides insight into how edges contribute to information flow and connectivity within a network. Comparing graphs using this measure allows for a nuanced understanding of their topological differences.
+Formal Definition
+---------------
+For two graphs G1 and G2, the edge betweenness distance is computed by:
 
-Definition and Formalism
+Let eb(e) be the edge betweenness centrality of edge e
+Let EB(G) be the normalized distribution of edge betweenness values for graph G
+
+The distance is defined as:
+
+D(G1, G2) = ||EB(G1) - EB(G2)||
+
+where ||·|| represents a suitable norm (typically L1 or L2) between the distributions.
+
+Intuition and Significance
 ------------------------
+The edge betweenness distance captures differences in:
+* Network flow patterns
+* Critical communication pathways
+* Load distribution across network edges
+* Structural bottlenecks
 
-Given a graph \( G = (V, E) \), the **edge betweenness centrality** of an edge \( e \in E \) is defined as:
-
-\[
-EB(e) = \sum_{s \neq t} \frac{\sigma_{s,t}(e)}{\sigma_{s,t}}
-\]
-
-where:
-- \( \sigma_{s,t} \) is the total number of shortest paths between nodes \( s \) and \( t \),
-- \( \sigma_{s,t}(e) \) is the number of those shortest paths that pass through edge \( e \).
-
-To compare two graphs \( G_1 \) and \( G_2 \), the **Edge Betweenness Distance** is computed as:
-
-\[
-D_{EB}(G_1, G_2) = \sum_{e \in E} |EB_{G_1}(e) - EB_{G_2}(e)|
-\]
-
-where \( EB_{G_1}(e) \) and \( EB_{G_2}(e) \) are the edge betweenness values of edge \( e \) in graphs \( G_1 \) and \( G_2 \), respectively.
+This makes it particularly valuable for:
+* Comparing information flow in social networks
+* Analyzing changes in transportation networks
+* Detecting structural similarities in biological networks
 
 Computational Complexity
--------------------------
+----------------------
+The computational complexity is dominated by the edge betweenness calculation:
+* O(|V||E|) for unweighted graphs
+* O(|V||E| + |V|^2 log|V|) for weighted graphs
 
-Computing **edge betweenness centrality** for a single edge requires computing shortest paths between all pairs of nodes. Using **Brandes' algorithm**, the complexity for a graph with \( n \) nodes and \( m \) edges is:
+where |V| is the number of vertices and |E| is the number of edges.
 
-\[
-O(nm)
-\]
-
-Thus, computing the **Edge Betweenness Distance** for two graphs requires **O(nm)** operations per graph, making it feasible for moderate-sized networks but expensive for large-scale applications.
-
-Academic Reference
--------------------
-
-This measure is inspired by the **Edge Betweenness Centrality** introduced by:
-
-L. C. Freeman, "A Set of Measures of Centrality Based on Betweenness," *Sociometry*, vol. 40, no. 1, pp. 35–41, 1977.
-
-For an application of edge betweenness in graph comparison, see:
-
-M. Girvan and M. E. J. Newman, "Community structure in social and biological networks," *PNAS*, vol. 99, no. 12, pp. 7821–7826, 2002.
+Academic References
+-----------------
+1. Freeman, L.C. (1977). "A set of measures of centrality based on betweenness." Sociometry, 40(1), 35-41.
+2. Girvan, M., & Newman, M. E. J. (2002). "Community structure in social and biological networks." Proceedings of the National Academy of Sciences, 99(12), 7821-7826.
+3. Brandes, U. (2001). "A faster algorithm for betweenness centrality." Journal of Mathematical Sociology, 25(2), 163-177.
 
 Conclusion
-----------
+---------
+Edge betweenness distance provides a sophisticated way to compare graph structures by focusing on the role of edges in facilitating network flow. While computationally intensive, it offers valuable insights into structural similarities and differences between networks, particularly in cases where the pattern of information flow is of primary interest.
 
-The **Edge Betweenness Distance** provides a powerful way to compare graph structures by leveraging the importance of edges in shortest-path routing. While computationally intensive, it is particularly useful in network analysis, bioinformatics, and social network studies. Future optimizations, such as approximating shortest paths, could improve its scalability.
-
+The metric is especially powerful when combined with other graph distance measures to provide a comprehensive view of network similarity.
