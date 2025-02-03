@@ -118,8 +118,56 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 + `VECTOR`_ 
+.. _distance_measures:
+
+Vector Distance Measures
+========================
+
+Distance measures between vectors are essential in machine learning, classification, and information retrieval. Here are five of the most commonly used:
+
+1. **Euclidean Distance**  
+   The Euclidean distance is the square root of the sum of the squared differences between the coordinates of two vectors. It is ideal for measuring similarity in geometric spaces.
+
+2. **Manhattan Distance**  
+   Also known as L1 distance, it is defined as the sum of the absolute differences between the coordinates of the vectors. It is well-suited for discrete spaces and grid-based environments.
+
+3. **Cosine Distance**  
+   It measures the angle between two vectors rather than their absolute distance. Commonly used in natural language processing and information retrieval (e.g., search engines).
+
+4. **Jaccard Distance**  
+   Based on the ratio of the intersection to the union of sets, it is effective for comparing sets of words, tags, or recommended items.
+
+5. **Hamming Distance**  
+   It counts the number of differing positions between two character or binary sequences. It is widely used in error detection and bioinformatics.
+
+.. note::  
+   These distance measures are widely used in various algorithms, including **clustering**, **supervised classification**, and **search engines**.
 
 + `MATRIX`_
+.. _matrix_distance_measures:
+
+Matrix Distance Measures
+========================
+
+Distance measures between matrices are widely used in **machine learning, image processing, and numerical analysis**. Below are five of the most commonly used:
+
+1. **Frobenius Norm**  
+   The Frobenius norm is the square root of the sum of the squared elements of the difference between two matrices. It generalizes the Euclidean distance to matrices and is commonly used in optimization problems.
+
+2. **Spectral Norm**  
+   Defined as the largest singular value of the difference between two matrices, the spectral norm is useful for analyzing stability in numerical methods.
+
+3. **Trace Norm (Nuclear Norm)**  
+   This norm is the sum of the singular values of the difference between matrices. It is often used in low-rank approximation and compressed sensing.
+
+4. **Mahalanobis Distance**  
+   A statistical distance measure that considers correlations between features, making it effective in **multivariate anomaly detection and classification**.
+
+5. **Wasserstein Distance (Earth Mover’s Distance)**  
+   This metric quantifies the optimal transport cost between two probability distributions, making it highly relevant in **image processing and deep learning**.
+
+.. note::  
+   These distance measures are widely applied in fields such as **computer vision, data clustering, and signal processing**.
 
 + `TEXT`_
 
