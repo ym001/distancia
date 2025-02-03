@@ -3,7 +3,7 @@
 
 
    :keywords: data science machine learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image classification nlp machine learning loss functions distancia
-   :keywords lang=en: machine learning, image processing, optimization
+   :keywords lang=en: machine learning, image processing, optimization,text similarity, NLP, search engine, document ranking
    
 ======================================
 Welcome to Distancia's documentation!
