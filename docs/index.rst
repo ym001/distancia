@@ -106,7 +106,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 *Available measurement type*
 ----------------------------
 
-.. _VECTOR: https://distancia.readthedocs.io/en/latest/vectorDistance.html
+.. _Vector Distance Measures: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _MATRIX: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _TEXT: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _TIME: https://distancia.readthedocs.io/en/latest/timeDistance.html
@@ -117,10 +117,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _SOUND: https://distancia.readthedocs.io/en/latest/soundDistance.html
 .. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
-+ `VECTOR`_ 
-.. _distance_measures:
-
-Vector Distance Measures
+`Vector Distance Measures`_
 ========================
 
 Distance measures between vectors are essential in machine learning, classification, and information retrieval. Here are five of the most commonly used:
