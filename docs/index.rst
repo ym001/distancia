@@ -107,7 +107,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 ----------------------------
 
 .. _Vector Distance Measures: https://distancia.readthedocs.io/en/latest/vectorDistance.html
-.. _MATRIX: https://distancia.readthedocs.io/en/latest/matrixDistance.html
+.. _Matrix Distance Measures: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _TEXT: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _TIME: https://distancia.readthedocs.io/en/latest/timeDistance.html
 .. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
@@ -140,10 +140,7 @@ Distance measures between vectors are essential in machine learning, classificat
 .. note::  
    These distance measures are widely used in various algorithms, including **clustering**, **supervised classification**, and **search engines**.
 
-+ `MATRIX`_
-.. _matrix_distance_measures:
-
-Matrix Distance Measures
+`Matrix Distance Measures`_
 ========================
 
 Distance measures between matrices are widely used in **machine learning, image processing, and numerical analysis**. Below are five of the most commonly used:
