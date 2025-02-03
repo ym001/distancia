@@ -118,7 +118,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 `Vector Distance Measures`_
-========================
+============================
 
 Distance measures between vectors are essential in machine learning, classification, and information retrieval. Here are five of the most commonly used:
 
@@ -141,7 +141,7 @@ Distance measures between vectors are essential in machine learning, classificat
    These distance measures are widely used in various algorithms, including **clustering**, **supervised classification**, and **search engines**.
 
 `Matrix Distance Measures`_
-========================
+============================
 
 Distance measures between matrices are widely used in **machine learning, image processing, and numerical analysis**. Below are five of the most commonly used:
 
