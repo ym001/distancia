@@ -25,7 +25,7 @@ These measures describe the importance, influence, or role of individual nodes w
 #. `PageRank`_: A probabilistic algorithm to measure the importance of nodes.
 
 .. _Betweenness Centrality: https://distancia.readthedocs.io/en/latest/BetweennessCentrality.html
-.. _K-Core Number: https://distancia.readthedocs.io/en/latest/KCoreNumber.html
+.. _K-Core Number: https://distancia.readthedocs.io/en/latest/KCore.html
 .. _Degree Centrality: https://distancia.readthedocs.io/en/latest/DegreeCentrality.html
 .. _Closeness Centrality: https://distancia.readthedocs.io/en/latest/ClosenessCentrality.html
 .. _Betweenness Centrality: https://distancia.readthedocs.io/en/latest/BetweennessCentrality.html
