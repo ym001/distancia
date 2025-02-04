@@ -110,12 +110,12 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Matrix Distance Measures: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _Text Distance Measures: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _Time Series Distance Measures: https://distancia.readthedocs.io/en/latest/timeDistance.html
-.. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
-.. _GRAPH: https://distancia.readthedocs.io/en/latest/graphDistance.html
-.. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
-.. _IMAGE: https://distancia.readthedocs.io/en/latest/imageDistance.html
-.. _SOUND: https://distancia.readthedocs.io/en/latest/soundDistance.html
-.. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
+.. _Loss Function-Based Distance Measures: https://distancia.readthedocs.io/en/latest/lossFunction.html
+.. _Graph Distance Measures: https://distancia.readthedocs.io/en/latest/graphDistance.html
+.. _Markov Chain Distance Measures: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
+.. _Image Distance Measures: https://distancia.readthedocs.io/en/latest/imageDistance.html
+.. _Audio Distance Measures: https://distancia.readthedocs.io/en/latest/soundDistance.html
+.. _File Distance Measures: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 `Vector Distance Measures`_
 ============================
