@@ -97,10 +97,10 @@ These measures are based on the eigenvalues and eigenvectors of matrices associa
 #. `Algebraic Connectivity`_: The second smallest eigenvalue of the Laplacian, indicating graph robustness.
 #. `SpectralDistance`_
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Spectral Radius: https://distancia.readthedocs.io/en/latest/SpectralRadius.html
+.. _Graph Laplacian: https://distancia.readthedocs.io/en/latest/GraphLaplacian.html
+.. _Algebraic Connectivity: https://distancia.readthedocs.io/en/latest/AlgebraicConnectivity.html
+.. _SpectralDistance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
 
 Dynamic Graph Measures
 ----------------------
