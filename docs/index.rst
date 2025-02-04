@@ -109,7 +109,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 .. _Vector Distance Measures: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Matrix Distance Measures: https://distancia.readthedocs.io/en/latest/matrixDistance.html
 .. _Text Distance Measures: https://distancia.readthedocs.io/en/latest/textDistance.html
-.. _TIME: https://distancia.readthedocs.io/en/latest/timeDistance.html
+.. _Time Series Distance Measures: https://distancia.readthedocs.io/en/latest/timeDistance.html
 .. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
 .. _GRAPH: https://distancia.readthedocs.io/en/latest/graphDistance.html
 .. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
@@ -189,7 +189,28 @@ Distance measures between texts are crucial in **natural language processing (NL
    These text distance measures are extensively used in **chatbots, plagiarism detection, and semantic search applications**.
 
 
-+ `TIME`_
+`Time Series Distance Measures`_
+================================
+
+Distance measures between time series are essential in **forecasting, anomaly detection, and clustering of temporal data**. Below are five of the most commonly used:
+
+1. **Dynamic Time Warping (DTW)**  
+   Computes the optimal alignment between two time series by allowing non-linear warping along the time axis. Widely used in **speech recognition and gesture classification**.
+
+2. **Euclidean Distance**  
+   The sum of squared differences between corresponding points in two time series of equal length. Simple but sensitive to **time shifts and distortions**.
+
+3. **Pearson Correlation Distance**  
+   Measures how similar the shapes of two time series are by computing `1 - Pearson correlation coefficient`. Useful in **financial time series and sensor data analysis**.
+
+4. **Frechet Distance**  
+   Considers both the location and order of points, making it more robust than Euclidean distance for **trajectory analysis and movement comparison**.
+
+5. **Longest Common Subsequence (LCSS)**  
+   Identifies the longest matching subsequence between two time series while allowing gaps. Effective for **pattern recognition in noisy or incomplete data**.
+
+.. note::  
+   These distance measures are widely used in **time series classification, similarity search, and predictive analytics**.
 
 + `LOSS`_
 
