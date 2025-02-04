@@ -75,13 +75,13 @@ Community Detection Measures
 
 These measures analyze groups of nodes within a graph.
 
-19. `Community Detection`_: Identifies groups of nodes with dense internal connections and sparse external connections.
+19. `Community Structure Distance`_: Identifies groups of nodes with dense internal connections and sparse external connections.
 #. `Modularity Optimization`_: Quantifies the quality of community assignments.
 #. `Modularity Score`_: Quantifies the quality of a graph's division into communities.
 #. `Conductance`_: Measures the quality of a community by evaluating the ratio of inter-community edges to intra-community edges.
 #. `Normalized Cut`_: Evaluates the separation quality of a graph into subgraphs.
 
-.. _Community Detection: https://distancia.readthedocs.io/en/latest/CommunityDetection.html
+.. _Community Structure Distance: https://distancia.readthedocs.io/en/latest/CommunityStructureDistance.html
 .. _Modularity Optimization: https://distancia.readthedocs.io/en/latest/ModularityOptimization.html
 .. _Modularity Score: https://distancia.readthedocs.io/en/latest/ModularityScore.html
 .. _Conductance: https://distancia.readthedocs.io/en/latest/Conductance.html
