@@ -128,7 +128,7 @@ Measures designed for specific types of graphs or applications.
 #. `Random Walk Centrality`_: Related to the probability of visiting nodes during random walks.
 
 .. _Shortest Path Length: https://distancia.readthedocs.io/en/latest/ShortestPathLength.html
-.. _Resistance Distance: https://distancia.readthedocs.io/en/latest/Resistance Distance.html
+
 .. _Network Flow: https://distancia.readthedocs.io/en/latest/NetworkFlow.html
 .. _Random Walk Centrality: https://distancia.readthedocs.io/en/latest/RandomWalkCentrality.html
 
@@ -157,7 +157,6 @@ Shortest Path Measures
 #. `Eccentricity`_: Measures the greatest distance from a node to all other nodes.
 #. `Comparing Random Walk Stationary Distributions`_
 
-.. _Shortest Path Length: https://distancia.readthedocs.io/en/latest/ShortestPathLength.html
 .. _Average Path Length: https://distancia.readthedocs.io/en/latest/AveragePathLength.html
 .. _Eccentricity: https://distancia.readthedocs.io/en/latest/Eccentricity.html
 .. _Comparing Random Walk Stationary Distributions: https://distancia.readthedocs.io/en/latest/ComparingRandomWalkStationaryDistributions.html
