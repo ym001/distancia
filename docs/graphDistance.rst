@@ -24,6 +24,9 @@ These measures describe the importance, influence, or role of individual nodes w
 #. `Katz Centrality`_: A variant of eigenvector centrality that incorporates a damping factor.
 #. `PageRank`_: A probabilistic algorithm to measure the importance of nodes.
 
+.. _Betweenness Centrality: https://distancia.readthedocs.io/en/latest/BetweennessCentrality.html
+
+
 Edge-Level Measures
 -------------------
 
