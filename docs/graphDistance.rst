@@ -112,10 +112,10 @@ These measures capture properties of evolving graphs over time.
 #. `Temporal Clustering Coefficient`_: Evaluates clustering in temporal snapshots.
 #. `Edge Persistence`_: Measures the stability of edges over time.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Temporal Reachability: https://distancia.readthedocs.io/en/latest/TemporalReachability.html
+.. _Dynamic Centrality: https://distancia.readthedocs.io/en/latest/DynamicCentrality.html
+.. _Temporal Clustering Coefficient: https://distancia.readthedocs.io/en/latest/Temporal Clustering Coefficient.html
+.. _Edge Persistence: https://distancia.readthedocs.io/en/latest/EdgePersistence.html
 
 Application-Specific Measures
 -----------------------------
@@ -127,10 +127,10 @@ Measures designed for specific types of graphs or applications.
 #. `Network Flow`_: Models capacities and bottlenecks in flow-based networks.
 #. `Random Walk Centrality`_: Related to the probability of visiting nodes during random walks.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Shortest Path Length: https://distancia.readthedocs.io/en/latest/ShortestPathLength.html
+.. _Resistance Distance: https://distancia.readthedocs.io/en/latest/Resistance Distance.html
+.. _Network Flow: https://distancia.readthedocs.io/en/latest/NetworkFlow.html
+.. _Random Walk Centrality: https://distancia.readthedocs.io/en/latest/RandomWalkCentrality.html
 
 Graph-Level Measures
 --------------------
@@ -142,12 +142,12 @@ Graph-Level Measures
 #. `Modularity`_: Quantifies the strength of division of a network into communities.
 #. `Assortativity`_: Measures the tendency of nodes to connect to other nodes with similar properties.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Graph Density: https://distancia.readthedocs.io/en/latest/GraphDensity.html
+.. _Average Clustering Coefficient: https://distancia.readthedocs.io/en/latest/AverageClusteringCoefficient.html
+.. _Diameter: https://distancia.readthedocs.io/en/latest/Diameter.html
+.. _Radius: https://distancia.readthedocs.io/en/latest/Radius.html
+.. _Modularity: https://distancia.readthedocs.io/en/latest/Modularity.html
+.. _Assortativity: https://distancia.readthedocs.io/en/latest/Assortativity.html
 
 Shortest Path Measures
 ----------------------
@@ -155,12 +155,12 @@ Shortest Path Measures
 42. `Shortest Path Length`_: Calculates the shortest path distance between nodes.
 #. `Average Path Length`_: Computes the mean distance between all node pairs.
 #. `Eccentricity`_: Measures the greatest distance from a node to all other nodes.
-#. `ComparingRandomWalkStationaryDistributions`_
+#. `Comparing Random Walk Stationary Distributions`_
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Shortest Path Length: https://distancia.readthedocs.io/en/latest/ShortestPathLength.html
+.. _Average Path Length: https://distancia.readthedocs.io/en/latest/AveragePathLength.html
+.. _Eccentricity: https://distancia.readthedocs.io/en/latest/Eccentricity.html
+.. _Comparing Random Walk Stationary Distributions: https://distancia.readthedocs.io/en/latest/ComparingRandomWalkStationaryDistributions.html
 
 Other Specialized Measures
 --------------------------
@@ -168,22 +168,22 @@ Other Specialized Measures
 46. `Random Walk Betweenness`_: Measures centrality based on random walk processes.
 #. `Resistance Distance`_: Computes the effective electrical resistance between nodes.
 #. `Graph Entropy`_: Quantifies the information content of a graph.
-#. `GraphEditDistance`_
+#. `Graph Edit Distance`_
 #. `WeisfeilerLehmanSimilarity`_
 #. `Diffusion`_
 #. `FrobeniusDistance`_
 #. `PatternBasedDistance`_
 #. `GraphCompressionDistance`_
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Random Walk Betweenness: https://distancia.readthedocs.io/en/latest/RandomWalkBetweenness.html
+.. _Resistance Distance: https://distancia.readthedocs.io/en/latest/Resistance.html
+.. _Graph Entropy: https://distancia.readthedocs.io/en/latest/GraphEntropy.html
+.. _Graph Edit Distance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
+.. _WeisfeilerLehmanSimilarity: https://distancia.readthedocs.io/en/latest/WeisfeilerLehmanSimilarity.html
+.. _Diffusion: https://distancia.readthedocs.io/en/latest/Diffusion.html
+.. _FrobeniusDistance: https://distancia.readthedocs.io/en/latest/FrobeniusDistance.html
+.. _PatternBasedDistance: https://distancia.readthedocs.io/en/latest/PatternBasedDistance.html
+.. _GraphCompressionDistance: https://distancia.readthedocs.io/en/latest/GraphCompressionDistance.html
 
 Conclusion
 ==========
