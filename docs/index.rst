@@ -212,7 +212,28 @@ Distance measures between time series are essential in **forecasting, anomaly de
 .. note::  
    These distance measures are widely used in **time series classification, similarity search, and predictive analytics**.
 
-+ `LOSS`_
+`Loss Function-Based Distance Measures`_
+========================================
+
+Loss functions are widely used in **machine learning, deep learning, and optimization** to quantify the difference between predicted and actual values. Below are five of the most commonly used:
+
+1. **Mean Squared Error (MSE)**  
+   Computes the average squared difference between predicted and actual values. Sensitive to large errors, making it effective for **regression tasks where large deviations need penalization**.
+
+2. **Mean Absolute Error (MAE)**  
+   Calculates the average of absolute differences between predicted and actual values. Unlike MSE, it treats all errors equally and is **more robust to outliers**.
+
+3. **Huber Loss**  
+   Combines MSE and MAE by using a quadratic loss for small errors and a linear loss for large errors. Used in **robust regression** to handle outliers.
+
+4. **Kullback-Leibler (KL) Divergence**  
+   Measures the difference between two probability distributions. Essential in **variational inference, deep learning, and information theory**.
+
+5. **Cross-Entropy Loss**  
+   Used in classification tasks, it quantifies the difference between two probability distributions, typically between **true labels and predicted probabilities**. Crucial in **neural networks and logistic regression**.
+
+.. note::  
+   These loss functions are fundamental in **supervised learning, deep neural networks, and statistical modeling**.
 
 + `GRAPH`_
 
