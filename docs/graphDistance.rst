@@ -81,6 +81,12 @@ These measures analyze groups of nodes within a graph.
 #. `Conductance`_: Measures the quality of a community by evaluating the ratio of inter-community edges to intra-community edges.
 #. `Normalized Cut`_: Evaluates the separation quality of a graph into subgraphs.
 
+.. _Community Detection: https://distancia.readthedocs.io/en/latest/CommunityDetection.html
+.. _Modularity Optimization: https://distancia.readthedocs.io/en/latest/ModularityOptimization.html
+.. _Modularity Score: https://distancia.readthedocs.io/en/latest/ModularityScore.html
+.. _Conductance: https://distancia.readthedocs.io/en/latest/Conductance.html
+.. _Normalized Cut: https://distancia.readthedocs.io/en/latest/NormalizedCut.html
+
 Spectral Measures
 -----------------
 
@@ -90,6 +96,11 @@ These measures are based on the eigenvalues and eigenvectors of matrices associa
 #. `Graph Laplacian`_: Matrix representation used for analyzing graph properties.
 #. `Algebraic Connectivity`_: The second smallest eigenvalue of the Laplacian, indicating graph robustness.
 #. `SpectralDistance`_
+
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
 
 Dynamic Graph Measures
 ----------------------
@@ -101,6 +112,11 @@ These measures capture properties of evolving graphs over time.
 #. `Temporal Clustering Coefficient`_: Evaluates clustering in temporal snapshots.
 #. `Edge Persistence`_: Measures the stability of edges over time.
 
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+
 Application-Specific Measures
 -----------------------------
 
@@ -110,6 +126,11 @@ Measures designed for specific types of graphs or applications.
 #. `Resistance Distance`_: Measures connectivity in electrical networks.
 #. `Network Flow`_: Models capacities and bottlenecks in flow-based networks.
 #. `Random Walk Centrality`_: Related to the probability of visiting nodes during random walks.
+
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
 
 Graph-Level Measures
 --------------------
@@ -121,6 +142,13 @@ Graph-Level Measures
 #. `Modularity`_: Quantifies the strength of division of a network into communities.
 #. `Assortativity`_: Measures the tendency of nodes to connect to other nodes with similar properties.
 
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+
 Shortest Path Measures
 ----------------------
 
@@ -128,6 +156,11 @@ Shortest Path Measures
 #. `Average Path Length`_: Computes the mean distance between all node pairs.
 #. `Eccentricity`_: Measures the greatest distance from a node to all other nodes.
 #. `ComparingRandomWalkStationaryDistributions`_
+
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
 
 Other Specialized Measures
 --------------------------
@@ -141,6 +174,16 @@ Other Specialized Measures
 #. `FrobeniusDistance`_
 #. `PatternBasedDistance`_
 #. `GraphCompressionDistance`_
+
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
 
 Conclusion
 ==========
