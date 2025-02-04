@@ -163,8 +163,6 @@ Distance measures between matrices are widely used in **machine learning, image 
 .. note::  
    These distance measures are widely applied in fields such as **computer vision, data clustering, and signal processing**.
 
-+ `TEXT`_
-
 `Text Distance Measures`_
 ==========================
 
@@ -187,7 +185,6 @@ Distance measures between texts are crucial in **natural language processing (NL
 
 .. note::  
    These text distance measures are extensively used in **chatbots, plagiarism detection, and semantic search applications**.
-
 
 `Time Series Distance Measures`_
 ================================
@@ -235,7 +232,6 @@ Loss functions are widely used in **machine learning, deep learning, and optimiz
 .. note::  
    These loss functions are fundamental in **supervised learning, deep neural networks, and statistical modeling**.
 
-
 `Graph Distance Measures`_
 ==========================
 
@@ -259,7 +255,28 @@ Distance measures between graphs are crucial in **network analysis, bioinformati
 .. note::  
    These distance measures are widely used in **graph classification, anomaly detection, and network embedding**.
 
-+ `MARKOVCHAIN`_
+`Markov Chain Distance Measures`_
+=================================
+
+Distance measures between Markov chains are essential in **stochastic processes, reinforcement learning, and model comparison**. Below are five of the most commonly used:
+
+1. **Kullback-Leibler (KL) Divergence**  
+   Measures how one probability distribution differs from another. In Markov chains, it quantifies the difference between stationary distributions. Used in **model selection and statistical inference**.
+
+2. **Total Variation Distance**  
+   Computes the largest possible difference between the probabilities assigned by two Markov chains. It is useful in **bounding convergence rates and stability analysis**.
+
+3. **Wasserstein Distance**  
+   Also known as the Earth Mover’s Distance, it measures the minimal cost of transforming one stationary distribution into another. Applied in **optimal transport and generative modeling**.
+
+4. **Jensen-Shannon Divergence**  
+   A symmetrized and smoothed version of KL divergence, often used to compare Markov processes. Frequently applied in **text clustering and reinforcement learning**.
+
+5. **Hellinger Distance**  
+   Measures the similarity between two probability distributions, particularly useful when comparing **transition matrices or steady-state distributions**.
+
+.. note::  
+   These distance measures are widely used in **hidden Markov models (HMMs), reinforcement learning, and stochastic modeling**.
 
 + `IMAGE`_
 
