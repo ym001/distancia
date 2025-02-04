@@ -301,9 +301,52 @@ Distance measures between images are crucial in **computer vision, image retriev
 .. note::  
    These distance measures are widely applied in **image classification, object detection, and content-based image retrieval (CBIR)**.
 
-+ `SOUND`_
+`Audio Distance Measures`_
+==========================
 
-+ `FILE`_
+Distance measures between audio signals are crucial in **speech recognition, music analysis, and sound classification**. Below are five of the most commonly used:
+
+1. **Dynamic Time Warping (DTW)**  
+   Measures the similarity between two time-series signals by allowing non-linear time distortions. Used in **speech recognition and audio matching**.
+
+2. **Mel-Frequency Cepstral Coefficient (MFCC) Distance**  
+   Computes the Euclidean or cosine distance between MFCC feature vectors, capturing perceptual characteristics of sound. Widely applied in **voice recognition and speaker identification**.
+
+3. **Cross-Correlation Distance**  
+   Measures the alignment between two audio signals by computing their cross-correlation. Useful for **audio synchronization and time-delay estimation**.
+
+4. **Spectral Distance (KL Divergence on Spectrograms)**  
+   Compares spectrograms or power spectra of two signals using Kullback-Leibler divergence. Applied in **music genre classification and environmental sound analysis**.
+
+5. **Perceptual Evaluation of Speech Quality (PESQ) Score**  
+   Quantifies the perceptual difference between two speech signals, often used for **speech enhancement and telecommunication quality assessment**.
+
+.. note::  
+   These distance measures are widely used in **sound classification, music similarity analysis, and audio fingerprinting**.
+
+
+`File Distance Measures`_
+=========================
+
+Distance measures between files are essential in **data deduplication, plagiarism detection, and digital forensics**. Below are five of the most commonly used:
+
+1. **Hash-Based Distance (Hamming Distance on Hashes)**  
+   Compares hash values (e.g., MD5, SHA-256) of two files and counts the number of differing bits. Used in **integrity verification and duplicate detection**.
+
+2. **Byte-Level Edit Distance (Levenshtein Distance)**  
+   Measures the number of insertions, deletions, or substitutions required to transform one file’s binary content into another. Useful for **binary diffing and file versioning**.
+
+3. **Jaccard Similarity on Shingled Content**  
+   Splits files into overlapping chunks (shingles) and compares their sets to determine similarity. Common in **plagiarism detection and near-duplicate file detection**.
+
+4. **Kolmogorov Complexity-Based Distance**  
+   Approximates the minimum amount of information needed to transform one file into another, often using compression-based methods. Applied in **data compression and anomaly detection**.
+
+5. **Structural Distance (Tree Edit Distance for XML/JSON Files)**  
+   Measures differences in hierarchical file structures by computing edit distances on tree representations. Used in **configuration file comparison and web scraping**.
+
+.. note::  
+   These distance measures are widely used in **file integrity checks, malware detection, and version control systems**.
 
 
 And many more...
