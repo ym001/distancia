@@ -127,7 +127,6 @@ Measures designed for specific types of graphs or applications.
 #. `Network Flow`_: Models capacities and bottlenecks in flow-based networks.
 #. `Random Walk Centrality`_: Related to the probability of visiting nodes during random walks.
 
-.. _Shortest Path Length: https://distancia.readthedocs.io/en/latest/ShortestPathLength.html
 
 .. _Network Flow: https://distancia.readthedocs.io/en/latest/NetworkFlow.html
 .. _Random Walk Centrality: https://distancia.readthedocs.io/en/latest/RandomWalkCentrality.html
