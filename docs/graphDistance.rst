@@ -61,6 +61,15 @@ These measures provide insights into the overall structure and properties of a g
 #. `Modularity`_: Quantifies the strength of division of a graph into modules or communities.
 #. `GraphKernelDistance`_
 
+.. _Graph Density: https://distancia.readthedocs.io/en/latest/Graph Density.html
+.. _Graph Diameter: https://distancia.readthedocs.io/en/latest/GraphDiameter.html
+.. _Average Path Length: https://distancia.readthedocs.io/en/latest/AveragePathLength.html
+.. _Clustering Coefficient: https://distancia.readthedocs.io/en/latest/ClusteringCoefficient.html
+.. _Graph Assortativity: https://distancia.readthedocs.io/en/latest/GraphAssortativity.html
+.. _Global Efficiency: https://distancia.readthedocs.io/en/latest/GlobalEfficiency.html
+.. _Modularity: https://distancia.readthedocs.io/en/latest/Modularity.html
+.. _GraphKernelDistance: https://distancia.readthedocs.io/en/latest/GraphKernelDistance.html
+
 Community Detection Measures
 ----------------------------
 
