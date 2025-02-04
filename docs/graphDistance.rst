@@ -31,7 +31,7 @@ These measures describe the importance, influence, or role of individual nodes w
 .. _Betweenness Centrality: https://distancia.readthedocs.io/en/latest/BetweennessCentrality.html
 .. _Eigenvector Centrality: https://distancia.readthedocs.io/en/latest/EigenvectorCentrality.html
 .. _Katz Centrality: https://distancia.readthedocs.io/en/latest/KatzCentrality.html
-.. _PageRank: https://distancia.readthedocs.io/en/latest/PageRank.html
+.. _PageRank: https://distancia.readthedocs.io/en/latest/PageRankCentrality.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 
