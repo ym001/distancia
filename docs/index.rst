@@ -278,7 +278,28 @@ Distance measures between Markov chains are essential in **stochastic processes,
 .. note::  
    These distance measures are widely used in **hidden Markov models (HMMs), reinforcement learning, and stochastic modeling**.
 
-+ `IMAGE`_
+`Image Distance Measures`_
+===========================
+
+Distance measures between images are crucial in **computer vision, image retrieval, and deep learning**. Below are five of the most commonly used:
+
+1. **Mean Squared Error (MSE)**  
+   Computes the average squared difference between corresponding pixel values of two images. Simple but sensitive to **intensity variations and noise**.
+
+2. **Structural Similarity Index (SSIM)**  
+   Measures the perceptual similarity between two images by considering **luminance, contrast, and structure**. Widely used in **image quality assessment**.
+
+3. **Peak Signal-to-Noise Ratio (PSNR)**  
+   Evaluates the ratio between the maximum possible pixel value and the mean squared error. Commonly used in **image compression and denoising**.
+
+4. **Earth Mover’s Distance (Wasserstein Distance)**  
+   Computes the minimal cost of transforming one image histogram into another. Used in **image retrieval and generative modeling**.
+
+5. **Feature-Based Distance (SIFT, ORB, or Deep Learning Embeddings)**  
+   Compares high-level feature representations extracted from images, often using deep learning models. Effective in **image recognition and object detection**.
+
+.. note::  
+   These distance measures are widely applied in **image classification, object detection, and content-based image retrieval (CBIR)**.
 
 + `SOUND`_
 
