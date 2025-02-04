@@ -108,7 +108,7 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 .. _Vector Distance Measures: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Matrix Distance Measures: https://distancia.readthedocs.io/en/latest/matrixDistance.html
-.. _TEXT: https://distancia.readthedocs.io/en/latest/textDistance.html
+.. _Text Distance Measures: https://distancia.readthedocs.io/en/latest/textDistance.html
 .. _TIME: https://distancia.readthedocs.io/en/latest/timeDistance.html
 .. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
 .. _GRAPH: https://distancia.readthedocs.io/en/latest/graphDistance.html
@@ -164,6 +164,30 @@ Distance measures between matrices are widely used in **machine learning, image 
    These distance measures are widely applied in fields such as **computer vision, data clustering, and signal processing**.
 
 + `TEXT`_
+
+`Text Distance Measures`_
+==========================
+
+Distance measures between texts are crucial in **natural language processing (NLP), search engines, and text similarity tasks**. Below are five of the most commonly used:
+
+1. **Levenshtein Distance (Edit Distance)**  
+   The minimum number of single-character edits (insertions, deletions, or substitutions) required to transform one string into another. Used in **spell checkers and DNA sequence analysis**.
+
+2. **Jaccard Similarity**  
+   Measures the overlap between two sets of words or character n-grams, computed as the ratio of their intersection to their union. Useful in **document comparison and keyword matching**.
+
+3. **Cosine Similarity**  
+   Computes the cosine of the angle between two text vectors, often based on **TF-IDF or word embeddings**. Commonly used in **search engines and document ranking**.
+
+4. **Damerau-Levenshtein Distance**  
+   An extension of Levenshtein distance that also considers transpositions (swapping adjacent characters). More robust for **typographical error detection**.
+
+5. **BLEU Score (Bilingual Evaluation Understudy)**  
+   Measures the similarity between a candidate text and reference texts using **n-gram precision**. Widely used in **machine translation and text summarization**.
+
+.. note::  
+   These text distance measures are extensively used in **chatbots, plagiarism detection, and semantic search applications**.
+
 
 + `TIME`_
 
