@@ -235,7 +235,29 @@ Loss functions are widely used in **machine learning, deep learning, and optimiz
 .. note::  
    These loss functions are fundamental in **supervised learning, deep neural networks, and statistical modeling**.
 
-+ `GRAPH`_
+
+`Graph Distance Measures`_
+==========================
+
+Distance measures between graphs are crucial in **network analysis, bioinformatics, computer vision, and graph-based machine learning**. Below are five of the most commonly used:
+
+1. **Graph Edit Distance (GED)**  
+   Computes the minimum number of edit operations (node/edge insertions, deletions, or substitutions) required to transform one graph into another. Used in **pattern recognition and structural comparison**.
+
+2. **Wasserstein Distance (Gromov-Wasserstein)**  
+   Measures the optimal transport cost between two graph structures by aligning their node distributions. Widely applied in **graph matching and deep learning on graphs**.
+
+3. **Spectral Distance**  
+   Compares the eigenvalues of graph Laplacians or adjacency matrices to quantify structural differences. Effective for **comparing network topology and community structures**.
+
+4. **Jaccard Graph Similarity**  
+   Computes the ratio of common edges to total edges between two graphs. Useful in **social network analysis and recommendation systems**.
+
+5. **Maximum Common Subgraph (MCS) Distance**  
+   Measures the largest subgraph common to both graphs. Frequently used in **chemoinformatics, bioinformatics, and structural graph comparison**.
+
+.. note::  
+   These distance measures are widely used in **graph classification, anomaly detection, and network embedding**.
 
 + `MARKOVCHAIN`_
 
