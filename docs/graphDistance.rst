@@ -44,6 +44,8 @@ These measures assess the importance or characteristics of edges in a graph.
 9. `Edge Betweenness`_: Measures the number of shortest paths that pass through an edge.
 #. `Edge Weight`_: Represents the strength or capacity of a connection between nodes.
 
+.. _Edge Betweenness: https://distancia.readthedocs.io/en/latest/EdgeBetweenness.html
+.. _Edge Weight: https://distancia.readthedocs.io/en/latest/EdgeWeight.html
 
 Global Graph Measures
 ---------------------
