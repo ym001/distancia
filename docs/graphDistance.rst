@@ -17,7 +17,7 @@ These measures describe the importance, influence, or role of individual nodes w
 
 #. `Betweenness Centrality`_: Measures how often a node acts as a bridge along the shortest path between two other nodes.
 #. `K-Core Number`_: Indicates the largest subgraph in which all nodes have at least \(k\) neighbors.
-#. `Degree Centrality`_: Measures the number of edges connected to a node.
+#. `Degree Distribution Distance`_: Measures the number of edges connected to a node.
 #. `Closeness Centrality`_: Evaluates how close a node is to all other nodes in the graph.
 #. `Betweenness Centrality`_: Quantifies the number of times a node acts as a bridge along the shortest path between two other nodes.
 #. `Eigenvector Centrality`_: Indicates the influence of a node in a network based on its connections to other high-scoring nodes.
@@ -26,7 +26,7 @@ These measures describe the importance, influence, or role of individual nodes w
 
 .. _Betweenness Centrality: https://distancia.readthedocs.io/en/latest/BetweennessCentrality.html
 .. _K-Core Number: https://distancia.readthedocs.io/en/latest/KCore.html
-.. _Degree Centrality: https://distancia.readthedocs.io/en/latest/DegreeCentrality.html
+.. _Degree Distribution Distance: https://distancia.readthedocs.io/en/latest/DegreeDistributionDistance.html
 .. _Closeness Centrality: https://distancia.readthedocs.io/en/latest/ClosenessCentrality.html
 .. _Betweenness Centrality: https://distancia.readthedocs.io/en/latest/BetweennessCentrality.html
 .. _Eigenvector Centrality: https://distancia.readthedocs.io/en/latest/EigenvectorCentrality.html
