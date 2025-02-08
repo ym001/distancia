@@ -81,8 +81,8 @@ Behavioral or State-Sequence Measures
 #. `Dynamic Time Warping (DTW)`_ : Measures alignment between state sequences with different lengths.
 #. `Sequence Probability Divergence`_ : Compares the likelihood of sequences under two different Markov Chains.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Levenshtein Distance on Paths: https://distancia.readthedocs.io/en/latest/Levenshtein.html
+.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 
 Customized Measures
@@ -92,14 +92,12 @@ Customized Measures
 #. `Markov Earth Mover's Distance (MEMD)`_ : A variation of Wasserstein designed for Markov Chains.
 #. `Bhattacharyya Distance for Markov Chains`_ : Measures overlap between stationary distributions.
 #. `Cosine Similarity on Transition Matrices`_ : Treats the transition matrices as vectors and computes cosine similarity.
-#. `MarkovChainSpectral`_
-#. `MarkovChainHellinger`_
+#. `Markov Chain Spectral`_
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Markov Earth Mover's Distance (MEMD): https://distancia.readthedocs.io/en/latest/EarthMoversDistance.html
+.. _Bhattacharyya Distance for Markov Chains: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
+.. _Cosine Similarity on Transition Matrices: https://distancia.readthedocs.io/en/latest/Cosine.html
+.. _Markov Chain Spectral: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
 
 Conclusion
 -----------------------------
