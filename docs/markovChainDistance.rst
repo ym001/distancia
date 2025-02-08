@@ -72,7 +72,7 @@ Entropy and Information-Based Measures
 
 .. _Relative Entropy Rate: https://distancia.readthedocs.io/en/latest/RelativeEntropyRate.html
 .. _Cross-Entropy Distance: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Entropy-Based Similarity: https://distancia.readthedocs.io/en/latest/EntropyBasedSimilarity.html
 
 Behavioral or State-Sequence Measures
 -----------------------------
