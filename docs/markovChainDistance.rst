@@ -98,6 +98,7 @@ Customized Measures
 .. _Bhattacharyya Distance for Markov Chains: https://distancia.readthedocs.io/en/latest/Bhattacharyya.html
 .. _Cosine Similarity on Transition Matrices: https://distancia.readthedocs.io/en/latest/Cosine.html
 .. _Markov Chain Spectral: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
+.. _Wasserstein Distance: https://distancia.readthedocs.io/en/latest/Wasserstein.html
 
 Conclusion
 -----------------------------
