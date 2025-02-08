@@ -42,7 +42,7 @@ Stationary Distribution-Based Measures
 .. _Markov Chain Hellinger: https://distancia.readthedocs.io/en/latest/MarkovChainHellinger.html
 .. _Markov Chain Total Variation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
 .. _Steady-StateDistribution: https://distancia.readthedocs.io/en/latest/SteadyStateDistribution.html
-.. _Markov Chain Wasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
+.. _Markov Chain Wasserstein: https://distancia.readthedocs.io/en/latest/Wasserstein.html
 
 Graph-Theoretic Measures
 -----------------------------
@@ -107,9 +107,4 @@ Markov Chain distances provide a versatile toolkit for comparing stochastic proc
 
 This categorized approach simplifies the selection process and ensures you have access to the most relevant methods for your analysis.
 
-.. _MarkovChainWasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
-.. _MarkovChainTotalVariation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
-.. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
-.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
-.. _GraphEditDistance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
-.. _SpectralDistance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
+
