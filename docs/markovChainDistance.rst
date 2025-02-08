@@ -70,8 +70,8 @@ Entropy and Information-Based Measures
 #. `Cross-Entropy Distance`_ : Combines entropy rates to evaluate the distance between chains.
 #. `Entropy-Based Similarity`_ : Quantifies similarity using entropy principles.
 
-.. _Relative Entropy Rate: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Relative Entropy Rate: https://distancia.readthedocs.io/en/latest/RelativeEntropyRate.html
+.. _Cross-Entropy Distance: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 
 Behavioral or State-Sequence Measures
