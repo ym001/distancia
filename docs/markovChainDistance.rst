@@ -29,19 +29,19 @@ Categorized Distance Measures
 Stationary Distribution-Based Measures
 -----------------------------
 
-8. `MarkovChainKullbackLeibler`_ : Measures the information gain or loss between the stationary distributions.
-#. `MarkovChainJensenShannon`_ : A symmetric version of the Kullback-Leibler divergence.
-#. `Hellinger Distance`_ : Measures the similarity between two stationary distributions using a probabilistic approach.
-#. `Total Variation Distance`_ : Calculates the maximum probability difference across all states between two stationary distributions.
+8. `Markov Chain Kullback Leibler`_ : Measures the information gain or loss between the stationary distributions.
+#. `Markov Chain Jensen Shannon`_ : A symmetric version of the Kullback-Leibler divergence.
+#. `Markov Chain Hellinger`_ : Measures the similarity between two stationary distributions using a probabilistic approach.
+#. `Markov Chain Total Variation`_ : Calculates the maximum probability difference across all states between two stationary distributions.
 #. `Steady-StateDistribution`_ Compares the steady-state distributions of two Markov chains, evaluating the long-term behavior differences.
 #. `MarkovChainWasserstein`_ : Measures the “cost” of transforming one steady-state distribution into another, capturing the distributional differences between two chains.
 #. `MarkovChainJensenShannon`_ : Symmetrized version of the Kullback-Leibler divergence that compares the steady-state distributions of the two chains.
 #. `MarkovChainTotalVariation`_ : Measures the maximum difference between transition probabilities, capturing the largest deviation in state transitions between two chains.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Markov Chain Kullback Leibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
+.. _Markov Chain Jensen Shannon: https://distancia.readthedocs.io/en/latest/MarkovChainJensenShannon.html
+.. _Markov Chain Hellinger: https://distancia.readthedocs.io/en/latest/MarkovChainHellinger.html
+.. _Markov Chain Total Variation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
@@ -112,15 +112,9 @@ Markov Chain distances provide a versatile toolkit for comparing stochastic proc
 
 This categorized approach simplifies the selection process and ensures you have access to the most relevant methods for your analysis.
 
-.. _MarkovChaine: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
-.. _MarkovChainKullbackLeibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
 .. _MarkovChainWasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
 .. _MarkovChainTotalVariation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
-.. _MarkovChainHellinger: https://distancia.readthedocs.io/en/latest/MarkovChainHellinger.html
-.. _MarkovChainJensenShannon: https://distancia.readthedocs.io/en/latest/MarkovChainJensenShannon.html
 .. _MarkovChainSpectral: https://distancia.readthedocs.io/en/latest/MarkovChainSpectral.html
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
 .. _GraphEditDistance: https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
 .. _SpectralDistance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
-.. _L1: https://distancia.readthedocs.io/en/latest/Manhattan.html
-.. _L2: https://distancia.readthedocs.io/en/latest/Euclidean.html
