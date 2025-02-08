@@ -30,22 +30,18 @@ Stationary Distribution-Based Measures
 -----------------------------
 
 8. `Markov Chain Kullback Leibler`_ : Measures the information gain or loss between the stationary distributions.
-#. `Markov Chain Jensen Shannon`_ : A symmetric version of the Kullback-Leibler divergence.
 #. `Markov Chain Hellinger`_ : Measures the similarity between two stationary distributions using a probabilistic approach.
-#. `Markov Chain Total Variation`_ : Calculates the maximum probability difference across all states between two stationary distributions.
 #. `Steady-StateDistribution`_ Compares the steady-state distributions of two Markov chains, evaluating the long-term behavior differences.
-#. `MarkovChainWasserstein`_ : Measures the “cost” of transforming one steady-state distribution into another, capturing the distributional differences between two chains.
-#. `MarkovChainJensenShannon`_ : Symmetrized version of the Kullback-Leibler divergence that compares the steady-state distributions of the two chains.
-#. `MarkovChainTotalVariation`_ : Measures the maximum difference between transition probabilities, capturing the largest deviation in state transitions between two chains.
+#. `Markov Chain Wasserstein`_ : Measures the “cost” of transforming one steady-state distribution into another, capturing the distributional differences between two chains.
+#. `Markov Chain Jensen Shannon`_ : Symmetrized version of the Kullback-Leibler divergence that compares the steady-state distributions of the two chains.
+#. `Markov Chain Total Variation`_ : Measures the maximum difference between transition probabilities, capturing the largest deviation in state transitions between two chains.
 
 .. _Markov Chain Kullback Leibler: https://distancia.readthedocs.io/en/latest/MarkovChainKullbackLeibler.html
 .. _Markov Chain Jensen Shannon: https://distancia.readthedocs.io/en/latest/MarkovChainJensenShannon.html
 .. _Markov Chain Hellinger: https://distancia.readthedocs.io/en/latest/MarkovChainHellinger.html
 .. _Markov Chain Total Variation: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Steady-StateDistribution: https://distancia.readthedocs.io/en/latest/SteadyStateDistribution.html
+.. _Markov Chain Wasserstein: https://distancia.readthedocs.io/en/latest/MarkovChainWasserstein.html
 
 Graph-Theoretic Measures
 -----------------------------
