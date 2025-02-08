@@ -1,72 +1,109 @@
-MarkovChainTotalVariation
-==========================
+Markov Chain Hellinger Distance
+==============================
+
+A Probabilistic Distance Measure for Markov Chain Comparison
+---------------------------------------------------------
 
 Introduction
-------------
+-----------
+The Markov Chain Hellinger Distance provides a probabilistic approach to measuring the similarity between two Markov chains through their stationary distributions. This measure is particularly valuable for comparing probability distributions while maintaining scale-invariance and satisfying probability metric properties. It offers a more nuanced comparison than traditional L1 or L2 norms when dealing with probability distributions.
 
-The ``MarkovChainTotalVariation`` class calculates the total variation distance between two Markov chains by comparing their transition matrices. The total variation distance is a classical and intuitive metric in probability theory, measuring the maximum difference between two probability distributions.
-
-In the context of Markov chains, it evaluates how different the behavior of two chains is based on their transition probabilities.
-
-Meaning of the Distance
------------------------
-
-The **total variation distance** represents the largest possible discrepancy between the transition probabilities of two Markov chains for any given state. It quantifies how much probability mass needs to be moved or altered to transform the transition matrix of one chain into that of another.
-
-A small total variation distance indicates that the two Markov chains behave similarly, while a large distance suggests significant differences in their transitions.
+Mathematical Foundation
+--------------------
+The Hellinger distance is based on measuring the similarity between probability distributions using the geometric properties of their probability densities. When applied to Markov chains, it compares their stationary distributions, making it particularly useful for analyzing long-term behavioral differences.
 
 Formal Definition
------------------
-
-The total variation distance between two Markov chains :math:`P` and :math:`Q`, with transition matrices :math:`P_{ij}` and :math:`Q_{ij}`, is defined as:
+---------------
+For two Markov chains with stationary distributions π_P and π_Q, the Hellinger distance is defined as:
 
 .. math::
 
-    d_{TV}(P, Q) = \frac{1}{2} \sum_{i,j} \left| P_{ij} - Q_{ij} \right|
+    H(P, Q) = \frac{1}{\sqrt{2}} \sqrt{\sum_{i=1}^n (\sqrt{\pi_P(i)} - \sqrt{\pi_Q(i)})^2}
 
-Where:
+where:
+- π_P and π_Q are the stationary distributions of the respective Markov chains
+- n is the number of states in the state space
+- The factor 1/√2 ensures the distance is normalized between 0 and 1
 
-- :math:`P_{ij}` is the probability of transitioning from state :math:`i` to state :math:`j` in the first Markov chain,
-- :math:`Q_{ij}` is the corresponding transition probability in the second Markov chain,
-- The absolute difference :math:`\left| P_{ij} - Q_{ij} \right|` represents the local discrepancy between the two chains for each pair of states.
+Properties
+---------
+1. Boundedness: 0 ≤ H(P,Q) ≤ 1
+2. Symmetry: H(P,Q) = H(Q,P)
+3. Identity of indiscernibles: H(P,Q) = 0 if and only if P = Q
+4. Triangle inequality: H(P,R) ≤ H(P,Q) + H(Q,R)
+5. Scale-invariance: preserved under coordinate transformations
 
-Usage Example
--------------
-
+Implementation
+------------
+The measure is implemented in the `distancia` package:
 
 .. code-block:: python
 
-    from distancia import MarkovChainHellinger
+    from distancia.metrics import MarkovChainHellinger
+    
+    # Initialize the measure
+    hellinger_dist = MarkovChainHellinger()
+    
+    # Calculate distance between two Markov chains
+    distance = hellinger_dist.compute(matrix_p, matrix_q)
 
-    # Example usage
-    P = [[0.9, 0.1], [0.2, 0.8]]  # Transition matrix for Markov chain 1
-    Q = [[0.85, 0.15], [0.25, 0.75]]  # Transition matrix for Markov chain 2
+Usage Example
+-----------
+Here's a practical example comparing two Markov chains:
 
-    markov_hellinger = MarkovChainHellinger(P, Q)
+.. code-block:: python
 
-    # Compute the Hellinger distance between stationary distributions
-    print("Hellinger Distance:", markov_hellinger.compute_hellinger_distance())
+    import numpy as np
+    from distancia.metrics import MarkovChainHellinger
+    
+    # Define two transition matrices
+    P = np.array([[0.7, 0.2, 0.1],
+                  [0.3, 0.5, 0.2],
+                  [0.2, 0.3, 0.5]])
+    
+    Q = np.array([[0.6, 0.3, 0.1],
+                  [0.2, 0.6, 0.2],
+                  [0.1, 0.2, 0.7]])
+    
+    # Calculate Hellinger distance
+    hellinger_dist = MarkovChainHellinger()
+    result = hellinger_dist.compute(P, Q)
+    print(f"Hellinger Distance: {result:.4f}")
+    
+    # Access the computed stationary distributions
+    pi_p = hellinger_dist.get_stationary_distribution(P)
+    pi_q = hellinger_dist.get_stationary_distribution(Q)
 
+Computational Complexity
+---------------------
+- Time Complexity: O(n³) where n is the number of states, due to stationary distribution computation
+- Space Complexity: O(n²) for matrix storage and intermediate calculations
 
-.. code-block:: bash
+The implementation includes:
+1. Efficient computation of stationary distributions
+2. Numerical stability safeguards for small probability values
+3. Validation of input probability constraints
 
-   >>>Hellinger Distance: 0.0308120923491926
-
-
-Academic Reference
-------------------
-
-The total variation distance is widely used in probability theory and Markov chain analysis. One foundational reference is:
-
-:footcite:t:`MarkovChainHellinger`
-
-.. footbibliography::
-
-This manuscript covers the use of total variation distance in the analysis of Markov chains and random walks.
+Academic References
+----------------
+1. Hellinger, E. (1909). "Neue Begründung der Theorie quadratischer Formen von unendlichvielen Veränderlichen." Journal für die reine und angewandte Mathematik.
+2. Beran, R. (1977). "Minimum Hellinger Distance Estimates for Parametric Models." The Annals of Statistics.
+3. Deza, M. M., & Deza, E. (2009). "Encyclopedia of Distances." Springer Berlin Heidelberg.
+4. Le Cam, L., & Yang, G. L. (2000). "Asymptotics in Statistics: Some Basic Concepts." Springer Science & Business Media.
 
 Conclusion
-----------
+---------
+The Markov Chain Hellinger Distance provides a sophisticated yet interpretable way to compare Markov chains through their stationary distributions. Its implementation in the `distancia` package offers a robust tool for analyzing stochastic processes across various applications, including:
+- Pattern recognition
+- Information theory
+- Statistical inference
+- Machine learning model comparison
 
-The ``MarkovChainTotalVariation`` class in the ``distancia`` package implements the total variation distance for comparing the transition matrices of two Markov chains. This distance is particularly useful in applications where it is important to understand the maximum deviation between probabilistic behaviors.
+The measure's probabilistic interpretation and desirable mathematical properties make it particularly suitable for applications where scale-invariance and bounded distances are important.
 
-By using this class, practitioners can easily quantify the dissimilarity between two Markov chains and gain insights into the differences in their underlying stochastic processes.
+See Also
+--------
+- Kullback-Leibler Divergence
+- Total Variation Distance
+- Steady-State Distribution Distance
+- Wasserstein Distance
