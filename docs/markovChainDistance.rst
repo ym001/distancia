@@ -21,6 +21,7 @@ Categorized Distance Measures
 
 .. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
 .. _L1: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _L2: https://distancia.readthedocs.io/en/latest/Euclidean.html
 .. _Markov Chain Frobenius: https://distancia.readthedocs.io/en/latest/MarkovChainFrobenius.html
 .. _Matrix Divergence: https://distancia.readthedocs.io/en/latest/MatrixDivergence.html
 .. _Spectral Norm Distance: https://distancia.readthedocs.io/en/latest/SpectralNormDistance.html
