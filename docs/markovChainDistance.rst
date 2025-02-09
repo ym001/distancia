@@ -83,7 +83,7 @@ Behavioral or State-Sequence Measures
 
 .. _Levenshtein Distance on Paths: https://distancia.readthedocs.io/en/latest/Levenshtein.html
 .. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Sequence Probability Divergence: https://distancia.readthedocs.io/en/latest/SequenceProbabilityDivergence.html
 
 Customized Measures
 -----------------------------
