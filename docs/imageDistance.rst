@@ -51,6 +51,10 @@ Feature-based distances extract key points or descriptors from images and compar
 #. `FeatureBasedDistance`_
 #. `Cosine`_ : Computes the cosine of the angle between feature vectors.
 
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+
 Shape and Contour Measures
 ==========================
 
@@ -58,6 +62,9 @@ Shape and Contour Measures
 #. `Frechet`_ : Compares shapes by minimizing the distance between curves.
 #. `Chamfer Distance`_ : A metric for comparing shapes using nearest neighbor distances.
 #. `Shape Context Distance`_ : Captures differences in spatial arrangements of shapes.
+
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
 
 Distribution-Based Measures
 ===========================
@@ -76,6 +83,11 @@ These distances analyze the overall structure of images or operate in the freque
 #. `FourierTransform`_ : Compares images in the frequency domain using their Fourier transforms. This distance is particularly useful for comparing images based on global patterns and periodic structures.
 #. `WaveletTransform`_ : Measures the difference between two images after decomposing them into their wavelet components. Wavelet-based methods are effective for capturing local image details at multiple scales.
 
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+
+
 Perceptual Measures
 ===================
 
@@ -83,12 +95,20 @@ Perceptual Measures
 #. `Perceptual Hashing`_ : Generates hash values for images and measures similarity.
 #. `LPIPS`_ :  (Learned Perceptual Image Patch Similarity) A deep-learning-based similarity metric for perceptual quality.
 
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+
 Application-Specific Measures
 =============================
 
 32. `FID`_ :   (Fréchet Inception Distance) Used for evaluating the quality of generated images by comparing feature distributions.
 #. `IS`_ :   (Inception Score) Evaluates generative models by assessing image diversity and quality.
 #. `BRISQUE`_ :   (Blind/Referenceless Image Spatial Quality Evaluator) Assesses the quality of an image without reference.
+
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
 
 Deep Learning-Based Distances
 =============================
@@ -99,6 +119,10 @@ Deep learning-based distances rely on pre-trained convolutional neural networks 
 #. `Inception-Based`_ : Employs the Inception architecture to extract feature vectors from images and compares them using a chosen distance metric. It is effective for capturing complex features in images.
 #. `ResNet-Based`_ : Utilizes the ResNet architecture to compare the deep features of images, enabling robust comparison of complex, high-dimensional image representations.
 
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+
 Compression-Based Distances
 ===========================
 
@@ -108,6 +132,11 @@ Compression-based distances measure the similarity between two images based on t
 #. `ZlibBasedDistance`_ : A variant of compression-based distance that uses the zlib algorithm to compare images based on their compressibility, reflecting how much the structure of two images is alike.
 #. `PerceptualHashing`_
 #. `NormalizedCrossCorrelation`_
+
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _: https://distancia.readthedocs.io/en/latest/.html
 
 Conclusion
 ==========
