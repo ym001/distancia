@@ -51,9 +51,9 @@ Feature-based distances extract key points or descriptors from images and compar
 #. `FeatureBasedDistance`_
 #. `Cosine`_ : Computes the cosine of the angle between feature vectors.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _SIFT-Based: https://distancia.readthedocs.io/en/latest/SIFTBasedDistance.html
+.. _SURF-Based: https://distancia.readthedocs.io/en/latest/SURFBasedDistance.html
+.. _ORB-Based: https://distancia.readthedocs.io/en/latest/ORBBasedDistance.html
 
 Shape and Contour Measures
 ==========================
