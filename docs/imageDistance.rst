@@ -124,7 +124,7 @@ Deep learning-based distances rely on pre-trained convolutional neural networks 
 
 .. _VGG16-Based: https://distancia.readthedocs.io/en/latest/VGG16Based.html
 .. _Inception-Based: https://distancia.readthedocs.io/en/latest/InceptionBased.html
-.. _ResNet-Based: https://distancia.readthedocs.io/en/latest/ResNetBased.html
+.. _ResNet-Based: https://distancia.readthedocs.io/en/latest/ResNetBasedDistance.html
 
 Compression-Based Distances
 ===========================
