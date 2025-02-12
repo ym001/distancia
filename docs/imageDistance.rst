@@ -88,7 +88,7 @@ These distances analyze the overall structure of images or operate in the freque
 
 .. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
 .. _FourierTransform: https://distancia.readthedocs.io/en/latest/FourierTransformDistance.html
-.. _WaveletTransform: https://distancia.readthedocs.io/en/latest/WaveletTransform.html
+.. _WaveletTransform: https://distancia.readthedocs.io/en/latest/WaveletBasedDistance.html
 
 
 Perceptual Measures
