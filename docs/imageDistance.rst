@@ -54,6 +54,7 @@ Feature-based distances extract key points or descriptors from images and compar
 .. _SIFT-Based: https://distancia.readthedocs.io/en/latest/SIFTBasedDistance.html
 .. _SURF-Based: https://distancia.readthedocs.io/en/latest/SURFBasedDistance.html
 .. _ORB-Based: https://distancia.readthedocs.io/en/latest/ORBBasedDistance.html
+.. _Cosine: https://distancia.readthedocs.io/en/latest/Cosine.html
 
 Shape and Contour Measures
 ==========================
@@ -63,8 +64,10 @@ Shape and Contour Measures
 #. `Chamfer Distance`_ : A metric for comparing shapes using nearest neighbor distances.
 #. `Shape Context Distance`_ : Captures differences in spatial arrangements of shapes.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Hausdorff: https://distancia.readthedocs.io/en/latest/Hausdorff.html
+.. _Frechet: https://distancia.readthedocs.io/en/latest/Frechet.html
+.. _Chamfer Distance: https://distancia.readthedocs.io/en/latest/ChamferDistance.html
+.. _Shape Context Distance: https://distancia.readthedocs.io/en/latest/ShapeContextDistance.html
 
 Distribution-Based Measures
 ===========================
@@ -83,9 +86,9 @@ These distances analyze the overall structure of images or operate in the freque
 #. `FourierTransform`_ : Compares images in the frequency domain using their Fourier transforms. This distance is particularly useful for comparing images based on global patterns and periodic structures.
 #. `WaveletTransform`_ : Measures the difference between two images after decomposing them into their wavelet components. Wavelet-based methods are effective for capturing local image details at multiple scales.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
+.. _FourierTransform: https://distancia.readthedocs.io/en/latest/FourierTransform.html
+.. _WaveletTransform: https://distancia.readthedocs.io/en/latest/WaveletTransform.html
 
 
 Perceptual Measures
@@ -95,9 +98,9 @@ Perceptual Measures
 #. `Perceptual Hashing`_ : Generates hash values for images and measures similarity.
 #. `LPIPS`_ :  (Learned Perceptual Image Patch Similarity) A deep-learning-based similarity metric for perceptual quality.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Content-Based Perceptual Distance: https://distancia.readthedocs.io/en/latest/ContentBasedPerceptualDistance.html
+.. _Perceptual Hashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
+.. _LPIPS: https://distancia.readthedocs.io/en/latest/LPIPS.html
 
 Application-Specific Measures
 =============================
@@ -106,9 +109,9 @@ Application-Specific Measures
 #. `IS`_ :   (Inception Score) Evaluates generative models by assessing image diversity and quality.
 #. `BRISQUE`_ :   (Blind/Referenceless Image Spatial Quality Evaluator) Assesses the quality of an image without reference.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _FID: https://distancia.readthedocs.io/en/latest/FID.html
+.. _IS: https://distancia.readthedocs.io/en/latest/IS.html
+.. _BRISQUE: https://distancia.readthedocs.io/en/latest/BRISQUE.html
 
 Deep Learning-Based Distances
 =============================
@@ -119,9 +122,9 @@ Deep learning-based distances rely on pre-trained convolutional neural networks 
 #. `Inception-Based`_ : Employs the Inception architecture to extract feature vectors from images and compares them using a chosen distance metric. It is effective for capturing complex features in images.
 #. `ResNet-Based`_ : Utilizes the ResNet architecture to compare the deep features of images, enabling robust comparison of complex, high-dimensional image representations.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _VGG16-Based: https://distancia.readthedocs.io/en/latest/VGG16Based.html
+.. _Inception-Based: https://distancia.readthedocs.io/en/latest/InceptionBased.html
+.. _ResNet-Based: https://distancia.readthedocs.io/en/latest/ResNetBased.html
 
 Compression-Based Distances
 ===========================
@@ -130,13 +133,11 @@ Compression-based distances measure the similarity between two images based on t
 
 38. `NormalizedCompression`_ : Measures the similarity between two images by comparing the compression of the images concatenated together with their individual compressions. It captures the redundancy and shared information between images.
 #. `ZlibBasedDistance`_ : A variant of compression-based distance that uses the zlib algorithm to compare images based on their compressibility, reflecting how much the structure of two images is alike.
-#. `PerceptualHashing`_
 #. `NormalizedCrossCorrelation`_
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
+.. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
+.. _NormalizedCrossCorrelation: https://distancia.readthedocs.io/en/latest/NormalizedCrossCorrelation.html
 
 Conclusion
 ==========
