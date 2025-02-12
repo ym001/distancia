@@ -87,7 +87,7 @@ These distances analyze the overall structure of images or operate in the freque
 #. `WaveletTransform`_ : Measures the difference between two images after decomposing them into their wavelet components. Wavelet-based methods are effective for capturing local image details at multiple scales.
 
 .. _StructuralSimilarityIndex: https://distancia.readthedocs.io/en/latest/StructuralSimilarityIndex.html
-.. _FourierTransform: https://distancia.readthedocs.io/en/latest/FourierTransform.html
+.. _FourierTransform: https://distancia.readthedocs.io/en/latest/FourierTransformDistance.html
 .. _WaveletTransform: https://distancia.readthedocs.io/en/latest/WaveletTransform.html
 
 
