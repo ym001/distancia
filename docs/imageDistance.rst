@@ -98,7 +98,7 @@ Perceptual Measures
 #. `Perceptual Hashing`_ : Generates hash values for images and measures similarity.
 #. `LPIPS`_ :  (Learned Perceptual Image Patch Similarity) A deep-learning-based similarity metric for perceptual quality.
 
-.. _Content-Based Perceptual Distance: https://distancia.readthedocs.io/en/latest/ContentBasedPerceptualDistance.html
+.. _Content-Based Perceptual Distance: https://distancia.readthedocs.io/en/latest/ContentBasedPerceptual.html
 .. _Perceptual Hashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
 .. _LPIPS: https://distancia.readthedocs.io/en/latest/LPIPS.html
 
