@@ -109,7 +109,7 @@ Application-Specific Measures
 #. `IS`_ :   (Inception Score) Evaluates generative models by assessing image diversity and quality.
 #. `BRISQUE`_ :   (Blind/Referenceless Image Spatial Quality Evaluator) Assesses the quality of an image without reference.
 
-.. _FID: https://distancia.readthedocs.io/en/latest/FID.html
+.. _FID: https://distancia.readthedocs.io/en/latest/FréchetInceptionDistance.html
 .. _IS: https://distancia.readthedocs.io/en/latest/IS.html
 .. _BRISQUE: https://distancia.readthedocs.io/en/latest/BRISQUE.html
 
