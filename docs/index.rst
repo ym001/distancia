@@ -163,12 +163,12 @@ Distance measures between matrices are widely used in **machine learning, image 
 2. `Spectral Norm`_
    Defined as the largest singular value of the difference between two matrices, the spectral norm is useful for analyzing stability in numerical methods.
 
-.. _Spectral Norm: https://distancia.readthedocs.io/en/latest/SpectralNorm.html
+.. _Spectral Norm: https://distancia.readthedocs.io/en/latest/SpectralNormDistance.html
 
-3. `**Trace Norm (Nuclear Norm)**`_
+3. `Trace Norm (Nuclear Norm)`_
    This norm is the sum of the singular values of the difference between matrices. It is often used in low-rank approximation and compressed sensing.
 
-.. _**Trace Norm (Nuclear Norm)**: https://distancia.readthedocs.io/en/latest/NuclearNorm.html
+.. _Trace Norm (Nuclear Norm): https://distancia.readthedocs.io/en/latest/NuclearNorm.html
 
 4. `Mahalanobis Distance`_ 
    A statistical distance measure that considers correlations between features, making it effective in **multivariate anomaly detection and classification**.
