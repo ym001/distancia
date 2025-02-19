@@ -158,17 +158,27 @@ Distance measures between matrices are widely used in **machine learning, image 
 1. **Frobenius Norm**  
    The Frobenius norm is the square root of the sum of the squared elements of the difference between two matrices. It generalizes the Euclidean distance to matrices and is commonly used in optimization problems.
 
+.. _Frobenius Norm: https://distancia.readthedocs.io/en/latest/Frobenius.html
+
 2. **Spectral Norm**  
    Defined as the largest singular value of the difference between two matrices, the spectral norm is useful for analyzing stability in numerical methods.
+
+.. _Spectral Norm: https://distancia.readthedocs.io/en/latest/SpectralNorm.html
 
 3. **Trace Norm (Nuclear Norm)**  
    This norm is the sum of the singular values of the difference between matrices. It is often used in low-rank approximation and compressed sensing.
 
+.. _Trace Norm (Nuclear Norm): https://distancia.readthedocs.io/en/latest/NuclearNorm.html
+
 4. **Mahalanobis Distance**  
    A statistical distance measure that considers correlations between features, making it effective in **multivariate anomaly detection and classification**.
 
+.. _Mahalanobis Distance: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
+
 5. **Wasserstein Distance (Earth Mover’s Distance)**  
    This metric quantifies the optimal transport cost between two probability distributions, making it highly relevant in **image processing and deep learning**.
+
+.. _Wasserstein Distance (Earth Mover’s Distance): https://distancia.readthedocs.io/en/latest/Wasserstein.html
 
 .. note::  
    These distance measures are widely applied in fields such as **computer vision, data clustering, and signal processing**.
