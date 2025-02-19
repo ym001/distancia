@@ -221,7 +221,7 @@ Distance measures between texts are crucial in **natural language processing (NL
 
 Distance measures between time series are essential in **forecasting, anomaly detection, and clustering of temporal data**. Below are five of the most commonly used:
 
-1. **`Dynamic Time Warping (DTW)`_**  
+1. ** `Dynamic Time Warping (DTW)`_ **  
    Computes the optimal alignment between two time series by allowing non-linear warping along the time axis. Widely used in **speech recognition and gesture classification**.
 
 .. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
