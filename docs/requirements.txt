@@ -4,6 +4,5 @@ sphinxcontrib.bibtex
 
 sphinx-sitemap
 
-nbsphinx
 
 
