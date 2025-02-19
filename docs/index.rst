@@ -234,7 +234,7 @@ Distance measures between time series are essential in **forecasting, anomaly de
 3. `Pearson Correlation Distance`_ 
    Measures how similar the shapes of two time series are by computing `1 - Pearson correlation coefficient`. Useful in **financial time series and sensor data analysis**.
 
-.. _Pearson Correlation Distance: https://distancia.readthedocs.io/en/latest/PearsonCorrelation.html
+.. _Pearson Correlation Distance: https://distancia.readthedocs.io/en/latest/Pearson.html
 
 4. `Frechet Distance`_
    Considers both the location and order of points, making it more robust than Euclidean distance for **trajectory analysis and movement comparison**.
