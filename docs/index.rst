@@ -188,20 +188,30 @@ Distance measures between matrices are widely used in **machine learning, image 
 
 Distance measures between texts are crucial in **natural language processing (NLP), search engines, and text similarity tasks**. Below are five of the most commonly used:
 
-1. **Levenshtein Distance (Edit Distance)**  
+1. `Levenshtein Distance (Edit Distance)`_ 
    The minimum number of single-character edits (insertions, deletions, or substitutions) required to transform one string into another. Used in **spell checkers and DNA sequence analysis**.
 
-2. **Jaccard Similarity**  
+.. _Levenshtein Distance (Edit Distance): https://distancia.readthedocs.io/en/latest/Levenshtein.html
+
+2. `Jaccard Similarity`_  
    Measures the overlap between two sets of words or character n-grams, computed as the ratio of their intersection to their union. Useful in **document comparison and keyword matching**.
 
-3. **Cosine Similarity**  
+.. _Jaccard Similarity: https://distancia.readthedocs.io/en/latest/Jaccard.html
+
+3. `Cosine Similarity`_  
    Computes the cosine of the angle between two text vectors, often based on **TF-IDF or word embeddings**. Commonly used in **search engines and document ranking**.
 
-4. **Damerau-Levenshtein Distance**  
+.. _Cosine Similarity: https://distancia.readthedocs.io/en/latest/Cosine.html
+
+4. `Damerau-Levenshtein Distance`_
    An extension of Levenshtein distance that also considers transpositions (swapping adjacent characters). More robust for **typographical error detection**.
 
-5. **BLEU Score (Bilingual Evaluation Understudy)**  
+.. _Damerau-Levenshtein Distance: https://distancia.readthedocs.io/en/latest/DamerauLevenshtein.html
+
+5. `BLEU Score (Bilingual Evaluation Understudy)`_ 
    Measures the similarity between a candidate text and reference texts using **n-gram precision**. Widely used in **machine translation and text summarization**.
+
+.. _BLEU Score (Bilingual Evaluation Understudy): https://distancia.readthedocs.io/en/latest/BLEUScore.html
 
 .. note::  
    These text distance measures are extensively used in **chatbots, plagiarism detection, and semantic search applications**.
