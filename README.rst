@@ -122,27 +122,27 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Distance measures between vectors are essential in machine learning, classification, and information retrieval. Here are five of the most commonly used:
 
-1. **Euclidean Distance**  
+1. `Euclidean Distance`_  
    The Euclidean distance is the square root of the sum of the squared differences between the coordinates of two vectors. It is ideal for measuring similarity in geometric spaces.
 
 .. _Euclidean Distance: https://distancia.readthedocs.io/en/latest/Euclidean.html
 
-2. **Manhattan Distance**  
+2. `Manhattan Distance`_  
    Also known as L1 distance, it is defined as the sum of the absolute differences between the coordinates of the vectors. It is well-suited for discrete spaces and grid-based environments.
 
 .. _Manhattan Distance: https://distancia.readthedocs.io/en/latest/Manhattan.html
 
-3. **Cosine Distance**  
+3. `Cosine Distance`_  
    It measures the angle between two vectors rather than their absolute distance. Commonly used in natural language processing and information retrieval (e.g., search engines).
 
 .. _Cosine Distance: https://distancia.readthedocs.io/en/latest/Cosine.html
 
-4. **Jaccard Distance**  
+4. `Jaccard Distance`_  
    Based on the ratio of the intersection to the union of sets, it is effective for comparing sets of words, tags, or recommended items.
 
 .. _Jaccard Distance: https://distancia.readthedocs.io/en/latest/Jaccard.html
 
-5. **Hamming Distance**  
+5. `Hamming Distance`_  
    It counts the number of differing positions between two character or binary sequences. It is widely used in error detection and bioinformatics.
 
 .. _Hamming Distance: https://distancia.readthedocs.io/en/latest/Hamming.html
