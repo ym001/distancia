@@ -2,8 +2,8 @@
    :description: Distancia is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
 
-   :keywords: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
-   :keywords lang=en: data-science machine-learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image-classification nlp-machine-learning loss-functions distancia
+   :keywords: data science machine learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image classification nlp machine learning loss functions distancia
+   :keywords lang=en: machine learning, image processing, optimization,text similarity, NLP, search engine, document ranking
    
 ======================================
 Welcome to Distancia's documentation!
@@ -108,17 +108,17 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 .. _Vector Distance Measures: https://distancia.readthedocs.io/en/latest/vectorDistance.html
 .. _Matrix Distance Measures: https://distancia.readthedocs.io/en/latest/matrixDistance.html
-.. _TEXT: https://distancia.readthedocs.io/en/latest/textDistance.html
-.. _TIME: https://distancia.readthedocs.io/en/latest/timeDistance.html
-.. _LOSS: https://distancia.readthedocs.io/en/latest/lossFunction.html
-.. _GRAPH: https://distancia.readthedocs.io/en/latest/graphDistance.html
-.. _MARKOVCHAIN: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
-.. _IMAGE: https://distancia.readthedocs.io/en/latest/imageDistance.html
-.. _SOUND: https://distancia.readthedocs.io/en/latest/soundDistance.html
-.. _FILE: https://distancia.readthedocs.io/en/latest/fileDistance.html
+.. _Text Distance Measures: https://distancia.readthedocs.io/en/latest/textDistance.html
+.. _Time Series Distance Measures: https://distancia.readthedocs.io/en/latest/timeDistance.html
+.. _Loss Function-Based Distance Measures: https://distancia.readthedocs.io/en/latest/lossFunction.html
+.. _Graph Distance Measures: https://distancia.readthedocs.io/en/latest/graphDistance.html
+.. _Markov Chain Distance Measures: https://distancia.readthedocs.io/en/latest/markovChainDistance.html
+.. _Image Distance Measures: https://distancia.readthedocs.io/en/latest/imageDistance.html
+.. _Audio Distance Measures: https://distancia.readthedocs.io/en/latest/soundDistance.html
+.. _File Distance Measures: https://distancia.readthedocs.io/en/latest/fileDistance.html
 
 `Vector Distance Measures`_
-========================
+============================
 
 Distance measures between vectors are essential in machine learning, classification, and information retrieval. Here are five of the most commonly used:
 
@@ -151,7 +151,7 @@ Distance measures between vectors are essential in machine learning, classificat
    These distance measures are widely used in various algorithms, including **clustering**, **supervised classification**, and **search engines**.
 
 `Matrix Distance Measures`_
-========================
+============================
 
 Distance measures between matrices are widely used in **machine learning, image processing, and numerical analysis**. Below are five of the most commonly used:
 
@@ -173,21 +173,190 @@ Distance measures between matrices are widely used in **machine learning, image 
 .. note::  
    These distance measures are widely applied in fields such as **computer vision, data clustering, and signal processing**.
 
-+ `TEXT`_
+`Text Distance Measures`_
+==========================
 
-+ `TIME`_
+Distance measures between texts are crucial in **natural language processing (NLP), search engines, and text similarity tasks**. Below are five of the most commonly used:
 
-+ `LOSS`_
+1. **Levenshtein Distance (Edit Distance)**  
+   The minimum number of single-character edits (insertions, deletions, or substitutions) required to transform one string into another. Used in **spell checkers and DNA sequence analysis**.
 
-+ `GRAPH`_
+2. **Jaccard Similarity**  
+   Measures the overlap between two sets of words or character n-grams, computed as the ratio of their intersection to their union. Useful in **document comparison and keyword matching**.
 
-+ `MARKOVCHAIN`_
+3. **Cosine Similarity**  
+   Computes the cosine of the angle between two text vectors, often based on **TF-IDF or word embeddings**. Commonly used in **search engines and document ranking**.
 
-+ `IMAGE`_
+4. **Damerau-Levenshtein Distance**  
+   An extension of Levenshtein distance that also considers transpositions (swapping adjacent characters). More robust for **typographical error detection**.
 
-+ `SOUND`_
+5. **BLEU Score (Bilingual Evaluation Understudy)**  
+   Measures the similarity between a candidate text and reference texts using **n-gram precision**. Widely used in **machine translation and text summarization**.
 
-+ `FILE`_
+.. note::  
+   These text distance measures are extensively used in **chatbots, plagiarism detection, and semantic search applications**.
+
+`Time Series Distance Measures`_
+================================
+
+Distance measures between time series are essential in **forecasting, anomaly detection, and clustering of temporal data**. Below are five of the most commonly used:
+
+1. **Dynamic Time Warping (DTW)**  
+   Computes the optimal alignment between two time series by allowing non-linear warping along the time axis. Widely used in **speech recognition and gesture classification**.
+
+2. **Euclidean Distance**  
+   The sum of squared differences between corresponding points in two time series of equal length. Simple but sensitive to **time shifts and distortions**.
+
+3. **Pearson Correlation Distance**  
+   Measures how similar the shapes of two time series are by computing `1 - Pearson correlation coefficient`. Useful in **financial time series and sensor data analysis**.
+
+4. **Frechet Distance**  
+   Considers both the location and order of points, making it more robust than Euclidean distance for **trajectory analysis and movement comparison**.
+
+5. **Longest Common Subsequence (LCSS)**  
+   Identifies the longest matching subsequence between two time series while allowing gaps. Effective for **pattern recognition in noisy or incomplete data**.
+
+.. note::  
+   These distance measures are widely used in **time series classification, similarity search, and predictive analytics**.
+
+`Loss Function-Based Distance Measures`_
+========================================
+
+Loss functions are widely used in **machine learning, deep learning, and optimization** to quantify the difference between predicted and actual values. Below are five of the most commonly used:
+
+1. **Mean Squared Error (MSE)**  
+   Computes the average squared difference between predicted and actual values. Sensitive to large errors, making it effective for **regression tasks where large deviations need penalization**.
+
+2. **Mean Absolute Error (MAE)**  
+   Calculates the average of absolute differences between predicted and actual values. Unlike MSE, it treats all errors equally and is **more robust to outliers**.
+
+3. **Huber Loss**  
+   Combines MSE and MAE by using a quadratic loss for small errors and a linear loss for large errors. Used in **robust regression** to handle outliers.
+
+4. **Kullback-Leibler (KL) Divergence**  
+   Measures the difference between two probability distributions. Essential in **variational inference, deep learning, and information theory**.
+
+5. **Cross-Entropy Loss**  
+   Used in classification tasks, it quantifies the difference between two probability distributions, typically between **true labels and predicted probabilities**. Crucial in **neural networks and logistic regression**.
+
+.. note::  
+   These loss functions are fundamental in **supervised learning, deep neural networks, and statistical modeling**.
+
+`Graph Distance Measures`_
+==========================
+
+Distance measures between graphs are crucial in **network analysis, bioinformatics, computer vision, and graph-based machine learning**. Below are five of the most commonly used:
+
+1. **Graph Edit Distance (GED)**  
+   Computes the minimum number of edit operations (node/edge insertions, deletions, or substitutions) required to transform one graph into another. Used in **pattern recognition and structural comparison**.
+
+2. **Wasserstein Distance (Gromov-Wasserstein)**  
+   Measures the optimal transport cost between two graph structures by aligning their node distributions. Widely applied in **graph matching and deep learning on graphs**.
+
+3. **Spectral Distance**  
+   Compares the eigenvalues of graph Laplacians or adjacency matrices to quantify structural differences. Effective for **comparing network topology and community structures**.
+
+4. **Jaccard Graph Similarity**  
+   Computes the ratio of common edges to total edges between two graphs. Useful in **social network analysis and recommendation systems**.
+
+5. **Maximum Common Subgraph (MCS) Distance**  
+   Measures the largest subgraph common to both graphs. Frequently used in **chemoinformatics, bioinformatics, and structural graph comparison**.
+
+.. note::  
+   These distance measures are widely used in **graph classification, anomaly detection, and network embedding**.
+
+`Markov Chain Distance Measures`_
+=================================
+
+Distance measures between Markov chains are essential in **stochastic processes, reinforcement learning, and model comparison**. Below are five of the most commonly used:
+
+1. **Kullback-Leibler (KL) Divergence**  
+   Measures how one probability distribution differs from another. In Markov chains, it quantifies the difference between stationary distributions. Used in **model selection and statistical inference**.
+
+2. **Total Variation Distance**  
+   Computes the largest possible difference between the probabilities assigned by two Markov chains. It is useful in **bounding convergence rates and stability analysis**.
+
+3. **Wasserstein Distance**  
+   Also known as the Earth Mover’s Distance, it measures the minimal cost of transforming one stationary distribution into another. Applied in **optimal transport and generative modeling**.
+
+4. **Jensen-Shannon Divergence**  
+   A symmetrized and smoothed version of KL divergence, often used to compare Markov processes. Frequently applied in **text clustering and reinforcement learning**.
+
+5. **Hellinger Distance**  
+   Measures the similarity between two probability distributions, particularly useful when comparing **transition matrices or steady-state distributions**.
+
+.. note::  
+   These distance measures are widely used in **hidden Markov models (HMMs), reinforcement learning, and stochastic modeling**.
+
+`Image Distance Measures`_
+===========================
+
+Distance measures between images are crucial in **computer vision, image retrieval, and deep learning**. Below are five of the most commonly used:
+
+1. **Mean Squared Error (MSE)**  
+   Computes the average squared difference between corresponding pixel values of two images. Simple but sensitive to **intensity variations and noise**.
+
+2. **Structural Similarity Index (SSIM)**  
+   Measures the perceptual similarity between two images by considering **luminance, contrast, and structure**. Widely used in **image quality assessment**.
+
+3. **Peak Signal-to-Noise Ratio (PSNR)**  
+   Evaluates the ratio between the maximum possible pixel value and the mean squared error. Commonly used in **image compression and denoising**.
+
+4. **Earth Mover’s Distance (Wasserstein Distance)**  
+   Computes the minimal cost of transforming one image histogram into another. Used in **image retrieval and generative modeling**.
+
+5. **Feature-Based Distance (SIFT, ORB, or Deep Learning Embeddings)**  
+   Compares high-level feature representations extracted from images, often using deep learning models. Effective in **image recognition and object detection**.
+
+.. note::  
+   These distance measures are widely applied in **image classification, object detection, and content-based image retrieval (CBIR)**.
+
+`Audio Distance Measures`_
+==========================
+
+Distance measures between audio signals are crucial in **speech recognition, music analysis, and sound classification**. Below are five of the most commonly used:
+
+1. **Dynamic Time Warping (DTW)**  
+   Measures the similarity between two time-series signals by allowing non-linear time distortions. Used in **speech recognition and audio matching**.
+
+2. **Mel-Frequency Cepstral Coefficient (MFCC) Distance**  
+   Computes the Euclidean or cosine distance between MFCC feature vectors, capturing perceptual characteristics of sound. Widely applied in **voice recognition and speaker identification**.
+
+3. **Cross-Correlation Distance**  
+   Measures the alignment between two audio signals by computing their cross-correlation. Useful for **audio synchronization and time-delay estimation**.
+
+4. **Spectral Distance (KL Divergence on Spectrograms)**  
+   Compares spectrograms or power spectra of two signals using Kullback-Leibler divergence. Applied in **music genre classification and environmental sound analysis**.
+
+5. **Perceptual Evaluation of Speech Quality (PESQ) Score**  
+   Quantifies the perceptual difference between two speech signals, often used for **speech enhancement and telecommunication quality assessment**.
+
+.. note::  
+   These distance measures are widely used in **sound classification, music similarity analysis, and audio fingerprinting**.
+
+
+`File Distance Measures`_
+=========================
+
+Distance measures between files are essential in **data deduplication, plagiarism detection, and digital forensics**. Below are five of the most commonly used:
+
+1. **Hash-Based Distance (Hamming Distance on Hashes)**  
+   Compares hash values (e.g., MD5, SHA-256) of two files and counts the number of differing bits. Used in **integrity verification and duplicate detection**.
+
+2. **Byte-Level Edit Distance (Levenshtein Distance)**  
+   Measures the number of insertions, deletions, or substitutions required to transform one file’s binary content into another. Useful for **binary diffing and file versioning**.
+
+3. **Jaccard Similarity on Shingled Content**  
+   Splits files into overlapping chunks (shingles) and compares their sets to determine similarity. Common in **plagiarism detection and near-duplicate file detection**.
+
+4. **Kolmogorov Complexity-Based Distance**  
+   Approximates the minimum amount of information needed to transform one file into another, often using compression-based methods. Applied in **data compression and anomaly detection**.
+
+5. **Structural Distance (Tree Edit Distance for XML/JSON Files)**  
+   Measures differences in hierarchical file structures by computing edit distances on tree representations. Used in **configuration file comparison and web scraping**.
+
+.. note::  
+   These distance measures are widely used in **file integrity checks, malware detection, and version control systems**.
 
 
 And many more...
