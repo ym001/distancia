@@ -221,20 +221,30 @@ Distance measures between texts are crucial in **natural language processing (NL
 
 Distance measures between time series are essential in **forecasting, anomaly detection, and clustering of temporal data**. Below are five of the most commonly used:
 
-1. **Dynamic Time Warping (DTW)**  
+1. **`Dynamic Time Warping (DTW)`_**  
    Computes the optimal alignment between two time series by allowing non-linear warping along the time axis. Widely used in **speech recognition and gesture classification**.
+
+.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
 
 2. **Euclidean Distance**  
    The sum of squared differences between corresponding points in two time series of equal length. Simple but sensitive to **time shifts and distortions**.
 
+.. _Euclidean Distance: https://distancia.readthedocs.io/en/latest/Euclidean.html
+
 3. **Pearson Correlation Distance**  
    Measures how similar the shapes of two time series are by computing `1 - Pearson correlation coefficient`. Useful in **financial time series and sensor data analysis**.
+
+.. _Pearson Correlation Distance: https://distancia.readthedocs.io/en/latest/PearsonCorrelation.html
 
 4. **Frechet Distance**  
    Considers both the location and order of points, making it more robust than Euclidean distance for **trajectory analysis and movement comparison**.
 
+.. _Frechet Distance: https://distancia.readthedocs.io/en/latest/Frechet.html
+
 5. **Longest Common Subsequence (LCSS)**  
    Identifies the longest matching subsequence between two time series while allowing gaps. Effective for **pattern recognition in noisy or incomplete data**.
+
+.. _Longest Common Subsequence (LCSS): https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
 
 .. note::  
    These distance measures are widely used in **time series classification, similarity search, and predictive analytics**.
