@@ -2,12 +2,15 @@
    :description: Distancia is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
 
-   :keywords: data science machine learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image classification nlp machine learning loss functions distancia
+   :keywords: data science machine learning deep-learRandomWalkning neural-network graph text-classification text distance cython markov-chain file similarity image classification nlp machine learning loss functions distancia
    :keywords lang=en: machine learning, image processing, optimization,text similarity, NLP, search engine, document ranking
    
 ======================================
 Welcome to Distancia's documentation!
 ======================================
+
+
+
 
 
 **Distancia** is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
@@ -122,7 +125,11 @@ For a complete list and detailed explanations of each metric, see the next secti
 
 Distance measures between vectors are essential in machine learning, classification, and information retrieval. Here are five of the most commonly used:
 
+ 
+
+
 1. `Euclidean Distance`_  
+
    The Euclidean distance is the square root of the sum of the squared differences between the coordinates of two vectors. It is ideal for measuring similarity in geometric spaces.
 
 .. _Euclidean Distance: https://distancia.readthedocs.io/en/latest/Euclidean.html
@@ -221,20 +228,30 @@ Distance measures between texts are crucial in **natural language processing (NL
 
 Distance measures between time series are essential in **forecasting, anomaly detection, and clustering of temporal data**. Below are five of the most commonly used:
 
-1. **Dynamic Time Warping (DTW)**  
+1. `Dynamic Time Warping (DTW)`_  
    Computes the optimal alignment between two time series by allowing non-linear warping along the time axis. Widely used in **speech recognition and gesture classification**.
 
-2. **Euclidean Distance**  
+.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
+
+2. `Euclidean Distance`_
    The sum of squared differences between corresponding points in two time series of equal length. Simple but sensitive to **time shifts and distortions**.
 
-3. **Pearson Correlation Distance**  
+.. _Euclidean Distance: https://distancia.readthedocs.io/en/latest/Euclidean.html
+
+3. `Pearson Correlation Distance`_ 
    Measures how similar the shapes of two time series are by computing `1 - Pearson correlation coefficient`. Useful in **financial time series and sensor data analysis**.
 
-4. **Frechet Distance**  
+.. _Pearson Correlation Distance: https://distancia.readthedocs.io/en/latest/Pearson.html
+
+4. `Frechet Distance`_
    Considers both the location and order of points, making it more robust than Euclidean distance for **trajectory analysis and movement comparison**.
 
-5. **Longest Common Subsequence (LCSS)**  
+.. _Frechet Distance: https://distancia.readthedocs.io/en/latest/Frechet.html
+
+5. `Longest Common Subsequence (LCSS)`_ 
    Identifies the longest matching subsequence between two time series while allowing gaps. Effective for **pattern recognition in noisy or incomplete data**.
+
+.. _Longest Common Subsequence (LCSS): https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
 
 .. note::  
    These distance measures are widely used in **time series classification, similarity search, and predictive analytics**.
@@ -244,20 +261,30 @@ Distance measures between time series are essential in **forecasting, anomaly de
 
 Loss functions are widely used in **machine learning, deep learning, and optimization** to quantify the difference between predicted and actual values. Below are five of the most commonly used:
 
-1. **Mean Squared Error (MSE)**  
+1. `Mean Squared Error (MSE)`_ 
    Computes the average squared difference between predicted and actual values. Sensitive to large errors, making it effective for **regression tasks where large deviations need penalization**.
 
-2. **Mean Absolute Error (MAE)**  
+.. _Mean Squared Error (MSE): https://distancia.readthedocs.io/en/latest/MeanSquaredError.html
+
+2. `Mean Absolute Error (MAE)`_  
    Calculates the average of absolute differences between predicted and actual values. Unlike MSE, it treats all errors equally and is **more robust to outliers**.
 
-3. **Huber Loss**  
+.. _Mean Absolute Error (MAE): https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
+
+3. `Huber Loss`_  
    Combines MSE and MAE by using a quadratic loss for small errors and a linear loss for large errors. Used in **robust regression** to handle outliers.
 
-4. **Kullback-Leibler (KL) Divergence**  
+.. _Huber Loss: https://distancia.readthedocs.io/en/latest/HuberLossDistance.html
+
+4. `Kullback-Leibler (KL) Divergence`_  
    Measures the difference between two probability distributions. Essential in **variational inference, deep learning, and information theory**.
 
-5. **Cross-Entropy Loss**  
+.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
+
+5. `Cross-Entropy Loss`_
    Used in classification tasks, it quantifies the difference between two probability distributions, typically between **true labels and predicted probabilities**. Crucial in **neural networks and logistic regression**.
+
+.. _Cross-Entropy Loss: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
 
 .. note::  
    These loss functions are fundamental in **supervised learning, deep neural networks, and statistical modeling**.
@@ -267,20 +294,30 @@ Loss functions are widely used in **machine learning, deep learning, and optimiz
 
 Distance measures between graphs are crucial in **network analysis, bioinformatics, computer vision, and graph-based machine learning**. Below are five of the most commonly used:
 
-1. **Graph Edit Distance (GED)**  
+1. `Graph Edit Distance (GED)`_ 
    Computes the minimum number of edit operations (node/edge insertions, deletions, or substitutions) required to transform one graph into another. Used in **pattern recognition and structural comparison**.
 
-2. **Wasserstein Distance (Gromov-Wasserstein)**  
+.. _Graph Edit Distance (GED): https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
+
+2. `Wasserstein Distance (Gromov-Wasserstein)`_  
    Measures the optimal transport cost between two graph structures by aligning their node distributions. Widely applied in **graph matching and deep learning on graphs**.
 
-3. **Spectral Distance**  
+.. _Wasserstein Distance (Gromov-Wasserstein): https://distancia.readthedocs.io/en/latest/Wasserstein.html
+
+3. `Spectral Distance`_  
    Compares the eigenvalues of graph Laplacians or adjacency matrices to quantify structural differences. Effective for **comparing network topology and community structures**.
 
-4. **Jaccard Graph Similarity**  
+.. _Spectral Distance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
+
+4. `Jaccard Graph Similarity`_  
    Computes the ratio of common edges to total edges between two graphs. Useful in **social network analysis and recommendation systems**.
 
-5. **Maximum Common Subgraph (MCS) Distance**  
-   Measures the largest subgraph common to both graphs. Frequently used in **chemoinformatics, bioinformatics, and structural graph comparison**.
+.. _Jaccard Graph Similarity: https://distancia.readthedocs.io/en/latest/Jaccard.html
+
+5. `Random Walk Betweenness`_
+   Measures centrality based on random walk processes.
+
+.. _Random Walk Betweenness: https://distancia.readthedocs.io/en/latest/RandomWalk.html
 
 .. note::  
    These distance measures are widely used in **graph classification, anomaly detection, and network embedding**.
