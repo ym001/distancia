@@ -127,6 +127,7 @@ Distance measures between vectors are essential in machine learning, classificat
 
  
 1.
+
 .. raw:: html
 
    <strong><a href="https://distancia.readthedocs.io/en/latest/Euclidean.html">Euclidean Distance</a></strong>
