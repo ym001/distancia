@@ -259,20 +259,30 @@ Distance measures between time series are essential in **forecasting, anomaly de
 
 Loss functions are widely used in **machine learning, deep learning, and optimization** to quantify the difference between predicted and actual values. Below are five of the most commonly used:
 
-1. **Mean Squared Error (MSE)**  
+1. `Mean Squared Error (MSE)`_ 
    Computes the average squared difference between predicted and actual values. Sensitive to large errors, making it effective for **regression tasks where large deviations need penalization**.
 
-2. **Mean Absolute Error (MAE)**  
+.. _Mean Squared Error (MSE): https://distancia.readthedocs.io/en/latest/MeanSquaredError.html
+
+2. `Mean Absolute Error (MAE)`_  
    Calculates the average of absolute differences between predicted and actual values. Unlike MSE, it treats all errors equally and is **more robust to outliers**.
 
-3. **Huber Loss**  
+.. _Mean Absolute Error (MAE): https://distancia.readthedocs.io/en/latest/MeanAbsoluteError.html
+
+3. `Huber Loss`_  
    Combines MSE and MAE by using a quadratic loss for small errors and a linear loss for large errors. Used in **robust regression** to handle outliers.
 
-4. **Kullback-Leibler (KL) Divergence**  
+.. _Huber Loss: https://distancia.readthedocs.io/en/latest/Huber.html
+
+4. `Kullback-Leibler (KL) Divergence`_  
    Measures the difference between two probability distributions. Essential in **variational inference, deep learning, and information theory**.
 
-5. **Cross-Entropy Loss**  
+.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/Kullback-Leibler.html
+
+5. `Cross-Entropy Loss`_
    Used in classification tasks, it quantifies the difference between two probability distributions, typically between **true labels and predicted probabilities**. Crucial in **neural networks and logistic regression**.
+
+.. _Cross-Entropy Loss: https://distancia.readthedocs.io/en/latest/CrossEntropy.html
 
 .. note::  
    These loss functions are fundamental in **supervised learning, deep neural networks, and statistical modeling**.
@@ -282,20 +292,30 @@ Loss functions are widely used in **machine learning, deep learning, and optimiz
 
 Distance measures between graphs are crucial in **network analysis, bioinformatics, computer vision, and graph-based machine learning**. Below are five of the most commonly used:
 
-1. **Graph Edit Distance (GED)**  
+1. `Graph Edit Distance (GED)`_ 
    Computes the minimum number of edit operations (node/edge insertions, deletions, or substitutions) required to transform one graph into another. Used in **pattern recognition and structural comparison**.
 
-2. **Wasserstein Distance (Gromov-Wasserstein)**  
+.. _Graph Edit Distance (GED): https://distancia.readthedocs.io/en/latest/GraphEditDistance.html
+
+2. `Wasserstein Distance (Gromov-Wasserstein)`_  
    Measures the optimal transport cost between two graph structures by aligning their node distributions. Widely applied in **graph matching and deep learning on graphs**.
 
-3. **Spectral Distance**  
+.. _Wasserstein Distance (Gromov-Wasserstein): https://distancia.readthedocs.io/en/latest/WassersteinDistance.html
+
+3. `Spectral Distance`_  
    Compares the eigenvalues of graph Laplacians or adjacency matrices to quantify structural differences. Effective for **comparing network topology and community structures**.
 
-4. **Jaccard Graph Similarity**  
+.. _Spectral Distance: https://distancia.readthedocs.io/en/latest/SpectralDistance.html
+
+4. `Jaccard Graph Similarity`_  
    Computes the ratio of common edges to total edges between two graphs. Useful in **social network analysis and recommendation systems**.
 
-5. **Maximum Common Subgraph (MCS) Distance**  
+.. _Jaccard Graph Similarity: https://distancia.readthedocs.io/en/latest/Jaccard.html
+
+5. `Maximum Common Subgraph (MCS) Distance`_ 
    Measures the largest subgraph common to both graphs. Frequently used in **chemoinformatics, bioinformatics, and structural graph comparison**.
+
+.. _Maximum Common Subgraph (MCS) Distance: https://distancia.readthedocs.io/en/latest/MaximumCommonSubgraph.html
 
 .. note::  
    These distance measures are widely used in **graph classification, anomaly detection, and network embedding**.
