@@ -312,7 +312,8 @@ Distance measures between graphs are crucial in **network analysis, bioinformati
 
 .. _Jaccard Graph Similarity: https://distancia.readthedocs.io/en/latest/Jaccard.html
 
-5. Random Walk Betweenness: Measures centrality based on random walk processes.
+5. `Random Walk Betweenness`_
+   Measures centrality based on random walk processes.
 
 .. _Random Walk Betweenness: https://distancia.readthedocs.io/en/latest/RandomWalkBetweenness.html
 
