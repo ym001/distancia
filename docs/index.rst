@@ -277,7 +277,7 @@ Loss functions are widely used in **machine learning, deep learning, and optimiz
 4. `Kullback-Leibler (KL) Divergence`_  
    Measures the difference between two probability distributions. Essential in **variational inference, deep learning, and information theory**.
 
-.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/Kullback-Leibler.html
+.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 
 5. `Cross-Entropy Loss`_
    Used in classification tasks, it quantifies the difference between two probability distributions, typically between **true labels and predicted probabilities**. Crucial in **neural networks and logistic regression**.
