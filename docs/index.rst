@@ -2,7 +2,7 @@
    :description: Distancia is a comprehensive Python package that provides a wide range of distance metrics and similarity measures, making it easy to calculate and compare the proximity between various types of data. This documentation provides an in-depth guide to the package, including installation instructions, usage examples, and detailed descriptions of each available metric.
 
 
-   :keywords: data science machine learning deep-learning neural-network graph text-classification text distance cython markov-chain file similarity image classification nlp machine learning loss functions distancia
+   :keywords: data science machine learning deep-learRandomWalkning neural-network graph text-classification text distance cython markov-chain file similarity image classification nlp machine learning loss functions distancia
    :keywords lang=en: machine learning, image processing, optimization,text similarity, NLP, search engine, document ranking
    
 ======================================
@@ -315,7 +315,7 @@ Distance measures between graphs are crucial in **network analysis, bioinformati
 5. `Random Walk Betweenness`_
    Measures centrality based on random walk processes.
 
-.. _Random Walk Betweenness: https://distancia.readthedocs.io/en/latest/RandomWalkBetweenness.html
+.. _Random Walk Betweenness: https://distancia.readthedocs.io/en/latest/RandomWalk.html
 
 .. note::  
    These distance measures are widely used in **graph classification, anomaly detection, and network embedding**.
