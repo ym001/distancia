@@ -272,7 +272,7 @@ Loss functions are widely used in **machine learning, deep learning, and optimiz
 3. `Huber Loss`_  
    Combines MSE and MAE by using a quadratic loss for small errors and a linear loss for large errors. Used in **robust regression** to handle outliers.
 
-.. _Huber Loss: https://distancia.readthedocs.io/en/latest/Huber.html
+.. _Huber Loss: https://distancia.readthedocs.io/en/latest/HuberLossDistance.html
 
 4. `Kullback-Leibler (KL) Divergence`_  
    Measures the difference between two probability distributions. Essential in **variational inference, deep learning, and information theory**.
