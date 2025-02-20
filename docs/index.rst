@@ -126,11 +126,11 @@ For a complete list and detailed explanations of each metric, see the next secti
 Distance measures between vectors are essential in machine learning, classification, and information retrieval. Here are five of the most commonly used:
 
  
-1.
+
 
 .. raw:: html
 
-   <strong><a href="https://distancia.readthedocs.io/en/latest/Euclidean.html">Euclidean Distance</a></strong>
+   <p STYLE="padding:0 0 0 20px;">1. <strong><a href="https://distancia.readthedocs.io/en/latest/Euclidean.html">Euclidean Distance</a></strong></p>
 
    The Euclidean distance is the square root of the sum of the squared differences between the coordinates of two vectors. It is ideal for measuring similarity in geometric spaces.
 
