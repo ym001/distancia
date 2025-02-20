@@ -300,7 +300,7 @@ Distance measures between graphs are crucial in **network analysis, bioinformati
 2. `Wasserstein Distance (Gromov-Wasserstein)`_  
    Measures the optimal transport cost between two graph structures by aligning their node distributions. Widely applied in **graph matching and deep learning on graphs**.
 
-.. _Wasserstein Distance (Gromov-Wasserstein): https://distancia.readthedocs.io/en/latest/WassersteinDistance.html
+.. _Wasserstein Distance (Gromov-Wasserstein): https://distancia.readthedocs.io/en/latest/Wasserstein.html
 
 3. `Spectral Distance`_  
    Compares the eigenvalues of graph Laplacians or adjacency matrices to quantify structural differences. Effective for **comparing network topology and community structures**.
