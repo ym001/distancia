@@ -1,40 +1,52 @@
-Spectral Flatness Measure (SFM): Evaluating Audio Signal Tonality
-=================================================================
+Spectral Flatness Measure (SFM): Quantifying Audio Signal Tonality
+==================================================================
 
 Introduction
 ------------
 
-The Spectral Flatness Measure (SFM) is a crucial audio signal processing technique used to quantify the tonality of sound signals. This class, part of the `distancia` Python package, provides an efficient implementation for calculating the SFM of audio signals, offering valuable insights into their spectral characteristics.
+The Spectral Flatness Measure (SFM), also known as Wiener entropy, is a sophisticated audio signal processing metric that quantifies the tonal quality of sound signals. This implementation, part of the `distancia` Python package, offers a high-precision tool for calculating the SFM, providing crucial insights into the spectral distribution and tonal characteristics of audio signals.
 
 Significance of the Measure
 ---------------------------
 
-SFM is essential for:
+SFM is pivotal in audio signal analysis for:
 
-- Distinguishing between tonal and noisy audio signals
-- Analyzing the harmonic content of music and speech
-- Audio compression applications
-- Sound classification and music information retrieval
+- Differentiating between tonal (harmonic) and noisy (stochastic) audio components
+- Assessing the degree of "peakiness" vs. "flatness" in audio spectra
+- Enhancing audio codec efficiency in perceptual audio coding
+- Facilitating automatic genre classification in music information retrieval
+- Improving voice activity detection in speech processing systems
 
-The SFM of a noisy signal tends towards 1, while for a pure tone signal, it approaches 0[8].
+The SFM ranges from 0 to 1, where values close to 0 indicate a tonal signal (e.g., a sine wave), and values approaching 1 suggest a noise-like signal (e.g., white noise).
 
 Formal Definition
 -----------------
 
-SFM is defined as the ratio of the geometric mean to the arithmetic mean of the power spectral density components:
+The SFM is mathematically defined as the ratio of the geometric mean to the arithmetic mean of the power spectral density components:
 
 .. math::
 
-   SFM = \frac{N \times \sqrt[N]{\prod_{i=1}^N y_i}}{\sum_{i=1}^N y_i}
+   SFM = \frac{\exp(\frac{1}{N}\sum_{i=1}^N \ln(X[i]))}{\frac{1}{N}\sum_{i=1}^N X[i]}
 
 Where:
-- y_i is the relative amplitude of the i-th frequency
-- N is the number of frequencies[9]
+- X[i] is the magnitude of bin number i of the power spectrum
+- N is the number of frequency bins
+
+This formula can be expressed in decibels:
+
+.. math::
+
+   SFM_{dB} = 10 \log_{10}(SFM)
 
 Complexity Estimation
 ---------------------
 
-The time complexity of the SFM calculation is O(N), where N is the number of frequency bins in the spectrum. This makes it an efficient measure for real-time audio processing and large-scale music information retrieval tasks.
+The time complexity of the SFM calculation is O(N log N), where N is the number of samples in the audio frame. This includes:
+
+- O(N log N) for the Fast Fourier Transform (FFT)
+- O(N) for the geometric and arithmetic mean calculations
+
+The space complexity is O(N) for storing the spectrum and intermediate results.
 
 Usage Example
 -------------
@@ -43,22 +55,24 @@ Usage Example
 
    from distancia import SpectralFlatnessMeasure
 
-   # Initialize with an audio signal
-   sfm = SpectralFlatnessMeasure(audio_signal, sample_rate=44100)
+   # Initialize with an audio signal (assuming mono, 44.1kHz sampling rate)
+   audio_signal = [0.1, 0.2, -0.1, 0.3, ...]  # Your audio samples here
+   sfm = SpectralFlatnessMeasure(frame_size=2048, hop_size=512)
    
-   # Calculate the SFM
-   flatness = sfm.calculate()
+   # Calculate the SFM for each frame
+   sfm_values = sfm.calculate(audio_signal)
    
-   print(f"The Spectral Flatness Measure is: {flatness}")
+   print(f"SFM values across frames: {sfm_values}")
+   print(f"Average SFM: {sum(sfm_values) / len(sfm_values)}")
 
 Academic Citation
 -----------------
 
-When using this implementation in academic work, please cite:
+When utilizing this implementation in academic work, please cite:
 
-Johnston, J. D. (1988). Transform coding of audio signals using perceptual noise criteria. IEEE Journal on selected areas in communications, 6(2), 314-323.
+Dubnov, S. (2004). Generalization of spectral flatness measure for non-Gaussian linear processes. IEEE Signal Processing Letters, 11(8), 698-701.
 
 Conclusion
 ----------
 
-The Spectral Flatness Measure class in the `distancia` package offers a powerful tool for analyzing the tonality of audio signals. Its efficient implementation and strong correlation with perceptual characteristics make it invaluable for various audio processing applications, from music analysis to speech processing and audio compression.
+The Spectral Flatness Measure class in the `distancia` package provides a robust and efficient tool for analyzing the tonal characteristics of audio signals. Its implementation offers high precision and scalability, making it suitable for a wide range of applications from real-time audio processing to large-scale music information retrieval tasks. By quantifying the degree of tonality in audio signals, SFM enables more sophisticated audio analysis, enhancing capabilities in audio compression, music classification, and speech processing domains.
