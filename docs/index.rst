@@ -312,10 +312,9 @@ Distance measures between graphs are crucial in **network analysis, bioinformati
 
 .. _Jaccard Graph Similarity: https://distancia.readthedocs.io/en/latest/Jaccard.html
 
-5. `Maximum Common Subgraph (MCS) Distance`_ 
-   Measures the largest subgraph common to both graphs. Frequently used in **chemoinformatics, bioinformatics, and structural graph comparison**.
+5. Random Walk Betweenness: Measures centrality based on random walk processes.
 
-.. _Maximum Common Subgraph (MCS) Distance: https://distancia.readthedocs.io/en/latest/MaximumCommonSubgraph.html
+.. _Random Walk Betweenness: https://distancia.readthedocs.io/en/latest/RandomWalkBetweenness.html
 
 .. note::  
    These distance measures are widely used in **graph classification, anomaly detection, and network embedding**.
