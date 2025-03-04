@@ -123,7 +123,7 @@ Waveform-Based Measures
 -----------------------
 
 35. `Root Mean Square (RMS) Energy Difference`_ :Compares overall energy levels in audio signals.
-#. `Peak Signal Difference`_ :Measures the maximum amplitude variation between signals.
+#. `Peak Signal To Noise Ratio`_ :
 #. `Zero-Crossing Rate Distance`_ :Compares the rate of sign changes in waveforms.
 #. `CrossCorrelation`_ :
 #. `ZeroCrossingRateDistance`_ :
@@ -132,7 +132,8 @@ Waveform-Based Measures
 #. `EnvelopeCorrelation`_ :
 
 .. _Root Mean Square (RMS) Energy Difference: https://distancia.readthedocs.io/en/latest/RootMeanSquare.html
-.. _Peak Signal Difference: https://distancia.readthedocs.io/en/latest/PeakSignalDifference.html
+.. _Peak Signal To Noise Ratio: https://distancia.readthedocs.io/en/latest/PeakSignalToNoiseRatio
+.html
 .. _Zero-Crossing Rate Distance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
 .. _CrossCorrelation: https://distancia.readthedocs.io/en/latest/CrossCorrelation.html
 .. _ZeroCrossingRateDistance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
