@@ -91,6 +91,13 @@ Perceptual distances attempt to model how humans perceive differences in sounds.
 #. `PerceptualHashing`_ :Computes a hash based on how the human ear would perceive the sound, robust to noise and minor variations.
 #. `PLPDistance`_ :Compares Perceptual Linear Predictive coefficients, which model how the ear processes sounds.
 
+.. _Perceptual Evaluation of Audio Quality (PEAQ): https://distancia.readthedocs.io/en/latest/PEAQ.html
+.. _Perceptual Spectral Divergence: https://distancia.readthedocs.io/en/latest/PerceptualSpectralDivergence.html
+.. _Psychoacoustic Distance: https://distancia.readthedocs.io/en/latest/PsychoacousticDistance.html
+.. _Mel-Frequency Perceptual Distance: https://distancia.readthedocs.io/en/latest/MelFrequencyPerceptualDistance.html
+.. _PerceptualHashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
+.. _PLPDistance: https://distancia.readthedocs.io/en/latest/PLPDistance.html
+
 Feature-Based Measures
 ----------------------
 
