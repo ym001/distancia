@@ -116,7 +116,7 @@ Feature-based distances extract specific characteristics or features of audio si
 .. _Mahalanobis Distance in Feature Space: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
 .. _KL-Divergence on Audio Distributions: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 .. _MFCCProcessor: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
-.. _ChromaDistance: https://distancia.readthedocs.io/en/latest/ChromaDistance.html
+.. _ChromaDistance: https://distancia.readthedocs.io/en/latest/ChromagramDistance.html
 .. _EnergyDistance: https://distancia.readthedocs.io/en/latest/EnergyDistance.html
 
 Waveform-Based Measures
