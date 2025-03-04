@@ -327,20 +327,30 @@ Distance measures between graphs are crucial in **network analysis, bioinformati
 
 Distance measures between Markov chains are essential in **stochastic processes, reinforcement learning, and model comparison**. Below are five of the most commonly used:
 
-1. **Kullback-Leibler (KL) Divergence**  
+1. `Kullback-Leibler (KL) Divergence`_ 
    Measures how one probability distribution differs from another. In Markov chains, it quantifies the difference between stationary distributions. Used in **model selection and statistical inference**.
 
-2. **Total Variation Distance**  
+.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeiblerDivergence.html
+
+2. `Total Variation Distance`_   
    Computes the largest possible difference between the probabilities assigned by two Markov chains. It is useful in **bounding convergence rates and stability analysis**.
 
-3. **Wasserstein Distance**  
+.. _Total Variation Distance: https://distancia.readthedocs.io/en/latest/TotalVariationDistance.html
+
+3. `Wasserstein Distance`_   
    Also known as the Earth Mover’s Distance, it measures the minimal cost of transforming one stationary distribution into another. Applied in **optimal transport and generative modeling**.
 
-4. **Jensen-Shannon Divergence**  
+.. _Wasserstein Distance: https://distancia.readthedocs.io/en/latest/Wasserstein.html
+
+4. `_Jensen-Shannon Divergence`_  
    A symmetrized and smoothed version of KL divergence, often used to compare Markov processes. Frequently applied in **text clustering and reinforcement learning**.
 
-5. **Hellinger Distance**  
+.. _Jensen-Shannon Divergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
+
+5. `Hellinger Distance`_   
    Measures the similarity between two probability distributions, particularly useful when comparing **transition matrices or steady-state distributions**.
+
+.. _Hellinger Distance: https://distancia.readthedocs.io/en/latest/Hellinger.html
 
 .. note::  
    These distance measures are widely used in **hidden Markov models (HMMs), reinforcement learning, and stochastic modeling**.
