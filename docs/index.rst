@@ -330,7 +330,7 @@ Distance measures between Markov chains are essential in **stochastic processes,
 1. `Kullback-Leibler (KL) Divergence`_ 
    Measures how one probability distribution differs from another. In Markov chains, it quantifies the difference between stationary distributions. Used in **model selection and statistical inference**.
 
-.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeiblerDivergence.html
+.. _Kullback-Leibler (KL) Divergence: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
 
 2. `Total Variation Distance`_   
    Computes the largest possible difference between the probabilities assigned by two Markov chains. It is useful in **bounding convergence rates and stability analysis**.
