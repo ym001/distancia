@@ -416,7 +416,7 @@ Distance measures between audio signals are crucial in **speech recognition, mus
 5. `Perceptual Evaluation of Speech Quality (PESQ) Score`_ 
    Quantifies the perceptual difference between two speech signals, often used for **speech enhancement and telecommunication quality assessment**.
 
-.. _Perceptual Evaluation of Speech Quality (PESQ) Score: https://distancia.readthedocs.io/en/latest/PerceptualEvaluationofSpeechQuality.html
+.. _Perceptual Evaluation of Speech Quality (PESQ) Score: https://distancia.readthedocs.io/en/latest/PESQ.html
 
 .. note::  
    These distance measures are widely used in **sound classification, music similarity analysis, and audio fingerprinting**.
