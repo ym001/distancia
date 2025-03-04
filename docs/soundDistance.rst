@@ -150,8 +150,16 @@ Application-Specific Measures
 #. `PESQ`_ :
 #. `ItakuraSaitoDistance`_ :
 #. `CochleagramDistance`_ :
-#. `ChromagramDistance`_ :
 #. `CQTDistance`_ :
+
+.. _Chord Similarity Distance: https://distancia.readthedocs.io/en/ChordSimilarityDistance.html
+.. _Speech Recognition Error Rate (WER): https://distancia.readthedocs.io/en/latest/SpeechRecognitionErrorRate.html
+.. _Environmental Sound Matching Distance: https://distancia.readthedocs.io/en/latest/EnvironmentalSoundMatchingDistance.html
+.. _SignalProcessor: https://distancia.readthedocs.io/en/latest/SignalProcessor.html
+.. _PESQ: https://distancia.readthedocs.io/en/latest/PESQ.html
+.. _ItakuraSaitoDistance: https://distancia.readthedocs.io/en/latest/ItakuraSaitoDistance.html
+.. _CochleagramDistance: https://distancia.readthedocs.io/en/latest/CochleagramDistance.html
+.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 
 Compression-Based Distances
 ---------------------------
@@ -159,7 +167,10 @@ Compression-Based Distances
 Compression-based distances measure the similarity between audio signals by evaluating how efficiently they can be compressed together. These methods capture shared patterns and structures in the audio.
 
 52. `ZlibCompressionDistance`_ :Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
-#. `NormalizedCompressionDistanc`_ : Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
+#. `NormalizedCompressionDistance`_ : Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
+
+.. _ZlibCompressionDistance: https://distancia.readthedocs.io/en/latest/ZlibCompressionDistance.html
+.. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
 
 Conclusion
 ==========
