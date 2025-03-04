@@ -47,7 +47,7 @@ Time-based distances measure similarities or differences directly in the time do
 #. `Wavelet-Based Distance (WBD)`_ : is an advanced similarity measure that combines both temporal and frequency domain analysis through wavelet decomposition.
 #. `TimeLagDistance`_ :
 
-.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/.html
+.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/DynamicTimeWarping.html
 .. _Time Domain Cross-Correlation: https://distancia.readthedocs.io/en/latest/TimeDomainCrossCorrelation.html
 .. _Envelope Cross-Distance: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
 .. _Short-Time Energy Distance: https://distancia.readthedocs.io/en/latest/ShortTimeEnergyDistance.html
