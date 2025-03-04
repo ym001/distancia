@@ -335,7 +335,7 @@ Distance measures between Markov chains are essential in **stochastic processes,
 2. `Total Variation Distance`_   
    Computes the largest possible difference between the probabilities assigned by two Markov chains. It is useful in **bounding convergence rates and stability analysis**.
 
-.. _Total Variation Distance: https://distancia.readthedocs.io/en/latest/TotalVariationDistance.html
+.. _Total Variation Distance: https://distancia.readthedocs.io/en/latest/MarkovChainTotalVariation.html
 
 3. `Wasserstein Distance`_   
    Also known as the Earth Mover’s Distance, it measures the minimal cost of transforming one stationary distribution into another. Applied in **optimal transport and generative modeling**.
