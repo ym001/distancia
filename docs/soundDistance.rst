@@ -44,14 +44,14 @@ Time-based distances measure similarities or differences directly in the time do
 #. `Time Domain Cross-Correlation`_ :Compares temporal alignment of two signals.
 #. `Envelope Cross-Distance`_ :Analyzes differences in the amplitude envelope of signals.
 #. `Short-Time Energy Distance`_ :Evaluates variations in energy patterns of sound over time.
-#. `WaveformDistance`_ :Directly compares the raw waveform of two signals, useful for detecting small time-domain differences.
+#. `Wavelet-Based Distance (WBD)`_ : is an advanced similarity measure that combines both temporal and frequency domain analysis through wavelet decomposition.
 #. `TimeLagDistance`_ :
 
 .. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/.html
 .. _Time Domain Cross-Correlation: https://distancia.readthedocs.io/en/latest/TimeDomainCrossCorrelation.html
 .. _Envelope Cross-Distance: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
 .. _Short-Time Energy Distance: https://distancia.readthedocs.io/en/latest/ShortTimeEnergyDistance.html
-.. _WaveformDistance: https://distancia.readthedocs.io/en/latest/.html
+.. _Wavelet-Based Distance (WBD): https://distancia.readthedocs.io/en/latest/WaveletBasedDistance.html
 .. _TimeLagDistance: https://distancia.readthedocs.io/en/latest/TimeLagDistance.html
 
 Frequency-Based Measures
