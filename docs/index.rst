@@ -445,7 +445,7 @@ Distance measures between files are essential in **data deduplication, plagiaris
 4. `Kolmogorov Complexity-Based Distance`_  
    Approximates the minimum amount of information needed to transform one file into another, often using compression-based methods. Applied in **data compression and anomaly detection**.
 
-.. _Kolmogorov Complexity-Based Distance: https://distancia.readthedocs.io/en/latest/Kolmogorov.html
+.. _Kolmogorov Complexity-Based Distance: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
 
 5. `Structural Distance (Tree Edit Distance for XML/JSON Files)`_ 
    Measures differences in hierarchical file structures by computing edit distances on tree representations. Used in **configuration file comparison and web scraping**.
