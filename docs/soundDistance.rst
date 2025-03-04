@@ -169,8 +169,8 @@ Compression-based distances measure the similarity between audio signals by eval
 52. `ZlibCompressionDistance`_ :Compares two audio signals by evaluating the compression ratio when they are concatenated, capturing structural similarities.
 #. `NormalizedCompressionDistance`_ : Uses compression to calculate the amount of shared information between two audio files, reflecting their overall similarity.
 
-.. _ZlibCompressionDistance: https://distancia.readthedocs.io/en/latest/ZlibCompressionDistance.html
-.. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompressionDistance.html
+.. _ZlibCompressionDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
+.. _NormalizedCompressionDistance: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
 
 Conclusion
 ==========
