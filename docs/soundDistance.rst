@@ -131,6 +131,15 @@ Waveform-Based Measures
 #. `SignalToNoiseRatio`_ :
 #. `EnvelopeCorrelation`_ :
 
+.. _Root Mean Square (RMS) Energy Difference: https://distancia.readthedocs.io/en/latest/RootMeanSquare.html
+.. _Peak Signal Difference: https://distancia.readthedocs.io/en/latest/PeakSignalDifference.html
+.. _Zero-Crossing Rate Distance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
+.. _CrossCorrelation: https://distancia.readthedocs.io/en/latest/CrossCorrelation.html
+.. _ZeroCrossingRateDistance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
+.. _PhaseDifferenceCalculator: https://distancia.readthedocs.io/en/latest/PhaseDifferenceCalculator.html
+.. _SignalToNoiseRatio: https://distancia.readthedocs.io/en/latest/SignalToNoiseRatio.html
+.. _EnvelopeCorrelation: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
+
 Application-Specific Measures
 -----------------------------
 
