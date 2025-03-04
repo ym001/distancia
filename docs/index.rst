@@ -342,10 +342,10 @@ Distance measures between Markov chains are essential in **stochastic processes,
 
 .. _Wasserstein Distance: https://distancia.readthedocs.io/en/latest/Wasserstein.html
 
-4. `_Jensen-Shannon Divergence`_  
+4. `_Jensen Shannon Divergence`_  
    A symmetrized and smoothed version of KL divergence, often used to compare Markov processes. Frequently applied in **text clustering and reinforcement learning**.
 
-.. _Jensen-Shannon Divergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
+.. _Jensen Shannon Divergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 
 5. `Hellinger Distance`_   
    Measures the similarity between two probability distributions, particularly useful when comparing **transition matrices or steady-state distributions**.
