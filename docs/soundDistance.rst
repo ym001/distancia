@@ -40,14 +40,19 @@ Temporal-Based Measures
 Time-based distances measure similarities or differences directly in the time domain, analyzing how the waveforms of two audio signals evolve over time. These methods are useful for comparing temporal patterns in sound.
 
 
-6. `Dynamic Time Warping (DTW)`_ :Aligns temporal sequences of audio signals to measure similarity.
+6. `Dynamic Time Warping (DTW)`_ :Aligns two audio signals in time to measure their similarity, often used in speech processing.
 #. `Time Domain Cross-Correlation`_ :Compares temporal alignment of two signals.
 #. `Envelope Cross-Distance`_ :Analyzes differences in the amplitude envelope of signals.
 #. `Short-Time Energy Distance`_ :Evaluates variations in energy patterns of sound over time.
 #. `WaveformDistance`_ :Directly compares the raw waveform of two signals, useful for detecting small time-domain differences.
-#. `DynamicTimeWarping`_ :Aligns two audio signals in time to measure their similarity, often used in speech processing.
 #. `TimeLagDistance`_ :
 
+.. _Dynamic Time Warping (DTW): https://distancia.readthedocs.io/en/latest/.html
+.. _Time Domain Cross-Correlation: https://distancia.readthedocs.io/en/latest/TimeDomainCrossCorrelation.html
+.. _Envelope Cross-Distance: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
+.. _Short-Time Energy Distance: https://distancia.readthedocs.io/en/latest/ShortTimeEnergyDistance.html
+.. _WaveformDistance: https://distancia.readthedocs.io/en/latest/.html
+.. _TimeLagDistance: https://distancia.readthedocs.io/en/latest/TimeLagDistance.html
 
 Frequency-Based Measures
 ------------------------
@@ -130,7 +135,6 @@ By carefully selecting the appropriate distance measure, users can achieve accur
 
 The **Distancia** package offers a wide range of audio-based distance measures, making it versatile for tasks such as music information retrieval, voice recognition, and environmental sound analysis. By providing methods that span frequency, time, feature, perceptual, and compression-based approaches, **Distancia** ensures that users can select the most appropriate distance measure for their specific application. Whether the goal is to compare melodies, detect similarities in speech, or analyze environmental sounds, **Distancia** provides a comprehensive toolkit for robust audio comparison.
 
-.. _MFCCProcessor: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
 .. _SignalProcessor: https://distancia.readthedocs.io/en/latest/SignalProcessor.html
 .. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
 .. _CrossCorrelation: https://distancia.readthedocs.io/en/latest/CrossCorrelation.html
