@@ -72,7 +72,7 @@ These distances focus on the frequency components of the audio signal, comparing
 .. _Frequency Bin Distance: https://distancia.readthedocs.io/en/latest/FrequencyBinDistance.html
 .. _Pitch Distance (e.g., Harmonic Product Spectrum): https://distancia.readthedocs.io/en/latest/PitchDistanceusingHarmonicProductSpectrum.html
 .. _Log-Frequency Spectral Distance: https://distancia.readthedocs.io/en/latest/LogFrequencySpectralDistance.html
-.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTD.html
+.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
 .. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
 .. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
 .. _LogSpectralDistance: https://distancia.readthedocs.io/en/latest/LogSpectralDistance.html
