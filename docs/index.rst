@@ -450,7 +450,7 @@ Distance measures between files are essential in **data deduplication, plagiaris
 5. `Structural Distance (Tree Edit Distance for XML/JSON Files)`_ 
    Measures differences in hierarchical file structures by computing edit distances on tree representations. Used in **configuration file comparison and web scraping**.
 
-.. _Structural Distance (Tree Edit Distance for XML/JSON Files): https://distancia.readthedocs.io/en/latest/StructuralDistance.html
+.. _Structural Distance (Tree Edit Distance for XML/JSON Files): https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
 
 .. note::  
    These distance measures are widely used in **file integrity checks, malware detection, and version control systems**.
