@@ -373,7 +373,7 @@ Distance measures between images are crucial in **computer vision, image retriev
 3. `Peak Signal-to-Noise Ratio (PSNR)`_  
    Evaluates the ratio between the maximum possible pixel value and the mean squared error. Commonly used in **image compression and denoising**.
 
-.. _Peak Signal-to-Noise Ratio (PSNR): https://distancia.readthedocs.io/en/latest/PeakSignaltoNoiseRatio.html
+.. _Peak Signal-to-Noise Ratio (PSNR): https://distancia.readthedocs.io/en/latest/PeakSignalToNoiseRatio.html
 
 4. `Earth Mover’s Distance (Wasserstein Distance)`_  
    Computes the minimal cost of transforming one image histogram into another. Used in **image retrieval and generative modeling**.
