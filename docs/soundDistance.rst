@@ -111,6 +111,14 @@ Feature-based distances extract specific characteristics or features of audio si
 #. `ChromaDistance`_ :Compares the chromagram features of two audio signals, capturing harmonic and tonal similarities.
 #. `EnergyDistance`_ :
 
+.. _Cosine Similarity on Feature Vectors: https://distancia.readthedocs.io/en/latest/Cosine.html
+.. _Euclidean Distance on Feature Space: https://distancia.readthedocs.io/en/latest/Euclidean.html
+.. _Mahalanobis Distance in Feature Space: https://distancia.readthedocs.io/en/latest/Mahalanobis.html
+.. _KL-Divergence on Audio Distributions: https://distancia.readthedocs.io/en/latest/KullbackLeibler.html
+.. _MFCCProcessor: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
+.. _ChromaDistance: https://distancia.readthedocs.io/en/latest/ChromaDistance.html
+.. _EnergyDistance: https://distancia.readthedocs.io/en/latest/EnergyDistance.html
+
 Waveform-Based Measures
 -----------------------
 
