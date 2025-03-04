@@ -28,6 +28,12 @@ Spectral-Based Measures
 #. `Spectral Flux`_ :Measures the difference in spectral power between consecutive frames.
 #. `Mel-Frequency Cepstral Coefficient (MFCC) Distance`_ :Captures differences in audio timbre based on MFCC features.
 
+.. _Spectral Convergence Distance: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
+.. _Spectral Flatness Measure (SFM): https://distancia.readthedocs.io/en/latest/SpectralFlatnessMeasure.html
+.. _Spectral Centroid Distance: https://distancia.readthedocs.io/en/latest/SpectralCentroidDistance.html
+.. _Spectral Flux: https://distancia.readthedocs.io/en/latest/SpectralFlux.html
+.. _Mel-Frequency Cepstral Coefficient (MFCC) Distance: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
+
 Temporal-Based Measures
 -----------------------
 
@@ -124,7 +130,6 @@ By carefully selecting the appropriate distance measure, users can achieve accur
 
 The **Distancia** package offers a wide range of audio-based distance measures, making it versatile for tasks such as music information retrieval, voice recognition, and environmental sound analysis. By providing methods that span frequency, time, feature, perceptual, and compression-based approaches, **Distancia** ensures that users can select the most appropriate distance measure for their specific application. Whether the goal is to compare melodies, detect similarities in speech, or analyze environmental sounds, **Distancia** provides a comprehensive toolkit for robust audio comparison.
 
-.. _Spectral Convergence Distance: https://distancia.readthedocs.io/en/latest/SpectralConvergence.html
 .. _MFCCProcessor: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
 .. _SignalProcessor: https://distancia.readthedocs.io/en/latest/SignalProcessor.html
 .. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
