@@ -45,21 +45,18 @@ Here's an example of how to use the PEAQ measure in the `distancia` package:
 
 .. code-block:: python
 
-   import distancia
-   import soundfile as sf
+   # Example usage
+   from distancia import PEAQ
 
-   # Load audio files
-   reference, sr = sf.read('reference.wav')
-   test, sr = sf.read('test.wav')
-
-   # Initialize PEAQ measure
-   peaq = distancia.PEAQ(model='basic')
-
-   # Calculate PEAQ score
-   odg, movs = peaq.calculate(reference, test)
-
-   print(f"PEAQ Objective Difference Grade: {odg}")
-   print(f"Model Output Variables: {movs}")
+   if __name__ == "__main__":
+    # Sample audio signals (simplified for demonstration)
+    reference = [math.sin(2 * math.pi * 440 * t / 44100) for t in range(44100)]
+    test = [math.sin(2 * math.pi * 440 * t / 44100) + 0.1 * math.sin(2 * math.pi * 880 * t / 44100) for t in range(44100)]
+    
+    peaq = PEAQ(reference, test)
+    odg = peaq.calculate_odg()
+    
+    print(f"The Objective Difference Grade (ODG) is: {odg:.2f}")
 
 Academic References
 -------------------
