@@ -69,6 +69,16 @@ These distances focus on the frequency components of the audio signal, comparing
 #. `BarkSpectralDistortion`_ :
 #. `SpectrogramDistance`_ :
 
+.. _Frequency Bin Distance: https://distancia.readthedocs.io/en/latest/FrequencyBinDistance.html
+.. _Pitch Distance (e.g., Harmonic Product Spectrum): https://distancia.readthedocs.io/en/latest/PitchDistance.html
+.. _Log-Frequency Spectral Distance: https://distancia.readthedocs.io/en/latest/LogFrequencySpectralDistance.html
+.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTD.html
+.. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
+.. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
+.. _LogSpectralDistance: https://distancia.readthedocs.io/en/latest/LogSpectralDistance.html
+.. _BarkSpectralDistortion: https://distancia.readthedocs.io/en/latest/BarkSpectralDistortion.html
+.. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
+
 Perceptual Measures
 -------------------
 
@@ -135,20 +145,3 @@ By carefully selecting the appropriate distance measure, users can achieve accur
 
 The **Distancia** package offers a wide range of audio-based distance measures, making it versatile for tasks such as music information retrieval, voice recognition, and environmental sound analysis. By providing methods that span frequency, time, feature, perceptual, and compression-based approaches, **Distancia** ensures that users can select the most appropriate distance measure for their specific application. Whether the goal is to compare melodies, detect similarities in speech, or analyze environmental sounds, **Distancia** provides a comprehensive toolkit for robust audio comparison.
 
-.. _SignalProcessor: https://distancia.readthedocs.io/en/latest/SignalProcessor.html
-.. _PowerSpectralDensityDistance: https://distancia.readthedocs.io/en/latest/PowerSpectralDensityDistance.html
-.. _CrossCorrelation: https://distancia.readthedocs.io/en/latest/CrossCorrelation.html
-.. _PhaseDifferenceCalculator: https://distancia.readthedocs.io/en/latest/PhaseDifferenceCalculator.html
-.. _TimeLagDistance: https://distancia.readthedocs.io/en/latest/TimeLagDistance.html
-.. _PESQ: https://distancia.readthedocs.io/en/latest/PESQ.html
-.. _LogSpectralDistance: https://distancia.readthedocs.io/en/latest/LogSpectralDistance.html
-.. _BarkSpectralDistortion: https://distancia.readthedocs.io/en/latest/BarkSpectralDistortion.html
-.. _ItakuraSaitoDistance: https://distancia.readthedocs.io/en/latest/ItakuraSaitoDistance.html
-.. _SignalToNoiseRatio: https://distancia.readthedocs.io/en/latest/SignalToNoiseRatio.html
-.. _EnergyDistance: https://distancia.readthedocs.io/en/latest/EnergyDistance.html
-.. _EnvelopeCorrelation: https://distancia.readthedocs.io/en/latest/EnvelopeCorrelation.html
-.. _ZeroCrossingRateDistance: https://distancia.readthedocs.io/en/latest/ZeroCrossingRateDistance.html
-.. _CochleagramDistance: https://distancia.readthedocs.io/en/latest/CochleagramDistance.html
-.. _ChromagramDistance: https://distancia.readthedocs.io/en/latest/ChromagramDistance.html
-.. _SpectrogramDistance: https://distancia.readthedocs.io/en/latest/SpectrogramDistance.html
-.. _CQTDistance: https://distancia.readthedocs.io/en/latest/CQTDistance.html
