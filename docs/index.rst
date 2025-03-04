@@ -401,7 +401,7 @@ Distance measures between audio signals are crucial in **speech recognition, mus
 2. `Mel-Frequency Cepstral Coefficient (MFCC) Distance`_ 
    Computes the Euclidean or cosine distance between MFCC feature vectors, capturing perceptual characteristics of sound. Widely applied in **voice recognition and speaker identification**.
 
-.. _Mel-Frequency Cepstral Coefficient (MFCC) Distance: https://distancia.readthedocs.io/en/latest/MelFrequencyCepstralCoefficient.html
+.. _Mel-Frequency Cepstral Coefficient (MFCC) Distance: https://distancia.readthedocs.io/en/latest/MFCCProcessor.html
 
 3. `Cross-Correlation Distance`_  
    Measures the alignment between two audio signals by computing their cross-correlation. Useful for **audio synchronization and time-delay estimation**.
