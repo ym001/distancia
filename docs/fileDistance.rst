@@ -24,7 +24,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 #. `ControlFlowGraph`_ : Compares the control flow graphs of two executables or structured files, measuring the structural differences in program logic or file structure.
 #. `FileTypeDistance`_ : Identifies differences in file types based on their magic bytes or signatures, determining the nature of the files being compared.
 #. `SystemCallTraceDistance`_ : Compares two executables by analyzing their system call traces during execution, identifying differences in runtime behavior.
-#. `TreeEditDistance`_ : Measures how many modifications (inserts, deletes, or substitutions) are needed to transform the tree structure of one file into another, commonly used in XML or JSON comparisons.
+#. `Tree Edit Distance`_ : Measures how many modifications (inserts, deletes, or substitutions) are needed to transform the tree structure of one file into another, commonly used in XML or JSON comparisons.
 #. `Hamming`_ : Compares two files at the binary or byte level by counting the number of different bits.
 #. `Levenshtein`_ : Measures the minimum number of operations required to transform one file into another (insertion, deletion, or substitution of characters/bytes).
 #. `Jaccard`_ : Compares the similarity between two sets of bytes or segments by calculating the ratio of common elements.
@@ -36,14 +36,14 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 
 .. _ControlFlowGraph: https://distancia.readthedocs.io/en/latest/ControlFlowGraph.html
 .. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _SystemCallTraceDistance: https://distancia.readthedocs.io/en/latest/SystemCallTraceDistance.html
+.. _Tree Edit Distance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
+.. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
+.. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
+.. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
+.. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
+.. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
+.. _AST (Abstract Syntax Tree) Distance: https://distancia.readthedocs.io/en/latest/.html
 
 Content-Based Measures
 ----------------------
