@@ -97,7 +97,7 @@ These distances compare files based on their metadata, such as creation date, fi
 
 .. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
 .. _FileSize: https://distancia.readthedocs.io/en/latest/FileSize.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
 
 
 Text-Based Distances
