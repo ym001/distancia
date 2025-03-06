@@ -35,7 +35,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 #. `Tree Edit Distance`_ : Evaluates differences in hierarchical file structures (e.g., XML or JSON).
 
 .. _ControlFlowGraph: https://distancia.readthedocs.io/en/latest/ControlFlowGraph.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
@@ -235,7 +235,6 @@ These file distance measures offer diverse methods for comparing files based on 
 
 The **Distancia** package offers a comprehensive set of file-based distance measures, making it a versatile tool for comparing files of various types and formats. Whether working with text documents, executable binaries, or structured data like XML, the range of distance metrics ensures that you can choose the most appropriate method for your specific needs. By covering different aspects such as content, structure, and metadata, **Distancia** allows for nuanced and robust file comparison, suitable for applications ranging from document analysis to software engineering.
 
-.. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
 .. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
 .. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
