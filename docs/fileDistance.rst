@@ -21,9 +21,8 @@ Binary and File Structure Distances
 
 Binary and file structure distances focus on the raw bytes or the structural properties of the files, such as their control flow, byte sequences, or graph-based representations. These methods are useful for comparing executables, XML, JSON, or other structured file formats.
 
-#. `ControlFlowGraph`_ : Compares the control flow graphs of two executables or structured files, measuring the structural differences in program logic or file structure.
+
 #. `FileTypeDistance`_ : Identifies differences in file types based on their magic bytes or signatures, determining the nature of the files being compared.
-#. `SystemCallTraceDistance`_ : Compares two executables by analyzing their system call traces during execution, identifying differences in runtime behavior.
 #. `Tree Edit Distance`_ : Measures how many modifications (inserts, deletes, or substitutions) are needed to transform the tree structure of one file into another, commonly used in XML or JSON comparisons.
 #. `Hamming`_ : Compares two files at the binary or byte level by counting the number of different bits.
 #. `Levenshtein`_ : Measures the minimum number of operations required to transform one file into another (insertion, deletion, or substitution of characters/bytes).
@@ -32,9 +31,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 #. `Euclidean`_ : Square root of the sum of the squares of the byte differences between two files.
 #. `AST (Abstract Syntax Tree) Distance`_ : Compares the syntactic structure of code files.
 
-.. _ControlFlowGraph: https://distancia.readthedocs.io/en/latest/ControlFlowGraph.html
 .. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
-.. _SystemCallTraceDistance: https://distancia.readthedocs.io/en/latest/SystemCallTraceDistance.html
 .. _Tree Edit Distance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
 .. _Hamming: https://distancia.readthedocs.io/en/latest/Hamming.html
 .. _Levenshtein: https://distancia.readthedocs.io/en/latest/Levenshtein.html
@@ -54,40 +51,40 @@ Content-Based Measures
 .. _Hash-Based Distance: https://distancia.readthedocs.io/en/latest/HashComparison.html
 .. _Bytewise Hamming Distance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
 .. _Entropy-Based Distance: https://distancia.readthedocs.io/en/latest/EntropyBasedSimilarity.html
-.. _Character Frequency Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _Character Frequency Distance: https://distancia.readthedocs.io/en/latest/CharacterFrequencyDistance.html
 
 Hash-Based Distances
 -----------------------
 
 17. `HashComparison`_ : Measures the similarity between two files by comparing their cryptographic hash values 'MD5/SHA ).
-#. `PerceptualHashing`_ : Utilisé pour comparer deux fichiers d'image ou multimédias en fonction de leur perception visuelle.
+#. `Perceptual Hashing`_ : Utilisé pour comparer deux fichiers d'image ou multimédias en fonction de leur perception visuelle.
 #. `SimHash`_ : Used to measure similarity between text documents, especially in the case of large collections of files.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
+.. _Perceptual Hashing: https://distancia.readthedocs.io/en/latest/PerceptualHashing.html
+.. _SimHash: https://distancia.readthedocs.io/en/latest/SimHash.html
 
 Compression-Based Distances
 ---------------------------
 
-20. `NormalizedCompressionDistance`_ : Measures the similarity between two files by comparing their individual compression sizes with the compression size of their concatenation, capturing shared structures and patterns.
+20. `Normalized Compression Distance`_ : Measures the similarity between two files by comparing their individual compression sizes with the compression size of their concatenation, capturing shared structures and patterns.
 #. `ZlibBasedDistance`_ : Uses the zlib compression algorithm to evaluate the similarity between files by comparing the effectiveness of compressing them together versus separately.
 #. `KolmogorovComplexity`_ : Estimates similarity using algorithmic information theory.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Normalized Compression Distance: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
+.. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
+.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
 
 Execution-Based Distances (for executable files)
 ------------------------------------------------
 
 23. `DynamicBinaryInstrumentation`_ : Measures the difference in the execution behavior of two executable files.
-#. `ControlFlowGraph`_ : Compares the control structure of two programs through their control flow graphs.
-#. `SystemCallTrace`_ : Compares traces of system calls made by two executable files when they are executed.
+#. `ControlFlowGraph`_ : Compares the control flow graphs of two executables or structured files, measuring the structural differences in program logic or file structure.
+#. `SystemCallTraceDistance`_ : Compares two executables by analyzing their system call traces during execution, identifying differences in runtime behavior.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
+.. _ControlFlowGraph: https://distancia.readthedocs.io/en/latest/ControlFlowGraph.html
+.. _SystemCallTraceDistance: https://distancia.readthedocs.io/en/latest/SystemCallTraceDistance.html
 
 Metadata-Based Distances
 ------------------------
@@ -98,8 +95,8 @@ These distances compare files based on their metadata, such as creation date, fi
 #. `FileSize`_ : A simple comparison based on the size of the two files, indicating differences in the amount of stored data.
 #. `FileTypeDistance`_ : Compare les types de fichiers basés sur leur signature (magic bytes) ou leur format.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
+.. _FileSize: https://distancia.readthedocs.io/en/latest/FileSize.html
 .. _: https://distancia.readthedocs.io/en/latest/.html
 
 
@@ -234,10 +231,7 @@ These file distance measures offer diverse methods for comparing files based on 
 The **Distancia** package offers a comprehensive set of file-based distance measures, making it a versatile tool for comparing files of various types and formats. Whether working with text documents, executable binaries, or structured data like XML, the range of distance metrics ensures that you can choose the most appropriate method for your specific needs. By covering different aspects such as content, structure, and metadata, **Distancia** allows for nuanced and robust file comparison, suitable for applications ranging from document analysis to software engineering.
 
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
-.. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
-.. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
 .. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
 .. _FileMetadataComparison: https://distancia.readthedocs.io/en/latest/FileMetadataComparison.html
 .. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
 .. _TreeEditDistance: https://distancia.readthedocs.io/en/latest/TreeEditDistance.html
-.. _ZlibBasedDistance: https://distancia.readthedocs.io/en/latest/ZlibBasedDistance.html
