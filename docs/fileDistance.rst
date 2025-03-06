@@ -31,8 +31,6 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 #. `Manhattan`_ : Sum of absolute differences between corresponding bytes of two files.
 #. `Euclidean`_ : Square root of the sum of the squares of the byte differences between two files.
 #. `AST (Abstract Syntax Tree) Distance`_ : Compares the syntactic structure of code files.
-#. `Control Flow Graph (CFG) Distance`_ : Measures differences in the execution flow of program files.
-#. `Tree Edit Distance`_ : Evaluates differences in hierarchical file structures (e.g., XML or JSON).
 
 .. _ControlFlowGraph: https://distancia.readthedocs.io/en/latest/ControlFlowGraph.html
 .. _FileTypeDistance: https://distancia.readthedocs.io/en/latest/FileTypeDistance.html
@@ -43,7 +41,7 @@ Binary and file structure distances focus on the raw bytes or the structural pro
 .. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
 .. _Manhattan: https://distancia.readthedocs.io/en/latest/Manhattan.html
 .. _Euclidean: https://distancia.readthedocs.io/en/latest/Euclidean.html
-.. _AST (Abstract Syntax Tree) Distance: https://distancia.readthedocs.io/en/latest/.html
+.. _AST (Abstract Syntax Tree) Distance: https://distancia.readthedocs.io/en/latest/ASTDistance.html
 
 Content-Based Measures
 ----------------------
@@ -53,10 +51,10 @@ Content-Based Measures
 #. `Entropy-Based Distance`_ : Quantifies the difference in informational content between files.
 #. `Character Frequency Distance`_ : Evaluates differences in character distributions.
 
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
-.. _: https://distancia.readthedocs.io/en/latest/.html
+.. _Hash-Based Distance: https://distancia.readthedocs.io/en/latest/HashComparison.html
+.. _Bytewise Hamming Distance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
+.. _Entropy-Based Distance: https://distancia.readthedocs.io/en/latest/EntropyBasedSimilarity.html
+.. _Character Frequency Distance: https://distancia.readthedocs.io/en/latest/.html
 
 Hash-Based Distances
 -----------------------
@@ -236,7 +234,6 @@ These file distance measures offer diverse methods for comparing files based on 
 The **Distancia** package offers a comprehensive set of file-based distance measures, making it a versatile tool for comparing files of various types and formats. Whether working with text documents, executable binaries, or structured data like XML, the range of distance metrics ensures that you can choose the most appropriate method for your specific needs. By covering different aspects such as content, structure, and metadata, **Distancia** allows for nuanced and robust file comparison, suitable for applications ranging from document analysis to software engineering.
 
 .. _ByteLevelDistance: https://distancia.readthedocs.io/en/latest/ByteLevelDistance.html
-.. _HashComparison: https://distancia.readthedocs.io/en/latest/HashComparison.html
 .. _NormalizedCompression: https://distancia.readthedocs.io/en/latest/NormalizedCompression.html
 .. _KolmogorovComplexity: https://distancia.readthedocs.io/en/latest/KolmogorovComplexity.html
 .. _DynamicBinaryInstrumentation: https://distancia.readthedocs.io/en/latest/DynamicBinaryInstrumentation.html
