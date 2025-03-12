@@ -67,6 +67,8 @@ This section categorizes and details an exhaustive list of distance measures spe
 
 32. `BLEUScore`_ :Assesses machine translation quality by comparing n-grams with a reference.
 #. `ROUGEScore`_ :Evaluates text summarization by comparing overlapping units with a reference.
+#. `Longest Common Subsequence (LCSS)`_:
+   Identifies the longest shared subsequence between two time series, allowing for gaps.
 
 Applications
 ------------
