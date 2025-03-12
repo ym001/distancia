@@ -123,3 +123,4 @@ The **Distancia** package offers a comprehensive set of text-based distance meas
 .. _JensenShannonDivergence: https://distancia.readthedocs.io/en/latest/JensenShannonDivergence.html
 .. _Jaro: https://distancia.readthedocs.io/en/latest/Jaro.html
 .. _Jaccard: https://distancia.readthedocs.io/en/latest/Jaccard.html
+.. _Longest Common Subsequence (LCSS): https://distancia.readthedocs.io/en/latest/LongestCommonSubsequence.html
