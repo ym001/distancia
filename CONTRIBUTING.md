@@ -50,7 +50,7 @@ Enhancing docstrings within the code.
 
 ### 4. Suggesting Enhancements
 
-If you have ideas for new features or improvements, feel free to share them. You can submit these as issues or start a discussion in the GitHub Discussions section.
+If you have ideas for new features or improvements, feel free to share them. You can submit these as issues or by mail(dev.distancia@gmail.com).
 
 ### 5. Code Style
 
