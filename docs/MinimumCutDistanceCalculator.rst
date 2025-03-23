@@ -53,22 +53,29 @@ The approach builds upon seminal work in graph theory, specifically:
 - Network partitioning algorithms
 - Structural graph decomposition techniques
 
-matrix1 = [
+Usage Example
+-------------
+
+Here's an example of how to use the MinimumCutDistanceCalculator Distance measure in the `distancia` package:
+
+.. code-block:: python
+
+    matrix1 = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ]
 
-matrix2 = [
+    matrix2 = [
     [1, 2, 4],
     [4, 6, 6],
     [7, 8, 0]
 ]
 
-calculator = MinimumCutDistanceCalculator()
-print(calculator.compute(matrix1, matrix2))  # Affichera 3
-print(calculator.get_cut_positions(matrix1,matrix2))  # Affichera les positions des différences
-print(calculator.get_detailed_difference(matrix1,matrix2))
+    calculator = MinimumCutDistanceCalculator()
+    print(calculator.compute(matrix1, matrix2))  # Affichera 3
+    print(calculator.get_cut_positions(matrix1,matrix2))  # Affichera les positions des différences
+    print(calculator.get_detailed_difference(matrix1,matrix2))
 
 Academic Reference
 ------------------
