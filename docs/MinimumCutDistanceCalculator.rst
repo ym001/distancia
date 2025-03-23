@@ -64,13 +64,13 @@ Here's an example of how to use the MinimumCutDistanceCalculator Distance measur
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
-]
+    ]
 
     matrix2 = [
     [1, 2, 4],
     [4, 6, 6],
     [7, 8, 0]
-]
+    ]
 
     calculator = MinimumCutDistanceCalculator()
     print(calculator.compute(matrix1, matrix2))  # Affichera 3
