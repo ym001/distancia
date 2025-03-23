@@ -21,8 +21,6 @@ Formal Definition
 
 For two square matrices A and B of dimensions n×n, the cycle distance is defined as:
 
-.. code-block:: python
-
     CycleMatrixDistance(A, B) = min{δ(R(A), B) | R ∈ Cycle_n}
 
 Where:
@@ -36,7 +34,8 @@ Usage Example
 Here’s a brief example of how to use the class:
 
 .. code-block:: python
-    # Example matrices with different cyclic patterns                !!!!!!reprendre ce code dans fichier doc rst
+
+    # Example matrices with different cyclic patterns             
     matrix1 = [
         [1.0, 2.0, 3.0],
         [4.0, 5.0, 6.0],
