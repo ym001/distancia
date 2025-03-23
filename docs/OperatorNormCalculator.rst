@@ -42,22 +42,23 @@ Given two matrices \( A \) and \( B \), the operator norm distance is computed a
 
 This maximum singular value represents the spectral norm of \( A - B \).
 
+.. code-block:: python
 
-# Example usage                               
-if __name__ == "__main__":
-    matrix_a = [
+   # Example usage                               
+   if __name__ == "__main__":
+       matrix_a = [
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
-    ]
-    matrix_b = [
+       ]
+       matrix_b = [
         [9, 8, 7],
         [6, 5, 4],
         [3, 2, 1]
-    ]
+       ]
 
-    calculator = OperatorNormCalculator()
-    print("Operator Norm:", calculator.compute(matrix_a, matrix_b))
+       calculator = OperatorNormCalculator()
+       print("Operator Norm:", calculator.compute(matrix_a, matrix_b))
 
 
 Academic Citation
