@@ -45,6 +45,32 @@ Computational Complexity
 - Graphlet Extraction: Exponential with respect to graphlet size
 - Recommended for moderate-sized matrices
 
+# Example usage and demonstration
+# Example adjacency matrices
+matrix1 = [
+        [0, 1, 1, 0],
+        [1, 0, 1, 1],
+        [1, 1, 0, 0],
+        [0, 1, 0, 0]
+    ]
+    
+matrix2 = [
+        [0, 1, 0, 0],
+        [1, 0, 1, 1],
+        [0, 1, 0, 1],
+        [0, 1, 1, 0]
+    ]
+gmd= GraphletMatrixDistance()
+distance = gmd.compute(matrix1, matrix2)
+    
+# Compute and print distance
+print(distance)
+    
+# Print detailed graphlet analysis
+print("\nDetailed Graphlet Analysis:")
+for graphlet, (count1, count2) in gmd.detailed_graphlet_analysis(matrix1,matrix2).items():
+        print(f"{graphlet}: Matrix1 = {count1}, Matrix2 = {count2}")
+
 Academic Reference
 ------------------
 
