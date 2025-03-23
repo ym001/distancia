@@ -42,28 +42,30 @@ The weight function :math:`w(i,j)` could be defined as:
 
 This approach ensures that elements closer to the matrix diagonal receive more significant weight in the distance calculation.
 
-# Example matrices with different triangular patterns
-matrix1 = [
+.. code-block:: python
+
+    # Example matrices with different triangular patterns
+    matrix1 = [
         [1.0, 2.0, 3.0, 4.0],
         [5.0, 6.0, 7.0, 8.0],
         [9.0, 10.0, 11.0, 12.0],
         [13.0, 14.0, 15.0, 16.0]
     ]
     
-matrix2 = [
+    matrix2 = [
         [2.0, 3.0, 4.0, 5.0],
         [6.0, 7.0, 8.0, 9.0],
         [10.0, 11.0, 12.0, 13.0],
         [14.0, 15.0, 16.0, 17.0]
     ]
     
-distance_calculator = TriangleMatrixDistance(matrix1, matrix2)
-print(distance_calculator)
+    distance_calculator = TriangleMatrixDistance(matrix1, matrix2)
+    print(distance_calculator)
     
-# Test with different window sizes
-print("Window Size 3:", 
+    # Test with different window sizes
+    print("Window Size 3:", 
           TriangleMatrixDistance(window_size=3).compute(matrix1, matrix2))
-print("Window Size 4:", 
+    print("Window Size 4:", 
           TriangleMatrixDistance(window_size=4).compute(matrix1, matrix2))
 
 
