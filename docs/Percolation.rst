@@ -56,28 +56,35 @@ The approach integrates key concepts from:
 - Complex network analysis
 - Random graph models
 
-# Exemple de matrices               
-matrix1 = [
+Example of Python Code
+----------------------
+
+Here is an example of how to use the Percolation distance with the `distanciaa` package:
+
+.. code-block:: python
+
+    # Exemple de matrices               
+    matrix1 = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
-]
+    ]
 
-matrix2 = [
+    matrix2 = [
     [1, 2, 3],
     [4, 3, 3],
     [7, 8, 3]
-]
+    ]
 
-# Calculer la distance de percolation horizontale
-calculator = Percolation( PercolationType.HORIZONTAL)
-distance = calculator.compute(matrix1, matrix2)
-print(f"Distance de percolation horizontale : {distance}")
+    # Calculer la distance de percolation horizontale
+    calculator = Percolation( PercolationType.HORIZONTAL)
+    distance = calculator.compute(matrix1, matrix2)
+    print(f"Distance de percolation horizontale : {distance}")
 
-# Calculer la distance de percolation verticale
-calculator_vertical = Percolation(PercolationType.VERTICAL)
-distance_vertical = calculator_vertical.compute(matrix1, matrix2)
-print(f"Distance de percolation verticale : {distance_vertical}")
+    # Calculer la distance de percolation verticale
+    calculator_vertical = Percolation(PercolationType.VERTICAL)
+    distance_vertical = calculator_vertical.compute(matrix1, matrix2)
+    print(f"Distance de percolation verticale : {distance_vertical}")
 
 
 
