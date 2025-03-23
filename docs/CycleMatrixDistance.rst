@@ -30,6 +30,22 @@ Where:
 - ``R(A)`` denotes possible cyclic rotations of matrix A
 - ``Cycle_n`` is the set of cyclic transformations for an n×n matrix
 
+# Example matrices with different cyclic patterns                !!!!!!reprendre ce code dans fichier doc rst
+matrix1 = [
+        [1.0, 2.0, 3.0],
+        [4.0, 5.0, 6.0],
+        [7.0, 8.0, 9.0]
+    ]
+    
+matrix2 = [
+        [2.0, 3.0, 4.0],
+        [5.0, 6.0, 7.0],
+        [8.0, 9.0, 10.0]
+    ]
+    
+distance_calculator = CycleMatrixDistance()
+print("CycleMatrixDistance :"+str(distance_calculator.compute(matrix1, matrix2)))
+
 Academic Reference
 ------------------
 
