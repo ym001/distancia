@@ -25,16 +25,30 @@ Where:
 
     # Example usage comparing two text 
     
-    str1: str= 'Obama speaks to the media in Illinois'
-    str2: str = 'The president greets the press in Chicago'
+    # Example pre-trained word embeddings
+    word_embeddings = {
+        "dog": [0.1, 0.2, 0.3],
+        "cat": [0.2, 0.1, 0.4],
+        "house": [0.3, 0.4, 0.1],
+        "home": [0.4, 0.3, 0.2],
+        "the": [0.1, 0.1, 0.1],
+        "and": [0.2, 0.2, 0.2]
+    }
     
-    wmd_distance: Optional[float] = WordMoversDistance().compute(str1, str2)
+    # Create Word Movers Distance calculator
+    wmd = WordMoversDistance(word_embeddings)
     
+    # Example texts
+    text1 = "The dog played in the house"
+    text2 = "The cat is at home"
+    
+    # Calculate distance and similarity
+    distance = wmd.compute(text1, text2)
+    similarity = wmd.similarity_score(text1, text2)
+    
+    print(f"Word Movers Distance: {distance:.2f}")
+    print(f"Similarity Score: {similarity:.2f}")
 
-    if wmd_distance is not None:
-        print(f"Word Mover's Distance between files: {wmd_distance}")
-    else:
-        print("Could not compute Word Mover's Distance.")
 
 Academic Reference
 ------------------
