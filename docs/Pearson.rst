@@ -71,7 +71,7 @@ Expected Output:
 .. code-block:: bash
 
 
-    >>>The Pearson distance between the two data points is: 0.010248
+    >>>The Pearson distance between the two data points is: 0.035074
 
 Academic Reference
 ------------------
