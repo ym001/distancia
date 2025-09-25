@@ -68,7 +68,7 @@ The distance provides a straightforward way to compare binary vectors based on t
 History
 --------
 
-The Russell-Rao distance was introduced by David A. Russell and William A. Rao in their paper Russell, P. F., & Rao, T. R. (1940). "On habitat and association of species of anopheline larvae in south-eastern Madras." Journal of the Malaria Institute of India, 3(1), 153–178. It was developed as a simple metric for measuring the dissimilarity between binary vectors, making it suitable for applications where binary data is prevalent :footcite:t:`russellrao`.
+The Russell-Rao distance was introduced by David A. Russell and William A. Rao in their paper Russell, P. F., & Rao, T. R. (1940). It was developed as a simple metric for measuring the dissimilarity between binary vectors, making it suitable for applications where binary data is prevalent :footcite:t:`russellrao`.
 
 **Reference**:
 
