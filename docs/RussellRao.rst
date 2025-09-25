@@ -68,7 +68,9 @@ The distance provides a straightforward way to compare binary vectors based on t
 History
 --------
 
-The Russell-Rao distance was introduced by David A. Russell and William A. Rao in their paper Russell, P. F., & Rao, T. R. (1940). It was developed as a simple metric for measuring the dissimilarity between binary vectors, making it suitable for applications where binary data is prevalent :footcite:t:`russellrao`.
+The Russell-Rao distance, introduced by Russell and Rao in 1940 in their seminal work on the habitat and association of anopheline larvae (Russell & Rao, 1940), remains a foundational similarity measure for binary data. This coefficient quantifies similarity based on the proportion of shared presence features, providing a straightforward mathematical interpretation and effective discrimination in clustering tasks.
+
+More recent studies, such as "Improved Similarity Measures for Software Clustering" (IEEE, 2011), continue to explore and validate classical measures including the Russell-Rao distance within complex applications like software clustering. This work highlights the importance of carefully selecting similarity coefficients to improve clustering performance, confirming that the Russell-Rao measure offers valuable insights when applied to binary attribute data. :footcite:t:`russellrao`, :footcite:t:`russellrao1`.
 
 **Reference**:
 
